@@ -1,0 +1,249 @@
+body {
+  text-align: center;
+  background-color: #000000;
+  color: white;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+}
+
+#tomato-area {
+  width: 35rem;
+  height: 35rem;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000000;
+  /* background: #1a1a1a; */
+}
+
+.fragment {
+  position: absolute;
+  width: 0.4rem;
+  height: 0.4rem;
+  background: red;
+  clip-path: circle(45%);
+  opacity: 1;
+  transition: transform var(--animation-time) cubic-bezier(0.4, 0, 0.2, 1);
+  will-change: transform, background-color;
+  filter: blur(0.3px);
+}
+
+@keyframes moveToSmiley {
+  0% {
+    transform: translate(var(--random-x), var(--random-y)) scale(0.3)
+      rotate(var(--random-rotation));
+    opacity: 0.2;
+  }
+  5% {
+    transform: translate(var(--mid-x), var(--mid-y)) scale(0.5)
+      rotate(var(--mid-rotation));
+    opacity: 0.5;
+  }
+  95% {
+    transform: translate(var(--final-x), var(--final-y)) scale(0.99)
+      rotate(calc(var(--mid-rotation) * 0.01));
+    opacity: 0.99;
+  }
+  100% {
+    transform: translate(var(--final-x), var(--final-y)) scale(1) rotate(0deg);
+    opacity: 1;
+  }
+}
+
+@keyframes zoomIn {
+  0% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+#smiley {
+  position: absolute;
+  width: 13rem;
+  height: 13rem;
+  border-radius: 50%;
+  background-color: red;
+  z-index: 5;
+  display: none;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.eye,
+.mouth,
+.hair {
+  opacity: 0;
+  transform: scale(0.5);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.smiley-show .eye,
+.smiley-show .mouth,
+.smiley-show .hair {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.eye {
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+  background: black;
+  border-radius: 50%;
+  top: 30%;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+.eye.left {
+  left: 25%;
+}
+.eye.right {
+  right: 25%;
+}
+
+.mouth {
+  position: absolute;
+  bottom: 15%;
+  left: 26%;
+  transform: translateX(-50%);
+  width: 8rem;
+  height: 4rem;
+  border-radius: 0 0 8rem 8rem;
+  background: black;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.hair {
+  position: absolute;
+  top: -4rem;
+  left: 50%;
+  width: 0.8rem;
+  height: 4rem;
+  background-color: black;
+  border-radius: 50%;
+  transform: translateX(-50%) rotate(-45deg);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.mouth,
+.hair {
+  opacity: 0;
+  animation: fadeIn 2s ease forwards;
+  animation-delay: 0.3s;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+.controls {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.duration-input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.time-input-group {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.time-input-group label {
+  font-family: "Archivo Black", sans-serif;
+  font-size: 1.2rem;
+  color: red;
+  min-width: 4rem;
+  text-align: right;
+}
+
+.time-input-group input {
+  width: 3rem;
+  padding: 0.3rem;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.time-input-group button {
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  border-radius: 50%;
+}
+
+.duration-input select {
+  padding: 0.3rem;
+  font-size: 1rem;
+  background-color: #000000;
+  color: red;
+  border: 1px solid red;
+  margin-left: 0.5rem;
+}
+
+.timer-controls {
+  display: flex;
+  gap: 0.5rem;
+}
+
+#timer-display {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  font-family: monospace;
+  letter-spacing: 0.1em;
+  color: red;
+}
+
+button {
+  font-family: "Archivo Black", sans-serif;
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  cursor: pointer;
+  background-color: #000000;
+  color: red;
+  /* border: none;
+  border-radius: 4px; */
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+#duration {
+  font-family: "Archivo Black", sans-serif;
+  font-size: 1.5rem;
+  background-color: #000000;
+  color: red;
+}
+
+#seconds,
+#minutes {
+  width: 9rem;
+}

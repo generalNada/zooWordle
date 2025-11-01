@@ -1,0 +1,177 @@
+body {
+/* font-family: "Miltonian Tattoo", serif; */
+font-family: "Patua One", serif;
+font-weight: 400;
+font-style: normal;
+background-color: rgb(156, 143, 239);
+}
+
+h2 {
+color: rgb(4, 151, 14);
+}
+
+#linksVille {
+    background-color: rgb(162, 226, 43);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.eachLink {
+    display: block;
+    color:rgb(43, 168, 21);
+    text-decoration: none;
+    margin: 5px 0;
+    /* font-family: "Creepster", serif; */
+    font-size: 2rem;
+}
+
+.eachLink:hover {
+    color: rgb(166, 182, 211);
+    text-decoration: underline;
+    font-family: "Bebas Neue", serif;
+    font-size: 2rem;
+}
+
+.linkOne {
+    color:rgb(19, 33, 231);
+    font-family: "Creepster", serif;
+}
+
+.linkTwo {
+    color:rgb(17, 105, 219);
+    font-family: "Creepster", serif;
+}
+
+.linkThree {
+    color:rgb(7, 103, 52);
+    font-family: "Creepster", serif;
+}
+
+.linkFour {
+    color:rgb(211, 106, 160);
+    font-family: "Creepster", serif;
+}
+
+.linkFive {
+    color:rgb(221, 10, 10);
+    font-family: "Creepster", serif;
+}
+
+.linkSix {
+    color:rgb(54, 38, 143);
+    font-family: "Creepster", serif;
+}
+
+.linkSeven {
+    color:rgb(10, 130, 229);
+    font-family: "Creepster", serif;
+}
+
+.linkEight {
+    color:rgb(6, 14, 67);
+    font-family: "Creepster", serif;
+}
+
+
+
+
+
+
+
+
+
+.letter-list a {
+    text-decoration: underline;
+    color: rgb(6, 43, 95);
+    margin-right: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 6rem;
+    top: 8px;
+    }
+    
+    .highlight {
+    color: rgb(237, 233, 240);
+    font-style: italic;
+    font-weight: bold;
+    }
+
+    #highlightButton {
+    /* font-family: "Miltonian Tattoo", serif; */
+    font-family: "Patua One", serif;
+    color: rgb(6, 43, 95);
+    background-color: rgb(59, 119, 197);
+    max-height: 1.5rem;
+    max-width: 5rem;
+    border: solid .2rem rgb(30, 13, 188);
+    border-radius: .35rem;
+    padding: .05rem;
+    position: relative;
+    right: -15rem;
+    }
+
+    #letterDropdown {
+        width: 5rem;
+        position: relative;
+        right: -29rem;
+        top: -4.5rem;
+        font-family: "Patua One", serif;
+        color: rgb(6, 43, 95);
+        background-color: rgb(118, 100, 238);
+        border: solid .2rem rgb(30, 13, 188);
+        border-radius: .35rem;
+    }
+    
+    
+    #letterSearchResults  {
+    color: rgb(18, 4, 50);
+    }
+    
+    .posInput {
+        color: rgb(5, 20, 86);
+        position: relative;
+        right: -150px;
+        position: relative;
+        left: 285px;
+        top: 45px;
+    }
+
+    #positionInput {
+        max-width: 4rem;
+        background-color: rgb(118, 100, 238);
+        border: solid .2rem rgb(30, 13, 188);
+        border-radius: .3rem;
+        padding: .15rem;
+        position: relative;
+        left: 100px;
+        top: 40px;
+    }
+
+    #hidden {
+        display: none; /* Default is hidden */
+    }
+    
+    #hidden.show {
+        display: grid; /* Reveals when class is toggled */
+    }
+
+
+    .toggleShow {
+        color: rgb(6, 43, 95);
+        cursor: pointer;
+        background-color: rgb(59, 119, 197);
+        border: solid .2rem rgb(30, 13, 188);
+        border-radius: .3rem;
+        padding: .15rem;
+        max-width: 19.25rem;
+        align-items: center;
+        position: relative;
+        left: 350px;
+        top: 40px;
+    }
+
+
+    

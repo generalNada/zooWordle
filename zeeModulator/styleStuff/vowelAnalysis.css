@@ -1,0 +1,71 @@
+
+
+body {
+    background-color: rgba(78, 6, 79, 0.914);
+    color: rgb(4, 122, 4);
+}
+
+h2 {
+    font-family: "MonteCarlo", serif;
+    color:rgb(124, 161, 228);
+    font-size: 2rem;
+}
+
+#vowelUsageOutput {
+    color:rgb(206, 166, 21);
+    display: none;  /* Start as hidden */
+}
+
+.eachLink {
+    display: block;
+    color:rgb(43, 168, 21);
+    text-decoration: none;
+    margin: 5px 0;
+    font-family: "Ceviche One", serif; 
+    font-size: 2rem;
+}
+
+.eachLink:hover {
+    color: rgb(166, 182, 211);
+    text-decoration: underline;
+    font-family: "Lalezar", serif;
+    font-size: 2rem;
+}
+#linksVille {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.linkOne {
+    color:rgb(150, 231, 19);
+}
+
+.linkTwo {
+    color:rgb(17, 105, 219);
+}
+
+.linkThree {
+    color:rgb(7, 103, 52);
+}
+
+.linkFour {
+    color:rgb(219, 113, 167);
+}
+
+.linkFive {
+    color:rgb(221, 10, 10);
+}
+
+.linkSix {
+    color:rgb(54, 38, 143);
+}
+
+.linkSeven {
+    color:rgb(10, 130, 229);
+}
+
+.linkEight {
+    color:rgb(6, 14, 67);
+}

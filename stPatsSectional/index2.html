@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>stPatsSectional2</title>
+    <link href="https://fonts.googleapis.com/css2?display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&family=Bungee+Shade&family=Matemasie&family=Oregano:ital@0;1&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet"> -->
+    <link href="style2.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <a href="../index.html">Head back To The Zoo</a>
+    <h1>✍🏼 theSectionalChecklist ✍🏼</h1>
+    <button onclick="toggleAllSections()" id="toggleAllBtn">👁 Show All Sections</button>
+
+    <div id="mainContainer">
+
+        <div id="headerContainer">
+
+
+            <button onclick="toggleHeaderControls()" id="headerToggleBtn">➕ Show Controls</button>
+
+
+            <div id="controls" class="hidden">
+                <div class="newFileSection">
+                    <h2>✍🏼 Add A New Section ✍🏼</h2>
+                    <input type="text" id="newSection" placeholder="New Section Name">
+                    <button onclick="addSection()">➕ Add Section</button>
+                    
+                </div>
+                <div class="importExportSection">
+                    <button onclick="exportData()" class="export-button">📤 Export</button>
+                    <label for="importFile" class="import-button">📥 Import</label>
+                    <input type="file" id="importFile" accept=".json" onchange="importData(event)" style="display:none;">
+                </div>
+            </div>
+        </div>
+            <!-- Style Modal -->
+<!-- Example Modal Structure -->
+<div id="modalOverlay" style="display:none;"></div>
+<div id="styleModal" style="display:none;">
+
+
+    <label>Section BG Color:</label>
+    <input type="color" id="sectionColor"><br>
+
+    <label>Section Text Color:</label>
+    <input type="color" id="sectionTextColor"><br>
+
+    <label>Completed Text Color:</label>
+    <input type="color" id="completedTextColor"><br>
+
+    <label>Completed BG Color:</label>
+    <input type="color" id="completedBgColor"><br>
+
+    <label>Completed Font Style:</label>
+    <select id="completedFontStyle">
+        <option value="none">Normal</option>
+        <option value="bold">Bold</option>
+        <option value="italic">Italic</option>
+        <option value="bold italic">Bold Italic</option>
+    </select><br>
+
+    <button onclick="applyStyle()">Apply</button>
+    <button onclick="closeStyleModal()">Cancel</button>
+</div>
+
+        <div id="sectionsContainer"></div>
+    </div>
+
+
+    <script src="fonts.js"></script>
+    <script src="script2.js"></script>
+</body>
+</html>

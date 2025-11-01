@@ -1,0 +1,86 @@
+body {
+    font-family: "Calistoga", serif;
+    text-align: center;
+    margin-top: 50px;
+    background-color: rgb(45, 45, 228);
+}
+
+h2 {
+    cursor: pointer;
+    color: rgb(6, 13, 75);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#scoreDropdown {
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 16px;
+    display: none; /* ✅ Ensures it starts hidden */
+}
+
+#scoreField {
+    display: inline-block;
+    color: rgb(52, 50, 101);
+    background-color: rgb(0, 179, 255);
+    margin-top: 20px;
+    font-size: 2rem;
+    width: 35rem;
+    padding-left: 1rem;
+    text-align: center;
+}
+
+/* Monthly Stats Section */
+.score-stats {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #4a71e6;
+    border-radius: 10px;
+    color:rgb(11, 18, 98);
+    /* display: inline-block; */
+    align-items: center;
+}
+
+#statsResults {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Export Button */
+#exportButton {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#exportButton:hover {
+    background-color: #0056b3;
+}
+
+.linkBlock {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#linkBack {
+    font-family: "Titan One", serif;
+    text-decoration: none;
+    background-color: rgb(158, 20, 200);
+    border: .25rem solid rgb(158, 20, 200);
+    border-radius: .75rem;
+    margin-left: 1rem;
+    color:rgb(20, 200, 44);
+}
+
+.scoreByLetter {
+    color:rgb(158, 20, 200)
+}
+

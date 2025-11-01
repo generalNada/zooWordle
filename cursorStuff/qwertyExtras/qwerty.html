@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>oldAndNewQwerty</title>
+    <link rel="stylesheet" href="qwertyStyle.css" />
+    <link
+      rel="stylesheet"
+      href="cyberQwerty.css"
+      id="theme-stylesheet"
+      disabled
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <button class="wordlist-toggle" id="wordlistToggle">
+      Use Large Word List
+    </button>
+    <button class="theme-toggle cyberPositioner" id="themeToggle">
+      Cyber Mode
+    </button>
+    <div class="cyber-letters" id="cyberLetters"></div>
+    <div class="app-container">
+      <header>
+        <a href="../index.html">Back To Cursor, Homey</a>
+        <h1>QWERTY Wordle !!!</h1>
+        <p>Click a filter button and then press keys to filter the word list</p>
+      </header>
+
+      <main>
+        <div class="controls-section">
+          <div class="filter-buttons">
+            <button class="filter-button" data-filter="doesNotContainLetter">
+              Does Not Contain Letter(s)
+            </button>
+            <button
+              class="filter-button"
+              data-filter="containsLetterAtPosition"
+            >
+              Letter IS At Position
+            </button>
+            <button
+              class="filter-button"
+              data-filter="containsLetterNotAtPosition"
+            >
+              Letter Is NOT At Position
+            </button>
+          </div>
+
+          <div class="selection-display">
+            <div class="selection-item">
+              <span class="selection-label">Filter:</span>
+              <span id="currentFilter" class="selection-value">None</span>
+            </div>
+            <div class="selection-item">
+              <span class="selection-label">Letter:</span>
+              <span id="currentLetter" class="selection-value">None</span>
+            </div>
+            <div class="selection-item">
+              <span class="selection-label">Position:</span>
+              <span id="currentPosition" class="selection-value">None</span>
+            </div>
+          </div>
+
+          <div class="position-buttons hidden">
+            <button class="position-button" data-position="1">1</button>
+            <button class="position-button" data-position="2">2</button>
+            <button class="position-button" data-position="3">3</button>
+            <button class="position-button" data-position="4">4</button>
+            <button class="position-button" data-position="5">5</button>
+          </div>
+
+          <div class="navigation-buttons">
+            <button class="nav-button" id="backButton">Back</button>
+            <button class="nav-button" id="clearButton">Clear</button>
+            <button class="nav-button" id="resetButton">Reset</button>
+          </div>
+        </div>
+
+        <div class="keyboard-section">
+          <!-- Keyboard will be dynamically added here -->
+        </div>
+
+        <div class="results-section">
+          <h2>Filtered Words</h2>
+          <div id="filteredWords" class="results-container">
+            <!-- Results will be dynamically added here -->
+          </div>
+        </div>
+      </main>
+    </div>
+    <script type="module" src="qwertyScript.js"></script>
+  </body>
+</html>

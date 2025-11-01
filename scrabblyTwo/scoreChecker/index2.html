@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wordle Average Score Tracker</title>
+    <link rel="stylesheet" href="style2.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Wordle Average Score Tracker</h1>
+      </header>
+
+      <div class="main-content">
+        <!-- Calendar Section -->
+        <section class="calendar-section">
+          <h2>Calendar</h2>
+          <div class="calendar-controls">
+            <button id="prevMonth" class="nav-btn">&lt;</button>
+            <h3 id="currentMonth"></h3>
+            <button id="nextMonth" class="nav-btn">&gt;</button>
+          </div>
+          <div class="year-selector">
+            <label for="yearSelect">Year:</label>
+            <select id="yearSelect" class="year-dropdown"></select>
+          </div>
+          <div class="calendar" id="calendar"></div>
+        </section>
+
+        <!-- Details Section -->
+        <section class="details-section">
+          <h2>Word Details</h2>
+          <div class="date-range-inputs">
+            <label for="startCompareDate">Compare Start Date:</label>
+            <input type="date" id="startCompareDate" />
+            <label for="endCompareDate">Compare End Date:</label>
+            <input type="date" id="endCompareDate" />
+            <button id="calculateScoreChange" class="compare-btn">
+              Calculate Change
+            </button>
+          </div>
+          <div id="wordDetails" class="word-details">
+            <p>Click on a date to view word details and average score</p>
+          </div>
+        </section>
+
+        <!-- Lowest Scores Section -->
+        <section class="lowest-scores-section">
+          <h2>Lowest Average Scores</h2>
+          <div class="controls">
+            <label for="scoreCount">Number of lowest scores to display:</label>
+            <input
+              type="range"
+              id="scoreCount"
+              min="1"
+              max="30"
+              value="5"
+              class="slider"
+            />
+            <span id="scoreCountValue">5</span>
+          </div>
+          <div class="date-range-controls">
+            <label for="startDate">Start Date:</label>
+            <input type="date" id="startDate" value="2021-06-19" />
+            <label for="endDate">End Date:</label>
+            <input type="date" id="endDate" />
+          </div>
+          <button id="updateLowestScores" class="update-btn">
+            Update Lowest Scores
+          </button>
+          <div id="lowestScores" class="lowest-scores"></div>
+        </section>
+      </div>
+    </div>
+    <a href="../index.html">Back To scrabblyTwo!</a>
+
+    <script type="module" src="script2.js"></script>
+  </body>
+</html>

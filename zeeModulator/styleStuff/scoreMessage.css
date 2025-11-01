@@ -1,0 +1,67 @@
+body {
+    background-color: rgb(105, 185, 203);
+    color: rgb(23, 23, 182);
+}
+
+#linksVille {
+    background-color: rgb(105, 185, 203);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.eachLink {
+    display: block;
+    color:rgb(43, 168, 21);
+    text-decoration: none;
+    margin: 5px 0;
+}
+
+.eachLink:hover {
+    color: rgb(21, 79, 186);
+    text-decoration: underline;
+    font-family: "Peralta", serif;
+}
+
+.linkOne {
+    color:rgb(231, 114, 19);
+    font-family: "Rubik Pixels", serif;
+}
+
+.linkTwo {
+    color:rgb(17, 105, 219);
+    font-family: "Rubik Pixels", serif;
+}
+
+.linkThree {
+    color:rgb(7, 103, 52);
+    font-family: "Rubik Pixels", serif;
+}
+
+.linkFour {
+    color:rgb(105, 6, 57);
+    font-family: "Rubik Pixels", serif;
+}
+
+.linkFive {
+    color:rgb(221, 10, 10);
+    font-family: "Rubik Pixels", serif;
+}
+
+.linkSix {
+    color:rgb(54, 38, 143);
+    font-family: "Rubik Pixels", serif;
+}
+
+.linkSeven {
+    color:rgb(10, 130, 229);
+    font-family: "Rubik Pixels", serif;
+}
+
+.linkEight {
+    color:rgb(6, 14, 67);
+    font-family: "Rubik Pixels", serif;
+}
+
+.hidden {
+    display: none;
+}

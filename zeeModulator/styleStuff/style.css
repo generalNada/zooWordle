@@ -1,0 +1,76 @@
+body {
+    background-color: rgb(21, 79, 186);
+    color: rgb(162, 226, 43);
+}
+
+#linksVille {
+    background-color: rgb(162, 226, 43);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.eachLink {
+    display: block;
+    color:rgb(43, 168, 21);
+    text-decoration: none;
+    margin: 5px 0;
+}
+
+.eachLink:hover {
+    color: rgb(21, 79, 186);
+    text-decoration: underline;
+    font-family: "Freckle Face", serif;
+}
+
+
+.linkOne {
+    color:rgb(231, 114, 19);
+    font-family: "Sigmar", sans-serif;   
+    font-size: 1.5rem;
+}
+
+.linkTwo {
+    color:rgb(17, 105, 219);
+    font-family: "Lilita One", sans-serif;
+    font-size: 1.5rem;
+}
+
+.linkThree {
+    color:rgb(7, 103, 52);
+    font-family: "Archivo Black", sans-serif;
+    font-size: 1.5rem;
+}
+
+.linkFour {
+    color:rgb(105, 6, 57);
+    font-family: "Fjalla One", sans-serif;
+    font-size: 1.5rem;
+}
+
+.linkFive {
+    color:rgb(221, 10, 10);
+    font-family: "Patua One", serif;
+    font-size: 1.5rem;
+}
+
+.linkSix {
+    color:rgb(54, 38, 143);
+    font-family: "Russo One", sans-serif;
+    font-size: 1.5rem;
+}
+
+.linkSeven {
+    color:rgb(10, 130, 229);
+    font-family: "Calistoga", serif;
+    font-size: 1.5rem;
+}
+
+.linkEight {
+    color:rgb(6, 14, 67);
+    font-family: "Nosifer", sans-serif;
+    font-size: 1.5rem;
+}
+
+.hidden {
+    display: none;
+}

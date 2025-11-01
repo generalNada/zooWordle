@@ -1,0 +1,297 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Signika", sans-serif;
+  background-color: #f5f5f5;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  overflow: hidden;
+}
+
+#timer-display {
+  font-family: "Archivo Black", sans-serif;
+  font-size: clamp(2.5rem, 8vw, 4rem);
+  color: #333;
+  margin-bottom: 1rem;
+  text-align: center;
+  width: 100%;
+  max-width: 300px;
+}
+
+#tomato-area {
+  width: clamp(200px, 60vw, 300px);
+  height: clamp(200px, 60vw, 300px);
+  position: relative;
+  margin: 1rem 0;
+}
+
+.fragment {
+  position: absolute;
+  width: 0.5rem;
+  height: 0.5rem;
+  background-color: #ff6b6b;
+  border-radius: 50%;
+  transform-origin: center;
+  opacity: 0;
+  will-change: transform, opacity;
+}
+
+#smiley {
+  display: none;
+  width: clamp(200px, 60vw, 300px);
+  height: clamp(200px, 60vw, 300px);
+  position: relative;
+  margin: 1rem 0;
+}
+
+#smiley::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #ff6b6b;
+  border-radius: 50%;
+  top: 0;
+  left: 0;
+}
+
+.eye {
+  position: absolute;
+  width: 1.2rem;
+  height: 1.2rem;
+  background-color: #333;
+  border-radius: 50%;
+  top: 40%;
+}
+
+.eye.left {
+  left: 30%;
+}
+
+.eye.right {
+  right: 30%;
+}
+
+.mouth {
+  position: absolute;
+  width: 4rem;
+  height: 1.5rem;
+  border: 0.3rem solid #333;
+  border-radius: 0 0 2rem 2rem;
+  bottom: 30%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.hair {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.hair::before {
+  content: "";
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+  background-color: #ff6b6b;
+  border-radius: 50%;
+  top: -1rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.controls {
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.duration-input {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.time-input-group {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.time-input-group label {
+  min-width: 4rem;
+  font-size: clamp(0.9rem, 3vw, 1rem);
+}
+
+.time-input-group input {
+  width: 4rem;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: clamp(0.9rem, 3vw, 1rem);
+  text-align: center;
+}
+
+.time-input-group button {
+  width: 2rem;
+  height: 2rem;
+  border: none;
+  background-color: #ff6b6b;
+  color: white;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s;
+}
+
+.time-input-group button:hover {
+  background-color: #ff5252;
+}
+
+.timer-controls {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  width: 100%;
+}
+
+.timer-controls button {
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #ff6b6b;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: clamp(0.9rem, 3vw, 1rem);
+  transition: background-color 0.2s;
+  min-width: 5rem;
+}
+
+.timer-controls button:hover {
+  background-color: #ff5252;
+}
+
+.smiley-show {
+  animation: popIn 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+@keyframes popIn {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes moveToSmiley {
+  0% {
+    transform: translate(var(--random-x), var(--random-y)) scale(0.3)
+      rotate(var(--random-rotation));
+    opacity: 0.2;
+  }
+  5% {
+    transform: translate(var(--mid-x), var(--mid-y)) scale(0.5)
+      rotate(var(--mid-rotation));
+    opacity: 0.5;
+  }
+  95% {
+    transform: translate(var(--final-x), var(--final-y)) scale(0.99)
+      rotate(calc(var(--mid-rotation) * 0.01));
+    opacity: 0.99;
+  }
+  100% {
+    transform: translate(var(--final-x), var(--final-y)) scale(1) rotate(0deg);
+    opacity: 1;
+  }
+}
+
+/* iPhone-specific adjustments */
+@media screen and (max-width: 428px) {
+  body {
+    padding: 0.5rem;
+  }
+
+  #timer-display {
+    font-size: clamp(2rem, 7vw, 3rem);
+    margin-bottom: 0.5rem;
+  }
+
+  #tomato-area,
+  #smiley {
+    width: clamp(180px, 70vw, 250px);
+    height: clamp(180px, 70vw, 250px);
+    margin: 0.5rem 0;
+  }
+
+  .controls {
+    gap: 0.75rem;
+    margin-top: 0.75rem;
+  }
+
+  .time-input-group {
+    gap: 0.25rem;
+  }
+
+  .time-input-group input {
+    width: 3.5rem;
+    padding: 0.4rem;
+  }
+
+  .time-input-group button {
+    width: 1.8rem;
+    height: 1.8rem;
+    font-size: 1rem;
+  }
+
+  .timer-controls button {
+    padding: 0.4rem 0.8rem;
+    min-width: 4rem;
+  }
+}
+
+/* Small iPhone adjustments */
+@media screen and (max-width: 375px) {
+  #timer-display {
+    font-size: clamp(1.8rem, 6vw, 2.5rem);
+  }
+
+  #tomato-area,
+  #smiley {
+    width: clamp(160px, 75vw, 220px);
+    height: clamp(160px, 75vw, 220px);
+  }
+
+  .time-input-group label {
+    min-width: 3.5rem;
+  }
+
+  .time-input-group input {
+    width: 3rem;
+  }
+
+  .timer-controls button {
+    min-width: 3.5rem;
+  }
+}

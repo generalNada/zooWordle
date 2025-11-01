@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Patua+One&family=Miltonian+Tattoo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="frequency.css">
+    <title>modeWordGit2HighLiter</title>
+</head>
+<body>
+    <a href="../index.html" id="linkBack">Go on Back Home!</a>
+    <a href="../thePositioner/positioner.html" id="linkBack">Enter Letters into Boxes!</a>
+    <a href="../theBigScrabble/bigBoy.html" id="linkBack">Your 5 - Letter Exploration!</a>
+    <a href="../theScores/scores.html" id="linkBack">Check out your Stats & More!</a>
+    <a href="../theWordle/words.html" id="linkBack">Wordle Filter for Real Play!</a>
+
+    <h2 class="toggleShow">Letter Frequency Highlighter</h2>
+    <div class="linkBlock" id="hidden">
+        <label for="positionInput" class="posInput">Enter Position (1-5):</label>
+        <input type="number" id="positionInput" min="1" max="5">
+        <button id="highlightButton">Highlight</button>
+        <label for="letterDropdown">Choose a letter:</label>
+        <select id="letterDropdown"></select>    
+        <!-- <div id="letterFrequencyOutput" class="letter-list"></div> -->
+    </div>
+    <div id="letterSearchResults"></div>
+
+
+
+    <script type="module" src="frequency.js"></script>
+
+</body>
+</html>

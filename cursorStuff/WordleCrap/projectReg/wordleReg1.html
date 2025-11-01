@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProjectRegular</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poetsen+One&family=Concert+One&family=Teko:wght@300..700&display=swap&family=Lobster" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="wordleReg1.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <header>
+        <button id="resetButton1" class="permanent-marker-regular">WP</button>
+        <p id="toggleGroupOne">Past Wordle Words</p>
+        <h2 id="toggleInstructions">The Wordle Partner</h2>
+        <p id="toggleGroupTwo">Available Words</p>
+        <button id="resetButton2" class="permanent-marker-regular">WP</button>
+    </header>    
+    <main class="main-container">
+        <div class="overlay"></div>
+    
+    <aside id="instructions" class="hidden">
+        <h4>Instructions to filter 'Available Words':</h4>
+        <ol>
+            <li>Click 'Available Words' tab</li>
+            <li>Reset functionality by clicking the WP above</li>
+            <li>Choose desired letter function (Does Not Contain Letter, etc...)</li>
+            <li>Enter letter(s) to perform function on</li>
+            <li>Enter a letter position if required by function</li>
+            <li>Click 'Submit'</li>
+            <li>Return to step 3</li>
+        </ol>
+    </aside>
+        <div class="inner-main">
+            
+            <section class="group-one hidden">
+                <h4>Is your Wordle guess a Past Wordle Word? Check here!</h4>
+                <div class="past-input">
+                    <input type="text" id="wordInput" placeholder="Type a 5 Letter Word">
+                    <button id="submitButton">Submit Word</button>
+                </div>
+                <div class="field-one"></div>
+            </section>   
+            <section class="group-two hidden">
+                <h4>In a hurry but don't want your score average to suffer? Filter Available words here!</h4>
+                <div class="filter-input">
+                    <select id="functionSelect">
+                        <!-- <option value="containsLetter">Contains Letter</option> -->
+                        <option value="doesNotContainLetter">Does Not Contain Letter</option>
+                        <option value="containsLetterAtPosition">Contains Letter at Position</option>
+                        <option value="containsLetterNotAtPosition">Contains Letter Not at Position</option>
+                        <option value="containsRepeatingConsecutiveLetters">Contains Duplicate Consecutive Letters</option>
+                        <option value="containsDuplicateLetters">Contains Duplicate Letters</option>
+                    </select>
+                    <input type="text" id="letterInput" placeholder="Enter letter">
+                    <input type="number" id="positionInput" placeholder="Enter position (1-5)" min="1" max="5">
+                    <button id="applyFilterButton">Submit</button>
+                    <button id="undoButton">Undo</button>
+                    
+                </div>
+                <div id="filteredWords"></div>            
+            </section>            
+        </div>        
+    </main>
+    <footer>
+        <a href="https://wordfinder.yourdictionary.com/wordle/answers/" target="_blank" id="wordle-link">Verify Answers</a>
+        <div class="numbers">
+            <button id="toggleLookupButton">Search by Number</button>
+            <div id="lookupSection" class="hidden">
+            <input type="number" id="wordNumberInput" placeholder="Enter Word #" />
+            <button id="lookupWordNumberButton">Lookup Word #</button>
+            <div id="wordDetails"></div>
+            <ul id="wordList"></ul>
+            </div>
+        </div>        
+        <a href="https://www.nytimes.com/games/wordle/index.html" target="_blank" id="nyt-link">Play Wordle</a>
+    </footer> 
+    <div id="linksVille">
+        <a href="/project12500/wordleHuge3.html" class="eachLink link3">Filter off a HUGE List</a>
+        <a href="/projectScore/wordleScore4.html" class="eachLink link4">How many of each score do you have? What %?</a>
+        <a href="/projectPlus/wordlePlus2.html"  class="eachLink link2">Curious About Score Average Between Word #'s? </a>
+        <a href="../crap.html"  class="eachLink link2">wordleCrap is Here </a>
+    </div>
+    
+    <script type="module" src="wordleReg1.js"></script>
+</body>
+</html> 

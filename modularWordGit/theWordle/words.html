@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>modeWordGit6Filter</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poetsen+One&family=Concert+One&family=Teko:wght@300..700&display=swap&family=Lobster" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&family=Carter+One&display=swap" rel="stylesheet">
+    <link href="words.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <header>
+        <button id="resetButton1" class="anton-regularWP">WP</button>
+        <p id="toggleGroupOne">Unavailable Words</p>
+        <h2 id="toggleInstructions">Wordle Partner</h2>
+        <p id="toggleGroupTwo">Available Words</p>
+        <button id="resetButton2" class="anton-regularWP">WP</button>
+    </header>  
+    <main class="main-container">
+        <div class="linkBlock">
+            <a href="../index.html" id="linkBack">Go on Back Home!</a>
+            <a href="../thePositioner/positioner.html" id="linkBack">Enter Letters into Boxes!</a>
+            <a href="../theScores/scores.html" id="linkBack">Check out your Stats & More!</a>
+            <a href="../letterFrequency/frequency.html" id="linkBack">Letter / Position Frequency!</a>
+            <a href="../theBigScrabble/bigBoy.html" id="linkBack">Your 5 - Letter Exploration!</a>
+        </div>
+        <aside id="instructions" class="hidden">
+            <ol>
+               <h3 class="pardon">Pardon my language:</h3>
+                <li>Click 'Available Words'. Trump = Asshole.</li>
+                <li>Reset by clicking 'WP' on upper right, then say "Republicans are fucktards!" and Puke</li>
+                <li>Choose Function (Does Not Contain Letter, etc...), Artless Fuckouts</li>
+                <li>Enter letter(s)-as in the Q for Quite Moronic!</li>
+                <li>Enter position, if required. And piss on DC.</li>
+                <li>Click 'Fire Away'. Susan Collins Sux.</li>
+                <li>Return to #3, Jerko. Gabbard Sux.</li>
+                <li>Fuck Auff Idiotry. Suck it, Vance.</li>
+                <li>Fuck Auff Again, Republican AssFuck Piglets</li>
+                <li>And Keep On Fucking Auff, Fucko. RFK = RF "Kancer" Kennedy</li> 
+                <li>And take that FUCK Hegsith with you. Fuck off. RFK bites wire.</li>
+                <li>Lick it off my ass if you're a Trump, you Slicked out AssFuckers. Bleed the fuck out, AssWhores!</li>
+                <li>Thx for taking us to Hell, fuckin' cum drinkers, and corrupt rapists!! DoucheLords!</li>
+            </ol>
+        </aside>
+        <div class="inner-main">             
+            <section class="group-one hidden">
+                <h4>Memory not what it used to be? Need help remembering a past Wordle Word? Check here!</h4>
+                <div class="past-input">
+                    <input type="text" id="wordInput" placeholder="Type a 5 Letter Word">
+                    <button id="submitButton">Fire Word</button>
+                </div>
+                <div class="field-one"></div>
+            </section>   
+            <section class="group-two hidden">
+                <h4>Rushing around like a fool? Want your maintain your solid score average? Filter Available words here!</h4>
+                <div class="filter-input">
+                    <select id="functionSelect">
+                        <!-- <option value="containsLetter">Contains Letter</option> -->
+                        <option value="doesNotContainLetter">Does NOT Contain Letter</option>
+                        <option value="containsLetterAtPosition">Letter AT Position</option>
+                        <option value="containsLetterNotAtPosition">Letter NOT at Position</option>
+                    </select>
+                    <input type="text" id="letterInput" placeholder="Enter letter">
+                    <input type="number" id="positionInput" placeholder="Enter position (1-5)" min="1" max="5">
+                    <button id="applyFilterButton">Fire Away</button>
+                    <button id="undoButton">⬅️ Undo ⬅️</button>                     
+                </div>
+                <div id="filteredWords"></div>            
+            </section>            
+        </div>            
+       </main>
+    <footer>
+        <!-- <a href="https://wordfinder.yourdictionary.com/wordle/answers/" target="_blank" id="wordle-link">A Source</a> -->
+        <div class="numbers">
+            <button id="toggleLookupButton">Search Word #</button>
+            <div id="lookupSection" class="hidden">
+                <input type="number" id="wordNumberInput" placeholder="Enter Word #" min="0" max="3000" />
+                <button id="lookupWordNumberButton">Lookup Word #</button>
+                <div id="wordDetails"></div>
+                <ul id="wordList"></ul>
+            </div>
+        </div>        
+        <!-- <a href="https://www.nytimes.com/games/wordle/index.html" target="_blank" id="nyt-link">Play Wordle</a>
+ -->
+         
+    <div class="average-score">
+        <button id="toggleAverageScoreButton">Score Avg. Between #'s</button>
+        <div id="averageScoreSection" class="hidden">
+            <input type="number" id="wordNumber1" placeholder="Enter start word #" min="0" max="3000" />
+            <input type="number" id="wordNumber2" placeholder="Enter end word #" min="0" max="3000" />
+            <button id="calculateAverageButton">Get That Average!</button>
+            <div id="averageScoreResult"></div>
+        </div>
+    </div>  
+
+    <div id="footerClocks" style="text-align: center; margin-top: 20px; font-size: 16px;">
+       <p id="currentTime"></p>
+       <p id="countdownToMidnight"></p>
+    </div>
+    </footer>    
+    <script type="module" src="words.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

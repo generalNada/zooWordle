@@ -1,0 +1,67 @@
+body {
+    background-color: rgb(5, 25, 116);
+    color: rgb(222, 212, 212);
+}
+
+#filterByScore {
+    font-family: "Pacifico", serif;
+}
+
+#linksVille {
+    background-color: rgb(5, 25, 116);
+    padding: 10px;
+}
+
+.eachLink {
+    display: block;
+    color:rgb(43, 168, 21);
+    text-decoration: none;
+    margin: 5px 0;
+}
+
+.eachLink:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    font-family: "Fugaz One", serif;
+}
+
+.linkOne {
+    color:rgb(235, 14, 198);
+    font-family: "Alfa Slab One", serif;
+}
+
+.linkTwo {
+    color:rgb(17, 105, 219);
+    font-family: "Alfa Slab One", serif;
+}
+
+.linkThree {
+    color:rgb(7, 103, 52);
+    font-family: "Alfa Slab One", serif;
+}
+
+.linkFour {
+    color:rgb(105, 6, 57);
+    font-family: "Alfa Slab One", serif;
+}
+
+.linkFive {
+    color:rgb(221, 10, 10);
+    font-family: "Alfa Slab One", serif;
+}
+
+.linkSix {
+    color:rgb(54, 38, 143);
+    font-family: "Alfa Slab One", serif;
+}
+
+.linkSeven {
+    color:rgb(10, 130, 229);
+    font-family: "Alfa Slab One", serif;
+}
+
+.linkEight {
+    color:rgb(136, 209, 163);
+    font-family: "Alfa Slab One", serif;
+}
+

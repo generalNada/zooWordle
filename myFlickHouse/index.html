@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DropFlix</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1>🎬🍿 Search Movies 🍿🎬</h1>
+    <div class="search-container">
+      <input type="text" id="searchInput" placeholder="Search by title..." />
+      <input type="text" id="keywordInput" placeholder="Search by keyword..." />
+      <input
+        type="text"
+        id="yearInput"
+        placeholder="Year (or 'null')"
+        min="1900"
+        max="2024"
+      />
+      <input
+        type="number"
+        id="refInput"
+        placeholder="Ref #"
+        min="1"
+        style="width: 80px"
+      />
+      <select id="genreSelect">
+        <option value="" disabled selected>Choose Genre</option>
+        <option value="all">🎥All Titles📽️</option>
+      </select>
+
+      <select id="collectionSelect">
+        <option value="">All Collections</option>
+      </select>
+
+      <button id="clearButton">Clear All</button>
+      <a href="../index.html">To The Zoo</a>
+    </div>
+    <div id="movieList" style="display: none"></div>
+    <div id="singleMovieView" style="display: none">
+      <button id="backToList">← View All Titles</button>
+      <div id="selectedMovie"></div>
+    </div>
+
+    <!-- <script src="flicks.js"></script> -->
+    <script src="genres/flicksDrama.js"></script>
+    <script src="genres/flicksHorror.js"></script>
+    <script src="genres/flicksComedy.js"></script>
+    <script src="genres/flicksMusic.js"></script>
+    <script src="genres/flicksBlackComedy.js"></script>
+    <script src="genres/flicksThriller.js"></script>
+    <script src="genres/flicksWestern.js"></script>
+    <script src="genres/flicksMysterySuspense.js"></script>
+    <script src="genres/flicksActionAdventure.js"></script>
+    <script src="genres/flicksFranky.js"></script>
+    <script src="genres/flicksShows.js"></script>
+    <script src="genres/flicksSports.js"></script>
+    <script src="genres/flicksHindu.js"></script>
+    <script src="genres/flicksCrimeDrama.js"></script>
+    <script src="genres/flicksActionComedy.js"></script>
+    <script src="genres/flicksRandos.js"></script>
+    <script src="genres/flicksDocumentary.js"></script>
+    <script src="script2.js"></script>
+  </body>
+</html>

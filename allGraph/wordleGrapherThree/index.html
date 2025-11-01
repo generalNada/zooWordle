@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grapher3</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>WordleGrapherThree</h1>
+      <div class="controls">
+        <label for="startDate">Start Date:</label>
+        <input type="date" id="startDate" />
+        <label for="endDate">End Date:</label>
+        <input type="date" id="endDate" />
+        <button id="updateChart">Update Chart</button>
+      </div>
+      <div class="chart-container">
+        <canvas id="wordleChart"></canvas>
+      </div>
+    </div>
+    <a href="../allGraph.html">allGraph Stuff</a>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>

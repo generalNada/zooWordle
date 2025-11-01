@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>modeWordGit5ScoreMaster</title>
+    <link href="https://fonts.googleapis.com/css2?family=Titan+One&family=Calistoga&display=swap" rel="stylesheet">
+    <link  href="scores.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div class="linkBlock">
+        <a href="../index.html" id="linkBack">Go on Back Home!</a>
+        <a href="../thePositioner/positioner.html" id="linkBack">Enter Letters into Boxes!</a>
+        <a href="../letterFrequency/frequency.html" id="linkBack">Letter / Position Frequency!</a>
+        <a href="../theBigScrabble/bigBoy.html" id="linkBack">Your 5 - Letter Exploration!</a>
+        <a href="../theWordle/words.html" id="linkBack">Wordle Filter for Real Play!</a>
+    </div>
+    <h2 id="toggleButton">Click to Reveal Numbers</h2>
+    
+    <select id="scoreDropdown">
+        <option value="" disabled selected>Select Score</option>
+        <option value="0">Score 0</option>
+        <option value="1">Score 1</option>
+        <option value="2">Score 2</option>
+        <option value="3">Score 3</option>
+        <option value="4">Score 4</option>
+        <option value="5">Score 5</option>
+        <option value="6">Score 6</option>
+        <option value="7">Score 7</option>
+    </select>
+
+    <div id="scoreField"></div>
+
+    <!-- Monthly Stats Section -->
+    <section class="score-stats">
+        <h4>Monthly Wordle Stats</h4>
+        <div class="stats-input">
+            <label for="monthDropdown">Select Month:</label>
+            <select id="monthDropdown">
+                <option value="" disabled selected>Select Month</option>
+            </select>
+
+            <label for="yearDropdown">Select Year:</label>
+            <select id="yearDropdown">
+                <option value="" disabled selected>Select Year</option>
+            </select>
+
+            <button id="calculateStatsButton">Get Stats</button>
+        </div>
+        <div id="statsResults"></div>
+    </section>
+    <div class="scoreByLetter">
+        <h1>When Entered letter occurs in a Wordle word, here's how you scored:</h1>
+        <input type="text" id="letterInput" placeholder="Type a letter">
+        <div id="scoreDisplay"></div>
+        <h1>When Entered letter begins Wordle word, here's how you scored:</h1>
+        <input type="text" id="letterInputOne" placeholder="Type a letter">
+        <div id="scoreDisplayOne"></div> 
+        <!-- <input type="text" id="letterInputTwo" placeholder="Type a another letter">
+        <div id="scoreDisplayTwo"></div> -->
+    </div>
+    <button id="exportButton">Export Data</button>
+    <script src="script.js"></script>
+</body>
+</html>
+
+    <script type="module" src="scores.js"></script>
+</body>
+</html>

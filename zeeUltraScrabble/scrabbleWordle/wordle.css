@@ -1,0 +1,406 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body {
+    background-color: rgb(171, 21, 21);
+    position: relative;
+  }
+
+  header {
+    height: 12.0vh; 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    border: solid rgb(255, 255, 255) .3rem;
+    border-radius: .3rem;
+    background-color: rgb(138, 10, 10);
+  }
+  
+  h2 {
+    font-family: "Merienda", cursive;
+    font-size: 1.75rem;
+    border: solid rgb(255, 255, 255) .1rem;
+    /* box-shadow: .1rem .05rem; */
+    border-radius: .4rem;
+    padding: .3rem;
+  }
+  
+   #toggleInstructions {
+    position: relative;
+    align-items: center;
+  }
+  
+  #instructions > h4 {
+     line-height: 2.2rem;
+     font-size: 1.5rem; 
+     margin-left: 1.2rem;
+  }
+  
+  #instructions {
+    /* font-family: "Merienda", cursive;
+    font-style: normal; */
+    font-size: 1.25rem; 
+    font-family: "Passion One", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: rgb(138, 10, 10);
+    color: rgb(207, 207, 18);
+    border: solid rgb(207, 207, 18) .15rem;
+    border-radius: .5rem;
+    box-shadow: .05rem .15rem;
+    position: absolute;
+    z-index: 20;
+    top: 10rem;
+    right: 31rem;
+    text-align: center;
+    padding: .2rem;
+    width: 22vw;
+    opacity: 6;
+  } 
+
+  #wordInput,
+  #submitButton {
+    color: rgb(0, 0, 0); 
+    font-family: "Merienda", cursive;
+    font-size: .85rem;
+    border: solid rgb(255, 255, 255) .2rem;
+    box-shadow: .12rem .08rem;
+    border-radius: .3rem;
+    margin: .1rem;
+  }
+  
+  li {
+    line-height: 1.2rem;
+    font-size: .8rem;
+  }
+  
+  #toggleInstructions:active {
+    background-color: rgb(186, 3, 3);
+    color: rgb(244, 239, 239);
+  }
+  
+  #instructions ol {
+    list-style-position: inside;
+  }
+  
+  
+  #toggleGroupOne,
+  #toggleGroupTwo {
+    border: solid rgb(255, 255, 255) .1rem;
+    box-shadow: .2rem .1rem;
+    border-radius: .45rem;
+    padding: .3rem;
+    font-family: "Merienda", cursive;
+    font-size: 1.4rem;
+    font-weight: 600;
+  }
+  
+  #toggleGroupOne:active,
+  #toggleGroupTwo:active {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+  }
+
+  .anton-regularWP {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-family: "Merienda", cursive;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.45rem;
+    border: solid rgb(255, 255, 255) .1rem;
+    border-radius: 1.25rem;
+    box-shadow: .15rem .1rem;
+    padding: .5rem;
+  }
+  
+  .permanent-marker-regular:active {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0); 
+  }
+  
+  .main-container {
+    height: 142vh; 
+    background-color: rgb(138, 10, 10);
+    border-left: solid rgb(255, 255, 255) .3rem;
+    border-right: solid rgb(255, 255, 255) .3rem; 
+    border-radius: .3rem;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .inner-main {
+    position: relative;
+    z-index: 1;
+  } 
+  
+  .group-one,
+  .group-two {   
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    color: rgb(255, 255, 255); 
+    font-family: "Merienda", cursive;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  h4 {
+    display: flex;
+    text-align: center;
+    padding: .25rem;
+  }
+  
+  .group-one > h4 {
+    width: 32%;
+    text-align: center;
+  }
+  
+  .group-two > h4 {
+    margin-left: 1.5rem;
+    align-items: center;
+    color: rgb(255, 255, 255);
+  }
+  
+  .past-input,
+  .filter-input {
+    display: flex; 
+    align-items: center;
+  }
+  
+  .field-one {
+    display: flex;   
+    align-items: center;
+    margin-top: .5rem;
+  }
+  
+  .group-two {
+    height: 33%;
+  }
+  
+  .filter-input {
+    margin-top: .3rem;
+    display: flex;
+    justify-content: center;
+    width: 45vw;
+  }
+
+  #functionSelect,
+  #letterInput,
+  #positionInput,
+  #applyFilterButton,
+  #undoButton {
+    color: rgb(0, 0, 0); 
+    font-family: "Merienda", cursive;
+    font-size: .85rem;
+    border: solid rgb(255, 255, 255) .2rem;
+    box-shadow: .12rem .08rem;
+    border-radius: .3rem;
+    margin: .1rem;
+  }
+
+  #functionSelect {
+    width: 15vw;
+
+  }
+  
+  #letterInput {
+    width: 7vw;
+  }
+  
+  #positionInput {
+    width: 16vw;  
+  }
+  
+  #applyFilterButton {
+    width: 12rem;
+  }
+
+  #undoButton {
+    width: 14rem;
+  }
+  
+  #filteredWords {
+    font-family: "Yanone Kaffeesatz", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    /* font-family: "Volkhov", serif; */
+    font-size: 1.25rem; 
+    color: rgb(255, 255, 255);
+    background-color: rgb(138, 10, 10);
+    padding: 1.5rem;
+    text-align: justify;
+  }
+  
+  footer {
+    height: 16vh;
+    border: solid rgb(255, 140, 0) .3rem;
+    border-radius: .15rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(138, 10, 10);
+  }
+ 
+  #lookupSection {
+    /* font-family: "Poetsen One", cursive;
+    position: relative; */
+    color: rgb(255, 140, 0);
+  }
+  
+  #wordList { 
+    /* position: absolute;
+    top: 35px;  */
+    font-size: 1.66rem;
+    color: rgb(255, 255, 255);
+  }
+  
+  .numbers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+    
+  #toggleLookupButton,
+  #lookupWordNumberButton,
+  #calculateAverageButton,
+  #toggleAverageScoreButton, 
+  #wordNumber1,
+  #wordNumber2,
+  #wordNumberInput {
+    margin-bottom: .30rem;
+    color: rgb(255, 140, 0);
+    background-color: rgb(0, 0, 0);
+    font-family: "Poetsen One", cursive;
+    height: 1.55rem;
+    border: solid rgb(255, 140, 0) .2rem; 
+    box-shadow: .1rem .05rem;
+    border-radius: .75rem;
+    padding: .2rem;
+  }
+
+  #wordNumberInput {
+    width: 7.5rem;
+  }
+
+  #wordNumber1,
+  #wordNumber2 {
+    width: 9rem;
+    color: rgb(255, 140, 0);
+  }
+
+  .numbers,
+  .average-score {
+    font-family: "Poetsen One", cursive;
+    color: rgb(0, 0, 0);
+    font-size: .88rem;
+  }
+
+  #wordDetails,
+  #averageScoreResult {
+    color: rgb(255, 140, 0);
+    font-size: .9rem;
+  }
+
+  #wordInput {
+    color: rgb(0, 0, 0);
+  }
+
+  #footerClocks {
+    color: rgb(255, 140, 0);
+    font-family: "Silkscreen", serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: .25rem;
+  }
+
+  #linkBack {
+    color: rgb(255, 140, 0);
+    font-family: "Lilita One", serif;
+    text-decoration: none;
+    background-color: rgb(79, 4, 4);
+    border: solid rgb(255, 140, 0) .2rem; 
+    border-radius: .75rem;
+    padding: .25rem;
+    font-size: 1.5rem;
+  }
+ 
+
+
+
+
+
+
+
+
+
+
+   
+  /* #wordle-link,
+  #nyt-link   {
+    background-color: rgb(118, 119, 121);
+    color: rgb(196, 198, 200);
+    border: solid rgb(58, 58, 59);
+    box-shadow: .1rem .05rem;
+    border-radius: .2rem;
+    padding: .2rem;
+  }
+  
+  #wordle-link:hover,
+  #nyt-link:hover {
+    background-color: rgb(125, 126, 127);
+    color: rgb(4, 4, 5);
+  } */
+
+  @media (max-width: 600px) {
+    h2 {
+      font-size: 1.2rem; /* Adjust font size for smaller headers */
+    }
+    #instructions > h4 {
+      font-size: 1rem; /* Reduce line height for instructions */
+    }
+    #filteredWords {
+      font-size: 0.65rem; /* Shrink font for long text sections */
+    }
+  }
+  
+  @media (max-width: 600px) {
+    header, footer {
+      flex-direction: column; /* Stack items vertically */
+      height: auto; /* Adjust height */
+    }
+  
+    .filter-input {
+      flex-direction: column; /* Stack input fields vertically */
+      width: 100%; /* Full width on smaller screens */
+    }
+  
+    #applyFilterButton, #undoButton {
+      width: 100%; /* Buttons take full width */
+    }
+  }
+
+  @media (max-width: 600px) {
+    .main-container {
+      flex-wrap: wrap; /* Wrap items on smaller screens */
+      padding: 1rem; /* Reduce padding */
+    }
+  
+    .delivery-container {
+      flex: 1 1 100%; /* Each container takes full width */
+    }
+  }

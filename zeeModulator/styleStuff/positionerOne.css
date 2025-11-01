@@ -1,0 +1,70 @@
+body {
+    background-color: rgb(25, 178, 63);
+    color: rgb(10, 55, 30);
+}
+
+#linksVille {
+    background-color: rgb(25, 178, 63);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+.eachLink {
+    display: block;
+    color:rgb(19, 84, 7);
+    text-decoration: none;
+    margin: 5px 0;
+}
+
+.eachLink:hover {
+    color: rgb(21, 79, 186);
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-family: "Creepster", serif;
+}
+
+
+.linkOne {
+    color:rgb(231, 114, 19);
+    font-family: "Hammersmith One", serif;
+}
+
+.linkTwo {
+    color:rgb(17, 105, 219);
+    font-family: "Hammersmith One", serif;
+}
+
+.linkThree {
+    color:rgb(3, 47, 23);
+    font-family: "Hammersmith One", serif;
+}
+
+.linkFour {
+    color:rgb(105, 6, 57);
+    font-family: "Hammersmith One", serif;
+}
+
+.linkFive {
+    color:rgb(221, 10, 10);
+    font-family: "Hammersmith One", serif;
+}
+
+.linkSix {
+    color:rgb(54, 38, 143);
+    font-family: "Hammersmith One", serif;
+}
+
+.linkSeven {
+    color:rgb(10, 130, 229);
+    font-family: "Hammersmith One", serif;
+}
+
+.linkEight {
+    color:rgb(6, 14, 67);
+    font-family: "Hammersmith One", serif;
+}
+
+.hidden {
+    display: none;
+}

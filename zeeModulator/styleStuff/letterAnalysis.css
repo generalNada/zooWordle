@@ -1,0 +1,74 @@
+
+body {
+    background-color: rgba(86, 120, 224, 0.914);
+    color: rgb(10, 3, 41);
+}
+
+#linksVille {
+    padding: 10px;
+}
+
+.eachLink {
+    display: block;
+    font-size: 1.5rem;
+    text-decoration: none;
+    margin: 5px 0;
+}
+
+.eachLink:hover {
+    color: rgb(31, 12, 141);
+    text-decoration: underline;
+    font-family: "Alfa Slab One", serif;
+}
+
+.linkOne {
+    color:rgb(231, 114, 19);
+    font-family: "Delicious Handrawn", serif;
+
+}
+
+.linkTwo {
+    color:rgb(5, 52, 113);
+    font-family: "Delicious Handrawn", serif;
+
+}
+
+.linkThree {
+    color:rgb(3, 47, 23);
+    font-family: "Delicious Handrawn", serif;
+
+}
+
+.linkFour {
+    color:rgb(105, 6, 57);
+    font-family: "Delicious Handrawn", serif;
+
+}
+
+.linkFive {
+    color:rgb(135, 7, 7);
+    font-family: "Delicious Handrawn", serif;
+
+}
+
+.linkSix {
+    color:rgb(54, 38, 143);
+    font-family: "Delicious Handrawn", serif;
+
+}
+
+.linkSeven {
+    color:rgb(10, 229, 32);
+    font-family: "Delicious Handrawn", serif;
+
+}
+
+.linkEight {
+    color:rgb(6, 14, 67);
+    font-family: "Delicious Handrawn", serif;
+
+}
+
+.hidden {
+    display: none;
+}

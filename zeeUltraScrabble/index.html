@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zee(1)UltraScrabble</title>
+    <link href="style.css" rel="stylesheet" type="text/css" >
+</head>
+<body>
+
+    <h1 id="pageHeader">Word Scorer</h1>
+
+    <!-- Word Score Section --> 
+    <div class="section">
+        <input type="text" id="inputText" placeholder="Enter fucking valid word">
+        <button id="scoreButton">Calculate Scrabble Score</button>
+        <div id="output"></div>
+        <div id="totalScore"></div>
+        <div id="output2"></div>
+    </div>
+
+    <h2>Le Word List Filter</h2>
+    <!-- Word Filter Section -->
+    <div class="section">
+        <input type="text" id="filterInput" placeholder="Enter prefix to filter words, NOW!">
+        <button id="filterButton">Filter Words</button>
+        <div id="wordListOutput"></div>
+    </div>
+    
+    <h2>Letter and Position Filter</h2>
+<div class="section">
+    <input type="text" id="letterInput" maxlength="1" placeholder="Enter letter (A-Z)">
+    <input type="number" id="positionInput" placeholder="Enter position (1-n)">
+    <button id="filterByLetterAndPosition">Filter Words</button>
+    <div id="letterPositionOutput"></div>
+</div>
+
+    <h2>Filter Words By Scrabble Score (5-34)</h2>
+<div>
+    <input type="number" id="scoreInput" placeholder="Enter Scrabble score">
+    <button id="filterByScore">Find Words by Score</button>
+    <div id="scoreOutput"></div>
+</div>
+
+    <h2>Analyze Letter Frequency</h2>
+<div>
+    <button id="analyzeLetterFrequency">Analyze Letter Frequency</button>
+    <div id="letterFrequencyOutput"></div>
+</div>
+    <h2>Vowel Stats</h2>
+<div>
+    <button id="analyzeVowelUsage">Analyze Vowel Usage</button>
+    <div id="vowelUsageOutput"></div>
+</div>
+<div class="allLinks">
+    <a href="scrabbleNot/newIndex.html" id="letterLink">Check More Letter Stuff Ace</a>
+    <a href="scrabbleWordle/wordle.html" id="wordleLink">Do the Wordle Filtering Bro</a>
+    <a href="thePositioner/position.html" id="positionLink">Go to The Positioner Man</a>
+    <a href="../index.html" id="positionLink">Go to zooWordle</a>
+</div>
+
+<div id="footerClocks" style="text-align: center; margin-top: 20px; font-size: 16px;">
+    <p id="currentTime"></p>
+    <p id="countdownToMidnight"></p>
+ </div>
+
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,326 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: rgb(30, 88, 138);
+  position: relative;
+}
+
+ .overlay {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: black;
+  z-index: 0;
+  opacity: 0.9;
+} 
+
+header,
+.main-container,
+footer {
+  position: relative;
+  z-index: 1;
+} 
+
+header {
+  height: 12vh; 
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: rgb(11, 164, 110);
+  border: solid rgb(6, 134, 92) .3rem;
+  border-radius: .3rem;
+  background-color: rgb(30, 88, 138);
+}
+
+h2 {
+  font-family: "Lobster", sans-serif;
+  font-size: 1.75rem;
+  border: solid rgb(57, 63, 106) .2rem;
+  box-shadow: .2rem .1rem;
+  border-radius: .4rem;
+  padding: .3rem;
+}
+
+ #toggleInstructions {
+  position: relative;
+  align-items: center;
+  color: rgb(252, 84, 7);
+}
+
+#instructions > h4 {
+   line-height: 2rem;
+   font-size: 1.2rem; 
+   margin-left: 1.2rem;
+}
+
+#instructions {
+  font-family: "Almarai", sans-serif;
+  background-color: rgb(21, 65, 103);
+  color: rgb(11, 164, 110);
+  border: solid rgb(6, 134, 92) .3rem;
+  border-radius: .5rem;
+  box-shadow: .2rem .1rem;
+  position: absolute;
+  z-index: 20;
+  top: 1rem;
+  right: .5rem;
+  font-weight: bold;
+  text-align: center;
+  padding: .2rem;
+  width: 29vw;
+} 
+
+li {
+  line-height: 1.2rem;
+  font-size: .8rem;
+}
+
+#toggleInstructions:active {
+  background-color: rgb(40, 77, 108);
+  color: rgb(3, 39, 56);
+}
+
+#instructions ol {
+  list-style-position: inside;
+}
+
+
+#toggleGroupOne,
+#toggleGroupTwo {
+  border: solid rgb(57, 63, 106) .2rem;
+  box-shadow: .2rem .1rem;
+  border-radius: .4rem;
+  padding: .3rem;
+  font-family: "Concert One", sans-serif;
+  font-size: 1.4rem;
+}
+
+#toggleGroupOne:active,
+#toggleGroupTwo:active {
+  background-color: rgb(40, 77, 108);
+  color: rgb(3, 39, 56);
+}
+
+.permanent-marker-regular {
+  font-family: "Permanent Marker", cursive;
+  background-color: rgb(30, 88, 138);
+  color: rgb(11, 164, 110); 
+  font-weight: bolder;
+  font-style: normal;
+  font-size: 2rem;
+  border: solid rgb(11, 164, 110) .3rem;
+  border-radius: 2.5rem;
+  padding: .5rem;
+}
+
+.permanent-marker-regular:active {
+  background-color: rgb(9, 60, 105);
+  color: rgb(11, 164, 110); 
+}
+
+.main-container {
+  height: 142vh; 
+  background-color: rgb(9, 60, 105);
+  border-left: solid rgb(6, 134, 92) .3rem;
+  border-right: solid rgb(6, 134, 92) .3rem; 
+  border-radius: .3rem;
+  background: url(theBackground.png);
+  /* background: url(underlay.png); */
+  background-position: center;
+  background-size: cover;
+}
+
+.inner-main {
+  position: relative;
+  z-index: 1;
+} 
+
+.group-one,
+.group-two {   
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  color: rgb(11, 164, 110); 
+  font-family: "Poetsen One", cursive;
+}
+
+.hidden {
+  display: none;
+}
+
+h4 {
+  display: flex;
+  text-align: center;
+  padding: .25rem;
+}
+
+.group-one > h4 {
+  width: 32%;
+  text-align: center;
+}
+
+.group-two > h4 {
+  margin-left: 1.5rem;
+  align-items: center;
+  color: rgb(137, 201, 174); 
+}
+
+.past-input,
+.filter-input {
+  display: flex; 
+  align-items: center;
+}
+
+.field-one {
+  display: flex;   
+  align-items: center;
+  margin-top: .5rem;
+}
+
+.group-two {
+  height: 33%;
+}
+
+.filter-input {
+  margin-top: .3rem;
+  display: flex;
+  justify-content: center;
+  width: 45vw;
+}
+
+#functionSelect {
+  width: 15vw;
+}
+
+#letterInput {
+  width: 7vw;
+}
+
+#positionInput {
+  width: 8vw;  
+}
+
+#applyFilterButton {
+  width: 8vw;
+}
+
+#filteredWords {
+  font-size: 1rem; 
+  color: rgb(15, 174, 71);
+  padding: 1.5rem;
+  text-align: justify;
+}
+
+footer {
+  height: 12vh;
+  border: solid rgb(6, 134, 92) .3rem;
+  border-radius: .3rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgb(30, 88, 138);
+}
+
+#wordle-link,
+#nyt-link   {
+  background-color: rgb(33, 106, 170);
+  border: solid rgb(44, 65, 89);
+  box-shadow: .2rem .1rem;
+  border-radius: .4rem;
+  padding: .2rem;
+}
+
+#wordle-link:hover,
+#nyt-link:hover {
+  background-color: rgb(11, 90, 164);
+  color: rgb(3, 39, 56);
+}
+
+#lookupSection {
+  font-family: "Poetsen One", cursive;
+  position: relative;
+  color: rgb(15, 174, 71);
+}
+
+#wordList { 
+  position: absolute;
+  top: 500; 
+  color: rgb(15, 174, 71);
+}
+
+.numbers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+  
+#toggleLookupButton,
+#wordNumberInput,
+#lookupWordNumberButton {
+  margin-bottom: .3rem ;
+  background-color: rgb(33, 106, 170);
+  border: solid rgb(44, 65, 89);
+  box-shadow: .2rem .1rem;
+  border-radius: .4rem;
+  padding: .2rem;
+  color: rgb(15, 174, 71);
+}
+
+#toggleAverageScoreButton {
+  background-color: rgb(30, 88, 138);
+  color: rgb(15, 174, 71);
+}
+
+#wordNumber1,
+#wordNumber2,
+#calculateAverageButton {
+  background-color: rgb(30, 88, 138);
+  color: rgb(15, 174, 71);
+}
+
+#averageScoreResult {
+  color: rgb(15, 174, 71);
+}
+
+
+
+
+#linksVille {
+  /* width: 50%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.eachLink {
+  font-size: 1.25rem;
+  text-decoration: none;
+}
+
+.link1 {
+  color:rgb(54, 171, 52);
+  margin-right: 1rem;
+}
+
+.link2 {
+  color:rgb(234, 130, 220);
+  margin-right: 1rem;
+}
+
+.link4 {
+  color:rgb(157, 154, 239);
+  margin-right: 1rem;
+}
+
+

@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(37, 37, 173);
+}
+
+.toggleShow {
+  font-family: "Luckiest Guy", serif;
+  text-align: center;
+  margin-top: 2rem;
+  color:rgb(222, 198, 16);
+  font-size: 2rem;
+}
+
+.linkBlock {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    max-width: 50%;
+    margin-left: 20rem;
+}
+
+#hidden {
+    display: none; /* Default is hidden */
+}
+
+#hidden.show {
+    display: grid; /* Reveals when class is toggled */
+}
+
+#linkBack {
+  font-family: "Bangers", serif;    
+  margin-left: 1rem;
+  color:rgb(221, 112, 16);
+  background-color: rgb(42, 61, 119);
+  border: solid .2rem rgb(222, 112, 16);
+  border-radius: .3rem;
+  padding: .2rem;
+  text-decoration: none;
+  text-align: center;
+  max-width: 12rem;
+  }
+
+  .toggleShow {
+    cursor: pointer;
+  }
+
+  .highlighted-word {
+    font-family: "Kaushan Script", serif;
+    color: rgb(235, 25, 10);
+    font-weight: bold;
+    /* padding: 2px 4px; */
+    /* border-radius: 4px; */
+}
+
+/* ADD MEDIA QUERY */
+
+@media (max-width: 900px) {
+    .linkBlock {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        margin-left: 1rem;
+        position: relative;
+        left: 5rem;
+    }
+}

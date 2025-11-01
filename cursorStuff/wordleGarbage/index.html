@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>wordleGarbage-aNewLook - Enjoy!</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&family=Single+Day&family=Poetsen+One&family=Concert+One&family=Protest+Riot&family=Teko:wght@300..700&display=swap&family=Lobster"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Yanone+Kaffeesatz:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&family=Silkscreen:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Archivo+Black&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abel&family=Kaushan+Script&family=Luckiest+Guy&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Courgette&family=Unlock&family=Slackey&display=swap"
+      rel="stylesheet"
+    />
+    <link id="main-style" href="style.css" rel="stylesheet" type="text/css" />
+    <link
+      id="alt-style"
+      href="style_2.css"
+      rel="stylesheet"
+      type="text/css"
+      disabled
+    />
+    <link
+      id="circus-style"
+      href="style_3.css"
+      rel="stylesheet"
+      type="text/css"
+      disabled
+    />
+    <script src="clown-animation.js"></script>
+  </head>
+  <body>
+    <header>
+      <button id="resetButton1" class="anton-regularWP">🤬</button>
+      <p id="toggleGroupOne">Unavailable Words</p>
+      <h2 id="toggleInstructions">Wordle Partner</h2>
+      <p id="toggleGroupTwo">Available Words</p>
+      <button id="resetButton2" class="anton-regularWP">🤬</button>
+      <button id="styleToggle" class="style-toggle">
+        Enjoy A Different Layout, Asshole!
+      </button>
+    </header>
+    <main class="main-container">
+      <aside id="instructions" class="hidden">
+        <ol>
+          <li>
+            Enter a 5-letter word in the "Memory not what it used to, um, be?"
+            section.
+          </li>
+          <li>
+            Click the "Fire Word" button to see if it's a valid Wordle word!
+          </li>
+          <li>
+            Use the "Rushing around like a fool?" section to filter available
+            words.
+          </li>
+          <li>Select a filter type and enter the letter(s) and position(s).</li>
+          <li>
+            Click the "Fire Away" button to see the filtered list of words.
+          </li>
+          <li>
+            Use the "Search Word #" section to look up specific Wordle words.
+          </li>
+          <li>Enter a word number and click "Lookup Word #".</li>
+          <li>
+            Check the average score between two word numbers in the "Score Avg.
+            Between #'s" section.
+          </li>
+          <li>
+            As you type letters, you'll see the frequency of that letter in the
+            available words list, showing both the count and percentage of total
+            letters.
+          </li>
+        </ol>
+      </aside>
+      <div class="inner-main">
+        <section class="group-one hidden">
+          <h4>
+            Memory not what it used to be? Need help remembering a past Wordle
+            Word? Feeling old as shit? Check here!
+          </h4>
+          <div class="past-input">
+            <input
+              type="text"
+              id="wordInput"
+              placeholder="Type a 5 Letter Word"
+            />
+            <button id="submitButton">Fire Word</button>
+          </div>
+          <div class="field-one"></div>
+        </section>
+        <section class="group-two hidden">
+          <h4>
+            Rushing around like a fool? Want your maintain your solid score
+            average? Filter Available words here!
+          </h4>
+          <div class="filter-input">
+            <select id="functionSelect">
+              <option value="doesNotContainLetter">
+                Does NOT Contain Letter
+              </option>
+              <option value="doesNotContainMultipleLetters">
+                Does NOT Contain Multiple Letters
+              </option>
+              <option value="containsLetterAtPosition">
+                Letter AT Position
+              </option>
+              <option value="containsLetterNotAtPosition">
+                Letter NOT at Position
+              </option>
+              <option value="containsRepeatingConsecutiveLetters">
+                Contains Repeating Consecutive Letters
+              </option>
+              <option value="containsDuplicateLetters">
+                Contains Duplicate Letters
+              </option>
+            </select>
+            <input type="text" id="letterInput" placeholder="Enter letter(s)" />
+            <input
+              type="number"
+              id="positionInput"
+              placeholder="Enter position (1-5)"
+              min="1"
+              max="5"
+            />
+            <button id="applyFilterButton">Fire Away</button>
+            <button id="undoButton">⬅️ Undo ⬅️</button>
+          </div>
+          <div id="filteredWords"></div>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <!-- <a href="https://wordfinder.yourdictionary.com/wordle/answers/" target="_blank" id="wordle-link">A Source</a> -->
+      <div class="numbers">
+        <button id="toggleLookupButton">Search Word #</button>
+        <div id="lookupSection" class="hidden">
+          <input
+            type="number"
+            id="wordNumberInput"
+            placeholder="Enter Word #"
+            min="0"
+            max="3000"
+          />
+          <button id="lookupWordNumberButton">Lookup Word #</button>
+          <div id="wordDetails"></div>
+          <ul id="wordList"></ul>
+        </div>
+      </div>
+      <!-- <a href="https://www.nytimes.com/games/wordle/index.html" target="_blank" id="nyt-link">Play Wordle</a>
+ -->
+
+      <div class="average-score">
+        <button id="toggleAverageScoreButton">Score Avg. Between #'s</button>
+        <div id="averageScoreSection" class="hidden">
+          <input
+            type="number"
+            id="wordNumber1"
+            placeholder="Enter start word #"
+            min="0"
+            max="3000"
+          />
+          <input
+            type="number"
+            id="wordNumber2"
+            placeholder="Enter end word #"
+            min="0"
+            max="3000"
+          />
+          <button id="calculateAverageButton">Get That Average!</button>
+          <div id="averageScoreResult"></div>
+        </div>
+      </div>
+
+      <div class="letter-frequency">
+        <button id="toggleLetterFrequencyButton">
+          Letter Frequency Analysis
+        </button>
+        <div id="letterFrequencySection" class="hidden">
+          <div class="frequency-table-container">
+            <table id="letterFrequencyTable">
+              <thead>
+                <tr>
+                  <th>Letter</th>
+                  <th>Total</th>
+                  <th>%</th>
+                  <th>Pos 1</th>
+                  <th>Pos 2</th>
+                  <th>Pos 3</th>
+                  <th>Pos 4</th>
+                  <th>Pos 5</th>
+                </tr>
+              </thead>
+              <tbody id="letterFrequencyTableBody"></tbody>
+            </table>
+          </div>
+          <div id="wordsWithLetterContainer" class="hidden">
+            <h4>
+              Words containing <span id="selectedLetterFrequency"></span>:
+            </h4>
+            <div id="wordsWithLetterList"></div>
+          </div>
+          <div id="positionWordsContainer" class="hidden">
+            <h4>
+              Words with <span id="selectedLetterPosition"></span> at position
+              <span id="selectedPosition"></span>:
+            </h4>
+            <div id="positionWordsList"></div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        id="footerClocks"
+        style="text-align: center; margin-top: 20px; font-size: 16px"
+      >
+        <div id="countdown"></div>
+        <p id="currentTime"></p>
+        <p id="countdownToMidnight"></p>
+      </div>
+
+      <div class="letter-average-score">
+        <button id="toggleLetterAverageScoreButton">
+          Average Score for Words Starting With Letter
+        </button>
+        <div id="letterAverageScoreSection" class="hidden">
+          <input
+            type="text"
+            id="letterForAverage"
+            placeholder="Enter a letter (A-Z)"
+            maxlength="1"
+          />
+          <button id="calculateLetterAverageButton">
+            Calculate Letter Average
+          </button>
+          <div id="letterAverageScoreResult"></div>
+        </div>
+        <a href="../cursor.html">Home Of The Cursor</a>
+      </div>
+    </footer>
+    <!-- <script src="script.js"></script> -->
+    <script type="module" src="script.js"></script>
+    <script src="style-switcher.js"></script>
+    <!-- <script src="scriptClocks.js"></script> -->
+  </body>
+</html>

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zee(3)UltraScrabble</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poetsen+One&family=Concert+One&family=Lilita+One&family=Teko:wght@300..700&display=swap&family=Lobster" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap" rel="stylesheet">
+    <link href="wordle.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <header>
+        <button id="resetButton1" class="anton-regularWP">WP</button>
+        <p id="toggleGroupOne">Unavailable Words</p>
+        <h2 id="toggleInstructions">Wordle Partner</h2>
+        <p id="toggleGroupTwo">Available Words</p>
+        <button id="resetButton2" class="anton-regularWP">WP</button>
+    </header>    
+    <main class="main-container">
+            <aside id="instructions" class="hidden">
+
+                <h4>Filter for 'Available Words':</h4>
+                <ol>
+                    <li>Click 'Available Words'. Trump = Fucking Asshole!</li>
+                    <li>Reset by clicking 'WP' on upper right, then say "Republicans are fucktards!"</li>
+                    <li>Choose Function (Does Not Contain Letter, etc...)</li>
+                    <li>Enter letter(s)-as in the Q for Quite Moronic!</li>
+                    <li>Enter position, if required. And piss on DC.</li>
+                    <li>Click 'Fire Away'. Susan Collins Sux.</li>
+                    <li>Return to #3, Jerko. CockSuckers.</li>
+                    <li>Fuck Auff Idiotry. Suck it, Vance.</li>
+                    <li>Fuck Auff Again, Republican Piglets</li>
+                    <li>And Keep On Fucking Auff, FuckOUT!!!!!!!!!</li> 
+                    <li>And take that FUCK Hegsith with you.</li>
+                    <li>Lick it if you're a Trump, you Slicked out AssFuckers. Bleed the fuck out.</li>
+                </ol>
+        </aside>
+        <div class="inner-main">             
+            <section class="group-one hidden">
+                <h4>Memory not what it used to be? Need help remembering a past Wordle Word? Check here!</h4>
+                <div class="past-input">
+                    <input type="text" id="wordInput" placeholder="Type a 5 Letter Word">
+                    <button id="submitButton">Fire Word</button>
+                </div>
+                <div class="field-one"></div>
+            </section>   
+            <section class="group-two hidden">
+                <h4>Rushing around like a fool? Want your maintain your solid score average? Filter Available words here!</h4>
+                <div class="filter-input">
+                    <select id="functionSelect">
+                        <!-- <option value="containsLetter">Contains Letter</option> -->
+                        <option value="doesNotContainLetter">Does NOT Contain Letter</option>
+                        <option value="containsLetterAtPosition">Letter AT Position</option>
+                        <option value="containsLetterNotAtPosition">Letter NOT at Position</option>
+                    </select>
+                    <input type="text" id="letterInput" placeholder="Enter letter">
+                    <input type="number" id="positionInput" placeholder="Enter position (1-5)" min="1" max="5">
+                    <button id="applyFilterButton">Fire Away</button>
+                    <button id="undoButton">⬅️ Undo ⬅️</button>                     
+                </div>
+                <div id="filteredWords"></div>            
+            </section>            
+        </div>            
+       </main>
+    <footer>
+        <!-- <a href="https://wordfinder.yourdictionary.com/wordle/answers/" target="_blank" id="wordle-link">A Source</a> -->
+        <div class="numbers">
+            <button id="toggleLookupButton">Search Word #</button>
+            <div id="lookupSection" class="hidden">
+                <input type="number" id="wordNumberInput" placeholder="Enter Word #" min="0" max="3000" />
+                <button id="lookupWordNumberButton">Lookup Word #</button>
+                <div id="wordDetails"></div>
+                <ul id="wordList"></ul>
+            </div>
+        </div>        
+        <!-- <a href="https://www.nytimes.com/games/wordle/index.html" target="_blank" id="nyt-link">Play Wordle</a>
+ -->
+         
+    <div class="average-score">
+        <button id="toggleAverageScoreButton">Score Avg. Between #'s</button>
+        <div id="averageScoreSection" class="hidden">
+            <input type="number" id="wordNumber1" placeholder="Enter start word #" min="0" max="3000" />
+            <input type="number" id="wordNumber2" placeholder="Enter end word #" min="0" max="3000" />
+            <button id="calculateAverageButton">Get That Average!</button>
+            <div id="averageScoreResult"></div>
+        </div>
+    </div>  
+
+    <div id="footerClocks" style="text-align: center; margin-top: 20px; font-size: 16px;">
+       <p id="currentTime"></p>
+       <p id="countdownToMidnight"></p>
+    </div>
+    <a href="../index.html" id="linkBack">Get The Fuck On Home. Now!</a> 
+     
+ 
+    </footer>   
+
+    <script type="module" src="wordle.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

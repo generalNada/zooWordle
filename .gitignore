@@ -1,0 +1,83 @@
+# macOS system files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Nested git repositories (keep only the main .git)
+# These should be removed as they're not git submodules
+*/.git/
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+node_modules/
+
+# Build outputs
+dist/
+build/
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# Database files
+*.sqlite
+*.sqlite3
+*.db
+
+# Large media files (you may want to keep these but hosted elsewhere)
+# Uncomment if you want to exclude them:
+# *.mp3
+# *.mp4
+# *.mov
+# *.avi
+
+# Large images
+# Uncomment if needed:
+# *.png
+# *.jpg
+# *.jpeg
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+

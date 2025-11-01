@@ -1,0 +1,2659 @@
+* {
+
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+/*   animation: colorCycle5000 .79s steps(1) infinite; */
+  position: relative;
+}
+
+header {
+  height: 12vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* color: #F7E64C; */
+  /* color: rgb(135, 150, 235); */
+  border: solid rgb(255, 254, 235) 1rem;
+  border-radius: 0.33rem;
+/*   background-color: rgb(235, 235, 235); */
+  animation: colorCycle5000 60s linear infinite;  
+}
+
+h2 {
+  font-family: "Merienda", cursive;
+  font-size: 1.75rem;
+  border: solid rgb(51, 250, 255) 0.2rem;
+  box-shadow: 0.1rem 0.05rem;
+  border-radius: 0.45rem;
+  padding: 0.33rem;
+}
+
+.toggleInstructions {
+  position: relative;
+  align-items: center;
+  font-family: "Exile", system-ui;
+  animation: pulseText 156s ease-in infinite,
+             drift 10s ease-in-out infinite,  
+             colorCycle 6s ease-in-out infinite alternate,
+             waveText 8s ease-in-out infinite; 
+}
+
+#instructions > h4 {
+  line-height: 2.07rem;
+  font-size: 1.2rem;
+  margin-left: 1.26rem;
+}
+
+#instructions {
+  /* font-family: "Merienda", cursive;
+  font-style: normal; */
+  /* background-color: rgb(16, 39, 110);
+  color: rgb(147, 132, 230); */
+  /* color: rgb(244, 69, 11); */
+/*   border: solid rgb(16, 69, 111) 0.25rem; */
+  border-radius: 0.75rem;
+  /* box-shadow: .15rem .90rem; */
+  position: absolute;
+  z-index: 20;
+  top: 55rem;
+  /* right: 75rem; */
+  left: 55rem;
+  text-align: center;
+  padding: 0.25rem;
+  width: 22vw;
+  opacity: 6;
+  font-family: "Passion One", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+/*   animation: pulseText 300s ease-in infinite, */
+    colorCycle5000 .5s ease-in-out infinite alternate;
+}
+
+.fuckula1 {
+  border: solid rgb(229, 21, 8) 0.22rem;
+  border-radius: 0.5rem;
+  font-family: "Unlock", serif;
+  font-size: 1.15rem;
+  animation: colorCycle11 5s ease-in-out infinite alternate,
+    waveText5 10s ease-in-out infinite;
+}
+
+.fuckula2 {
+  border: solid rgb(206, 8, 18) 0.2rem;
+  border-radius: 0.5rem;
+  font-family: "Unlock", serif;
+  font-size: 1.15rem;
+  animation: colorCycle4 5s ease-in-out infinite alternate,
+    waveText 10s ease-in-out infinite, drift 11s ease-in-out infinite;
+}
+
+.pigMan {
+  border: solid rgb(223, 8, 10) 0.22rem;
+  border-radius: 0.5rem;
+  animation: letterWiggle 1s infinite, waveText 30s ease-in-out infinite,
+    colorCycle5 30s ease-in-out infinite alternate,
+    drift3 15s ease-in-out infinite;
+}
+
+.pigFuckers {
+  border: solid rgb(229, 19, 8) 0.22rem;
+  border-radius: 3rem;
+  font-family: "Unlock", serif;
+  font-size: 1.15rem;
+  animation: colorCycle3 30s ease-in-out infinite alternate;
+}
+
+.superPig {
+  font-family: "Luckiest Guy", cursive;
+  font-size: 1rem;
+  animation: waveText 30s ease-in-out infinite,
+    colorCycle4 30s ease-in-out infinite alternate;
+}
+
+.jackAss {
+  border: solid rgb(229, 8, 10) 0.25rem;
+  border-radius: 0.5rem;
+  font-family: "Unlock", serif;
+  font-size: 1.15rem;
+  animation: colorCycle2 10s ease-in-out infinite alternate,
+    drift 10s ease-in-out infinite;
+}
+
+.jackAss2 {
+  border: solid rgb(229, 10, 10) 0.2rem;
+  border-radius: 0.5rem;
+  font-family: "Courgette", serif;
+  font-size: 1.17rem;
+  animation: colorCycle4 5s ease-in-out infinite alternate,
+    drift2 10s ease-in-out infinite;
+}
+
+.jackAss3 {
+  border: solid rgb(229, 8, 8) 0.2rem;
+  border-radius: 0.5rem;
+  font-family: "Kaushan Script", cursive;
+  font-size: 1.25rem;
+  animation: colorCycle5 22s ease-in-out infinite alternate,
+    drift3 15s ease-in-out infinite, pulseText 10s ease-in infinite;
+}
+
+.superPig2 {
+  border: solid rgb(229, 8, 8) 0.2rem;
+  border-radius: 0.5rem;
+  font-family: "Unlock", serif;
+  font-size: 1.17rem;
+  animation: waveText 30s ease-in-out infinite alternate,
+    colorCycle3 10s ease-in-out infinite alternate;
+}
+
+.babyPig1 {
+  border: solid rgb(223, 8, 8) 0.15rem;
+  border-radius: 0.5rem;
+  font-family: "Belanosima", serif;
+  font-size: 1.16rem;
+  animation: waveText3 20s ease-in-out infinite alternate,
+    colorCycle5 5s ease-in-out infinite alternate;
+}
+
+.crimeBoys {
+  border: solid rgb(229, 8, 8) 0.2rem;
+  border-radius: 0.5rem;
+  font-family: "Archivo Black", sans-serif;
+  font-size: 2.15rem;
+  line-height: 2.15rem;
+  color: white;
+  background-color: black;
+  animation: 
+/*     colorCycle4 15s ease-in-out infinite alternate, */
+    wave 150s ease-in-out infinite;
+}
+
+.miniPig1 {
+  border: solid rgb(229, 8, 8) 0.2rem;
+  border-radius: 0.52rem;
+  font-size: 1rem;
+  animation: colorCycle 5s ease-in-out infinite alternate,
+    wave 10s ease-in-out infinite;
+}
+
+.miniPig2 {
+  border: solid rgb(229, 8, 8) 0.2rem;
+  border-radius: 0.5rem;
+  font-size: 0.9rem;
+  animation: colorCycle2 5s ease-in-out infinite alternate,
+    waveText7 10s ease-in-out infinite, letterWiggle 5s infinite;
+}
+.miniPig3 {
+  border: solid rgb(227, 8, 8) 0.2rem;
+  border-radius: 0.5rem;
+  font-size: 0.9rem;
+  animation: colorCycle4 5s ease-in-out infinite alternate,
+    letterWiggle 5s infinite;
+}
+
+.miniPig4 {
+  border: solid rgb(229, 8, 8) 0.2rem;
+  border-radius: 0.5rem;
+  font-family: "Yanone Kaffeesatz", serif;
+  font-size: 0.9rem;
+  animation: colorCycle11 5s ease-in-out infinite alternate,
+    waveText11 5s infinite, drift11 30s ease-in-out infinite;
+}
+
+.jackAss99 {
+  border: solid rgb(229, 8, 8) 0.2rem;
+  border-radius: 0.5rem;
+  font-family: "Archivo Black", sans-serif;
+  font-size: 0.9rem;
+  animation: colorCycle5 5s ease-in-out infinite alternate,
+    waveText11 5s infinite, drift11 3s ease-in-out infinite;
+}
+
+.jackAss999 {
+  border: solid rgb(229, 8, 8) 0.2rem;
+  border-radius: 0.5rem;
+  font-family: "Merienda", cursive;
+  font-size: 0.9rem;
+  animation: colorCycle 5s ease-in-out infinite alternate,
+    letterWiggle 5s infinite, drift 30s ease-in-out infinite;
+}
+
+.fuckFace1 {
+  font-family: "Archivo Black", sans-serif;
+  border: solid rgb(229, 8, 8) 0.2rem;
+  border-radius: 0.5rem;
+  animation: colorCycle11 5s ease-in-out infinite alternate,
+  waveText7 5s infinite, fontFamKeyFrame 20s infinite, fadeInOut 8s infinite;
+}
+
+.fuckFace2 {
+  font-family: "Archivo Black", sans-serif;
+  border: solid rgb(228, 8, 8) 0.2rem;
+  border-radius: 0.5rem;
+  animation: colorCycle66 5s ease-in-out infinite alternate,
+    pulseText66 5s infinite, waveText66 5s infinite;
+}
+
+.assholes {
+  border: solid rgb(244, 243, 110) 0.4rem;
+}
+
+.jerks {
+  animation: colorCycle66 20s ease-in-out infinite alternate,
+    pulseText66 15s infinite, waveText66 5s infinite;
+}
+
+.jerks2 {
+  animation: colorCycle11 22s ease-in-out infinite alternate,
+    waveText67 20s infinite;
+}
+
+@keyframes waveText66 {
+  0% {
+    transform: translateY(0px);
+  }
+  25% {
+    transform: translateY(-3px) rotate(-90deg);
+  }
+  50% {
+    transform: translateY(3px) rotate(45deg);
+  }
+  75% {
+    transform: translateY(-3px) rotate(90deg);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes waveText67 {
+  0% {
+    transform: translateY(0px);
+  }
+  25% {
+    transform: translateY(3px) rotate(45deg);
+  }
+  50% {
+    transform: translateY(3px) rotate(90deg);
+  }
+  75% {
+    transform: translateY(-3px) rotate(45deg);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes pulseText66 {
+  1% {
+    transform: scale(1);
+  }
+  2% {
+    transform: scale(1.5);
+  }
+  3% {
+    transform: scale(2);
+  }
+  4% {
+    transform: scale(2.5);
+  }
+  5% {
+    transform: scale(2);
+  }
+  90% {
+    transform: scale(1.5);
+  }
+  95% {
+    transform: scale(2);
+  }
+  96% {
+    transform: scale(2.5);
+  }
+  97% {
+    transform: scale(2);
+  }
+  998% {
+    transform: scale(1.5);
+  }
+  99% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes colorCycle66 {
+  0% {
+    color: rgb(189, 242, 29);
+    background-color: rgb(14, 30, 200);
+  }
+  50% {
+    color: rgb(219, 158, 28);
+    background-color: rgb(9, 92, 118);
+  }
+  90% {
+    color: rgb(118, 12, 113);
+    background-color: rgb(219, 113, 150);
+  }
+  0% {
+    color: rgb(221, 77, 15);
+    background-color: rgb(14, 29, 18);
+  }
+}
+
+@keyframes colorCycle11 {
+  0% {
+    color: rgb(128, 156, 45);
+    background-color: rgb(69, 25, 146);
+  }
+  50% {
+    color: rgb(42, 75, 2);
+    background-color: rgb(245, 83, 14);
+  }
+  90% {
+    color: rgb(164, 14, 157);
+    background-color: rgb(152, 158, 191);
+  }
+  0% {
+    color: rgb(51, 16, 16);
+    background-color: rgb(125, 219, 149);
+  }
+}
+
+@keyframes waveText7 {
+  0% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(-10px);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  60% {
+    transform: translateY(0);
+  }
+  70% {
+    transform: translateY(0);
+  }
+  75% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(10px);
+  }
+}
+
+@keyframes drift11 {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-40vw);
+  }
+  50% {
+    transform: translateX(0);
+  }
+  75% {
+    transform: translateX(40vw);
+  }
+  85% {
+    transform: translateX(80vw);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes waveText11 {
+  0% {
+    transform: translateY(0);
+  }
+  10% {
+    transform: translateY(-10px) rotate(-45deg);
+  }
+  20% {
+    transform: translateY(5) rotate(-15deg);
+  }
+  30% {
+    transform: translateY(10px) rotate(15deg);
+  }
+  40% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  60% {
+    transform: translateY(5) rotate(-15deg);
+  }
+  70% {
+    transform: translateY(10px) rotate(-45deg);
+  }
+  80% {
+    transform: translateY(0) rotate(-15deg);
+  }
+  90% {
+    transform: translateY(5);
+  }
+  1000% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes colorCycle11 {
+  0% {
+    color: rgb(238, 70, 14);
+    background-color: rgb(165, 198, 19);
+  }
+  50% {
+    color: rgb(180, 225, 16);
+    background-color: rgb(245, 83, 14);
+  }
+  90% {
+    color: rgb(227, 14, 216);
+    background-color: rgb(91, 114, 230);
+  }
+  0% {
+    color: rgb(52, 16, 232);
+    background-color: rgb(27, 167, 62);
+  }
+}
+
+@keyframes letterWiggle {
+  0% {
+    transform: rotate(0deg);
+  }
+  20% {
+    transform: rotate(5deg);
+  }
+  40% {
+    transform: rotate(-5deg);
+  }
+  60% {
+    transform: rotate(5deg);
+  }
+  80% {
+    transform: rotate(-5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+@keyframes letterWiggle2 {
+  0% {
+    transform: rotate(0deg);
+  }
+  20% {
+    transform: rotate(45deg);
+  }
+  40% {
+    transform: rotate(-15deg);
+  }
+  60% {
+    transform: rotate(45deg);
+  }
+  80% {
+    transform: rotate(-15deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes wave {
+  0% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(-10vh);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  75% {
+    transform: translateY(-10vh);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes waveText8 {
+  0% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(10px);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  75% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes drift3 {
+  0% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(-10vh);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  75% {
+    transform: translateY(-10vh);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes colorCycle5 {
+  0% {
+    color: rgb(27, 167, 62);
+    background-color: rgb(52, 16, 231);
+  }
+  50% {
+    color: rgb(52, 16, 232);
+    background-color: rgb(27, 167, 62);
+  }
+  90% {
+    color: rgb(27, 167, 62);
+    background-color: rgb(52, 16, 232);
+  }
+  0% {
+    color: rgb(52, 16, 232);
+    background-color: rgb(27, 167, 62);
+  }
+}
+
+@keyframes drift {
+  0% {
+    transform: translateY(0) rotate(-15deg);
+  }
+  25% {
+    transform: translateY(10vw) rotate(15deg);
+  }
+  50% {
+    transform: translateY(0) rotate(-15deg);
+  }
+  75% {
+    transform: translateY(-10vw) rotate(15deg);
+  }
+  100% {
+    transform: translateY(0) rotate(-15deg);
+  }
+}
+
+@keyframes drift2 {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-10vw);
+  }
+    transform: translateX(0);
+  }
+  75% {
+    transform: translateX(10vw);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes waveText {
+  0% {
+    transform: translateY(0px);
+  }
+  25% {
+    transform: translateY(-3px) rotate(-720deg);
+  }
+  50% {
+    transform: translateY(3px) rotate(360deg);
+  }
+  75% {
+    transform: translateY(-3px) rotate(-720deg);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes waveText2 {
+  0% {
+    transform: translateY(0px);
+  }
+  25% {
+    transform: translateY(-3px) rotate(-90deg);
+  }
+  50% {
+    transform: translateY(3px) rotate(90deg);
+  }
+  75% {
+    transform: translateY(-3px) rotate(-90deg);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes waveText3 {
+  0% {
+    transform: translateY(0px);
+  }
+  25% {
+    transform: translateY(-3px) rotate(15deg);
+  }
+  50% {
+    transform: translateY(3px) rotate(-30deg);
+  }
+  75% {
+    transform: translateY(-3px) rotate(15deg);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+/* @keyframes pulseText {
+0% { transform: scale(1); }
+50% { transform: scale(1.5); }
+100% { transform: scale(1); }
+}   */
+@keyframes pulseText {
+  1% {
+    transform: scale(1);
+  }
+  2% {
+    transform: scale(1.25);
+  }
+  3% {
+    transform: scale(1);
+  }
+  4% {
+    transform: scale(1.25);
+  }
+  5% {
+    transform: scale(1);
+  }
+  10% {
+    transform: scale(1.25);
+  }
+  20% {
+    transform: scale(1);
+  }
+  30% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(1.5);
+  }
+  51% {
+    transform: scale(1.5);
+  }
+  52% {
+    transform: scale(1.5);
+  }
+  53% {
+    transform: scale(1.5);
+  }
+  54% {
+    transform: scale(1.25);
+  }
+  55% {
+    transform: scale(1.75);
+  }
+  56% {
+    transform: scale(1.5);
+  }
+  57% {
+    transform: scale(1.5);
+  }
+  58% {
+    transform: scale(1.5);
+  }
+  59% {
+    transform: scale(1.5);
+  }
+  60% {
+    transform: scale(1.5);
+  }
+  70% {
+    transform: scale(1);
+  }
+  80% {
+    transform: scale(1.25);
+  }
+  90% {
+    transform: scale(1);
+  }
+  95% {
+    transform: scale(1.25);
+  }
+  96% {
+    transform: scale(1);
+  }
+  97% {
+    transform: scale(1.25);
+  }
+  998% {
+    transform: scale(1);
+  }
+  99% {
+    transform: scale(1.25);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes letterWiggle {
+  0% {
+    transform: rotate(0deg);
+  }
+  20% {
+    transform: rotate(5deg);
+  }
+  40% {
+    transform: rotate(-5deg);
+  }
+  60% {
+    transform: rotate(5deg);
+  }
+  80% {
+    transform: rotate(-5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes colorCycle {
+  0% {
+    color: rgb(16, 39, 110);
+    background-color: white;
+  }
+  7% {
+    color: white;
+    background-color: rgb(16, 39, 110);
+  }
+  14% {
+    color: rgb(16, 39, 110);
+    background-color: white;
+  }
+  21% {
+    color: white;
+    background-color: rgb(16, 39, 110);
+  }
+  28% {
+    color: rgb(16, 39, 110);
+    background-color: white;
+  }
+  35% {
+    color: white;
+    background-color: rgb(16, 39, 110);
+  }
+  42% {
+    color: rgb(16, 39, 110);
+    background-color: white;
+  }
+  49% {
+    color: white;
+    background-color: rgb(16, 39, 110);
+  }
+  56% {
+    color: rgb(16, 39, 110);
+    background-color: white;
+  }
+  63% {
+    color: white;
+    background-color: rgb(16, 39, 110);
+  }
+  70% {
+    color: rgb(16, 39, 110);
+    background-color: white;
+  }
+  77% {
+    color: white;
+    background-color: rgb(16, 39, 110);
+  }
+  84% {
+    color: rgb(16, 39, 110);
+    background-color: white;
+  }
+  91% {
+    color: white;
+    background-color: rgb(16, 39, 110);
+  }
+  93% {
+    color: rgb(16, 39, 110);
+    background-color: white;
+  }
+  96% {
+    color: white;
+    background-color: rgb(16, 39, 110);
+  }
+  98% {
+    color: rgb(16, 39, 110);
+    background-color: white;
+  }
+  100% {
+    color: white;
+    background-color: rgb(16, 39, 110);
+  }
+}
+
+@keyframes colorCycle2 {
+  0% {
+    color: rgb(167, 27, 27);
+    background-color: rgb(160, 232, 16);
+  }
+  20% {
+    color: rgb(160, 232, 16);
+    background-color: rgb(167, 27, 27);
+  }
+  40% {
+    color: rgb(167, 27, 27);
+    background-color: rgb(160, 232, 16);
+  }
+  60% {
+    color: rgb(160, 232, 16);
+    background-color: rgb(167, 27, 27);
+  }
+  80% {
+    color: rgb(167, 27, 27);
+    background-color: rgb(160, 232, 16);
+  }
+  100% {
+    color: rgb(160, 232, 16);
+    background-color: rgb(167, 27, 27);
+  }
+}
+
+@keyframes colorCycle3 {
+  10% {
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+  }
+  15% {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+  }
+  20% {
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+  }
+  25% {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+  }
+  30% {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+  }
+  40% {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+  }
+  50% {
+    color: rgb(194, 245, 7);
+    background-color: rgb(255, 2, 2);
+  }
+  51% {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+  }
+  52% {
+    color: rgb(194, 245, 7);
+    background-color: rgb(255, 2, 2);
+  }
+  53% {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+  }
+  54% {
+    color: rgb(194, 245, 7);
+    background-color: rgb(255, 2, 2);
+  }
+  55% {
+    color: rgb(194, 245, 7);
+    background-color: rgb(255, 2, 2);
+  }
+  56% {
+    color: rgb(194, 245, 7);
+    background-color: rgb(255, 2, 2);
+  }
+  58% {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+  }
+  59% {
+    color: rgb(194, 245, 7);
+    background-color: rgb(255, 2, 2);
+  }
+  65% {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+  }
+  70% {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+  }
+  75% {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+  }
+  80% {
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+  }
+  90% {
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+  }
+  95% {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+  }
+  100% {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+  }
+}
+
+@keyframes colorCycle4 {
+  20% {
+    color: rgb(251, 48, 211);
+    background-color: rgb(26, 194, 68);
+  }
+  40% {
+    color: rgb(26, 194, 68);
+    background-color: rgb(251, 48, 211);
+  }
+  60% {
+    color: rgb(251, 48, 211);
+    background-color: rgb(26, 194, 68);
+  }
+  80% {
+    color: rgb(255, 255, 255);
+    background-color: rgb(251, 48, 211);
+  }
+  100% {
+    color: rgb(251, 48, 211);
+    background-color: rgb(26, 194, 68);
+  }
+}
+
+/* @keyframes colorCycle {
+  0% { color: red; background-color: white } 
+  7% { color: white; background-color: black; } 
+  14% { color: red; background-color: white; } 
+  21% { color: white; background-color: red; } 
+  28% { color: red; background-color: white; } 
+  35% { color: white; background-color: red; } 
+  42% { color: red; background-color: white; } 
+  49% { color: white; background-color: red; } 
+  56% { color: red; background-color: white; } 
+  63% { color: white; background-color: red; } 
+  70% { color: red; background-color: white; } 
+  77% { color: white; background-color: red; } 
+  84% { color: red; background-color: white; } 
+  91% { color: white; background-color: red; } 
+  93% { color: red; background-color: white; } 
+  96% { color: white; background-color: red; } 
+  98% { color: red; background-color: white; } 
+  100% { color: white; background-color: red; } 
+} */
+@keyframes colorCycle {
+  0% {
+    color: rgb(255, 0, 102);
+    background-color: rgb(255, 245, 157);
+  }
+  20% {
+    color: rgb(0, 255, 171);
+    background-color: rgb(255, 102, 102);
+  }
+  40% {
+    color: rgb(255, 255, 0);
+    background-color: rgb(0, 153, 255);
+  }
+  60% {
+    color: rgb(255, 140, 0);
+    background-color: rgb(153, 51, 255);
+  }
+  80% {
+    color: rgb(0, 255, 85);
+    background-color: rgb(255, 20, 147);
+  }
+  100% {
+    color: rgb(255, 0, 102);
+    background-color: rgb(255, 245, 157);
+  }
+}
+
+#wordInput,
+#submitButton {
+  color: rgb(0, 0, 0);
+  font-family: "Merienda", cursive;
+  font-size: 0.85rem;
+  border: solid rgb(255, 255, 255) 0.2rem;
+  box-shadow: 0.12rem 0.08rem;
+  border-radius: 0.3rem;
+  margin: 0.1rem;
+}
+
+li {
+  line-height: 1.2rem;
+  font-size: 0.8rem;
+  animation: pulseText 40s ease-in infinite,
+    /* drift 10s ease-in-out infinite, */ 
+    colorCycle 6s ease-in-out infinite alternate;
+  /* waveText 30s ease-in-out infinite; */
+}
+
+.toggleInstructions:active {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+#instructions ol {
+  list-style-position: inside;
+}
+
+#toggleGroupOne,
+#toggleGroupTwo {
+  border: solid rgb(255, 255, 255) 0.1rem;
+  box-shadow: 0.2rem 0.1rem;
+  border-radius: 0.45rem;
+  padding: 0.3rem;
+  font-family: "Merienda", cursive;
+  font-size: 1.4rem;
+  font-weight: 600;
+  animation: 
+  /* pulseText 10s ease-in infinite,  */
+  /* drift 10s ease-in-out infinite, */ 
+    colorCycle 5s ease-in-out infinite alternate;
+  /* waveText 3s ease-in-out infinite; */
+}
+
+#toggleGroupOne:active,
+#toggleGroupTwo:active {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+
+.anton-regularWP {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-family: "Merienda", cursive;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1.45rem;
+  border: solid rgb(255, 255, 255) 0.1rem;
+  border-radius: 1.25rem;
+  box-shadow: 0.15rem 0.1rem;
+  padding: 0.5rem;
+  animation: 
+    /* pulseText 3s ease-in infinite,  */
+    /* drift 10s ease-in-out infinite, */ 
+    colorCycle 4s ease-in-out infinite alternate;
+  /* waveText 10s ease-in-out infinite; */
+}
+
+.permanent-marker-regular:active {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+.main-container {
+  height: 142vh;
+/*   background-color: rgb(255, 255, 125); */
+  border-left: solid rgb(255, 255, 255) 0.3rem;
+  border-right: solid rgb(255, 255, 255) 0.3rem;
+  border-radius: 0.3rem;
+  background-position: center;
+  background-size: cover;
+}
+
+.topFlex {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: solid rgb(155, 155, 155) 0.3rem;
+  border-radius: 1rem;
+  animation: simple3000 3s steps(1) infinite;  
+  border-radius: 1.25rem;
+  animation: colorCycle4000 30s steps(1) infinite;  
+}
+
+.gopAsshole {
+/*   animation: colorCycle2000 .5s steps(1) infinite; */
+  animation: colorCycle2000 5s steps(1) infinite;   
+}
+
+
+.inner-main {
+  position: relative;
+  z-index: 1;
+}
+
+.group-one,
+.group-two {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  color: rgb(215, 255, 255);
+  font-family: "Merienda", cursive;
+}
+
+.hidden {
+  display: none !important;
+}
+
+h4 {
+  display: flex;
+  text-align: center;
+  padding: 0.26rem;
+}
+
+.group-one > h4 {
+  width: 32%;
+  text-align: center;
+}
+
+.group-two > h4 {
+  margin-left: 1.5rem;
+  align-items: center;
+  color: rgb(255, 255, 255);
+}
+
+.past-input,
+.filter-input {
+  display: flex;
+  align-items: center;
+}
+
+.field-one {
+  display: flex;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+.group-two {
+  height: 33%;
+}
+
+.filter-input {
+  margin-top: 0.3rem;
+  display: flex;
+  justify-content: center;
+  width: 45vw;
+}
+
+#functionSelect,
+#letterInput,
+#positionInput,
+#applyFilterButton,
+#undoButton {
+  color: rgb(0, 0, 0);
+  font-family: "Merienda", cursive;
+  font-size: 0.85rem;
+  border: solid rgb(255, 255, 255) 0.2rem;
+  box-shadow: 0.12rem 0.08rem;
+  border-radius: 0.3rem;
+  margin: 0.1rem;
+}
+
+#functionSelect {
+  width: 15vw;
+}
+
+#letterInput {
+  width: 7vw;
+}
+
+#positionInput {
+  width: 16vw;
+}
+
+#applyFilterButton {
+  width: 12rem;
+}
+
+#undoButton {
+  width: 14rem;
+}
+
+#filteredWords {
+  /* font-family: "Yanone Kaffeesatz", serif; */
+  font-optical-sizing: auto;
+/*   font-family: "Belanosima", serif; */
+  font-weight: 400;
+  font-style: normal;
+  /* font-family: "Volkhov", serif; */
+  font-size: 0.99rem;
+/*   color: rgb(250, 10, 20);
+  background-color: rgb(0, 0, 200); */
+  padding: 1.5rem;
+  text-align: justify;
+  animation: 
+    fontFamKeyFrame99 .5s infinite, fadeInOut 8s infinite,
+    colorCycle5000 10s linear infinite;
+}
+
+footer {
+  height: auto;
+  min-height: 16vh;
+  border: solid rgb(25, 55, 10) 0.3rem;
+  border-radius: 0.15rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* background-color: rgb(255, 255, 255); */
+  padding: 1rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+  animation: colorCycle3000 30s linear infinite;
+}
+
+
+
+#lookupSection,
+#averageScoreSection {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+  margin-top: 0.5rem;
+}
+
+#lookupSection.visible,
+#averageScoreSection.visible {
+  display: flex;
+}
+
+#toggleLookupButton,
+#toggleAverageScoreButton {
+  margin-bottom: 0.3rem;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  font-family: "Poetsen One", cursive;
+  height: 1.55rem;
+  border: solid rgb(10, 76, 157) 0.2rem;
+  box-shadow: 0.1rem 0.05rem;
+  border-radius: 0.15rem;
+  padding: 0.2rem;
+  width: 12rem;
+  cursor: pointer;
+}
+
+#wordNumberInput,
+#wordNumber1,
+#wordNumber2 {
+  width: 7.5rem;
+  margin-bottom: 0.5rem;
+  color: rgb(250, 245, 245);
+  background-color: rgb(0, 0, 0);
+  font-family: "Poetsen One", cursive;
+  height: 1.55rem;
+  border: solid rgb(10, 76, 157) 0.2rem;
+  box-shadow: 0.1rem 0.05rem;
+  border-radius: 0.15rem;
+  padding: 0.2rem;
+}
+
+#lookupWordNumberButton,
+#calculateAverageButton {
+  width: 12rem;
+  margin-bottom: 0.5rem;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  font-family: "Poetsen One", cursive;
+  height: 1.55rem;
+  border: solid rgb(10, 76, 157) 0.2rem;
+  box-shadow: 0.1rem 0.05rem;
+  border-radius: 0.15rem;
+  padding: 0.2rem;
+  cursor: pointer;
+}
+
+#footerClocks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  min-width: 250px;
+  margin: 0.5rem;
+}
+
+#wordDetails,
+#averageScoreResult {
+  color: rgb(255, 255, 255);
+  font-size: 0.9rem;
+  animation: colorCycle2 5s ease-in-out infinite alternate;
+}
+
+#wordInput {
+  color: rgb(0, 0, 0);
+}
+
+#countdown {
+  font-family: "Courgette", serif;
+  color: rgb(23, 114, 225);
+}
+
+#currentTime {
+  font-family: "Slackey", serif;
+  color: rgb(151, 17, 234);
+}
+
+#countdownToMidnight {
+  font-family: "Unlock", serif;
+  color: rgb(15, 108, 10);
+  font-size: 1.75rem;
+}
+
+.pardon {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 9rem;
+  height: 9rem;
+  background-color: bisque;
+  color: navy;
+/*   animation: drift 30s linear infinite; */
+}
+
+/* #wordle-link,
+#nyt-link   {
+  background-color: rgb(118, 119, 121);
+  color: rgb(196, 198, 200);
+  border: solid rgb(58, 58, 59);
+  box-shadow: .1rem .05rem;
+  border-radius: .2rem;
+  padding: .2rem;
+}
+
+#wordle-link:hover,
+#nyt-link:hover {
+  background-color: rgb(125, 126, 127);
+  color: rgb(4, 4, 5);
+} */
+
+@media (max-width: 600px) {
+  h2 {
+    font-size: 1.2rem; /* Adjust font size for smaller headers */
+  }
+  #instructions > h4 {
+    font-size: 1rem; /* Reduce line height for instructions */
+  }
+  #filteredWords {
+    font-size: 0.65rem; /* Shrink font for long text sections */
+  }
+}
+
+@media (max-width: 600px) {
+  header,
+  footer {
+    flex-direction: column; /* Stack items vertically */
+    height: auto; /* Adjust height */
+  }
+
+  .filter-input {
+    flex-direction: column; /* Stack input fields vertically */
+    width: 100%; /* Full width on smaller screens */
+  }
+
+  #applyFilterButton,
+  #undoButton {
+    width: 100%; /* Buttons take full width */
+  }
+}
+
+@media (max-width: 600px) {
+  .main-container {
+    flex-wrap: wrap; /* Wrap items on smaller screens */
+    padding: 1rem; /* Reduce padding */
+  }
+
+  .delivery-container {
+    flex: 1 1 100%; /* Each container takes full width */
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #instructions {
+    font-family: "Abel", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    top: 27rem;
+    width: 97vw;
+    border: solid rgb(255, 255, 255) 0rem;
+    border-radius: 0rem;
+    box-shadow: 0rem 0rem;
+    padding: 0rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #instructions {
+    font-family: "Righteous", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    top: 17rem;
+    width: 59vw;
+    right: 7rem;
+    border: solid rgb(0, 0, 0) 0rem;
+    border-radius: 0rem;
+    box-shadow: 0rem 0rem;
+    padding: 0rem;
+  }
+
+  #toggleLookupButton,
+  #lookupWordNumberButton {
+    width: 10rem;
+    height: 3rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  footer {
+    justify-content: center;
+  }
+
+  .numbers,
+  .average-score {
+    flex: 1 1 300px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  footer {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .numbers,
+  .average-score,
+  #footerClocks {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  #toggleLookupButton,
+  #toggleAverageScoreButton {
+    width: 100%;
+    max-width: 300px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  footer {
+    padding: 0.5rem;
+  }
+
+  #wordNumberInput,
+  #wordNumber1,
+  #wordNumber2,
+  #lookupWordNumberButton,
+  #calculateAverageButton {
+    max-width: 100%;
+  }
+
+  #footerClocks {
+    font-size: 0.9rem;
+  }
+}
+
+/* @import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Monoton&family=Protest+Riot&family=Rubik+Mono+One&family=Silkscreen&family=Single+Day&display=swap");
+ */
+.superDoggo1 {
+  display: inline-block;
+  animation: fontFamKeyFrame 20s infinite, fadeInOut 8s infinite,
+    colorCycle5 30s ease-in-out infinite alternate;
+}
+.superDoggo2 {
+  display: inline-block;
+  border: 2rem solid black;
+  border-radius: .75rem;
+  animation: fontFamKeyFrame 10s infinite, fadeInOut 6s infinite,
+    colorCycle11 5s ease-in-out infinite alternate;
+}
+
+.simple2000 {
+  animation: colorCycle5 50s ease-in-out infinite alternate,
+  fontFamKeyFrame 20s infinite, fadeInOut 8s infinite;
+}
+
+.simple3000 {
+  animation: colorCycle3000 10s ease-in-out infinite alternate,
+  fontFamKeyFrame 10s infinite, fadeInOut 6s infinite;
+}
+
+
+.iHateTheGOP {
+  display: inline-block;
+  animation: fontFamKeyFrame 30s infinite, fadeInOut 4s infinite,
+    colorCycle 30s ease-in-out infinite alternate;
+}
+.iHateTheGOP2 {
+  display: inline-block;
+  animation: fontFamKeyFrame 10s infinite, fadeInOut 4s infinite,
+    colorCycle 15s ease-in-out infinite alternate, letterWiggle 5s infinite,
+    pulseText66 15s infinite, drift 30s ease-in-out infinite;
+}
+
+@keyframes fontFamKeyFrame {
+  0% {
+    font-family: "Protest Riot", sans-serif;
+  }
+  25% {
+    font-family: "Silkscreen", sans-serif;
+  }
+  50% {
+    font-family: "Archivo Black", sans-serif;
+  }
+  75% {
+    font-family: "Single Day", cursive;
+  }
+  85% {
+    font-family: "Rubik Mono One", monospace;
+  }
+  100% {
+    font-family: "Monoton", sans-serif;
+  }
+}
+
+#toggleLookupButton,
+#lookupWordNumberButton,
+#calculateAverageButton,
+#toggleAverageScoreButton,
+#wordNumber1,
+#wordNumber2,
+#wordNumberInput {
+  margin-bottom: 0.3rem;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  font-family: "Poetsen One", cursive;
+  height: 1.55rem;
+  border: solid rgb(10, 76, 157) 0.2rem;
+  box-shadow: 0.1rem 0.05rem;
+  border-radius: 0.15rem;
+  padding: 0.2rem;
+}
+
+#wordNumberInput {
+  width: 7.5rem;
+}
+
+#wordNumber1,
+#wordNumber2 {
+  width: 9rem;
+  color: rgb(250, 245, 245);
+}
+
+.numbers,
+.average-score {
+  font-family: "Poetsen One", cursive;
+  color: rgb(0, 0, 0);
+  font-size: 0.88rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  min-width: 200px;
+  margin: 0.5rem;
+}
+
+#lookupSection,
+#averageScoreSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+#footerClocks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  min-width: 250px;
+  margin: 0.5rem;
+  font-style: normal;
+  padding: 0.25rem;
+}
+
+@media screen and (max-width: 1024px) {
+  footer {
+    justify-content: center;
+  }
+
+  .numbers,
+  .average-score {
+    flex: 1 1 300px;
+  }
+
+  #wordNumberInput,
+  #wordNumber1,
+  #wordNumber2 {
+    width: 100%;
+    max-width: 200px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  footer {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .numbers,
+  .average-score,
+  #footerClocks {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  #toggleLookupButton,
+  #toggleAverageScoreButton {
+    width: 100%;
+    max-width: 300px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  footer {
+    padding: 0.5rem;
+  }
+
+  #wordNumberInput,
+  #wordNumber1,
+  #wordNumber2,
+  #lookupWordNumberButton,
+  #calculateAverageButton {
+    max-width: 100%;
+  }
+
+  #footerClocks {
+    font-size: 0.9rem;
+  }
+}
+
+@keyframes colorCycle1000 {
+  0% {
+    background-color: rgb(0, 0, 255);        /* blue */
+    color: white;
+  }
+  5% {
+    background-color: rgb(0, 128, 255);      /* sky blue */
+    color: #fffef2;
+  }
+  10% {
+    background-color: rgb(0, 255, 255);      /* cyan */
+    color: #002222;
+  }
+  15% {
+    background-color: rgb(0, 255, 200);
+    color: #001919;
+  }
+  20% {
+    background-color: rgb(0, 255, 150);
+    color: #002010;
+  }
+  25% {
+    background-color: rgb(0, 255, 100);
+    color: #002000;
+  }
+  30% {
+    background-color: rgb(0, 255, 50);
+    color: black;
+  }
+  35% {
+    background-color: rgb(0, 255, 0);        /* lime */
+    color: dodgerblue;
+  }
+  40% {
+    background-color: rgb(0, 200, 100);
+    color: #001400;
+  }
+  45% {
+    background-color: rgb(0, 150, 150);
+    color: white;
+  }
+  50% {
+    background-color: rgb(0, 100, 200);
+    color: white;
+  }
+  55% {
+    background-color: rgb(0, 50, 255);
+    color: #fefefe;
+  }
+  60% {
+    background-color: rgb(0, 100, 255);
+    color: red;
+  }
+  65% {
+    background-color: rgb(0, 150, 255);
+    color: #fffef9;
+  }
+  70% {
+    background-color: rgb(0, 200, 255);
+    color: #002830;
+  }
+  75% {
+    background-color: rgb(0, 220, 200);
+    color: #001919;
+  }
+  80% {
+    background-color: rgb(0, 240, 150);
+    color: #002200;
+  }
+  85% {
+    background-color: rgb(0, 255, 100);
+    color: red;
+  }
+  90% {
+    background-color: rgb(0, 255, 50);
+    color: red;
+  }
+  95% {
+    background-color: rgb(0, 255, 0);
+    color: black;
+  }
+  100% {
+    background-color: rgb(0, 0, 255);
+    color: white;
+  }
+}
+
+
+
+
+@keyframes colorCycle2000 {
+  0% {
+    background-color: dodgerblue;        /* blue */
+    color: white;
+  }
+  5% {
+    background-color: blue;      /* sky blue */
+    color: red;
+  }
+  10% {
+    background-color: red;      /* cyan */
+    color: yellow;
+  }
+  15% {
+    background-color: orange;
+    color: silver;
+  }
+  20% {
+    background-color: yellow;
+    color: black;
+  }
+  25% {
+    background-color: pink;
+    color: green;
+  }
+  30% {
+    background-color: silver;
+    color: coral;
+  }
+  35% {
+    background-color: black;        /* lime */
+    color: dodgerblue;
+  }
+  40% {
+    background-color: violet;
+    color: yellow;
+  }
+  45% {
+    background-color: beige;
+    color: black;
+  }
+  50% {
+    background-color: lime;
+    color: blue;
+  }
+  55% {
+    background-color: coral;
+    color: grey;
+  }
+  60% {
+    background-color: cream;
+    color: orange;
+  }
+  65% {
+    background-color: grey;
+    color: rust;
+  }
+  70% {
+    background-color: white;
+    color: black;
+  }
+  75% {
+    background-color: purple;
+    color: orange;
+  }
+  80% {
+    background-color: mauve;
+    color: yellow;
+  }
+  85% {
+    background-color: burgundy;
+    color: lime;
+  }
+  90% {
+    background-color: canary;
+    color: rose;
+  }
+  95% {
+    background-color: emerald;
+    color: red;
+  }
+  100% {
+    background-color: dodgerblue;
+    color: silver;
+  }
+}
+
+@keyframes colorCycle3000 {
+  0% {
+    background-color: midnightblue;
+    color: white;
+  }
+  5% {
+    background-color: teal;
+    color: gold;
+  }
+  10% {
+    background-color: firebrick;
+    color: lavender;
+  }
+  15% {
+    background-color: seagreen;
+    color: lightyellow;
+  }
+  20% {
+    background-color: sienna;
+    color: mintcream;
+  }
+  25% {
+    background-color: plum;
+    color: ivory;
+  }
+  30% {
+    background-color: cornflowerblue;
+    color: darkorange;
+  }
+  35% {
+    background-color: orchid;
+    color: navy;
+  }
+  40% {
+    background-color: tomato;
+    color: aliceblue;
+  }
+  45% {
+    background-color: slategray;
+    color: wheat;
+  }
+  50% {
+    background-color: mediumvioletred;
+    color: lightgreen;
+  }
+  55% {
+    background-color: peru;
+    color: aqua;
+  }
+  60% {
+    background-color: indigo;
+    color: lemonchiffon;
+  }
+  65% {
+    background-color: forestgreen;
+    color: linen;
+  }
+  70% {
+    background-color: lightsteelblue;
+    color: crimson;
+  }
+  75% {
+    background-color: rosybrown;
+    color: khaki;
+  }
+  80% {
+    background-color: turquoise;
+    color: chocolate;
+  }
+  85% {
+    background-color: deeppink;
+    color: honeydew;
+  }
+  90% {
+    background-color: moccasin;
+    color: darkslategray;
+  }
+  95% {
+    background-color: salmon;
+    color: palegoldenrod;
+  }
+  100% {
+    background-color: midnightblue;
+    color: white;
+  }
+}
+
+/* header {
+  animation: colorCycle4000 60s linear infinite;
+} */
+
+
+
+@keyframes colorCycle4000 {
+  0% {
+    background-color: black;
+    color: #39ff14; /* neon green */
+  }
+  5% {
+    background-color: #ff073a; /* neon red */
+    color: #00fff7; /* electric cyan */
+  }
+  10% {
+    background-color: #8f00ff; /* vivid purple */
+    color: #ffff33; /* bright yellow */
+  }
+  15% {
+    background-color: #ff6ec7; /* neon pink */
+    color: #00ff00; /* lime */
+  }
+  20% {
+    background-color: #00ffff; /* aqua */
+    color: #ffcc00; /* amber */
+  }
+  25% {
+    background-color: #ff00ff; /* fuchsia */
+    color: #00ffcc; /* bright teal */
+  }
+  30% {
+    background-color: #00ff00; /* neon green */
+    color: #ff0066; /* hot pink */
+  }
+  35% {
+    background-color: #ff1493; /* deep pink */
+    color: #00bfff; /* deep sky blue */
+  }
+  40% {
+    background-color: #1f51ff; /* neon blue */
+    color: #ffdf00; /* bright yellow */
+  }
+  45% {
+    background-color: #ff4500; /* orange red */
+    color: #00fa9a; /* neon mint */
+  }
+  50% {
+    background-color: #00ffcc; /* neon aqua */
+    color: #ff00bf; /* magenta pink */
+  }
+  55% {
+    background-color: #7fff00; /* chartreuse */
+    color: #ff69b4; /* neon rose */
+  }
+  60% {
+    background-color: #ffcc00; /* neon gold */
+    color: #00ffff; /* neon cyan */
+  }
+  65% {
+    background-color: #ff6347; /* neon tomato */
+    color: #adff2f; /* green-yellow */
+  }
+  70% {
+    background-color: #da70d6; /* orchid */
+    color: #00ff99; /* mint neon */
+  }
+  75% {
+    background-color: #ff00cc; /* intense fuchsia */
+    color: #33ff00; /* bright green */
+  }
+  80% {
+    background-color: #00ffff; /* neon blue-green */
+    color: #ff007f; /* raspberry pink */
+  }
+  85% {
+    background-color: #ffff00; /* yellow */
+    color: #00ffcc; /* aqua */
+  }
+  90% {
+    background-color: #00ff7f; /* spring green */
+    color: #ff3333; /* strong red */
+  }
+  95% {
+    background-color: #ff00ff; /* fuchsia */
+    color: #39ff14; /* slime green */
+  }
+  100% {
+    background-color: black;
+    color: #39ff14;
+  }
+}
+
+.dickBag {
+  /* width: 600px;
+  height: 180px; */
+  line-height: 3rem;
+  font-size: 2.5rem;
+  border-radius: 1rem;
+  border: solid rgb(253, 253, 253) 0.4rem;
+  display: inline-block;
+  animation: fontFamKeyFrame99 5s infinite, fadeInOut 8s infinite,
+             colorCycle5000 1s ease-in-out infinite alternate,
+             driftWaveCombo99 90s ease-in-out infinite;
+}
+
+.dickBag2 {
+  /* width: 600px;
+  height: 180px; */
+  line-height: 3rem;
+  font-size: 2.5rem;
+  border-radius: 1rem;
+  border: solid rgb(253, 253, 253) 0.4rem;
+  display: inline-block;
+  animation: fontFamKeyFrame 20s infinite, fadeInOut 8s infinite,
+             colorCycle3000 10s ease-in-out infinite alternate,
+             driftWaveCombo100 20s ease-in-out infinite;
+}
+
+.dickBag3 {
+  background-color: dodgerblue;
+  color: silver;
+  line-height: 3rem;
+  font-size: 2.5rem;
+  border-radius: 1rem;
+  border: solid rgb(253, 253, 253) 0.6rem;
+  display: inline-block;
+  animation: fontFamKeyFrame99 15s infinite, fadeInOut 8s infinite,
+/*           colorCycle5000 1s ease-in-out infinite alternate, */
+             driftWaveCombo100 5s ease-in-out infinite;
+}
+
+.teaBag1 {
+  background-color: wheat;
+  color: red;
+  border: pink solid 1rem;
+  animation: 
+    fontFamKeyFrame 50s infinite, fadeInOut 4s infinite,
+    pulser_1 40s infinite ease-in-out,
+    driftWaveCombo100 90s ease-in-out infinite;
+}
+
+.teaBag2 {
+  color: green;
+  background-color: dodgerblue;
+  border: purple solid 1rem;
+/*   border-style: solid;
+  border-color: black; */
+  animation: 
+    fontFamKeyFrame 40s infinite, fadeInOut 8s infinite,
+    pulser_1 20s infinite ease-in-out,
+    driftWaveCombo100 100s ease-in-out infinite;
+}
+.teaBag3 {
+  color: white;
+  background-color: black;
+  border: purple solid 2rem;
+  animation: 
+    fontFamKeyFrame 40s infinite, fadeInOut 8s infinite,
+    pulser_1 20s infinite ease-in-out;
+}
+
+.dumbfuck1 {
+  color: white;
+  background-color: black;
+  border-style: solid;
+  border-color: black;
+  animation: 
+    fontFamKeyFrame 30s infinite, fadeInOut 8s infinite,
+    pulser_1 30s infinite ease-in-out,
+    driftWaveCombo100 100s ease-in-out infinite;
+}
+
+.dumbfuck2 {
+  color: black;
+  background-color: white;
+  border-style: solid;
+  border-color: black;
+  animation: 
+    fontFamKeyFrame 30s infinite, fadeInOut 8s infinite,
+    pulser_2 300s infinite ease-in-out;
+}
+
+.dumbfuck3 {
+  color: yellow;
+  background-color: blue;
+  border-style: solid;
+  border-color: black;
+  animation: 
+    fontFamKeyFrame 30s infinite, fadeInOut 8s infinite,
+}
+
+.fucklick100 {
+animation: fontFamKeyFrame99 15s infinite, fadeInOut 8s infinite,
+           colorCycle5000 .5s ease-in-out infinite alternate,
+           driftWaveCombo101 50s ease-in-out infinite;
+}
+
+.fucklick200 {
+font-size: 2.25rem;
+line-height: 1.75rem;
+background-color: rgb (200, 77, 88);
+color: rgb (144, 177, 188);
+animation: fontFamKeyFrame 45s infinite, fadeInOut 8s infinite,
+           driftWaveCombo101 50s ease-in-out infinite;
+}
+
+.nothingElse1 {
+font-size: 2.25rem;
+line-height: 2rem;
+background-color: black;
+color: white;
+}
+
+.nothingElse2 {
+font-size: 2.25rem;
+line-height: 2rem;
+background-color: yellow;
+color: red;
+}
+
+.nothingElse3 {
+font-size: 2.25rem;
+line-height: 2rem;
+background-color: blue;
+color: yellow;
+}
+
+.nothingElse4 {
+font-size: 2rem;
+line-height: 2.25rem;
+background-color: green;
+color: silver;
+}
+
+.superDoggo111 {
+font-size: 2rem;
+line-height: 2rem;
+background-color: green;
+color: silver;
+animation: fontFamKeyFrame 30s infinite, fadeInOut 8s infinite;
+}
+
+.pardon2 {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  color: yellow;
+  background-color: blue;
+  animation: drift 35s linear infinite;
+}
+
+
+
+@keyframes colorCycle5000 {
+  0%   { background-color: black; color: white; }
+  10%  { background-color: white; color: black; }
+  20%  { background-color: black; color: white; }
+  30%  { background-color: white; color: black; }
+  40%  { background-color: black; color: white; }
+  50%  { background-color: white; color: black; }
+  60%  { background-color: black; color: white; }
+  70%  { background-color: white; color: black; }
+  80%  { background-color: black; color: white; }
+  90%  { background-color: white; color: black; }
+  100% { background-color: black; color: white; }
+}
+
+@keyframes fontFamKeyFrame99 {
+  0% {
+    font-family: "Fredoka", sans-serif;
+  }
+  7% {
+    font-family: "New Rocker", system-ui;
+  }
+  25% {
+    font-family: "Exile", system-ui;
+  }
+  50% {
+    font-family: "Cherry Bomb One", system-ui;
+  }
+  75% {
+    font-family: "Russo One", sans-serif;
+  }
+  80% {
+    font-family: "Zen Tokyo Zoo", system-ui;
+  }
+  100% {
+    font-family: "Sigmar One", sans-serif;
+  }
+}
+
+
+
+@keyframes driftWaveCombo99 {
+  0%   { transform: translate(0, 0) rotate(0deg); }
+  25%  { transform: translate(0, 85vw) rotate(-45deg); }
+  35%  { transform: translate(0, -10vw) rotate(-75deg); }
+  50%  { transform: translate(100vw, -10vw) rotate(100deg); }
+  75%  { transform: translate(150vw, -10vw) rotate(-60deg); }
+  80%  { transform: translate(150vw, 45vw) rotate(-20deg); }
+  85%  { transform: translate(-10vw, 45vw) rotate(0deg); }
+  100% { transform: translate(0, 0) rotate(15deg); }
+}
+
+@keyframes driftWaveCombo100 {
+  0%   { transform: translate(0, 0) rotate(0deg); }
+  25%  { transform: translate(0, -85vw) rotate(45deg); }
+  35%  { transform: translate(0, 10vw) rotate(75deg); }
+  50%  { transform: translate(-100vw, 10vw) rotate(-100deg); }
+  75%  { transform: translate(-150vw, 10vw) rotate(60deg); }
+  80%  { transform: translate(-150vw, -45vw) rotate(20deg); }
+  85%  { transform: translate(10vw, -45vw) rotate(0deg); }
+  100% { transform: translate(0, 0) rotate(-15deg); }
+}
+
+@keyframes pulser_1 {
+  0%   { border-width: 5px; }
+  20%  { border-width: 15px; }
+  40%  { border-width: 5px; }
+  60%  { border-width: 15px; }
+  80%  { border-width: 5px; }
+  100% { border-width: 15px; }
+}
+
+@keyframes pulser_2 {
+  0%   { border-width: 5px; }
+  20%  { border-width: 50px; }
+  40%  { border-width: 5px; }
+  60%  { border-width: 50px; }
+  80%  { border-width: 5px; }
+  100% { border-width: 50px; }
+}
+
+@keyframes driftWaveCombo101 {
+  0%   { transform: translate(0, 0) rotate(0deg); }
+  25%  { transform: translate(0, 5vw) rotate(-45deg); }
+  35%  { transform: translate(0, 10vw) rotate(-25deg); }
+  50%  { transform: translate(0, 0) rotate(-45deg); }
+  75%  { transform: translate(0, -10vw) rotate(-25deg); }
+  80%  { transform: translate(0, -5vw) rotate(-45deg); }
+  85%  { transform: translate(0, 0) rotate(-25deg); }
+  100% { transform: translate(0, 0) rotate(0deg); }
+}
+
+.fucklick300 {
+font-size: 2.25rem;
+line-height: 1.75rem;
+border: 5px solid maroon;
+animation: fontFamKeyFrame55 10s infinite, fadeInOut 8s infinite,
+            pulser_55 3s infinite ease-in-out,
+            colorCycle55 10s ease-in-out infinite alternate;
+}
+.fucklick400 {
+font-size: 2rem;
+line-height: 1.5rem;
+background-color: black;
+color: white;
+border: 5px solid dodgerblue;
+animation: fontFamKeyFrame66 10s infinite, fadeInOut 8s infinite,
+            pulser_66 3s infinite ease-in-out;
+}
+
+.fucklick500 {
+font-size: 1.75rem;
+line-height: 1.5rem;
+background-color: green;
+color: pink;
+border: 5px solid dodgerblue;
+animation: fontFamKeyFrame55 40s infinite, fadeInOut 4s infinite,
+pulser_55 60s infinite ease-in-out;
+}
+
+.fucklick600 {
+font-family: "Press Start 2P", system-ui;
+font-size: 1.25rem;
+line-height: 1.5rem;
+background-color: blue;
+color: cream;
+border: 5px solid aqua;
+}
+
+.deeBag {
+  border: solid rgb(229, 8, 8) 0.2rem;
+  border-radius: 0.5rem;
+  font-family: "Kaushan Script", cursive;
+  font-size: 1.5rem;
+  background-color: black;
+  color: white;
+}
+
+.deeBag2 {
+  border: solid rgb(229, 8, 8) 0.2rem;
+  border-radius: 0.5rem;
+  font-family: "Merienda", cursive;  
+  font-size: 1.65rem;
+  background-color: green;
+  color: yellow;
+}
+
+.deeBag3 {
+  border: solid rgb(229, 8, 8) 0.2rem;
+  border-radius: 2rem;
+  font-family: "Press Start 2P", system-ui;  
+  background-color: blue;
+  color: red;
+}
+
+.coralDay {
+  font-family: "Silkscreen", sans-serif;
+  border: solid rgb(229, 8, 8) 0.2rem;
+  border-radius: 2rem;
+  background-color: coral;
+  color: chartreuse;
+}
+
+@keyframes pulser_55 {
+  0%   { border-width: 5px;     border-color: maroon;}
+  50%  { border-width: 60px;    border-color: maroon;}
+  100% { border-width: 5px;     border-color: maroon;}
+}
+
+@keyframes pulser_66 {
+  0%   { border-width: 2px;     border-color: dodgerblue;}
+  50%  { border-width: 30px;    border-color: dodgerblue;}
+  100% { border-width: 2px;     border-color: dodgerblue;}
+}
+
+
+@keyframes fontFamKeyFrame55 {
+  0% {
+    font-family: "Fredoka", sans-serif;
+  }
+  50% {
+    font-family: "Cherry Bomb One", system-ui;
+  }  
+  60% {
+    font-family: "Monoton", sans-serif;
+  }
+  100% {
+    font-family: "Sigmar One", sans-serif;
+  }
+}
+
+@keyframes fontFamKeyFrame66 {
+  0% {
+    font-family: "Exile", system-ui;
+  }
+  50% {
+    font-family: "Russo One", sans-serif;
+  }
+  100% {
+   font-family: "Zen Tokyo Zoo", system-ui;  }
+  }
+
+@keyframes colorCycle55 {
+  0%   { background-color: gold; color: dodgerblue; }
+
+  50%  { background-color: dodgerblue; color: gold; }
+
+  100% { background-color: gold; color: dodgerblue; }
+}
+
+.fixedCrap-1 {
+  position: fixed;
+  top: 20rem;
+  left: 1rem;
+  width: 600px;
+  padding: 1rem;
+  background-color: dodgerblue;
+  color: silver;
+  font-size: 2.25rem;
+  line-height: 1.75rem;
+  border: green solid 0.33rem;
+  z-index: 333;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+}
+
+.fixedCrap-2 {
+  position: fixed;
+  top: 20rem;
+  left: 30rem;
+  width: 450px;
+  padding: 1rem;
+  background-color: navy;
+  color: chartreuse;
+  font-size: 2.25rem;
+  line-height: 1.75rem;
+  border: green solid 0.33rem;
+  z-index: 333;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+}
+.fixedCrap-3 {
+  position: fixed;
+  top: 2rem;
+  left: 5rem;
+  width: 400px;
+  padding: 1rem;
+  background-color: navy;
+  color: chartreuse;
+  font-size: 2.25rem;
+  line-height: 1.75rem;
+  border: green solid 0.33rem;
+  z-index: 333;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+}
+
+.badAssMan1 {
+  background-color: green;
+  color: silver;
+  font-size: 2.25rem;
+  line-height: 2rem;
+  font-family: "New Rocker", system-ui;
+  border: solid rgb(229, 8, 8) 0.2rem;
+  border-radius: 2.1rem;
+}
+
+.badAssMan1A {
+  background-color: pink;
+  color: blue;
+  font-size: 3.25rem;
+  line-height: 3rem;
+  font-family: "Poetsen One", cursive;
+  border: solid rgb(229, 8, 8) 0.2rem;
+  border-radius: 1rem;
+}
+
+.badAssMan1B {
+  background-color: chartreuse;
+  color: silver;
+  font-family: "Yanone Kaffeesatz", serif;
+  font-size: 3rem;
+  line-height: 2.75rem;
+  border: solid rgb(229, 8, 8) 0.2rem;
+  border-radius: 1rem;
+}
+
+.badAssMan1C {
+  background-color: tomato;
+  color: green;
+  font-family: "Single Day", cursive;
+  font-size: 3rem;
+  line-height: 2.75rem;
+  border: solid rgb(229, 8, 8) 0.2rem;
+  border-radius: 1rem;
+}
+
+.badAssMan1D {
+  background-color: tomato;
+  color: green;
+  font-size: 3rem;
+  font-family: "Archivo Black", sans-serif;
+  line-height: 2.75rem;
+  border: solid rgb(229, 8, 8) 0.2rem;
+  border-radius: 1rem;
+}
+
+.badAssMan2 {
+  background-color: rgb(15, 45, 25);
+  color: white;
+  font-size: 2.25rem;
+  line-height: 2rem;
+  font-family: "Zen Tokyo Zoo", system-ui;
+  border: solid rgb(29, 58, 118) 0.2rem;
+  border-radius: 2.1rem;
+}
+
+.badAssMan2A {
+  background-color: rgb(150, 245, 225);
+  color: aqua;
+  font-size: 3rem;
+  line-height: 3rem;
+  font-family: "Zen Tokyo Zoo", system-ui;
+  border: solid rgb(29, 58, 118) 0.2rem;
+  border-radius: 2.1rem;
+}
+
+.badAssMan2B {
+  background-color: rgb(10, 25, 25);
+  color: crimson;
+  font-family: "Merienda", cursive;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  border: solid rgb(29, 58, 118) 0.2rem;
+  border-radius: 2.1rem;
+}
+
+.badAssMan2C {
+  background-color: orange;
+  color: lavender;
+  font-family: "Archivo Black", sans-serif;
+  font-size: 2rem;
+  line-height: 2rem;
+  border: solid rgb(29, 58, 118) 0.2rem;
+  border-radius: 2.1rem;
+}
+
+.badAssMan2D {
+  background-color: yellow;
+  color: purple;
+  font-family: "Kaushan Script", cursive;
+  font-size: 2rem;
+  line-height: 2rem;
+  border: solid rgb(29, 58, 118) 0.2rem;
+  border-radius: 2.1rem;
+}
+
+.badAssMan3 {
+  background-color: navy;
+  color: white;
+  font-size: 2.25rem;
+  line-height: 2rem;
+  font-family: "Merienda", cursive;
+  border: solid rgb(29, 58, 118) 0.2rem;
+  border-radius: 1.1rem;
+}
+
+.badAssMan3A {
+  background-color: red;
+  color: navy;
+  font-size: 2.25rem;
+  line-height: 2.25rem;
+  font-family: "Merienda", cursive;
+  border: solid rgb(29, 58, 118) 0.2rem;
+  border-radius: 1.1rem;
+}
+
+.badAssMan3B {
+  background-color: gold;
+  color: maroon;
+  font-family: "Belanosima", serif;
+  font-size: 2.25rem;
+  line-height: 2.25rem;
+  border: solid rgb(29, 58, 118) 0.2rem;
+  border-radius: 1.1rem;
+}
+
+.badAssMan3C {
+  background-color: 800000;
+  color: #FF2400;
+  font-family: "Monoton", sans-serif;
+  font-size: 2.25rem;
+  line-height: 2.25rem;
+  border: solid rgb(29, 58, 118) 0.2rem;
+  border-radius: 1.1rem;
+}
+
+.badAssMan3D {
+  background-color: maroon;
+  color: #FF2400;
+  font-family: "Single Day", cursive;
+  font-size: 2.25rem;
+  line-height: 2.25rem;
+  border: solid rgb(29, 58, 118) 0.2rem;
+  border-radius: 1.1rem;
+}
+
+.badAssMan1E {
+  background-color: yellow;
+  color: blue;
+  font-family: "Righteous", serif;
+  font-size: 2.25rem;
+  line-height: 2.25rem;
+  border: solid rgb(29, 58, 118) 0.2rem;
+  border-radius: 1.1rem;
+}
+
+.badAssMan2E {
+  background-color: blue;
+  color: yellow;
+  font-family: "Unlock", serif;
+  font-size: 2.25rem;
+  line-height: 2.25rem;
+  border: solid rgb(29, 58, 118) 0.2rem;
+  border-radius: 1.1rem;
+}
+  
+.jasmineCrockett {
+  color: white;
+  background-color: black;
+  font-family: "Poetsen One", cursive;
+  font-size: 2rem;
+  line-height: 2rem;
+  border: solid rgb(255, 215, 0) 0.3rem;
+  border-radius: 1rem;
+}

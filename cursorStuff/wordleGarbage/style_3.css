@@ -1,0 +1,526 @@
+/* Circus Theme with Wild Animations */
+:root {
+  --circus-red: #ff1a1a;
+  --circus-yellow: #ffd700;
+  --circus-blue: #4169e1;
+  --circus-purple: #9370db;
+  --circus-orange: #ff8c00;
+  --circus-bg: #fff5e6;
+  --circus-text: #4a4a4a;
+  --circus-accent: #ff69b4;
+}
+
+body {
+  background: var(--circus-bg);
+  color: var(--circus-text);
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+  background-image: radial-gradient(
+      circle at 10% 20%,
+      rgba(255, 26, 26, 0.1) 0%,
+      transparent 20%
+    ),
+    radial-gradient(
+      circle at 90% 80%,
+      rgba(255, 215, 0, 0.1) 0%,
+      transparent 20%
+    ),
+    radial-gradient(
+      circle at 50% 50%,
+      rgba(65, 105, 225, 0.1) 0%,
+      transparent 30%
+    );
+  animation: circusBgPulse 8s infinite alternate;
+}
+
+@keyframes circusBgPulse {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 100% 100%;
+  }
+}
+
+/* Header with Circus Style */
+header {
+  background: linear-gradient(45deg, var(--circus-red), var(--circus-yellow));
+  padding: 1.5rem;
+  text-align: center;
+  position: relative;
+  border-bottom: 5px dashed var(--circus-blue);
+  animation: headerDance 3s infinite;
+}
+
+@keyframes headerDance {
+  0%,
+  100% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(-2deg);
+  }
+  75% {
+    transform: rotate(2deg);
+  }
+}
+
+header::before {
+  content: "🎪";
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 2rem;
+  animation: tentBounce 2s infinite;
+}
+
+@keyframes tentBounce {
+  0%,
+  100% {
+    transform: translateY(0) translateX(-50%);
+  }
+  50% {
+    transform: translateY(-10px) translateX(-50%);
+  }
+}
+
+/* Main Content with Bubble Effects */
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+.group-one,
+.group-two,
+#instructions {
+  background: white;
+  padding: 2rem;
+  border-radius: 20px;
+  margin: 1rem;
+  border: 3px solid var(--circus-red);
+  box-shadow: 0 0 20px rgba(255, 26, 26, 0.3);
+  position: relative;
+  animation: bubbleFloat 4s infinite alternate;
+}
+
+@keyframes bubbleFloat {
+  0% {
+    transform: translateY(0) rotate(0deg);
+  }
+  100% {
+    transform: translateY(-20px) rotate(2deg);
+  }
+}
+
+/* Bubble Decorations */
+.group-one::before,
+.group-two::before,
+#instructions::before {
+  content: "🎈";
+  position: absolute;
+  font-size: 2rem;
+  animation: bubbleFloat 3s infinite alternate;
+}
+
+.group-one::before {
+  top: -30px;
+  left: 10%;
+}
+.group-two::before {
+  top: -30px;
+  right: 10%;
+}
+#instructions::before {
+  top: -30px;
+  left: 50%;
+}
+
+/* Input Fields with Circus Style */
+input,
+select {
+  background: white;
+  color: var(--circus-text);
+  border: 3px dashed var(--circus-purple);
+  padding: 1rem;
+  border-radius: 15px;
+  width: 100%;
+  margin-bottom: 1rem;
+  transition: all 0.3s ease;
+  font-family: "Comic Sans MS", cursive;
+}
+
+input:focus,
+select:focus {
+  border-style: solid;
+  border-color: var(--circus-red);
+  box-shadow: 0 0 15px var(--circus-yellow);
+  transform: scale(1.05) rotate(1deg);
+}
+
+/* Circus Buttons */
+button {
+  background: linear-gradient(45deg, var(--circus-red), var(--circus-orange));
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  animation: buttonPop 0.5s infinite alternate;
+}
+
+@keyframes buttonPop {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.05);
+  }
+}
+
+button:hover {
+  background: linear-gradient(45deg, var(--circus-orange), var(--circus-red));
+  transform: rotate(5deg) scale(1.1);
+  box-shadow: 0 0 20px var(--circus-yellow);
+}
+
+button::after {
+  content: "🎪";
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  animation: emojiSpin 2s infinite;
+}
+
+@keyframes emojiSpin {
+  0% {
+    transform: translateY(-50%) rotate(0deg);
+  }
+  100% {
+    transform: translateY(-50%) rotate(360deg);
+  }
+}
+
+/* Instructions with Circus Flair */
+#instructions ol {
+  list-style: none;
+  padding: 0;
+  counter-reset: circus-counter;
+}
+
+#instructions li {
+  counter-increment: circus-counter;
+  margin: 1.5rem 0;
+  padding: 1rem;
+  position: relative;
+  background: white;
+  border-radius: 10px;
+  border: 2px solid var(--circus-blue);
+  animation: listItemDance 3s infinite;
+}
+
+@keyframes listItemDance {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-5px);
+  }
+  75% {
+    transform: translateX(5px);
+  }
+}
+
+#instructions li::before {
+  content: counter(circus-counter);
+  position: absolute;
+  left: -1.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  background: var(--circus-red);
+  color: white;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  animation: numberSpin 2s infinite;
+}
+
+@keyframes numberSpin {
+  0% {
+    transform: translateY(-50%) rotate(0deg);
+  }
+  100% {
+    transform: translateY(-50%) rotate(360deg);
+  }
+}
+
+/* Footer with Circus Finale */
+footer {
+  background: linear-gradient(45deg, var(--circus-red), var(--circus-yellow));
+  padding: 2rem;
+  text-align: center;
+  position: relative;
+  border-top: 5px dashed var(--circus-blue);
+}
+
+#footerClocks {
+  animation: clockDance 2s infinite;
+}
+
+@keyframes clockDance {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .main-container {
+    padding: 1rem;
+  }
+
+  .group-one,
+  .group-two,
+  #instructions {
+    margin: 0.5rem;
+    padding: 1rem;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--circus-bg);
+  border: 2px dashed var(--circus-red);
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(var(--circus-red), var(--circus-yellow));
+  border-radius: 10px;
+  border: 2px solid var(--circus-blue);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(var(--circus-yellow), var(--circus-red));
+}
+
+/* Add clown face animation */
+@keyframes clownAppear {
+  0% {
+    opacity: 0;
+    transform: scale(0.5) rotate(0deg);
+  }
+  20% {
+    opacity: 0.8;
+    transform: scale(1.2) rotate(5deg);
+  }
+  40% {
+    opacity: 0.6;
+    transform: scale(1) rotate(-5deg);
+  }
+  60% {
+    opacity: 0.8;
+    transform: scale(1.1) rotate(3deg);
+  }
+  80% {
+    opacity: 0.4;
+    transform: scale(0.9) rotate(-3deg);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0.5) rotate(0deg);
+  }
+}
+
+.clown-face {
+  position: fixed;
+  width: 100px;
+  height: 100px;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="45" fill="%23ff1a1a"/><circle cx="35" cy="40" r="5" fill="%23fff"/><circle cx="65" cy="40" r="5" fill="%23fff"/><path d="M30,65 Q50,80 70,65" stroke="%23fff" stroke-width="3" fill="none"/><path d="M45,75 L45,80 M55,75 L55,80" stroke="%23fff" stroke-width="2" fill="none"/></svg>');
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 1000;
+  pointer-events: none;
+  animation: clownAppear 3s ease-in-out;
+  display: none;
+}
+
+/* Enhanced balloon styles with colors and pulsing */
+.balloon {
+  position: absolute;
+  font-size: 2.5rem;
+  animation: balloonFloat 6s infinite alternate,
+    balloonPulse 2s infinite alternate;
+  opacity: 0.9;
+  z-index: 1;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.balloon:nth-child(1) {
+  color: #ff1a1a;
+  top: 10%;
+  left: 5%;
+  animation-delay: 0s;
+}
+.balloon:nth-child(2) {
+  color: #ffd700;
+  top: 20%;
+  right: 10%;
+  animation-delay: 1s;
+}
+.balloon:nth-child(3) {
+  color: #4169e1;
+  top: 30%;
+  left: 15%;
+  animation-delay: 2s;
+}
+.balloon:nth-child(4) {
+  color: #9370db;
+  top: 40%;
+  right: 20%;
+  animation-delay: 3s;
+}
+.balloon:nth-child(5) {
+  color: #ff8c00;
+  top: 50%;
+  left: 25%;
+  animation-delay: 4s;
+}
+.balloon:nth-child(6) {
+  color: #ff69b4;
+  top: 60%;
+  right: 30%;
+  animation-delay: 5s;
+}
+.balloon:nth-child(7) {
+  color: #32cd32;
+  top: 70%;
+  left: 35%;
+  animation-delay: 6s;
+}
+.balloon:nth-child(8) {
+  color: #ff1493;
+  top: 80%;
+  right: 40%;
+  animation-delay: 7s;
+}
+
+@keyframes balloonFloat {
+  0% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-50px) rotate(10deg);
+  }
+  100% {
+    transform: translateY(0) rotate(-10deg);
+  }
+}
+
+@keyframes balloonPulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+#letterFrequencyDisplay {
+  margin-top: 10px;
+  padding: 8px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-family: "Comic Sans MS", cursive;
+  color: #333;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.letter-frequency {
+  margin: 20px 0;
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+#letterFrequencyInput {
+  width: 100px;
+  padding: 8px;
+  font-size: 18px;
+  text-align: center;
+  border: 2px dashed var(--circus-purple);
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+.frequency-stats {
+  margin-top: 15px;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 5px;
+  border: 1px solid var(--circus-blue);
+}
+
+.frequency-stats p {
+  margin: 5px 0;
+  font-family: "Comic Sans MS", cursive;
+  color: var(--circus-text);
+}
+
+.highlight {
+  font-weight: bold;
+  color: var(--circus-red);
+  font-size: 1.1em;
+}
+
+/* Letter Frequency Table Hidden Styles */
+#letterFrequencySection.hidden {
+  display: none;
+}
+
+#wordsWithLetterContainer.hidden,
+#positionWordsContainer.hidden {
+  display: none;
+}
