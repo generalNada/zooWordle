@@ -1,4 +1,4 @@
-import { wordleWords, dailyWordsSmall } from "/theWholeEnchilada.js";
+import { wordleWords, dailyWordsSmall } from "../../../theWholeEnchilada.js";
 console.log(dailyWordsSmall.join(", "));
 
 let filteredWords = [...dailyWordsSmall];

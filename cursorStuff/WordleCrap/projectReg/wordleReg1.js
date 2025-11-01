@@ -1,4 +1,4 @@
-import { wordleWords, dailyWordsLarge } from '/theWholeEnchilada.js';
+import { wordleWords, dailyWordsLarge } from "../../../theWholeEnchilada.js";
 
 console.log(dailyWordsLarge.join(", "));
 
@@ -19,7 +19,9 @@ document.addEventListener("DOMContentLoaded", () => {
   const instructions = document.getElementById("instructions");
   const toggleLookupButton = document.getElementById("toggleLookupButton");
   const lookupSection = document.getElementById("lookupSection");
-  const lookupWordNumberButton = document.getElementById("lookupWordNumberButton");
+  const lookupWordNumberButton = document.getElementById(
+    "lookupWordNumberButton"
+  );
   const undoButton = document.getElementById("undoButton");
 
   resetButton1.addEventListener("click", resetGroupOne);
@@ -36,7 +38,9 @@ document.addEventListener("DOMContentLoaded", () => {
     groupTwoSection.classList.toggle("hidden");
   });
 
-  toggleInstructions.addEventListener("click", () => instructions.classList.toggle("hidden"));
+  toggleInstructions.addEventListener("click", () =>
+    instructions.classList.toggle("hidden")
+  );
 
   applyFilterButton.addEventListener("click", handleApplyFilter);
   toggleLookupButton.addEventListener("click", function () {
@@ -53,7 +57,9 @@ function doesNotContainLetter(letter) {
 }
 
 function containsLetterAtPosition(letter, position) {
-  return filteredWords.filter((word) => word[position - 1] === letter.toUpperCase());
+  return filteredWords.filter(
+    (word) => word[position - 1] === letter.toUpperCase()
+  );
 }
 
 function containsLetterNotAtPosition(letter, position) {
@@ -83,10 +89,14 @@ function containsDuplicateLetters() {
 
 function handleWordInput() {
   const inputWord = document.getElementById("wordInput").value.toLowerCase();
-  const foundWord = wordleWords.find((wordObj) => wordObj.word.toLowerCase() === inputWord);
+  const foundWord = wordleWords.find(
+    (wordObj) => wordObj.word.toLowerCase() === inputWord
+  );
 
   if (foundWord) {
-    const averageScoreUpToDate = calculateAverageScoreUpToDate(foundWord.gameDate);
+    const averageScoreUpToDate = calculateAverageScoreUpToDate(
+      foundWord.gameDate
+    );
     const resultString = `'${foundWord.word}' was already used by Wordle on ${foundWord.gameDate}.<br> It was word #${foundWord.wordNumber}, 
         and you had a score of '${foundWord.myScore}'.<br> Your average score up to this date: ${averageScoreUpToDate}.<br> Do NOT guess '${foundWord.word}'.`;
     document.querySelector(".field-one").innerHTML = resultString;
@@ -111,15 +121,25 @@ function resetFilteredWords() {
 }
 
 function calculateAverageScoreUpToDate(date) {
-  const scoresUpToDate = wordleWords.filter((wordObj) => new Date(wordObj.gameDate) <= new Date(date) && wordObj.myScore !== 0).map((wordObj) => wordObj.myScore);
+  const scoresUpToDate = wordleWords
+    .filter(
+      (wordObj) =>
+        new Date(wordObj.gameDate) <= new Date(date) && wordObj.myScore !== 0
+    )
+    .map((wordObj) => wordObj.myScore);
   const totalScore = scoresUpToDate.reduce((acc, score) => acc + score, 0);
-  const averageScore = scoresUpToDate.length > 0 ? (totalScore / scoresUpToDate.length).toFixed(8) : 0;
+  const averageScore =
+    scoresUpToDate.length > 0
+      ? (totalScore / scoresUpToDate.length).toFixed(8)
+      : 0;
   return averageScore;
 }
 
 function lookupWordNumber() {
   const wordNumber = parseInt(document.getElementById("wordNumberInput").value);
-  const foundWord = wordleWords.find((wordObj) => wordObj.wordNumber === wordNumber);
+  const foundWord = wordleWords.find(
+    (wordObj) => wordObj.wordNumber === wordNumber
+  );
 
   const wordDetailsDiv = document.getElementById("wordDetails");
   if (foundWord) {

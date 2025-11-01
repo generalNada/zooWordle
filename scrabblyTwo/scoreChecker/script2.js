@@ -1,4 +1,4 @@
-import { wordleWords } from "/theWholeEnchilada.js";
+import { wordleWords } from "../../theWholeEnchilada.js";
 
 class WordleScoreTracker {
   constructor() {

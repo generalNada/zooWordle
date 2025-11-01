@@ -1,4 +1,4 @@
-import { wordleWords, dailyWordsLarge } from '/theWholeEnchilada.js';
+import { wordleWords, dailyWordsLarge } from "../../../theWholeEnchilada.js";
 
 console.log(dailyWordsLarge.join(", "));
 
@@ -19,7 +19,9 @@ document.addEventListener("DOMContentLoaded", () => {
   const instructions = document.getElementById("instructions");
   const toggleLookupButton = document.getElementById("toggleLookupButton");
   const lookupSection = document.getElementById("lookupSection");
-  const lookupWordNumberButton = document.getElementById("lookupWordNumberButton");
+  const lookupWordNumberButton = document.getElementById(
+    "lookupWordNumberButton"
+  );
   const undoButton = document.getElementById("undoButton");
 
   resetButton1.addEventListener("click", resetGroupOne);
@@ -52,7 +54,9 @@ function doesNotContainLetter(letter) {
 }
 
 function containsLetterAtPosition(letter, position) {
-  return filteredWords.filter((word) => word[position - 1] === letter.toUpperCase());
+  return filteredWords.filter(
+    (word) => word[position - 1] === letter.toUpperCase()
+  );
 }
 
 function containsLetterNotAtPosition(letter, position) {
@@ -82,10 +86,14 @@ function containsDuplicateLetters() {
 
 function handleWordInput() {
   const inputWord = document.getElementById("wordInput").value.toLowerCase();
-  const foundWord = wordleWords.find((wordObj) => wordObj.word.toLowerCase() === inputWord);
+  const foundWord = wordleWords.find(
+    (wordObj) => wordObj.word.toLowerCase() === inputWord
+  );
 
   if (foundWord) {
-    const averageScoreUpToDate = calculateAverageScoreUpToDate(foundWord.gameDate);
+    const averageScoreUpToDate = calculateAverageScoreUpToDate(
+      foundWord.gameDate
+    );
     const resultString = `'${foundWord.word}' was already used by Wordle on ${foundWord.gameDate}.<br> It was word #${foundWord.wordNumber}, 
         and you had a score of '${foundWord.myScore}'.<br> Your average score up to this date: ${averageScoreUpToDate}.<br> Do NOT guess '${foundWord.word}'.`;
     document.querySelector(".field-one").innerHTML = resultString;
@@ -110,15 +118,25 @@ function resetFilteredWords() {
 }
 
 function calculateAverageScoreUpToDate(date) {
-  const scoresUpToDate = wordleWords.filter((wordObj) => new Date(wordObj.gameDate) <= new Date(date) && wordObj.myScore !== 0).map((wordObj) => wordObj.myScore);
+  const scoresUpToDate = wordleWords
+    .filter(
+      (wordObj) =>
+        new Date(wordObj.gameDate) <= new Date(date) && wordObj.myScore !== 0
+    )
+    .map((wordObj) => wordObj.myScore);
   const totalScore = scoresUpToDate.reduce((acc, score) => acc + score, 0);
-  const averageScore = scoresUpToDate.length > 0 ? (totalScore / scoresUpToDate.length).toFixed(8) : 0;
+  const averageScore =
+    scoresUpToDate.length > 0
+      ? (totalScore / scoresUpToDate.length).toFixed(8)
+      : 0;
   return averageScore;
 }
 
 function lookupWordNumber() {
   const wordNumber = parseInt(document.getElementById("wordNumberInput").value);
-  const foundWord = wordleWords.find((wordObj) => wordObj.wordNumber === wordNumber);
+  const foundWord = wordleWords.find(
+    (wordObj) => wordObj.wordNumber === wordNumber
+  );
 
   const wordDetailsDiv = document.getElementById("wordDetails");
   if (foundWord) {
@@ -196,9 +214,13 @@ function resetGroupOne() {
   }
 }
 
-const toggleAverageScoreButton = document.getElementById("toggleAverageScoreButton");
+const toggleAverageScoreButton = document.getElementById(
+  "toggleAverageScoreButton"
+);
 const averageScoreSection = document.getElementById("averageScoreSection");
-const calculateAverageButton = document.getElementById("calculateAverageButton");
+const calculateAverageButton = document.getElementById(
+  "calculateAverageButton"
+);
 const averageScoreResult = document.getElementById("averageScoreResult");
 
 toggleAverageScoreButton.addEventListener("click", () => {
@@ -217,7 +239,10 @@ calculateAverageButton.addEventListener("click", () => {
   const start = Math.min(wordNumber1, wordNumber2);
   const end = Math.max(wordNumber1, wordNumber2);
 
-  const filteredWords = wordleWords.filter((word) => word.wordNumber >= start && word.wordNumber <= end && word.myScore > 0);
+  const filteredWords = wordleWords.filter(
+    (word) =>
+      word.wordNumber >= start && word.wordNumber <= end && word.myScore > 0
+  );
 
   if (filteredWords.length === 0) {
     averageScoreResult.textContent = "No words found in this range.";
@@ -227,5 +252,7 @@ calculateAverageButton.addEventListener("click", () => {
   const totalScore = filteredWords.reduce((sum, word) => sum + word.myScore, 0);
   const averageScore = totalScore / filteredWords.length;
 
-  averageScoreResult.textContent = `The average score between word #${start} and word #${end} is ${averageScore.toFixed(5)}.`;
+  averageScoreResult.textContent = `The average score between word #${start} and word #${end} is ${averageScore.toFixed(
+    5
+  )}.`;
 });

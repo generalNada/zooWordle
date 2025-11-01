@@ -1,4 +1,4 @@
-import { wordleWords } from "/theWholeEnchilada.js";
+import { wordleWords } from "../../theWholeEnchilada.js";
 
 // Ensure Chart.js is loaded before proceeding
 if (typeof Chart === "undefined") {

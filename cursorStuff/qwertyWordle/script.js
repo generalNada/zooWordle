@@ -2,7 +2,7 @@ import {
   wordleWords,
   dailyWordsSmall,
   dailyWordsLarge,
-} from "/theWholeEnchilada.js";
+} from "../../theWholeEnchilada.js";
 
 let usingLargeList = false;
 let currentWordList = [...dailyWordsSmall];
