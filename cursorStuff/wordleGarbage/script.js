@@ -1,4 +1,4 @@
-import { wordleWords, dailyWordsSmall } from "../../../theWholeEnchilada.js";
+import { wordleWords, dailyWordsSmall } from "../../theWholeEnchilada.js";
 
 let filteredWords = [...dailyWordsSmall];
 let history = [];
