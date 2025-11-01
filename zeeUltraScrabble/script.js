@@ -1,4 +1,4 @@
-import { fixedWordsLarge, letterValues } from "/theWholeEnchilada.js";
+import { fixedWordsLarge, letterValues } from "../theWholeEnchilada.js";
 
 // Filter words by prefix
 function filterWordsByPrefix(prefix) {
