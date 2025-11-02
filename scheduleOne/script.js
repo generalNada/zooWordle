@@ -453,11 +453,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
         // Check if ID matches
         if (day.id.toString().toLowerCase().includes(searchTerm)) {
+          console.log(`ID match: ${day.id} matches "${searchTerm}"`);
           dayMatches = true;
         }
 
         // Check if date matches
         if (parseDateAndMatch(day.date, searchTerm)) {
+          console.log(`Date match: ${day.date} matches "${searchTerm}"`);
           dayMatches = true;
         }
 
