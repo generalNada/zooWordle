@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>letterPopular</title>
+    <link rel="stylesheet" href="letters.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Letter Popularity Tracker</h1>
+
+      <div class="form-section">
+        <div class="section-header">
+          <h2>📝 Add New Entry</h2>
+          <button id="toggleFormBtn" class="toggle-btn">➕ Show Form</button>
+        </div>
+        <div id="formContainer" class="form-container hidden">
+          <form id="letterForm">
+            <input
+              type="text"
+              id="name"
+              placeholder="✨ Enter your name"
+              required
+            />
+            <input type="date" id="date" required />
+
+            <label for="favorite">💖 Favorite Letter:</label>
+            <select id="favorite" required></select>
+
+            <label for="least">💔 Least Favorite Letter:</label>
+            <select id="least" required></select>
+
+            <button type="submit">🚀 Submit Entry</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="results">
+        <div class="stats-section">
+          <div class="section-header">
+            <h2>🏆 Most Loved Letters</h2>
+            <button id="toggleFavoriteStatsBtn" class="toggle-btn">
+              📊 Show Stats
+            </button>
+          </div>
+          <div id="favoriteStatsContainer" class="stats-container hidden">
+            <ul id="favoriteStats"></ul>
+          </div>
+        </div>
+
+        <div class="stats-section">
+          <div class="section-header">
+            <h2>💔 Least Popular Letters</h2>
+            <button id="toggleLeastStatsBtn" class="toggle-btn">
+              📊 Show Stats
+            </button>
+          </div>
+          <div id="leastStatsContainer" class="stats-container hidden">
+            <ul id="leastStats"></ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="charts-section">
+        <div class="section-header">
+          <h2>📈 Display Data</h2>
+          <button id="toggleChartsBtn" class="toggle-btn">
+            📊 Show Charts
+          </button>
+        </div>
+        <div id="chartsContainer" class="charts-container hidden">
+          <div class="charts-grid">
+            <div class="chart-panel">
+              <h3>🏆 Most Popular Letters</h3>
+              <div id="favoriteChart" class="chart-container">
+                <div class="chart-bars" id="favoriteBars"></div>
+              </div>
+            </div>
+            <div class="chart-panel">
+              <h3>💔 Least Popular Letters</h3>
+              <div id="leastChart" class="chart-container">
+                <div class="chart-bars" id="leastBars"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Count-based charts -->
+          <div class="charts-grid">
+            <div class="chart-panel">
+              <h3>📊 Favorite Letter Vote Counts</h3>
+              <div id="favoriteCountChart" class="chart-container">
+                <div class="chart-bars" id="favoriteCountBars"></div>
+              </div>
+            </div>
+            <div class="chart-panel">
+              <h3>📉 Least Favorite Vote Counts</h3>
+              <div id="leastCountChart" class="chart-container">
+                <div class="chart-bars" id="leastCountBars"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="entries-section">
+        <div class="section-header">
+          <h2>👥 Manage Entries</h2>
+          <button id="toggleEntriesBtn" class="toggle-btn">
+            👁️ Show Entries
+          </button>
+        </div>
+        <div id="entriesContainer" class="entries-container hidden">
+          <div class="search-filters">
+            <div class="search-row">
+              <div class="search-field">
+                <label for="searchName">🔍 Search by Name:</label>
+                <input
+                  type="text"
+                  id="searchName"
+                  placeholder="Type name to filter..."
+                  class="search-input"
+                />
+              </div>
+               
+              <div class="search-field">
+                <label for="searchDate">🗓️ Search by Date:</label>
+                <input type="date" id="searchDate" class="search-input" />
+              </div>
+            </div>
+            <div class="search-row">
+              <div class="search-field">
+                <label for="searchFavorite">💖 Filter by Favorite:</label>
+                <select id="searchFavorite" class="search-input">
+                  <option value="">All letters</option>
+                </select>
+              </div>
+              <div class="search-field">
+                <label for="searchLeast">💔 Filter by Least:</label>
+                <select id="searchLeast" class="search-input">
+                  <option value="">All letters</option>
+                </select>
+              </div>
+            </div>
+            <div class="search-actions">
+              <button id="clearFilters" class="clear-filters-btn">
+                🧹 Clear All Filters
+              </button>
+              <div class="results-count">
+                <span id="resultsCount">0 entries found</span>
+              </div>
+            </div>
+          </div>
+          <div id="entriesList" class="entries-list"></div>
+        </div>
+      </div>
+
+      <div class="export-section">
+        <div class="section-header">
+          <h2>📊 Data Management</h2>
+          <button id="toggleDataMgmtBtn" class="toggle-btn">
+            ⚙️ Show Data Management
+          </button>
+        </div>
+        <div id="dataMgmtContainer" class="data-mgmt-container hidden">
+          <div class="data-management-grid">
+            <div class="management-group">
+              <h3>💾 Save & Export</h3>
+              <div class="button-group">
+                <button id="saveBtn" class="save-data-btn">
+                  💾 Quick Save
+                </button>
+                <button id="exportBtn" class="export-data-btn">
+                  📤 Custom Export
+                </button>
+              </div>
+            </div>
+
+            <div class="management-group">
+              <h3>📥 Import</h3>
+              <div class="button-group">
+                <input type="file" id="importInput" accept=".json" />
+              </div>
+            </div>
+
+            <div class="management-group danger-zone">
+              <h3>⚠️ Danger Zone</h3>
+              <div class="button-group">
+                <button id="deleteAllBtn" class="delete-all-btn">
+                  🗑️ Delete All Data
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Edit Modal -->
+    <div id="editModal" class="modal hidden">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3>✏️ Edit Entry</h3>
+          <button id="closeModal" class="close-btn">&times;</button>
+        </div>
+        <form id="editForm">
+          <input type="hidden" id="editId" />
+          <input
+            type="text"
+            id="editName"
+            placeholder="✨ Enter your name"
+            required
+          />
+          <input type="date" id="editDate" required />
+
+          <label for="editFavorite">💖 Favorite Letter:</label>
+          <select id="editFavorite" required></select>
+
+          <label for="editLeast">💔 Least Favorite Letter:</label>
+          <select id="editLeast" required></select>
+
+          <div class="modal-buttons">
+            <button type="submit" class="save-btn">💾 Save Changes</button>
+            <button type="button" id="cancelEdit" class="cancel-btn">
+              ❌ Cancel
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <a href="../index.html">Back To Zoo!</a>
+    <script src="letters.js"></script>
+  </body>
+</html>
