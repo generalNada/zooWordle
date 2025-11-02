@@ -71,18 +71,18 @@ document.addEventListener("DOMContentLoaded", () => {
 
     getAllRequest.onsuccess = () => {
       const days = getAllRequest.result;
-      
+
       // Find the next available sequential number
       let nextId = 1;
       if (days.length > 0) {
-        const ids = days.map(day => {
+        const ids = days.map((day) => {
           // Extract numeric part from ID (handles both "1" and "day_1" formats)
           const match = day.id.toString().match(/\d+/);
           return match ? parseInt(match[0]) : 0;
         });
         nextId = Math.max(...ids) + 1;
       }
-      
+
       const id = `${nextId}`;
       const newDay = { id, date, notes: [] };
 

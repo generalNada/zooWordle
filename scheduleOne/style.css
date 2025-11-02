@@ -48,15 +48,34 @@ section {
   position: relative;
 }
 
-section .close {
+#notesSection {
+  position: relative;
+  padding: 20px;
+}
+
+section .close,
+#notesSection .close {
   position: absolute;
-  top: 10px;
-  right: 10px;
+  top: 5px;
+  right: 5px;
   background: red;
   color: white;
-  font-size: 14px;
+  font-size: 10px;
   border: none;
   cursor: pointer;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+  padding: 0;
+}
+
+#notesSection .close {
+  position: absolute;
+  top: 2px;
+  right: 2px;
 }
 
 .day-item {
