@@ -353,80 +353,119 @@ document.addEventListener("DOMContentLoaded", () => {
       // Helper function to parse dates and check for matches
       function parseDateAndMatch(dateStr, searchTerm) {
         const dateLower = dateStr.toLowerCase();
-        
+
         // Direct match against full date string
         if (dateLower.includes(searchTerm)) {
           return true;
         }
-        
+
         // Try to parse different date formats - we'll assume DD-MM-YYYY format
         // This handles formats like: DD-MM-YYYY, DD/MM/YYYY, DD-MM-YY, DD/MM/YY
         const dateFormat = /^(\d{1,2})[-\/](\d{1,2})[-\/](\d{2,4})$/;
         const match = dateStr.match(dateFormat);
-        
+
         if (match) {
           const [, first, second, year] = match;
-          
+
           // For ambiguous formats, check both interpretations
           // Assume DD-MM for most international formats, but also check if either number could be month
           const shortYear = year.length === 2 ? `20${year}` : year;
-          
+
           // Check if search term matches day, month, or year
-          if (first === searchTerm || second === searchTerm || year === searchTerm || shortYear === searchTerm) {
+          if (
+            first === searchTerm ||
+            second === searchTerm ||
+            year === searchTerm ||
+            shortYear === searchTerm
+          ) {
             return true;
           }
-          
+
           // Check month names - try to determine which number is the month
-          const monthNames = ['january', 'february', 'march', 'april', 'may', 'june',
-                              'july', 'august', 'september', 'october', 'november', 'december'];
-          const monthAbbrev = ['jan', 'feb', 'mar', 'apr', 'may', 'jun',
-                               'jul', 'aug', 'sep', 'oct', 'nov', 'dec'];
-          
+          const monthNames = [
+            "january",
+            "february",
+            "march",
+            "april",
+            "may",
+            "june",
+            "july",
+            "august",
+            "september",
+            "october",
+            "november",
+            "december",
+          ];
+          const monthAbbrev = [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec",
+          ];
+
           // Check if first number could be a month (1-12)
           const firstNum = parseInt(first);
           if (firstNum >= 1 && firstNum <= 12) {
             const fullMonthName = monthNames[firstNum - 1];
             const abbrevMonthName = monthAbbrev[firstNum - 1];
-            
-            if (searchTerm.includes(fullMonthName) || searchTerm.includes(abbrevMonthName) ||
-                fullMonthName.includes(searchTerm) || abbrevMonthName.includes(searchTerm)) {
+
+            if (
+              searchTerm.includes(fullMonthName) ||
+              searchTerm.includes(abbrevMonthName) ||
+              fullMonthName.includes(searchTerm) ||
+              abbrevMonthName.includes(searchTerm)
+            ) {
               return true;
             }
           }
-          
+
           // Also check if second number could be a month (American format detection)
           const secondNum = parseInt(second);
           if (secondNum >= 1 && secondNum <= 12) {
             const fullMonthName = monthNames[secondNum - 1];
             const abbrevMonthName = monthAbbrev[secondNum - 1];
-            
-            if (searchTerm.includes(fullMonthName) || searchTerm.includes(abbrevMonthName) ||
-                fullMonthName.includes(searchTerm) || abbrevMonthName.includes(searchTerm)) {
+
+            if (
+              searchTerm.includes(fullMonthName) ||
+              searchTerm.includes(abbrevMonthName) ||
+              fullMonthName.includes(searchTerm) ||
+              abbrevMonthName.includes(searchTerm)
+            ) {
               return true;
             }
           }
         }
-        
+
         return false;
       }
 
       // Search through all days and notes
       days.forEach((day) => {
         let dayMatches = false;
-        
+
         // Check if ID matches
         if (day.id.toString().toLowerCase().includes(searchTerm)) {
           dayMatches = true;
         }
-        
+
         // Check if date matches
         if (parseDateAndMatch(day.date, searchTerm)) {
           dayMatches = true;
         }
-        
+
         // Search through notes
+        let hasNoteMatch = false;
         day.notes.forEach((note, index) => {
           if (note.toLowerCase().includes(searchTerm) || dayMatches) {
+            hasNoteMatch = true;
             results.push({
               id: day.id,
               date: day.date,
@@ -435,6 +474,16 @@ document.addEventListener("DOMContentLoaded", () => {
             });
           }
         });
+
+        // If day matches but has no notes, add a placeholder result
+        if (dayMatches && !hasNoteMatch) {
+          results.push({
+            id: day.id,
+            date: day.date,
+            note: "(No notes for this day)",
+            noteIndex: -1,
+          });
+        }
       });
 
       // Display results
