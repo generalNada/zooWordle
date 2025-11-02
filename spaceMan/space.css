@@ -1,0 +1,283 @@
+/* General Page Styles */
+body {
+  margin: 0;
+  overflow: hidden;
+  background: black;
+  color: white;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+/* Button to Trigger the Sky */
+#activateSky {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 15px 30px;
+  font-size: 20px;
+  background: linear-gradient(45deg, #ff6f61, #d500f9);
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+#activateSky:hover {
+  transform: translate(-50%, -50%) scale(1.25);
+  background: linear-gradient(45deg, #d500f9, #ff6f61);
+}
+
+/* Night Sky - Initially Hidden */
+#nightSky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(
+    circle,
+    rgba(12, 6, 51, 1) 10%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  opacity: 0;
+  transition: opacity 2s ease-in-out;
+  pointer-events: none;
+}
+
+#nightSky2 {
+  position: relative;
+  margin: 20rem;
+  opacity: 0.45;
+}
+
+/* Star Animation */
+.star {
+  position: absolute;
+  background: white;
+  width: 2px;
+  height: 2px;
+  opacity: 0;
+  border-radius: 50%;
+  animation: twinkle 5s infinite alternate;
+}
+
+/* Twinkle Effect */
+@keyframes twinkle {
+  0% {
+    opacity: 0.2;
+    transform: scale(0.8);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0.5;
+    transform: scale(1.2);
+  }
+}
+
+/* Planets */
+.planet {
+  position: absolute;
+  border-radius: 50%;
+  cursor: pointer;
+  animation: float 10s infinite ease-in-out alternate;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Floating Planets */
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(20px);
+  }
+}
+
+/* Different Textures & Colors */
+.planet[data-type="rocky"] {
+  background: radial-gradient(circle, #7a7a7a, #3d3d3d);
+}
+
+.planet[data-type="gas"] {
+  background: radial-gradient(circle, #f5d095, #e0967b);
+  box-shadow: 0 0 20px rgba(200, 179, 159, 0.7);
+}
+
+.planet[data-type="ice"] {
+  background: radial-gradient(circle, #aeefff, #036b7e);
+  box-shadow: 0 0 15px rgba(0, 191, 255, 0.8);
+}
+
+/* Distant Planets - Smaller & Dimmer */
+.planet[data-depth="far"] {
+  transform: scale(0.8);
+  opacity: 0.6;
+  filter: blur(1px);
+}
+
+.planet[data-depth="mid"] {
+  transform: scale(0.5);
+}
+
+.planet[data-depth="close"] {
+  transform: scale(1.2);
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.9);
+}
+
+/* Shooting Star */
+.shooting-star {
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  background: white;
+  box-shadow: 0 0 10px white;
+  opacity: 0;
+  animation: shooting 2s linear forwards;
+}
+
+/* Shooting Star Motion */
+@keyframes shooting {
+  from {
+    transform: translateX(0px) translateY(0px) scale(1);
+    opacity: 1;
+  }
+  to {
+    transform: translateX(200px) translateY(100px) scale(0.5);
+    opacity: 0;
+  }
+}
+
+/* Message Box for Planets */
+#messageBox {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 15px;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  font-size: 18px;
+  border-radius: 8px;
+  display: none;
+}
+
+/* Star Animation */
+.star {
+  position: absolute;
+  background: white;
+  border-radius: 50%;
+  animation: twinkle 5s infinite alternate;
+}
+
+/* Twinkle Effect - Varies Per Star */
+@keyframes twinkle {
+  0% {
+    opacity: 0.2;
+    transform: scale(0.8);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0.5;
+    transform: scale(1.2);
+  }
+}
+
+/* Slight Parallax Effect for Depth */
+.star[data-depth="far"] {
+  opacity: 0.3;
+  filter: blur(1px);
+}
+.star[data-depth="mid"] {
+  opacity: 0.6;
+}
+.star[data-depth="close"] {
+  opacity: 1;
+  transform: scale(1.2);
+}
+
+/* Moon Base */
+/* Moon Base */
+#moon {
+  opacity: 1;
+  position: absolute;
+  top: 20%;
+  left: 80%;
+  width: 25px;
+  height: 25px;
+  background: radial-gradient(circle, #ddd 30%, #999 70%);
+  border-radius: 50%;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+  transition: all 2s ease-in-out;
+}
+
+/* New Moon (Fully Invisible) */
+#moon[data-phase="new"] {
+  background: transparent;
+  box-shadow: none;
+}
+
+/* Crescent & Gibbous Phases */
+#moon[data-phase="waxing-crescent"] {
+  background: radial-gradient(
+    circle at left,
+    rgba(255, 255, 255, 0.8) 40%,
+    rgba(0, 0, 0, 1) 80%
+  );
+}
+#moon[data-phase="first-quarter"] {
+  background: linear-gradient(to right, #ddd 50%, black 50%);
+}
+#moon[data-phase="waxing-gibbous"] {
+  background: radial-gradient(
+    circle at right,
+    rgba(255, 255, 255, 1) 60%,
+    rgba(0, 0, 0, 1) 90%
+  );
+}
+#moon[data-phase="full"] {
+  background: radial-gradient(circle, #fff 30%, #ddd 70%);
+}
+#moon[data-phase="waning-gibbous"] {
+  background: radial-gradient(
+    circle at left,
+    rgba(255, 255, 255, 1) 60%,
+    rgba(0, 0, 0, 1) 90%
+  );
+}
+#moon[data-phase="last-quarter"] {
+  background: linear-gradient(to left, #ddd 50%, black 50%);
+}
+#moon[data-phase="waning-crescent"] {
+  background: radial-gradient(
+    circle at right,
+    rgba(255, 255, 255, 0.8) 40%,
+    rgba(0, 0, 0, 1) 80%
+  );
+}
+
+/* Moon Motion */
+@keyframes moveMoon {
+  0% {
+    top: 10%;
+    left: 5%;
+  }
+  50% {
+    top: 20%;
+    left: 50%;
+  }
+  100% {
+    top: 30%;
+    left: 95%;
+  }
+}
+#moon.moving {
+  animation: moveMoon 600s linear infinite;
+}

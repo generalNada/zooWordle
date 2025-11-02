@@ -491,6 +491,7 @@ h2 {
     transform: rotate(0deg);
   }
 }
+
 @keyframes letterWiggle2 {
   0% {
     transform: rotate(0deg);

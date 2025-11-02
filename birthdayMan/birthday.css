@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 2rem;
+  background-color: #388d06;
+}
+
+.heading {
+  font-size: 2rem;
+  text-align: center;
+}
+
+#search {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 1rem;
+}
+
+#search input,
+#search select {
+  padding: 0.5rem;
+  font-size: 1rem;
+  background-color: #f1eaea;
+}
+
+#clearBtn {
+  padding: 0.5rem 1rem;
+  background-color: #555;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#birthDay,
+#birthYear,
+#showAllBtn,
+#clearAllBtn {
+  background-color: #f1eaea;
+  border: none;
+  cursor: pointer;
+}
+
+#clearBtn:hover {
+  background-color: #333;
+}
+
+.result {
+  background: rgb(218, 214, 214);
+  color: rgb(9, 9, 9);
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.results-heading {
+  font-size: 1.6em;
+  margin-bottom: 0.8em;
+}
+
+.date-info {
+  font-weight: bold;
+}

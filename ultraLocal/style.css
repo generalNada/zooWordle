@@ -269,3 +269,98 @@ button:active {
     margin: 1.5rem 0 0.75rem 0;
   }
 }
+
+.superPig {
+  font-family: "Luckiest Guy", cursive;
+  font-size: 1rem;
+  animation: letterWiggle 30s ease-in-out infinite,
+    firestormColors 30s ease-in-out infinite alternate;
+}
+
+@keyframes letterWiggle {
+  0% {
+    transform: rotate(0deg);
+  }
+  20% {
+    transform: rotate(5deg);
+  }
+  40% {
+    transform: rotate(-5deg);
+  }
+  60% {
+    transform: rotate(5deg);
+  }
+  80% {
+    transform: rotate(-5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes firestormColors {
+  0% {
+    color: #ff4b5c;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  }
+  5% {
+    color: #ffb400;
+  }
+  10% {
+    color: #3ae374;
+  }
+  15% {
+    color: #17c0eb;
+  }
+  20% {
+    color: #f368e0;
+  }
+  25% {
+    color: #ff6b6b;
+  }
+  30% {
+    color: #1dd1a1;
+  }
+  35% {
+    color: #48dbfb;
+  }
+  40% {
+    color: #5f27cd;
+  }
+  45% {
+    color: #00d2d3;
+  }
+  50% {
+    color: #ff9ff3;
+  }
+  55% {
+    color: #54a0ff;
+  }
+  60% {
+    color: #00cec9;
+  }
+  65% {
+    color: #fab1a0;
+  }
+  70% {
+    color: #fd79a8;
+  }
+  75% {
+    color: #a29bfe;
+  }
+  80% {
+    color: #ffeaa7;
+  }
+  85% {
+    color: #ff7675;
+  }
+  90% {
+    color: #81ecec;
+  }
+  95% {
+    color: #636e72;
+  }
+  100% {
+    color: #ff4b5c;
+  }
+}

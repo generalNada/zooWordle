@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./birthday.css" />
+  </head>
+  <body>
+    <a href="../index.html">Back To Zoo!</a>
+    <h1 class="heading">
+      🎂 🥳 🎉 🎁 My-People's Multi-Group Non-Lit Birthday-Finder 🎁 🎉 🥳 🎂
+    </h1>
+    <div id="search">
+      <input type="text" id="firstName" placeholder="First Name" />
+      <input type="text" id="lastName" placeholder="Last Name" />
+      <select id="group">
+        <option value="">-- Group --</option>
+      </select>
+
+      <select id="birthMonth">
+        <option value="">-- Month --</option>
+        <option value="all">All Months</option>
+        <option>January</option>
+        <option>February</option>
+        <option>March</option>
+        <option>April</option>
+        <option>May</option>
+        <option>June</option>
+        <option>July</option>
+        <option>August</option>
+        <option>September</option>
+        <option>October</option>
+        <option>November</option>
+        <option>December</option>
+      </select>
+
+      <input type="number" id="birthDay" placeholder="Day" />
+      <input type="number" id="birthYear" placeholder="Year" />
+      <button id="clearBtn">Clear</button>
+      <button id="showAllBtn">Show All Names</button>
+      <button id="clearAllBtn">Clear All Names</button>
+    </div>
+
+    <div id="results"></div>
+
+    <script type="module" src="birthday.js"></script>
+  </body>
+</html>
