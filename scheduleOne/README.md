@@ -24,7 +24,7 @@ scheduleOne/
 ├── script.js # Front-end logic for interactions and IndexedDB
 └── README.md # Documentation for the project
 
-## How to Use
+## How to Use It
 
 1. **Clone the Repository**:
 

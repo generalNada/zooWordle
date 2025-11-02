@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   request.onsuccess = (event) => {
     db = event.target.result;
-    console.log("Database connected!");
+    console.log("Database connected, Man!");
   };
 
   request.onerror = (event) => {
