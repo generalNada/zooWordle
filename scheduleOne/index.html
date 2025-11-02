@@ -18,8 +18,6 @@
 
       <section id="addDaySection" class="hidden">
         <form id="addDayForm">
-          <label for="id">ID:</label>
-          <input type="text" id="id" required />
           <label for="date">Date (dd-mm-yyyy):</label>
           <input type="text" id="date" required />
           <button type="submit">Submit</button>
@@ -49,24 +47,6 @@
         </div>
         <button class="close">X</button>
       </section>
-
-      <div id="notesSection" class="hidden">
-        <h3>Notes for ID: <span id="currentId"></span></h3>
-        <p id="dateDisplay"></p>
-        <!-- Field for the date and day of the week -->
-        <ul id="notesList"></ul>
-        <form id="addNoteForm">
-          <label for="noteContent">New Note:</label>
-          <input
-            type="text"
-            id="noteContent"
-            placeholder="Enter note or URL"
-            required
-          />
-          <button type="submit">Add Note</button>
-        </form>
-        <button class="close">X</button>
-      </div>
 
       <section id="searchNotesSection" class="hidden">
         <input type="text" id="searchBar" placeholder="Search notes..." />

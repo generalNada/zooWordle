@@ -56,32 +56,30 @@ document.addEventListener("DOMContentLoaded", () => {
   // Add a Day
   addDayForm.addEventListener("submit", (event) => {
     event.preventDefault();
-    const id = document.getElementById("id").value.trim();
     const date = document.getElementById("date").value.trim();
 
-    if (!id || !date) {
-      alert("Both ID and Date are required!");
+    if (!date) {
+      alert("Date is required!");
       return;
     }
 
     const transaction = db.transaction(["days"], "readwrite");
     const store = transaction.objectStore("days");
 
+    // Auto-generate ID based on timestamp
+    const id = `day_${Date.now()}`;
+
     const newDay = { id, date, notes: [] };
 
     const addRequest = store.add(newDay);
 
     addRequest.onsuccess = () => {
-      alert(`Day added: ID = ${id}, Date = ${date}`);
+      alert(`Day added: Date = ${date}`);
       addDayForm.reset();
     };
 
     addRequest.onerror = (event) => {
-      if (event.target.error.name === "ConstraintError") {
-        alert("This ID already exists! Please choose a unique ID.");
-      } else {
-        console.error("Error adding day:", event.target.error);
-      }
+      console.error("Error adding day:", event.target.error);
     };
   });
 
@@ -360,4 +358,86 @@ document.addEventListener("DOMContentLoaded", () => {
     .addEventListener("click", () => {
       notesSection.classList.add("hidden");
     });
+
+  // Search Notes Functionality
+  const searchBar = document.getElementById("searchBar");
+  const searchResults = document.getElementById("searchResults");
+
+  searchBar.addEventListener("input", (event) => {
+    const searchTerm = event.target.value.trim().toLowerCase();
+
+    if (searchTerm === "") {
+      searchResults.innerHTML = "";
+      return;
+    }
+
+    const transaction = db.transaction(["days"], "readonly");
+    const store = transaction.objectStore("days");
+    const getAllRequest = store.getAll();
+
+    getAllRequest.onsuccess = () => {
+      const days = getAllRequest.result;
+      const results = [];
+
+      // Search through all notes
+      days.forEach((day) => {
+        day.notes.forEach((note, index) => {
+          if (note.toLowerCase().includes(searchTerm)) {
+            results.push({
+              id: day.id,
+              date: day.date,
+              note: note,
+              noteIndex: index,
+            });
+          }
+        });
+      });
+
+      // Display results
+      searchResults.innerHTML = "";
+      if (results.length === 0) {
+        searchResults.innerHTML = "<li>No matching notes found.</li>";
+      } else {
+        results.forEach((result) => {
+          const listItem = document.createElement("li");
+          listItem.style.marginBottom = "15px";
+          listItem.style.padding = "10px";
+          listItem.style.border = "1px solid #ccc";
+          listItem.style.borderRadius = "5px";
+          listItem.style.backgroundColor = "#f9f9f9";
+
+          const dateLabel = document.createElement("div");
+          dateLabel.style.fontWeight = "bold";
+          dateLabel.style.color = "#4caf50";
+          dateLabel.textContent = `Date: ${result.date}`;
+
+          const noteContent = document.createElement("div");
+          noteContent.style.marginTop = "5px";
+
+          // Check if note is a URL
+          if (
+            result.note.startsWith("http://") ||
+            result.note.startsWith("https://")
+          ) {
+            const link = document.createElement("a");
+            link.href = result.note;
+            link.textContent = result.note;
+            link.target = "_blank";
+            link.rel = "noopener noreferrer";
+            noteContent.appendChild(link);
+          } else {
+            noteContent.textContent = result.note;
+          }
+
+          listItem.appendChild(dateLabel);
+          listItem.appendChild(noteContent);
+          searchResults.appendChild(listItem);
+        });
+      }
+    };
+
+    getAllRequest.onerror = () => {
+      console.error("Error searching notes");
+    };
+  });
 });
