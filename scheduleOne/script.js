@@ -66,20 +66,40 @@ document.addEventListener("DOMContentLoaded", () => {
     const transaction = db.transaction(["days"], "readwrite");
     const store = transaction.objectStore("days");
 
-    // Auto-generate ID based on timestamp
-    const id = `day_${Date.now()}`;
+    // Get all existing days to find the next sequential ID
+    const getAllRequest = store.getAll();
 
-    const newDay = { id, date, notes: [] };
+    getAllRequest.onsuccess = () => {
+      const days = getAllRequest.result;
+      
+      // Find the next available sequential number
+      let nextId = 1;
+      if (days.length > 0) {
+        const ids = days.map(day => {
+          // Extract numeric part from ID (handles both "1" and "day_1" formats)
+          const match = day.id.toString().match(/\d+/);
+          return match ? parseInt(match[0]) : 0;
+        });
+        nextId = Math.max(...ids) + 1;
+      }
+      
+      const id = `${nextId}`;
+      const newDay = { id, date, notes: [] };
 
-    const addRequest = store.add(newDay);
+      const addRequest = store.add(newDay);
 
-    addRequest.onsuccess = () => {
-      alert(`Day added: Date = ${date}`);
-      addDayForm.reset();
+      addRequest.onsuccess = () => {
+        alert(`Day added: Date = ${date}`);
+        addDayForm.reset();
+      };
+
+      addRequest.onerror = (event) => {
+        console.error("Error adding day:", event.target.error);
+      };
     };
 
-    addRequest.onerror = (event) => {
-      console.error("Error adding day:", event.target.error);
+    getAllRequest.onerror = () => {
+      console.error("Error fetching days to generate ID");
     };
   });
 
