@@ -1383,7 +1383,7 @@ export const dailyWordsSmall = [
     'MAFIA', 'MAKER', 'MAMMA', 'MAMMY', 'MANGE', 'MANGY', 'MANIC',
     'MEATY', 'MECCA', 'MELEE', 'MILKY', 
     'MINIM', 'MINOR', 'MISER', 'MISSY', 'MOCHA',
-    'MOGUL', 'MOODY', 'MORON', 'MORPH', 'MOTEL', 'MOTIF', 'MOUND', 
+    'MOGUL', 'MOODY', 'MORON', 'MORPH', 'MOTIF', 'MOUND', 
     'MOVER', 'MOWER',
     'MUCUS', 'MUDDY', 'MURKY', 'MUSKY', 'MYRRH', 'NACHO',
     'NEWER', 'NEWLY', 'NIECE', 'NINNY',
@@ -2161,7 +2161,7 @@ export const dailyWordsLarge = [
     'MOPES', 'MOPEY', 'MOPPY', 'MOPSY', 'MOPUS', 'MORAE', 'MORAS', 'MORAT', 'MORAY',
     'MOREL', 'MORES', 'MORIA', 'MORNE', 'MORNS', 'MORON', 'MORPH', 'MORRA', 'MORRO', 'MORSE',
     'MORTS', 'MOSED', 'MOSES', 'MOSEY', 'MOSKS', 'MOSSO', 'MOSTE', 'MOSTS', 'MOTED',
-    'MOTEL', 'MOTEN', 'MOTES', 'MOTET', 'MOTEY', 'MOTHS', 'MOTHY', 'MOTIF', 'MOTIS', 
+    'MOTEN', 'MOTES', 'MOTET', 'MOTEY', 'MOTHS', 'MOTHY', 'MOTIF', 'MOTIS', 
     'MOTTE', 'MOTTS', 'MOTTY', 'MOTUS', 'MOTZA', 'MOUCH', 'MOUES', 'MOULD', 'MOULS',
     'MOUND', 'MOUPS', 'MOUST', 'MOUSY', 'MOVED',
     'MOVER', 'MOVES', 'MOWAS', 'MOWED', 'MOWER', 'MOWRA', 'MOXAS', 'MOXIE', 'MOYAS',
@@ -12282,7 +12282,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("October 31, 2025: Trump sux dykk000000000! ABHOR")
+console.log("November 1, 2025: Trump sux dykk000000000! MOTEL")
 
 
 console.log(wordleWords)
