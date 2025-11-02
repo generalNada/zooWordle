@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>wordleDailySmall</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mystery+Quest&family=Geologica:wght@100..900&family=Protest+Riot&display=swap"
+      rel="stylesheet"
+    />
+    <link href="style2.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="linkLay">
+      <a href="index.html" class="linky1">Wanna fixedLarge? Click Here!</a>
+      <a href="index3.html" class="linky3">Wanna dailyLarge? Click Here!</a>
+    </div>
+    <h1>wordleDailySmall</h1>
+
+    <label for="word-dropdown">Choose a starting word:</label>
+    <select id="word-dropdown">
+      <option value="">Select a word</option>
+    </select>
+
+    <div id="input-container">
+      <input
+        type="text"
+        id="guess"
+        maxlength="5"
+        placeholder="Type a 5-letter word"
+      />
+      <button id="submit">Check</button>
+    </div>
+
+    <h2>Previous Guesses</h2>
+    <ul id="previous-guesses"></ul>
+
+    <h2>Possible Words (<span id="word-count">0</span>)</h2>
+    <ul id="filtered-words"></ul>
+    <a href="../index.html">Back To zooWordle</a>
+    <script type="module" src="script2.js"></script>
+  </body>
+</html>

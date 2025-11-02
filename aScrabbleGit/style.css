@@ -1,0 +1,84 @@
+
+h1, h2 { 
+    font-family: "Neucha", cursive;
+    color: rgb(127, 91, 224);
+    border: solid rgb(12, 111, 124) 6px;
+    border-radius: 8px;
+    padding: 5px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: rgba(255, 255);
+    color: rgb(15, 166, 33);
+    padding: 20px;
+}
+
+.section {
+    margin-top: 20px;
+}
+
+#output, #wordListOutput {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 16px;
+    color: rgb(113, 109, 172);
+}
+
+#output2, #totalScore {
+    margin-top: 15px;
+    font-size: 18px;
+    color: rgb(70, 14, 224);
+}
+
+.letter-box {
+    display: inline-block;
+    margin: 5px;
+    font-size: 24px;
+    text-align: center;
+    animation: rollIn 0.5s ease;
+}
+
+.letter {
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.value {
+    font-size: 24px;
+    color: rgb(50, 89, 17);
+}
+
+@keyframes rollIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+input, button {
+    padding: 8px 15px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(91, 156, 156);
+    color: rgb(9, 74, 98);
+    background-color: rgb(90, 156, 156);
+}
+
+#letterPositionOutput,
+#wordListOutput
+ {
+    font-size: 10px;
+}
+
+
+

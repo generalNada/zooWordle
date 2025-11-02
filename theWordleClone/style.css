@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+    color: rgb(151, 151, 236);
+    background-color: rgb(9, 7, 81);
+    font-family: "Righteous", serif;
+}
+
+.linkLay {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.linky2 {
+    text-decoration: none;
+    color: rgb(42, 168, 158);
+    font-family: "Diplomata", serif;
+
+}
+
+.linky3 {
+    text-decoration: none;
+    color: rgb(241, 186, 83);
+    font-family: "Galindo", serif;
+}
+
+.linky2:hover {
+    text-decoration: underline;
+    color: rgb(182, 210, 20);
+    font-family: "Mystery Quest", serif;
+    font-size: 1.5rem;
+}
+
+.linky3:hover {
+    text-decoration: underline;
+    color: rgb(244, 141, 125);
+    font-family: "Grand Hotel", serif;
+    font-size: 1.5rem;
+}
+
+#input-container {
+    margin-bottom: 20px;
+}
+
+input {
+    font-size: 18px;
+    padding: 5px;
+    text-transform: uppercase;
+    width: 150px;
+    text-align: center;
+}
+
+button {
+    font-size: 18px;
+    padding: 5px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#previous-guesses {
+    list-style: none;
+    padding: 0;
+}
+
+.guess-item {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#guess,
+#submit,
+#word-dropdown {
+    background-color: #c7681a;
+    color: wheat;
+}
+
+#guess,
+#submit {
+    font-size: .65rem;
+}
+
+#guess::placeholder {
+    color: wheat;
+    opacity: 1; /* Ensure visibility */
+}
+
+
+#filtered-words {
+    color: #a0b8ed;
+    font-family: "Patua One", serif;
+} 
+
+
+
+
+
+.letter-box {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    border: .1rem solid #ffffff;
+    opacity: 0;  /* Initially hidden */
+    transform: scale(0.8);
+    animation: reveal 1s ease-in forwards;
+}
+
+.green { background-color: #6aaa64; color: white; }
+.orange { background-color: #c9b458; color: white; }
+.gray { background-color: #787c7e; color: white; }
+
+@keyframes reveal {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}

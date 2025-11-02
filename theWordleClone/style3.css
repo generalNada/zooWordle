@@ -1,0 +1,139 @@
+body {
+    text-align: center;
+    margin: 20px;
+    color: rgb(243, 143, 126);
+    background-color: rgb(122, 7, 42);
+    font-size: 1.2rem;
+    font-family: "Road Rage", serif;
+}
+
+.linkLay {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.linky1 {
+    text-decoration: none;
+    color: rgb(103, 107, 239);
+}
+
+.linky2 {
+    text-decoration: none;
+    color: rgb(195, 89, 231);
+}
+
+.linky1:hover {
+    text-decoration: underline;
+    color: rgb(107, 237, 178);
+    font-family: "UnifrakturCook", serif;
+}
+
+.linky2:hover {
+    text-decoration: underline;
+    color: rgb(107, 237, 178);
+    font-family: "UnifrakturCook", serif;
+}
+
+
+/* #wordStats {
+    background-color: #6e5252;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+} */
+
+
+
+
+
+
+
+#input-container {
+    margin-bottom: 20px;
+}
+
+input {
+    font-size: 18px;
+    padding: 5px;
+    text-transform: uppercase;
+    width: 150px;
+    text-align: center;
+    font-family: "Ruluko", serif;
+}
+
+button {
+    font-size: 18px;
+    padding: 5px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#guess,
+#submit,
+#word-dropdown {
+    background-color: #c9b458;
+    color: rgb(122, 7, 42);
+}
+
+#guess,
+#submit {
+    font-size: .65rem;
+}
+
+#guess::placeholder {
+    color: rgb(122, 7, 42);
+    opacity: 1; /* Ensure visibility */
+}
+
+#previous-guesses {
+    list-style: none;
+    padding: 0;
+}
+
+.guess-item {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+
+ #filtered-words {
+    color: #d4f68e;
+    font-family: "Viaoda Libre", serif;
+} 
+
+
+
+
+.letter-box {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    border: 2px solid #000;
+    opacity: 0; /* Initially hidden */
+    transform: scale(0.8);
+    animation: reveal 0.5s ease-in forwards;
+}
+
+.green { background-color: #6aaa64; color: white; }
+.orange { background-color: #c9b458; color: white; }
+.gray { background-color: #787c7e; color: white; }
+
+@keyframes reveal {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+

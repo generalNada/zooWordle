@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>wordleFixedLarge</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Diplomata&family=Galindo&family=Grand+Hotel&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mystery+Quest&family=Patua+One&family=Righteous&display=swap"
+      rel="stylesheet"
+    />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="linkLay">
+      <a href="index2.html" class="linky2">Wanna dailySmall? Click Here!</a>
+      <a href="index3.html" class="linky3">Wanna dailyLarge? Click Here!</a>
+    </div>
+    <h1>wordleFixedLarge!</h1>
+
+    <label for="word-dropdown">Choose a starting word:</label>
+    <select id="word-dropdown">
+      <option value="">Select a word</option>
+    </select>
+
+    <div id="input-container">
+      <input
+        type="text"
+        id="guess"
+        maxlength="5"
+        placeholder="Enter a 5-letter word"
+      />
+      <button id="submit">Check</button>
+    </div>
+
+    <h2>Previous Guesses</h2>
+    <ul id="previous-guesses"></ul>
+
+    <h2>Possible Words (<span id="word-count">0</span>)</h2>
+    <ul id="filtered-words"></ul>
+    <a href="../index.html">Back To zooWordle</a>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>

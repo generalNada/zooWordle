@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>wordleDailyLarge</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Road+Rage&family=Ruluko&family=UnifrakturCook:wght@700&family=Viaoda+Libre&display=swap"
+      rel="stylesheet"
+    />
+    <link href="style3.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="linkLay">
+      <a href="index.html" class="linky1">Wanna fixedLarge? Click Here!</a>
+      <a href="index2.html" class="linky2">Wanna dailySmall? Click Here!</a>
+    </div>
+
+    <h1>wordleDailyLarge</h1>
+
+    <label for="word-dropdown">Choose a starting word:</label>
+    <select id="word-dropdown">
+      <option value="">Select a word</option>
+    </select>
+
+    <div id="input-container">
+      <input
+        type="text"
+        id="guess"
+        maxlength="5"
+        placeholder="Enter a 5-letter word"
+      />
+      <button id="submit">Check</button>
+    </div>
+
+    <h2>Previous Guesses</h2>
+    <ul id="previous-guesses"></ul>
+
+    <h2>Possible Words (<span id="word-count">0</span>)</h2>
+    <ul id="filtered-words"></ul>
+
+    <label for="wordDropdown_2">Check Out The Old Words Here:</label>
+    <select id="wordDropdown_2">
+      <option value="">Select a word</option>
+    </select>
+
+    <div id="wordStats"></div>
+
+    <a href="../index.html">Back To zooWordle</a>
+
+    <script type="module" src="script3.js"></script>
+  </body>
+</html>
