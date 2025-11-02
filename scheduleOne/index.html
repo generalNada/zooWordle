@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Schedule App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <a href="../index.html">Back To The Zoo</a>
+      <h1>My Schedule App</h1>
+    </header>
+    <main>
+      <button id="addDayBtn">Add a Day</button>
+      <button id="viewDaysBtn">View Days</button>
+      <button id="searchNotesBtn">Search Notes</button>
+
+      <section id="addDaySection" class="hidden">
+        <form id="addDayForm">
+          <label for="id">ID:</label>
+          <input type="text" id="id" required />
+          <label for="date">Date (dd-mm-yyyy):</label>
+          <input type="text" id="date" required />
+          <button type="submit">Submit</button>
+        </form>
+        <button class="close">X</button>
+      </section>
+
+      <section id="viewDaysSection" class="hidden">
+        <ul id="daysList"></ul>
+        <div id="notesSection" class="hidden">
+          <h3>Notes for ID: <span id="currentId"></span></h3>
+
+          <!-- <p id="dateDisplay"></p> Displays the date and day of the week -->
+
+          <ul id="notesList"></ul>
+          <form id="addNoteForm">
+            <label for="noteContent">New Note:</label>
+            <input
+              type="text"
+              id="noteContent"
+              placeholder="Enter note or URL"
+              required
+            />
+            <button type="submit">Add Note</button>
+          </form>
+          <button class="close">X</button>
+        </div>
+        <button class="close">X</button>
+      </section>
+
+      <div id="notesSection" class="hidden">
+        <h3>Notes for ID: <span id="currentId"></span></h3>
+        <p id="dateDisplay"></p>
+        <!-- Field for the date and day of the week -->
+        <ul id="notesList"></ul>
+        <form id="addNoteForm">
+          <label for="noteContent">New Note:</label>
+          <input
+            type="text"
+            id="noteContent"
+            placeholder="Enter note or URL"
+            required
+          />
+          <button type="submit">Add Note</button>
+        </form>
+        <button class="close">X</button>
+      </div>
+
+      <section id="searchNotesSection" class="hidden">
+        <input type="text" id="searchBar" placeholder="Search notes..." />
+        <ul id="searchResults"></ul>
+        <button class="close">X</button>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
