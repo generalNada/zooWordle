@@ -54,7 +54,6 @@ document.addEventListener("DOMContentLoaded", () => {
     section.classList.toggle("hidden");
   }
 
-
   viewDaysBtn.addEventListener("click", () => {
     daysList.innerHTML = ""; // Clear the list before fetching data
 
@@ -475,12 +474,18 @@ document.addEventListener("DOMContentLoaded", () => {
   // Clear All Data Functionality
   clearAllBtn.addEventListener("click", () => {
     // First confirmation
-    if (!confirm("⚠️ WARNING: This will delete ALL your data!\n\nAre you sure you want to proceed?")) {
+    if (
+      !confirm(
+        "⚠️ WARNING: This will delete ALL your data!\n\nAre you sure you want to proceed?"
+      )
+    ) {
       return;
     }
 
     // Second confirmation with different wording
-    if (!confirm("This action cannot be undone!\n\nType OK to confirm deletion:")) {
+    if (
+      !confirm("This action cannot be undone!\n\nType OK to confirm deletion:")
+    ) {
       return;
     }
 
