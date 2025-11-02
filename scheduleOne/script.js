@@ -26,6 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const addDayBtn = document.getElementById("addDayBtn");
   const viewDaysBtn = document.getElementById("viewDaysBtn");
   const searchNotesBtn = document.getElementById("searchNotesBtn");
+  const clearAllBtn = document.getElementById("clearAllBtn");
   const addDaySection = document.getElementById("addDaySection");
   const viewDaysSection = document.getElementById("viewDaysSection");
   const searchNotesSection = document.getElementById("searchNotesSection");
@@ -53,55 +54,6 @@ document.addEventListener("DOMContentLoaded", () => {
     section.classList.toggle("hidden");
   }
 
-  // Add a Day
-  addDayForm.addEventListener("submit", (event) => {
-    event.preventDefault();
-    const date = document.getElementById("date").value.trim();
-
-    if (!date) {
-      alert("Date is required!");
-      return;
-    }
-
-    const transaction = db.transaction(["days"], "readwrite");
-    const store = transaction.objectStore("days");
-
-    // Get all existing days to find the next sequential ID
-    const getAllRequest = store.getAll();
-
-    getAllRequest.onsuccess = () => {
-      const days = getAllRequest.result;
-
-      // Find the next available sequential number
-      let nextId = 1;
-      if (days.length > 0) {
-        const ids = days.map((day) => {
-          // Extract numeric part from ID (handles both "1" and "day_1" formats)
-          const match = day.id.toString().match(/\d+/);
-          return match ? parseInt(match[0]) : 0;
-        });
-        nextId = Math.max(...ids) + 1;
-      }
-
-      const id = `${nextId}`;
-      const newDay = { id, date, notes: [] };
-
-      const addRequest = store.add(newDay);
-
-      addRequest.onsuccess = () => {
-        alert(`Day added: Date = ${date}`);
-        addDayForm.reset();
-      };
-
-      addRequest.onerror = (event) => {
-        console.error("Error adding day:", event.target.error);
-      };
-    };
-
-    getAllRequest.onerror = () => {
-      console.error("Error fetching days to generate ID");
-    };
-  });
 
   viewDaysBtn.addEventListener("click", () => {
     daysList.innerHTML = ""; // Clear the list before fetching data
@@ -458,6 +410,99 @@ document.addEventListener("DOMContentLoaded", () => {
 
     getAllRequest.onerror = () => {
       console.error("Error searching notes");
+    };
+  });
+
+  // Improve ID generation to handle legacy timestamp IDs better
+  function getNextSequentialId(days) {
+    if (days.length === 0) return 1;
+
+    const ids = days
+      .map((day) => {
+        const idStr = day.id.toString();
+        // Try to extract just the numeric part
+        const match = idStr.match(/^\d+$/);
+        if (match) {
+          return parseInt(match[0]);
+        }
+        // If it contains day_ prefix or timestamp, try to extract number
+        const numberMatch = idStr.match(/\d+/);
+        return numberMatch ? parseInt(numberMatch[0]) : 0;
+      })
+      .filter((num) => num > 0); // Filter out invalid numbers
+
+    return ids.length > 0 ? Math.max(...ids) + 1 : 1;
+  }
+
+  // Add a Day with improved ID generation
+  addDayForm.addEventListener("submit", (event) => {
+    event.preventDefault();
+    const date = document.getElementById("date").value.trim();
+
+    if (!date) {
+      alert("Date is required!");
+      return;
+    }
+
+    const transaction = db.transaction(["days"], "readwrite");
+    const store = transaction.objectStore("days");
+
+    // Get all existing days to find the next sequential ID
+    const getAllRequest = store.getAll();
+
+    getAllRequest.onsuccess = () => {
+      const days = getAllRequest.result;
+      const id = getNextSequentialId(days).toString();
+      const newDay = { id, date, notes: [] };
+
+      const addRequest = store.add(newDay);
+
+      addRequest.onsuccess = () => {
+        alert(`Day added: Date = ${date}`);
+        addDayForm.reset();
+      };
+
+      addRequest.onerror = (event) => {
+        console.error("Error adding day:", event.target.error);
+      };
+    };
+
+    getAllRequest.onerror = () => {
+      console.error("Error fetching days to generate ID");
+    };
+  });
+
+  // Clear All Data Functionality
+  clearAllBtn.addEventListener("click", () => {
+    // First confirmation
+    if (!confirm("⚠️ WARNING: This will delete ALL your data!\n\nAre you sure you want to proceed?")) {
+      return;
+    }
+
+    // Second confirmation with different wording
+    if (!confirm("This action cannot be undone!\n\nType OK to confirm deletion:")) {
+      return;
+    }
+
+    // Actually clear the database
+    const transaction = db.transaction(["days"], "readwrite");
+    const store = transaction.objectStore("days");
+    const clearRequest = store.clear();
+
+    clearRequest.onsuccess = () => {
+      alert("✅ All data has been cleared successfully!");
+      // Clear any UI that might be showing data
+      daysList.innerHTML = "";
+      notesList.innerHTML = "";
+      searchResults.innerHTML = "";
+      if (!notesSection.classList.contains("hidden")) {
+        notesSection.classList.add("hidden");
+      }
+    };
+
+    clearRequest.onerror = () => {
+      console.error("Error clearing database");
+      alert("❌ Error clearing data. Please try again.");
     };
   });
 });
