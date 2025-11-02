@@ -3,13 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>allGraph</title>
+    <title>📊 Wordle Graph Gallery 📊</title>
+    <link rel="stylesheet" href="allGraph.css" type="text/css" />
 </head>
 <body>
-    <h1>Your Wordle Graph Home</h1>
-    <a href="wordleGrapherOne/index.html">wordleGrapherOne</a>
-    <a href="wordleGrapherThree/index.html">wordleGrapherThree</a>
-    <a href="wordleGrapherTwo/index.html">wordleGrapherTwo</a>
-    <a href="../index.html">zooWordle Home</a>
+    <div class="container">
+        <h1 class="main-title">📊 Wordle Graph Gallery 📊</h1>
+        <p class="subtitle">Visualize your Wordle performance with interactive charts</p>
+        
+        <div class="links-grid">
+            <a href="wordleGrapherOne/index.html" class="nav-link grapher-one">
+                <span class="icon">📈</span>
+                <span class="label">Grapher One</span>
+                <span class="description">Monthly Score Averages</span>
+            </a>
+            
+            <a href="wordleGrapherTwo/index.html" class="nav-link grapher-two">
+                <span class="icon">📉</span>
+                <span class="label">Grapher Two</span>
+                <span class="description">Cumulative Progress</span>
+            </a>
+            
+            <a href="wordleGrapherThree/index.html" class="nav-link grapher-three">
+                <span class="icon">📊</span>
+                <span class="label">Grapher Three</span>
+                <span class="description">Score Distribution</span>
+            </a>
+            
+            <a href="../index.html" class="nav-link home">
+                <span class="icon">🏠</span>
+                <span class="label">Back to Zoo</span>
+                <span class="description">Return to main menu</span>
+            </a>
+        </div>
+    </div>
 </body>
 </html>
