@@ -71,6 +71,28 @@
           </button>
           <div id="lowestScores" class="lowest-scores"></div>
         </section>
+
+        <!-- Score Average Calculator Section -->
+        <section class="average-calculator-section">
+          <h2>📊 Score Average Calculator</h2>
+          <p class="calculator-description">
+            Calculate your simple score average between any two dates
+          </p>
+          <div class="calculator-inputs">
+            <div class="input-group">
+              <label for="calcStartDate">Start Date:</label>
+              <input type="date" id="calcStartDate" value="2021-06-19" />
+            </div>
+            <div class="input-group">
+              <label for="calcEndDate">End Date:</label>
+              <input type="date" id="calcEndDate" />
+            </div>
+            <button id="calculateAverage" class="calc-btn">
+              Calculate Average
+            </button>
+          </div>
+          <div id="averageResult" class="average-result"></div>
+        </section>
       </div>
     </div>
     <a href="../index.html">Back To scrabblyTwo!</a>

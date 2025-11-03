@@ -64,6 +64,7 @@ class WordleScoreTracker {
     this.initializeYearSelector();
     this.renderCalendar();
     this.setDefaultEndDate();
+    this.setDefaultCalculatorDates();
     this.updateLowestScores();
   }
 
@@ -108,6 +109,13 @@ class WordleScoreTracker {
       .getElementById("calculateScoreChange")
       .addEventListener("click", () => {
         this.calculateScoreChange();
+      });
+
+    // Calculate average button
+    document
+      .getElementById("calculateAverage")
+      .addEventListener("click", () => {
+        this.calculateDateRangeAverage();
       });
   }
 
@@ -168,6 +176,12 @@ class WordleScoreTracker {
     const endDateInput = document.getElementById("endDate");
     const today = new Date();
     endDateInput.value = today.toISOString().split("T")[0];
+  }
+
+  setDefaultCalculatorDates() {
+    const calcEndDateInput = document.getElementById("calcEndDate");
+    const today = new Date();
+    calcEndDateInput.value = today.toISOString().split("T")[0];
   }
 
   initializeYearSelector() {
@@ -503,6 +517,199 @@ class WordleScoreTracker {
         `;
       })
       .join("");
+  }
+
+  calculateDateRangeAverage() {
+    const startValue = document.getElementById("calcStartDate").value;
+    const endValue = document.getElementById("calcEndDate").value;
+    const resultContainer = document.getElementById("averageResult");
+
+    if (!startValue || !endValue) {
+      resultContainer.innerHTML = `
+        <div class="result-error">
+          <p>⚠️ Please select both start and end dates.</p>
+        </div>
+      `;
+      return;
+    }
+
+    // Parse YYYY-MM-DD as local dates to avoid timezone issues
+    const parseLocalDate = (value) => {
+      const [y, m, d] = value.split("-").map(Number);
+      return new Date(y, m - 1, d);
+    };
+
+    const startDate = parseLocalDate(startValue);
+    const endDate = parseLocalDate(endValue);
+
+    if (endDate < startDate) {
+      resultContainer.innerHTML = `
+        <div class="result-error">
+          <p>⚠️ End date must be after start date.</p>
+        </div>
+      `;
+      return;
+    }
+
+    // Include the entire end day by setting time to 23:59:59.999
+    endDate.setHours(23, 59, 59, 999);
+
+    // Filter data within date range and get daily scores
+    const scoresInRange = Object.entries(this.wordleData)
+      .filter(([dateKey, data]) => {
+        const dataDate = new Date(data.gameDate);
+        return dataDate >= startDate && dataDate <= endDate && data.score > 0;
+      })
+      .map(([dateKey, data]) => ({
+        dateKey,
+        ...data,
+        date: new Date(data.gameDate),
+      }));
+
+    if (scoresInRange.length === 0) {
+      resultContainer.innerHTML = `
+        <div class="result-error">
+          <p>⚠️ No scores found in the selected date range.</p>
+        </div>
+      `;
+      return;
+    }
+
+    // Calculate simple average of daily scores
+    const scores = scoresInRange.map((item) => item.score);
+    const totalScore = scores.reduce((sum, score) => sum + score, 0);
+    const averageScore = totalScore / scores.length;
+    const minScore = Math.min(...scores);
+    const maxScore = Math.max(...scores);
+    const totalGames = scores.length;
+
+    // Calculate score distribution
+    const scoreDistribution = {};
+    scores.forEach((score) => {
+      scoreDistribution[score] = (scoreDistribution[score] || 0) + 1;
+    });
+
+    // Find most common score
+    const mostCommonScore = Object.entries(scoreDistribution).reduce((a, b) =>
+      a[1] > b[1] ? a : b
+    )[0];
+
+    // Find best and worst performing words
+    const sortedByScore = [...scoresInRange].sort((a, b) => a.score - b.score);
+    const bestWords = sortedByScore.slice(0, 3);
+    const worstWords = sortedByScore.slice(-3).reverse();
+
+    // Display results
+    resultContainer.innerHTML = `
+      <div class="result-success">
+        <div class="result-header">
+          <h3>📈 Results for ${this.formatDateForDisplay(
+            startDate
+          )} to ${this.formatDateForDisplay(endDate)}</h3>
+        </div>
+        
+        <div class="result-stats-grid">
+          <div class="stat-card highlight">
+            <div class="stat-icon">🎯</div>
+            <div class="stat-label">Average Score</div>
+            <div class="stat-value">${averageScore.toFixed(6)}</div>
+          </div>
+          
+          <div class="stat-card">
+            <div class="stat-icon">🎮</div>
+            <div class="stat-label">Games Played</div>
+            <div class="stat-value">${totalGames}</div>
+          </div>
+          
+          <div class="stat-card">
+            <div class="stat-icon">⭐</div>
+            <div class="stat-label">Best Score</div>
+            <div class="stat-value">${minScore}</div>
+          </div>
+          
+          <div class="stat-card">
+            <div class="stat-icon">😅</div>
+            <div class="stat-label">Worst Score</div>
+            <div class="stat-value">${maxScore}</div>
+          </div>
+          
+          <div class="stat-card">
+            <div class="stat-icon">🔥</div>
+            <div class="stat-label">Most Common</div>
+            <div class="stat-value">${mostCommonScore}</div>
+          </div>
+          
+          <div class="stat-card">
+            <div class="stat-icon">📊</div>
+            <div class="stat-label">Total Points</div>
+            <div class="stat-value">${totalScore}</div>
+          </div>
+        </div>
+
+        <div class="words-showcase">
+          <div class="words-section">
+            <h4>🏆 Best Performances</h4>
+            <div class="words-list">
+              ${bestWords
+                .map(
+                  (item) => `
+                <div class="word-item best">
+                  <span class="word-name">${item.word}</span>
+                  <span class="word-score">${item.score}</span>
+                  <span class="word-date">${this.formatDateForDisplay(
+                    item.date
+                  )}</span>
+                </div>
+              `
+                )
+                .join("")}
+            </div>
+          </div>
+          
+          <div class="words-section">
+            <h4>😰 Toughest Words</h4>
+            <div class="words-list">
+              ${worstWords
+                .map(
+                  (item) => `
+                <div class="word-item worst">
+                  <span class="word-name">${item.word}</span>
+                  <span class="word-score">${item.score}</span>
+                  <span class="word-date">${this.formatDateForDisplay(
+                    item.date
+                  )}</span>
+                </div>
+              `
+                )
+                .join("")}
+            </div>
+          </div>
+        </div>
+
+        <div class="distribution-section">
+          <h4>📊 Score Distribution</h4>
+          <div class="distribution-bars">
+            ${Object.entries(scoreDistribution)
+              .sort((a, b) => parseInt(a[0]) - parseInt(b[0]))
+              .map(([score, count]) => {
+                const percentage = (count / totalGames) * 100;
+                return `
+                <div class="distribution-item">
+                  <span class="dist-label">Score ${score}:</span>
+                  <div class="dist-bar-container">
+                    <div class="dist-bar" style="width: ${percentage}%"></div>
+                  </div>
+                  <span class="dist-count">${count} (${percentage.toFixed(
+                  1
+                )}%)</span>
+                </div>
+              `;
+              })
+              .join("")}
+          </div>
+        </div>
+      </div>
+    `;
   }
 }
 
