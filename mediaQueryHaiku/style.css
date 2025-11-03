@@ -54,7 +54,7 @@ body {
   justify-content: space-around;
   align-items: center;
   text-align: center;
-  border: solid magenta 0.15rem;
+  border: solid magenta 0.16rem;
   border-radius: 0.34rem;
   font-weight: bold;
 }
@@ -931,7 +931,7 @@ body {
   background-size: cover;
   padding: 0.55rem;
 }
-
+    
 .whole-box-130 {
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1xjuhdn6uWJmlPfyUvgEthAoi70y1PwoVdQ&s);
   background-size: cover;
@@ -2802,19 +2802,19 @@ body {
 
 .line-96a {
   background-color: black;
-  color: white;
+  color: white; 
   opacity: 0.8;
 }
 
 .line-96b {
   background-color: black;
-  color: white;
+  color: white; 
   opacity: 0.85;
 }
 
 .line-96c {
   background-color: black;
-  color: white;
+  color: white; 
   opacity: 0.85;
 }
 
@@ -3090,37 +3090,37 @@ body {
 
 .line-112a {
   background-color: black;
-  color: white;
+  color: white; 
   opacity: 0.5;
 }
 
 .line-112b {
   background-color: black;
-  color: white;
+  color: white; 
   opacity: 0.55;
 }
 
 .line-112c {
   background-color: black;
-  color: white;
+  color: white; 
   opacity: 0.5;
 }
 
 .line-113a {
   background-color: orange;
-  color: red;
+  color: red; 
   opacity: 0.5;
 }
 
 .line-113b {
   background-color: orange;
-  color: red;
+  color: red;  
   opacity: 0.55;
 }
 
 .line-113c {
   background-color: orange;
-  color: red;
+  color: red; 
   opacity: 0.5;
 }
 
@@ -3138,7 +3138,7 @@ body {
 
 .line-114c {
   background-color: purple;
-  color: yellow;
+  color: yellow; 
   opacity: 0.5;
 }
 
@@ -3156,7 +3156,7 @@ body {
 
 .line-115c {
   background-color: yellow;
-  color: purple;
+  color: purple; 
   opacity: 0.5;
 }
 
@@ -3251,19 +3251,19 @@ body {
 }
 
 .line-121a {
-  background-color: #4b4b4b;
+  background-color: #4B4B4B;
   color: red;
   opacity: 0.75;
 }
 
 .line-121b {
-  background-color: #4b4b4b;
+  background-color: #4B4B4B;
   color: red;
   opacity: 0.75;
 }
 
 .line-121c {
-  background-color: #4b4b4b;
+  background-color: #4B4B4B;
   color: black;
   opacity: 0.75;
 }
@@ -3822,7 +3822,7 @@ body {
 
 .line-152c {
   background-color: rgb(19, 17, 111);
-  color: rgb(234, 251, 211);
+  color: rgb(234, 251, 211); 
   opacity: 0.77;
 }
 
@@ -3959,7 +3959,7 @@ body {
 }
 
 .line-160b {
-  background-color: rgb(22, 212, 111);
+   background-color: rgb(22, 212, 111);
   color: rgb(100, 21, 220);
   opacity: 0.57;
 }
@@ -3967,5 +3967,23 @@ body {
 .line-160c {
   background-color: rgb(22, 212, 111);
   color: rgb(100, 21, 220);
+  opacity: 0.57;
+}
+
+.line-161a {
+  background-color: purple;
+  color: yellow;
+  opacity: 0.57;
+}
+
+.line-161b {
+  background-color: purple;
+  color: yellow;
+  opacity: 0.57;
+}
+
+.line-161c {
+  background-color: purple;
+  color: yellow;
   opacity: 0.57;
 }
