@@ -419,6 +419,21 @@ class WordleScoreTracker {
     this.displayLowestScores(lowestScores);
   }
 
+  getScoreComparison(currentDate, daysBack) {
+    // Get the date N days before the current date
+    const compareDate = new Date(currentDate);
+    compareDate.setDate(compareDate.getDate() - daysBack);
+    const compareDateKey = this.formatDateKey(compareDate);
+
+    const compareData = this.wordleData[compareDateKey];
+
+    if (!compareData || !compareData.averageScore) {
+      return null;
+    }
+
+    return compareData;
+  }
+
   displayLowestScores(scores) {
     const lowestScoresContainer = document.getElementById("lowestScores");
 
@@ -429,21 +444,64 @@ class WordleScoreTracker {
     }
 
     lowestScoresContainer.innerHTML = scores
-      .map(
-        (score, index) => `
+      .map((score, index) => {
+        // Calculate comparisons
+        const dayBefore = this.getScoreComparison(score.date, 1);
+        const weekBefore = this.getScoreComparison(score.date, 7);
+        const twoWeeksBefore = this.getScoreComparison(score.date, 14);
+        const monthBefore = this.getScoreComparison(score.date, 30);
+
+        // Helper function to format difference
+        const formatDiff = (compareData) => {
+          if (!compareData) return '<span class="no-data">N/A</span>';
+
+          const diff = score.averageScore - compareData.averageScore;
+          const isPositive = diff > 0;
+          const symbol = isPositive ? "+" : "";
+          const colorClass = isPositive ? "diff-up" : "diff-down";
+
+          return `<span class="${colorClass}">${symbol}${diff.toFixed(
+            7
+          )}</span>`;
+        };
+
+        return `
             <div class="score-card">
-                <h4>#${index + 1} Lowest</h4>
-                 <div class="score-value">${score.averageScore.toFixed(7)}</div>
-                <div class="score-date">${this.formatDateForDisplay(
-                  score.date
-                )}</div>
-                <div class="word">${score.word}</div>
-                <div style="margin-top: 8px; font-size: 0.8rem; opacity: 0.8;">
-                    Score: ${score.score} (${score.totalGames} games)
+                <div class="card-main">
+                    <h4>#${index + 1} Lowest</h4>
+                    <div class="score-value">${score.averageScore.toFixed(
+                      7
+                    )}</div>
+                    <div class="score-date">${this.formatDateForDisplay(
+                      score.date
+                    )}</div>
+                    <div class="word">${score.word}</div>
+                    <div class="daily-score-info">
+                        Daily Score: ${score.score} (${score.totalGames} games)
+                    </div>
+                </div>
+                <div class="card-expanded">
+                    <div class="comparison-title">📊 Average Score Changes</div>
+                    <div class="comparison-item">
+                        <span class="comparison-label">vs. Day Before:</span>
+                        ${formatDiff(dayBefore)}
+                    </div>
+                    <div class="comparison-item">
+                        <span class="comparison-label">vs. Week Before:</span>
+                        ${formatDiff(weekBefore)}
+                    </div>
+                    <div class="comparison-item">
+                        <span class="comparison-label">vs. 2 Weeks Before:</span>
+                        ${formatDiff(twoWeeksBefore)}
+                    </div>
+                    <div class="comparison-item">
+                        <span class="comparison-label">vs. Month Before:</span>
+                        ${formatDiff(monthBefore)}
+                    </div>
                 </div>
             </div>
-        `
-      )
+        `;
+      })
       .join("");
   }
 }

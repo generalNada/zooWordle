@@ -379,11 +379,23 @@ h2 {
   border-radius: 12px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   text-align: center;
-  transition: transform 0.3s ease;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
 }
 
 .score-card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+}
+
+.card-main {
+  transition: opacity 0.3s ease;
+}
+
+.score-card:hover .card-main {
+  opacity: 0.95;
 }
 
 .score-card h4 {
@@ -410,6 +422,86 @@ h2 {
   padding: 8px;
   background: rgba(255, 255, 255, 0.2);
   border-radius: 6px;
+}
+
+.daily-score-info {
+  margin-top: 8px;
+  font-size: 0.85rem;
+  opacity: 0.8;
+}
+
+/* Expanded card content */
+.card-expanded {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 107, 107, 0.98),
+    rgba(238, 90, 36, 0.98)
+  );
+  backdrop-filter: blur(10px);
+  padding: 15px;
+  border-top: 2px solid rgba(255, 255, 255, 0.3);
+  transform: translateY(100%);
+  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  max-height: 0;
+  opacity: 0;
+}
+
+.score-card:hover .card-expanded {
+  transform: translateY(0);
+  max-height: 300px;
+  opacity: 1;
+}
+
+.comparison-title {
+  font-size: 0.9rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+  padding-bottom: 8px;
+}
+
+.comparison-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 0;
+  font-size: 0.85rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.comparison-item:last-child {
+  border-bottom: none;
+}
+
+.comparison-label {
+  font-weight: 600;
+  opacity: 0.9;
+}
+
+.diff-up {
+  color: #fecaca;
+  font-weight: 700;
+  font-size: 0.95rem;
+  text-shadow: 0 0 10px rgba(254, 202, 202, 0.5);
+}
+
+.diff-down {
+  color: #a7f3d0;
+  font-weight: 700;
+  font-size: 0.95rem;
+  text-shadow: 0 0 10px rgba(167, 243, 208, 0.5);
+}
+
+.no-data {
+  color: rgba(255, 255, 255, 0.5);
+  font-style: italic;
+  font-size: 0.8rem;
 }
 
 /* Responsive Design */
