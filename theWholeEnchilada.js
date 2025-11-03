@@ -1400,7 +1400,7 @@ export const dailyWordsSmall = [
     'PROOF', 'PRUDE', 'PUBIC', 'PUDGY', 'PUFFY', 'PULSE', 'PUNCH',
     'PUPPY', 'PUREE', 'PURER', 'PURSE', 'PUSHY', 'PUTTY', 'PYGMY', 'QUACK',
     'QUARK', 'QUASI', 'QUEER', 'QUELL', 'QUILT', 'QUOTH',
-    'RABBI', 'RABID', 'RACER', 'RADAR', 'RADII', 'RAJAH', 'RALLY', 'RALPH', 'RANDY',
+    'RABBI', 'RACER', 'RADAR', 'RADII', 'RAJAH', 'RALLY', 'RALPH', 'RANDY',
     'RARER', 'RASPY', 'RAVEN', 'RAZOR', 'REARM', 'REBAR', 
     'RECUT', 'REEDY', 'REFIT', 'REHAB', 'REIGN', 'REMIT',
     'RENAL', 'REPLY', 'RESET', 'RICER', 'RIFLE', 
@@ -2330,7 +2330,7 @@ export const dailyWordsLarge = [
     'QUIDS', 'QUIFF', 'QUILT', 'QUIMS', 'QUINA', 'QUINE', 'QUINO', 'QUINS', 'QUINT', 
     'QUIPO', 'QUIPS', 'QUIPU', 'QUIRE', 'QUIRT', 'QUIST', 'QUITS', 'QUOAD', 'QUODS', 'QUOIF', 
     'QUOIN', 'QUOIT', 'QUOLL', 'QUONK', 'QUOPS', 'QUOTH', 'QURSH', 'QUYTE', 'RABAT', 'RABBI',
-    'RABIC', 'RABID', 'RABIS', 'RACED', 'RACER', 'RACES', 'RACHE', 'RACKS', 'RACON', 'RADAR',
+    'RABIC', 'RABIS', 'RACED', 'RACER', 'RACES', 'RACHE', 'RACKS', 'RACON', 'RADAR',
     'RADGE', 'RADII', 'RADIX', 'RADON', 'RAFFS', 'RAFTS', 'RAGAS', 'RAGDE', 'RAGED',
     'RAGEE', 'RAGER', 'RAGES', 'RAGGA', 'RAGGS', 'RAGGY', 'RAGIS', 'RAGUS', 'RAHED', 'RAHUI',
     'RAIAS', 'RAIDS', 'RAIKS', 'RAILE', 'RAILS', 'RAINE', 'RAINS', 'RAIRD', 
@@ -12270,6 +12270,11 @@ export const wordleWords = [
         myScore: 2,
         wordNumber: 1596,
       },  
+      { word: "RABID",
+        gameDate: "11/2/25",
+        myScore: 4,
+        wordNumber: 1597,
+      },  
 
     
   ];
@@ -12287,7 +12292,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("November 1, 2025: Trump sux dykk000000000! MOTEL")
+console.log("November 2, 2025: Trump sux dykk000000000! RABID")
 
 
 console.log(wordleWords)
