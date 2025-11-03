@@ -1107,13 +1107,19 @@ body {
 }
 
 .whole-box-159 {
-  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDtEXWIeF_Jn0qzy2_UxfZC-k-TPlVBPl3OQ&s);
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0gROaPpNul9AIgczHuk5zGiW57HQbQwWJjg&s);
   background-size: cover;
   padding: 0.55rem;
 }
 
 .whole-box-160 {
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtEW1qXT_2RJH4SmS8mfB53W0Xsf1lpsHTtA&s);
+  background-size: cover;
+  padding: 0.55rem;
+}
+
+.whole-box-161 {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDtEXWIeF_Jn0qzy2_UxfZC-k-TPlVBPl3OQ&s);
   background-size: cover;
   padding: 0.55rem;
 }
@@ -3900,56 +3906,56 @@ body {
 
 .line-157a {
   background-color: rgb(141, 44, 144);
-  color: rgb(233, 33, 233);
-  opacity: 0.57;
+  color:rgb(213, 223, 233);
+  opacity: 0.77;
 }
 
 .line-157b {
   background-color: rgb(141, 44, 144);
-  color: rgb(233, 33, 233);
-  opacity: 0.57;
+  color:rgb(213, 223, 233);
+  opacity: 0.77;
 }
 
 .line-157c {
   background-color: rgb(141, 44, 144);
-  color: rgb(233, 33, 233);
-  opacity: 0.57;
+  color:rgb(213, 223, 233);
+  opacity: 0.77;
 }
 
 .line-158a {
   background-color: rgb(11, 24, 14);
-  color: rgb(23, 33, 53);
-  opacity: 0.57;
+  color: rgb(222, 222, 222);
+  opacity: 0.77;
 }
 
 .line-158b {
   background-color: rgb(11, 24, 14);
-  color: rgb(23, 33, 53);
-  opacity: 0.57;
+  color: rgb(222, 222, 222);
+  opacity: 0.77;
 }
 
 .line-158c {
   background-color: rgb(11, 24, 14);
-  color: rgb(23, 33, 53);
-  opacity: 0.57;
+  color: rgb(222, 222, 222);
+  opacity: 0.77;
 }
 
 .line-159a {
   background-color: rgb(127, 120, 171);
-  color: rgb(129, 210, 110);
-  opacity: 0.57;
+  color: rgb(19, 21, 100);
+  opacity: 0.77;
 }
 
 .line-159b {
   background-color: rgb(127, 120, 171);
-  color: rgb(129, 210, 110);
-  opacity: 0.57;
+  color: rgb(19, 21, 100);
+  opacity: 0.77;
 }
 
 .line-159c {
   background-color: rgb(127, 120, 171);
-  color: rgb(129, 210, 110);
-  opacity: 0.57;
+  color: rgb(19, 21, 100);
+  opacity: 0.77;
 }
 
 .line-160a {
