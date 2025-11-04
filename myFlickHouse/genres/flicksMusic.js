@@ -488,6 +488,7 @@ const flicksMusic = [
     title: "The Strokes",
     year: 2003,
     genre: "Music",
+    collection: "Good Tunes",
     dropboxUrl:
       "https://www.dropbox.com/scl/fi/zeuwtl3ix8v9m8rk8an15/STROKES.mp4?rlkey=x42tpfta6wu5ysf1fmyzd3fub&raw=1",
     downloadUrl:
@@ -514,5 +515,16 @@ const flicksMusic = [
       "https://www.dropbox.com/scl/fi/j819tt6h9ant20abkikaa/THE_WIZARD_OF_OZ.mp4?rlkey=8gy2e6mvf7bvigg1dntppawof&raw=1",
     downloadUrl:
       "https://www.dropbox.com/scl/fi/j819tt6h9ant20abkikaa/THE_WIZARD_OF_OZ.mp4?rlkey=8gy2e6mvf7bvigg1dntppawof&dl=1",
+  },
+  {
+    ref: 998,
+    title: "All Through the Night - Cyndi Lauper on Stern",
+    year: 2008,
+    genre: "Music",
+    collection: "Good Tunes",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/0yaa1qsfgbyxvaynrt459/AllThruTheNiteCyndiStern.mp4?rlkey=kfw7j9nfgy39r950rpiu97gr7&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/0yaa1qsfgbyxvaynrt459/AllThruTheNiteCyndiStern.mp4?rlkey=kfw7j9nfgy39r950rpiu97gr7&dl=1",
   },
 ];
