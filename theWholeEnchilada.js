@@ -1323,7 +1323,7 @@ export const dailyWordsSmall = [
     'AMITY', 'AMONG', 'AMPLY', 'ANIME', 'ANKLE',
     'ANNUL', 'APING', 'APNEA', 'ARENA', 'ARISE', 'ARMOR', 'AROSE', 'ARRAY', 
     'ARSON', 'ATTIC', 'AUGUR', 'AUNTY', 'AVIAN', 'AVOID', 
-    'AWOKE', 'AXIAL', 'AXION', 'BAGGY', 'BARON',
+    'AXIAL', 'AXION', 'BAGGY', 'BARON',
     'BASAL', 'BASIL', 'BASIS', 'BATCH', 'BEECH', 'BEFIT',
     'BEGAN', 'BEGAT', 'BEGUN', 'BELLE', 'BERRY', 'BETEL', 'BEZEL', 'BIBLE',
     'BIDDY', 'BIGOT', 'BILLY', 'BINGO', 'BISON', 'BITTY', 
@@ -1512,7 +1512,7 @@ export const dailyWordsLarge = [
     'AURUM', 'AUTOS', 'AUXIN', 'AVALE', 'AVANT', 'AVAST', 'AVELS', 'AVENS', 'AVERS',
     'AVGAS', 'AVIAN', 'AVINE', 'AVION', 'AVISE', 'AVISO', 'AVIZE', 'AVOID', 'AVOWS',
     'AVYZE', 'AWARN', 'AWATO', 'AWAVE', 'AWAYS',
-    'AWDLS', 'AWEEL', 'AWETO', 'AWING', 'AWMRY', 'AWNED', 'AWNER', 'AWOKE', 'AWOLS',
+    'AWDLS', 'AWEEL', 'AWETO', 'AWING', 'AWMRY', 'AWNED', 'AWNER', 'AWOLS',
     'AWORK', 'AXELS', 'AXIAL', 'AXILE', 'AXILS', 'AXING', 'AXION', 'AXITE', 'AXLED',
     'AXLES', 'AXMAN', 'AXMEN', 'AXOID', 'AXONE', 'AXONS', 'AYAHS', 'AYAYA', 'AYELP', 'AYGRE',
     'AYINS', 'AYONT', 'AYRES', 'AYRIE', 'AZANS', 'AZIDE', 'AZIDO', 'AZINE', 'AZLON', 'AZOIC',
@@ -12275,6 +12275,11 @@ export const wordleWords = [
         myScore: 4,
         wordNumber: 1597,
       },  
+      { word: "AWOKE",
+        gameDate: "11/3/25",
+        myScore: 3,
+        wordNumber: 1598,
+      },  
 
     
   ];
@@ -12292,7 +12297,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("November 2, 2025: Trump sux dykk000000000! RABID")
+console.log("November 3, 2025: Trump sux dykk000000000! AWOKE")
 
 
 console.log(wordleWords)
