@@ -1,27 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>zooGraphOne</title>
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>📈 Wordle Graph One - Monthly Score Averages</title>
+    <link rel="stylesheet" href="style.css" />
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        <h1>Wordle Score Progression</h1>
-        <div class="controls">
-            <label for="startDate">Start Date:</label>
-            <input type="date" id="startDate">
-            <label for="endDate">End Date:</label>
-            <input type="date" id="endDate">
-            <button id="updateChart">Update Chart</button>
-        </div>
+      <h1 class="main-title">📈 Wordle Score Progression</h1>
+      <p class="subtitle">Track your monthly score averages over time</p>
+      <div class="controls">
+        <label for="startDate">Start Date:</label>
+        <input type="date" id="startDate" />
+        <label for="endDate">End Date:</label>
+        <input type="date" id="endDate" />
+        <button id="updateChart">Update Chart</button>
+      </div>
+      <div class="chart-wrapper">
         <canvas id="wordleChart"></canvas>
-        <h6>Hello Philbo</h6>
-        <a href="../allGraph.html">allGraph Stuff</a>
-        <a href="../../index.html">To The Zoo</a>
+      </div>
+      <h6 class="greeting">Hello Philbo 👋</h6>
+      <nav class="nav-links">
+        <a href="../allGraph.html" class="fancy-link link-graph">
+          <span class="link-icon">📊</span>
+          <span class="link-text">All Graph Stuff</span>
+          <span class="link-arrow">→</span>
+        </a>
+        <a href="../../index.html" class="fancy-link link-zoo">
+          <span class="link-icon">🦁</span>
+          <span class="link-text">To The Zoo</span>
+          <span class="link-arrow">→</span>
+        </a>
+      </nav>
     </div>
     <script type="module" src="script.js"></script>
-</body>
+  </body>
 </html>

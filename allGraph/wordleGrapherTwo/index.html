@@ -1,29 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ZooGraphTwo</title>
-    <link href="style.css" rel="stylesheet" type="text/css" >
-
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>📉 Wordle Graph Two - Cumulative Progress</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
     <div class="container">
-        <h1>WordleGrapherTwo</h1>
-        <div class="controls">
-            <label for="startDate">Start Date:</label>
-            <input type="date" id="startDate">
-            <label for="endDate">End Date:</label>
-            <input type="date" id="endDate">
-            <button id="updateChart">Update Chart</button>
-        </div>
-        <div class="chart-container">
-            <canvas id="wordleChart"></canvas>
-        </div>
-        <h6>fuckOffElon</h6>
-        <a href="../allGraph.html">allGraph Stuff</a>
+      <h1 class="main-title">📉 WordleGrapher Two</h1>
+      <p class="subtitle">Visualize your cumulative progress journey</p>
+      <div class="controls">
+        <label for="startDate">Start Date:</label>
+        <input type="date" id="startDate" />
+        <label for="endDate">End Date:</label>
+        <input type="date" id="endDate" />
+        <button id="updateChart">Update Chart</button>
+      </div>
+      <div class="chart-container">
+        <canvas id="wordleChart"></canvas>
+      </div>
+      <h6 class="greeting">fuckOffElon 🚀</h6>
+      <nav class="nav-links">
+        <a href="../../index.html" class="fancy-link link-zoo">
+          <span class="link-icon">🦁</span>
+          <span class="link-text">To The Zoo</span>
+          <span class="link-arrow">→</span>
+        </a>
+        <a href="../allGraph.html" class="fancy-link link-graph">
+          <span class="link-icon">📊</span>
+          <span class="link-text">All Graph Stuff</span>
+          <span class="link-arrow">→</span>
+        </a>
+      </nav>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script type="module" src="script.js"></script>
-</body>
+  </body>
 </html>
