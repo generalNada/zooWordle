@@ -1,0 +1,439 @@
+/* Reset and Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Comic Sans MS", "Segoe UI", "Roboto", "Helvetica Neue", Arial,
+    sans-serif;
+  text-align: center;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background: linear-gradient(
+    135deg,
+    #ff6b6b 0%,
+    #ffa500 12.5%,
+    #ffd700 25%,
+    #90ee90 37.5%,
+    #87ceeb 50%,
+    #9370db 62.5%,
+    #ff69b4 75%,
+    #ff1493 87.5%,
+    #ff6b6b 100%
+  );
+  background-size: 400% 400%;
+  animation: gradientShift 8s ease infinite;
+  position: relative;
+}
+
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Confetti Animation */
+.confetti-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.confetti {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: #ff6b6b;
+  animation: confettiFall 10s linear infinite;
+  opacity: 0.8;
+}
+
+.confetti:nth-child(1) {
+  left: 10%;
+  background: #ff6b6b;
+  animation-delay: 0s;
+  animation-duration: 8s;
+}
+
+.confetti:nth-child(2) {
+  left: 20%;
+  background: #ffa500;
+  animation-delay: 1s;
+  animation-duration: 9s;
+}
+
+.confetti:nth-child(3) {
+  left: 30%;
+  background: #ffd700;
+  animation-delay: 2s;
+  animation-duration: 7s;
+}
+
+.confetti:nth-child(4) {
+  left: 40%;
+  background: #90ee90;
+  animation-delay: 0.5s;
+  animation-duration: 10s;
+}
+
+.confetti:nth-child(5) {
+  left: 50%;
+  background: #87ceeb;
+  animation-delay: 1.5s;
+  animation-duration: 8.5s;
+}
+
+.confetti:nth-child(6) {
+  left: 60%;
+  background: #9370db;
+  animation-delay: 2.5s;
+  animation-duration: 9.5s;
+}
+
+.confetti:nth-child(7) {
+  left: 70%;
+  background: #ff69b4;
+  animation-delay: 0.8s;
+  animation-duration: 7.5s;
+}
+
+.confetti:nth-child(8) {
+  left: 80%;
+  background: #ff1493;
+  animation-delay: 1.8s;
+  animation-duration: 8.2s;
+}
+
+.confetti:nth-child(9) {
+  left: 90%;
+  background: #ff6b6b;
+  animation-delay: 0.3s;
+  animation-duration: 9.8s;
+}
+
+.confetti:nth-child(10) {
+  left: 95%;
+  background: #ffd700;
+  animation-delay: 1.2s;
+  animation-duration: 7.8s;
+}
+
+@keyframes confettiFall {
+  0% {
+    transform: translateY(-100vh) rotate(0deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(100vh) rotate(720deg);
+    opacity: 0;
+  }
+}
+
+.container {
+  position: relative;
+  z-index: 2;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.main-title {
+  margin-bottom: 20px;
+  position: relative;
+  display: inline-block;
+}
+
+.title-text {
+  font-size: 4.5rem;
+  font-weight: 900;
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7f00,
+    #ffff00,
+    #00ff00,
+    #0000ff,
+    #4b0082,
+    #9400d3
+  );
+  background-size: 300% 300%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: rainbowText 3s ease infinite, titleBounce 2s ease-in-out infinite;
+  text-shadow: 0 0 30px rgba(255, 255, 255, 0.5);
+  display: inline-block;
+  letter-spacing: 3px;
+}
+
+@keyframes rainbowText {
+  0%,
+  100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+@keyframes titleBounce {
+  0%,
+  100% {
+    transform: translateY(0) scale(1);
+  }
+  50% {
+    transform: translateY(-15px) scale(1.05);
+  }
+}
+
+.title-sparkle {
+  font-size: 3rem;
+  display: inline-block;
+  animation: sparkle 1.5s ease-in-out infinite;
+  margin-left: 10px;
+}
+
+@keyframes sparkle {
+  0%,
+  100% {
+    opacity: 1;
+    transform: scale(1) rotate(0deg);
+  }
+  50% {
+    opacity: 0.5;
+    transform: scale(1.3) rotate(180deg);
+  }
+}
+
+.subtitle {
+  font-size: 1.8rem;
+  color: white;
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4), 0 0 20px rgba(255, 255, 255, 0.5);
+  margin-bottom: 50px;
+  font-weight: 700;
+  animation: subtitlePulse 2s ease-in-out infinite;
+}
+
+@keyframes subtitlePulse {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}
+
+.links-container {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+  max-width: 600px;
+  width: 100%;
+}
+
+.fancy-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 15px;
+  padding: 20px 40px;
+  text-decoration: none;
+  border-radius: 20px;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  position: relative;
+  overflow: hidden;
+  border: 3px solid transparent;
+  font-weight: 700;
+  font-size: 1.3rem;
+  width: 100%;
+  justify-content: center;
+  min-height: 80px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+.fancy-link::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(
+    45deg,
+    transparent,
+    rgba(255, 255, 255, 0.5),
+    transparent
+  );
+  transform: rotate(45deg);
+  transition: all 0.6s;
+}
+
+.fancy-link:hover::before {
+  left: 100%;
+  top: 100%;
+}
+
+.link-icon {
+  font-size: 2rem;
+  transition: transform 0.3s ease;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.3));
+  animation: iconFloat 2s ease-in-out infinite;
+}
+
+@keyframes iconFloat {
+  0%,
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-5px) rotate(10deg);
+  }
+}
+
+.link-text {
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), 0 0 10px rgba(255, 255, 255, 0.3);
+  transition: all 0.3s ease;
+  letter-spacing: 1px;
+}
+
+.link-arrow {
+  font-size: 1.8rem;
+  transition: transform 0.3s ease;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.fancy-link:hover {
+  transform: translateY(-8px) scale(1.08);
+  border-color: rgba(255, 255, 255, 1);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4), 0 0 30px rgba(255, 255, 255, 0.5);
+}
+
+.fancy-link:hover .link-icon {
+  transform: rotate(360deg) scale(1.3);
+  animation: none;
+}
+
+.fancy-link:hover .link-arrow {
+  transform: translateX(8px) scale(1.2);
+}
+
+.fancy-link:hover .link-text {
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.6), 0 0 20px rgba(255, 255, 255, 0.6);
+}
+
+.link-lit {
+  background: linear-gradient(135deg, #ff6b6b 0%, #ff1493 50%, #ff69b4 100%);
+  animation: linkGlow 3s ease-in-out infinite;
+}
+
+@keyframes linkGlow {
+  0%,
+  100% {
+    box-shadow: 0 8px 25px rgba(255, 107, 107, 0.5),
+      0 0 20px rgba(255, 20, 147, 0.3);
+  }
+  50% {
+    box-shadow: 0 8px 25px rgba(255, 107, 107, 0.8),
+      0 0 40px rgba(255, 20, 147, 0.6);
+  }
+}
+
+.link-normal {
+  background: linear-gradient(135deg, #ffd700 0%, #ffa500 50%, #ff8c00 100%);
+  animation: linkGlow2 3s ease-in-out infinite;
+}
+
+@keyframes linkGlow2 {
+  0%,
+  100% {
+    box-shadow: 0 8px 25px rgba(255, 215, 0, 0.5),
+      0 0 20px rgba(255, 165, 0, 0.3);
+  }
+  50% {
+    box-shadow: 0 8px 25px rgba(255, 215, 0, 0.8),
+      0 0 40px rgba(255, 165, 0, 0.6);
+  }
+}
+
+.link-zoo {
+  background: linear-gradient(135deg, #90ee90 0%, #00ff7f 50%, #32cd32 100%);
+  animation: linkGlow3 3s ease-in-out infinite;
+}
+
+@keyframes linkGlow3 {
+  0%,
+  100% {
+    box-shadow: 0 8px 25px rgba(144, 238, 144, 0.5),
+      0 0 20px rgba(0, 255, 127, 0.3);
+  }
+  50% {
+    box-shadow: 0 8px 25px rgba(144, 238, 144, 0.8),
+      0 0 40px rgba(0, 255, 127, 0.6);
+  }
+}
+
+.fancy-link:focus {
+  outline: 4px solid rgba(255, 255, 255, 0.8);
+  outline-offset: 4px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .title-text {
+    font-size: 3rem;
+  }
+
+  .title-sparkle {
+    font-size: 2rem;
+  }
+
+  .subtitle {
+    font-size: 1.4rem;
+  }
+
+  .fancy-link {
+    padding: 18px 30px;
+    font-size: 1.1rem;
+    min-height: 70px;
+  }
+
+  .link-icon {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .title-text {
+    font-size: 2.2rem;
+    letter-spacing: 1px;
+  }
+
+  .subtitle {
+    font-size: 1.2rem;
+  }
+
+  .fancy-link {
+    padding: 15px 25px;
+    font-size: 1rem;
+    min-height: 60px;
+  }
+}
