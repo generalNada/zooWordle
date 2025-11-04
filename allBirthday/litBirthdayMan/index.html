@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>🔥 Lit Birthday - One Group Only 🔥</title>
+    <script type="module" src="./birthday-app.js"></script>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+      }
+      .back-link {
+        position: fixed;
+        top: 20px;
+        left: 20px;
+        z-index: 1000;
+        padding: 12px 24px;
+        background: rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(10px);
+        border-radius: 15px;
+        text-decoration: none;
+        color: white;
+        font-weight: 600;
+        border: 2px solid rgba(255, 255, 255, 0.3);
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        transition: all 0.3s ease;
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+      }
+      .back-link:hover {
+        background: rgba(255, 255, 255, 0.35);
+        transform: translateY(-2px);
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+      }
+      .page-title {
+        text-align: center;
+        padding: 2rem 1rem 1rem;
+        color: white;
+        text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+        font-size: 2.5rem;
+        font-weight: 900;
+        background: linear-gradient(135deg, #fff 0%, #f093fb 50%, #4facfe 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        animation: titleGlow 3s ease-in-out infinite;
+        margin-bottom: 0;
+      }
+      @keyframes titleGlow {
+        0%,
+        100% {
+          filter: brightness(1);
+        }
+        50% {
+          filter: brightness(1.3);
+        }
+      }
+      @media (max-width: 768px) {
+        .page-title {
+          font-size: 1.8rem;
+          padding-top: 4rem;
+        }
+        .back-link {
+          top: 10px;
+          left: 10px;
+          padding: 10px 18px;
+          font-size: 0.9rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <a href="../../index.html" class="back-link">
+      <span>🦁</span>
+      <span>Back To Zoo!</span>
+    </a>
+    <h1 class="page-title">🔥 One Group Only - Lit as Hell 🔥</h1>
+
+    <birthday-app></birthday-app>
+  </body>
+</html>
