@@ -15,7 +15,7 @@ const flicksMusic = [
     title: "Bare Naked Ladies Live",
     year: 2001,
     genre: "Music",
-    collection: null,
+    collection: "Good Tunes",
     dropboxUrl:
       "https://www.dropbox.com/scl/fi/mh1vzwyrmw0hqanlff5cm/BARE_NAKED_LADIIES.mp4?rlkey=ysnyngvxc0fjlmfkjzq1wus1t&raw=1",
     downloadUrl:
@@ -26,7 +26,7 @@ const flicksMusic = [
     title: "Beck",
     year: 1998,
     genre: "Music",
-    collection: null,
+    collection: "Good Tunes",
     dropboxUrl:
       "https://www.dropbox.com/scl/fi/j377pxgwhlp76c1qzfwwk/BECK.mp4?rlkey=dmifw0qo3dildr9llfr9m9mjj&raw=1",
     downloadUrl:
@@ -48,7 +48,7 @@ const flicksMusic = [
     title: "Billy Joel: The Essential",
     year: 2001,
     genre: "Music",
-    collection: null,
+    collection: "Good Tunes",
     dropboxUrl:
       "https://www.dropbox.com/scl/fi/onl6bhqgb1q3bmrutzqq7/BILLY_JOEL_THE-ESSENTIAL.mp4?rlkey=iqsvagtdoqu3uo1cl0vzy9fiz&raw=1",
     downloadUrl:
@@ -70,7 +70,7 @@ const flicksMusic = [
     title: "Bob Dylan Unplugged",
     year: 1995,
     genre: "Music",
-    collection: null,
+    collection: "Good Tunes",
     dropboxUrl:
       "https://www.dropbox.com/scl/fi/xf6272ayb1h72nrgrilyj/BOB_DYLAN_UNPLUGGED.mp4?rlkey=ywvq5tfwzn9yjdk8798gn3j0b&raw=1",
     downloadUrl:
@@ -92,7 +92,7 @@ const flicksMusic = [
     title: "Chuck Berry Live",
     year: 1983,
     genre: "Music",
-    collection: null,
+    collection: "Good Tunes",
     dropboxUrl:
       "https://www.dropbox.com/scl/fi/hhq73ftn44x0d9sx7sdej/CHUCK_BERRY_LIVE.mp4?rlkey=lmw8w9co0mq2honkdmzlgh4va&raw=1",
     downloadUrl:
@@ -103,7 +103,7 @@ const flicksMusic = [
     title: "Diana Krall: Montreal Jazz Fest",
     year: 2004,
     genre: "Music",
-    collection: null,
+    collection: "Good Tunes",
     dropboxUrl:
       "https://www.dropbox.com/scl/fi/s19rnw4il67ka1zk6yl8t/DIANA_KRALL_MONTREAL_JAZZ_FEST.mp4?rlkey=ar2nzcx1d8vgn74xconacapfw&raw=1",
     downloadUrl:
@@ -125,7 +125,7 @@ const flicksMusic = [
     title: "Elvis: Aloha from Hawaii",
     year: 1973,
     genre: "Music",
-    collection: null,
+    collection: "Good Tunes",
     dropboxUrl:
       "https://www.dropbox.com/scl/fi/arlopomx23tafaq5v91g4/ELVIS_ALOHA_HAWAII.mp4?rlkey=cq09tp50jylutrga50ao3a9kb&raw=1",
     downloadUrl:
@@ -136,7 +136,7 @@ const flicksMusic = [
     title: "Fleetwood Mac - The Dance",
     year: 1997,
     genre: "Music",
-    collection: null,
+    collection: "Good Tunes",
     dropboxUrl:
       "https://www.dropbox.com/scl/fi/2q7ch12y7cew5oreselad/FleetwoodMac-The-Dance.mp4?rlkey=cu12yb4oraf8jaxvzvwx1j9ig&raw=1",
     downloadUrl:
@@ -147,7 +147,7 @@ const flicksMusic = [
     title: "Jeff Buckley Live in Chicago",
     year: 1995,
     genre: "Music",
-    collection: null,
+    collection: "Good Tunes",
     dropboxUrl:
       "https://www.dropbox.com/scl/fi/dj5ttyot85pcjmcrp5mln/JEFF_BUCKLEY_LiveInChicago1995.mp4?rlkey=ciq89rgunxbatgc0xdne271tf&raw=1",
     downloadUrl:
@@ -190,7 +190,7 @@ const flicksMusic = [
     title: "Johnny Cash at Montreux",
     year: 1994,
     genre: "Music",
-    collection: null,
+    collection: "Good Tunes",
     dropboxUrl:
       "https://www.dropbox.com/scl/fi/03xb6co4jatlxw5job56e/JOHNNY_CASH_Montreux.mp4?rlkey=xzioofz29wfwl0wp7vlxaumca&raw=1",
     downloadUrl:
@@ -201,7 +201,7 @@ const flicksMusic = [
     title: "The Last Waltz",
     year: 1978,
     genre: "Music",
-    collection: null,
+    collection: "Good Tunes",
     dropboxUrl:
       "https://www.dropbox.com/scl/fi/2bw2043lhnbsyal78xmxd/LASTWALTZ.mp4?rlkey=cylfpnjamnptdacqvafwyv2u4&raw=1",
     downloadUrl:
@@ -212,7 +212,7 @@ const flicksMusic = [
     title: "Miles Davis Cool Jazz Sound",
     year: 1957,
     genre: "Music",
-    collection: null,
+    collection: "Good Tunes",
     dropboxUrl:
       "https://www.dropbox.com/scl/fi/uighxj074m3btiw37apoj/MILES_DAVIS_COOL_JAZZ.mp4?rlkey=62fd1d70ul648h13jricuof4f&raw=1",
     downloadUrl:
@@ -223,7 +223,7 @@ const flicksMusic = [
     title: "Moody Blues Live at Montreux",
     year: 1991,
     genre: "Music",
-    collection: null,
+    collection: "Good Tunes",
     dropboxUrl:
       "https://www.dropbox.com/scl/fi/arrm21frrban9lgoc5mai/MOODY_BLUES_MONTREUX.mp4?rlkey=09aq74wfkm6f6ijzx3t53dpdm&raw=1",
     downloadUrl:
@@ -389,7 +389,7 @@ const flicksMusic = [
     title: "Pink Floyd: Live at Pompeii",
     year: 1972,
     genre: "Music",
-    collection: null,
+    collection: "Good Tunes",
     dropboxUrl:
       "https://www.dropbox.com/scl/fi/blvhkhw90k13vvwd4buut/PINK_FLOYD_LIVE_AT_POMPEII.mp4?rlkey=6v2bbzgj7ewhp3x4u3d09etir&raw=1",
     downloadUrl:
@@ -400,7 +400,7 @@ const flicksMusic = [
     title: "Pixies: Newport",
     year: 2005,
     genre: "Music",
-    collection: null,
+    collection: "Good Tunes",
     dropboxUrl:
       "https://www.dropbox.com/scl/fi/66rqgihqqid0hcr6l8xo1/PIXIES_NEWPORT.mp4?rlkey=jrty02h87ila0vako3awhsdfw&raw=1",
     downloadUrl:
@@ -411,7 +411,7 @@ const flicksMusic = [
     title: "Radiohead: Astoria London",
     year: 1994,
     genre: "Music",
-    collection: null,
+    collection: "Good Tunes",
     dropboxUrl:
       "https://www.dropbox.com/scl/fi/kmdj1ry0uxdapoqpsp9ot/RADIOHEAD_Astoria_London.mp4?rlkey=0uqogta8isdg3ehn2qlrj3gp9&raw=1",
     downloadUrl:
@@ -422,7 +422,7 @@ const flicksMusic = [
     title: "Radiohead",
     year: 1997,
     genre: "Music",
-    collection: null,
+    collection: "Good Tunes",
     dropboxUrl:
       "https://www.dropbox.com/scl/fi/my46tp2vieyjzppuj5102/RADIOHEAD.mp4?rlkey=91r42mi5yiaod3bvwc7vmb4lo&raw=1",
     downloadUrl:
@@ -433,7 +433,7 @@ const flicksMusic = [
     title: "Seu Jorge: Montreux",
     year: 2005,
     genre: "Music",
-    collection: null,
+    collection: "Good Tunes",
     dropboxUrl:
       "https://www.dropbox.com/scl/fi/ixyw7pal9uxjs4e6csue6/SEU_JORGE_MONTREUX.mp4?rlkey=olyvp2r0filv3t5q4bnmu8rp0&raw=1",
     downloadUrl:
