@@ -1436,7 +1436,7 @@ export const dailyWordsSmall = [
     'TRUCK', 'TRUER', 'TRUMP', 'TRUNK', 'TUBAL', 'TULIP', 'TULLE', 'TUMOR',
     'TWEET', 'TWIXT', 'TYING', 'UMBRA', 'UNCUT', 
     'UNITY', 'UNSET', 'UNWED', 'URINE', 'UTILE', 'VALOR', 'VALVE', 'VAPOR',
-    'VAUNT', 'VEGAN', 'VENUE', 'VERSO', 'VICAR', 'VIGIL', 
+    'VAUNT', 'VEGAN', 'VERSO', 'VICAR', 'VIGIL', 
     'VIPER', 'VIRUS', 'VISIT', 'VISTA', 'VOCAL', 'VOGUE', 
     'VOMIT', 'VOWEL', 'WAGER', 'WAIST', 'WAIVE', 'WARTY', 
     'WAVER', 'WAXEN', 'WEAVE', 'WEIGH', 'WELCH', 'WELSH', 'WHARF', 
@@ -2660,7 +2660,7 @@ export const dailyWordsLarge = [
     'VAUTE', 'VAUTS', 'VAWTE', 'VAXES', 'VEALE', 'VEALS', 'VEALY', 'VEENA', 'VEEPS', 'VEERS',
     'VEERY', 'VEGAN', 'VEGAS', 'VEGES', 'VEGIE', 'VEGOS', 'VEHME', 'VEILS', 'VEILY', 'VEINS',
     'VEINY', 'VELAR', 'VELDS', 'VELDT', 'VELES', 'VELLS', 'VELUM', 'VENAE', 'VENAL', 'VENDS',
-    'VENEY', 'VENGE', 'VENIN', 'VENTS', 'VENUE', 'VENUS', 'VERBS', 'VERRA',
+    'VENEY', 'VENGE', 'VENIN', 'VENTS', 'VENUS', 'VERBS', 'VERRA',
     'VERRY', 'VERSO', 'VERST', 'VERTS', 'VERTU', 'VESPA', 'VESTA', 'VESTS',
     'VETCH', 'VEXED', 'VEXER', 'VEXES', 'VEXIL', 'VEZIR', 'VIALS', 'VIAND', 'VIBES', 'VIBEX',
     'VIBEY', 'VICAR', 'VICED', 'VICES', 'VICHY', 'VIERS', 'VIEWS', 'VIEWY', 'VIFDA',
@@ -12280,6 +12280,11 @@ export const wordleWords = [
         myScore: 3,
         wordNumber: 1598,
       },  
+      { word: "VENUE",
+        gameDate: "11/4/25",
+        myScore: 5,
+        wordNumber: 1599,
+      },  
 
     
   ];
@@ -12297,7 +12302,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("November 3, 2025: Trump sux dykk000000000! AWOKE")
+console.log("November 4, 2025: Trump sux dykk000000000! VENUE")
 
 
 console.log(wordleWords)
