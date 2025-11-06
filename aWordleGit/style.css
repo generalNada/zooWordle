@@ -5,20 +5,6 @@
   box-sizing: border-box;
 }
 
-#zooStuff {
-  font-size: 2rem;
-  font-family: "Passion One", serif;
-  /* position: absolute;
-  top: 1rem;
-  left: 1rem;
-  z-index: 30; */
-  border: solid rgb(229, 8, 8) 0.2rem;
-  border-radius: 0.5rem;
-  padding: 0.25rem;
-  animation: colorCycle5 10s ease-in-out infinite alternate,
-    waveText8 10s ease-in-out infinite;
-}
-
 html {
   height: 100%;
   width: 100%;
@@ -2562,6 +2548,16 @@ border: 5px solid aqua;
   border-radius: 1.1rem;
 }
 
+.badAssMan1G {
+  background-color: #1165ed;
+  color: #acc1e3;
+  font-family: "Unlock", serif;
+  font-size: 2.25rem;
+  line-height: 2.25rem;
+  border: solid rgb(29, 58, 118) 0.2rem;
+  border-radius: 1.1rem;
+}
+
 .badAssMan2 {
   background-color: rgb(15, 45, 25);
   color: white;
@@ -2662,7 +2658,6 @@ border: 5px solid aqua;
   border-radius: 1.1rem;
 }
 
-
 .badAssMan3C {
   background-color: 800000;
   color: #FF2400;
@@ -2702,7 +2697,7 @@ border: 5px solid aqua;
   border: solid rgb(29, 58, 118) 0.2rem;
   border-radius: 1.1rem;
 }
-
+  
 .jasmineCrockett {
   color: white;
   background-color: black;
