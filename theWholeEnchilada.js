@@ -1412,7 +1412,7 @@ export const dailyWordsSmall = [
     'SCUBA', 'SEGUE', 'SEIZE', 'SEMEN', 'SEPIA', 'SERIF', 'SETUP', 'SEWER', 'SHACK',
     'SHADY', 'SHALE', 'SHALT', 'SHARK', 
     'SHEEN', 'SHEEP', 'SHEER', 'SHEIK', 'SHIED', 'SHINY', 'SHIRT',
-    'SHOAL', 'SHOCK', 'SHONE', 'SHOOK', 'SHOOT', 'SHORT', 'SHREW',
+    'SHOAL', 'SHOCK', 'SHONE', 'SHOOK', 'SHOOT', 'SHREW',
     'SIEVE', 'SIGMA', 'SILKY', 'SINEW', 'SINGE', 'SIREN',
     'SIXTY', 'SKULK', 'SKULL', 'SLACK', 'SLAIN', 'SLANT', 'SLASH', 'SLAVE', 
     'SLEET', 'SLEPT', 'SLICK', 'SLIDE', 'SLIME', 'SLIMY', 'SLING', 'SLINK',
@@ -2444,7 +2444,7 @@ export const dailyWordsLarge = [
     'SHIUR', 'SHIVA', 'SHIVE', 'SHIVS', 'SHLEP', 'SHLUB', 'SHMEK', 'SHMOE', 'SHOAL', 'SHOAT',
     'SHOCK', 'SHOED', 'SHOER', 'SHOES', 'SHOGI', 'SHOGS', 'SHOJI', 'SHOJO', 'SHOLA', 'SHONE',
     'SHOOK', 'SHOOL', 'SHOON', 'SHOOS', 'SHOOT', 'SHOPE', 'SHOPS', 'SHORL', 
-    'SHORT', 'SHOTE', 'SHOTS', 'SHOTT', 'SHOWD', 'SHOWS', 
+    'SHOTE', 'SHOTS', 'SHOTT', 'SHOWD', 'SHOWS', 
     'SHOYU', 'SHRED', 'SHREW', 'SHRIS', 'SHROW', 'SHTIK', 'SHTUM', 'SHTUP',
     'SHULE', 'SHULN', 'SHULS', 'SHUNS', 'SHURA', 'SHUSH', 'SHUTE', 'SHUTS',
     'SHWAS', 'SHYER', 'SIALS', 'SIBBS', 'SIBYL', 'SICES', 'SICHT', 'SICKO', 'SICKS',
@@ -12285,6 +12285,11 @@ export const wordleWords = [
         myScore: 5,
         wordNumber: 1599,
       },  
+      { word: "SHORT",
+        gameDate: "11/5/25",
+        myScore: 2,
+        wordNumber: 1600,
+      },  
 
     
   ];
@@ -12302,7 +12307,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("November 4, 2025: Trump sux dykk000000000! VENUE")
+console.log("November 5, 2025: Trump sux dykk000000000! SHORT")
 
 
 console.log(wordleWords)
