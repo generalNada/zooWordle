@@ -1367,7 +1367,7 @@ export const dailyWordsSmall = [
     'GODLY', 'GOLLY', 'GONAD', 'GOURD',
     'GRAPE', 'GRASS', 'GRAVE', 'GRAVY', 'GRAZE', 'GRILL', 
     'GROPE', 'GRUFF', 'GRUNT', 'GUAVA', 'GUESS', 'GUILT',
-    'GUISE', 'GULCH', 'GUMBO', 'GUSTO', 'GUTSY', 'GYPSY', 'HALAL', 
+    'GULCH', 'GUMBO', 'GUSTO', 'GUTSY', 'GYPSY', 'HALAL', 
     'HAREM', 'HARPY', 'HARRY', 'HASTE', 'HASTY', 'HAUTE', 
     'HEDGE', 'HIPPY', 'HOIST', 
     'HONOR', 'HORNY', 'HOTLY', 'HOVEL', 'HUMUS', 'HUSKY', 'HUSSY', 'HYDRO',
@@ -1917,7 +1917,7 @@ export const dailyWordsLarge = [
     'GRUFF', 'GRUME', 'GRUMP', 'GRUND', 'GRUNT', 'GRYCE', 'GRYDE', 'GRYKE', 'GRYPE', 'GRYPT',
     'GUACO', 'GUANA', 'GUANS', 'GUARS', 'GUAVA', 'GUCKS', 'GUCKY', 'GUDES',
     'GUESS', 'GUFFS', 'GUGAS', 'GUIDS', 'GUILT', 'GUIMP',
-    'GUIRO', 'GUISE', 'GULAG', 'GULAR', 'GULAS', 'GULCH', 'GULES', 'GULET', 'GULFS', 'GULFY',
+    'GUIRO', 'GULAG', 'GULAR', 'GULAS', 'GULCH', 'GULES', 'GULET', 'GULFS', 'GULFY',
     'GULLS', 'GULPH', 'GULPS', 'GULPY', 'GUMBO', 'GUMMA', 'GUMMI', 'GUMPS',
     'GUNDY', 'GUNGE', 'GUNGY', 'GUNKS', 'GUNKY', 'GUNNY', 'GUQIN', 'GURDY', 'GURGE',
     'GURLS', 'GURLY', 'GURNS', 'GURRY', 'GURSH', 'GURUS', 'GUSHY', 'GUSLA', 'GUSLE', 'GUSLI',
@@ -12290,6 +12290,11 @@ export const wordleWords = [
         myScore: 2,
         wordNumber: 1600,
       },  
+      { word: "GUISE",
+        gameDate: "11/6/25",
+        myScore: 3,
+        wordNumber: 1601,
+      },  
 
     
   ];
@@ -12307,7 +12312,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("November 5, 2025: Trump sux dykk000000000! SHORT")
+console.log("November 6, 2025: Trump sux dykk000000000! GUISE")
 
 
 console.log(wordleWords)
