@@ -1,54 +1,523 @@
 body {
-    background-color: rgb(87, 87, 164);
+  background-color: rgb(207, 64, 157);
+  /* background-color: chartreuse; */
 }
 
 #toggleButton {
-    color: rgb(0, 8, 255);
+  font-size: 3rem;
+  color: rgb(0, 8, 255);
 }
 
 #scoreField {
-    display: inline-block;
-    color: aquamarine;
-    background-color: rgb(11, 42, 197);
-    margin-top: 20px;
-    font-size: 2rem;
-    width: 35rem;
-    padding-left: 1rem;
-    text-align: center;
-    /* border: solid rgb(15, 146, 234) .25rem; */
-    border-radius: .5rem;
+  display: inline-block;
+  color: aquamarine;
+  background-color: rgb(11, 42, 197);
+  margin-top: 20px;
+  font-size: 2rem;
+  width: 35rem;
+  padding-left: 1rem;
+  text-align: center;
+  /* border: solid rgb(15, 146, 234) .25rem; */
+  border-radius: 0.5rem;
+}
+
+.score-result {
+  background-color: rgb(11, 42, 197);
+  color: aquamarine;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 0.5rem;
+  border: 2px solid rgb(15, 146, 234);
+}
+
+.month-year-result {
+  background-color: rgb(83, 50, 150);
+  color: rgb(255, 200, 100);
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 0.5rem;
+  border: 2px solid rgb(150, 100, 200);
+}
+
+.year-result {
+  background-color: rgb(150, 50, 50);
+  color: rgb(255, 200, 200);
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 0.5rem;
+  border: 2px solid rgb(200, 100, 100);
+}
+
+.default-message {
+  background-color: rgb(50, 50, 50);
+  color: rgb(200, 200, 200);
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 0.5rem;
+  border: 2px solid rgb(100, 100, 100);
 }
 
 #scoreDropdown {
-    display: none;
-    margin-top: 10px;
-    background-color: rgb(6, 6, 37);
-    color: aquamarine;
+  font-size: 2rem;
+  display: none;
+  margin-top: 10px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+#monthYearDropdown,
+#yearDropdown {
+  font-size: 2rem;
+  display: none;
+  margin-top: 10px;
+  margin-left: 10px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 
 #linksVille {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .eachLink {
-    font-size: 1.25rem;
-    text-decoration: none;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.eachLink {
+  font-size: 2.25rem;
+  text-decoration: none;
+}
 
 .link1 {
-    color:rgb(130, 156, 236);
-    margin-right: 1rem;
-  }
+  color: rgb(130, 156, 236);
+  margin-right: 1rem;
+}
 
 .link2 {
-    color:rgb(83, 208, 81);
-    margin-right: 1rem;
-  }
-  
-.link3 {
-    color:rgb(242, 106, 154);
-    margin-right: 1rem;
-  }
+  color: rgb(83, 208, 81);
+  margin-right: 1rem;
+}
 
+.link3 {
+  color: rgb(242, 106, 154);
+  margin-right: 1rem;
+}
+
+/* New styles for nested functionality */
+#dateToggleContainer {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#showDatesButton,
+#showWordsButton {
+  background-color: rgb(11, 42, 197);
+  color: aquamarine;
+  border: 2px solid aquamarine;
+  border-radius: 0.5rem;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#showDatesButton:hover,
+#showWordsButton:hover {
+  background-color: rgb(15, 60, 230);
+}
+
+.close-btn {
+  background-color: rgb(200, 50, 50);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+}
+
+.close-btn:hover {
+  background-color: rgb(230, 70, 70);
+}
+
+#datesContainer,
+#wordsContainer {
+  margin-top: 20px;
+  background-color: rgb(20, 20, 80);
+  border: 2px solid aquamarine;
+  border-radius: 0.5rem;
+  padding: 15px;
+  max-width: 40rem;
+}
+
+#datesHeader,
+#wordsHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+#datesTitle,
+#wordsTitle {
+  color: aquamarine;
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+#datesList {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 10px;
+}
+
+#wordsList {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.date-button {
+  background-color: rgb(6, 6, 37);
+  color: aquamarine;
+  border: 1px solid rgb(50, 150, 150);
+  border-radius: 0.3rem;
+  padding: 8px 12px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.date-button:hover {
+  background-color: rgb(15, 15, 60);
+  border-color: aquamarine;
+  transform: scale(1.05);
+}
+
+.word-item {
+  background-color: rgb(6, 6, 37);
+  color: aquamarine;
+  border: 1px solid rgb(50, 150, 150);
+  border-radius: 0.3rem;
+  padding: 12px 16px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: left;
+}
+
+.word-item:hover {
+  background-color: rgb(15, 15, 60);
+  border-color: aquamarine;
+  transform: translateX(5px);
+}
+
+#wordDetailsContainer {
+  margin-top: 20px;
+  background-color: rgb(30, 30, 100);
+  border: 2px solid rgb(242, 106, 154);
+  border-radius: 0.5rem;
+  padding: 20px;
+  max-width: 35rem;
+}
+
+#wordDetailsHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+#wordDetailsHeader h3 {
+  color: rgb(242, 106, 154);
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+#wordDetailsContent {
+  color: aquamarine;
+  font-size: 1.3rem;
+  line-height: 1.6;
+}
+
+.detail-item {
+  margin: 10px 0;
+  padding: 5px 0;
+  border-bottom: 1px solid rgba(127, 255, 212, 0.3);
+}
+
+.detail-label {
+  font-weight: bold;
+  color: rgb(242, 106, 154);
+  display: inline-block;
+  width: 120px;
+}
+
+.detail-value {
+  color: aquamarine;
+}
+
+/* Day of Week Search Styles */
+#daySearchContainer {
+  margin-top: 20px;
+  background-color: rgb(30, 30, 100);
+  border: 2px solid rgb(83, 208, 81);
+  border-radius: 0.5rem;
+  padding: 20px;
+  max-width: 50rem;
+}
+
+#daySearchHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+#daySearchTitle {
+  color: rgb(83, 208, 81);
+  font-size: 1.8rem;
+  margin: 0;
+  flex-grow: 1;
+  text-align: center;
+}
+
+#dayOfWeekDropdown {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border: 2px solid rgb(83, 208, 81);
+  border-radius: 0.3rem;
+  padding: 8px 12px;
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#daySearchResults {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.day-word-button {
+  background-color: rgb(6, 6, 37);
+  color: rgb(83, 208, 81);
+  border: 2px solid rgb(83, 208, 81);
+  border-radius: 0.5rem;
+  padding: 15px 20px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: center;
+  min-height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.day-word-button:hover {
+  background-color: rgb(15, 15, 60);
+  border-color: rgb(120, 255, 120);
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(83, 208, 81, 0.3);
+}
+
+.word-text {
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin-bottom: 5px;
+}
+
+.word-date {
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+.day-search-summary {
+  background-color: rgb(83, 50, 150);
+  color: rgb(255, 200, 100);
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 0.5rem;
+  border: 2px solid rgb(150, 100, 200);
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+/* Day Number Search Styles */
+#dayNumberSearchContainer {
+  margin-top: 20px;
+  background-color: rgb(30, 30, 100);
+  border: 2px solid rgb(242, 106, 154);
+  border-radius: 0.5rem;
+  padding: 20px;
+  max-width: 50rem;
+}
+
+#dayNumberSearchHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+#dayNumberSearchTitle {
+  color: rgb(242, 106, 154);
+  font-size: 1.8rem;
+  margin: 0;
+  flex-grow: 1;
+  text-align: center;
+}
+
+#dayNumberDropdown {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border: 2px solid rgb(242, 106, 154);
+  border-radius: 0.3rem;
+  padding: 8px 12px;
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#dayNumberSearchResults {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.day-number-word-button {
+  background-color: rgb(6, 6, 37);
+  color: rgb(242, 106, 154);
+  border: 2px solid rgb(242, 106, 154);
+  border-radius: 0.5rem;
+  padding: 15px 20px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: center;
+  min-height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.day-number-word-button:hover {
+  background-color: rgb(15, 15, 60);
+  border-color: rgb(255, 150, 200);
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(242, 106, 154, 0.3);
+}
+
+.day-number-search-summary {
+  background-color: rgb(150, 50, 50);
+  color: rgb(255, 200, 200);
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 0.5rem;
+  border: 2px solid rgb(200, 100, 100);
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+/* Month/Day Search Styles */
+#monthDaySearchContainer {
+  margin-top: 20px;
+  background-color: rgb(30, 30, 100);
+  border: 2px solid rgb(130, 156, 236);
+  border-radius: 0.5rem;
+  padding: 20px;
+  max-width: 50rem;
+}
+
+#monthDaySearchHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+#monthDaySearchTitle {
+  color: rgb(130, 156, 236);
+  font-size: 1.8rem;
+  margin: 0;
+  flex-grow: 1;
+  text-align: center;
+}
+
+#monthDayControls {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+#monthDropdown,
+#monthDayDropdown {
+  font-size: 1.5rem;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border: 2px solid rgb(130, 156, 236);
+  border-radius: 0.3rem;
+  padding: 8px 12px;
+  width: 180px;
+}
+
+#monthDaySearchResults {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.month-day-word-button {
+  background-color: rgb(6, 6, 37);
+  color: rgb(130, 156, 236);
+  border: 2px solid rgb(130, 156, 236);
+  border-radius: 0.5rem;
+  padding: 15px 20px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: center;
+  min-height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.month-day-word-button:hover {
+  background-color: rgb(15, 15, 60);
+  border-color: rgb(180, 200, 255);
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(130, 156, 236, 0.3);
+}
+
+.month-day-search-summary {
+  background-color: rgb(50, 50, 150);
+  color: rgb(200, 200, 255);
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 0.5rem;
+  border: 2px solid rgb(100, 100, 200);
+  text-align: center;
+  font-size: 1.2rem;
+}

@@ -1,31 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ProjectScore</title>
-    <link  href="wordleScore4.css" rel="stylesheet" type="text/css" />
-</head>
-<body>
+    <link href="wordleScore4.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
     <div id="linksVille">
-        <a href="/project12500/wordleHuge3.html" class="eachLink link3">Filter off a HUGE List</a>
-        <a href="/projectReg/wordleReg1.html" class="eachLink link1">Here's the original Final Project</a>
-        <a href="/projectPlus/wordlePlus2.html"  class="eachLink link2">Curious About Score Average Between Word #'s? </a>
-        <a href="../crap.html"  class="eachLink link2">wordleCrap is Here </a>
+      <a href="../project12500/wordleHuge3.html" class="eachLink link3">Filter off a HUGE List</a>
+      <a href="../projectReg/wordleReg1.html" class="eachLink link1">Here's the original Final Project</a>
+      <a href="../projectPlus/wordlePlus2.html" class="eachLink link2">Curious About Score Average Between Word #'s?</a>
+      <a href="../crap.html" class="eachLink link4">Go To wordleCrap</a>
+      <a href="../../cursor.html" class="eachLink link4">Go To Cursor Home</a>
     </div>
     <h2 id="toggleButton">Click to Reveal Numbers</h2>
     <select id="scoreDropdown">
-        <option value="0">Score 0</option>
-        <option value="1">Score 1</option>
-        <option value="2">Score 2</option>
-        <option value="3">Score 3</option>
-        <option value="4">Score 4</option>
-        <option value="5">Score 5</option>
-        <option value="6">Score 6</option>
-        <option value="7">Score 7</option>
+      <option value="0">Score 0</option>
+      <option value="1">Score 1</option>
+      <option value="2">Score 2</option>
+      <option value="3">Score 3</option>
+      <option value="4">Score 4</option>
+      <option value="5">Score 5</option>
+      <option value="6">Score 6</option>
+      <option value="7">Score 7</option>
     </select>
+
+    <select id="monthYearDropdown" style="display: none">
+      <option value="">Select Month/Year</option>
+    </select>
+
+    <select id="yearDropdown" style="display: none">
+      <option value="">Select Year</option>
+    </select>
+
+    <!-- Day of Week Search Section -->
+    <div id="daySearchContainer" style="display: none">
+      <div id="daySearchHeader">
+        <h3 id="daySearchTitle">Search by Day of Week</h3>
+        <button
+          id="closeDaySearchButton"
+          class="close-btn"
+          style="display: none"
+        >
+          ✕
+        </button>
+      </div>
+      <select id="dayOfWeekDropdown">
+        <option value="">Select Day</option>
+        <option value="Monday">Monday</option>
+        <option value="Tuesday">Tuesday</option>
+        <option value="Wednesday">Wednesday</option>
+        <option value="Thursday">Thursday</option>
+        <option value="Friday">Friday</option>
+        <option value="Saturday">Saturday</option>
+        <option value="Sunday">Sunday</option>
+      </select>
+      <div id="daySearchResults"></div>
+    </div>
+
+    <!-- Day Number Search Section -->
+    <div id="dayNumberSearchContainer" style="display: none">
+      <div id="dayNumberSearchHeader">
+        <h3 id="dayNumberSearchTitle">Search by Day of Month</h3>
+        <button
+          id="closeDayNumberSearchButton"
+          class="close-btn"
+          style="display: none"
+        >
+          ✕
+        </button>
+      </div>
+      <select id="dayNumberDropdown">
+        <option value="">Select Day (1-31)</option>
+      </select>
+      <div id="dayNumberSearchResults"></div>
+    </div>
+
+    <!-- Month/Day Search Section -->
+    <div id="monthDaySearchContainer" style="display: none">
+      <div id="monthDaySearchHeader">
+        <h3 id="monthDaySearchTitle">Search by Month/Day</h3>
+        <button
+          id="closeMonthDaySearchButton"
+          class="close-btn"
+          style="display: none"
+        >
+          ✕
+        </button>
+      </div>
+      <div id="monthDayControls">
+        <select id="monthDropdown">
+          <option value="">Select Month</option>
+          <option value="0">January</option>
+          <option value="1">February</option>
+          <option value="2">March</option>
+          <option value="3">April</option>
+          <option value="4">May</option>
+          <option value="5">June</option>
+          <option value="6">July</option>
+          <option value="7">August</option>
+          <option value="8">September</option>
+          <option value="9">October</option>
+          <option value="10">November</option>
+          <option value="11">December</option>
+        </select>
+        <select id="monthDayDropdown">
+          <option value="">Select Day</option>
+        </select>
+      </div>
+      <div id="monthDaySearchResults"></div>
+    </div>
+
     <div id="scoreField"></div>
 
+    <!-- New nested functionality containers -->
+    <div id="dateToggleContainer" style="display: none">
+      <button id="showDatesButton">Show All Dates</button>
+      <button id="showWordsButton">Show All Words</button>
+      <button id="hideDatesButton" class="close-btn" style="display: none">
+        ✕
+      </button>
+      <button id="hideWordsButton" class="close-btn" style="display: none">
+        ✕
+      </button>
+    </div>
+
+    <div id="datesContainer" style="display: none">
+      <div id="datesHeader">
+        <h3 id="datesTitle"></h3>
+        <button id="closeDatesButton" class="close-btn">✕</button>
+      </div>
+      <div id="datesList"></div>
+    </div>
+
+    <div id="wordsContainer" style="display: none">
+      <div id="wordsHeader">
+        <h3 id="wordsTitle"></h3>
+        <button id="closeWordsButton" class="close-btn">✕</button>
+      </div>
+      <div id="wordsList"></div>
+    </div>
+
+    <div id="wordDetailsContainer" style="display: none">
+      <div id="wordDetailsHeader">
+        <h3>Word Details</h3>
+        <button id="closeWordDetailsButton" class="close-btn">✕</button>
+      </div>
+      <div id="wordDetailsContent"></div>
+    </div>
+
     <script type="module" src="wordleScore4.js"></script>
-</body>
+  </body>
 </html>
