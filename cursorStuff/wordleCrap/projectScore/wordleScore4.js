@@ -1,4 +1,4 @@
-import { fixedWordsLarge, wordleWords } from "../theWholeEnchilada.js";
+import { fixedWordsLarge, wordleWords } from "../../../theWholeEnchilada.js";
 //INCLUDES ZEROES
 
 const scoreCounts = {};
