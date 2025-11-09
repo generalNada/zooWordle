@@ -1,3 +1,86 @@
 .crapBody {
-    background-color: rgb(223, 87, 13);
+  background-color: #121212;
+  color: #e0e0e0;
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.theLinkLane {
+  display: flex;
+  flex-direction: space-around;
+  align-items: center;
+  background: linear-gradient(45deg, #222, #444);
+  color: #dadada;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  padding: 3rem;
+  transform: rotate(-0.5deg);
+  cursor: pointer;
+  /* cursor: not-allowed */
+}
+
+.link12500 {
+  color: #ffb347;
+  text-decoration: underline dotted #ff8c00;
+  font-weight: bold;
+  letter-spacing: 0.125em;
+  transition: all 0.3s ease;
+}
+.link12500:hover {
+  background-color: #222;
+  color: #fff8dc;
+  transform: scale(1.05) rotate(0.5deg);
+}
+
+.linkPlus2 {
+  background: #ff00ff20;
+  border: 2px dashed #ff69b4;
+  color: #a100ff;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  font-weight: 600;
+  animation: pulsePlus2 2s infinite;
+  margin-left: 14rem;
+}
+
+@keyframes pulsePlus2 {
+  0% {
+    transform: scale(1);
+    opacity: 0.9;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0.9;
+  }
+}
+
+.linkReg {
+  font-family: "Courier New", Courier, monospace;
+  color: #c0ffee;
+  text-shadow: 1px 1px 1px #0f0f0f;
+  border-bottom: 1px solid #555;
+  margin: 1rem auto;
+  display: inline-block;
+}
+
+.linkScore {
+  font-size: 1.25rem;
+  color: #0f0;
+  font-weight: bold;
+  background: #000000aa;
+  border-radius: 4px;
+  padding: 0.3rem 0.6rem;
+  box-shadow: 0 0 4px #0f0, 0 0 12px #0f08;
+  margin-right: 14rem;
+}
+
+.linkCursor {
+  cursor: url("https://cur.cursors-4u.net/cursors/cur-9/cur847.cur"), crosshair;
+  padding: 0.25rem;
+  border: 1px dashed #999;
+  background-color: #f3f3f3;
 }
