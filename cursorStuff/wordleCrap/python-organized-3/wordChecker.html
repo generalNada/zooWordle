@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Word Availability Checker</title>
+    <link rel="stylesheet" href="./wordChecker.css" />
+  </head>
+  <body>
+    <main class="layout">
+      <header class="intro">
+        <h1>Word Availability Checker</h1>
+        <p>
+          Look up five-letter Wordle words against the curated available and
+          unavailable lists.
+        </p>
+        <p class="hint">
+          Tip: make sure you serve this folder from a local web server (for
+          example: <code>python -m http.server</code>) so that the page can read
+          the word lists.
+        </p>
+      </header>
+
+      <section class="status">
+        <div class="status-card">
+          <span class="status-label">Available words</span>
+          <span class="status-value" id="available-count">—</span>
+        </div>
+        <div class="status-card">
+          <span class="status-label">Unavailable words</span>
+          <span class="status-value" id="unavailable-count">—</span>
+        </div>
+        <div class="status-card">
+          <span class="status-label">Data status</span>
+          <span class="status-value" id="data-status">Loading…</span>
+        </div>
+      </section>
+
+      <section class="panels">
+        <article class="panel">
+          <h2>Check Available List</h2>
+          <form id="available-form" autocomplete="off">
+            <label for="available-input">Enter a five-letter word:</label>
+            <div class="input-cluster">
+              <input
+                id="available-input"
+                name="available-word"
+                maxlength="5"
+                placeholder="e.g. FAUNA"
+              />
+              <button type="submit">Check</button>
+            </div>
+          </form>
+          <p class="message" id="available-message">
+            Results will appear here.
+          </p>
+        </article>
+
+        <article class="panel">
+          <h2>Check Unavailable List</h2>
+          <form id="unavailable-form" autocomplete="off">
+            <label for="unavailable-input">Enter a five-letter word:</label>
+            <div class="input-cluster">
+              <input
+                id="unavailable-input"
+                name="unavailable-word"
+                maxlength="5"
+                placeholder="e.g. FROZE"
+              />
+              <button type="submit">Check</button>
+            </div>
+          </form>
+          <p class="message" id="unavailable-message">
+            Results will appear here.
+          </p>
+        </article>
+      </section>
+    </main>
+
+    <template id="message-template">
+      <span class="word"></span>
+      <span class="details"></span>
+    </template>
+
+    <script type="module">
+      const AVAILABLE_PATH = "./available.py";
+      const UNAVAILABLE_PATH = "./unavailable.py";
+
+      const availableCountEl = document.getElementById("available-count");
+      const unavailableCountEl = document.getElementById("unavailable-count");
+      const dataStatusEl = document.getElementById("data-status");
+
+      const availableForm = document.getElementById("available-form");
+      const unavailableForm = document.getElementById("unavailable-form");
+      const availableInput = document.getElementById("available-input");
+      const unavailableInput = document.getElementById("unavailable-input");
+      const availableMessage = document.getElementById("available-message");
+      const unavailableMessage = document.getElementById("unavailable-message");
+      const messageTemplate = document.getElementById("message-template");
+
+      const availableWords = new Set();
+      const unavailableWords = new Set();
+      let dataReady = false;
+
+      const sanitizeWord = (word) =>
+        word
+          .toUpperCase()
+          .normalize("NFD")
+          .replace(/[^A-Z]/g, "");
+
+      async function fetchWordSet(path) {
+        const response = await fetch(path);
+        if (!response.ok) {
+          throw new Error(`Failed to load ${path}`);
+        }
+        const text = await response.text();
+        const pattern = /["']([^"']+)["']/g;
+        const matches = text.matchAll(pattern);
+        const words = new Set();
+        for (const match of matches) {
+          const cleaned = sanitizeWord(match[1]);
+          if (cleaned.length === 5) {
+            words.add(cleaned);
+          }
+        }
+        return words;
+      }
+
+      function renderMessage(target, { word, status, details }) {
+        const clone = messageTemplate.content.cloneNode(true);
+        const wordEl = clone.querySelector(".word");
+        const detailsEl = clone.querySelector(".details");
+
+        wordEl.textContent = word;
+        detailsEl.textContent = details;
+
+        target.className = `message ${status}`;
+        target.replaceChildren(clone);
+      }
+
+      function handleSubmit(
+        primarySet,
+        secondarySet,
+        form,
+        input,
+        targetMessage,
+        positiveDetails,
+        negativeDetails
+      ) {
+        form.addEventListener("submit", (event) => {
+          event.preventDefault();
+          if (!dataReady) {
+            renderMessage(targetMessage, {
+              word: "Loading",
+              status: "info",
+              details: "Please wait for the word lists to finish loading.",
+            });
+            return;
+          }
+
+          const rawValue = sanitizeWord(input.value);
+          if (!rawValue || rawValue.length !== 5) {
+            renderMessage(targetMessage, {
+              word: "Invalid",
+              status: "warning",
+              details: "Please Enter A Valid Word",
+            });
+            return;
+          }
+
+          if (primarySet.has(rawValue)) {
+            renderMessage(targetMessage, {
+              word: rawValue,
+              status: "success",
+              details: positiveDetails(rawValue),
+            });
+          } else if (secondarySet.has(rawValue)) {
+            renderMessage(targetMessage, {
+              word: rawValue,
+              status: "warning",
+              details: negativeDetails(rawValue),
+            });
+          } else {
+            renderMessage(targetMessage, {
+              word: rawValue,
+              status: "error",
+              details: "Please Enter A Valid Word",
+            });
+          }
+        });
+      }
+
+      async function initialise() {
+        try {
+          const [availableData, unavailableData] = await Promise.all([
+            fetchWordSet(AVAILABLE_PATH),
+            fetchWordSet(UNAVAILABLE_PATH),
+          ]);
+
+          availableWords.clear();
+          unavailableWords.clear();
+          for (const word of availableData) {
+            availableWords.add(word);
+          }
+          for (const word of unavailableData) {
+            unavailableWords.add(word);
+          }
+
+          availableCountEl.textContent = availableWords.size.toLocaleString();
+          unavailableCountEl.textContent =
+            unavailableWords.size.toLocaleString();
+          dataStatusEl.textContent = "Loaded";
+          dataStatusEl.classList.add("loaded");
+          dataReady = true;
+        } catch (error) {
+          console.error(error);
+          dataStatusEl.textContent = "Error loading lists";
+          dataStatusEl.classList.add("error");
+        }
+      }
+
+      handleSubmit(
+        availableWords,
+        unavailableWords,
+        availableForm,
+        availableInput,
+        availableMessage,
+        (word) => `${word} is in the available list. Give it a shot!`,
+        (word) =>
+          `${word} is marked as unavailable. It has likely been used already.`
+      );
+
+      handleSubmit(
+        unavailableWords,
+        availableWords,
+        unavailableForm,
+        unavailableInput,
+        unavailableMessage,
+        (word) => `${word} is on the unavailable list. Steer clear!`,
+        (word) =>
+          `${word} is not marked as unavailable. It might still be available.`
+      );
+
+      initialise();
+    </script>
+  </body>
+</html>
