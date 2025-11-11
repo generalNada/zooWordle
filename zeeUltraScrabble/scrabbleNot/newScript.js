@@ -22,11 +22,15 @@ function analyzeLetterFrequency() {
 // Display clickable letters with their occurrence count
 function displayLetterFrequency() {
   const { letterStats } = analyzeLetterFrequency();
-  const outputDiv = document.getElementById("letterFrequencyOutput");
 
+  const outputDiv = document.getElementById("letterFrequencyOutput");
+  if (!outputDiv) {
+    return;
+  }
   outputDiv.innerHTML = "<strong>Click a letter:</strong><br>";
   Object.keys(letterStats).forEach((letter) => {
     const letterLink = document.createElement("a");
+
     letterLink.href = "#";
     letterLink.textContent = `${letter} (${letterStats[letter].total})`;
     letterLink.setAttribute("data-letter", letter);

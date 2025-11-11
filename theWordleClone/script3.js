@@ -5,18 +5,43 @@ let lowerCaseWordList = dailyWordsLarge.map((word) => word.toLowerCase());
 // Store the current possible words (starts with the full list)
 let possibleWords = [...lowerCaseWordList];
 let previousGuesses = [];
-
+let secretWord = "";
 //word for daily large
-const secretWord = "SALUE"; // Change this for testing
+// const secretWord = "SALUE"; // Change this for testing
 
 const inputField = document.getElementById("guess");
 const submitButton = document.getElementById("submit");
 const previousGuessesContainer = document.getElementById("previous-guesses");
 const filteredWordsContainer = document.getElementById("filtered-words");
 const wordCount = document.getElementById("word-count");
-
+const newWordButton = document.getElementById("new-word");
 const wordDropdown = document.getElementById("word-dropdown"); // ✅ Ensure this is defined
 
+function resetGame() {
+  possibleWords = [...lowerCaseWordList];
+  previousGuesses = [];
+  previousGuessesContainer.innerHTML = "";
+  filteredWordsContainer.innerHTML = "";
+  filteredWordsContainer.style.display = "none";
+  wordCount.textContent = 0;
+  inputField.value = "";
+  if (wordDropdown) {
+    wordDropdown.value = "";
+  }
+}
+
+function generateNewSecretWord() {
+  secretWord =
+    lowerCaseWordList[Math.floor(Math.random() * lowerCaseWordList.length)];
+  resetGame();
+}
+
+if (newWordButton) {
+  newWordButton.addEventListener("click", generateNewSecretWord);
+  generateNewSecretWord();
+} else {
+  generateNewSecretWord();
+}
 // ✅ Populate dropdown with sorted words
 function populateDropdown() {
   if (!wordDropdown) {
@@ -40,10 +65,18 @@ wordDropdown.addEventListener("change", () => {
 submitButton.addEventListener("click", () => {
   let userWord = inputField.value.toLowerCase();
 
-  if (userWord.length !== 5 || !possibleWords.includes(userWord)) {
-    alert("Please enter a valid 5-letter word!");
+
+  // **************************************************
+  // if (userWord.length !== 5 || !possibleWords.includes(userWord)) {
+  //   alert("Please enter a valid 5-letter word!");
+  //   return;
+  // }
+
+  if (userWord.length !== 5) {
+    alert("Please enter a 5-letter word!");
     return;
   }
+  // **************************************************
 
   const feedback = getFeedback(secretWord.toLowerCase(), userWord);
   previousGuesses.push({ word: userWord, feedback });
@@ -166,6 +199,8 @@ function formatFeedback(word, feedback) {
 }
 
 function updateWordList(words) {
+  filteredWordsContainer.style.display = "block";
+
   wordCount.textContent = words.length;
 
   // Display words in a paragraph, comma-separated
