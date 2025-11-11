@@ -1427,7 +1427,7 @@ export const dailyWordsSmall = [
     'STRIP', 'STRUT', 'STUCK', 'STUFF', 'STUNK', 'SUING',
     'SULLY', 'SUMAC', 'SURGE', 'SWAMI', 'SWAMP', 'SWARM', 'SWASH',
     'SWEAR', 'SWEPT', 'SWIFT', 'SWING', 'SWOOP', 'SWORE', 
-    'SWORN', 'SYNOD', 'TABBY', 'TAINT', 'TAKER', 'TAMER', 
+    'SWORN', 'SYNOD', 'TAINT', 'TAKER', 'TAMER', 
     'TANGO', 'TAROT', 'TATTY', 'TEDDY', 'TENET', 'TENSE', 'TEPEE', 
     'TERRA', 'TESTY', 'THEFT', 'THETA', 'THICK', 'THONG',
     'TIGHT', 'TODDY', 'TOKEN', 'TONAL',
@@ -2551,7 +2551,7 @@ export const dailyWordsLarge = [
     'SYLVA', 'SYMAR', 'SYNCH', 'SYNCS', 'SYNDS', 'SYNED', 'SYNES', 'SYNOD', 'SYNTH', 'SYPED',
     'SYPES', 'SYPHS', 'SYRAH', 'SYREN', 'SYSOP', 'SYTHE', 'SYVER',
     
-    'TAALS', 'TAATA', 'TABBY', 'TABER', 'TABES', 'TABID', 'TABIS', 'TABLA', 
+    'TAALS', 'TAATA', 'TABER', 'TABES', 'TABID', 'TABIS', 'TABLA', 
     'TABOR', 'TABUN', 'TABUS', 'TACAN', 'TACES', 'TACET', 'TACHE', 'TACHO', 'TACHS', 
     'TACKS', 'TACOS', 'TACTS', 'TAELS', 'TAFIA', 'TAGGY', 'TAGMA', 'TAHAS',
     'TAHRS', 'TAIGA', 'TAIKO', 'TAILS', 'TAINS', 'TAINT', 'TAIRA', 'TAISH', 'TAITS', 'TAJES',
@@ -12310,6 +12310,11 @@ export const wordleWords = [
         myScore: 4,
         wordNumber: 1604,
       },  
+      { word: "TABBY",
+        gameDate: "11/10/25",
+        myScore: 3,
+        wordNumber: 1605,
+      },  
 
     
   ];
@@ -12327,7 +12332,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("November 9, 2025: Trump sux dykk000000000! FUGUE")
+console.log("November 10, 2025: Trump sux dykk000000000! TABBY")
 
 
 console.log(wordleWords)
