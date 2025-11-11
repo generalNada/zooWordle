@@ -84,3 +84,24 @@
   border: 1px dashed #999;
   background-color: #f3f3f3;
 }
+
+.linkPython {
+  cursor: url("https://cur.cursors-4u.net/cursors/cur-9/cur847.cur"), crosshair;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  background: linear-gradient(145deg, #f0f0f0, #dcdcdc);
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.15),
+              -2px -2px 4px rgba(255, 255, 255, 0.7);
+  transition: all 0.25s ease-in-out;
+  color: #333;
+}
+
+.linkPython:hover {
+  background: linear-gradient(145deg, #e4ffe4, #ccf2cc);
+  box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.1),
+              inset -2px -2px 5px rgba(255, 255, 255, 0.7);
+  transform: scale(1.03);
+  color: #006400;
+}
