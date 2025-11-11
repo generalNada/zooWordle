@@ -1885,7 +1885,7 @@ export const dailyWordsLarge = [
     'GIMEL', 'GIMME', 'GIMPS', 'GIMPY', 'GINCH', 'GINGE', 'GINGS', 'GINKS', 'GINNY', 'GIPON',
     'GIPPY', 'GIPSY', 'GIRDS', 'GIRLS', 'GIRLY', 'GIRNS', 'GIRON', 'GIROS', 'GIRRS', 'GIRSH',
     'GIRTS', 'GISMO', 'GISMS', 'GISTS', 'GITCH', 'GITES', 'GIUST', 'GIVED',
-    'GIVER', 'GIVES', 'GIZMO', 'GLACE', 'GLADS', 'GLADY', 'GLAIK', 'GLAIR', 'GLAMS',
+    'GIVER', 'GIVES', 'GLACE', 'GLADS', 'GLADY', 'GLAIK', 'GLAIR', 'GLAMS',
     'GLANS', 'GLARY', 'GLAUM', 'GLAUR', 'GLAZY', 
     'GLEBA', 'GLEBE', 'GLEBY', 'GLEDE', 'GLEDS', 'GLEED', 'GLEEK', 'GLEES', 'GLEET',
     'GLEIS', 'GLENS', 'GLENT', 'GLEYS', 'GLIAL', 'GLIAS', 'GLIBS', 'GLIFF', 'GLIFT',
@@ -12315,6 +12315,11 @@ export const wordleWords = [
         myScore: 3,
         wordNumber: 1605,
       },  
+      { word: "GIZMO",
+        gameDate: "11/11/25",
+        myScore: 5,
+        wordNumber: 1606,
+      },  
 
     
   ];
@@ -12332,7 +12337,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("November 10, 2025: Trump sux dykk000000000! TABBY")
+console.log("November 11, 2025: Trump sux dykk000000000! GIZMO")
 
 
 console.log(wordleWords)
