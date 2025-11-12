@@ -275,3 +275,40 @@ calculateAverageButton.addEventListener("click", () => {
     6
   )}, You Cocksucker! Anything good in your life is luck. You fuck. Thx Coral on 8-7-25`;
 });
+
+
+    const censorshipMap = {
+    "pig": "XXXXXXXX",
+    "people": "aliens",
+    "cum": "Rum",
+    "shit": "crud!",
+    "repu": "Nazi",
+    "fuck": "drill",
+    "ass": "back-side"
+  };
+
+  function cleanText(text) {
+    let cleaned = text;
+    for (const [badWord, replacement] of Object.entries(censorshipMap)) {
+      const regex = new RegExp(`${badWord}`, 'gi');
+      cleaned = cleaned.replace(regex, (match) => {
+        // Preserve casing
+        return match[0] === match[0].toUpperCase()
+          ? replacement[0].toUpperCase() + replacement.slice(1)
+          : replacement;
+      });
+    }
+    return cleaned;
+  }
+
+  function cleanNode(node) {
+    if (node.nodeType === Node.TEXT_NODE) {
+      node.textContent = cleanText(node.textContent);
+    } else {
+      node.childNodes.forEach(child => cleanNode(child));
+    }
+  }
+
+  document.addEventListener("DOMContentLoaded", () => {
+    cleanNode(document.body);
+  });
