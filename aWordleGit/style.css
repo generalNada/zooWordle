@@ -75,8 +75,8 @@ h2 {
   font-weight: 400;
   font-style: normal;
   font-size: 1rem;
-/*   animation: pulseText 300s ease-in infinite, */
-    colorCycle5000 .5s ease-in-out infinite alternate;
+  animation: colorCycle5000 .5s ease-in-out infinite alternate;
+  /*   pulseText 300s ease-in infinite, */
 }
 
 .fuckula1 {
@@ -610,6 +610,7 @@ h2 {
   25% {
     transform: translateX(-10vw);
   }
+  50% {
     transform: translateX(0);
   }
   75% {
