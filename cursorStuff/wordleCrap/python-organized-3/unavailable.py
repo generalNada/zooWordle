@@ -47,7 +47,7 @@ my_list = {
 'CURLY', 'CURVE', 'CURSE', 'CYBER', 'CYNIC', 'DADDY', 'DAISY', 'DALLY', 'DANCE', 'DANDY', 
 'DATUM', 'DAUNT', 'DEATH', 'DEBIT', 'DEBUG', 'DEBUT', 'DECAL', 'DECAY', 'DECOY', 'DECRY', 
 'DEFER', 'DEITY', 'DELAY', 'DELTA', 'DELVE', 'DENIM', 'DEPOT', 'DEPTH', 'DETER', 'DETOX', 
-'DEVIL', 'DIARY', 'DICEY', 'DIGIT', 'DINER', 
+'DEUCE', 'DEVIL', 'DIARY', 'DICEY', 'DIGIT', 'DINER', 
 'DINGO', 'DINGY', 'DIRGE', 'DISCO', 'DITTO', 'DITTY', 'DODGE', 'DOGMA', 'DOING', 'DOLLY', 
 'DONOR', 'DONUT', 'DOPEY', 'DOUBT', 'DOWEL', 'DOWRY', 'DOZEN', 'DRAFT', 'DRAIN', 'DRAPE', 
 'DRAWN', 'DREAD', 'DREAM', 'DRILL', 'DRINK', 'DRIVE', 'DROLL', 'DRONE', 'DROOL', 
@@ -70,7 +70,7 @@ my_list = {
 'FRITZ', 'FROCK', 'FROND', 'FRONT', 'FROST', 'FROTH', 'FROWN', 'FROZE', 'FUGUE', 'FULLY', 
 'FUNGI', 'FUNKY', 'FUNNY', 'FUZZY', 'GAMER', 'GAMMA', 'GAMUT', 'GAUDY', 'GAUGE', 'GAUNT', 
 'GAUZE', 'GAWKY', 'GECKO', 'GEESE', 'GENIE', 
-'GENRE', 'GHOST', 'GHOUL', 'GIANT', 'GIDDY', 'GIRTH', 'GIVEN', 'GLADE', 'GLAND', 'GLARE', 
+'GENRE', 'GHOST', 'GHOUL', 'GIANT', 'GIDDY', 'GIRTH', 'GIVEN', 'GIZMO', 'GLADE', 'GLAND', 'GLARE', 
 'GLASS', 
 'GLAZE', 'GLEAM', 'GLEAN', 'GLIDE', 'GLOAT', 'GLOBE', 'GLOOM', 'GLORY', 'GLOVE', 'GLYPH', 
 'GNASH', 'GNOME', 'GOING', 'GOLEM', 'GONER', 'GOODY', 'GOOEY', 'GOOFY', 'GOOSE', 'GORGE', 
@@ -198,7 +198,7 @@ my_list = {
 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'TABBY'
+word_to_find = 'DEUCE'
 
 
 if word_to_find in my_list:
