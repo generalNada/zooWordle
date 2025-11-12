@@ -2559,6 +2559,16 @@ border: 5px solid aqua;
 }
 
 .badAssMan1H {
+  color: rgb(0, 255, 171);
+  background-color: rgb(255, 102, 102);
+  font-family: "Volkhov", serif; 
+  font-size: 2.25rem;
+  line-height: 2.25rem;
+  border: solid rgb(29, 58, 118) 0.2rem;
+  border-radius: 1.1rem;
+}
+
+.badAssMan1I {
   font-family: "Abel", serif;
   color: rgb(255, 0, 102);
   background-color: rgb(255, 245, 157);
@@ -2642,6 +2652,16 @@ border: 5px solid aqua;
   font-family: "Cherry Bomb One", system-ui;
   color: rgb(167, 27, 27);
   background-color: rgb(160, 232, 16);
+  font-size: 2.25rem;
+  line-height: 2.25rem;
+  border: solid rgb(29, 58, 118) 0.2rem;
+  border-radius: 1.1rem;
+}
+
+.badAssMan2H {
+  font-family: "Archivo Black", sans-serif;
+  color: rgb(26, 194, 68);
+  background-color: rgb(251, 48, 211);
   font-size: 2.25rem;
   line-height: 2.25rem;
   border: solid rgb(29, 58, 118) 0.2rem;
