@@ -278,7 +278,7 @@ calculateAverageButton.addEventListener("click", () => {
 
 
     const censorshipMap = {
-    "pig": "XXXXXXXX",
+    "pig": "COCHON",
     "people": "aliens",
     "cum": "Rum",
     "shit": "crud!",
