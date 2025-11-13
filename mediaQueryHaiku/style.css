@@ -25,6 +25,20 @@
   transition: all 0.3s ease;
 }
 
+.zoo-toggle {
+  /* position: fixed;
+  top: 20px;
+  right: 20px; */
+  background: rgba(8, 145, 219, 0.9);
+  border: 2px solid #333;
+  border-radius: 25px;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-weight: bold;
+  z-index: 1000;
+  transition: all 0.3s ease;
+}
+
 .bw-toggle:hover {
   background: rgba(0, 0, 0, 0.9);
   color: white;

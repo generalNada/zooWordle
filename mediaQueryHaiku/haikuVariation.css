@@ -42,3 +42,20 @@ body {
   z-index: 1000;
   transition: all 0.3s ease;
 }
+
+.zoo-toggle {
+  /* position: fixed;
+  top: 20px;
+  right: 20px; */
+  font-size: 1.25rem;
+  background: rgba(74, 118, 229, 0.9);
+  color: rgb(12, 44, 187);
+  text-decoration: none;
+  border: .5rem solid #063e7a;
+  border-radius: 1rem;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-weight: bold;
+  z-index: 1000;
+  transition: all 0.3s ease;
+}
