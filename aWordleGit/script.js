@@ -276,51 +276,6 @@ calculateAverageButton.addEventListener("click", () => {
   )}, You Cocksucker! Anything good in your life is luck. You fuck. Thx Coral on 8-7-25`;
 });
 
- const censorshipMap = {
-    "famous": "Sterilizer",
-    "people": "aliens",
-    "cum": "Rum",
-    "shit": "crud!",
-    "repu": "Nazi",
-    "fuck": "drill",
-    "ass": "back-side"
-  };
-
-  function cleanText(text) {
-    let cleaned = text;
-    for (const [badWord, replacement] of Object.entries(censorshipMap)) {
-      const regex = new RegExp(`${badWord}`, 'gi');
-      cleaned = cleaned.replace(regex, (match) => {
-        return match[0] === match[0].toUpperCase()
-          ? replacement[0].toUpperCase() + replacement.slice(1)
-          : replacement;
-      });
-    }
-    return cleaned;
-  }
-
-  function cleanNode(node) {
-    if (node.nodeType === Node.TEXT_NODE) {
-      node.textContent = cleanText(node.textContent);
-    } else {
-      node.childNodes.forEach(child => cleanNode(child));
-    }
-  }
-
-  let cleanerEnabled = false;
-
-  document.getElementById("toggleCleanerBtn").addEventListener("click", () => {
-    cleanerEnabled = !cleanerEnabled;
-    document.getElementById("toggleCleanerBtn").textContent = `Text Cleaner: ${cleanerEnabled ? "ON" : "OFF"}`;
-
-    if (cleanerEnabled) {
-      cleanNode(document.body);
-    } else {
-      location.reload(); // reload original content if turned off
-    }
-  });
-
-
 
 
 
@@ -359,4 +314,56 @@ document.addEventListener("DOMContentLoaded", () => {
 
     updateToggleLabel(!isCurrentlyDefault);
   });
+});
+
+
+
+  const censorshipMap = {
+  "famous": "Sterilizer",
+  "people": "aliens",
+  "cum": "Rum",
+  "shit": "crud!",
+  "repu": "Nazi",
+  "fuck": "drill",
+  "ass": "back-side"
+};
+
+function cleanText(text) {
+  let cleaned = text;
+  for (const [badWord, replacement] of Object.entries(censorshipMap)) {
+    const regex = new RegExp(badWord, 'gi');
+    cleaned = cleaned.replace(regex, (match) => {
+      return match[0] === match[0].toUpperCase()
+        ? replacement[0].toUpperCase() + replacement.slice(1)
+        : replacement;
+    });
+  }
+  return cleaned;
+}
+
+// Store original text content in a Map
+const originalTextMap = new Map();
+
+function toggleCleanText(node, enableCleaner) {
+  if (node.nodeType === Node.TEXT_NODE) {
+    if (enableCleaner) {
+      if (!originalTextMap.has(node)) {
+        originalTextMap.set(node, node.textContent); // Save original
+      }
+      node.textContent = cleanText(originalTextMap.get(node));
+    } else if (originalTextMap.has(node)) {
+      node.textContent = originalTextMap.get(node); // Restore original
+    }
+  } else {
+    node.childNodes.forEach(child => toggleCleanText(child, enableCleaner));
+  }
+}
+
+let cleanerEnabled = false;
+
+document.getElementById("toggleCleanerBtn").addEventListener("click", () => {
+  cleanerEnabled = !cleanerEnabled;
+  document.getElementById("toggleCleanerBtn").textContent =
+    `Text Cleaner: ${cleanerEnabled ? "ON" : "OFF"}`;
+  toggleCleanText(document.body, cleanerEnabled);
 });

@@ -91,3 +91,97 @@ if (bwToggle) {
     console.warn("Could not import theWholeEnchilada.js:", error.message);
   }
 })();
+
+
+
+
+
+
+document.addEventListener("DOMContentLoaded", () => {
+  const toggleBtn = document.getElementById("toggle-style");
+  const styleLink = document.getElementById("themeStylesheet");
+
+  if (!toggleBtn || !styleLink) {
+    console.warn(
+      "Style toggle not initialized: missing button or stylesheet link."
+    );
+    return;
+  }
+
+  const DEFAULT_STYLESHEET = "style.css";
+  const VARIATION_STYLESHEET = "haikuVariation.css";
+
+  const updateToggleLabel = (isDefaultActive) => {
+    toggleBtn.textContent = isDefaultActive
+      ? "Switch to Alternate Style"
+      : "Switch to Default Style";
+  };
+
+  updateToggleLabel(styleLink.getAttribute("href") === DEFAULT_STYLESHEET);
+
+  toggleBtn.addEventListener("click", () => {
+    const isCurrentlyDefault =
+      styleLink.getAttribute("href") === DEFAULT_STYLESHEET;
+
+    styleLink.setAttribute(
+      "href",
+      isCurrentlyDefault ? VARIATION_STYLESHEET : DEFAULT_STYLESHEET
+    );
+
+    updateToggleLabel(!isCurrentlyDefault);
+  });
+});
+
+
+
+
+
+  const censorshipMap = {
+  "famous": "Sterilizer",
+  "people": "aliens",
+  "cum": "Rum",
+  "shit": "crud!",
+  "repu": "Nazi",
+  "fuck": "drill",
+  "ass": "back-side"
+};
+
+function cleanText(text) {
+  let cleaned = text;
+  for (const [badWord, replacement] of Object.entries(censorshipMap)) {
+    const regex = new RegExp(badWord, 'gi');
+    cleaned = cleaned.replace(regex, (match) => {
+      return match[0] === match[0].toUpperCase()
+        ? replacement[0].toUpperCase() + replacement.slice(1)
+        : replacement;
+    });
+  }
+  return cleaned;
+}
+
+// Store original text content in a Map
+const originalTextMap = new Map();
+
+function toggleCleanText(node, enableCleaner) {
+  if (node.nodeType === Node.TEXT_NODE) {
+    if (enableCleaner) {
+      if (!originalTextMap.has(node)) {
+        originalTextMap.set(node, node.textContent); // Save original
+      }
+      node.textContent = cleanText(originalTextMap.get(node));
+    } else if (originalTextMap.has(node)) {
+      node.textContent = originalTextMap.get(node); // Restore original
+    }
+  } else {
+    node.childNodes.forEach(child => toggleCleanText(child, enableCleaner));
+  }
+}
+
+let cleanerEnabled = false;
+
+document.getElementById("toggleCleanerBtn").addEventListener("click", () => {
+  cleanerEnabled = !cleanerEnabled;
+  document.getElementById("toggleCleanerBtn").textContent =
+    `Text Cleaner: ${cleanerEnabled ? "ON" : "OFF"}`;
+  toggleCleanText(document.body, cleanerEnabled);
+});
