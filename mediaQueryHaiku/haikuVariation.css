@@ -1,23 +1,44 @@
 body {
-    font-family: 'Gaegu', cursive;
-    font-size: 2rem;
-    text-align: center;
-    background-color: #1282e5;
-    color: #333333;
-    margin: 20px;
+  font-family: "Gaegu", cursive;
+  font-size: 2rem;
+  text-align: center;
+  background-color: #1282e5;
+  color: #333333;
+  margin: 20px;
 }
 
 .whole-box {
-    border: 1rem solid black;
-    padding: 10px;
-    margin: 10px;
-    background-color: #2a8de3;
-    display: inline-block;
+  border: 1rem solid black;
+  padding: 10px;
+  margin: 10px;
+  background-color: #2a8de3;
+  display: inline-block;
 }
 
 .edges {
-    border: .5rem dashed gray;
-    padding: 5px;
-    margin: 5px;
-    background-color: #60a4df;
+  border: 0.5rem dashed gray;
+  padding: 5px;
+  margin: 5px;
+  background-color: #60a4df;
+}
+
+/* Black and White Toggle */
+.grayscale-mode {
+  filter: grayscale(1);
+  transition: filter 0.3s ease;
+}
+
+
+.bw-toggle {
+  /* position: fixed;
+  top: 20px;
+  right: 20px; */
+  background: rgba(255, 255, 255, 0.9);
+  border: 2px solid #333;
+  border-radius: 25px;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-weight: bold;
+  z-index: 1000;
+  transition: all 0.3s ease;
 }

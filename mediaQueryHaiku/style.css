@@ -12,9 +12,9 @@
 }
 
 .bw-toggle {
-  position: fixed;
+  /* position: fixed;
   top: 20px;
-  right: 20px;
+  right: 20px; */
   background: rgba(255, 255, 255, 0.9);
   border: 2px solid #333;
   border-radius: 25px;
