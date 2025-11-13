@@ -1,0 +1,23 @@
+body {
+    font-family: 'Gaegu', cursive;
+    font-size: 2rem;
+    text-align: center;
+    background-color: #1282e5;
+    color: #333333;
+    margin: 20px;
+}
+
+.whole-box {
+    border: 1rem solid black;
+    padding: 10px;
+    margin: 10px;
+    background-color: #2a8de3;
+    display: inline-block;
+}
+
+.edges {
+    border: .5rem dashed gray;
+    padding: 5px;
+    margin: 5px;
+    background-color: #60a4df;
+}

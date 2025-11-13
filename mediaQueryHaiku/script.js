@@ -108,8 +108,11 @@ document.addEventListener("DOMContentLoaded", () => {
     return;
   }
 
-  const DEFAULT_STYLESHEET = "style.css";
-  const VARIATION_STYLESHEET = "haikuVariation.css";
+
+  const DEFAULT_STYLESHEET = "haikuVariation.css";
+  const VARIATION_STYLESHEET = "style.css";
+  // const DEFAULT_STYLESHEET = "style.css";
+  // const VARIATION_STYLESHEET = "haikuVariation.css";
 
   const updateToggleLabel = (isDefaultActive) => {
     toggleBtn.textContent = isDefaultActive
