@@ -312,3 +312,43 @@ calculateAverageButton.addEventListener("click", () => {
   document.addEventListener("DOMContentLoaded", () => {
     cleanNode(document.body);
   });
+
+
+
+
+
+
+document.addEventListener("DOMContentLoaded", () => {
+  const toggleBtn = document.getElementById("toggle-style");
+  const styleLink = document.getElementById("themeStylesheet");
+
+  if (!toggleBtn || !styleLink) {
+    console.warn(
+      "Style toggle not initialized: missing button or stylesheet link."
+    );
+    return;
+  }
+
+  const DEFAULT_STYLESHEET = "style.css";
+  const VARIATION_STYLESHEET = "zooWordleGit.css";
+
+  const updateToggleLabel = (isDefaultActive) => {
+    toggleBtn.textContent = isDefaultActive
+      ? "Switch to Alternate Style"
+      : "Switch to Default Style";
+  };
+
+  updateToggleLabel(styleLink.getAttribute("href") === DEFAULT_STYLESHEET);
+
+  toggleBtn.addEventListener("click", () => {
+    const isCurrentlyDefault =
+      styleLink.getAttribute("href") === DEFAULT_STYLESHEET;
+
+    styleLink.setAttribute(
+      "href",
+      isCurrentlyDefault ? VARIATION_STYLESHEET : DEFAULT_STYLESHEET
+    );
+
+    updateToggleLabel(!isCurrentlyDefault);
+  });
+});
