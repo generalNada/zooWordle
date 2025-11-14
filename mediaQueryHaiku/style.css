@@ -25,20 +25,6 @@
   transition: all 0.3s ease;
 }
 
-.zoo-toggle {
-  /* position: fixed;
-  top: 20px;
-  right: 20px; */
-  background: rgba(8, 145, 219, 0.9);
-  border: 2px solid #333;
-  border-radius: 25px;
-  padding: 10px 15px;
-  cursor: pointer;
-  font-weight: bold;
-  z-index: 1000;
-  transition: all 0.3s ease;
-}
-
 .bw-toggle:hover {
   background: rgba(0, 0, 0, 0.9);
   color: white;
@@ -1187,12 +1173,18 @@ body {
 }
 
 .whole-box-170 {
-  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtEW1qXT_2RJH4SmS8mfB53W0Xsf1lpsHTtA&s);
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxzV9o2xKojT81DkpGn-dvrBtGNslwTrv9Jg&s);
   background-size: fit-content;
   padding: 0.55rem;
 }
 
 .whole-box-171 {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtEW1qXT_2RJH4SmS8mfB53W0Xsf1lpsHTtA&s);
+  background-size: fit-content;
+  padding: 0.55rem;
+}
+
+.whole-box-172 {
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDtEXWIeF_Jn0qzy2_UxfZC-k-TPlVBPl3OQ&s);
   background-size: fit-content;
   padding: 0.55rem;
@@ -4245,5 +4237,23 @@ body {
 .line-171c {
   background-color: rgb(12, 212, 171);
   color: rgb(206, 32, 41);
+  opacity: 0.77;
+}
+
+.line-172a {
+  background-color: rgb(212, 12, 11);
+  color: rgb(10, 31, 20);
+  opacity: 0.77;
+}
+
+.line-172b {
+  background-color: rgb(212, 12, 11);
+  color: rgb(10, 31, 20);
+  opacity: 0.77;
+}
+
+.line-172c {
+  background-color: rgb(212, 12, 11);
+  color: rgb(10, 31, 20);
   opacity: 0.77;
 }
