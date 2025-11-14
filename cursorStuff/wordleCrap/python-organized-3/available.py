@@ -107,7 +107,7 @@ unused_list = [
             "SWORE", "SWORN", "SYNOD", "TAINT",
 	        "TAKER", "TAMER", "TANGO", "TAROT", "TATTY", "TEARY", "TEDDY",
 	        "TENET", "TENSE", "TEPEE", "TERRA", "TESTY", "THEFT",
-	        "THETA", "THICK", "THONG", "TIGHT", "TIMID", 'TINGE',
+	        "THETA", "THICK", "THONG", "TIGHT", "TIMID", 
 	        "TODDY", "TOKEN", "TONAL", "TONER", "TONGA", 
 	        "TORUS", "TRAMP", "TREAD",
 	        "TRIAL", "TRIBE", "TRIED", "TRUCE", "TRUCK", "TRUER",
