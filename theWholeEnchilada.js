@@ -2590,7 +2590,7 @@ export const dailyWordsLarge = [
     'TICKY', 'TIDDY', 'TIDED', 'TIDES', 'TIERS', 'TIFFS', 'TIFOS', 'TIFTS',
     'TIGES', 'TIGHT', 'TIGON', 'TIKAS', 'TIKES', 'TIKIS', 'TIKKA', 'TILAK', 'TILED',
     'TILER', 'TILES', 'TILLS', 'TILLY', 'TILTH', 'TILTS', 'TIMBO', 'TIMED', 'TIMES',
-    'TIMID', 'TIMON', 'TIMPS', 'TINAS', 'TINCT', 'TINDS', 'TINEA', 'TINED', 'TINES', 'TINGE',
+    'TIMID', 'TIMON', 'TIMPS', 'TINAS', 'TINCT', 'TINDS', 'TINEA', 'TINED', 'TINES', 
     'TINGS', 'TINKS', 'TINNY', 'TINTS', 'TINTY', 'TIPIS', 'TIPPY', 'TIRED', 'TIRES',
     'TIRLS', 'TIROS', 'TIRRS', 'TITCH', 'TITER', 'TITIS', 'TITRE',
     'TITTY', 'TITUP', 'TIYIN', 'TIYNS', 'TIZES', 'TOADS', 'TOADY', 'TOAZE',
@@ -12325,6 +12325,11 @@ export const wordleWords = [
         myScore: 3,
         wordNumber: 1607,
       },  
+      { word: "TINGE",
+        gameDate: "11/13/25",
+        myScore: 3,
+        wordNumber: 1608,
+      },  
 
     
   ];
@@ -12342,7 +12347,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("November 12, 2025: Trump sux dykk000000000! DEUCE")
+console.log("November 13, 2025: Trump sux dykk000000000! TINGE")
 
 
 console.log(wordleWords)
