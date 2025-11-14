@@ -174,8 +174,8 @@ my_list = {
 'TARDY', 'TASTE', 'TASTY', 'TAUNT', 'TAUPE', 'TAWNY', 'TEACH', 'TEARY', 'TEASE', 'TEETH', 
 'TEMPO', 'TENOR', 'TENTH', 'TEPID', 'TERSE'  'THANK', 'THEIR', 'THEME', 'THERE', 'THESE', 
 'THIEF', 'THIGH', 'THING', 'THINK', 'THIRD', 'THORN', 'THOSE', 'THREE', 'THREW', 'THROB', 
-'THROW', 'THRUM', 'THUMB', 'THUMP', 
-'THYME', 'TIARA', 'TIBIA', 'TIDAL', 'TIGER', 'TILDE', 'TIMER', 'TIPSY', 'TITAN',' TITHE', 
+'THROW', 'THRUM', 'THUMB', 'THUMP', 'THYME', 'TIARA', 'TIBIA', 'TIDAL', 'TIGER', 'TILDE', 
+'TIMER', 'TINGE', 'TIPSY', 'TITAN', 'TITHE', 
 'TITLE', 'TIZZY', 'TOAST', 'TODAY', 'TONIC', 'TOOTH', 'TOPAZ', 'TOPIC', 'TORCH', 'TORSO', 
 'TOTAL', 'TOTEM', 'TOUCH', 'TOUGH', 'TOWEL', 'TOWER', 'TOXIC', 'TOXIN', 'TRACE', 'TRACK', 
 'TRACT', 'TRADE', 'TRAIL', 'TRAIN', 'TRAIT', 'TRASH', 'TRAWL', 'TREAT', 'TREND', 'TRIAD', 
@@ -198,7 +198,7 @@ my_list = {
 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'DEUCE'
+word_to_find = 'TINGE'
 
 
 if word_to_find in my_list:
