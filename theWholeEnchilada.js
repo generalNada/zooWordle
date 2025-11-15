@@ -1379,7 +1379,7 @@ export const dailyWordsSmall = [
     'LEACH', 'LEANT', 'LEGAL',
     'LEPER', 'LIEGE', 'LIKEN', 'LIPID', 
     'LOAMY', 'LOATH', 'LOBBY', 'LOGIN', 'LOOSE', 'LORRY', 'LUMEN',
-    'LUPUS', 'LURCH', 'LURID', 'LYMPH', 'LYRIC', 'MACRO', 
+    'LUPUS', 'LURCH', 'LYMPH', 'LYRIC', 'MACRO', 
     'MAFIA', 'MAKER', 'MAMMA', 'MAMMY', 'MANGE', 'MANGY', 'MANIC',
     'MEATY', 'MECCA', 'MELEE', 'MILKY', 
     'MINIM', 'MINOR', 'MISER', 'MISSY', 'MOCHA',
@@ -2102,7 +2102,7 @@ export const dailyWordsLarge = [
     'LUDOS', 'LUFFA', 'LUFFS', 'LUGED', 'LUGER', 'LUGES', 'LULLS', 'LULUS', 'LUMAS', 'LUMBI',
     'LUMEN', 'LUMME', 'LUMMY', 'LUMPS', 'LUNAS', 'LUNES', 'LUNET',
     'LUNGI', 'LUNGS', 'LUNKS', 'LUNTS', 'LUPIN', 'LUPUS', 'LURCH', 'LURED', 'LURER',
-    'LURES', 'LUREX', 'LURGI', 'LURGY', 'LURID', 'LURKS', 'LURRY', 'LURVE', 'LUSER', 'LUSHY',
+    'LURES', 'LUREX', 'LURGI', 'LURGY', 'LURKS', 'LURRY', 'LURVE', 'LUSER', 'LUSHY',
     'LUSKS', 'LUSTS', 'LUSUS', 'LUTEA', 'LUTED', 'LUTER', 'LUTES',
     'LUVVY', 'LUXED', 'LUXER', 'LUXES', 'LWEIS', 'LYAMS', 'LYARD', 'LYART', 'LYASE', 'LYCEA',
     'LYCEE', 'LYCRA', 'LYMES', 'LYMPH', 'LYNCH', 'LYNES', 'LYRES', 'LYRIC', 'LYSED',
@@ -12330,6 +12330,11 @@ export const wordleWords = [
         myScore: 3,
         wordNumber: 1608,
       },  
+      { word: "LURID",
+        gameDate: "11/14/25",
+        myScore: 3,
+        wordNumber: 1609,
+      },  
 
     
   ];
@@ -12347,7 +12352,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("November 13, 2025: Trump sux dykk000000000! TINGE")
+console.log("November 14, 2025: Trump sux dykk000000000! LURID")
 
 
 console.log(wordleWords)
