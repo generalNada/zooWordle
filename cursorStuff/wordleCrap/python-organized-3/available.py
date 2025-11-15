@@ -55,7 +55,7 @@ unused_list = [
             "LANCE", "LATCH", "LEACH", "LEANT", "LEGAL", 
 	        "LEPER", "LIEGE", "LIKEN", "LIPID",
 	        "LOAMY", "LOATH", "LOBBY", "LOGIN", "LOOSE", "LORRY",
-	        "LUMEN", "LUPUS", "LURCH", "LURID", "LYMPH",
+	        "LUMEN", "LUPUS", "LURCH", "LYMPH",
 	        "LYRIC", "MACRO", "MAFIA", "MAKER", "MAMMA", "MAMMY", 
 	        "MANGE", "MANGY", "MANIC", "MEATY", "MECCA",
 	        "MELEE", "MILKY", "MINIM", "MINOR", "MISER", "MISSY", "MOCHA",
@@ -107,7 +107,7 @@ unused_list = [
             "SWORE", "SWORN", "SYNOD", "TAINT",
 	        "TAKER", "TAMER", "TANGO", "TAROT", "TATTY", "TEARY", "TEDDY",
 	        "TENET", "TENSE", "TEPEE", "TERRA", "TESTY", "THEFT",
-	        "THETA", "THICK", "THONG", "TIGHT", "TIMID", 
+	        "THETA", "THICK", "THONG", "TIGHT", "TIMID",
 	        "TODDY", "TOKEN", "TONAL", "TONER", "TONGA", 
 	        "TORUS", "TRAMP", "TREAD",
 	        "TRIAL", "TRIBE", "TRIED", "TRUCE", "TRUCK", "TRUER",
@@ -124,13 +124,13 @@ unused_list = [
             "WREST", "WRING", "WRYLY", "ZONAL"
              ]
 
-word = 'TINGE'
+word = 'LURID'
 
 
 if word in unused_list:
  print(f"{word} is in this list -  {word} is available! Guess {word}. Give {word} a try!")
 else:
-   print(f"{word} is not in this list! {word} has most likely already been used by Wordle.")
+   print(f"{word} is not in this list, Jerk!! {word} has most likely already been used by Wordle.")
 
 
 
