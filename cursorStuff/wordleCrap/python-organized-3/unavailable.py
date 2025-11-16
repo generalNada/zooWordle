@@ -192,14 +192,14 @@ my_list = {
 'WAFER', 'WAGON', 'WALTZ', 'WASTE', 'WATCH', 'WATER', 'WEARY', 'WEDGE', 'WEEDY', 'WEIRD', 
 'WHACK', 'WHALE', 
 'WHEAT', 'WHEEL', 'WHELP', 'WHERE', 'WHICH', 'WHIFF', 'WHILE', 'WHINE', 'WHINY', 'WHIRL', 
-'WHISK', 'WHOLE', 'WHOOP', 'WHOSE', 'WIDEN', 'WIDTH', 'WINCE', 'WINDY', 'WITTY', 'WOKEN', 
-'WOMAN', 
+'WHISK', 'WHOLE', 'WHOOP', 'WHOSE', 'WIDEN', 'WIDTH', 'WIELD', 'WINCE', 'WINDY', 'WITTY', 
+'WOKEN', 'WOMAN', 
 'WOOER', 'WORDY', 'WORLD', 'WORRY', 'WORSE', 'WORST', 'WOULD', 'WOUND', 'WOVEN', 'WRATH', 
 'WREAK', 'WRIST', 'WRITE', 'WRONG', 'WROTE', 'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 
 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'CLUNG'
+word_to_find = 'WIELD'
 
 
 if word_to_find in my_list:
