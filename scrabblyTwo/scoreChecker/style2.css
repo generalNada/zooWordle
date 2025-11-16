@@ -11,7 +11,8 @@ body {
   color: #333;
 }
 
-.linkBack {
+.linkThing {
+  font-family: "Lilita One", sans-serif;
   color: yellow;
   background-color: red; 
   border: .5rem solid dodgerblue;
@@ -21,7 +22,7 @@ body {
   curseor: pointer;
 }
 
-.linkBack:hover {
+.linkThing:hover {
   color: orange;
   background-color: navy;
   font-size: 1.25rem;
