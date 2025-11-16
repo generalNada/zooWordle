@@ -119,12 +119,12 @@ unused_list = [
 	        "VOCAL", "VOGUE", "VOMIT", "VOWEL", "WAGER", 
 	        "WAIST", "WAIVE", "WARTY", "WAVER", "WAXEN", "WEAVE", "WEIGH",
 	        "WELCH", "WELSH", "WHARF", "WHITE", 
-	        "WIDER", "WIDOW", "WIELD", "WIGHT", "WILLY", "WIMPY", "WINCH", "WISER", "WISPY",
+	        "WIDER", "WIDOW", "WIGHT", "WILLY", "WIMPY", "WINCH", "WISER", "WISPY",
 	        "WOMEN", "WOODY", "WOOLY", "WOOZY", "WORTH", "WRACK", "WRECK", 
             "WREST", "WRING", "WRYLY", "ZONAL"
              ]
 
-word = 'CLUNG'
+word = 'WIELD'
 
 
 if word in unused_list:
