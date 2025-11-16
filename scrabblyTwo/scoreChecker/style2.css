@@ -11,6 +11,24 @@ body {
   color: #333;
 }
 
+.linkBack {
+  color: yellow;
+  background-color: red; 
+  border: .5rem solid dodgerblue;
+  border-radius: .75rem; 
+  padding: .2rem;
+  text-decoration: none;
+  curseor: pointer;
+}
+
+.linkBack:hover {
+  color: orange;
+  background-color: navy;
+  font-size: 1.25rem;
+  text-decoration: dotted-underline;
+}
+  
+  
 .container {
   max-width: 1200px;
   margin: 0 auto;
