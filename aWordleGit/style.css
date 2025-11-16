@@ -2689,6 +2689,16 @@ border: 5px solid aqua;
   border-radius: 1.1rem;
 }
 
+.badAssMan2J {
+  font-family: "Monoton", sans-serif;
+  background-color: rgb(118, 119, 121);
+  color: rgb(196, 198, 200);
+  font-size: 2.25rem;
+  line-height: 2.25rem;
+  border: solid rgb(29, 58, 118) 0.2rem;
+  border-radius: 1.1rem;
+}
+
 .badAssMan3 {
   background-color: navy;
   color: white;
