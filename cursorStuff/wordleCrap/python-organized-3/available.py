@@ -64,7 +64,7 @@ unused_list = [
 	        "MYRRH", "NACHO", "NEWER", "NEWLY",
 	        "NIECE", "NINNY", "NOBLY", "NOOSE", "NOSEY",
 	        "NOTCH", "NUTTY", "OAKEN", "OBESE", "OCTAL", 
-	        "ODDER", "OLDEN", "OMBRE", "OPINE", "OPIUM", "OPTIC",
+	        "ODDER", "OLDEN", "OMBRE", "OPIUM", "OPTIC",
 	        "ORBIT", "OUTGO", "OVARY", "OVATE",
 	        "OVINE", "OVOID", "OWING", "PADDY", "PAGAN", "PALER", "PALSY",
 	        "PANSY", "PARKA", "PARSE", "PASTE", "PASTY",
@@ -124,7 +124,7 @@ unused_list = [
             "WREST", "WRING", "WRYLY", "ZONAL"
              ]
 
-word = 'CLAMP'
+word = 'OPINE'
 
 
 if word in unused_list:
