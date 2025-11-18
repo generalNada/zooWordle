@@ -1389,7 +1389,7 @@ export const dailyWordsSmall = [
     'NEWER', 'NEWLY', 'NIECE', 'NINNY',
     'NOBLY', 'NOOSE', 'NOSEY', 'NOTCH', 'NUTTY',
     'OAKEN', 'OBESE', 'OCTAL', 'ODDER', 'OLDEN', 'OMBRE',
-    'OPINE', 'OPIUM', 'OPTIC', 'ORBIT', 'OUTGO',
+    'OPIUM', 'OPTIC', 'ORBIT', 'OUTGO',
     'OVARY', 'OVATE', 'OVINE', 'OVOID', 'OWING', 'PADDY', 'PAGAN',
     'PALER', 'PALSY', 'PANSY', 'PARKA', 'PARSE', 'PASTE', 'PASTY', 
     'PAYEE', 'PAYER', 'PECAN', 'PENAL', 'PENCE', 'PENNY',
@@ -2225,7 +2225,7 @@ export const dailyWordsLarge = [
     'OMRAH', 'ONCER', 'ONCES', 'ONCET', 'ONCUS', 'ONELY', 'ONERS', 'ONERY', 'ONIUM',
     'ONKUS', 'ONLAY', 'ONNED', 'ONTIC', 'OOBIT', 'OOHED', 'OOMPH', 'OONTS', 'OOPED',
     'OORIE', 'OOSES', 'OOTID', 'OOZED', 'OOZES', 'OPAHS', 'OPALS', 'OPENS', 'OPEPE', 
-    'OPINE', 'OPING', 'OPIUM', 'OPPOS', 'OPSIN', 'OPTED', 'OPTER', 'OPTIC', 'ORACH', 'ORACY',
+    'OPING', 'OPIUM', 'OPPOS', 'OPSIN', 'OPTED', 'OPTER', 'OPTIC', 'ORACH', 'ORACY',
     'ORALS', 'ORANG', 'ORANT', 'ORATE', 'ORBED', 'ORBIT', 'ORCAS', 'ORCIN', 'ORDOS',
     'OREAD', 'ORFES', 'ORGIA', 'ORGIC', 'ORGUE', 'ORIBI', 'ORIEL', 'ORIXA', 'ORLES',
     'ORLON', 'ORLOP', 'ORMER', 'ORNIS', 'ORPIN', 'ORRIS', 'ORTHO', 'ORVAL', 'ORZOS', 'OSCAR',
@@ -12350,6 +12350,11 @@ export const wordleWords = [
         myScore: 3,
         wordNumber: 1612,
       },  
+      { word: "OPINE",
+        gameDate: "11/18/25",
+        myScore: 3,
+        wordNumber: 1613,
+      },  
 
     
   ];
@@ -12367,7 +12372,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("November 17, 2025: Trump sux dykk000000000! CLAMP")
+console.log("November 18, 2025: Trump sux dykk000000000! OPINE")
 
 
 console.log(wordleWords)
