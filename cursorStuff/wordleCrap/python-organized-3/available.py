@@ -124,7 +124,7 @@ unused_list = [
             "WREST", "WRING", "WRYLY", "ZONAL"
              ]
 
-word = 'OPINE'
+word = ''
 
 
 if word in unused_list:
