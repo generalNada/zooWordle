@@ -75,7 +75,7 @@ h2 {
   font-weight: 400;
   font-style: normal;
   font-size: 1rem;
-  animation: colorCycle5000 .5s ease-in-out infinite alternate;
+  animation: colorCycle5000 500s ease-in-out infinite alternate;
   /*   pulseText 300s ease-in infinite, */
 }
 
@@ -1149,7 +1149,7 @@ li {
 
 .gopAsshole {
 /*   animation: colorCycle2000 .5s steps(1) infinite; */
-  animation: colorCycle2000 5s steps(1) infinite;   
+  animation: colorCycle2000 200s steps(1) infinite;   
 }
 
 
