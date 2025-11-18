@@ -517,7 +517,7 @@ const flicksMusic = [
       "https://www.dropbox.com/scl/fi/j819tt6h9ant20abkikaa/THE_WIZARD_OF_OZ.mp4?rlkey=8gy2e6mvf7bvigg1dntppawof&dl=1",
   },
   {
-    ref: 998,
+    ref: 997,
     title: "All Through the Night - Cyndi Lauper on Stern",
     year: 2008,
     genre: "Music",
@@ -526,5 +526,16 @@ const flicksMusic = [
       "https://www.dropbox.com/scl/fi/0yaa1qsfgbyxvaynrt459/AllThruTheNiteCyndiStern.mp4?rlkey=kfw7j9nfgy39r950rpiu97gr7&raw=1",
     downloadUrl:
       "https://www.dropbox.com/scl/fi/0yaa1qsfgbyxvaynrt459/AllThruTheNiteCyndiStern.mp4?rlkey=kfw7j9nfgy39r950rpiu97gr7&dl=1",
+  },
+  {
+    ref: 998,
+    title: "Can't Stand Losing You (Live ) - The Police",
+    year: 1979,
+    genre: "Music",
+    collection: "Good Tunes",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/6ofzwu3fwrf6k67i8sxn3/The-Police-Can-t-Stand-Losing-You-Live-on-Countdown-1979.mp4?rlkey=d9pvi6yssp0oip8jxol7r374p&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/6ofzwu3fwrf6k67i8sxn3/The-Police-Can-t-Stand-Losing-You-Live-on-Countdown-1979.mp4?rlkey=d9pvi6yssp0oip8jxol7r374p&dl=0",
   },
 ];
