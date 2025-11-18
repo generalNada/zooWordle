@@ -35,12 +35,12 @@ my_list = {
 
 'CHARM', 'CHART', 'CHASE', 'CHEAP', 'CHEAT', 'CHECK', 'CHEEK', 'CHEER', 'CHEST', 'CHIEF', 
 'CHILD', 'CHILL', 'CHIME', 'CHOCK', 'CHOIR', 'CHOKE', 'CHORD', 'CHORE', 'CHOSE', 'CHUNK', 
-'CHUTE', 'CIDER', 'CIGAR', 'CINCH', 'CIRCA', 'CIVIC', 'CIVIL', 'CLASH', 'CLASS', 'CLEAN', 
-'CLEAR', 'CLEFT', 'CLERK', 
+'CHUTE', 'CIDER', 'CIGAR', 'CINCH', 'CIRCA', 'CIVIC', 'CIVIL', 'CLAMP', 'CLASH', 'CLASS', 
+'CLEAN', 'CLEAR', 'CLEFT', 'CLERK', 
 'CLICK', 'CLIMB', 'CLING', 'CLOAK', 'CLOCK', 'CLONE', 'CLOSE', 'CLOTH', 'CLOUD', 'CLOVE', 
 'CLOWN', 'CLUCK', 'CLUNG', 'COACH', 'COAST', 'COCOA', 'COLON', 'COMET', 'COMFY', 'COMMA', 
-'CONDO', 'CONIC', 'CORAL', 'CORER', 'CORNY', 'COULD', 'COUNT', 'COURT', 'COVEN', 'COVER', 'COVET', 
-'COWER', 'COYLY', 'CRAFT', 
+'CONDO', 'CONIC', 'CORAL', 'CORER', 'CORNY', 'COULD', 'COUNT', 'COURT', 'COVEN', 'COVER', 
+'COVET', 'COWER', 'COYLY', 'CRAFT', 
 'CRAMP', 'CRANE', 'CRANK', 'CRASS', 'CRATE', 'CRAVE', 'CRAWL', 'CRAZE', 'CRAZY', 'CREAK', 
 'CREAM', 'CREDO', 'CREPE', 'CREPT', 'CREST', 'CRIME', 'CRIMP', 'CRISP', 'CROAK', 'CRONE', 
 'CROOK', 'CROSS', 'CROWD', 'CROWN', 'CRUMB', 'CRUSH', 'CRUST', 'CRYPT', 'CUMIN', 'CURIO', 
@@ -199,7 +199,7 @@ my_list = {
 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'WIELD'
+word_to_find = 'CLAMP'
 
 
 if word_to_find in my_list:
