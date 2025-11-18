@@ -75,8 +75,8 @@ h2 {
   font-weight: 400;
   font-style: normal;
   font-size: 1rem;
-  animation: colorCycle5000 500s ease-in-out infinite alternate;
-  /*   pulseText 300s ease-in infinite, */
+ animation: colorCycle5000 500s ease-in-out infinite alternate;
+ /*  pulseText 300s ease-in infinite, */
 }
 
 .fuckula1 {
@@ -1149,7 +1149,7 @@ li {
 
 .gopAsshole {
 /*   animation: colorCycle2000 .5s steps(1) infinite; */
-  animation: colorCycle2000 200s steps(1) infinite;   
+  animation: colorCycle2000 500s steps(1) infinite;   
 }
 
 
@@ -1259,7 +1259,7 @@ h4 {
   padding: 1.5rem;
   text-align: justify;
   animation: 
-    fontFamKeyFrame99 .5s infinite, fadeInOut 8s infinite,
+    fontFamKeyFrame99 20s infinite, fadeInOut 8s infinite,
     colorCycle5000 10s linear infinite;
 }
 
@@ -1353,7 +1353,7 @@ footer {
 #averageScoreResult {
   color: rgb(255, 255, 255);
   font-size: 0.9rem;
-  animation: colorCycle2 5s ease-in-out infinite alternate;
+  animation: colorCycle2 60s ease-in-out infinite alternate;
 }
 
 #wordInput {
@@ -1543,18 +1543,18 @@ footer {
   display: inline-block;
   border: 2rem solid black;
   border-radius: .75rem;
-  animation: fontFamKeyFrame 10s infinite, fadeInOut 6s infinite,
-    colorCycle11 5s ease-in-out infinite alternate;
+  animation: fontFamKeyFrame 20s infinite, fadeInOut 6s infinite,
+    colorCycle11 60s ease-in-out infinite alternate;
 }
 
 .simple2000 {
   animation: colorCycle5 50s ease-in-out infinite alternate,
-  fontFamKeyFrame 20s infinite, fadeInOut 8s infinite;
+  fontFamKeyFrame 30s infinite, fadeInOut 8s infinite;
 }
 
 .simple3000 {
-  animation: colorCycle3000 10s ease-in-out infinite alternate,
-  fontFamKeyFrame 10s infinite, fadeInOut 6s infinite;
+  animation: colorCycle3000 60s ease-in-out infinite alternate,
+  fontFamKeyFrame 30s infinite, fadeInOut 6s infinite;
 }
 
 
@@ -1565,9 +1565,9 @@ footer {
 }
 .iHateTheGOP2 {
   display: inline-block;
-  animation: fontFamKeyFrame 10s infinite, fadeInOut 4s infinite,
-    colorCycle 15s ease-in-out infinite alternate, letterWiggle 5s infinite,
-    pulseText66 15s infinite, drift 30s ease-in-out infinite;
+  animation: fontFamKeyFrame 30s infinite, fadeInOut 4s infinite,
+    colorCycle 60s ease-in-out infinite alternate, letterWiggle 5s infinite,
+    pulseText66 45s infinite, drift 45s ease-in-out infinite;
 }
 
 @keyframes fontFamKeyFrame {
@@ -2073,8 +2073,8 @@ footer {
   border-radius: 1rem;
   border: solid rgb(253, 253, 253) 0.4rem;
   display: inline-block;
-  animation: fontFamKeyFrame99 5s infinite, fadeInOut 8s infinite,
-             colorCycle5000 1s ease-in-out infinite alternate,
+  animation: fontFamKeyFrame99 60s infinite, fadeInOut 8s infinite,
+             colorCycle5000 60s ease-in-out infinite alternate,
              driftWaveCombo99 90s ease-in-out infinite;
 }
 
@@ -2086,9 +2086,9 @@ footer {
   border-radius: 1rem;
   border: solid rgb(253, 253, 253) 0.4rem;
   display: inline-block;
-  animation: fontFamKeyFrame 20s infinite, fadeInOut 8s infinite,
-             colorCycle3000 10s ease-in-out infinite alternate,
-             driftWaveCombo100 20s ease-in-out infinite;
+  animation: fontFamKeyFrame 60s infinite, fadeInOut 8s infinite,
+             colorCycle3000 60s ease-in-out infinite alternate,
+             driftWaveCombo100 30s ease-in-out infinite;
 }
 
 .dickBag3 {
@@ -2099,9 +2099,9 @@ footer {
   border-radius: 1rem;
   border: solid rgb(253, 253, 253) 0.6rem;
   display: inline-block;
-  animation: fontFamKeyFrame99 15s infinite, fadeInOut 8s infinite,
+  animation: fontFamKeyFrame99 45s infinite, fadeInOut 8s infinite,
 /*           colorCycle5000 1s ease-in-out infinite alternate, */
-             driftWaveCombo100 5s ease-in-out infinite;
+             driftWaveCombo100 30s ease-in-out infinite;
 }
 
 .teaBag1 {
@@ -2818,6 +2818,7 @@ border: 5px solid aqua;
   border: solid rgb(29, 58, 118) 0.2rem;
   border-radius: 1.1rem;
 }
+
   
 .jasmineCrockett {
   color: white;
@@ -2828,3 +2829,6 @@ border: 5px solid aqua;
   border: solid rgb(255, 215, 0) 0.3rem;
   border-radius: 1rem;
 }
+
+
+
