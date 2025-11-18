@@ -116,7 +116,7 @@ my_list = {
 'NERVE', 'NERVY', 'NEVER', 'NICHE', 'NICER', 'NIGHT', 'NINJA', 'NINTH', 'NOBLE', 'NOISE', 
 'NOISY', 'NOMAD', 'NORTH', 'NOVEL', 'NUDGE', 'NYLON', 'NYMPH', 'OCCUR', 'OCEAN', 'OCTET', 
 'ODDLY', 'OFFAL', 'OFFER', 
-'OFTEN', 'OLDER', 'OLIVE', 'OMEGA', 'ONION', 'ONSET', 'OPERA', 'ORDER', 'ORGAN', 'OTHER', 
+'OFTEN', 'OLDER', 'OLIVE', 'OMEGA', 'ONION', 'ONSET', 'OPERA', 'OPINE', 'ORDER', 'ORGAN', 'OTHER', 
 'OTTER', 'OUGHT', 'OUNCE', 'OUTDO', 'OUTER', 'OVERT', 'OWNER', 'OXIDE', 'OZONE', 'PAINT', 
 'PANEL', 'PANIC', 'PAPAL', 'PAPER', 'PARER', 'PARRY', 'PARTY', 'PASTA', 'PATCH', 'PATIO', 
 'PATSY', 'PATTY', 'PAUSE', 'PEACE', 'PEACH', 'PEARL', 'PEDAL', 'PENNE', 'PERCH', 'PERIL', 
@@ -199,7 +199,7 @@ my_list = {
 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'CLAMP'
+word_to_find = 'OPINE'
 
 
 if word_to_find in my_list:
