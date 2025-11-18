@@ -1203,10 +1203,23 @@ body {
 }
 
 .whole-box-175 {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST9aIYGHmmJuVf0Itggezvb4KeGxxCMIVa5w&s);
+  background-size: fit-content;
+  padding: 0.55rem;
+}
+
+.whole-box-176 {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGZ0k6pcvH2qSnd8vM6-VPPRFG5Pn4ihE_fA&s);
+  background-size: fit-content;
+  padding: 0.55rem;
+}
+
+.whole-box-177 {
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDtEXWIeF_Jn0qzy2_UxfZC-k-TPlVBPl3OQ&s);
   background-size: fit-content;
   padding: 0.55rem;
 }
+
 
 .line-1a {
   color: rgb(0, 0, 0);
