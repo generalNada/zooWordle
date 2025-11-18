@@ -2709,6 +2709,16 @@ border: 5px solid aqua;
   border-radius: 1.1rem;
 }
 
+.badAssMan2K {
+  font-family: "Rubik Mono One", monospace;
+  background-color: orange;
+  color: silver;
+  font-size: 2.25rem;
+  line-height: 2.25rem;
+  border: solid rgb(29, 58, 118) 0.2rem;
+  border-radius: 1.1rem;
+}
+
 .badAssMan3 {
   background-color: navy;
   color: white;
