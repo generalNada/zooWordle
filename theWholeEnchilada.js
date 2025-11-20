@@ -1,4 +1,5 @@
 
+
 export const fixedWordsLarge = [
     'QQQQQ', 'ZZZZZ', 'JJJJJ', 'QQZZJ', 'KKKJJ', 'JQQZZ', 'JZZQQ', 'QQJZZ', 'ZZJQQ', 'QQJZX', 
     'AAHED', 'AALII', 'AARGH', 'AARTI', 'ABACA', 'ABACI', 'ABACK', 'ABACS', 'ABAFT', 'ABAKA',
@@ -1380,7 +1381,7 @@ export const dailyWordsSmall = [
     'LEPER', 'LIEGE', 'LIKEN', 'LIPID', 
     'LOAMY', 'LOATH', 'LOBBY', 'LOGIN', 'LOOSE', 'LORRY', 'LUMEN',
     'LUPUS', 'LURCH', 'LYMPH', 'LYRIC', 'MACRO', 
-    'MAFIA', 'MAKER', 'MAMMA', 'MAMMY', 'MANGE', 'MANGY', 'MANIC',
+    'MAFIA', 'MAMMA', 'MAMMY', 'MANGE', 'MANGY', 'MANIC',
     'MEATY', 'MECCA', 'MELEE', 'MILKY', 
     'MINIM', 'MINOR', 'MISER', 'MISSY', 'MOCHA',
     'MOGUL', 'MOODY', 'MORON', 'MORPH', 'MOTIF', 'MOUND', 
@@ -2111,7 +2112,7 @@ export const dailyWordsLarge = [
     'MACHI', 'MACHS', 'MACKS', 'MACLE', 'MACON', 'MACRO', 'MADGE', 'MADID',
     'MADRE', 'MAERL', 'MAFIA', 'MAFIC', 'MAGES', 'MAGGS', 'MAGOT',
     'MAGUS', 'MAHOE', 'MAHUA', 'MAHWA', 'MAIDS', 'MAIKO', 'MAIKS', 'MAILE', 'MAILL', 'MAILS',
-    'MAIMS', 'MAINS', 'MAIRE', 'MAIRS', 'MAISE', 'MAIST', 'MAKAR', 'MAKER',
+    'MAIMS', 'MAINS', 'MAIRE', 'MAIRS', 'MAISE', 'MAIST', 'MAKAR', 
     'MAKES', 'MAKIS', 'MAKOS', 'MALAM', 'MALAR', 'MALAS', 'MALAX', 'MALES', 'MALIC', 'MALIK',
     'MALIS', 'MALLS', 'MALMS', 'MALMY', 'MALTS', 'MALTY', 'MALUS', 'MALVA', 'MALWA', 'MAMAS',
     'MAMBA', 'MAMEE', 'MAMEY', 'MAMIE', 'MAMMA', 'MAMMY', 'MANAS', 'MANAT', 'MANDI',
@@ -12355,6 +12356,11 @@ export const wordleWords = [
         myScore: 3,
         wordNumber: 1613,
       },  
+      { word: "MAKER",
+        gameDate: "11/19/25",
+        myScore: 4,
+        wordNumber: 1614,
+      },  
 
     
   ];
@@ -12372,7 +12378,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("November 18, 2025: Trump sux dykk000000000! OPINE")
+console.log("November 19, 2025: Trump sux dykk000000000! MAKER")
 
 
 console.log(wordleWords)
