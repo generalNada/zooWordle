@@ -1366,7 +1366,7 @@ export const dailyWordsSmall = [
     'GASSY', 'GATOR', 'GAVEL', 'GAYER', 'GAYLY', 'GAZER', 'GEEKY', 
     'GIPSY', 'GIRLY', 'GIVER', 'GLINT', 'GLOSS', 
     'GODLY', 'GOLLY', 'GONAD', 'GOURD',
-    'GRAPE', 'GRASS', 'GRAVE', 'GRAVY', 'GRAZE', 'GRILL', 
+    'GRAPE', 'GRASS', 'GRAVY', 'GRAZE', 'GRILL', 
     'GROPE', 'GRUFF', 'GRUNT', 'GUAVA', 'GUESS', 'GUILT',
     'GULCH', 'GUMBO', 'GUSTO', 'GUTSY', 'GYPSY', 'HALAL', 
     'HAREM', 'HARPY', 'HARRY', 'HASTE', 'HASTY', 'HAUTE', 
@@ -1804,8 +1804,7 @@ export const dailyWordsLarge = [
     'EYOTS', 'EYRAS', 'EYRES', 'EYRIE', 'EYRIR', 'EZINE', 'FABLE', 'FACED', 'FACES', 
     'FACIA', 'FACTA', 'FACTS', 'FADDY', 'FADED', 'FADER', 'FADES', 'FADGE', 'FADOS', 'FAENA', 
     'FAERY', 'FAGGY', 'FAGIN', 'FAGOT', 'FAILS', 'FAIRE', 'FAIRS', 'FAIRY', 'FAKED', 
-    'FAKER', 'FAKES', 'FAKIE', 'FAKIR', 'FALAJ', 'FALLS', 'FAMED', 'FAMES', 'FANAL', 
-    'FANDS',
+    'FAKER', 'FAKES', 'FAKIE', 'FAKIR', 'FALAJ', 'FALLS', 'FAMED', 'FAMES', 'FANAL', 'FANDS',
     'FANES', 'FANGA', 'FANGO', 'FANGS', 'FANKS', 'FANNY', 'FANON', 'FANOS', 'FANUM', 'FAQIR',
     'FARAD', 'FARCI', 'FARCY', 'FARDS', 'FARED', 'FARER', 'FARES', 'FARLE', 'FARLS',
     'FARMS', 'FAROS', 'FARRO', 'FARSE', 'FARTS', 'FASCI', 'FASTI', 'FASTS', 'FATAL', 'FATED',
@@ -1907,7 +1906,7 @@ export const dailyWordsLarge = [
     'GOURD', 'GOUTS', 'GOUTY', 'GOWAN', 'GOWDS', 'GOWFS', 'GOWKS', 'GOWLS', 'GOWNS', 'GOXES',
     'GOYLE', 'GRAAL', 'GRABS', 'GRADS', 'GRAFF', 
     'GRAIP', 'GRAMA', 'GRAME', 'GRAMP', 'GRAMS', 'GRANA', 'GRANS', 'GRAPE',
-    'GRAPY', 'GRASS', 'GRAVE', 'GRAVS', 'GRAVY', 'GRAYS', 'GRAZE',
+    'GRAPY', 'GRASS', 'GRAVS', 'GRAVY', 'GRAYS', 'GRAZE',
     'GREBE', 'GREBO', 'GRECE', 'GREEK', 'GREES', 'GREGE',
     'GREGO', 'GREIN', 'GRENS', 'GRESE', 'GREVE', 'GREWS', 'GREYS', 'GRICE', 'GRIDE', 'GRIDS',
     'GRIFF', 'GRIGS', 'GRIKE', 'GRILL', 'GRINS',
@@ -12361,6 +12360,11 @@ export const wordleWords = [
         myScore: 4,
         wordNumber: 1614,
       },  
+      { word: "GRAVE",
+        gameDate: "11/20/25",
+        myScore: 3,
+        wordNumber: 1615,
+      },  
 
     
   ];
@@ -12378,7 +12382,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("November 19, 2025: Trump sux dykk000000000! MAKER")
+console.log("November 20, 2025: Trump sux dykk000000000! GRAVE")
 
 
 console.log(wordleWords)
