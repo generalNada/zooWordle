@@ -2729,6 +2729,16 @@ border: 5px solid aqua;
   border-radius: 1.1rem;
 }
 
+.badAssMan1L {
+  font-family: "Archivo Black", sans-serif;
+  color: rgb(28, 160, 24);
+  background-color: rgb(135, 148, 39);
+  font-size: 1.65rem;
+  line-height: 1.65rem;
+  border: solid rgb(29, 58, 118) 0.2rem;
+  border-radius: 1.1rem;
+}
+
 .badAssMan3 {
   background-color: navy;
   color: white;
