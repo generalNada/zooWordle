@@ -1399,7 +1399,7 @@ export const dailyWordsSmall = [
     'POESY', 'POOCH', 'POSER', 'POSIT', 'POSSE', 'POUCH', 
     'PRAWN', 'PRIED', 'PRISM', 'PRIVY',  
     'PROOF', 'PRUDE', 'PUBIC', 'PUDGY', 'PUFFY', 'PULSE', 'PUNCH',
-    'PUPPY', 'PUREE', 'PURER', 'PURSE', 'PUSHY', 'PUTTY', 'PYGMY', 'QUACK',
+    'PUPPY', 'PUREE', 'PURER', 'PURSE', 'PUSHY', 'PUTTY', 'PYGMY', 'PYLON', 'QUACK',
     'QUARK', 'QUASI', 'QUEER', 'QUELL', 'QUILT', 'QUOTH',
     'RABBI', 'RACER', 'RADAR', 'RADII', 'RAJAH', 'RALLY', 'RALPH', 'RANDY',
     'RARER', 'RASPY', 'RAVEN', 'RAZOR', 'REARM', 'REBAR', 
@@ -1439,7 +1439,7 @@ export const dailyWordsSmall = [
     'UNITY', 'UNSET', 'UNWED', 'URINE', 'UTILE', 'VALOR', 'VALVE', 'VAPOR',
     'VAUNT', 'VEGAN', 'VERSO', 'VICAR', 'VIGIL', 
     'VIPER', 'VIRUS', 'VISIT', 'VISTA', 'VOCAL', 'VOGUE', 
-    'VOMIT', 'VOWEL', 'WAGER', 'WAIST', 'WAIVE', 'WARTY', 
+    'VOMIT', 'WAGER', 'WAIST', 'WAIVE', 'WARTY', 
     'WAVER', 'WAXEN', 'WEAVE', 'WEIGH', 'WELCH', 'WELSH', 'WHARF', 
     'WHITE', 'WIDER', 'WIDOW', 'WIGHT',
     'WILLY', 'WIMPY', 'WINCH', 'WISER', 'WISPY', 'WOMEN', 'WOODY', 'WOOLY',
@@ -2674,7 +2674,7 @@ export const dailyWordsLarge = [
     'VOARS', 'VOCAB', 'VOCAL', 'VOCES', 'VODDY', 'VODOU', 'VODUN', 'VOEMA', 'VOGIE',
     'VOGUE', 'VOIDS', 'VOILE', 'VOIPS', 'VOLAE', 'VOLAR', 'VOLED', 'VOLES',
     'VOLET', 'VOLKS', 'VOLTA', 'VOLTE', 'VOLTI', 'VOLTS', 'VOLVA', 'VOLVE', 'VOMER', 'VOMIT',
-    'VOTED', 'VOTES', 'VOUGE', 'VOULU', 'VOWED', 'VOWEL', 'VOWER', 'VOXEL',
+    'VOTED', 'VOTES', 'VOUGE', 'VOULU', 'VOWED', 'VOWER', 'VOXEL',
     'VOZHD', 'VRAIC', 'VRILS', 'VROOM', 'VROUS', 'VROUW', 'VROWS', 'VUGGS', 'VUGGY', 'VUGHS',
     'VUGHY', 'VULGO', 'VULNS', 'VULVA', 'VUTTY', 'WAACS', 'WACKE', 'WACKO', 'WACKS',
     'WADDS', 'WADDY', 'WADED', 'WADER', 'WADES', 'WADGE', 'WADIS', 'WADTS',
@@ -12365,6 +12365,11 @@ export const wordleWords = [
         myScore: 3,
         wordNumber: 1615,
       },  
+      { word: "VOWEL",
+        gameDate: "11/21/25",
+        myScore: 2,
+        wordNumber: 1616,
+      },  
 
     
   ];
@@ -12382,7 +12387,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("November 20, 2025: Trump sux dykk000000000! GRAVE")
+console.log("November 21, 2025: Trump sux dykk000000000! VOWEL")
 
 
 console.log(wordleWords)
