@@ -1430,7 +1430,7 @@ export const dailyWordsSmall = [
     'SWEAR', 'SWEPT', 'SWIFT', 'SWING', 'SWOOP', 'SWORE', 
     'SWORN', 'SYNOD', 'TAINT', 'TAKER', 'TAMER', 
     'TANGO', 'TAROT', 'TATTY', 'TEDDY', 'TENET', 'TENSE', 'TEPEE', 
-    'TERRA', 'TESTY', 'THEFT', 'THETA', 'THICK', 'THONG',
+    'TERRA', 'TESTY', 'THEFT', 'THETA', 'THONG',
     'TIGHT', 'TODDY', 'TOKEN', 'TONAL',
     'TONER', 'TONGA', 'TORUS',  
     'TRAMP', 'TREAD', 'TRIAL', 'TRIBE', 'TRIED', 'TRUCE',
@@ -2581,7 +2581,7 @@ export const dailyWordsLarge = [
     'THAIM', 'THALE', 'THALI', 'THANA', 'THANE', 'THANG', 'THANS', 'THANX', 'THARM',
     'THARS', 'THAWS', 'THAWY', 'THEBE', 'THECA', 'THEED', 'THEEK', 'THEES', 'THEFT', 'THEGN',
     'THEIC', 'THEIN', 'THELF', 'THEMA', 'THENS', 'THEOW', 'THERM',
-    'THESP', 'THETA', 'THETE', 'THEWS', 'THEWY', 'THICK', 'THIGS',
+    'THESP', 'THETA', 'THETE', 'THEWS', 'THEWY', 'THIGS',
     'THILK', 'THILL', 'THINE', 'THINS', 'THIOL', 'THIRL', 'THOFT',
     'THOLE', 'THOLI', 'THONG', 'THORO', 'THORP', 'THOUS', 'THOWL', 'THRAE',
     'THRAW', 'THRID', 'THRIP', 'THROE', 'THUDS',
@@ -12370,6 +12370,11 @@ export const wordleWords = [
         myScore: 2,
         wordNumber: 1616,
       },  
+      { word: "THICK",
+        gameDate: "11/22/25",
+        myScore: 4,
+        wordNumber: 1617,
+      },  
 
     
   ];
@@ -12387,7 +12392,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("November 21, 2025: Trump sux dykk000000000! VOWEL")
+console.log("November 22, 2025: Trump sux dykk000000000! THICK")
 
 
 console.log(wordleWords)
