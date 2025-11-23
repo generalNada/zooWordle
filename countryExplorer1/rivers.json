@@ -1,0 +1,8 @@
+{
+  "BRA": ["Amazon", "São Francisco", "Tocantins"],
+  "EGY": ["Nile"],
+  "IND": ["Ganges", "Yamuna", "Godavari"],
+  "USA": ["Mississippi", "Missouri", "Colorado"],
+  "CAN": ["Mackenzie", "St. Lawrence", "Fraser"],
+  "CHN": ["Yangtze", "Yellow", "Pearl"]
+}
