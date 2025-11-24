@@ -2609,6 +2609,16 @@ border: 5px solid aqua;
   border-radius: 1.1rem;
 }
 
+.badAssMan1M {
+  font-family: "Yanone Kaffeesatz", serif; 
+  color: rgb(228, 160, 224);
+  background-color: rgb(15, 18, 19);
+  font-size: 1.65rem;
+  line-height: 1.65rem;
+  border: solid rgb(29, 58, 118) 0.2rem;
+  border-radius: 1.1rem;
+}
+
 .badAssMan2 {
   background-color: rgb(15, 45, 25);
   color: white;
