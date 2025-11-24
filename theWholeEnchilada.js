@@ -1332,7 +1332,7 @@ export const dailyWordsSmall = [
     'BLOAT', 'BLOOD', 'BLOOM', 'BLUER', 'BOBBY', 'BONEY', 
     'BOOTH', 'BOSOM', 'BOTCH', 'BOULE', 'BOUND', 'BOWEL', 
     'BRAWL', 'BRICK', 'BROIL',
-    'BROOD', 'BROWN', 'BRUNT', 'BUDGE', 'BUNNY', 'BURST', 'BUSED', 
+    'BROOD', 'BROWN', 'BRUNT', 'BUDGE', 'BURST', 'BUSED', 
     'BUSHY', 'BUTCH', 'BUTTE', 'BUXOM', 'BUYER', 'BYLAW', 'CABAL', 'CABBY', 'CABIN', 'CACTI', 
     'CADDY', 'CAGEY', 'CAIRN', 'CANAL', 
     'CAPUT', 'CASTE', 'CAVIL', 'CELLO', 'CHAFF', 
@@ -1602,7 +1602,7 @@ export const dailyWordsLarge = [
     'BUIST', 'BUKES', 'BULBS', 'BULGY', 'BULKS', 'BULLA', 'BULLS',
     'BULSE', 'BUMBO', 'BUMFS', 'BUMPH', 'BUMPS', 'BUMPY', 'BUNAS', 'BUNCE', 
     'BUNCO', 'BUNDE', 'BUNDH', 'BUNDS', 'BUNDT', 'BUNDU', 'BUNDY', 'BUNGS', 'BUNGY', 'BUNIA',
-    'BUNJE', 'BUNJY', 'BUNKO', 'BUNKS', 'BUNNS', 'BUNNY', 'BUNTS', 'BUNTY', 'BUNYA', 'BUOYS',
+    'BUNJE', 'BUNJY', 'BUNKO', 'BUNKS', 'BUNNS', 'BUNTS', 'BUNTY', 'BUNYA', 'BUOYS',
     'BUPPY', 'BURAN', 'BURAS', 'BURBS', 'BURDS', 'BURET', 'BURFI', 'BURGH', 'BURGS', 'BURIN',
     'BURKA', 'BURKE', 'BURKS', 'BURLS', 'BURNS', 'BUROO', 'BURPS', 'BURQA',
     'BURRO', 'BURRS', 'BURRY', 'BURSA', 'BURSE', 'BURST', 'BUSBY', 'BUSED', 'BUSES', 'BUSHY',
@@ -12375,6 +12375,11 @@ export const wordleWords = [
         myScore: 4,
         wordNumber: 1617,
       },  
+      { word: "BUNNY",
+        gameDate: "11/23/25",
+        myScore: 4,
+        wordNumber: 1618,
+      },  
 
     
   ];
@@ -12392,7 +12397,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("November 22, 2025: Trump sux dykk000000000! THICK")
+console.log("November 23, 2025: Trump sux dykk000000000! BUNNY")
 
 
 console.log(wordleWords)
