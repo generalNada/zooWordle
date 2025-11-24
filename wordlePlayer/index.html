@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>WordleCloneCombined</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Diplomata&family=Galindo&family=Grand+Hotel&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mystery+Quest&family=Patua+One&family=Righteous&display=swap"
+      rel="stylesheet"
+    />
+    <link href="wordlePlayer.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <!-- <h1> The Wordle Clone<h1>
+    <button id="new-word" class="reset-button" title="Generate New Word">
+      🔄
+    </button>
+
+    <label for="word-dropdown">Choose a starting word:</label>
+    <select id="word-dropdown">
+      <option value="">Select a word</option>
+    </select> -->
+
+    <div id="top-header">
+      <h1>The Wordle Clone</h1>
+      <button id="new-word" class="reset-button" title="Generate New Word">
+        🔄
+      </button>
+
+      <label for="word-dropdown"
+        >Choose a starting word or enter your own:</label
+      >
+      <select id="word-dropdown">
+        <option value="">Select a word</option>
+      </select>
+    </div>
+
+    <h2>Previous Guesses</h2>
+    <ul id="previous-guesses"></ul>
+
+    <div id="keyboard"></div>
+
+    <div id="input-container">
+      <input
+        type="text"
+        id="guess"
+        maxlength="5"
+        placeholder="5 letter word"
+        inputmode="none"
+      />
+      <button id="submit">Check</button>
+    </div>
+
+    <div id="success-message" class="success-message hidden">
+      <p>
+        You solved the puzzle in <span id="tries-count">0</span> tries! Play
+        again?
+      </p>
+    </div>
+
+    <h2 id="possible-words-header" class="toggleable-header">
+      Possible Words (<span id="word-count">0</span>)
+    </h2>
+
+    <ul id="filtered-words" class="hidden-words"></ul>
+
+    <script type="module" src="wordlePlayer.js"></script>
+  </body>
+</html>

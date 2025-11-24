@@ -1,0 +1,591 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+  padding: 0 10px;
+  color: rgb(41, 41, 43);
+  background-color: rgb(208, 220, 227);
+  font-family: "Righteous", serif;
+  max-width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Reorder elements: Header/Dropdown -> Letter boxes -> Keyboard -> Input -> Possible Words */
+/* Top: Header and dropdown */
+h1,
+button#new-word,
+label[for="word-dropdown"],
+select#word-dropdown {
+  order: 1;
+}
+
+/* Letter boxes (Previous Guesses) */
+h2:not(#possible-words-header) {
+  order: 2;
+}
+
+#previous-guesses {
+  order: 2;
+}
+
+/* Keyboard */
+#keyboard {
+  order: 3;
+}
+
+/* Success message replaces keyboard when shown - same order as keyboard */
+#success-message {
+  order: 3;
+  display: none; /* Hidden by default, shown via JavaScript */
+}
+
+/* Input container and Check button - must be above Possible Words */
+#input-container {
+  order: 4;
+}
+
+/* Bottom: Possible Words - must be after input */
+h2#possible-words-header {
+  order: 6;
+}
+
+#filtered-words {
+  order: 6;
+}
+
+/* Success message */
+/* Success message order is set above (order: 3) to replace keyboard */
+
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px auto;
+}
+
+h2 {
+  margin: 20px auto;
+}
+
+#input-container {
+  margin: 30px auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+label[for="word-dropdown"] {
+  display: block;
+  margin: 10px 0;
+}
+
+#word-dropdown {
+  margin: 5px 0 15px;
+}
+
+input {
+  font-size: 18px;
+  padding: 5px;
+  text-transform: uppercase;
+  width: 150px;
+  max-width: 90%;
+  text-align: center;
+  box-sizing: border-box;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+}
+
+button {
+  font-size: 18px;
+  padding: 5px 10px;
+  margin-left: 0;
+  cursor: pointer;
+  box-sizing: border-box;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.reset-button {
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 1.2rem;
+  padding: 4px 8px;
+  margin: 0;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+  width: 32px;
+  height: 32px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reset-button:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.9);
+  transform: rotate(90deg);
+}
+
+#previous-guesses {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.guess-item {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+#guess,
+#submit,
+#word-dropdown {
+  font-weight: bold;
+  color: rgb(41, 41, 43);
+  background-color: rgb(208, 220, 227);
+  font-size: 16px; /* Prevent iOS zoom - must be at least 16px */
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+}
+
+#guess {
+  width: 250px;
+  font-size: 1.75rem;
+}
+
+#submit {
+  width: 100px;
+  font-size: 1.5rem;
+}
+
+/* iOS-specific: Prevent zoom on input interactions */
+@supports (-webkit-touch-callout: none) {
+  /* This targets iOS Safari */
+  input,
+  button,
+  select {
+    font-size: 16px !important; /* iOS requires at least 16px to prevent zoom */
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+#guess::placeholder {
+  font-style: italic;
+  color: rgba(0, 0, 0, 0.4);
+  opacity: 1; /* Ensure visibility */
+}
+
+#filtered-words {
+  color: rgb(41, 41, 43);
+  font-family: "Patua One", serif;
+  text-align: center;
+  max-width: 100%;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+.hidden-words {
+  display: none;
+}
+
+.toggleable-header {
+  cursor: pointer;
+  user-select: none;
+  transition: opacity 0.2s ease;
+}
+
+.toggleable-header:hover {
+  opacity: 0.8;
+}
+
+.letter-box {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  border: 0.1rem solid #ffffff;
+  opacity: 0; /* Initially hidden */
+  transform: scale(0.8);
+  animation: reveal 1s ease-in forwards;
+  box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+  .letter-box {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 400px) {
+  .letter-box {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 16px;
+  }
+}
+
+.green {
+  background-color: #6aaa64;
+  color: white;
+}
+.orange {
+  background-color: #c9b458;
+  color: white;
+}
+.gray {
+  background-color: #787c7e;
+  color: white;
+}
+
+@keyframes reveal {
+  0% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+#keyboard {
+  margin: 30px auto 10px;
+  max-width: 700px;
+  width: 100%;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+.virtual-keyboard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 12px;
+  background: #65646d;
+  box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+  .virtual-keyboard {
+    gap: 6px;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 400px) {
+  .virtual-keyboard {
+    gap: 4px;
+    padding: 8px;
+  }
+}
+
+.key {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  min-height: 60px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(162, 159, 159, 0.4);
+  color: #ffffff;
+  font-family: "Patua One", serif;
+  transition: transform 0.15s ease, border-color 0.15s ease;
+  box-sizing: border-box;
+}
+
+.key:hover {
+  transform: scale(1.05);
+  border-color: rgba(255, 255, 255, 0.4);
+}
+
+.key:active {
+  transform: scale(0.95);
+}
+
+.backspace-key {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 600px) {
+  .key {
+    width: 44px;
+    min-height: 52px;
+  }
+}
+
+@media (max-width: 400px) {
+  .key {
+    width: 38px;
+    min-height: 46px;
+  }
+}
+
+.key-letter {
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  z-index: 1;
+}
+
+@media (max-width: 600px) {
+  .key-letter {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .key-letter {
+    font-size: 0.9rem;
+  }
+}
+
+.key-position {
+  position: absolute;
+  font-size: 0.65rem;
+  font-weight: bold;
+  color: rgba(
+    162,
+    159,
+    159,
+    0.4
+  ); /* Match key background to make non-active positions invisible */
+  opacity: 1;
+  transition: color 0.2s ease;
+}
+
+.key-position.active {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.key-position.pos-1 {
+  top: 4px;
+  left: 4px;
+}
+
+.key-position.pos-2 {
+  top: 4px;
+  right: 4px;
+}
+
+.key-position.pos-3 {
+  bottom: 4px;
+  left: 4px;
+}
+
+.key-position.pos-4 {
+  bottom: 4px;
+  right: 4px;
+}
+
+.key-position.pos-5 {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 0.7rem;
+}
+
+.key-position.in-middle {
+  top: auto;
+  bottom: 4px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.7rem;
+}
+
+.key-position.green {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.key-position.orange {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.key-position.gray {
+  background-color: #61657f;
+  /* color: rgba(0, 0, 0, 0.8); */
+}
+
+.key.green {
+  background-color: #2e8b57;
+  border-color: #62f0ae;
+}
+
+.key.orange {
+  /* background-color: #a3812f; */
+  background-color: #e6b648;
+  border-color: #ffd07d;
+}
+
+.key.gray {
+  background-color: #3e4050;
+  border-color: #9ea3c7;
+}
+
+.success-message {
+  margin: 30px auto 10px;
+  padding: 15px 25px;
+  background: linear-gradient(135deg, #6aaa64 0%, #4a8a54 100%);
+  border: 3px solid #62f0ae;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(98, 240, 174, 0.4);
+  max-width: 400px;
+  width: 100%;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  animation: successPulse 0.5s ease-in-out;
+  box-sizing: border-box;
+}
+
+.success-message:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 30px rgba(98, 240, 174, 0.6);
+}
+
+.success-message.hidden {
+  display: none;
+}
+
+.success-message p {
+  color: #ffffff;
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin: 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  font-family: "Righteous", serif;
+}
+
+.success-message #tries-count {
+  color: #ffff00;
+  font-size: 1.4rem;
+  font-weight: 900;
+}
+
+@keyframes successPulse {
+  0% {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 600px) {
+  body {
+    margin: 15px 5px;
+    padding: 0 5px;
+  }
+
+  h1,
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  #input-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  button {
+    margin-left: 0;
+    margin-top: 5px;
+  }
+
+  .guess-item {
+    font-size: 16px;
+  }
+
+  .success-message {
+    max-width: 90%;
+    padding: 12px 20px;
+  }
+
+  .success-message p {
+    font-size: 1.1rem;
+  }
+
+  #filtered-words {
+    font-size: 0.9rem;
+    padding: 0 10px;
+  }
+}
+
+@media (max-width: 400px) {
+  body {
+    margin: 10px 5px;
+  }
+
+  h1,
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  input {
+    width: 120px;
+    font-size: 16px;
+  }
+
+  button {
+    font-size: 16px;
+    padding: 4px 8px;
+  }
+
+  .guess-item {
+    font-size: 14px;
+  }
+
+  .success-message p {
+    font-size: 1rem;
+  }
+
+  .success-message #tries-count {
+    font-size: 1.2rem;
+  }
+}
+
+#top-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px auto;
+}
+
+#top-header h1 {
+  margin: 0;
+}
+
+#top-header label,
+#top-header select {
+  margin: 0;
+  font-size: 1rem;
+}
