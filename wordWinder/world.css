@@ -13,7 +13,124 @@ body {
   align-items: center;
   width: 100%;
   box-sizing: border-box;
+  transition: background 0.5s ease;
 }
+
+
+
+body.dark-theme {
+  background: linear-gradient(
+    135deg,
+    rgb(10, 10, 10) 0%,
+    rgb(25, 25, 25) 25%,
+    rgb(40, 40, 40) 50%,
+    rgb(30, 30, 30) 75%,
+    rgb(20, 20, 20) 100%
+  );
+}
+
+#themeToggle {
+  font-size: 2.5rem;
+  cursor: pointer;
+  user-select: none;
+  margin: 0;
+  margin-bottom: 10px;
+  transition: transform 0.3s ease, filter 0.3s ease;
+  text-align: center;
+}
+
+#themeToggle:hover {
+  transform: scale(1.2) rotate(15deg);
+  filter: drop-shadow(0 0 10px rgba(180, 180, 180, 0.5));
+}
+
+#themeToggle:active {
+  transform: scale(1.1) rotate(15deg);
+}
+
+body.dark-theme #themeToggle {
+  filter: drop-shadow(0 0 15px rgba(200, 200, 200, 0.6));
+}
+
+
+
+body.dark-theme h1 {
+  background: linear-gradient(
+    135deg,
+    rgb(200, 200, 200),
+    rgb(160, 160, 160),
+    rgb(120, 120, 120),
+    rgb(180, 180, 180)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-shadow: 0 0 25px rgba(200, 200, 200, 0.5);
+  animation: titleGlowDark 4s ease-in-out infinite alternate;
+}
+
+
+
+@keyframes titleGlowDark {
+  0% {
+    filter: drop-shadow(0 0 10px rgba(160, 160, 160, 0.4));
+  }
+  100% {
+    filter: drop-shadow(0 0 20px rgba(200, 200, 200, 0.7));
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body.dark-theme {
+  background: linear-gradient(
+    135deg,
+    rgb(20, 15, 40) 0%,
+    rgb(40, 25, 70) 25%,
+    rgb(60, 35, 100) 50%,
+    rgb(30, 20, 50) 75%,
+    rgb(15, 10, 30) 100%
+  );
+}
+
+#themeToggle {
+  font-size: 2.5rem;
+  cursor: pointer;
+  user-select: none;
+  margin: 0;
+  margin-bottom: 10px;
+  transition: transform 0.3s ease, filter 0.3s ease;
+  text-align: center;
+}
+
+#themeToggle:hover {
+  transform: scale(1.2) rotate(15deg);
+  filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.5));
+}
+
+#themeToggle:active {
+  transform: scale(1.1) rotate(15deg);
+}
+
+body.dark-theme #themeToggle {
+  filter: drop-shadow(0 0 15px rgba(150, 200, 255, 0.6));
+} */
 
 h1 {
   text-align: center;
@@ -32,8 +149,23 @@ h1 {
   animation: titleGlow 4s ease-in-out infinite alternate;
   cursor: pointer;
   user-select: none;
-  transition: transform 0.2s ease, opacity 0.2s ease;
+  transition: transform 0.2s ease, opacity 0.2s ease, background 0.5s ease;
 }
+
+/* body.dark-theme h1 {
+  background: linear-gradient(
+    135deg,
+    rgb(150, 200, 255),
+    rgb(100, 150, 255),
+    rgb(200, 180, 255),
+    rgb(120, 180, 255)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-shadow: 0 0 25px rgba(150, 200, 255, 0.5);
+  animation: titleGlowDark 4s ease-in-out infinite alternate;
+} */
 
 h1:hover {
   transform: scale(1.05);
@@ -53,14 +185,27 @@ h1:active {
   }
 }
 
+/* @keyframes titleGlowDark {
+  0% {
+    filter: drop-shadow(0 0 10px rgba(150, 200, 255, 0.4));
+  }
+  100% {
+    filter: drop-shadow(0 0 20px rgba(200, 180, 255, 0.7));
+  }
+} */
+
+
 #toggleButton {
   font-size: 2.5rem;
   color: rgba(220, 200, 240, 0.9);
   background: linear-gradient(
     135deg,
-    rgba(100, 80, 140, 0.4),
+    rgba(30, 30, 30, 0.4),
+    rgba(45, 45, 45, 0.5),
+    rgba(30, 30, 30, 0.4)
+    /* rgba(100, 80, 140, 0.4),
     rgba(120, 100, 160, 0.5),
-    rgba(100, 80, 140, 0.4)
+    rgba(100, 80, 140, 0.4) */
   );
   padding: 15px 35px;
   border-radius: 12px;
@@ -104,9 +249,12 @@ h1:active {
   color: rgba(240, 220, 255, 1);
   background: linear-gradient(
     135deg,
-    rgba(110, 90, 150, 0.5),
+    rgba(60, 60, 60, 0.5),
+    rgba(80, 80, 80, 0.6),
+    rgba(60, 60, 60, 0.5)
+    /* rgba(110, 90, 150, 0.5),
     rgba(130, 110, 170, 0.6),
-    rgba(110, 90, 150, 0.5)
+    rgba(110, 90, 150, 0.5) */
   );
   box-shadow: 0 6px 20px rgba(80, 60, 120, 0.3),
     0 0 15px rgba(140, 120, 180, 0.2);
@@ -123,9 +271,12 @@ h1:active {
   color: rgba(200, 180, 230, 0.95);
   background: linear-gradient(
     135deg,
-    rgba(80, 60, 120, 0.3),
+    rgba(30, 30, 30, 0.4),
+    rgba(45, 45, 45, 0.5),
+    rgba(30, 30, 30, 0.4)
+    /* rgba(80, 60, 120, 0.3),
     rgba(100, 80, 140, 0.4),
-    rgba(80, 60, 120, 0.3)
+    rgba(80, 60, 120, 0.3) */
   );
   margin: 20px auto;
   font-size: 2rem;
@@ -148,9 +299,12 @@ h1:active {
 .score-result {
   background: linear-gradient(
     135deg,
-    rgba(100, 80, 140, 0.4),
+        rgba(30, 30, 30, 0.4),
+        rgba(45, 45, 45, 0.5),
+        rgba(30, 30, 30, 0.4)
+    /* rgba(100, 80, 140, 0.4),
     rgba(120, 100, 160, 0.5),
-    rgba(100, 80, 140, 0.4)
+    rgba(100, 80, 140, 0.4) */
   );
   color: rgba(220, 200, 240, 0.95);
   padding: 15px;
@@ -173,9 +327,12 @@ h1:active {
 .month-year-result {
   background: linear-gradient(
     135deg,
-    rgba(110, 90, 150, 0.4),
+        rgba(30, 30, 30, 0.4),
+        rgba(45, 45, 45, 0.5),
+        rgba(30, 30, 30, 0.4)
+    /* rgba(110, 90, 150, 0.4),
     rgba(130, 110, 170, 0.5),
-    rgba(110, 90, 150, 0.4)
+    rgba(110, 90, 150, 0.4) */
   );
   color: rgba(240, 220, 200, 0.95);
   padding: 15px;
@@ -198,9 +355,12 @@ h1:active {
 .year-result {
   background: linear-gradient(
     135deg,
-    rgba(130, 90, 130, 0.4),
+        rgba(30, 30, 30, 0.4),
+        rgba(45, 45, 45, 0.5),
+        rgba(30, 30, 30, 0.4)
+    /* rgba(130, 90, 130, 0.4),
     rgba(150, 110, 150, 0.5),
-    rgba(130, 90, 130, 0.4)
+    rgba(130, 90, 130, 0.4) */
   );
   color: rgba(240, 210, 220, 0.95);
   padding: 15px;
@@ -248,9 +408,12 @@ h1:active {
   color: rgba(220, 200, 240, 0.9);
   background: linear-gradient(
     135deg,
-    rgba(100, 80, 140, 0.4),
+        rgba(30, 30, 30, 0.4),
+        rgba(45, 45, 45, 0.5),
+        rgba(30, 30, 30, 0.4)
+    /* rgba(100, 80, 140, 0.4),
     rgba(120, 100, 160, 0.5),
-    rgba(100, 80, 140, 0.4)
+    rgba(100, 80, 140, 0.4) */
   );
   cursor: pointer;
   margin: 0 auto 15px auto;
@@ -294,9 +457,12 @@ h1:active {
   transform: translateY(-2px);
   background: linear-gradient(
     135deg,
-    rgba(110, 90, 150, 0.5),
+        rgba(60, 60, 60, 0.5),
+        rgba(80, 80, 80, 0.6),
+        rgba(60, 60, 60, 0.5)
+    /* rgba(110, 90, 150, 0.5),
     rgba(130, 110, 170, 0.6),
-    rgba(110, 90, 150, 0.5)
+    rgba(110, 90, 150, 0.5) */
   );
   box-shadow: 0 6px 20px rgba(80, 60, 120, 0.3),
     0 0 15px rgba(140, 120, 180, 0.2);
@@ -352,17 +518,17 @@ h1:active {
 }
 
 .link1 {
-  color: rgb(130, 156, 236);
+  color: rgba(150, 160, 200, 0.9);
   margin-right: 1rem;
 }
 
 .link2 {
-  color: rgb(83, 208, 81);
+  color: rgba(180, 200, 180, 0.9);
   margin-right: 1rem;
 }
 
 .link3 {
-  color: rgb(242, 106, 154);
+  color: rgba(200, 150, 170, 0.9);
   margin-right: 1rem;
 }
 
@@ -378,9 +544,12 @@ h1:active {
 #showWordsButton {
   background: linear-gradient(
     135deg,
-    rgba(100, 80, 140, 0.4),
+            rgba(30, 30, 30, 0.4),
+            rgba(45, 45, 45, 0.5),
+            rgba(30, 30, 30, 0.4)
+    /* rgba(100, 80, 140, 0.4),
     rgba(120, 100, 160, 0.5),
-    rgba(100, 80, 140, 0.4)
+    rgba(100, 80, 140, 0.4) */
   );
   color: rgba(200, 240, 220, 0.95);
   border: 1px solid rgba(160, 200, 180, 0.3);
@@ -423,9 +592,12 @@ h1:active {
 #showWordsButton:hover {
   background: linear-gradient(
     135deg,
-    rgba(110, 90, 150, 0.5),
+        rgba(60, 60, 60, 0.5),
+        rgba(80, 80, 80, 0.6),
+        rgba(60, 60, 60, 0.5)
+    /* rgba(110, 90, 150, 0.5),
     rgba(130, 110, 170, 0.6),
-    rgba(110, 90, 150, 0.5)
+    rgba(110, 90, 150, 0.5) */
   );
   transform: translateY(-2px);
   color: rgba(220, 255, 240, 1);
@@ -493,9 +665,12 @@ h1:active {
   margin: 20px auto;
   background: linear-gradient(
     135deg,
-    rgba(70, 50, 100, 0.4),
+    rgba(30, 30, 30, 0.4),
+    rgba(45, 45, 45, 0.5),
+    rgba(30, 30, 30, 0.4)
+    /* rgba(70, 50, 100, 0.4),
     rgba(80, 60, 110, 0.5),
-    rgba(70, 50, 100, 0.4)
+    rgba(70, 50, 100, 0.4) */
   );
   border: 1px solid rgba(160, 200, 180, 0.3);
   border-radius: 15px;
@@ -552,7 +727,7 @@ h1:active {
 
 #datesTitle,
 #wordsTitle {
-  color: aquamarine;
+  color: rgba(180, 200, 200, 0.9);
   margin: 0;
   font-size: 1.5rem;
 }
@@ -571,8 +746,8 @@ h1:active {
 
 .date-button {
   background-color: rgb(6, 6, 37);
-  color: aquamarine;
-  border: 1px solid rgb(50, 150, 150);
+  color: rgba(180, 200, 200, 0.9);
+  border: 1px solid rgba(80, 120, 120, 0.6);
   border-radius: 0.3rem;
   padding: 8px 12px;
   font-size: 0.9rem;
@@ -583,14 +758,14 @@ h1:active {
 
 .date-button:hover {
   background-color: rgb(15, 15, 60);
-  border-color: aquamarine;
+  border-color: rgba(120, 160, 160, 0.7);
   transform: scale(1.05);
 }
 
 .word-item {
   background-color: rgb(6, 6, 37);
-  color: aquamarine;
-  border: 1px solid rgb(50, 150, 150);
+  color: rgba(180, 200, 200, 0.9);
+  border: 1px solid rgba(80, 120, 120, 0.6);
   border-radius: 0.3rem;
   padding: 12px 16px;
   font-size: 1.1rem;
@@ -601,14 +776,19 @@ h1:active {
 
 .word-item:hover {
   background-color: rgb(15, 15, 60);
-  border-color: aquamarine;
+  border-color: rgba(120, 160, 160, 0.7);
   transform: translateX(5px);
 }
 
 #wordDetailsContainer {
   margin: 20px auto;
-  background-color: rgb(30, 30, 100);
-  border: 2px solid rgb(242, 106, 154);
+  background: linear-gradient(
+    135deg,
+    rgba(30, 30, 30, 0.4),
+    rgba(45, 45, 45, 0.5),
+    rgba(30, 30, 30, 0.4)
+  );
+  border: 2px solid rgba(100, 100, 100, 0.6);
   border-radius: 0.5rem;
   padding: 20px;
   max-width: 35rem;
@@ -624,13 +804,13 @@ h1:active {
 }
 
 #wordDetailsHeader h3 {
-  color: rgb(242, 106, 154);
+  color: rgba(200, 200, 200, 0.9);
   margin: 0;
   font-size: 1.5rem;
 }
 
 #wordDetailsContent {
-  color: aquamarine;
+  color: rgba(180, 200, 200, 0.9);
   font-size: 1.3rem;
   line-height: 1.6;
 }
@@ -638,18 +818,18 @@ h1:active {
 .detail-item {
   margin: 10px 0;
   padding: 5px 0;
-  border-bottom: 1px solid rgba(127, 255, 212, 0.3);
+  border-bottom: 1px solid rgba(100, 120, 120, 0.3);
 }
 
 .detail-label {
   font-weight: bold;
-  color: rgb(242, 106, 154);
+  color: rgba(200, 200, 200, 0.9);
   display: inline-block;
   width: 120px;
 }
 
 .detail-value {
-  color: aquamarine;
+  color: rgba(180, 200, 200, 0.9);
 }
 
 /* Day of Week Search Styles */
@@ -661,7 +841,12 @@ h1:active {
   width: 100%;
   box-sizing: border-box;
   position: relative;
-  background-color: rgb(87, 24, 107);
+  background: linear-gradient(
+    135deg,
+    rgba(30, 30, 30, 0.4),
+    rgba(45, 45, 45, 0.5),
+    rgba(30, 30, 30, 0.4)
+  );
   overflow: hidden;
   border: none;
   transition: border 0.3s ease;
@@ -684,12 +869,15 @@ h1:active {
   height: 200%;
   background: conic-gradient(
     from 0deg,
-    rgb(83, 208, 81),
-    rgb(120, 255, 120),
-    rgb(50, 200, 50),
-    rgb(83, 208, 81),
-    rgb(120, 255, 120),
-    rgb(83, 208, 81)
+    rgba(50, 80, 50, 0.6),
+    rgba(200, 200, 200, 0.4),
+    rgba(60, 100, 60, 0.6),
+    rgba(230, 230, 230, 0.3),
+    rgba(40, 70, 40, 0.6),
+    rgba(180, 180, 180, 0.4),
+    rgba(50, 80, 50, 0.6),
+    rgba(200, 200, 200, 0.4),
+    rgba(60, 100, 60, 0.6)
   );
   animation: borderRotate 3s linear infinite;
   z-index: 0;
@@ -703,7 +891,12 @@ h1:active {
   right: 3px;
   bottom: 3px;
   border-radius: calc(0.5rem - 3px);
-  background-color: rgb(87, 24, 107);
+  background: linear-gradient(
+    135deg,
+    rgba(30, 30, 30, 0.4),
+    rgba(45, 45, 45, 0.5),
+    rgba(30, 30, 30, 0.4)
+  );
   z-index: 0;
 }
 
@@ -717,7 +910,7 @@ h1:active {
 }
 
 #daySearchTitle {
-  color: rgb(83, 208, 81);
+  color: rgba(180, 200, 180, 0.9);
   font-size: 1.8rem;
   margin: 0;
   flex-grow: 1;
@@ -732,7 +925,7 @@ h1:active {
 #daySearchTitle:hover {
   transform: scale(1.02);
   opacity: 0.9;
-  background: rgba(83, 208, 81, 0.1);
+  background: rgba(50, 80, 50, 0.2);
 }
 
 #daySearchTitle:active {
@@ -744,7 +937,7 @@ h1:active {
   margin-bottom: 20px;
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
-  border: 2px solid rgb(83, 208, 81);
+  border: 2px solid rgba(100, 120, 100, 0.6);
   border-radius: 0.3rem;
   padding: 8px 12px;
   width: 200px;
@@ -770,8 +963,8 @@ h1:active {
 
 .day-word-button {
   background-color: rgb(6, 6, 37);
-  color: rgb(83, 208, 81);
-  border: 2px solid rgb(83, 208, 81);
+  color: rgba(180, 200, 180, 0.9);
+  border: 2px solid rgba(100, 120, 100, 0.6);
   border-radius: 0.5rem;
   padding: 15px 20px;
   font-size: 1.1rem;
@@ -787,9 +980,9 @@ h1:active {
 
 .day-word-button:hover {
   background-color: rgb(15, 15, 60);
-  border-color: rgb(120, 255, 120);
+  border-color: rgba(150, 170, 150, 0.7);
   transform: scale(1.05);
-  box-shadow: 0 4px 8px rgba(83, 208, 81, 0.3);
+  box-shadow: 0 4px 8px rgba(50, 80, 50, 0.3);
 }
 
 .word-text {
@@ -804,12 +997,17 @@ h1:active {
 }
 
 .day-search-summary {
-  background-color: rgb(83, 50, 150);
-  color: rgb(255, 200, 100);
+  background: linear-gradient(
+    135deg,
+    rgba(30, 30, 30, 0.4),
+    rgba(45, 45, 45, 0.5),
+    rgba(30, 30, 30, 0.4)
+  );
+  color: rgba(200, 200, 200, 0.9);
   padding: 15px;
   margin: 15px 0;
   border-radius: 0.5rem;
-  border: 2px solid rgb(150, 100, 200);
+  border: 2px solid rgba(100, 100, 100, 0.5);
   text-align: center;
   font-size: 1.2rem;
 }
@@ -823,7 +1021,12 @@ h1:active {
   width: 100%;
   box-sizing: border-box;
   position: relative;
-  background-color: rgb(87, 24, 107);
+  background: linear-gradient(
+    135deg,
+    rgba(30, 30, 30, 0.4),
+    rgba(45, 45, 45, 0.5),
+    rgba(30, 30, 30, 0.4)
+  );
   overflow: hidden;
   border: none;
   transition: border 0.3s ease;
@@ -846,12 +1049,15 @@ h1:active {
   height: 200%;
   background: conic-gradient(
     from 0deg,
-    rgb(255, 192, 203),
-    rgb(255, 228, 225),
-    rgb(255, 160, 180),
-    rgb(255, 192, 203),
-    rgb(255, 228, 225),
-    rgb(255, 192, 203)
+    rgba(120, 80, 90, 0.6),
+    rgba(220, 220, 220, 0.4),
+    rgba(140, 100, 110, 0.6),
+    rgba(240, 240, 240, 0.3),
+    rgba(100, 70, 80, 0.6),
+    rgba(200, 200, 200, 0.4),
+    rgba(120, 80, 90, 0.6),
+    rgba(220, 220, 220, 0.4),
+    rgba(140, 100, 110, 0.6)
   );
   animation: borderRotate 3s linear infinite;
   z-index: 0;
@@ -865,7 +1071,12 @@ h1:active {
   right: 3px;
   bottom: 3px;
   border-radius: calc(0.5rem - 3px);
-  background-color: rgb(87, 24, 107);
+  background: linear-gradient(
+    135deg,
+    rgba(30, 30, 30, 0.4),
+    rgba(45, 45, 45, 0.5),
+    rgba(30, 30, 30, 0.4)
+  );
   z-index: 0;
 }
 
@@ -879,7 +1090,7 @@ h1:active {
 }
 
 #monthSearchTitle {
-  color: rgb(255, 192, 203);
+  color: rgba(200, 180, 190, 0.9);
   font-size: 1.8rem;
   margin: 0;
   flex-grow: 1;
@@ -894,7 +1105,7 @@ h1:active {
 #monthSearchTitle:hover {
   transform: scale(1.02);
   opacity: 0.9;
-  background: rgba(255, 192, 203, 0.1);
+  background: rgba(120, 80, 90, 0.2);
 }
 
 #monthSearchTitle:active {
@@ -920,7 +1131,7 @@ h1:active {
   font-size: 1.5rem;
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
-  border: 2px solid rgb(255, 192, 203);
+  border: 2px solid rgba(120, 100, 110, 0.6);
   border-radius: 0.3rem;
   padding: 8px 12px;
   width: 180px;
@@ -937,8 +1148,8 @@ h1:active {
 
 .month-word-button {
   background-color: rgb(6, 6, 37);
-  color: rgb(255, 192, 203);
-  border: 2px solid rgb(255, 192, 203);
+  color: rgba(200, 180, 190, 0.9);
+  border: 2px solid rgba(120, 100, 110, 0.6);
   border-radius: 0.5rem;
   padding: 15px 20px;
   font-size: 1.1rem;
@@ -954,18 +1165,23 @@ h1:active {
 
 .month-word-button:hover {
   background-color: rgb(15, 15, 60);
-  border-color: rgb(255, 228, 225);
+  border-color: rgba(150, 130, 140, 0.7);
   transform: scale(1.05);
-  box-shadow: 0 4px 8px rgba(255, 192, 203, 0.3);
+  box-shadow: 0 4px 8px rgba(120, 80, 90, 0.3);
 }
 
 .month-search-summary {
-  background-color: rgb(150, 80, 100);
-  color: rgb(255, 220, 230);
+  background: linear-gradient(
+    135deg,
+    rgba(30, 30, 30, 0.4),
+    rgba(45, 45, 45, 0.5),
+    rgba(30, 30, 30, 0.4)
+  );
+  color: rgba(200, 200, 200, 0.9);
   padding: 15px;
   margin: 15px 0;
   border-radius: 0.5rem;
-  border: 2px solid rgb(200, 120, 140);
+  border: 2px solid rgba(100, 100, 100, 0.5);
   text-align: center;
   font-size: 1.2rem;
 }
@@ -979,7 +1195,12 @@ h1:active {
   width: 100%;
   box-sizing: border-box;
   position: relative;
-  background-color: rgb(87, 24, 107);
+  background: linear-gradient(
+    135deg,
+    rgba(30, 30, 30, 0.4),
+    rgba(45, 45, 45, 0.5),
+    rgba(30, 30, 30, 0.4)
+  );
   overflow: hidden;
   border: none;
   transition: border 0.3s ease;
@@ -1002,12 +1223,15 @@ h1:active {
   height: 200%;
   background: conic-gradient(
     from 0deg,
-    rgb(242, 106, 154),
-    rgb(255, 150, 200),
-    rgb(200, 80, 120),
-    rgb(242, 106, 154),
-    rgb(255, 150, 200),
-    rgb(242, 106, 154)
+    rgba(120, 50, 70, 0.6),
+    rgba(220, 220, 220, 0.4),
+    rgba(140, 60, 80, 0.6),
+    rgba(240, 240, 240, 0.3),
+    rgba(100, 40, 60, 0.6),
+    rgba(200, 200, 200, 0.4),
+    rgba(120, 50, 70, 0.6),
+    rgba(220, 220, 220, 0.4),
+    rgba(140, 60, 80, 0.6)
   );
   animation: borderRotate 3s linear infinite;
   z-index: 0;
@@ -1021,7 +1245,12 @@ h1:active {
   right: 3px;
   bottom: 3px;
   border-radius: calc(0.5rem - 3px);
-  background-color: rgb(87, 24, 107);
+  background: linear-gradient(
+    135deg,
+    rgba(30, 30, 30, 0.4),
+    rgba(45, 45, 45, 0.5),
+    rgba(30, 30, 30, 0.4)
+  );
   z-index: 0;
 }
 
@@ -1035,7 +1264,7 @@ h1:active {
 }
 
 #dayNumberSearchTitle {
-  color: rgb(242, 106, 154);
+  color: rgba(200, 150, 170, 0.9);
   font-size: 1.8rem;
   margin: 0;
   flex-grow: 1;
@@ -1050,7 +1279,7 @@ h1:active {
 #dayNumberSearchTitle:hover {
   transform: scale(1.02);
   opacity: 0.9;
-  background: rgba(242, 106, 154, 0.1);
+  background: rgba(120, 50, 70, 0.2);
 }
 
 #dayNumberSearchTitle:active {
@@ -1062,7 +1291,7 @@ h1:active {
   margin-bottom: 20px;
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
-  border: 2px solid rgb(242, 106, 154);
+  border: 2px solid rgba(120, 80, 90, 0.6);
   border-radius: 0.3rem;
   padding: 8px 12px;
   width: 200px;
@@ -1088,8 +1317,8 @@ h1:active {
 
 .day-number-word-button {
   background-color: rgb(6, 6, 37);
-  color: rgb(242, 106, 154);
-  border: 2px solid rgb(242, 106, 154);
+  color: rgba(200, 150, 170, 0.9);
+  border: 2px solid rgba(120, 80, 90, 0.6);
   border-radius: 0.5rem;
   padding: 15px 20px;
   font-size: 1.1rem;
@@ -1105,18 +1334,23 @@ h1:active {
 
 .day-number-word-button:hover {
   background-color: rgb(15, 15, 60);
-  border-color: rgb(255, 150, 200);
+  border-color: rgba(150, 100, 120, 0.7);
   transform: scale(1.05);
-  box-shadow: 0 4px 8px rgba(242, 106, 154, 0.3);
+  box-shadow: 0 4px 8px rgba(120, 50, 70, 0.3);
 }
 
 .day-number-search-summary {
-  background-color: rgb(150, 50, 50);
-  color: rgb(255, 200, 200);
+  background: linear-gradient(
+    135deg,
+    rgba(30, 30, 30, 0.4),
+    rgba(45, 45, 45, 0.5),
+    rgba(30, 30, 30, 0.4)
+  );
+  color: rgba(200, 200, 200, 0.9);
   padding: 15px;
   margin: 15px 0;
   border-radius: 0.5rem;
-  border: 2px solid rgb(200, 100, 100);
+  border: 2px solid rgba(100, 100, 100, 0.5);
   text-align: center;
   font-size: 1.2rem;
 }
@@ -1130,7 +1364,12 @@ h1:active {
   width: 100%;
   box-sizing: border-box;
   position: relative;
-  background-color: rgb(87, 24, 107);
+  background: linear-gradient(
+    135deg,
+    rgba(30, 30, 30, 0.4),
+    rgba(45, 45, 45, 0.5),
+    rgba(30, 30, 30, 0.4)
+  );
   overflow: hidden;
   border: none;
   transition: border 0.3s ease;
@@ -1153,12 +1392,15 @@ h1:active {
   height: 200%;
   background: conic-gradient(
     from 0deg,
-    rgb(130, 156, 236),
-    rgb(180, 200, 255),
-    rgb(100, 130, 220),
-    rgb(130, 156, 236),
-    rgb(180, 200, 255),
-    rgb(130, 156, 236)
+    rgba(60, 70, 100, 0.6),
+    rgba(220, 220, 220, 0.4),
+    rgba(70, 80, 110, 0.6),
+    rgba(240, 240, 240, 0.3),
+    rgba(50, 60, 90, 0.6),
+    rgba(200, 200, 200, 0.4),
+    rgba(60, 70, 100, 0.6),
+    rgba(220, 220, 220, 0.4),
+    rgba(70, 80, 110, 0.6)
   );
   animation: borderRotate 3s linear infinite;
   z-index: 0;
@@ -1172,7 +1414,12 @@ h1:active {
   right: 3px;
   bottom: 3px;
   border-radius: calc(0.5rem - 3px);
-  background-color: rgb(87, 24, 107);
+  background: linear-gradient(
+    135deg,
+    rgba(30, 30, 30, 0.4),
+    rgba(45, 45, 45, 0.5),
+    rgba(30, 30, 30, 0.4)
+  );
   z-index: 0;
 }
 
@@ -1186,7 +1433,7 @@ h1:active {
 }
 
 #monthDaySearchTitle {
-  color: rgb(130, 156, 236);
+  color: rgba(150, 160, 200, 0.9);
   font-size: 1.8rem;
   margin: 0;
   flex-grow: 1;
@@ -1201,7 +1448,7 @@ h1:active {
 #monthDaySearchTitle:hover {
   transform: scale(1.02);
   opacity: 0.9;
-  background: rgba(130, 156, 236, 0.1);
+  background: rgba(60, 70, 100, 0.2);
 }
 
 #monthDaySearchTitle:active {
@@ -1227,7 +1474,7 @@ h1:active {
   font-size: 1.5rem;
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
-  border: 2px solid rgb(130, 156, 236);
+  border: 2px solid rgba(80, 90, 120, 0.6);
   border-radius: 0.3rem;
   padding: 8px 12px;
   width: 180px;
@@ -1244,8 +1491,8 @@ h1:active {
 
 .month-day-word-button {
   background-color: rgb(6, 6, 37);
-  color: rgb(130, 156, 236);
-  border: 2px solid rgb(130, 156, 236);
+  color: rgba(150, 160, 200, 0.9);
+  border: 2px solid rgba(80, 90, 120, 0.6);
   border-radius: 0.5rem;
   padding: 15px 20px;
   font-size: 1.1rem;
@@ -1261,18 +1508,23 @@ h1:active {
 
 .month-day-word-button:hover {
   background-color: rgb(15, 15, 60);
-  border-color: rgb(180, 200, 255);
+  border-color: rgba(120, 130, 160, 0.7);
   transform: scale(1.05);
-  box-shadow: 0 4px 8px rgba(130, 156, 236, 0.3);
+  box-shadow: 0 4px 8px rgba(60, 70, 100, 0.3);
 }
 
 .month-day-search-summary {
-  background-color: rgb(50, 50, 150);
-  color: rgb(200, 200, 255);
+  background: linear-gradient(
+    135deg,
+    rgba(30, 30, 30, 0.4),
+    rgba(45, 45, 45, 0.5),
+    rgba(30, 30, 30, 0.4)
+  );
+  color: rgba(200, 200, 200, 0.9);
   padding: 15px;
   margin: 15px 0;
   border-radius: 0.5rem;
-  border: 2px solid rgb(100, 100, 200);
+  border: 2px solid rgba(100, 100, 100, 0.5);
   text-align: center;
   font-size: 1.2rem;
 }
@@ -1286,7 +1538,12 @@ h1:active {
   width: 100%;
   box-sizing: border-box;
   position: relative;
-  background-color: rgb(87, 24, 107);
+  background: linear-gradient(
+    135deg,
+    rgba(30, 30, 30, 0.4),
+    rgba(45, 45, 45, 0.5),
+    rgba(30, 30, 30, 0.4)
+  );
   overflow: hidden;
   border: none;
   transition: border 0.3s ease;
@@ -1309,12 +1566,15 @@ h1:active {
   height: 200%;
   background: conic-gradient(
     from 0deg,
-    rgb(255, 165, 0),
-    rgb(255, 200, 100),
-    rgb(255, 140, 0),
-    rgb(255, 165, 0),
-    rgb(255, 200, 100),
-    rgb(255, 165, 0)
+    rgba(120, 80, 40, 0.6),
+    rgba(220, 220, 220, 0.4),
+    rgba(140, 100, 50, 0.6),
+    rgba(240, 240, 240, 0.3),
+    rgba(100, 70, 30, 0.6),
+    rgba(200, 200, 200, 0.4),
+    rgba(120, 80, 40, 0.6),
+    rgba(220, 220, 220, 0.4),
+    rgba(140, 100, 50, 0.6)
   );
   animation: borderRotate 3s linear infinite;
   z-index: 0;
@@ -1328,7 +1588,12 @@ h1:active {
   right: 3px;
   bottom: 3px;
   border-radius: calc(0.5rem - 3px);
-  background-color: rgb(87, 24, 107);
+  background: linear-gradient(
+    135deg,
+    rgba(30, 30, 30, 0.4),
+    rgba(45, 45, 45, 0.5),
+    rgba(30, 30, 30, 0.4)
+  );
   z-index: 0;
 }
 
@@ -1342,7 +1607,7 @@ h1:active {
 }
 
 #letterSearchTitle {
-  color: rgb(255, 165, 0);
+  color: rgba(200, 180, 150, 0.9);
   font-size: 1.8rem;
   margin: 0;
   flex-grow: 1;
@@ -1357,7 +1622,7 @@ h1:active {
 #letterSearchTitle:hover {
   transform: scale(1.02);
   opacity: 0.9;
-  background: rgba(255, 165, 0, 0.1);
+  background: rgba(120, 80, 40, 0.2);
 }
 
 #letterSearchTitle:active {
@@ -1382,7 +1647,7 @@ h1:active {
   font-size: 1.5rem;
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
-  border: 2px solid rgb(255, 165, 0);
+  border: 2px solid rgba(120, 100, 80, 0.6);
   border-radius: 0.3rem;
   padding: 8px 12px;
   width: 200px;
@@ -1392,7 +1657,7 @@ h1:active {
   font-size: 1.5rem;
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
-  border: 2px solid rgb(255, 165, 0);
+  border: 2px solid rgba(120, 100, 80, 0.6);
   border-radius: 0.3rem;
   padding: 8px 12px;
   width: 200px;
@@ -1410,7 +1675,7 @@ h1:active {
   font-size: 1.5rem;
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
-  border: 2px solid rgb(255, 165, 0);
+  border: 2px solid rgba(120, 100, 80, 0.6);
   border-radius: 0.3rem;
   padding: 8px 12px;
   width: 180px;
@@ -1427,8 +1692,8 @@ h1:active {
 
 .letter-word-button {
   background-color: rgb(6, 6, 37);
-  color: rgb(255, 165, 0);
-  border: 2px solid rgb(255, 165, 0);
+  color: rgba(200, 180, 150, 0.9);
+  border: 2px solid rgba(120, 100, 80, 0.6);
   border-radius: 0.5rem;
   padding: 15px 20px;
   font-size: 1.1rem;
@@ -1444,18 +1709,23 @@ h1:active {
 
 .letter-word-button:hover {
   background-color: rgb(15, 15, 60);
-  border-color: rgb(255, 200, 100);
+  border-color: rgba(150, 130, 110, 0.7);
   transform: scale(1.05);
-  box-shadow: 0 4px 8px rgba(255, 165, 0, 0.3);
+  box-shadow: 0 4px 8px rgba(120, 80, 40, 0.3);
 }
 
 .letter-search-summary {
-  background-color: rgb(150, 100, 50);
-  color: rgb(255, 220, 180);
+  background: linear-gradient(
+    135deg,
+    rgba(30, 30, 30, 0.4),
+    rgba(45, 45, 45, 0.5),
+    rgba(30, 30, 30, 0.4)
+  );
+  color: rgba(200, 200, 200, 0.9);
   padding: 15px;
   margin: 15px 0;
   border-radius: 0.5rem;
-  border: 2px solid rgb(200, 150, 100);
+  border: 2px solid rgba(100, 100, 100, 0.5);
   text-align: center;
   font-size: 1.2rem;
 }
@@ -1469,7 +1739,12 @@ h1:active {
   width: 100%;
   box-sizing: border-box;
   position: relative;
-  background-color: rgb(87, 24, 107);
+  background: linear-gradient(
+    135deg,
+    rgba(30, 30, 30, 0.4),
+    rgba(45, 45, 45, 0.5),
+    rgba(30, 30, 30, 0.4)
+  );
   overflow: hidden;
   border: none;
   transition: border 0.3s ease;
@@ -1492,12 +1767,15 @@ h1:active {
   height: 200%;
   background: conic-gradient(
     from 0deg,
-    rgb(0, 255, 255),
-    rgb(100, 255, 255),
-    rgb(0, 200, 200),
-    rgb(0, 255, 255),
-    rgb(100, 255, 255),
-    rgb(0, 255, 255)
+    rgba(40, 100, 100, 0.6),
+    rgba(220, 220, 220, 0.4),
+    rgba(50, 120, 120, 0.6),
+    rgba(240, 240, 240, 0.3),
+    rgba(30, 80, 80, 0.6),
+    rgba(200, 200, 200, 0.4),
+    rgba(40, 100, 100, 0.6),
+    rgba(220, 220, 220, 0.4),
+    rgba(50, 120, 120, 0.6)
   );
   animation: borderRotate 3s linear infinite;
   z-index: 0;
@@ -1511,7 +1789,12 @@ h1:active {
   right: 3px;
   bottom: 3px;
   border-radius: calc(0.5rem - 3px);
-  background-color: rgb(87, 24, 107);
+  background: linear-gradient(
+    135deg,
+    rgba(30, 30, 30, 0.4),
+    rgba(45, 45, 45, 0.5),
+    rgba(30, 30, 30, 0.4)
+  );
   z-index: 0;
 }
 
@@ -1525,7 +1808,7 @@ h1:active {
 }
 
 #containLetterSearchTitle {
-  color: rgb(0, 255, 255);
+  color: rgba(150, 200, 200, 0.9);
   font-size: 1.8rem;
   margin: 0;
   flex-grow: 1;
@@ -1540,7 +1823,7 @@ h1:active {
 #containLetterSearchTitle:hover {
   transform: scale(1.02);
   opacity: 0.9;
-  background: rgba(0, 255, 255, 0.1);
+  background: rgba(40, 100, 100, 0.2);
 }
 
 #containLetterSearchTitle:active {
@@ -1566,7 +1849,7 @@ h1:active {
   font-size: 1.5rem;
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
-  border: 2px solid rgb(0, 255, 255);
+  border: 2px solid rgba(60, 120, 120, 0.6);
   border-radius: 0.3rem;
   padding: 8px 12px;
   width: 200px;
@@ -1583,8 +1866,8 @@ h1:active {
 
 .contain-letter-word-button {
   background-color: rgb(6, 6, 37);
-  color: rgb(0, 255, 255);
-  border: 2px solid rgb(0, 255, 255);
+  color: rgba(150, 200, 200, 0.9);
+  border: 2px solid rgba(60, 120, 120, 0.6);
   border-radius: 0.5rem;
   padding: 15px 20px;
   font-size: 1.1rem;
@@ -1600,18 +1883,23 @@ h1:active {
 
 .contain-letter-word-button:hover {
   background-color: rgb(15, 15, 60);
-  border-color: rgb(100, 255, 255);
+  border-color: rgba(80, 150, 150, 0.7);
   transform: scale(1.05);
-  box-shadow: 0 4px 8px rgba(0, 255, 255, 0.3);
+  box-shadow: 0 4px 8px rgba(40, 100, 100, 0.3);
 }
 
 .contain-letter-search-summary {
-  background-color: rgb(50, 100, 150);
-  color: rgb(180, 220, 255);
+  background: linear-gradient(
+    135deg,
+    rgba(30, 30, 30, 0.4),
+    rgba(45, 45, 45, 0.5),
+    rgba(30, 30, 30, 0.4)
+  );
+  color: rgba(200, 200, 200, 0.9);
   padding: 15px;
   margin: 15px 0;
   border-radius: 0.5rem;
-  border: 2px solid rgb(100, 150, 200);
+  border: 2px solid rgba(100, 100, 100, 0.5);
   text-align: center;
   font-size: 1.2rem;
 }
@@ -1625,7 +1913,12 @@ h1:active {
   width: 100%;
   box-sizing: border-box;
   position: relative;
-  background-color: rgb(87, 24, 107);
+  background: linear-gradient(
+    135deg,
+    rgba(30, 30, 30, 0.4),
+    rgba(45, 45, 45, 0.5),
+    rgba(30, 30, 30, 0.4)
+  );
   overflow: hidden;
   border: none;
   transition: border 0.3s ease;
@@ -1648,12 +1941,15 @@ h1:active {
   height: 200%;
   background: conic-gradient(
     from 0deg,
-    rgb(255, 215, 0),
-    rgb(255, 240, 150),
-    rgb(255, 200, 50),
-    rgb(255, 215, 0),
-    rgb(255, 240, 150),
-    rgb(255, 215, 0)
+    rgba(120, 100, 40, 0.6),
+    rgba(220, 220, 220, 0.4),
+    rgba(140, 120, 50, 0.6),
+    rgba(240, 240, 240, 0.3),
+    rgba(100, 80, 30, 0.6),
+    rgba(200, 200, 200, 0.4),
+    rgba(120, 100, 40, 0.6),
+    rgba(220, 220, 220, 0.4),
+    rgba(140, 120, 50, 0.6)
   );
   animation: borderRotate 3s linear infinite;
   z-index: 0;
@@ -1667,7 +1963,12 @@ h1:active {
   right: 3px;
   bottom: 3px;
   border-radius: calc(0.5rem - 3px);
-  background-color: rgb(87, 24, 107);
+  background: linear-gradient(
+    135deg,
+    rgba(30, 30, 30, 0.4),
+    rgba(45, 45, 45, 0.5),
+    rgba(30, 30, 30, 0.4)
+  );
   z-index: 0;
 }
 
@@ -1681,7 +1982,7 @@ h1:active {
 }
 
 #dailyWordsSearchTitle {
-  color: rgb(255, 215, 0);
+  color: rgba(200, 190, 150, 0.9);
   font-size: 1.8rem;
   margin: 0;
   flex-grow: 1;
@@ -1696,7 +1997,7 @@ h1:active {
 #dailyWordsSearchTitle:hover {
   transform: scale(1.02);
   opacity: 0.9;
-  background: rgba(255, 215, 0, 0.1);
+  background: rgba(120, 100, 40, 0.2);
 }
 
 #dailyWordsSearchTitle:active {
@@ -1722,7 +2023,7 @@ h1:active {
   font-size: 1.5rem;
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
-  border: 2px solid rgb(255, 215, 0);
+  border: 2px solid rgba(120, 110, 80, 0.6);
   border-radius: 0.3rem;
   padding: 8px 12px;
   width: 200px;
@@ -1732,7 +2033,7 @@ h1:active {
   font-size: 1.5rem;
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
-  border: 2px solid rgb(255, 215, 0);
+  border: 2px solid rgba(120, 110, 80, 0.6);
   border-radius: 0.3rem;
   padding: 8px 12px;
   width: 200px;
@@ -1750,7 +2051,7 @@ h1:active {
   font-size: 1.5rem;
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
-  border: 2px solid rgb(255, 215, 0);
+  border: 2px solid rgba(120, 110, 80, 0.6);
   border-radius: 0.3rem;
   padding: 8px 12px;
   width: 180px;
@@ -1767,8 +2068,8 @@ h1:active {
 
 .daily-words-button {
   background-color: rgb(6, 6, 37);
-  color: rgb(255, 215, 0);
-  border: 2px solid rgb(255, 215, 0);
+  color: rgba(200, 190, 150, 0.9);
+  border: 2px solid rgba(120, 110, 80, 0.6);
   border-radius: 0.5rem;
   padding: 15px 20px;
   font-size: 1.1rem;
@@ -1784,18 +2085,23 @@ h1:active {
 
 .daily-words-button:hover {
   background-color: rgb(15, 15, 60);
-  border-color: rgb(255, 240, 150);
+  border-color: rgba(150, 140, 110, 0.7);
   transform: scale(1.05);
-  box-shadow: 0 4px 8px rgba(255, 215, 0, 0.3);
+  box-shadow: 0 4px 8px rgba(120, 100, 40, 0.3);
 }
 
 .daily-words-search-summary {
-  background-color: rgb(150, 120, 50);
-  color: rgb(255, 240, 200);
+  background: linear-gradient(
+    135deg,
+    rgba(30, 30, 30, 0.4),
+    rgba(45, 45, 45, 0.5),
+    rgba(30, 30, 30, 0.4)
+  );
+  color: rgba(200, 200, 200, 0.9);
   padding: 15px;
   margin: 15px 0;
   border-radius: 0.5rem;
-  border: 2px solid rgb(200, 170, 100);
+  border: 2px solid rgba(100, 100, 100, 0.5);
   text-align: center;
   font-size: 1.2rem;
 }
@@ -2206,3 +2512,5 @@ h1:active {
     grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
   }
 }
+
+

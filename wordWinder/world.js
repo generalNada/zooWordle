@@ -155,6 +155,35 @@ const closeDailyWordsSearchButton = document.getElementById(
   "closeDailyWordsSearchButton"
 );
 
+
+// Toggle dark theme when clicking the theme toggle (p tag)
+const themeToggle = document.getElementById("themeToggle");
+let isDarkTheme = false;
+
+// Check for saved theme preference
+const savedTheme = localStorage.getItem("darkTheme");
+if (savedTheme === "true") {
+  isDarkTheme = true;
+  document.body.classList.add("dark-theme");
+  themeToggle.textContent = "🌙";
+} else {
+  themeToggle.textContent = "🌑";
+}
+
+themeToggle.addEventListener("click", () => {
+  // Toggle dark theme
+  isDarkTheme = !isDarkTheme;
+  if (isDarkTheme) {
+    document.body.classList.add("dark-theme");
+    localStorage.setItem("darkTheme", "true");
+    themeToggle.textContent = "🌙";
+  } else {
+    document.body.classList.remove("dark-theme");
+    localStorage.setItem("darkTheme", "false");
+    themeToggle.textContent = "🌑";
+  }
+});
+
 // Toggle border animations on/off when clicking the h1 header
 const headerTitle = document.querySelector("h1");
 let bordersAnimated = true;
@@ -219,7 +248,7 @@ containLetterSearchTitle.addEventListener("click", () => {
 
 dailyWordsSearchTitle.addEventListener("click", () => {
   dailyWordsSearchContainer.classList.toggle("show-controls");
-  HTMLFormControlsCollection.log("Clicked daily words title you fuck!");
+  console.log("Clicked daily words title, guy");
 });
 
 toggleButton.addEventListener("click", () => {
