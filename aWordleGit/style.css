@@ -2739,12 +2739,23 @@ border: 5px solid aqua;
   border-radius: 1.1rem;
 }
 
-.badAssMan1L {
+.badAssMan2L {
   font-family: "Archivo Black", sans-serif;
   color: rgb(28, 160, 24);
   background-color: rgb(135, 148, 39);
   font-size: 1.65rem;
   line-height: 1.65rem;
+  border: solid rgb(29, 58, 118) 0.2rem;
+  border-radius: 1.1rem;
+}
+
+
+.badAssMan2M {
+  font-family: "Cherry Bomb One", system-ui;
+  color: rgb(238, 170, 114);
+  background-color: rgb(265, 18, 19);
+  font-size: 2.25rem;
+  line-height: 2.25rem;
   border: solid rgb(29, 58, 118) 0.2rem;
   border-radius: 1.1rem;
 }
