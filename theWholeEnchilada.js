@@ -1371,7 +1371,7 @@ export const dailyWordsSmall = [
     'GULCH', 'GUMBO', 'GUSTO', 'GUTSY', 'GYPSY', 'HALAL', 
     'HAREM', 'HARPY', 'HARRY', 'HASTE', 'HASTY', 'HAUTE', 
     'HEDGE', 'HIPPY', 'HOIST', 
-    'HONOR', 'HORNY', 'HOTLY', 'HOVEL', 'HUMUS', 'HUSKY', 'HUSSY', 'HYDRO',
+    'HONOR', 'HORNY', 'HOTLY', 'HUMUS', 'HUSKY', 'HUSSY', 'HYDRO',
     'HYMEN', 'ICILY', 'IDIOT', 'IDYLL', 'ILIAC', 
     'IMPLY', 'INGOT', 'INLET',  
     'JETTY', 'JOIST', 'JUICY', 'JUMBO', 'JUNTA',
@@ -1964,7 +1964,7 @@ export const dailyWordsLarge = [
     'HOPPY', 'HORAH', 'HORAL', 'HORAS', 'HORKS', 'HORME', 'HORNS', 'HORNY',
     'HORST', 'HORSY', 'HOSED', 'HOSEL', 'HOSEN', 'HOSER', 'HOSES', 'HOSEY', 'HOSTA', 'HOSTS',
     'HOTCH', 'HOTEN', 'HOTLY', 'HOTTY', 'HOUFF', 'HOUFS', 'HOUGH', 'HOURI',
-    'HOURS', 'HOUTS', 'HOVEA', 'HOVED', 'HOVEL', 'HOVEN', 'HOVES', 'HOWBE',
+    'HOURS', 'HOUTS', 'HOVEA', 'HOVED', 'HOVEN', 'HOVES', 'HOWBE',
     'HOWES', 'HOWFF', 'HOWFS', 'HOWKS', 'HOWLS', 'HOWRE', 'HOWSO', 'HOXED', 'HOXES',
     'HOYAS', 'HOYED', 'HOYLE', 'HUBBY', 'HUCKS', 'HUDNA', 'HUDUD', 'HUERS', 'HUFFS', 'HUFFY',
     'HUGER', 'HUGGY', 'HUHUS', 'HUIAS', 'HULAS', 'HULES', 'HULKS', 'HULKY', 'HULLO', 'HULLS',
@@ -12390,6 +12390,11 @@ export const wordleWords = [
         myScore: 2,
         wordNumber: 1620,
       },  
+      { word: "HOVEL",
+        gameDate: "11/26/25",
+        myScore: 2,
+        wordNumber: 1621,
+      },  
 
     
   ];
@@ -12407,7 +12412,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("November 25, 2025: Trump sux dykk000000000! PLEAD")
+console.log("November 26, 2025: Trump sux dykk000000000! HOVEL")
 
 
 console.log(wordleWords)
