@@ -2619,6 +2619,16 @@ border: 5px solid aqua;
   border-radius: 1.1rem;
 }
 
+.badAssMan1N {
+  font-family: "Luckiest Guy", cursive;
+  color: green;
+  background-color: dodgerblue;
+  font-size: 1.65rem;
+  line-height: 1.65rem;
+  border: solid rgb(29, 58, 118) 0.2rem;
+  border-radius: 1.1rem;
+}
+
 .badAssMan2 {
   background-color: rgb(15, 45, 25);
   color: white;
