@@ -1403,7 +1403,7 @@ export const dailyWordsSmall = [
     'QUARK', 'QUASI', 'QUEER', 'QUELL', 'QUILT', 'QUOTH',
     'RABBI', 'RACER', 'RADAR', 'RADII', 'RAJAH', 'RALLY', 'RALPH', 'RANDY',
     'RARER', 'RASPY', 'RAVEN', 'RAZOR', 'REARM', 'REBAR', 
-    'RECUT', 'REEDY', 'REFIT', 'REHAB', 'REIGN', 'REMIT',
+    'RECUT', 'REEDY', 'REFIT', 'REHAB', 'REIGN', 
     'RENAL', 'REPLY', 'RESET', 'RICER', 'RIFLE', 
     'RIGOR', 'RINSE', 'RIPEN', 'RISER', 'RISKY', 'RIVER', 'ROAST', 'ROGER',
     'ROOST', 'ROTOR', 'RUGBY', 'RULER', 'RUMOR', 'RURAL',
@@ -2356,7 +2356,7 @@ export const dailyWordsLarge = [
     'REGUR', 'REHAB', 'REHEM', 'REIFS', 'REIFY', 'REIGN', 'REIKI', 'REIKS', 'REINK', 'REINS',
     'REIRD', 'REIST', 'REIVE', 'REJIG', 'REJON', 'REKED', 'REKES', 'REKEY', 
     'RELET', 'RELIE', 'RELIT', 'RELLO', 'REMAN', 'REMAP', 'REMEN', 'REMET', 'REMEX',
-    'REMIT', 'REMIX', 'RENAL', 'RENAY', 'RENDS', 'RENEY', 'RENGA', 'RENIG', 'RENIN',
+    'REMIX', 'RENAL', 'RENAY', 'RENDS', 'RENEY', 'RENGA', 'RENIG', 'RENIN',
     'RENNE', 'RENOS', 'RENTE', 'RENTS', 'REOIL', 'REORG', 'REPEG', 'REPIN',
     'REPLA', 'REPLY', 'REPOS', 'REPOT', 'REPPS', 'REPRO', 'RERAN', 'RERIG', 'RESAT',
     'RESAW', 'RESAY', 'RESEE', 'RESES', 'RESET', 'RESEW', 'RESID', 'RESIT', 'RESOD',
@@ -12395,6 +12395,11 @@ export const wordleWords = [
         myScore: 2,
         wordNumber: 1621,
       },  
+      { word: "REMIT",
+        gameDate: "11/27/25",
+        myScore: 2,
+        wordNumber: 1622,
+      },  
 
     
   ];
@@ -12412,7 +12417,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("November 26, 2025: Trump sux dykk000000000! HOVEL")
+console.log("November 27, 2025: Trump sux dykk000000000! REMIT")
 
 
 console.log(wordleWords)
