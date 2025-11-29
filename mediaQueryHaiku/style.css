@@ -158,21 +158,21 @@ body {
 .whole-box-1 {
   font-family: "Kavoon", serif;
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRltJwOhyafEvuTld6HniueqpgipWK9yujG4w&s);
-  background-size: fit-content;
+  background-size: 100%;
   padding: 0.5rem;
 }
 
 .whole-box-2 {
   font-family: "Maiden Orange", serif;
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa7eq_RFQosh2otCMc3H57FTCUjqX9mDmRKw&s);
-  background-size: fit-content;
+   background-size: 100%;
   padding: 0.5rem;
 }
 
 .whole-box-3 {
   font-family: "Timmana", serif;
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9lo9zYGE253MPYf77o4sq0tfE0LsjPKQmmQ&s);
-  background-size: fit-content;
+  background-size: 100%;
   padding: 0.5rem;
 }
 
