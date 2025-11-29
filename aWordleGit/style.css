@@ -2919,6 +2919,16 @@ border: 5px solid aqua;
   border: solid rgb(29, 58, 118) 0.2rem;
   border-radius: 1.1rem;
 }
+
+.badAssMan3N {
+  color: black;
+  background-color: white;
+  font-family: "Exile", system-ui;
+  font-size: 2.25rem;
+  line-height: 2.25rem;
+  border: solid rgb(29, 58, 118) 0.2rem;
+  border-radius: 1.1rem;
+}
   
 .jasmineCrockett {
   color: white;
