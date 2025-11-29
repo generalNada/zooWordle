@@ -1665,7 +1665,7 @@ export const dailyWordsLarge = [
     'CODED', 'CODEN', 'CODER', 'CODES', 'CODEX', 'CODON', 'COEDS', 'COFFS', 'COGIE', 'COGON',
     'COGUE', 'COHAB', 'COHEN', 'COHOE', 'COHOG', 'COHOS', 'COIFS', 'COIGN', 'COILS', 'COINS',
     'COIRS', 'COITS', 'COKED', 'COKES', 'COLAS', 'COLBY', 'COLDS', 'COLED', 'COLES', 'COLEY',
-    'COLIC', 'COLIN', 'COLLS', 'COLLY', 'COLOG', 'COLOR', 'COLTS', 'COLZA', 'COMAE',
+    'COLIN', 'COLLS', 'COLLY', 'COLOG', 'COLOR', 'COLTS', 'COLZA', 'COMAE',
     'COMAL', 'COMAS', 'COMBE', 'COMBI', 'COMBO', 'COMBS', 'COMBY', 'COMER', 'COMES',
     'COMIC', 'COMIX', 'COMMO', 'COMMS', 'COMMY', 'COMPO', 'COMPS', 'COMPT',
     'COMTE', 'COMUS', 'CONCH', 'CONED', 'CONES', 'CONEY', 'CONFS', 'CONGA', 'CONGE',
@@ -12400,6 +12400,11 @@ export const wordleWords = [
         myScore: 2,
         wordNumber: 1622,
       },  
+      { word: "COLIC",
+        gameDate: "11/28/25",
+        myScore: 4,
+        wordNumber: 1623,
+      },  
 
     
   ];
@@ -12417,7 +12422,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("November 27, 2025: Trump sux dykk000000000! REMIT")
+console.log("November 28, 2025: Trump sux dykk000000000! COLIC")
 
 
 console.log(wordleWords)
