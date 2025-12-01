@@ -2167,7 +2167,7 @@ export const dailyWordsLarge = [
     'MOVER', 'MOVES', 'MOWAS', 'MOWED', 'MOWER', 'MOWRA', 'MOXAS', 'MOXIE', 'MOYAS',
     'MOYLE', 'MOYLS', 'MOZED', 'MOZES', 'MOZOS', 'MPRET', 'MUCHO', 'MUCIC', 'MUCID', 'MUCIN',
     'MUCKS', 'MUCOR', 'MUCRO', 'MUCUS', 'MUDDY', 'MUDGE', 'MUDIR', 'MUDRA', 'MUFFS',
-    'MUFTI', 'MUGGA', 'MUGGS', 'MUGGY', 'MUHLY', 'MUIDS', 'MUILS', 'MUIRS', 'MUIST', 'MUJIK',
+    'MUFTI', 'MUGGA', 'MUGGS', 'MUHLY', 'MUIDS', 'MUILS', 'MUIRS', 'MUIST', 'MUJIK',
     'MULCT', 'MULED', 'MULES', 'MULEY', 'MULGA', 'MULIE', 'MULLA', 'MULLS', 'MULSE',
     'MULSH', 'MUMMS', 'MUMPS', 'MUMSY', 'MUMUS', 'MUNGA', 'MUNGE', 'MUNGO',
     'MUNGS', 'MUNIS', 'MUONS', 'MURAS', 'MURED', 'MURES', 'MUREX', 'MURID', 'MURKS',
@@ -12410,6 +12410,11 @@ export const wordleWords = [
         myScore: 3,
         wordNumber: 1624,
       },  
+      { word: "MUGGY",
+        gameDate: "11/30/25",
+        myScore: 3,
+        wordNumber: 1625,
+      },  
 
     
   ];
@@ -12427,7 +12432,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("November 29, 2025: Trump sux dykk000000000! GRUFF")
+console.log("November 30, 2025: Trump sux dykk000000000! MUGGY")
 
 
 console.log(wordleWords)
