@@ -1333,7 +1333,7 @@ export const dailyWordsSmall = [
     'BOOTH', 'BOSOM', 'BOTCH', 'BOULE', 'BOUND', 'BOWEL', 
     'BRAWL', 'BRICK', 'BROIL',
     'BROOD', 'BROWN', 'BRUNT', 'BUDGE', 'BURST', 'BUSED', 
-    'BUSHY', 'BUTCH', 'BUTTE', 'BUXOM', 'BUYER', 'BYLAW', 'CABAL', 'CABBY', 'CABIN', 'CACTI', 
+    'BUSHY', 'BUTCH', 'BUTTE', 'BUXOM', 'BUYER', 'BYLAW', 'CABAL', 'CABBY', 'CABIN', 
     'CADDY', 'CAGEY', 'CAIRN', 'CANAL', 
     'CAPUT', 'CASTE', 'CAVIL', 'CELLO', 'CHAFF', 
     'CHASM', 'CHESS', 'CHICK', 'CHIDE', 'CHILI', 'CHINA', 'CHOMP',
@@ -1611,7 +1611,7 @@ export const dailyWordsLarge = [
     'BWAZI', 'BYDED', 'BYDES', 'BYKED', 'BYKES', 'BYLAW', 'BYRES', 'BYRLS', 'BYSSI', 'BYTES',
     'BYWAY',
     'CAAED', 'CABAL', 'CABAS', 'CABBY', 'CABER', 'CABIN', 'CABOB', 'CABOC', 'CABRE',
-    'CACAS', 'CACKS', 'CACKY', 'CACTI', 'CADDY', 'CADEE', 'CADES', 
+    'CACAS', 'CACKS', 'CACKY', 'CADDY', 'CADEE', 'CADES', 
     'CADGE', 'CADGY', 'CADIE', 'CADIS', 'CADRE', 'CAECA', 'CAESE', 'CAFES', 'CAFFS', 'CAGED',
     'CAGER', 'CAGES', 'CAGEY', 'CAGOT', 'CAHOW', 'CAIDS', 'CAINS', 'CAIRD', 'CAIRN', 'CAJON',
     'CAJUN', 'CAKED', 'CAKES', 'CAKEY', 'CALFS', 'CALID', 'CALIF', 'CALIX', 'CALKS', 'CALLA',
@@ -12420,6 +12420,11 @@ export const wordleWords = [
         myScore: 3,
         wordNumber: 1626,
       },  
+      { word: "CACTI",
+        gameDate: "12/2/25",
+        myScore: 4,
+        wordNumber: 1627,
+      },  
 
     
   ];
@@ -12437,7 +12442,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("December 1, 2025: Trump sux dykk000000000! LEACH")
+console.log("December 2, 2025: Trump sux dykk000000000! CACTI")
 
 
 console.log(wordleWords)
