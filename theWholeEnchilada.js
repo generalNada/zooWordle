@@ -1377,7 +1377,7 @@ export const dailyWordsSmall = [
     'JETTY', 'JOIST', 'JUICY', 'JUMBO', 'JUNTA',
     'JUNTO', 'JUROR', 'KAPPA', 'KINKY', 'KITTY', 'KNEED', 
     'LADEN', 'LANCE', 'LATCH', 
-    'LEACH', 'LEANT', 'LEGAL',
+    'LEANT', 'LEGAL',
     'LEPER', 'LIEGE', 'LIKEN', 'LIPID', 
     'LOAMY', 'LOATH', 'LOBBY', 'LOGIN', 'LOOSE', 'LORRY', 'LUMEN',
     'LUPUS', 'LURCH', 'LYMPH', 'LYRIC', 'MACRO', 
@@ -2063,7 +2063,7 @@ export const dailyWordsLarge = [
     'LAUAN', 'LAUCH', 'LAUDS', 'LAUFS', 'LAUND', 'LAURA', 'LAVAL', 'LAVAS', 'LAVED',
     'LAVER', 'LAVES', 'LAVRA', 'LAVVY', 'LAWED', 'LAWER', 'LAWIN', 'LAWKS', 'LAWNS', 'LAWNY',
     'LAXED', 'LAXER', 'LAXES', 'LAXLY', 'LAYED', 'LAYIN', 'LAYUP', 'LAZAR', 'LAZED',
-    'LAZES', 'LAZOS', 'LAZZI', 'LAZZO', 'LEACH', 'LEADS', 'LEADY', 'LEAFS', 'LEAKS',
+    'LAZES', 'LAZOS', 'LAZZI', 'LAZZO', 'LEADS', 'LEADY', 'LEAFS', 'LEAKS',
     'LEAKY', 'LEAMS', 'LEANS', 'LEANT', 'LEANY', 'LEAPS', 'LEARE', 'LEARS',
     'LEARY', 'LEATS', 'LEAVY', 'LEAZE', 'LEBEN', 'LECCY',
     'LEDES', 'LEDGY', 'LEDUM', 'LEEAR', 'LEEKS', 'LEEPS', 'LEERS',
@@ -12415,6 +12415,11 @@ export const wordleWords = [
         myScore: 3,
         wordNumber: 1625,
       },  
+      { word: "LEACH",
+        gameDate: "12/1/25",
+        myScore: 3,
+        wordNumber: 1626,
+      },  
 
     
   ];
@@ -12432,7 +12437,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("November 30, 2025: Trump sux dykk000000000! MUGGY")
+console.log("December 1, 2025: Trump sux dykk000000000! LEACH")
 
 
 console.log(wordleWords)
