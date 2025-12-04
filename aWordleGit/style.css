@@ -2809,6 +2809,17 @@ border: 5px solid aqua;
   border: solid rgb(29, 58, 118) 0.2rem;
   border-radius: 1.1rem;
 }
+
+.badAssMan2P {
+  font-family: "Abel", serif;
+  color: rgb(255, 60, 102);
+  background-color: rgb(255, 45, 157); 
+  font-size: 1.65rem;
+  line-height: 1.65rem;
+  border: solid rgb(29, 58, 118) 0.2rem;
+  border-radius: 1.1rem;
+}
+
 .badAssMan3 {
   background-color: navy;
   color: white;
