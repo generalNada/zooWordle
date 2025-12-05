@@ -1369,7 +1369,7 @@ export const dailyWordsSmall = [
     'GRAPE', 'GRASS', 'GRAVY', 'GRAZE', 'GRILL', 
     'GROPE', 'GRUNT', 'GUAVA', 'GUESS', 'GUILT',
     'GULCH', 'GUMBO', 'GUSTO', 'GUTSY', 'GYPSY', 'HALAL', 
-    'HAREM', 'HARPY', 'HARRY', 'HASTE', 'HASTY', 'HAUTE', 
+    'HAREM', 'HARPY', 'HARRY', 'HASTY', 'HAUTE', 
     'HEDGE', 'HIPPY', 'HOIST', 
     'HONOR', 'HORNY', 'HOTLY', 'HUMUS', 'HUSKY', 'HUSSY', 'HYDRO',
     'HYMEN', 'ICILY', 'IDIOT', 'IDYLL', 'ILIAC', 
@@ -1935,7 +1935,7 @@ export const dailyWordsLarge = [
     'HANKS', 'HANKY', 'HANSA', 'HANSE', 'HANTS', 'HAOMA', 'HAPAX', 'HAPLY', 'HAPPI',
     'HAPUS', 'HARAM', 'HARDS', 'HARED', 'HAREM', 'HARES', 'HARIM', 'HARKS', 'HARLS',
     'HARMS', 'HARNS', 'HAROS', 'HARPS', 'HARPY', 'HARRY', 'HARTS', 'HASHY', 'HASKS',
-    'HASPS', 'HASTA', 'HASTE', 'HASTY', 'HATED', 'HATES', 'HATHA', 'HAUDS',
+    'HASPS', 'HASTA', 'HASTY', 'HATED', 'HATES', 'HATHA', 'HAUDS',
     'HAUFS', 'HAUGH', 'HAULD', 'HAULM', 'HAULS', 'HAULT', 'HAUNS', 'HAUSE', 'HAUTE',
     'HAVER', 'HAVES', 'HAWED', 'HAWKS', 'HAWMS', 'HAWSE', 'HAYED', 'HAYER',
     'HAYEY', 'HAYLE', 'HAZAN', 'HAZED', 'HAZER', 'HAZES', 'HEADS', 'HEALD',
@@ -12425,6 +12425,11 @@ export const wordleWords = [
         myScore: 4,
         wordNumber: 1627,
       },  
+      { word: "HASTE",
+        gameDate: "12/3/25",
+        myScore: 4,
+        wordNumber: 1628,
+      },  
 
     
   ];
@@ -12442,7 +12447,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("December 2, 2025: Trump sux dykk000000000! CACTI")
+console.log("December 3, 2025: Trump sux dykk000000000! HASTE")
 
 
 console.log(wordleWords)
