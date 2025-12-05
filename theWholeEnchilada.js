@@ -1434,7 +1434,7 @@ export const dailyWordsSmall = [
     'TIGHT', 'TODDY', 'TOKEN', 'TONAL',
     'TONER', 'TONGA', 'TORUS',  
     'TRAMP', 'TREAD', 'TRIAL', 'TRIBE', 'TRIED', 'TRUCE',
-    'TRUCK', 'TRUER', 'TRUMP', 'TRUNK', 'TUBAL', 'TULIP', 'TULLE', 'TUMOR',
+    'TRUCK', 'TRUER', 'TRUMP', 'TRUNK', 'TUBAL', 'TULLE', 'TUMOR',
     'TWEET', 'TWIXT', 'TYING', 'UMBRA', 'UNCUT', 
     'UNITY', 'UNSET', 'UNWED', 'URINE', 'UTILE', 'VALOR', 'VALVE', 'VAPOR',
     'VAUNT', 'VEGAN', 'VERSO', 'VICAR', 'VIGIL', 
@@ -2622,7 +2622,7 @@ export const dailyWordsLarge = [
     'TRYER', 'TRYKE', 'TRYMA', 'TRYPS', 'TSADE', 'TSADI', 'TSARS', 'TSKED', 'TSUBA',
     'TSUBO', 'TUANS', 'TUART', 'TUATH', 'TUBAE', 'TUBAL', 'TUBAR', 'TUBAS', 'TUBBY', 'TUBED',
     'TUBES', 'TUCKS', 'TUFAS', 'TUFFE', 'TUFFS', 'TUFTS', 'TUFTY', 'TUGRA', 'TUILE',
-    'TUINA', 'TUISM', 'TUKTU', 'TULES', 'TULIP', 'TULLE', 'TULPA', 'TULSI', 'TUMID', 'TUMMY',
+    'TUINA', 'TUISM', 'TUKTU', 'TULES', 'TULLE', 'TULPA', 'TULSI', 'TUMID', 'TUMMY',
     'TUMOR', 'TUMPS', 'TUMPY', 'TUNAS', 'TUNDS', 'TUNED', 'TUNER', 'TUNES', 'TUNGS',
     'TUNNY', 'TUPEK', 'TUPIK', 'TUPLE', 'TUQUE', 'TURDS', 'TURFS', 'TURFY', 'TURKS',
     'TURME', 'TURMS', 'TURNS', 'TURNT', 'TURPS', 'TURRS', 'TUSHY', 'TUSKS', 'TUSKY', 'TUTEE',
@@ -12430,6 +12430,11 @@ export const wordleWords = [
         myScore: 4,
         wordNumber: 1628,
       },  
+      { word: "TULIP",
+        gameDate: "12/4/25",
+        myScore: 3,
+        wordNumber: 1629,
+      },  
 
     
   ];
@@ -12447,7 +12452,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("December 3, 2025: Trump sux dykk000000000! HASTE")
+console.log("December 4, 2025: Trump sux dykk000000000! TULIP")
 
 
 console.log(wordleWords)
