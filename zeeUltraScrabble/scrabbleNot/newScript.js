@@ -108,16 +108,12 @@ function highlightLetterAtPosition() {
 document.addEventListener("DOMContentLoaded", () => {
   displayLetterFrequency();
 
-  document
-    .getElementById("letterFrequencyOutput")
-    .addEventListener("click", (event) => {
+  document.getElementById("letterFrequencyOutput").addEventListener("click", event => {
       if (event.target.tagName === "A") {
         const letter = event.target.getAttribute("data-letter");
         displayWordsByLetter(letter);
       }
     });
 
-  document
-    .getElementById("highlightButton")
-    .addEventListener("click", highlightLetterAtPosition);
+  document.getElementById("highlightButton").addEventListener("click", highlightLetterAtPosition);
 });
