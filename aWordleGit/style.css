@@ -2789,7 +2789,6 @@ border: 5px solid aqua;
   border-radius: 1.1rem;
 }
 
-
 .badAssMan2M {
   font-family: "Cherry Bomb One", system-ui;
   color: rgb(238, 170, 114);
@@ -2824,6 +2823,16 @@ border: 5px solid aqua;
   font-family: "Abel", serif;
   color: rgb(55, 60, 12);
   background-color: rgb(255, 45, 157); 
+  font-size: 1.65rem;
+  line-height: 1.65rem;
+  border: solid rgb(29, 58, 118) 0.2rem;
+  border-radius: 1.1rem;
+}
+
+.badAssMan2Q {
+  font-family: "Unlock", serif;
+  color: green;
+  background-color: dodgerblue;
   font-size: 1.65rem;
   line-height: 1.65rem;
   border: solid rgb(29, 58, 118) 0.2rem;
