@@ -93,47 +93,98 @@ if (bwToggle) {
 })();
 
 
-
-
-
-
 document.addEventListener("DOMContentLoaded", () => {
-  const toggleBtn = document.getElementById("toggle-style");
+  const toggleBtns = document.querySelectorAll(".toggle-style");
   const styleLink = document.getElementById("themeStylesheet");
 
-  if (!toggleBtn || !styleLink) {
+  if (!toggleBtns.length || !styleLink) {
     console.warn(
       "Style toggle not initialized: missing button or stylesheet link."
     );
     return;
   }
 
+  const STYLESHEETS = ["haikuVariation.css", "style.css", "blockyHaiku.css"];
 
-  const DEFAULT_STYLESHEET = "haikuVariation.css";
-  const VARIATION_STYLESHEET = "style.css";
-  // const DEFAULT_STYLESHEET = "style.css";
-  // const VARIATION_STYLESHEET = "haikuVariation.css";
-
-  const updateToggleLabel = (isDefaultActive) => {
-    toggleBtn.textContent = isDefaultActive
-      ? "Switch to Alternate Style"
-      : "Switch to Default Style";
+  const getStylesheetIndex = (href) => {
+    const filename = href.split("/").pop();
+    return STYLESHEETS.indexOf(filename);
   };
 
-  updateToggleLabel(styleLink.getAttribute("href") === DEFAULT_STYLESHEET);
+  const getNextStylesheet = (currentHref) => {
+    const currentIndex = getStylesheetIndex(currentHref);
+    const nextIndex = (currentIndex + 1) % STYLESHEETS.length;
+    return STYLESHEETS[nextIndex];
+  };
 
-  toggleBtn.addEventListener("click", () => {
-    const isCurrentlyDefault =
-      styleLink.getAttribute("href") === DEFAULT_STYLESHEET;
+  const getStylesheetName = (href) => {
+    const index = getStylesheetIndex(href);
+    const names = ["Default Style", "Alternate Style", "Blocky Cubist Style"];
+    return names[index] || "Unknown Style";
+  };
 
-    styleLink.setAttribute(
-      "href",
-      isCurrentlyDefault ? VARIATION_STYLESHEET : DEFAULT_STYLESHEET
-    );
+  const updateToggleLabel = (currentHref) => {
+    const nextStylesheet = getNextStylesheet(currentHref);
+    const nextName = getStylesheetName(nextStylesheet);
+    toggleBtns.forEach((btn) => {
+      btn.textContent = `Switch to ${nextName}`;
+    });
+  };
 
-    updateToggleLabel(!isCurrentlyDefault);
+  updateToggleLabel(styleLink.getAttribute("href"));
+
+  // Attach event listener to all toggle buttons
+  toggleBtns.forEach((toggleBtn) => {
+    toggleBtn.addEventListener("click", () => {
+      const currentHref = styleLink.getAttribute("href");
+      const nextStylesheet = getNextStylesheet(currentHref);
+
+      styleLink.setAttribute("href", nextStylesheet);
+      updateToggleLabel(nextStylesheet);
+    });
   });
 });
+
+
+
+
+// document.addEventListener("DOMContentLoaded", () => {
+//   const toggleBtn = document.getElementById("toggle-style");
+//   const styleLink = document.getElementById("themeStylesheet");
+
+//   if (!toggleBtn || !styleLink) {
+//     console.warn(
+//       "Style toggle not initialized: missing button or stylesheet link."
+//     );
+//     return;
+//   }
+
+
+//   const DEFAULT_STYLESHEET = "haikuVariation.css";
+//   const VARIATION_STYLESHEET = "style.css";
+//   // const DEFAULT_STYLESHEET = "style.css";
+//   // const VARIATION_STYLESHEET = "haikuVariation.css";
+
+//   const updateToggleLabel = (isDefaultActive) => {
+//     toggleBtn.textContent = isDefaultActive
+//       ? "Switch to Alternate Style"
+//       : "Switch to Default Style";
+//   };
+
+//   updateToggleLabel(styleLink.getAttribute("href") === DEFAULT_STYLESHEET);
+
+//   toggleBtn.addEventListener("click", () => {
+//     const isCurrentlyDefault =
+//       styleLink.getAttribute("href") === DEFAULT_STYLESHEET;
+
+//     styleLink.setAttribute(
+//       "href",
+//       isCurrentlyDefault ? VARIATION_STYLESHEET : DEFAULT_STYLESHEET
+//     );
+
+//     updateToggleLabel(!isCurrentlyDefault);
+//   });
+// });
 
 
 
