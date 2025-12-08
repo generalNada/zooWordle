@@ -1366,7 +1366,7 @@ export const dailyWordsSmall = [
     'GASSY', 'GATOR', 'GAVEL', 'GAYER', 'GAYLY', 'GAZER', 'GEEKY', 
     'GIPSY', 'GIRLY', 'GIVER', 'GLINT', 'GLOSS', 
     'GODLY', 'GOLLY', 'GONAD', 'GOURD',
-    'GRAPE', 'GRASS', 'GRAVY', 'GRAZE', 'GRILL', 
+    'GRAPE', 'GRASS', 'GRAZE', 'GRILL', 
     'GROPE', 'GRUNT', 'GUAVA', 'GUESS', 'GUILT',
     'GULCH', 'GUMBO', 'GUSTO', 'GUTSY', 'GYPSY', 'HALAL', 
     'HAREM', 'HARPY', 'HARRY', 'HASTY', 'HAUTE', 
@@ -1906,7 +1906,7 @@ export const dailyWordsLarge = [
     'GOURD', 'GOUTS', 'GOUTY', 'GOWAN', 'GOWDS', 'GOWFS', 'GOWKS', 'GOWLS', 'GOWNS', 'GOXES',
     'GOYLE', 'GRAAL', 'GRABS', 'GRADS', 'GRAFF', 
     'GRAIP', 'GRAMA', 'GRAME', 'GRAMP', 'GRAMS', 'GRANA', 'GRANS', 'GRAPE',
-    'GRAPY', 'GRASS', 'GRAVS', 'GRAVY', 'GRAYS', 'GRAZE',
+    'GRAPY', 'GRASS', 'GRAVS', 'GRAYS', 'GRAZE',
     'GREBE', 'GREBO', 'GRECE', 'GREEK', 'GREES', 'GREGE',
     'GREGO', 'GREIN', 'GRENS', 'GRESE', 'GREVE', 'GREWS', 'GREYS', 'GRICE', 'GRIDE', 'GRIDS',
     'GRIFF', 'GRIGS', 'GRIKE', 'GRILL', 'GRINS',
@@ -12450,6 +12450,11 @@ export const wordleWords = [
         myScore: 2,
         wordNumber: 1632,
       },  
+      { word: "GRAVY",
+        gameDate: "12/8/25",
+        myScore: 3,
+        wordNumber: 1633,
+      },  
 
     
   ];
@@ -12467,7 +12472,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("December 7, 2025: Trump sux dykk000000000! FLUTE")
+console.log("December 8, 2025: Trump sux dykk000000000! GRAVY")
 
 
 console.log(wordleWords)
