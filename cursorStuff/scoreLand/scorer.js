@@ -4,6 +4,7 @@ class WordleScoreTracker {
   constructor() {
     this.currentDate = new Date(2021, 5, 19); // June 19, 2021
     this.selectedDate = null;
+    this.wordleWords = wordleWords; // Store original data
     this.wordleData = this.processWordleData(wordleWords);
     this.scoreChangeInfo = null;
     this.init();
@@ -555,15 +556,18 @@ class WordleScoreTracker {
     endDate.setHours(23, 59, 59, 999);
 
     // Filter data within date range and get daily scores
-    const scoresInRange = Object.entries(this.wordleData)
-      .filter(([dateKey, data]) => {
-        const dataDate = new Date(data.gameDate);
-        return dataDate >= startDate && dataDate <= endDate && data.score > 0;
+    // Use original wordleWords array to avoid losing games due to duplicate date keys
+    const scoresInRange = this.wordleWords
+      .filter((item) => {
+        const dataDate = new Date(item.gameDate);
+        return dataDate >= startDate && dataDate <= endDate && item.myScore > 0;
       })
-      .map(([dateKey, data]) => ({
-        dateKey,
-        ...data,
-        date: new Date(data.gameDate),
+      .map((item) => ({
+        word: item.word,
+        score: item.myScore,
+        wordNumber: item.wordNumber,
+        gameDate: item.gameDate,
+        date: new Date(item.gameDate),
       }));
 
     if (scoresInRange.length === 0) {
