@@ -2849,6 +2849,16 @@ border: 5px solid aqua;
   border-radius: 1.1rem;
 }
 
+.badAssMan2R {
+  font-family: "Volkhov", serif; 
+  color: rgb(160, 232, 16);
+  background-color: rgb(167, 27, 27);
+  font-size: 1.65rem;
+  line-height: 1.65rem;
+  border: solid rgb(29, 58, 118) 0.2rem;
+  border-radius: 1.1rem;
+}
+
 .badAssMan3 {
   background-color: navy;
   color: white;
