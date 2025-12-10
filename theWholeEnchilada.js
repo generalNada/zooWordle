@@ -1,5 +1,6 @@
 
 
+
 export const fixedWordsLarge = [
     'QQQQQ', 'ZZZZZ', 'JJJJJ', 'QQZZJ', 'KKKJJ', 'JQQZZ', 'JZZQQ', 'QQJZZ', 'ZZJQQ', 'QQJZX', 
     'AAHED', 'AALII', 'AARGH', 'AARTI', 'ABACA', 'ABACI', 'ABACK', 'ABACS', 'ABAFT', 'ABAKA',
@@ -1418,7 +1419,7 @@ export const dailyWordsSmall = [
     'SIXTY', 'SKULK', 'SKULL', 'SLACK', 'SLAIN', 'SLANT', 'SLASH', 'SLAVE', 
     'SLEET', 'SLEPT', 'SLICK', 'SLIDE', 'SLIME', 'SLIMY', 'SLING', 'SLINK',
     'SLOOP', 'SLUNK', 'SLURP', 'SLUSH', 'SLYLY', 'SMACK', 'SMELL', 'SMOKY',
-    'SMOTE', 'SNEER', 'SNIDE', 'SNIFF', 'SNIPE', 'SNORE', 'SNOWY', 'SNUCK', 'SNUFF',
+    'SMOTE', 'SNEER', 'SNIFF', 'SNIPE', 'SNORE', 'SNOWY', 'SNUCK', 'SNUFF',
     'SOAPY', 'SOBER', 'SONAR', 'SOOTH', 'SOOTY', 'SORRY', 'SPANK', 
     'SPAWN', 'SPEED', 'SPERM', 'SPIED', 'SPIKY', 'SPILT', 
     'SPINY', 'SPOOK', 'SPOOL', 
@@ -2480,7 +2481,7 @@ export const dailyWordsLarge = [
     'SMOOT', 'SMORE', 'SMORG', 'SMOTE', 'SMOUT', 'SMOWT', 'SMUGS', 'SMURS', 'SMUSH', 'SMUTS',
     'SNABS', 'SNAGS', 'SNAPS', 'SNARF',
     'SNARK', 'SNARS', 'SNARY', 'SNASH', 'SNATH', 'SNAWS', 'SNEAD', 'SNEAP',
-    'SNEBS', 'SNECK', 'SNEDS', 'SNEED', 'SNEER', 'SNEES', 'SNELL', 'SNIBS', 'SNICK', 'SNIDE',
+    'SNEBS', 'SNECK', 'SNEDS', 'SNEED', 'SNEER', 'SNEES', 'SNELL', 'SNIBS', 'SNICK', 
     'SNIES', 'SNIFF', 'SNIFT', 'SNIGS', 'SNIPE', 'SNIPS', 'SNIPY', 'SNIRT', 'SNITS', 'SNOBS',
     'SNODS', 'SNOEK', 'SNOEP', 'SNOGS', 'SNOKE', 'SNOOD', 'SNOOK', 'SNOOL', 'SNOOT',
     'SNORE', 'SNOTS', 'SNOWK', 'SNOWS', 'SNOWY', 'SNUBS', 'SNUCK', 'SNUFF',
@@ -12455,6 +12456,11 @@ export const wordleWords = [
         myScore: 3,
         wordNumber: 1633,
       },  
+      { word: "SNIDE",
+        gameDate: "12/9/25",
+        myScore: 3,
+        wordNumber: 1634,
+      },  
 
     
   ];
@@ -12472,7 +12478,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("December 8, 2025: Trump sux dykk000000000! GRAVY")
+console.log("December 9, 2025: Trump sux dykk000000000! SNIDE")
 
 
 console.log(wordleWords)
@@ -12495,4 +12501,4 @@ logOverallAverageScore();
 
 const totalScoredWords = wordleWords.filter(entry => entry.myScore >= 0).length;
 
-console.log("Total words with score >= 0:", totalScoredWords);
+console.log("Total words with score >= 0:", totalScoredWords, "Or put more humanly, The Total # Of Wordle Games Played To Date:", totalScoredWords);
