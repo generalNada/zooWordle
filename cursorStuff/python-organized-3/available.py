@@ -43,7 +43,7 @@ unused_list = [
 		    "GIRLY", "GIVER", "GLINT", "GLOSS", "GODLY", 
             "GOLLY", "GONAD", "GOURD", "GRAPE",
             "GRASS", "GRAZE", "GRILL", "GROPE", "GROWN", 
-            "GRUNT", "GUAVA", "GUESS", "GUILT", "GULCH", "GUMBO", "GUSTO", "GUTSY", 
+            "GRUNT", "GUAVA", "GUILT", "GULCH", "GUMBO", "GUSTO", "GUTSY", 
             "GYPSY", "HAREM", "HARPY", "HARRY", "HASTY", 
             "HAUTE", "HEDGE",  
             "HIPPY", "HITCH", "HOIST", "HONOR", "HORNY", "HOTLY", 
@@ -124,7 +124,7 @@ unused_list = [
             "WREST", "WRING", "WRYLY", "ZONAL"
              ]
 
-word = 'ERASE'
+word = 'GUESS'
 
 
 if word in unused_list:
