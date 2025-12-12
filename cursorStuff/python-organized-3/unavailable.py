@@ -79,7 +79,8 @@ my_list = {
 'GREED', 'GREEN', 'GREET', 'GRIEF', 'GRIFT', 'GRIND', 'GRIME', 'GRIMY', 'GRIPE', 'GROIN', 
 'GROAN', 'GROOM', 'GROSS', 'GROUP', 'GROUT', 'GROVE', 'GROWL', 'GROWN', 'GRUEL', 'GRUFF', 
 'GUANO', 
-'GUARD', 'GUEST', 'GUIDE', 'GUILD', 'GUILE', 'GUISE', 'GULLY', 'GUMMY', 'GUPPY', 'GUSTY', 
+'GUARD', 'GUESS', 'GUEST', 'GUIDE', 'GUILD', 'GUILE', 'GUISE', 'GULLY', 'GUMMY', 'GUPPY', 
+'GUSTY', 
 'HABIT', 'HAIRY', 'HALVE', 'HANDY', 'HAPPY', 'HARDY', 'HARSH', 'HASTE', 'HATCH', 'HATER', 
 'HAUNT', 
 'HAVEN', 'HAVOC', 'HAZEL', 'HEADY', 'HEART', 'HEARD', 'HEATH', 'HEAVE', 'HEAVY', 'HEFTY', 
@@ -200,7 +201,7 @@ my_list = {
 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'ERASE'
+word_to_find = 'GUESS'
 
 
 if word_to_find in my_list:
