@@ -1341,6 +1341,12 @@ body {
 }
 
 .whole-box-198 {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeerey6FAEiMFPVzzN8WiRfM2NBKwq5ndqJA&s);
+  background-size: fit-content;
+  padding: 0.55rem;
+}
+
+.whole-box-199 {
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDtEXWIeF_Jn0qzy2_UxfZC-k-TPlVBPl3OQ&s);
   background-size: fit-content;
   padding: 0.55rem;
@@ -4904,6 +4910,24 @@ body {
 .line-199c {
   background-color: rgb(12, 202, 151);
   color: rgb(206, 42, 61);    
+  opacity: 0.77;
+}
+
+.line-200a {
+  background-color: #754a6b;
+  color: wheat;
+  opacity: 0.77;
+}
+
+.line-200b {
+  background-color: #754a6b;
+  color: wheat;
+  opacity: 0.77;
+}
+
+.line-200c {
+  background-color: #754a6b;
+  color: wheat;   
   opacity: 0.77;
 }
 
