@@ -1434,7 +1434,7 @@ export const dailyWordsSmall = [
     'TIGHT', 'TODDY', 'TOKEN', 'TONAL',
     'TONER', 'TONGA', 'TORUS',  
     'TRAMP', 'TREAD', 'TRIAL', 'TRIBE', 'TRIED', 'TRUCE',
-    'TRUCK', 'TRUER', 'TRUMP', 'TRUNK', 'TUBAL', 'TULLE', 'TUMOR',
+    'TRUER', 'TRUMP', 'TRUNK', 'TUBAL', 'TULLE', 'TUMOR',
     'TWEET', 'TWIXT', 'TYING', 'UMBRA', 'UNCUT', 
     'UNITY', 'UNSET', 'UNWED', 'URINE', 'UTILE', 'VALOR', 'VALVE', 'VAPOR',
     'VAUNT', 'VEGAN', 'VERSO', 'VICAR', 'VIGIL', 
@@ -2617,7 +2617,7 @@ export const dailyWordsLarge = [
     'TRIMS', 'TRINE', 'TRINS', 'TRIOL', 'TRIOR', 'TRIOS', 'TRIPS', 'TRIPY', 'TRIST',
     'TROAD', 'TROAK', 'TROAT', 'TROCK', 'TRODE', 'TRODS', 'TROGS', 'TROIS', 'TROKE',
     'TROMP', 'TRONA', 'TRONC', 'TRONE', 'TRONK', 'TRONS', 'TROOZ', 
-    'TROTH', 'TROTS', 'TROWS', 'TROYS', 'TRUCE', 'TRUCK', 'TRUED', 'TRUER',
+    'TROTH', 'TROTS', 'TROWS', 'TROYS', 'TRUCE', 'TRUED', 'TRUER',
     'TRUES', 'TRUGO', 'TRUGS', 'TRULL', 'TRUMP', 'TRUNK', 
     'TRYER', 'TRYKE', 'TRYMA', 'TRYPS', 'TSADE', 'TSADI', 'TSARS', 'TSKED', 'TSUBA',
     'TSUBO', 'TUANS', 'TUART', 'TUATH', 'TUBAE', 'TUBAL', 'TUBAR', 'TUBAS', 'TUBBY', 'TUBED',
@@ -12470,6 +12470,11 @@ export const wordleWords = [
         myScore: 3,
         wordNumber: 1636,
       },  
+      { word: "TRUCK",
+        gameDate: "12/12/25",
+        myScore: 3,
+        wordNumber: 1637,
+      }, 
 
     
   ];
@@ -12487,7 +12492,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("December 11, 2025: Trump sux dykk000000000! GUESS")
+console.log("December 12, 2025: Trump sux dykk000000000! TRUCK")
 
 
 console.log(wordleWords)
@@ -12511,3 +12516,4 @@ logOverallAverageScore();
 const totalScoredWords = wordleWords.filter(entry => entry.myScore >= 0).length;
 
 console.log("Total words with score >= 0:", totalScoredWords);
+
