@@ -39,13 +39,8 @@ h1 {
   color: chartreuse;
 }
 
-.wordWorldLink:active {
-  color: red;
-  transform: scale(0.98);
-}
-
 .wordWorldLink:hover {
-  color: white;
+  color: rgb(25, 178, 189);
   transform: scale(1.05);
 }
 
