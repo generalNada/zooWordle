@@ -2679,6 +2679,16 @@ border: 5px solid aqua;
   border-radius: 1.1rem;
 }
 
+.badAssMan1T {
+  color: rgb(194, 245, 7);
+  background-color: rgb(255, 2, 2);
+  font-family: "Merienda", cursive;
+  font-size: 1.65rem;
+  line-height: 1.65rem;
+  border: solid rgb(29, 58, 118) 0.2rem;
+  border-radius: 1.1rem;
+}
+
 .badAssMan2 {
   background-color: rgb(15, 45, 25);
   color: white;
