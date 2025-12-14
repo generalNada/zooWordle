@@ -1427,7 +1427,7 @@ export const dailyWordsSmall = [
     'STEER', 'STOKE', 'STOOP', 
     'STRIP', 'STRUT', 'STUCK', 'STUFF', 'STUNK', 'SUING',
     'SULLY', 'SUMAC', 'SURGE', 'SWAMI', 'SWAMP', 'SWARM', 'SWASH',
-    'SWEAR', 'SWEPT', 'SWIFT', 'SWING', 'SWOOP', 'SWORE', 
+    'SWEAR', 'SWEPT', 'SWIFT', 'SWOOP', 'SWORE', 
     'SWORN', 'SYNOD', 'TAINT', 'TAKER', 'TAMER', 
     'TANGO', 'TAROT', 'TATTY', 'TEDDY', 'TENET', 'TENSE', 'TEPEE', 
     'TERRA', 'TESTY', 'THEFT', 'THETA', 'THONG',
@@ -2544,7 +2544,7 @@ export const dailyWordsLarge = [
     'SWAPT', 'SWARD', 'SWARE', 'SWARF', 'SWARM', 'SWART', 'SWASH', 'SWATS', 'SWAYL',
     'SWAYS', 'SWEAL', 'SWEAR', 'SWEDE', 'SWEED', 'SWEEL', 'SWEER', 'SWEES',
     'SWEIR', 'SWELT', 'SWEPT', 'SWERF', 'SWEYS', 'SWIES', 'SWIFT', 'SWIGS',
-    'SWILE', 'SWIMS', 'SWING', 'SWINK', 'SWIPE', 'SWIRE',
+    'SWILE', 'SWIMS', 'SWINK', 'SWIPE', 'SWIRE',
     'SWISS', 'SWITH', 'SWITS', 'SWIVE', 'SWIZZ', 'SWOBS', 'SWOLE', 'SWOLN', 'SWOOP',
     'SWOPS', 'SWOPT', 'SWORE', 'SWORN', 'SWOTS', 'SWOUN', 'SYBBE', 'SYBIL',
     'SYBOE', 'SYBOW', 'SYCEE', 'SYCES', 'SYCON', 'SYENS', 'SYKER', 'SYKES', 'SYLIS', 'SYLPH',
@@ -12480,6 +12480,11 @@ export const wordleWords = [
         myScore: 4,
         wordNumber: 1638,
       }, 
+      { word: "SWING",
+        gameDate: "12/14/25",
+        myScore: 3,
+        wordNumber: 1639,
+      }, 
 
     
   ];
@@ -12497,7 +12502,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("December 13, 2025: Trump sux dykk000000000! MISER")
+console.log("December 14, 2025: Trump sux dykk000000000! SWING")
 
 
 console.log(wordleWords)
@@ -12521,4 +12526,5 @@ logOverallAverageScore();
 const totalScoredWords = wordleWords.filter(entry => entry.myScore >= 0).length;
 
 console.log("Total words with score >= 0:", totalScoredWords);
+
 
