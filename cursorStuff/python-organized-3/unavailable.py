@@ -173,8 +173,8 @@ my_list = {
 'STOIC', 'STOLE', 'STOMP', 'STONE', 'STONY', 'STOOD', 'STOOL', 'STORE', 'STORK', 'STORM', 
 'STORY', 'STOUT', 'STOVE', 'STRAP', 'STRAW', 'STRAY', 'STUDY', 'STUMP', 'STUNG', 'STUNT', 
 'STYLE', 'SUAVE', 'SUEDE', 'SUGAR', 'SUITE', 'SULKY', 'SUNNY', 'SUPER', 'SURER', 'SURLY', 
-'SUSHI', 'SWEAT', 'SWEEP', 'SWEET', 'SWELL', 'SWILL', 'SWINE', 'SWIRL', 'SWISH', 'SWOON', 
-'SWORD', 'SWUNG', 'SYRUP', 'TABBY', 'TABLE', 
+'SUSHI', 'SWEAT', 'SWEEP', 'SWEET', 'SWELL', 'SWILL', 'SWINE', 'SWING', 'SWIRL', 'SWISH', 
+'SWOON', 'SWORD', 'SWUNG', 'SYRUP', 'TABBY', 'TABLE', 
 'TABOO', 'TACIT', 'TACKY', 'TAFFY', 'TAKEN', 'TALLY', 'TALON', 'TANGY', 'TAPER', 'TAPIR', 
 'TARDY', 'TASTE', 'TASTY', 'TAUNT', 'TAUPE', 'TAWNY', 'TEACH', 'TEARY', 'TEASE', 'TEETH', 
 'TEMPO', 'TENOR', 'TENTH', 'TEPID', 'TERSE'  'THANK', 'THEIR', 'THEME', 'THERE', 'THESE', 
@@ -202,7 +202,7 @@ my_list = {
 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'MISER'
+word_to_find = 'SWING'
 
 
 if word_to_find in my_list:
