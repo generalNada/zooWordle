@@ -15,6 +15,26 @@ function calculateScrabblePoints(word) {
     .reduce((total, letter) => total + (letterValues[letter] || 0), 0);
 }
 
+// Helper function to calculate average score up to and including a specific word entry
+function calculateAverageScoreUpToWord(entry) {
+  // Get all words up to and including this word's date
+  const entryDate = new Date(entry.gameDate);
+  const wordsUpToDate = wordleWords.filter((word) => {
+    const wordDate = new Date(word.gameDate);
+    return wordDate <= entryDate;
+  });
+
+  // Filter to only played games (score > 0)
+  const playedWords = wordsUpToDate.filter((word) => word.myScore > 0);
+
+  if (playedWords.length === 0) {
+    return "N/A";
+  }
+
+  const totalScore = playedWords.reduce((sum, word) => sum + word.myScore, 0);
+  return (totalScore / playedWords.length).toFixed(8);
+}
+
 const scoreCounts = {};
 let totalNonZeroScores = 0;
 let totalScores = 0;
@@ -376,7 +396,7 @@ scoreDropdown.addEventListener("change", (event) => {
         (sum, entry) => sum + entry.myScore,
         0
       );
-      const averageScore = (totalScore / gamesInMonth.length).toFixed(5);
+      const averageScore = (totalScore / gamesInMonth.length).toFixed(8);
       htmlContent += `<div class="month-year-result">Month/Year Average: ${monthName} ${year}: ${averageScore} (${gamesInMonth.length} games)</div>`;
     }
   }
@@ -393,7 +413,7 @@ scoreDropdown.addEventListener("change", (event) => {
         (sum, entry) => sum + entry.myScore,
         0
       );
-      const averageScore = (totalScore / gamesInYear.length).toFixed(5);
+      const averageScore = (totalScore / gamesInYear.length).toFixed(8);
       htmlContent += `<div class="year-result">Year Average: ${selectedYear}: ${averageScore} (${gamesInYear.length} games)</div>`;
     }
   }
@@ -734,7 +754,7 @@ function updateCombinedDisplay() {
         (sum, entry) => sum + entry.myScore,
         0
       );
-      const averageScore = (totalScore / gamesInMonth.length).toFixed(5);
+      const averageScore = (totalScore / gamesInMonth.length).toFixed(8);
       htmlContent += `<div class="month-year-result">Month/Year Average: ${monthName} ${year}: ${averageScore} (${gamesInMonth.length} games)</div>`;
       hasContent = true;
     }
@@ -752,7 +772,7 @@ function updateCombinedDisplay() {
         (sum, entry) => sum + entry.myScore,
         0
       );
-      const averageScore = (totalScore / gamesInYear.length).toFixed(5);
+      const averageScore = (totalScore / gamesInYear.length).toFixed(8);
       htmlContent += `<div class="year-result">Year Average: ${selectedYear}: ${averageScore} (${gamesInYear.length} games)</div>`;
       hasContent = true;
     }
@@ -862,7 +882,7 @@ monthYearDropdown.addEventListener("change", (event) => {
     (sum, entry) => sum + entry.myScore,
     0
   );
-  const averageScore = (totalScore / gamesInMonth.length).toFixed(5);
+  const averageScore = (totalScore / gamesInMonth.length).toFixed(8);
 
   let htmlContent = `<div class="month-year-result">Month/Year Average: ${monthName} ${year}: ${averageScore} (${gamesInMonth.length} games)</div>`;
 
@@ -903,7 +923,7 @@ monthYearDropdown.addEventListener("change", (event) => {
         (sum, entry) => sum + entry.myScore,
         0
       );
-      const averageScore = (totalScore / gamesInYear.length).toFixed(5);
+      const averageScore = (totalScore / gamesInYear.length).toFixed(8);
       htmlContent += `<div class="year-result">Year Average: ${selectedYear}: ${averageScore} (${gamesInYear.length} games)</div>`;
     }
   }
@@ -940,7 +960,7 @@ yearDropdown.addEventListener("change", (event) => {
 
   // Calculate average score
   const totalScore = gamesInYear.reduce((sum, entry) => sum + entry.myScore, 0);
-  const averageScore = (totalScore / gamesInYear.length).toFixed(5);
+  const averageScore = (totalScore / gamesInYear.length).toFixed(8);
 
   let htmlContent = `<div class="year-result">Year Average: ${selectedYear}: ${averageScore} (${gamesInYear.length} games)</div>`;
 
@@ -984,7 +1004,7 @@ yearDropdown.addEventListener("change", (event) => {
         (sum, entry) => sum + entry.myScore,
         0
       );
-      const averageScore = (totalScore / gamesInMonth.length).toFixed(5);
+      const averageScore = (totalScore / gamesInMonth.length).toFixed(8);
       htmlContent += `<div class="month-year-result">Month/Year Average: ${monthName} ${year}: ${averageScore} (${gamesInMonth.length} games)</div>`;
     }
   }
@@ -1105,15 +1125,19 @@ function renderDaySearchWords() {
     const scoreText =
       entry.myScore === 0 ? "Not Played" : `Score: ${entry.myScore}`;
     const scrabblePoints = calculateScrabblePoints(entry.word);
-    let scrabbleDisplayVisible = false;
+    const averageScore = calculateAverageScoreUpToWord(entry);
+    let displayState = 0; // 0: normal, 1: scrabble+average, 2: details shown
 
     const updateButtonContent = () => {
-      if (scrabbleDisplayVisible) {
+      if (displayState === 1) {
+        // Scrabble + Average Score view
         wordButton.innerHTML = `
           <div class="word-text">${entry.word}</div>
           <div class="word-date">Value In Scrabble Points : '${scrabblePoints}'</div>
+          <div class="word-date">Your average score upon the completion of this word: ${averageScore}</div>
         `;
       } else {
+        // Normal view
         wordButton.innerHTML = `
           <div class="word-text">${entry.word}</div>
           <div class="word-date">Word#: ${entry.wordNumber}</div>
@@ -1126,8 +1150,25 @@ function renderDaySearchWords() {
     updateButtonContent();
 
     wordButton.addEventListener("click", () => {
-      scrabbleDisplayVisible = !scrabbleDisplayVisible;
-      updateButtonContent();
+      // Check if details are currently shown for this entry
+      const detailsShown = wordDetailsContainer.style.display === "block" && 
+                           currentlyShownWordNumber === entry.wordNumber;
+      
+      if (displayState === 0) {
+        // First click: Show scrabble + average
+        displayState = 1;
+        updateButtonContent();
+        hideWordDetails(); // Hide details if shown
+      } else if (displayState === 1) {
+        // Second click: Show word details
+        displayState = 2;
+        showWordDetailsFromDay(entry);
+      } else if (displayState === 2 || detailsShown) {
+        // Return to normal immediately if details are shown
+        displayState = 0;
+        updateButtonContent();
+        hideWordDetails();
+      }
     });
 
     daySearchResults.appendChild(wordButton);
@@ -1354,15 +1395,19 @@ function renderMonthSearchWords() {
     const scoreText =
       entry.myScore === 0 ? "Not Played" : `Score: ${entry.myScore}`;
     const scrabblePoints = calculateScrabblePoints(entry.word);
-    let scrabbleDisplayVisible = false;
+    const averageScore = calculateAverageScoreUpToWord(entry);
+    let displayState = 0; // 0: normal, 1: scrabble+average, 2: details shown
 
     const updateButtonContent = () => {
-      if (scrabbleDisplayVisible) {
+      if (displayState === 1) {
+        // Scrabble + Average Score view
         wordButton.innerHTML = `
           <div class="word-text">${entry.word}</div>
           <div class="word-date">Value In Scrabble Points : '${scrabblePoints}'</div>
+          <div class="word-date">Your average score upon the completion of this word: ${averageScore}</div>
         `;
       } else {
+        // Normal view
         wordButton.innerHTML = `
           <div class="word-text">${entry.word}</div>
           <div class="word-date">Word#: ${entry.wordNumber}</div>
@@ -1375,8 +1420,25 @@ function renderMonthSearchWords() {
     updateButtonContent();
 
     wordButton.addEventListener("click", () => {
-      scrabbleDisplayVisible = !scrabbleDisplayVisible;
-      updateButtonContent();
+      // Check if details are currently shown for this entry
+      const detailsShown = wordDetailsContainer.style.display === "block" && 
+                           currentlyShownWordNumber === entry.wordNumber;
+      
+      if (displayState === 0) {
+        // First click: Show scrabble + average
+        displayState = 1;
+        updateButtonContent();
+        hideWordDetails(); // Hide details if shown
+      } else if (displayState === 1) {
+        // Second click: Show word details
+        displayState = 2;
+        showWordDetailsFromSearch(entry);
+      } else if (displayState === 2 || detailsShown) {
+        // Return to normal immediately if details are shown
+        displayState = 0;
+        updateButtonContent();
+        hideWordDetails();
+      }
     });
 
     monthSearchResults.appendChild(wordButton);
@@ -1498,15 +1560,19 @@ function renderDayNumberSearchWords() {
     const scoreText =
       entry.myScore === 0 ? "Not Played" : `Score: ${entry.myScore}`;
     const scrabblePoints = calculateScrabblePoints(entry.word);
-    let scrabbleDisplayVisible = false;
+    const averageScore = calculateAverageScoreUpToWord(entry);
+    let displayState = 0; // 0: normal, 1: scrabble+average, 2: details shown
 
     const updateButtonContent = () => {
-      if (scrabbleDisplayVisible) {
+      if (displayState === 1) {
+        // Scrabble + Average Score view
         wordButton.innerHTML = `
           <div class="word-text">${entry.word}</div>
           <div class="word-date">Value In Scrabble Points : '${scrabblePoints}'</div>
+          <div class="word-date">Your average score upon the completion of this word: ${averageScore}</div>
         `;
       } else {
+        // Normal view
         wordButton.innerHTML = `
           <div class="word-text">${entry.word}</div>
           <div class="word-date">Word#: ${entry.wordNumber}</div>
@@ -1519,8 +1585,25 @@ function renderDayNumberSearchWords() {
     updateButtonContent();
 
     wordButton.addEventListener("click", () => {
-      scrabbleDisplayVisible = !scrabbleDisplayVisible;
-      updateButtonContent();
+      // Check if details are currently shown for this entry
+      const detailsShown = wordDetailsContainer.style.display === "block" && 
+                           currentlyShownWordNumber === entry.wordNumber;
+      
+      if (displayState === 0) {
+        // First click: Show scrabble + average
+        displayState = 1;
+        updateButtonContent();
+        hideWordDetails(); // Hide details if shown
+      } else if (displayState === 1) {
+        // Second click: Show word details
+        displayState = 2;
+        showWordDetailsFromSearch(entry);
+      } else if (displayState === 2 || detailsShown) {
+        // Return to normal immediately if details are shown
+        displayState = 0;
+        updateButtonContent();
+        hideWordDetails();
+      }
     });
 
     dayNumberSearchResults.appendChild(wordButton);
@@ -1674,15 +1757,19 @@ function renderMonthDaySearchWords() {
     const date = new Date(entry.gameDate);
     const year = date.getFullYear();
     const scrabblePoints = calculateScrabblePoints(entry.word);
-    let scrabbleDisplayVisible = false;
+    const averageScore = calculateAverageScoreUpToWord(entry);
+    let displayState = 0; // 0: normal, 1: scrabble+average, 2: details shown
 
     const updateButtonContent = () => {
-      if (scrabbleDisplayVisible) {
+      if (displayState === 1) {
+        // Scrabble + Average Score view
         wordButton.innerHTML = `
           <div class="word-text">${entry.word}</div>
           <div class="word-date">Value In Scrabble Points : '${scrabblePoints}'</div>
+          <div class="word-date">Your average score upon the completion of this word: ${averageScore}</div>
         `;
       } else {
+        // Normal view
         wordButton.innerHTML = `
           <div class="word-text">${entry.word}</div>
           <div class="word-date">Word#: ${entry.wordNumber}</div>
@@ -1695,8 +1782,25 @@ function renderMonthDaySearchWords() {
     updateButtonContent();
 
     wordButton.addEventListener("click", () => {
-      scrabbleDisplayVisible = !scrabbleDisplayVisible;
-      updateButtonContent();
+      // Check if details are currently shown for this entry
+      const detailsShown = wordDetailsContainer.style.display === "block" && 
+                           currentlyShownWordNumber === entry.wordNumber;
+      
+      if (displayState === 0) {
+        // First click: Show scrabble + average
+        displayState = 1;
+        updateButtonContent();
+        hideWordDetails(); // Hide details if shown
+      } else if (displayState === 1) {
+        // Second click: Show word details
+        displayState = 2;
+        showWordDetailsFromSearch(entry);
+      } else if (displayState === 2 || detailsShown) {
+        // Return to normal immediately if details are shown
+        displayState = 0;
+        updateButtonContent();
+        hideWordDetails();
+      }
     });
 
     monthDaySearchResults.appendChild(wordButton);
@@ -2015,15 +2119,19 @@ function renderLetterSearchWords() {
     const scoreText =
       entry.myScore === 0 ? "Not Played" : `Score: ${entry.myScore}`;
     const scrabblePoints = calculateScrabblePoints(entry.word);
-    let scrabbleDisplayVisible = false;
+    const averageScore = calculateAverageScoreUpToWord(entry);
+    let displayState = 0; // 0: normal, 1: scrabble+average, 2: details shown
 
     const updateButtonContent = () => {
-      if (scrabbleDisplayVisible) {
+      if (displayState === 1) {
+        // Scrabble + Average Score view
         wordButton.innerHTML = `
           <div class="word-text">${entry.word}</div>
           <div class="word-date">Value In Scrabble Points : '${scrabblePoints}'</div>
+          <div class="word-date">Your average score upon the completion of this word: ${averageScore}</div>
         `;
       } else {
+        // Normal view
         wordButton.innerHTML = `
           <div class="word-text">${entry.word}</div>
           <div class="word-date">Word#: ${entry.wordNumber}</div>
@@ -2036,8 +2144,25 @@ function renderLetterSearchWords() {
     updateButtonContent();
 
     wordButton.addEventListener("click", () => {
-      scrabbleDisplayVisible = !scrabbleDisplayVisible;
-      updateButtonContent();
+      // Check if details are currently shown for this entry
+      const detailsShown = wordDetailsContainer.style.display === "block" && 
+                           currentlyShownWordNumber === entry.wordNumber;
+      
+      if (displayState === 0) {
+        // First click: Show scrabble + average
+        displayState = 1;
+        updateButtonContent();
+        hideWordDetails(); // Hide details if shown
+      } else if (displayState === 1) {
+        // Second click: Show word details
+        displayState = 2;
+        showWordDetailsFromSearch(entry);
+      } else if (displayState === 2 || detailsShown) {
+        // Return to normal immediately if details are shown
+        displayState = 0;
+        updateButtonContent();
+        hideWordDetails();
+      }
     });
 
     letterSearchResults.appendChild(wordButton);
@@ -2196,15 +2321,19 @@ function renderContainLetterSearchWords() {
     const scoreText =
       entry.myScore === 0 ? "Not Played" : `Score: ${entry.myScore}`;
     const scrabblePoints = calculateScrabblePoints(entry.word);
-    let scrabbleDisplayVisible = false;
+    const averageScore = calculateAverageScoreUpToWord(entry);
+    let displayState = 0; // 0: normal, 1: scrabble+average, 2: details shown
 
     const updateButtonContent = () => {
-      if (scrabbleDisplayVisible) {
+      if (displayState === 1) {
+        // Scrabble + Average Score view
         wordButton.innerHTML = `
           <div class="word-text">${entry.word}</div>
           <div class="word-date">Value In Scrabble Points : '${scrabblePoints}'</div>
+          <div class="word-date">Your average score upon the completion of this word: ${averageScore}</div>
         `;
       } else {
+        // Normal view
         wordButton.innerHTML = `
           <div class="word-text">${entry.word}</div>
           <div class="word-date">Word#: ${entry.wordNumber}</div>
@@ -2217,8 +2346,25 @@ function renderContainLetterSearchWords() {
     updateButtonContent();
 
     wordButton.addEventListener("click", () => {
-      scrabbleDisplayVisible = !scrabbleDisplayVisible;
-      updateButtonContent();
+      // Check if details are currently shown for this entry
+      const detailsShown = wordDetailsContainer.style.display === "block" && 
+                           currentlyShownWordNumber === entry.wordNumber;
+      
+      if (displayState === 0) {
+        // First click: Show scrabble + average
+        displayState = 1;
+        updateButtonContent();
+        hideWordDetails(); // Hide details if shown
+      } else if (displayState === 1) {
+        // Second click: Show word details
+        displayState = 2;
+        showWordDetailsFromSearch(entry);
+      } else if (displayState === 2 || detailsShown) {
+        // Return to normal immediately if details are shown
+        displayState = 0;
+        updateButtonContent();
+        hideWordDetails();
+      }
     });
 
     containLetterSearchResults.appendChild(wordButton);
