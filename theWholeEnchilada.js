@@ -1347,7 +1347,7 @@ export const dailyWordsSmall = [
     'CUTIE', 'CYCLE', 'DAILY', 'DAIRY', 'DEALT', 'DEBAR',
     'DECOR', 'DEIGN', 
     'DEMON', 'DEMUR', 'DENSE', 'DERBY', 'DILLY', 'DIMLY',
-    'DIODE', 'DIRTY', 'DITCH', 'DIVAN', 'DIVER', 'DIZZY', 'DODGY',
+    'DIODE', 'DIRTY', 'DITCH', 'DIVAN', 'DIVER', 'DIZZY', 
     'DOGMA', 'DOWDY', 'DOWNY', 'DRAKE', 'DRAMA',
     'DRANK', 'DRAWL', 'DRESS', 'DRIED', 'DRIER', 
     'DROIT', 'DROSS', 'DROWN', 'DRUID', 'DRUNK', 'DRYLY',
@@ -1738,7 +1738,7 @@ export const dailyWordsLarge = [
     'DITES', 'DITSY', 'DITTS', 'DITZY', 'DIVAN', 'DIVAS', 'DIVED', 'DIVER',
     'DIVES', 'DIVIS', 'DIVNA', 'DIVOS', 'DIVOT', 'DIVVY', 'DIWAN', 'DIXIE', 'DIXIT', 'DIYAS',
     'DIZEN', 'DIZZY', 'DJINN', 'DJINS', 'DOABS', 'DOATS', 'DOBBY', 'DOBES', 'DOBIE', 'DOBLA',
-    'DOBRA', 'DOBRO', 'DOCHT', 'DOCKS', 'DOCOS', 'DOCUS', 'DODDY', 'DODGY', 'DODOS',
+    'DOBRA', 'DOBRO', 'DOCHT', 'DOCKS', 'DOCOS', 'DOCUS', 'DODDY', 'DODOS',
     'DOEKS', 'DOERS', 'DOEST', 'DOETH', 'DOFFS', 'DOGES', 'DOGEY', 'DOGGO', 'DOGGY', 'DOGIE',
     'DOGMA', 'DOHYO', 'DOILT', 'DOILY', 'DOITS', 'DOJOS', 'DOLCE', 'DOLCI', 'DOLED',
     'DOLES', 'DOLIA', 'DOLLS', 'DOLMA', 'DOLOR', 'DOLOS', 'DOLTS', 'DOMAL', 'DOMED',
@@ -12485,6 +12485,11 @@ export const wordleWords = [
         myScore: 3,
         wordNumber: 1639,
       }, 
+      { word: "DODGY",
+        gameDate: "12/15/25",
+        myScore: 4,
+        wordNumber: 1640,
+      }, 
 
     
   ];
@@ -12502,7 +12507,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("December 14, 2025: Trump sux dykk000000000! SWING")
+console.log("December 15, 2025: Trump sux dykk000000000! DODGY")
 
 
 console.log(wordleWords)
