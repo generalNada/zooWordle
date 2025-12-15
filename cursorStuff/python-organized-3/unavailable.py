@@ -49,7 +49,8 @@ my_list = {
 'DATUM', 'DAUNT', 'DEATH', 'DEBIT', 'DEBUG', 'DEBUT', 'DECAL', 'DECAY', 'DECOY', 'DECRY', 
 'DEFER', 'DEITY', 'DELAY', 'DELTA', 'DELVE', 'DENIM', 'DEPOT', 'DEPTH', 'DETER', 'DETOX', 
 'DEUCE', 'DEVIL', 'DIARY', 'DICEY', 'DIGIT', 'DINER', 'DINGO', 'DINGY', 'DIRGE', 'DISCO', 
-'DITTO', 'DITTY', 'DODGE', 'DOGMA', 'DOING', 'DOLLY', 'DONOR', 'DONUT', 'DOPEY', 'DOUBT', 
+'DITTO', 'DITTY', 'DODGE', 'DODGY', 'DOGMA', 'DOING', 'DOLLY', 'DONOR', 'DONUT', 'DOPEY', 
+'DOUBT', 
 'DOUGH', 'DOWEL', 'DOWRY', 'DOZEN', 'DRAFT', 'DRAIN', 'DRAPE', 'DRAWN', 'DREAD', 'DREAM', 
 'DRILL', 'DRINK', 'DRIVE', 'DROLL', 'DRONE', 'DROOL', 'DROOP', 'DROVE', 'DRYER', 'DUCHY', 
 'DUMMY', 'DUTCH', 'DUVET', 'DWARF', 'DWELL', 'DWELT', 'EAGER', 'EAGLE', 'EARLY', 'EARTH', 
@@ -202,7 +203,7 @@ my_list = {
 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'SWING'
+word_to_find = 'DODGY'
 
 
 if word_to_find in my_list:
