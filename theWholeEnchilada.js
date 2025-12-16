@@ -1410,7 +1410,7 @@ export const dailyWordsSmall = [
     'SADLY', 'SAFER', 'SALON', 'SALVE', 'SALVO', 'SANER', 'SAPPY', 'SATIN', 'SATYR', 
     'SAUCE', 'SAVOY', 'SCALP', 'SCALY', 'SCAMP', 'SCARY', 'SCENE',
     'SCION', 'SCOOP', 'SCREE', 'SCREW', 
-    'SCUBA', 'SEGUE', 'SEIZE', 'SEMEN', 'SEPIA', 'SERIF', 'SETUP', 'SEWER', 'SHACK',
+    'SCUBA', 'SEIZE', 'SEMEN', 'SEPIA', 'SERIF', 'SETUP', 'SEWER', 'SHACK',
     'SHADY', 'SHALE', 'SHALT', 'SHARK', 
     'SHEEN', 'SHEEP', 'SHEER', 'SHEIK', 'SHIED', 'SHINY', 'SHIRT',
     'SHOAL', 'SHOCK', 'SHONE', 'SHOOK', 'SHOOT', 'SHREW',
@@ -2423,7 +2423,7 @@ export const dailyWordsLarge = [
     'SEALS', 'SEAME', 'SEAMS', 'SEAMY', 'SEANS', 'SEARE', 'SEARS', 'SEASE', 'SEATS', 'SEAZE',
     'SEBUM', 'SECCO', 'SECHS', 'SECTS', 'SEDER', 'SEDES', 'SEDGE', 'SEDGY', 'SEDUM',
     'SEEDS', 'SEEKS', 'SEELD', 'SEELS', 'SEELY', 'SEEMS', 'SEEPS', 'SEEPY', 'SEERS',
-    'SEFER', 'SEGAR', 'SEGNI', 'SEGNO', 'SEGOL', 'SEGOS', 'SEGUE', 'SEHRI', 'SEIFS', 'SEILS',
+    'SEFER', 'SEGAR', 'SEGNI', 'SEGNO', 'SEGOL', 'SEGOS', 'SEHRI', 'SEIFS', 'SEILS',
     'SEINE', 'SEIRS', 'SEISE', 'SEISM', 'SEITY', 'SEIZA', 'SEIZE', 'SEKOS', 'SEKTS', 'SELAH',
     'SELES', 'SELFS', 'SELLA', 'SELLE', 'SELLS', 'SELVA', 'SEMEE', 'SEMEN', 'SEMES', 'SEMIE',
     'SEMIS', 'SENAS', 'SENDS', 'SENES', 'SENGI', 'SENNA', 'SENOR', 'SENSA', 'SENSI',
@@ -12490,6 +12490,11 @@ export const wordleWords = [
         myScore: 4,
         wordNumber: 1640,
       }, 
+      { word: "SEGUE",
+        gameDate: "12/16/25",
+        myScore: 4,
+        wordNumber: 1641,
+      }, 
 
     
   ];
@@ -12507,7 +12512,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("December 15, 2025: Trump sux dykk000000000! DODGY")
+console.log("December 16, 2025: Trump sux dykk000000000! SEGUE")
 
 
 console.log(wordleWords)
@@ -12523,7 +12528,7 @@ function logOverallAverageScore() {
   const totalScore = playedWords.reduce((sum, word) => sum + word.myScore, 0);
   const averageScore = totalScore / playedWords.length;
 
-  console.log(`Overall average score (excluding unplayed words): ${averageScore.toFixed(5)}. Happy?`);
+  console.log(`Overall average score (excluding unplayed words): ${averageScore.toFixed(8)}. Happy?`);
 }
 
 logOverallAverageScore();
