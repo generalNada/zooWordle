@@ -149,7 +149,8 @@ my_list = {
 'SASSY', 'SAUCY', 'SAUNA', 'SAUTE', 'SAVOR', 'SAVVY', 'SCALD', 'SCALE', 'SCANT', 'SCARE', 
 'SCARF', 'SCENT', 'SCOFF', 
 'SCOLD', 'SCONE', 'SCOPE', 'SCORE', 'SCORN', 'SCOUR', 'SCOUT', 'SCOWL', 'SCRAM', 'SCRAP', 
-'SCRUB', 'SCRUM', 'SEDAN', 'SEEDY', 'SENSE', 'SERUM', 'SERVE', 'SEVEN', 'SEVER', 'SHADE', 
+'SCRUB', 'SCRUM', 'SEDAN', 'SEEDY', 'SEGUE', 'SENSE', 'SERUM', 'SERVE', 'SEVEN', 'SEVER', 
+'SHADE', 
 'SHAFT', 'SHAKE', 'SHAKY', 'SHALL', 'SHAME', 'SHANK', 'SHAPE', 'SHARD', 'SHARE', 'SHARP', 
 'SHAVE', 'SHAWL', 'SHEAR', 'SHEET', 'SHELF', 'SHELL', 'SHIFT', 'SHINE', 'SHIRE', 'SHIRK', 
 'SHORE', 'SHORN', 'SHORT', 'SHOUT', 'SHOVE', 'SHOWN', 'SHOWY', 'SHRUB', 'SHRUG', 'SHUCK', 
@@ -203,7 +204,7 @@ my_list = {
 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'DODGY'
+word_to_find = 'SEGUE'
 
 
 if word_to_find in my_list:
