@@ -145,9 +145,9 @@ my_list = {
 'RIGHT', 'RIGID', 'RIPER', 
 'RISEN', 'RIVAL', 'RIVET', 'ROACH', 'ROBIN', 'ROBOT', 'ROCKY', 'RODEO', 'ROGUE', 'ROUGE', 
 'ROOMY', 'ROUGH', 'ROUND', 'ROUSE', 'ROUTE', 'ROVER', 'ROWDY', 'ROWER', 'ROYAL', 'RUDDY', 
-'RUDER', 'RUMBA', 'RUPEE', 'RUSTY', 'SAINT', 'SALAD', 'SALLY', 'SALSA', 'SALTY', 'SANDY', 
-'SASSY', 'SAUCY', 'SAUNA', 'SAUTE', 'SAVOR', 'SAVVY', 'SCALD', 'SCALE', 'SCANT', 'SCARE', 
-'SCARF', 'SCENT', 'SCOFF', 
+'RUDER', 'RUGBY', 'RUMBA', 'RUPEE', 'RUSTY', 'SAINT', 'SALAD', 'SALLY', 'SALSA', 'SALTY', 
+'SANDY', 'SASSY', 'SAUCY', 'SAUNA', 'SAUTE', 'SAVOR', 'SAVVY', 'SCALD', 'SCALE', 'SCANT', 
+'SCARE', 'SCARF', 'SCENT', 'SCOFF', 
 'SCOLD', 'SCONE', 'SCOPE', 'SCORE', 'SCORN', 'SCOUR', 'SCOUT', 'SCOWL', 'SCRAM', 'SCRAP', 
 'SCRUB', 'SCRUM', 'SEDAN', 'SEEDY', 'SEGUE', 'SENSE', 'SERUM', 'SERVE', 'SEVEN', 'SEVER', 
 'SHADE', 
@@ -204,7 +204,7 @@ my_list = {
 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'GRASS'
+word_to_find = 'RUGBY'
 
 
 if word_to_find in my_list:
