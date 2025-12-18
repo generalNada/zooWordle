@@ -414,6 +414,113 @@ body {
   transform: rotate(1.1deg);
 }
 
+/* Continue pattern for boxes 205-250 */
+.whole-box-205,
+.whole-box-215,
+.whole-box-225,
+.whole-box-235,
+.whole-box-245 {
+  background: linear-gradient(45deg, #808080 0%, #606060 50%, #404040 100%);
+  color: #ffffff;
+  box-shadow: 9px 9px 0px #444444, 18px 18px 0px #222222;
+  transform: rotate(1.2deg);
+}
+
+.whole-box-206,
+.whole-box-216,
+.whole-box-226,
+.whole-box-236,
+.whole-box-246 {
+  background: linear-gradient(135deg, #707070 0%, #505050 50%, #303030 100%);
+  color: #ffffff;
+  box-shadow: 11px 11px 0px #333333, 22px 22px 0px #111111;
+  transform: rotate(-1deg);
+}
+
+.whole-box-207,
+.whole-box-217,
+.whole-box-227,
+.whole-box-237,
+.whole-box-247 {
+  background: linear-gradient(225deg, #606060 0%, #404040 50%, #202020 100%);
+  color: #ffffff;
+  box-shadow: 13px 13px 0px #222222, 26px 26px 0px #000000;
+  transform: rotate(0.9deg);
+}
+
+.whole-box-208,
+.whole-box-218,
+.whole-box-228,
+.whole-box-238,
+.whole-box-248 {
+  background: linear-gradient(315deg, #505050 0%, #303030 50%, #101010 100%);
+  color: #ffffff;
+  box-shadow: 7px 7px 0px #111111, 14px 14px 0px #000000;
+  transform: rotate(-1.3deg);
+}
+
+.whole-box-209,
+.whole-box-219,
+.whole-box-229,
+.whole-box-239,
+.whole-box-249 {
+  background: linear-gradient(45deg, #404040 0%, #202020 50%, #000000 100%);
+  color: #ffffff;
+  box-shadow: 15px 15px 0px #000000, 30px 30px 0px #000000;
+  transform: rotate(1.1deg);
+}
+
+.whole-box-210,
+.whole-box-220,
+.whole-box-230,
+.whole-box-240,
+.whole-box-250 {
+  background: linear-gradient(135deg, #ffffff 0%, #d0d0d0 50%, #b0b0b0 100%);
+  color: #000000;
+  box-shadow: 10px 10px 0px #888888, 20px 20px 0px #666666;
+  transform: rotate(-0.6deg);
+}
+
+.whole-box-211,
+.whole-box-221,
+.whole-box-231,
+.whole-box-241 {
+  background: linear-gradient(45deg, #ffffff 0%, #e0e0e0 50%, #c0c0c0 100%);
+  color: #000000;
+  box-shadow: 10px 10px 0px #888888, 20px 20px 0px #666666;
+  transform: rotate(1deg);
+}
+
+.whole-box-212,
+.whole-box-222,
+.whole-box-232,
+.whole-box-242 {
+  background: linear-gradient(135deg, #d0d0d0 0%, #a0a0a0 50%, #808080 100%);
+  color: #000000;
+  box-shadow: 12px 12px 0px #777777, 24px 24px 0px #555555;
+  transform: rotate(-1.5deg);
+}
+
+.whole-box-213,
+.whole-box-223,
+.whole-box-233,
+.whole-box-243 {
+  background: linear-gradient(225deg, #b0b0b0 0%, #909090 50%, #707070 100%);
+  color: #000000;
+  box-shadow: 8px 8px 0px #666666, 16px 16px 0px #444444;
+  transform: rotate(0.8deg);
+}
+
+.whole-box-214,
+.whole-box-224,
+.whole-box-234,
+.whole-box-244 {
+  background: linear-gradient(315deg, #909090 0%, #707070 50%, #505050 100%);
+  color: #ffffff;
+  box-shadow: 14px 14px 0px #555555, 28px 28px 0px #333333;
+  transform: rotate(-0.7deg);
+}
+
 /* Text styling */
 .edges {
   margin: 0.5rem 0;
