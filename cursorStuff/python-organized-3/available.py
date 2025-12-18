@@ -81,9 +81,9 @@ unused_list = [
 		    "RANDY", "RARER", "RASPY", "RAVEN", "RAZOR", "REARM",
             "REBAR", "RECUT", "REEDY", "REFIT", "REHAB", "REIGN", "RENAL", 
             "REPLY", "RESET", "RIFLE", "RIGOR", "RINSE", "RIPEN", "RISER",
-		    "RISKY", "RIVER", "ROAST", "ROGER", "ROOST", "ROTOR",
+		    "RISKY", "RIVER", "ROAST", "ROGER", "ROOST", "ROTOR", "RULER", "RUMOR", "RURAL", 
+	        "SADLY", "SAFER",
 		    "SALON", "SALVE", "SALVO", "SANER", "SAPPY", "SATIN", "SATYR", "SAUCE",
-		    "RUGBY", "RULER", "RUMOR", "RURAL", "SADLY", "SAFER",
 		    "SAVOY", "SCALP", "SCALY", "SCAMP", "SCARY", "SCENE",
 		    "SCION", "SCOOP", "SCREE", "SCREW", "SCUBA",  
             "SEIZE", "SEMEN", "SEPIA", "SERIF", "SETUP", "SEWER", "SHACK", "SHADY", 
@@ -124,7 +124,7 @@ unused_list = [
             "WREST", "WRING", "WRYLY", "ZONAL"
              ]
 
-word = 'GRASS'
+word = 'RUGBY'
 
 
 if word in unused_list:
