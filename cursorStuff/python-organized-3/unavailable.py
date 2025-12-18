@@ -75,8 +75,8 @@ my_list = {
 'GIRTH', 'GIVEN', 'GIZMO', 'GLADE', 'GLAND', 'GLARE', 'GLASS', 'GLAZE', 'GLEAM', 'GLEAN', 
 'GLIDE', 'GLOAT', 'GLOBE', 'GLOOM', 'GLORY', 'GLOVE', 'GLYPH', 'GNASH', 'GNOME', 'GOING', 
 'GOLEM', 'GONER', 'GOODY', 'GOOEY', 'GOOFY', 'GOOSE', 'GORGE', 'GOUGE', 'GRACE', 'GRADE', 
-'GRAFT', 'GRAIL', 'GRAIN', 'GRAND', 'GRANT', 'GRAPH', 'GRASP', 'GRATE', 'GRAVE', 'GRAVY', 
-'GREAT', 
+'GRAFT', 'GRAIL', 'GRAIN', 'GRAND', 'GRANT', 'GRAPH', 'GRASP', 'GRASS', 'GRATE', 'GRAVE', 
+'GRAVY', 'GREAT', 
 'GREED', 'GREEN', 'GREET', 'GRIEF', 'GRIFT', 'GRIND', 'GRIME', 'GRIMY', 'GRIPE', 'GROIN', 
 'GROAN', 'GROOM', 'GROSS', 'GROUP', 'GROUT', 'GROVE', 'GROWL', 'GROWN', 'GRUEL', 'GRUFF', 
 'GUANO', 
@@ -204,7 +204,7 @@ my_list = {
 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'SEGUE'
+word_to_find = 'GRASS'
 
 
 if word_to_find in my_list:
