@@ -1406,7 +1406,7 @@ export const dailyWordsSmall = [
     'RECUT', 'REEDY', 'REFIT', 'REHAB', 'REIGN', 
     'RENAL', 'REPLY', 'RESET', 'RICER', 'RIFLE', 
     'RIGOR', 'RINSE', 'RIPEN', 'RISER', 'RISKY', 'RIVER', 'ROAST', 'ROGER',
-    'ROOST', 'ROTOR', 'RUGBY', 'RULER', 'RUMOR', 'RURAL',
+    'ROOST', 'ROTOR', 'RULER', 'RUMOR', 'RURAL',
     'SADLY', 'SAFER', 'SALON', 'SALVE', 'SALVO', 'SANER', 'SAPPY', 'SATIN', 'SATYR', 
     'SAUCE', 'SAVOY', 'SCALP', 'SCALY', 'SCAMP', 'SCARY', 'SCENE',
     'SCION', 'SCOOP', 'SCREE', 'SCREW', 
@@ -2386,7 +2386,7 @@ export const dailyWordsLarge = [
     'ROWIE', 'ROWME', 'ROWND', 'ROWTH', 'ROWTS', 'ROYNE', 'ROYST', 'ROZET',
     'ROZIT', 'RUANA', 'RUBAI', 'RUBBY', 'RUBEL', 'RUBES', 'RUBIN', 'RUBLE', 'RUBLI', 'RUBUS',
     'RUCHE', 'RUCKS', 'RUDAS', 'RUDDS', 'RUDES', 'RUDIE', 'RUDIS', 'RUEDA',
-    'RUERS', 'RUFFE', 'RUFFS', 'RUGAE', 'RUGAL', 'RUGBY', 'RUGGY', 'RUING', 'RUINS', 'RUKHS',
+    'RUERS', 'RUFFE', 'RUFFS', 'RUGAE', 'RUGAL', 'RUGGY', 'RUING', 'RUINS', 'RUKHS',
     'RULED', 'RULER', 'RULES', 'RUMAL', 'RUMBO', 'RUMEN', 'RUMES', 'RUMLY', 'RUMMY',
     'RUMOR', 'RUMPO', 'RUMPS', 'RUMPY', 'RUNCH', 'RUNDS', 'RUNED', 'RUNES', 'RUNGS', 'RUNIC',
     'RUNNY', 'RUNTS', 'RUNTY', 'RUPIA', 'RURAL', 'RURPS', 'RURUS', 'RUSAS', 'RUSES',
@@ -12499,6 +12499,11 @@ export const wordleWords = [
         myScore: 3,
         wordNumber: 1642,
       }, 
+      { word: "RUGBY",
+        gameDate: "12/18/25",
+        myScore: 4,
+        wordNumber: 1643,
+      }, 
 
     
   ];
@@ -12516,7 +12521,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("December 17, 2025: Trump sux dykk000000000! GRASS")
+console.log("December 18, 2025: Trump sux dykk000000000! RUGBY")
 
 
 console.log(wordleWords)
