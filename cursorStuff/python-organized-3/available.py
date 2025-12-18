@@ -42,7 +42,7 @@ unused_list = [
 		    "GAVEL", "GAYER", "GAYLY", "GAZER", "GEEKY", "GIPSY",
 		    "GIRLY", "GIVER", "GLINT", "GLOSS", "GODLY", 
             "GOLLY", "GONAD", "GOURD", "GRAPE",
-            "GRASS", "GRAZE", "GRILL", "GROPE", "GROWN", 
+            "GRAZE", "GRILL", "GROPE", "GROWN", 
             "GRUNT", "GUAVA", "GUILT", "GULCH", "GUMBO", "GUSTO", "GUTSY", 
             "GYPSY", "HAREM", "HARPY", "HARRY", "HASTY", 
             "HAUTE", "HEDGE",  
@@ -124,7 +124,7 @@ unused_list = [
             "WREST", "WRING", "WRYLY", "ZONAL"
              ]
 
-word = 'SEGUE'
+word = 'GRASS'
 
 
 if word in unused_list:
