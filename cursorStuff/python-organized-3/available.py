@@ -61,7 +61,7 @@ unused_list = [
 	        "MELEE", "MILKY", "MINIM", "MINOR", "MISSY", "MOCHA",
 	        "MOGUL", "MOODY", "MORON", "MORPH", "MOTIF", "MOUND",
 	        "MOVER", "MOWER", "MUCUS", "MUDDY", "MURKY", "MUSKY",
-	        "MYRRH", "NACHO", "NEWER", "NEWLY",
+	        "NACHO", "NEWER", "NEWLY",
 	        "NIECE", "NINNY", "NOBLY", "NOOSE", "NOSEY",
 	        "NOTCH", "NUTTY", "OAKEN", "OBESE", "OCTAL", 
 	        "ODDER", "OLDEN", "OMBRE", "OPIUM", "OPTIC",
@@ -124,7 +124,7 @@ unused_list = [
             "WREST", "WRING", "WRYLY", "ZONAL"
              ]
 
-word = 'RUGBY'
+word = 'MYRRH'
 
 
 if word in unused_list:
