@@ -116,7 +116,7 @@ my_list = {
 'MONTH', 
 'MOOSE', 'MORAL', 'MOSSY', 'MOTEL', 'MOTOR', 'MOTTO', 'MOULT', 'MOUNT', 'MOURN', 'MOUSE', 
 'MOUTH', 'MOVIE', 'MUCKY', 'MUGGY', 'MULCH', 'MUNCH', 'MUMMY', 'MURAL', 'MUSIC', 'MUSHY', 
-'MUSTY', 'NADIR', 
+'MUSTY', 'MYRRH', 'NADIR', 
 'NAÏVE', 'NANNY', 'NASAL', 'NASTY', 'NATAL', 'NAVAL', 'NAVEL', 'NEEDY', 'NEIGH', 'NERDY', 
 'NERVE', 'NERVY', 'NEVER', 'NICHE', 'NICER', 'NIGHT', 'NINJA', 'NINTH', 'NOBLE', 'NOISE', 
 'NOISY', 'NOMAD', 'NORTH', 'NOVEL', 'NUDGE', 'NYLON', 'NYMPH', 'OCCUR', 'OCEAN', 'OCTET', 
@@ -204,7 +204,7 @@ my_list = {
 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'RUGBY'
+word_to_find = 'MYRRH'
 
 
 if word_to_find in my_list:
