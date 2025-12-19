@@ -1386,7 +1386,7 @@ export const dailyWordsSmall = [
     'MINIM', 'MINOR', 'MISSY', 'MOCHA',
     'MOGUL', 'MOODY', 'MORON', 'MORPH', 'MOTIF', 'MOUND', 
     'MOVER', 'MOWER',
-    'MUCUS', 'MUDDY', 'MURKY', 'MUSKY', 'MYRRH', 'NACHO',
+    'MUCUS', 'MUDDY', 'MURKY', 'MUSKY', 'NACHO',
     'NEWER', 'NEWLY', 'NIECE', 'NINNY',
     'NOBLY', 'NOOSE', 'NOSEY', 'NOTCH', 'NUTTY',
     'OAKEN', 'OBESE', 'OCTAL', 'ODDER', 'OLDEN', 'OMBRE',
@@ -2176,7 +2176,7 @@ export const dailyWordsLarge = [
     'MUSKS', 'MUSKY', 'MUSOS', 'MUSSE', 'MUSSY', 'MUSTH', 'MUSTS', 'MUTCH', 'MUTED',
     'MUTER', 'MUTES', 'MUTHA', 'MUTIS', 'MUTON', 'MUTTS', 'MUXED', 'MUXES', 'MUZAK', 'MUZZY',
     'MVULE', 'MYALL', 'MYLAR', 'MYNAH', 'MYNAS', 'MYOID', 'MYOMA', 'MYOPE', 'MYOPS', 'MYOPY',
-    'MYRRH', 'MYSID', 'MYTHI', 'MYTHS', 'MYTHY', 'MYXOS', 'MZEES', 'NAAMS', 'NAANS', 'NABES',
+    'MYSID', 'MYTHI', 'MYTHS', 'MYTHY', 'MYXOS', 'MZEES', 'NAAMS', 'NAANS', 'NABES',
     'NABIS', 'NABKS', 'NABLA', 'NABOB', 'NACHE', 'NACHO', 'NACRE', 'NADAS', 'NAEVE',
     'NAEVI', 'NAFFS', 'NAGAS', 'NAGGY', 'NAGOR', 'NAHAL', 'NAIAD', 'NAIFS', 'NAIKS', 'NAILS',
     'NAIRA', 'NAIRU', 'NAKED', 'NAKER', 'NAKFA', 'NALAS', 'NALED', 'NALLA', 'NAMED',
@@ -12504,6 +12504,11 @@ export const wordleWords = [
         myScore: 4,
         wordNumber: 1643,
       }, 
+      { word: "MYRRH",
+        gameDate: "12/19/25",
+        myScore: 4,
+        wordNumber: 1644,
+      }, 
 
     
   ];
@@ -12521,7 +12526,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("December 18, 2025: Trump sux dykk000000000! RUGBY")
+console.log("December 19, 2025: Trump sux dykk000000000! MYRRH")
 
 
 console.log(wordleWords)
