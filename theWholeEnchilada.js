@@ -1400,7 +1400,7 @@ export const dailyWordsSmall = [
     'PRAWN', 'PRIED', 'PRISM', 'PRIVY',  
     'PROOF', 'PRUDE', 'PUBIC', 'PUDGY', 'PUFFY', 'PULSE', 'PUNCH',
     'PUPPY', 'PUREE', 'PURER', 'PURSE', 'PUSHY', 'PUTTY', 'PYGMY', 'PYLON', 'QUACK',
-    'QUARK', 'QUASI', 'QUEER', 'QUELL', 'QUILT', 'QUOTH',
+    'QUARK', 'QUASI', 'QUEER', 'QUELL', 'QUOTH',
     'RABBI', 'RACER', 'RADAR', 'RADII', 'RAJAH', 'RALLY', 'RALPH', 'RANDY',
     'RARER', 'RASPY', 'RAVEN', 'RAZOR', 'REARM', 'REBAR', 
     'RECUT', 'REEDY', 'REFIT', 'REHAB', 'REIGN', 
@@ -2326,7 +2326,7 @@ export const dailyWordsLarge = [
     'QORMA', 'QUACK', 'QUADS', 'QUAFF', 'QUAGS', 'QUAIR', 'QUAIS', 'QUAKY', 'QUALE', 'QUANT',
     'QUARE', 'QUARK', 'QUASI', 'QUASS', 'QUATE', 'QUATS', 'QUAYD', 'QUAYS',
     'QUBIT', 'QUEAN', 'QUEER', 'QUELL', 'QUEME', 'QUENA', 'QUERN', 'QUEYN', 'QUEYS', 'QUICH', 
-    'QUIDS', 'QUIFF', 'QUILT', 'QUIMS', 'QUINA', 'QUINE', 'QUINO', 'QUINS', 'QUINT', 
+    'QUIDS', 'QUIFF', 'QUIMS', 'QUINA', 'QUINE', 'QUINO', 'QUINS', 'QUINT', 
     'QUIPO', 'QUIPS', 'QUIPU', 'QUIRE', 'QUIRT', 'QUIST', 'QUITS', 'QUOAD', 'QUODS', 'QUOIF', 
     'QUOIN', 'QUOIT', 'QUOLL', 'QUONK', 'QUOPS', 'QUOTH', 'QURSH', 'QUYTE', 'RABAT', 'RABBI',
     'RABIC', 'RABIS', 'RACED', 'RACER', 'RACES', 'RACHE', 'RACKS', 'RACON', 'RADAR',
@@ -12514,6 +12514,11 @@ export const wordleWords = [
         myScore: 3,
         wordNumber: 1645,
       }, 
+      { word: "QUILT",
+        gameDate: "12/21/25",
+        myScore: 2,
+        wordNumber: 1646,
+      }, 
 
     
   ];
@@ -12531,7 +12536,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("December 20, 2025: Trump sux dykk000000000! WHITE")
+console.log("December 21, 2025: Trump sux dykk000000000! QUILT")
 
 
 console.log(wordleWords)
