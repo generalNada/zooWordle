@@ -18,7 +18,7 @@ unused_list = [
             "CHICK", "CHIDE", "CHILI", "CHINA", "CHOMP", "CHUCK", "CHUMP", "CHURN",
 		    "CLACK", "CLAIM", "CLANG", "CLANK", "CLASP", "CLEAT", "CLIFF", 
             "CLINK", "CLOUT", "CLUED", "CLUMP", "COBRA", "COLOR", 
-            "COMIC", "CONCH", "COPSE", "COUCH", "COUGH", "COUPE", "COVEY", "CRACK", 
+            "COMIC", "COPSE", "COUCH", "COUGH", "COUPE", "COVEY", "CRACK", 
             "CRASH", "CREED", "CREEK", "CREEP", "CREME", "CRESS", 
             "CRICK", "CRIED", "CRIER", "CROCK", "CRONY", "CROUP", "CRUDE", "CRUEL", 
             "CRUMP", "CUBIC", "CURRY", "CURVY", "CUTIE", "CYCLE", 
@@ -124,7 +124,7 @@ unused_list = [
             "WREST", "WRING", "WRYLY", "ZONAL"
              ]
 
-word = 'QUILT'
+word = 'CONCH'
 
 
 if word in unused_list:
