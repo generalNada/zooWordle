@@ -39,7 +39,7 @@ my_list = {
 'CLEAN', 'CLEAR', 'CLEFT', 'CLERK', 
 'CLICK', 'CLIMB', 'CLING', 'CLOAK', 'CLOCK', 'CLONE', 'CLOSE', 'CLOTH', 'CLOUD', 'CLOVE', 
 'CLOWN', 'CLUCK', 'CLUNG', 'COACH', 'COAST', 'COCOA', 'COLIC', 'COLON', 'COMET', 'COMFY', 
-'COMMA', 
+'COMMA', 'CONCH',
 'CONDO', 'CONIC', 'CORAL', 'CORER', 'CORNY', 'COULD', 'COUNT', 'COURT', 'COVEN', 'COVER', 
 'COVET', 'COWER', 'COYLY', 'CRAFT', 
 'CRAMP', 'CRANE', 'CRANK', 'CRASS', 'CRATE', 'CRAVE', 'CRAWL', 'CRAZE', 'CRAZY', 'CREAK', 
@@ -205,7 +205,7 @@ my_list = {
 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'QUILT'
+word_to_find = 'CONCH'
 
 
 if word_to_find in my_list:
