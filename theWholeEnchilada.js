@@ -1339,7 +1339,7 @@ export const dailyWordsSmall = [
     'CHASM', 'CHESS', 'CHICK', 'CHIDE', 'CHILI', 'CHINA', 'CHOMP',
     'CHUCK', 'CHUMP', 'CHURN', 'CLACK', 'CLAIM',
     'CLANG', 'CLANK', 'CLASP', 'CLEAT', 'CLIFF', 'CLINK', 
-    'CLOUT', 'CLUED', 'CLUMP', 'COBRA', 'COLOR', 'COMIC', 'CONCH',
+    'CLOUT', 'CLUED', 'CLUMP', 'COBRA', 'COLOR', 'COMIC',
     'COPSE', 'COUCH', 'COUGH', 'COUPE', 'COVEY', 'CRACK', 
     'CRASH', 'CREED', 'CREEK', 'CREEP', 'CREME', 'CRESS',
     'CRICK', 'CRIED', 'CRIER', 'CROCK', 'CRONY', 'CROUP', 'CRUDE',
@@ -1668,7 +1668,7 @@ export const dailyWordsLarge = [
     'COLIN', 'COLLS', 'COLLY', 'COLOG', 'COLOR', 'COLTS', 'COLZA', 'COMAE',
     'COMAL', 'COMAS', 'COMBE', 'COMBI', 'COMBO', 'COMBS', 'COMBY', 'COMER', 'COMES',
     'COMIC', 'COMIX', 'COMMO', 'COMMS', 'COMMY', 'COMPO', 'COMPS', 'COMPT',
-    'COMTE', 'COMUS', 'CONCH', 'CONED', 'CONES', 'CONEY', 'CONFS', 'CONGA', 'CONGE',
+    'COMTE', 'COMUS', 'CONED', 'CONES', 'CONEY', 'CONFS', 'CONGA', 'CONGE',
     'CONGO', 'CONIA', 'CONIN', 'CONKS', 'CONKY', 'CONNE', 'CONNS', 'CONTE', 'CONTO',
     'CONUS', 'CONVO', 'COOCH', 'COOED', 'COOEE', 'COOER', 'COOEY', 'COOFS', 'COOKS', 'COOKY',
     'COOLS', 'COOMB', 'COOMS', 'COOMY', 'COONS', 'COOPS', 'COOPT', 'COOST', 'COOTS', 'COOZE',
@@ -12519,6 +12519,11 @@ export const wordleWords = [
         myScore: 2,
         wordNumber: 1646,
       }, 
+      { word: "CONCH",
+        gameDate: "12/22/25",
+        myScore: 4,
+        wordNumber: 1647,
+      }, 
 
     
   ];
@@ -12536,7 +12541,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("December 21, 2025: Trump sux dykk000000000! QUILT")
+console.log("December 22, 2025: Trump sux dykk000000000! CONCH")
 
 
 console.log(wordleWords)
