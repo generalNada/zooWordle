@@ -12519,6 +12519,11 @@ export const wordleWords = [
         myScore: 2,
         wordNumber: 1646,
       }, 
+      { word: "CONCH",
+        gameDate: "12/22/25",
+        myScore: 4,
+        wordNumber: 1647,
+      }, 
       { word: "GLINT",
         gameDate: "12/23/25",
         myScore: 2,
@@ -12565,5 +12570,3 @@ logOverallAverageScore();
 const totalScoredWords = wordleWords.filter(entry => entry.myScore >= 0).length;
 
 console.log("Total words with score >= 0:", totalScoredWords);
-
-
