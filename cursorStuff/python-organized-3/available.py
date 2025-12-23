@@ -40,7 +40,7 @@ unused_list = [
             "FRUIT", "FUDGE",
 		    "FUROR", "FURRY", "FUSSY", "GABLE", "GAFFE", "GAILY", "GASSY", "GATOR",
 		    "GAVEL", "GAYER", "GAYLY", "GAZER", "GEEKY", "GIPSY",
-		    "GIRLY", "GIVER", "GLINT", "GLOSS", "GODLY", 
+		    "GIRLY", "GIVER", "GLOSS", "GODLY", 
             "GOLLY", "GONAD", "GOURD", "GRAPE",
             "GRAZE", "GRILL", "GROPE", "GROWN", 
             "GRUNT", "GUAVA", "GUILT", "GULCH", "GUMBO", "GUSTO", "GUTSY", 
@@ -124,7 +124,7 @@ unused_list = [
             "WREST", "WRING", "WRYLY", "ZONAL"
              ]
 
-word = 'CONCH'
+word = 'GLINT'
 
 
 if word in unused_list:
