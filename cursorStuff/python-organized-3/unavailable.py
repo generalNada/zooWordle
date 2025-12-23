@@ -73,7 +73,8 @@ my_list = {
 'FUNGI', 'FUNKY', 'FUNNY', 'FUZZY', 'GAMER', 'GAMMA', 'GAMUT', 'GAUDY', 'GAUGE', 'GAUNT', 
 'GAUZE', 'GAWKY', 'GECKO', 'GEESE', 'GENIE', 'GENRE', 'GHOST', 'GHOUL', 'GIANT', 'GIDDY', 
 'GIRTH', 'GIVEN', 'GIZMO', 'GLADE', 'GLAND', 'GLARE', 'GLASS', 'GLAZE', 'GLEAM', 'GLEAN', 
-'GLIDE', 'GLOAT', 'GLOBE', 'GLOOM', 'GLORY', 'GLOVE', 'GLYPH', 'GNASH', 'GNOME', 'GOING', 
+'GLIDE', 'GLINT', 'GLOAT', 'GLOBE', 'GLOOM', 'GLORY', 'GLOVE', 'GLYPH', 'GNASH', 'GNOME', 
+'GOING', 
 'GOLEM', 'GONER', 'GOODY', 'GOOEY', 'GOOFY', 'GOOSE', 'GORGE', 'GOUGE', 'GRACE', 'GRADE', 
 'GRAFT', 'GRAIL', 'GRAIN', 'GRAND', 'GRANT', 'GRAPH', 'GRASP', 'GRASS', 'GRATE', 'GRAVE', 
 'GRAVY', 'GREAT', 
@@ -205,7 +206,7 @@ my_list = {
 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'CONCH'
+word_to_find = 'GLINT'
 
 
 if word_to_find in my_list:
