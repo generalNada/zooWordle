@@ -165,8 +165,8 @@ my_list = {
 'SPARE', 'SPASM', 'SPARK', 'SPATE', 'SPEAK', 'SPEAR', 'SPELL', 'SPELT', 'SPEND', 'SPENT', 
 'SPICE', 
 'SPICY', 'SPIEL', 'SPIKE', 'SPILL', 'SPINE', 'SPIRE', 'SPITE', 'SPLAT', 'SPLIT', 'SPOIL', 
-'SPOKE', 'SPOOF', 'SPOON', 'SPORE', 'SPORT', 'SPOUT', 'SPRAY', 'SPRIG', 'SPURT', 'SQUAD', 
-'SQUAT', 'SQUID', 'STACK',
+'SPOKE', 'SPOOF', 'SPOOL',,'SPOON', 'SPORE', 'SPORT', 'SPOUT', 'SPRAY', 'SPRIG', 'SPURT', 
+'SQUAD', 'SQUAT', 'SQUID', 'STACK',
  
 # BREAK FOR ALPHABIZING - ADDITIONS CAN BE HELD AT BOTTOM OF REPRESENATIVE BLOCK
 
@@ -206,7 +206,7 @@ my_list = {
 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'GLINT'
+word_to_find = 'SPOOL'
 
 
 if word_to_find in my_list:
