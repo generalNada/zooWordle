@@ -97,7 +97,7 @@ unused_list = [
             "SNIFF", "SNIPE", "SNORE", "SNOWY", "SNUCK", "SNUFF", "SOAPY", "SOBER", "SONAR", 
             "SOOTH", "SOOTY", "SPANK", "SPAWN",  
             "SPEED", "SPERM", "SPIED", "SPIKY", "SPILT", "SPINY", 
-            "SPOOK", "SPOOL", "SPREE", 
+            "SPOOK", "SPREE", 
             "SPUNK", "SPURN", "SQUIB", "STALK", "STALL", "STANK",
             "STAVE", "STEAK", "STEAL", "STEER", 
             "STOKE", "STOOD", "STOOP", "STRIP", "STRUT", "STUCK", 
@@ -124,7 +124,7 @@ unused_list = [
             "WREST", "WRING", "WRYLY", "ZONAL"
              ]
 
-word = 'GLINT'
+word = 'SPOOL'
 
 
 if word in unused_list:
