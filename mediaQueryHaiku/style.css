@@ -1443,6 +1443,12 @@ body {
   padding: 0.55rem;
 }
 
+.whole-box-215 {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3mtQ1MOLBkcJPSdB0sEXLJX7spfjALWTLuQ&s);
+  background-size: fit-content;
+  padding: 0.55rem;
+}
+
 .line-1a {
   color: rgb(0, 0, 0);
   background-color: rgb(255, 255 255);
@@ -5285,6 +5291,27 @@ body {
 .line-214c {
   background-color: rgb(170, 217, 222);
   color: rgb(190, 21, 111);       
+  font-style: oblique;      
+  opacity: 0.77;
+}
+
+.line-215a {
+  background-color: chartreuse;
+  color: crimson;    
+  font-style: oblique;               
+  opacity: 0.77;
+}
+
+.line-215b {
+  background-color: chartreuse;
+  color: crimson;  
+  font-style: oblique;    
+  opacity: 0.77;
+}
+
+.line-215c {
+  background-color: chartreuse;
+  color: crimson;     
   font-style: oblique;      
   opacity: 0.77;
 }
