@@ -2969,6 +2969,16 @@ border: 5px solid aqua;
   border-radius: 1.1rem;
 }
 
+.badAssMan2X {
+  font-family: "Single Day", cursive;
+  color: rgb(10, 255, 71);
+  background-color: rgb(55, 102, 12);
+  font-size: 1.65rem;
+  line-height: 1.65rem;
+  border: solid rgb(29, 58, 118) 0.2rem;
+  border-radius: 1.1rem;
+}
+
 .badAssMan3 {
   background-color: navy;
   color: white;
