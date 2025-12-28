@@ -1316,7 +1316,7 @@ export const fixedWordsLarge = [
 console.log("Fuck man");
 
 export const dailyWordsSmall = [
-    'ABBOT', 'ABLED', 'ABODE', 'ABORT', 'ABUSE', 
+    'ABLED', 'ABODE', 'ABORT', 'ABUSE', 
     'ADORN', 'AFIRE', 'AFOOT', 'AFOUL', 'AIDER', 'ALGAE',
     'ALIBI', 'ALIGN', 'ALLAY', 'ALLEY', 'ALLOT', 'ALLOY', 'AMAZE', 'AMEND',
     'AMITY', 'AMPLY', 'ANIME', 'ANKLE',
@@ -1448,7 +1448,7 @@ export const dailyWordsSmall = [
 export const dailyWordsLarge = [
     'AAHED', 'AALII', 'AARGH', 'AARTI', 'ABACA', 'ABACI', 'ABACS', 'ABAFT', 'ABAKA',
     'ABAMP', 'ABAND', 'ABASH', 'ABASK', 'ABAYA', 'ABBAS', 'ABBED', 'ABBES',
-    'ABBOT', 'ABCEE', 'ABEAM', 'ABEAR', 'ABELE', 'ABERS', 'ABETS', 
+    'ABCEE', 'ABEAM', 'ABEAR', 'ABELE', 'ABERS', 'ABETS', 
     'ABIES', 'ABLED', 'ABLER', 'ABLES', 'ABLET', 'ABLOW', 'ABMHO', 'ABODE', 'ABOHM', 'ABOIL',
     'ABOMA', 'ABOON', 'ABORD', 'ABORE', 'ABORT', 'ABRAM', 'ABRAY', 'ABRIS',
     'ABSEY', 'ABSIT', 'ABUNA', 'ABUNE', 'ABUSE', 'ABUTS', 'ABUZZ', 'ABYES', 'ABYME',
@@ -12547,6 +12547,11 @@ export const wordleWords = [
         myScore: 3,
         wordNumber: 1652,
       }, 
+      { word: "ABBOT",
+        gameDate: "12/28/25",
+        myScore: 4,
+        wordNumber: 1653,
+      }, 
 
     
   ];
@@ -12564,7 +12569,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("December 27, 2025: Trump sux dykk000000000! BATCH")
+console.log("December 28, 2025: Trump sux dykk000000000! ABBOT")
 
 
 console.log(wordleWords)
