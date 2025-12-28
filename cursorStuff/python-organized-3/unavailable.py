@@ -14,9 +14,9 @@ my_list = {
 'ATOLL', 'ATONE', 'ATRIA', 'AUDIO', 'AUDIT', 'AVAIL', 'AVERT', 'AWAIT', 'AWAKE', 'AWARD', 
 'AWARE', 'AWASH', 'AWOKE', 'AWFUL', 'AXIOM', 'AZURE', 'BACON', 'BADGE', 'BADLY', 'BAGEL', 
 'BAKER', 
-'BALER', 'BALMY', 'BALSA', 'BANAL', 'BANJO', 'BARGE', 'BASIC', 'BASIN', 'BASTE', 'BATHE', 
-'BATON', 'BATTY', 'BAWDY', 'BAYOU', 'BEACH', 'BEADY', 'BEARD', 'BEAST', 'BEAUT', 'BEEFY', 
-'BEGET', 
+'BALER', 'BALMY', 'BALSA', 'BANAL', 'BANJO', 'BARGE', 'BASIC', 'BASIN', 'BATCH', 'BASTE', 
+'BATHE', 'BATON', 'BATTY', 'BAWDY', 'BAYOU', 'BEACH', 'BEADY', 'BEARD', 'BEAST', 'BEAUT', 
+'BEEFY', 'BEGET', 
 'BEGIN', 'BEING', 'BELCH', 'BELIE', 'BELLY', 'BELOW', 'BENCH', 'BERET', 'BERTH', 'BESET', 
 'BEVEL', 'BICEP', 'BILGE', 'BINGE', 'BIOME', 'BIRCH', 'BIRTH', 'BLACK', 'BLADE', 'BLAME', 
 'BLAND', 'BLANK', 'BLARE', 'BLAZE', 'BLEAK', 'BLEED', 'BLEEP', 'BLEND', 'BLIMP', 'BLINK', 
@@ -206,7 +206,7 @@ my_list = {
 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'SPEED'
+word_to_find = 'BATCH'
 
 
 if word_to_find in my_list:
