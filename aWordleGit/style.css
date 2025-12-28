@@ -3219,6 +3219,16 @@ border: 5px solid aqua;
   border-radius: 1.1rem;
 }
 
+.badAssMan3X {
+  color: rgb(66, 44, 66);
+  background-color: rgb(88, 55, 88); 
+  font-family: "Silkscreen", sans-serif;
+  font-size: 2.25rem;
+  line-height: 2.25rem;
+  border: solid rgb(29, 58, 118) 0.2rem;
+  border-radius: 1.1rem;
+}
+
 .jasmineCrockett {
   color: white;
   background-color: black;
