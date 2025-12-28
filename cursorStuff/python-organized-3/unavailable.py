@@ -1,8 +1,8 @@
 my_list = {
 
-'ABACK', 'ABASE', 'ABATE', 'ABBEY', 'ABHOR', 'ABIDE', 'ABOUT', 'ABOVE', 'ABYSS', 'ACORN', 
-'ACRID', 'ACTOR', 'ACUTE', 'ADAGE', 'ADAPT', 'ADEPT', 'ADMIN', 'ADMIT', 'ADOBE', 'ADOPT', 
-'ADORE', 'ADULT', 
+'ABACK', 'ABASE', 'ABATE', 'ABBEY', 'ABBOT', 'ABHOR', 'ABIDE', 'ABOUT', 'ABOVE', 'ABYSS', 
+'ACORN', 'ACRID', 'ACTOR', 'ACUTE', 'ADAGE', 'ADAPT', 'ADEPT', 'ADMIN', 'ADMIT', 'ADOBE', 
+'ADOPT', 'ADORE', 'ADULT', 
 'AFFIX', 'AFTER', 'AGAIN', 'AGAPE', 'AGATE', 'AGENT', 'AGILE', 'AGING', 'AGLOW', 'AGONY', 
 'AGREE', 'AHEAD', 'AISLE', 'ALARM', 'ALBUM', 'ALERT', 'ALIEN', 'ALIKE', 'ALIVE', 'ALLOW', 
 'ALOFT', 'ALONE', 'ALONG', 'ALOOF', 'ALOUD', 'ALPHA', 'ALTAR', 'ALTER', 'AMASS', 'AMBER', 
@@ -206,7 +206,7 @@ my_list = {
 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'BATCH'
+word_to_find = 'ABBOT'
 
 
 if word_to_find in my_list:
