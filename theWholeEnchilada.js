@@ -1343,7 +1343,7 @@ export const dailyWordsSmall = [
     'CRICK', 'CRIED', 'CRIER', 'CROCK', 'CRONY', 'CROUP', 'CRUDE',
     'CRUEL', 'CRUMP', 'CUBIC', 'CURRY', 'CURVY',
     'CUTIE', 'CYCLE', 'DAILY', 'DAIRY', 'DEALT', 'DEBAR',
-    'DECOR', 'DEIGN', 
+    'DEIGN', 
     'DEMON', 'DEMUR', 'DENSE', 'DERBY', 'DILLY', 'DIMLY',
     'DIODE', 'DIRTY', 'DITCH', 'DIVAN', 'DIVER', 'DIZZY', 
     'DOGMA', 'DOWDY', 'DOWNY', 'DRAKE', 'DRAMA',
@@ -1713,7 +1713,7 @@ export const dailyWordsLarge = [
     'DEADS', 'DEAIR', 'DEALS', 'DEALT', 'DEANS', 'DEARE', 'DEARN', 'DEARS', 'DEARY', 'DEASH',
     'DEAVE', 'DEAWS', 'DEAWY', 'DEBAG', 'DEBAR', 'DEBBY', 'DEBEL', 'DEBES', 
     'DEBTS', 'DEBUD', 'DEBUR', 'DEBUS', 'DEBYE', 'DECAD', 'DECAF',
-    'DECAN', 'DECKO', 'DECKS', 'DECOR', 'DECOS', 'DEDAL', 'DEEDS',
+    'DECAN', 'DECKO', 'DECKS', 'DECOS', 'DEDAL', 'DEEDS',
     'DEEDY', 'DEELY', 'DEEMS', 'DEENS', 'DEEPS', 'DEERE', 'DEERS', 'DEETS', 'DEEVE', 'DEEVS',
     'DEFAT', 'DEFFO', 'DEFIS', 'DEFOG', 'DEGAS', 'DEGUM', 'DEGUS', 'DEICE', 'DEIDS',
     'DEIFY', 'DEIGN', 'DEILS', 'DEISM', 'DEIST', 'DEKED', 'DEKES', 'DEKKO', 
@@ -12557,6 +12557,11 @@ export const wordleWords = [
         myScore: 3,
         wordNumber: 1654,
       }, 
+      { word: "DECOR",
+        gameDate: "12/30/25",
+        myScore: 2,
+        wordNumber: 1655,
+      }, 
 
     
   ];
@@ -12574,7 +12579,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("December 29, 2025: Trump sux dykk000000000! FRUIT")
+console.log("December 30, 2025: Trump sux dykk000000000! DECOR")
 
 
 console.log(wordleWords)
