@@ -46,7 +46,8 @@ my_list = {
 'CREAM', 'CREDO', 'CREPE', 'CREPT', 'CREST', 'CRIME', 'CRIMP', 'CRISP', 'CROAK', 'CRONE', 
 'CROOK', 'CROSS', 'CROWD', 'CROWN', 'CRUMB', 'CRUSH', 'CRUST', 'CRYPT', 'CUMIN', 'CURIO', 
 'CURLY', 'CURVE', 'CURSE', 'CYBER', 'CYNIC', 'DADDY', 'DAISY', 'DALLY', 'DANCE', 'DANDY', 
-'DATUM', 'DAUNT', 'DEATH', 'DEBIT', 'DEBUG', 'DEBUT', 'DECAL', 'DECAY', 'DECOY', 'DECRY', 
+'DATUM', 'DAUNT', 'DEATH', 'DEBIT', 'DEBUG', 'DEBUT', 'DECAL', 'DECAY', 'DECOR', 'DECOY', 
+'DECRY', 
 'DEFER', 'DEITY', 'DELAY', 'DELTA', 'DELVE', 'DENIM', 'DEPOT', 'DEPTH', 'DETER', 'DETOX', 
 'DEUCE', 'DEVIL', 'DIARY', 'DICEY', 'DIGIT', 'DINER', 'DINGO', 'DINGY', 'DIRGE', 'DISCO', 
 'DITTO', 'DITTY', 'DODGE', 'DODGY', 'DOGMA', 'DOING', 'DOLLY', 'DONOR', 'DONUT', 'DOPEY', 
@@ -207,7 +208,7 @@ my_list = {
 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'ABBOT'
+word_to_find = 'DECOR'
 
 
 if word_to_find in my_list:
