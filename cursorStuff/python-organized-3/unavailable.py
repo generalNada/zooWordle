@@ -158,7 +158,7 @@ my_list = {
 'SHAFT', 'SHAKE', 'SHAKY', 'SHALL', 'SHAME', 'SHANK', 'SHAPE', 'SHARD', 'SHARE', 'SHARP', 
 'SHAVE', 'SHAWL', 'SHEAR', 'SHEET', 'SHELF', 'SHELL', 'SHIFT', 'SHINE', 'SHIRE', 'SHIRK', 
 'SHORE', 'SHORN', 'SHORT', 'SHOUT', 'SHOVE', 'SHOWN', 'SHOWY', 'SHRUB', 'SHRUG', 'SHUCK', 
-'SHUNT', 'SHYLY', 'SIEGE', 'SIGHT', 'SILLY', 'SINCE', 'SISSY', 'SIXTH', 'SKATE', 
+'SHUNT', 'SHYLY', 'SIEGE', 'SIGHT', 'SILLY', 'SINCE', 'SIREN', 'SISSY', 'SIXTH', 'SKATE', 
 'SKILL', 'SKIMP', 'SKIER', 'SKIFF', 'SKIRT', 'SKUNK', 'SLANG', 'SLATE', 'SLEEK', 'SLEEP', 
 'SLICE', 'SLOPE', 'SLOSH', 'SLOTH', 'SLUMP', 'SLUNG', 'SMALL', 'SMART', 'SMASH', 'SMEAR', 
 'SMELT', 'SMILE', 'SMIRK', 'SMITE', 'SMITH', 'SMOCK', 'SMOKE', 'SNACK', 'SNAFU', 'SNAIL', 
@@ -208,7 +208,7 @@ my_list = {
 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'DECOR'
+word_to_find = 'SIREN'
 
 
 if word_to_find in my_list:
