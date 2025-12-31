@@ -1412,7 +1412,7 @@ export const dailyWordsSmall = [
     'SHADY', 'SHALE', 'SHALT', 'SHARK', 
     'SHEEN', 'SHEEP', 'SHEER', 'SHEIK', 'SHIED', 'SHINY', 'SHIRT',
     'SHOAL', 'SHOCK', 'SHONE', 'SHOOK', 'SHOOT', 'SHREW',
-    'SIEVE', 'SIGMA', 'SILKY', 'SINEW', 'SINGE', 'SIREN',
+    'SIEVE', 'SIGMA', 'SILKY', 'SINEW', 'SINGE', 
     'SIXTY', 'SKULK', 'SKULL', 'SLACK', 'SLAIN', 'SLANT', 'SLASH', 'SLAVE', 
     'SLEET', 'SLEPT', 'SLICK', 'SLIDE', 'SLIME', 'SLIMY', 'SLING', 'SLINK',
     'SLOOP', 'SLUNK', 'SLURP', 'SLUSH', 'SLYLY', 'SMACK', 'SMELL', 'SMOKY',
@@ -2451,7 +2451,7 @@ export const dailyWordsLarge = [
     'SILER', 'SILES', 'SILEX', 'SILKS', 'SILKY', 'SILLS', 'SILOS', 'SILTS', 'SILTY',
     'SILVA', 'SIMAR', 'SIMAS', 'SIMBA', 'SIMIS', 'SIMPS', 'SIMUL', 'SINDS', 'SINED',
     'SINES', 'SINEW', 'SINGE', 'SINGS', 'SINHS', 'SINKS', 'SINKY', 'SINUS', 'SIPED', 'SIPES',
-    'SIPPY', 'SIRED', 'SIREE', 'SIREN', 'SIRES', 'SIRIH', 'SIRIS', 'SIROC', 'SIRRA', 'SIRUP',
+    'SIPPY', 'SIRED', 'SIREE', 'SIRES', 'SIRIH', 'SIRIS', 'SIROC', 'SIRRA', 'SIRUP',
     'SISAL', 'SISES', 'SISTA', 'SISTS', 'SITAR', 'SITED', 'SITES', 'SITHE', 'SITKA',
     'SITUP', 'SITUS', 'SIVER', 'SIXER', 'SIXES', 'SIXMO', 'SIXTE', 'SIXTY', 'SIZAR',
     'SIZED', 'SIZEL', 'SIZER', 'SIZES', 'SKAGS', 'SKAIL', 'SKALD', 'SKANK', 'SKART',
@@ -12562,6 +12562,11 @@ export const wordleWords = [
         myScore: 2,
         wordNumber: 1655,
       }, 
+      { word: "SIREN",
+        gameDate: "12/31/25",
+        myScore: 2,
+        wordNumber: 1656,
+      }, 
 
     
   ];
@@ -12579,7 +12584,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("December 30, 2025: Trump sux dykk000000000! DECOR")
+console.log("December 31, 2025: Trump sux dykk000000000! SIREN")
 
 
 console.log(wordleWords)
