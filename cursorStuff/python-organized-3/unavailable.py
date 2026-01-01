@@ -60,7 +60,8 @@ my_list = {
 'ENTER', 'EPOCH', 'EPOXY', 'EQUAL', 'EQUIP', 'ERASE', 'ERODE', 'ERROR', 'ERUPT', 'ESSAY', 
 'ETHER', 
 'ETHIC', 'ETHOS', 'EVADE', 'EVERY', 'EVOKE', 'EXACT', 'EXALT', 'EXCEL', 'EXERT', 'EXILE', 
-'EXIST', 'EXPEL', 'EXTOL', 'EXTRA', 'EVENT', 'EXULT', 'FACET', 'FAINT', 'FAITH', 'FALSE', 
+'EXIST', 'EXPEL', 'EXTOL', 'EXTRA', 'EVENT', 'EXULT', 'FABLE', 'FACET', 'FAINT', 'FAITH', 
+'FALSE', 
 'FANCY', 'FARCE', 'FAULT', 'FAVOR', 'FEAST', 'FEIGN', 'FERAL', 'FERRY', 'FETCH', 'FETID', 
 'FEVER', 'FEWER', 'FIBER', 'FIELD', 'FIEND', 
 'FIFTH', 'FIFTY', 'FILET', 'FINAL', 'FINCH', 'FINER', 'FIRST', 'FISHY', 'FIXER', 'FJORD', 
@@ -208,7 +209,7 @@ my_list = {
 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'SIREN'
+word_to_find = 'FABLE'
 
 
 if word_to_find in my_list:
