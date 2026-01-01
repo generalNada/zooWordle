@@ -1353,7 +1353,7 @@ export const dailyWordsSmall = [
     'EATEN', 'EATER', 'ECLAT', 'EERIE', 'EIGHT', 'EKING', 'ELECT',
     'ELEGY', 'ELFIN', 'ELIDE', 'EMBED', 'EMCEE', 'ENEMY', 
     'ENTRY', 'ENVOY', 'ERECT', 'ESTER', 'ETUDE', 'EVICT',
-    'EYING', 'FABLE', 'FACET', 'FAIRY', 
+    'EYING', 'FACET', 'FAIRY', 
     'FANNY', 'FATAL', 'FATTY', 'FAUNA', 'FECAL', 'FELLA', 'FELON', 'FEMME', 'FEMUR', 'FENCE',
     'FETAL', 'FETUS', 'FICUS', 'FIERY', 
     'FIGHT', 'FILER', 'FILLY', 'FILMY', 'FILTH', 'FIZZY', 'FLACK', 'FLAKY',
@@ -1799,7 +1799,7 @@ export const dailyWordsLarge = [
     'EXAMS', 'EXEAT', 'EXECS', 'EXEEM', 'EXEME', 'EXFIL', 'EXIES',
     'EXINE', 'EXING', 'EXITS', 'EXODE', 'EXOME', 'EXONS', 'EXPAT', 
     'EXPOS', 'EXUDE', 'EXULS', 'EXURB', 'EYASS', 'EYERS', 'EYING',
-    'EYOTS', 'EYRAS', 'EYRES', 'EYRIE', 'EYRIR', 'EZINE', 'FABLE', 'FACED', 'FACES', 
+    'EYOTS', 'EYRAS', 'EYRES', 'EYRIE', 'EYRIR', 'EZINE', 'FACED', 'FACES', 
     'FACIA', 'FACTA', 'FACTS', 'FADDY', 'FADED', 'FADER', 'FADES', 'FADGE', 'FADOS', 'FAENA', 
     'FAERY', 'FAGGY', 'FAGIN', 'FAGOT', 'FAILS', 'FAIRE', 'FAIRS', 'FAIRY', 'FAKED', 
     'FAKER', 'FAKES', 'FAKIE', 'FAKIR', 'FALAJ', 'FALLS', 'FAMED', 'FAMES', 'FANAL', 'FANDS',
@@ -12584,7 +12584,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("December 31, 2025: Trump sux dykk000000000! SIREN")
+console.log("January 1, 2026: Trump sux dykk000000000! FABLE")
 
 
 console.log(wordleWords)
