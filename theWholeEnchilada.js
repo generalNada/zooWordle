@@ -1396,7 +1396,7 @@ export const dailyWordsSmall = [
     'PLIED', 'PLIER', 'PLUME', 'PLUSH',
     'POESY', 'POOCH', 'POSER', 'POSIT', 'POSSE', 'POUCH', 
     'PRAWN', 'PRIED', 'PRIVY',  
-    'PROOF', 'PRUDE', 'PUBIC', 'PUDGY', 'PUFFY', 'PULSE', 'PUNCH',
+    'PRUDE', 'PUBIC', 'PUDGY', 'PUFFY', 'PULSE', 'PUNCH',
     'PUPPY', 'PUREE', 'PURER', 'PURSE', 'PUSHY', 'PUTTY', 'PYGMY', 'PYLON', 'QUACK',
     'QUARK', 'QUASI', 'QUEER', 'QUELL', 'QUOTH',
     'RABBI', 'RACER', 'RADAR', 'RADII', 'RAJAH', 'RALLY', 'RALPH', 'RANDY',
@@ -2305,7 +2305,7 @@ export const dailyWordsLarge = [
     'PRILL', 'PRIMA', 'PRIMI', 'PRIMS', 'PRIMY', 'PRINK',
     'PRION', 'PRISE', 'PRISS', 'PRIVY', 'PROAS', 'PROBS',
     'PRODS', 'PROEM', 'PROFS', 'PROGS', 'PROIN', 'PROKE', 'PROLE', 'PROLL', 'PROMO', 'PROMS',
-    'PRONK', 'PROOF', 'PROPS', 'PRORE', 'PROSO', 'PROSS', 'PROST',
+    'PRONK', 'PROPS', 'PRORE', 'PROSO', 'PROSS', 'PROST',
     'PROSY', 'PROTO', 'PROUL', 'PROWS', 'PROYN', 'PRUDE',
     'PRUNT', 'PRUTA', 'PRYER', 'PRYSE', 'PSEUD', 'PSHAW', 'PSION', 'PSOAE',
     'PSOAI', 'PSOAS', 'PSORA', 'PSYCH', 'PSYOP', 'PUBCO', 'PUBES', 'PUBIC', 'PUBIS', 'PUCAN',
@@ -12572,6 +12572,11 @@ export const wordleWords = [
         myScore: 3,
         wordNumber: 1657,
       }, 
+      { word: "PROOF",
+        gameDate: "1/2/26",
+        myScore: 3,
+        wordNumber: 1658,
+      }, 
 
     
   ];
@@ -12589,7 +12594,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("January 1, 2026: Trump sux dykk000000000! FABLE")
+console.log("January 2, 2026: Trump sux dykk000000000! PROOF")
 
 
 console.log(wordleWords)
