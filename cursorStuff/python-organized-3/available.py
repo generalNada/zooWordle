@@ -73,7 +73,7 @@ unused_list = [
 	        "PIZZA", "PLACE", 
 	        "PLIED", "PLIER", "PLUME", "PLUSH", "POESY", "POOCH",
 	        "POSER", "POSIT", "POSSE", "POUCH", "PRAWN", 
-		    "PRIED", "PRIVY", "PROOF", 
+		    "PRIED", "PRIVY", 
 		    "PRUDE", "PUBIC", "PUDGY", "PUFFY", "PULSE", "PUNCH",
 		    "PUPPY", "PUREE", "PURER", "PURSE", "PUSHY", "PUTTY", "PYGMY", "QUACK",
 		    "QUARK", "QUASI", "QUEER", "QUELL", 
@@ -123,7 +123,7 @@ unused_list = [
             "WREST", "WRING", "WRYLY", "ZONAL"
              ]
 
-word = 'FABLE'
+word = 'PROOF'
 
 
 if word in unused_list:
