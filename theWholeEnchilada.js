@@ -1321,7 +1321,7 @@ export const dailyWordsSmall = [
     'ALIBI', 'ALIGN', 'ALLAY', 'ALLEY', 'ALLOT', 'ALLOY', 'AMAZE', 'AMEND',
     'AMITY', 'AMPLY', 'ANIME', 'ANKLE',
     'ANNUL', 'APING', 'APNEA', 'ARENA', 'ARMOR', 'AROSE', 'ARRAY', 
-    'ARSON', 'ATTIC', 'AUGUR', 'AUNTY', 'AVIAN', 'AVOID', 
+    'ARSON', 'ASTIR', 'ATTIC', 'AUGUR', 'AUNTY', 'AVIAN', 'AVOID', 
     'AXIAL', 'AXION', 'BAGGY', 'BARON',
     'BASAL', 'BASIL', 'BASIS', 'BEECH', 'BEFIT',
     'BEGAN', 'BEGAT', 'BEGUN', 'BELLE', 'BERRY', 'BETEL', 'BEZEL', 'BIBLE',
@@ -2452,7 +2452,7 @@ export const dailyWordsLarge = [
     'SILVA', 'SIMAR', 'SIMAS', 'SIMBA', 'SIMIS', 'SIMPS', 'SIMUL', 'SINDS', 'SINED',
     'SINES', 'SINEW', 'SINGE', 'SINGS', 'SINHS', 'SINKS', 'SINKY', 'SINUS', 'SIPED', 'SIPES',
     'SIPPY', 'SIRED', 'SIREE', 'SIRES', 'SIRIH', 'SIRIS', 'SIROC', 'SIRRA', 'SIRUP',
-    'SISAL', 'SISES', 'SISTA', 'SISTS', 'SITAR', 'SITED', 'SITES', 'SITHE', 'SITKA',
+    'SISAL', 'SISES', 'SISTA', 'SISTS', 'SITED', 'SITES', 'SITHE', 'SITKA',
     'SITUP', 'SITUS', 'SIVER', 'SIXER', 'SIXES', 'SIXMO', 'SIXTE', 'SIXTY', 'SIZAR',
     'SIZED', 'SIZEL', 'SIZER', 'SIZES', 'SKAGS', 'SKAIL', 'SKALD', 'SKANK', 'SKART',
     'SKATS', 'SKATT', 'SKAWS', 'SKEAN', 'SKEAR', 'SKEDS', 'SKEED', 'SKEEF', 'SKEEN', 'SKEER',
@@ -12577,6 +12577,11 @@ export const wordleWords = [
         myScore: 3,
         wordNumber: 1658,
       }, 
+      { word: "SITAR",
+        gameDate: "1/3/26",
+        myScore: 4,
+        wordNumber: 1659,
+      }, 
 
     
   ];
@@ -12594,7 +12599,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("January 2, 2026: Trump sux dykk000000000! PROOF")
+console.log("January 3, 2026: Trump sux dykk000000000! SITAR")
 
 
 console.log(wordleWords)
