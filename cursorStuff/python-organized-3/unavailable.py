@@ -134,7 +134,8 @@ my_list = {
 'PIETY', 'PINKY', 'PILOT', 'PINCH', 'PINEY', 'PINTO', 'PIOUS', 'PIPER', 'PIQUE', 'PITCH', 
 'PITHY', 'PIXEL', 'PIXIE', 'PLACE', 'PLAID', 'PLAIN', 'PLAIT', 'PLANE', 'PLANK', 'PLANT', 
 'PLATE', 'PLAZA', 'PLEAD', 'PLEAT', 'PLUCK', 'PLUMB', 'PLUMP', 'PLUNK', 'POINT', 'POISE', 
-'POKER', 'POLKA', 'POLYP', 'POPPY', 'PORCH', 'POUND', 'POUTY', 'POWER', 'PRANK', 'PREEN',
+'POKER', 'POLKA', 'POLYP', 'POPPY', 'PORCH', 'POSSE', 'POUND', 'POUTY', 'POWER', 'PRANK', 
+'PREEN',
 
 # BREAK FOR ALPHABIZING - ADDITIONS CAN BE HELD AT BOTTOM OF REPRESENATIVE BLOCK
 
@@ -211,7 +212,7 @@ my_list = {
 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'SITAR'
+word_to_find = 'POSSE'
 
 
 if word_to_find in my_list:
