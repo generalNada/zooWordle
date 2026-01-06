@@ -34,7 +34,7 @@ unused_list = [
             "EVICT", "EXPEL", "EYING", "FAIRY", "FANNY", 
             "FATAL", "FATTY", "FAUNA", "FECAL", "FELLA", "FELON", "FEMME", "FEMUR", "FENCE", "FETAL", 
             "FETUS", "FICUS", "FIERY", "FIGHT", "FILER", 
-            "FILLY", "FILMY", "FILTH", "FIZZY", "FLACK", "FLAKY", "FLECK", "FLEET", "FLIER", 
+            "FILMY", "FILTH", "FIZZY", "FLACK", "FLAKY", "FLECK", "FLEET", "FLIER", 
             "FLUID", "FLUKE", "FLUSH", 
 		    "FRAUD", "FREAK", "FREED", "FREER", "FRIAR", "FRISK",  
             "FUDGE",
@@ -123,7 +123,7 @@ unused_list = [
             "WREST", "WRING", "WRYLY", "ZONAL"
              ]
 
-word = 'POSSE'
+word = 'FILLY'
 
 
 if word in unused_list:
