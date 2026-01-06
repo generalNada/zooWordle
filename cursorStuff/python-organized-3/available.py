@@ -123,7 +123,7 @@ unused_list = [
             "WREST", "WRING", "WRYLY", "ZONAL"
              ]
 
-word = 'FILLY'
+word = 'OOMPH'
 
 
 if word in unused_list:
