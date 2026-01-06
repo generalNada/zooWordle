@@ -32,6 +32,11 @@ h1 {
   z-index: 1;
 }
 
+a {
+  color: #c0cce4;
+  text-decoration: none;
+}
+
 /* .search-container {
   display: flex;
   justify-content: center;
