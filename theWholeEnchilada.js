@@ -2220,7 +2220,7 @@ export const dailyWordsLarge = [
     'OLEUM', 'OLIOS', 'OLLAS', 'OLLAV', 'OLLER', 'OLLIE', 'OLOGY', 'OLPAE', 'OLPES',
     'OMASA', 'OMBER', 'OMBRE', 'OMBUS', 'OMENS', 'OMERS', 'OMITS', 'OMLAH', 'OMOVS',
     'OMRAH', 'ONCER', 'ONCES', 'ONCET', 'ONCUS', 'ONELY', 'ONERS', 'ONERY', 'ONIUM',
-    'ONKUS', 'ONLAY', 'ONNED', 'ONTIC', 'OOBIT', 'OOHED', 'OOMPH', 'OONTS', 'OOPED',
+    'ONKUS', 'ONLAY', 'ONNED', 'ONTIC', 'OOBIT', 'OOHED', 'OONTS', 'OOPED',
     'OORIE', 'OOSES', 'OOTID', 'OOZED', 'OOZES', 'OPAHS', 'OPALS', 'OPENS', 'OPEPE', 
     'OPING', 'OPIUM', 'OPPOS', 'OPSIN', 'OPTED', 'OPTER', 'OPTIC', 'ORACH', 'ORACY',
     'ORALS', 'ORANG', 'ORANT', 'ORATE', 'ORBED', 'ORBIT', 'ORCAS', 'ORCIN', 'ORDOS',
@@ -12592,6 +12592,11 @@ export const wordleWords = [
         myScore: 4,
         wordNumber: 1661,
       }, 
+      { word: "OOMPH",
+        gameDate: "1/6/26",
+        myScore: 4,
+        wordNumber: 1662,
+      }, 
 
     
   ];
@@ -12609,7 +12614,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("January 5, 2026: Trump sux dykk000000000! FILLY")
+console.log("January 6, 2026: Trump sux dykk000000000! OOMPH")
 
 
 console.log(wordleWords)
