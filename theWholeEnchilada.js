@@ -1356,7 +1356,7 @@ export const dailyWordsSmall = [
     'EYING', 'FACET', 'FAIRY', 
     'FANNY', 'FATAL', 'FATTY', 'FAUNA', 'FECAL', 'FELLA', 'FELON', 'FEMME', 'FEMUR', 'FENCE',
     'FETAL', 'FETUS', 'FICUS', 'FIERY', 
-    'FIGHT', 'FILER', 'FILLY', 'FILMY', 'FILTH', 'FIZZY', 'FLACK', 'FLAKY',
+    'FIGHT', 'FILER', 'FILMY', 'FILTH', 'FIZZY', 'FLACK', 'FLAKY',
     'FLECK', 'FLEET', 'FLIER', 'FLUID', 'FLUKE', 
     'FLUSH', 'FRAUD',
     'FREAK', 'FREED', 'FREER', 'FRIAR', 'FRISK', 'FUCKO', 'FUDGE',
@@ -1821,7 +1821,7 @@ export const dailyWordsLarge = [
     'FICOS', 'FICUS', 'FIDES', 'FIDGE', 'FIDOS', 'FIEFS', 'FIENT', 'FIERE',
     'FIERS', 'FIERY', 'FIEST', 'FIFED', 'FIFER', 'FIFES', 'FIFIS', 'FIGGY',
     'FIGHT', 'FIGOS', 'FIKED', 'FIKES', 'FILAR', 'FILCH', 'FILED', 'FILER', 'FILES',
-    'FILII', 'FILKS', 'FILLE', 'FILLO', 'FILLS', 'FILLY', 'FILMI', 'FILMS', 'FILMY', 'FILOS',
+    'FILII', 'FILKS', 'FILLE', 'FILLO', 'FILLS', 'FILMI', 'FILMS', 'FILMY', 'FILOS',
     'FILTH', 'FILUM', 'FINCA', 'FINDS', 'FINED', 'FINES', 'FINIS',
     'FINKS', 'FINNY', 'FINOS', 'FIORD', 'FIQHS', 'FIQUE', 'FIRED', 'FIRER', 'FIRES', 'FIRIE',
     'FIRKS', 'FIRMS', 'FIRNS', 'FIRRY', 'FIRTH', 'FISCS', 'FISKS', 'FISTS',
@@ -12587,6 +12587,11 @@ export const wordleWords = [
         myScore: 3,
         wordNumber: 1660,
       }, 
+      { word: "FILLY",
+        gameDate: "1/5/26",
+        myScore: 4,
+        wordNumber: 1661,
+      }, 
 
     
   ];
@@ -12604,7 +12609,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("January 4, 2026: Trump sux dykk000000000! POSSE")
+console.log("January 5, 2026: Trump sux dykk000000000! FILLY")
 
 
 console.log(wordleWords)
