@@ -1316,15 +1316,17 @@ export const fixedWordsLarge = [
 console.log("Fuck man");
 
 export const dailyWordsSmall = [
-    'ABLED', 'ABODE', 'ABORT', 'ABUSE', 
-    'ADORN', 'AFIRE', 'AFOOT', 'AFOUL', 'AIDER', 'ALGAE',
-    'ALIBI', 'ALIGN', 'ALLAY', 'ALLEY', 'ALLOT', 'ALLOY', 'AMAZE', 'AMEND',
+    'ABACI', 'ABLED', 'ABLER', 'ABODE', 'ABORT', 'ABUSE', 'ACHOO', 
+    'ACING', 'ADDED', 'ADDER', 'ADDLE', 'ADIOS', 'ADOBO',
+    'ADORN', 'AEGIS', 'AERIE', 'AFIRE', 'AFORE', 'AFOOT', 'AFOUL', 'AGAVE', 'AGAZE', 'AGISM', 
+    'AGITA', 'AGONE', 'AGORA', 'AIDER', 'ALACK', 'ALAMO', 'ALGAE', 'ALGAL',
+    'ALIBI', 'ALIGN', 'ALLAY', 'ALLEY', 'ALLOT', 'ALLOY', 'ALOHA', 'AMAZE', 'AMEND',
     'AMITY', 'AMPLY', 'ANIME', 'ANKLE',
-    'ANNUL', 'APING', 'APNEA', 'ARENA', 'ARMOR', 'AROSE', 'ARRAY', 
+    'ANNUL', 'ANTSY', 'APING', 'APNEA', 'ARENA', 'ARMOR', 'AROSE', 'ARRAY', 
     'ARSON', 'ASTIR', 'ATTIC', 'AUGUR', 'AUNTY', 'AVIAN', 'AVOID', 
     'AXIAL', 'AXION', 'BAGGY', 'BARON',
     'BASAL', 'BASIL', 'BASIS', 'BEECH', 'BEFIT',
-    'BEGAN', 'BEGAT', 'BEGUN', 'BELLE', 'BERRY', 'BETEL', 'BEZEL', 'BIBLE',
+    'BEGAN', 'BEGAT', 'BEGUN', 'BEIGE', 'BELLE', 'BERRY', 'BETEL', 'BEZEL', 'BIBLE',
     'BIDDY', 'BIGOT', 'BILLY', 'BINGO', 'BISON', 'BITTY', 
     'BLAST', 'BLEAT', 'BLESS', 'BLIND', 'BLITZ',
     'BLOAT', 'BLOOD', 'BLOOM', 'BLUER', 'BOBBY', 'BONEY', 
@@ -1358,14 +1360,14 @@ export const dailyWordsSmall = [
     'FETAL', 'FETUS', 'FICUS', 'FIERY', 
     'FIGHT', 'FILER', 'FILMY', 'FILTH', 'FIZZY', 'FLACK', 'FLAKY',
     'FLECK', 'FLEET', 'FLIER', 'FLUID', 'FLUKE', 
-    'FLUSH', 'FRAUD',
+    'FLUSH', 'FOLIC', 'FRAUD',
     'FREAK', 'FREED', 'FREER', 'FRIAR', 'FRISK', 'FUCKO', 'FUDGE',
     'FUNKY', 'FUROR', 'FURRY', 'FUSSY', 'GABLE', 'GAFFE', 'GAILY',  
     'GASSY', 'GATOR', 'GAVEL', 'GAYER', 'GAYLY', 'GAZER', 'GEEKY', 
     'GIPSY', 'GIRLY', 'GIVER', 'GLOSS', 
     'GODLY', 'GOLLY', 'GONAD', 'GOURD',
     'GRAPE', 'GRAZE', 'GRILL', 
-    'GROPE', 'GRUNT', 'GUAVA', 'GUILT',
+    'GROPE', 'GRUMP', 'GRUNT', 'GUAVA', 'GUILT',
     'GULCH', 'GUMBO', 'GUSTO', 'GUTSY', 'GYPSY', 'HALAL', 
     'HAREM', 'HARPY', 'HARRY', 'HASTY', 'HAUTE', 
     'HEDGE', 'HIPPY', 'HOIST', 
@@ -1378,7 +1380,7 @@ export const dailyWordsSmall = [
     'LEANT', 'LEGAL',
     'LEPER', 'LIEGE', 'LIKEN', 'LIPID', 
     'LOAMY', 'LOATH', 'LOBBY', 'LOGIN', 'LOOSE', 'LORRY', 'LUMEN',
-    'LUPUS', 'LURCH', 'LYMPH', 'LYRIC', 'MACRO', 
+    'LUPUS', 'LURCH', 'LYING', 'LYMPH', 'LYRIC', 'MACRO', 
     'MAFIA', 'MAMMA', 'MAMMY', 'MANGE', 'MANGY', 'MANIC',
     'MEATY', 'MECCA', 'MELEE', 'MILKY', 
     'MINIM', 'MINOR', 'MISSY', 'MOCHA',
@@ -1391,7 +1393,7 @@ export const dailyWordsSmall = [
     'OPIUM', 'OPTIC', 'ORBIT', 'OUTGO',
     'OVARY', 'OVATE', 'OVINE', 'OVOID', 'OWING', 'PADDY', 'PAGAN',
     'PALER', 'PALSY', 'PANSY', 'PARKA', 'PARSE', 'PASTE', 'PASTY', 
-    'PAYEE', 'PAYER', 'PECAN', 'PENAL', 'PENCE', 'PENNY',
+    'PAYEE', 'PAYER', 'PENAL', 'PENCE', 'PENNY',
     'PEONY', 'PESTO', 'PIGGY', 'PIVOT', 'PIZZA',
     'PLIED', 'PLIER', 'PLUME', 'PLUSH',
     'POESY', 'POOCH', 'POSER', 'POSIT', 'POUCH', 
@@ -1437,7 +1439,7 @@ export const dailyWordsSmall = [
     'UNITY', 'UNSET', 'UNWED', 'URINE', 'UTILE', 'VALOR', 'VALVE', 'VAPOR',
     'VAUNT', 'VEGAN', 'VERSO', 'VICAR', 'VIGIL', 
     'VIPER', 'VIRUS', 'VISIT', 'VISTA', 'VOCAL', 'VOGUE', 
-    'VOMIT', 'WAGER', 'WAIVE', 'WARTY', 
+    'VOMIT', 'VYING', 'WAGER', 'WAIVE', 'WARTY', 
     'WAVER', 'WAXEN', 'WEAVE', 'WEIGH', 'WELCH', 'WELSH', 'WHARF', 
     'WIDER', 'WIDOW', 'WIGHT',
     'WILLY', 'WIMPY', 'WINCH', 'WISER', 'WISPY', 'WOMEN', 'WOODY', 'WOOLY',
@@ -2252,7 +2254,7 @@ export const dailyWordsLarge = [
     'PAVES', 'PAVID', 'PAVIN', 'PAVIS', 'PAWAS', 'PAWAW', 'PAWED', 'PAWER', 'PAWKS', 'PAWKY',
     'PAWLS', 'PAWNS', 'PAXES', 'PAYED', 'PAYEE', 'PAYER', 'PAYOR', 'PAYSD',
     'PEAGE', 'PEAGS', 'PEAKS', 'PEAKY', 'PEALS', 'PEANS', 'PEARE', 'PEARS', 'PEART',
-    'PEASE', 'PEATS', 'PEATY', 'PEAVY', 'PEAZE', 'PEBAS', 'PECAN', 'PECHS', 'PECKE', 'PECKS',
+    'PEASE', 'PEATS', 'PEATY', 'PEAVY', 'PEAZE', 'PEBAS', 'PECHS', 'PECKE', 'PECKS',
     'PECKY', 'PEDES', 'PEDIS', 'PEDRO', 'PEECE', 'PEEKS', 'PEELS', 'PEENS', 'PEEOY',
     'PEEPE', 'PEEPS', 'PEERS', 'PEERY', 'PEEVE', 'PEGGY', 'PEGHS', 'PEINS', 'PEISE', 'PEIZE',
     'PEKAN', 'PEKES', 'PEKIN', 'PEKOE', 'PELAS', 'PELAU', 'PELES', 'PELFS', 'PELLS', 'PELMA',
@@ -12597,6 +12599,11 @@ export const wordleWords = [
         myScore: 4,
         wordNumber: 1662,
       }, 
+      { word: "PECAN",
+        gameDate: "1/7/26",
+        myScore: 3,
+        wordNumber: 1663,
+      }, 
 
     
   ];
@@ -12614,7 +12621,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("January 6, 2026: Trump sux dykk000000000! OOMPH")
+console.log("January 7, 2026: Trump sux dykk000000000! PECAN")
 
 
 console.log(wordleWords)
