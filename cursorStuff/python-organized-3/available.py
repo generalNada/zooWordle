@@ -68,7 +68,7 @@ unused_list = [
 	        "ORBIT", "OUTGO", "OVARY", "OVATE",
 	        "OVINE", "OVOID", "OWING", "PADDY", "PAGAN", "PALER", "PALSY",
 	        "PANSY", "PARKA", "PARSE", "PASTE", "PASTY",
-	        "PAYEE", "PAYER", "PECAN", "PENAL", "PENCE", "PENNY", 
+	        "PAYEE", "PAYER", "PENAL", "PENCE", "PENNY", 
             "PESTO", "PIGGY", "PIVOT",
 	        "PIZZA", "PLACE", 
 	        "PLIED", "PLIER", "PLUME", "PLUSH", "POESY", "POOCH",
@@ -123,7 +123,7 @@ unused_list = [
             "WREST", "WRING", "WRYLY", "ZONAL"
              ]
 
-word = 'OOMPH'
+word = 'PECAN'
 
 
 if word in unused_list:
