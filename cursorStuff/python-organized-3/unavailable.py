@@ -19,7 +19,8 @@ my_list = {
 'BEEFY', 'BEGET', 
 'BEGIN', 'BEING', 'BELCH', 'BELIE', 'BELLY', 'BELOW', 'BENCH', 'BERET', 'BERTH', 'BESET', 
 'BEVEL', 'BICEP', 'BILGE', 'BINGE', 'BIOME', 'BIRCH', 'BIRTH', 'BLACK', 'BLADE', 'BLAME', 
-'BLAND', 'BLANK', 'BLARE', 'BLAZE', 'BLEAK', 'BLEED', 'BLEEP', 'BLEND', 'BLIMP', 'BLINK', 
+'BLAND', 'BLANK', 'BLARE', 'BLAST', 'BLAZE', 'BLEAK', 'BLEED', 'BLEEP', 'BLEND', 'BLIMP', 
+'BLINK', 
 'BLISS', 'BLOCK', 'BLOKE', 'BLOND', 'BLOWN', 'BLUFF', 'BLUNT', 'BLURB', 'BLURT', 'BLUSH', 
 'BOARD', 'BOAST', 'BONGO', 'BONUS', 'BOOBY', 'BOOST', 'BOOTY', 'BOOZE', 'BOOZY', 'BORAX', 
 'BORNE', 'BOSSY', 'BOUGH', 'BOXER', 'BRACE', 'BRAID', 'BRAIN', 'BRAKE', 'BRAND', 'BRASH', 
@@ -213,7 +214,7 @@ my_list = {
 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'PECAN'
+word_to_find = 'BLAST'
 
 
 if word_to_find in my_list:
