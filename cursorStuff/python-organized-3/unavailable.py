@@ -115,7 +115,8 @@ my_list = {
 'LUSTY', 
 'LYING', 'MACAW', 'MACHO', 'MADAM', 'MADLY', 'MAGIC', 'MAGMA', 'MAIZE', 'MAJOR', 'MAKER', 
 'MAMBO', 
-'MANGA', 'MANGO', 'MANIA', 'MANLY', 'MANOR', 'MAPLE', 'MARCH', 'MARRY', 'MARSH', 'MASON', 
+'MANGA', 'MANGO', 'MANIA', 'MANIC', 'MANLY', 'MANOR', 'MAPLE', 'MARCH', 'MARRY', 'MARSH', 
+'MASON', 
 'MASSE', 'MATEY', 'MATCH', 'MATTE', 'MAUVE', 'MAXIM', 'MAYBE', 'MAYOR', 'MEALY', 'MEANT', 
 'MEDAL', 'MEDIA', 'MEDIC', 'MELON', 'MERCY', 'MERGE', 'MERIT', 'MERRY', 'METAL', 'METER', 
 'METRO', 'MICRO', 'MIDGE', 'MIDST', 'MIGHT', 'MIMIC', 'MINER', 'MINTY', 'MINUS', 'MINCE', 
@@ -215,7 +216,7 @@ my_list = {
 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'EIGHT'
+word_to_find = 'MANIC'
 
 
 if word_to_find in my_list:
