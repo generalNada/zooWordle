@@ -147,7 +147,8 @@ my_list = {
 'PRIZE', 
 'PROBE', 'PRONE', "PRONG", 'PROOF', 'PROSE', 'PROUD', 'PROVE', 'PROWL', 'PROXY', 'PRUNE', 
 'PSALM', 
-'PULPY', 'PUPIL', 'PURGE', 'QUAIL', 'QUAKE', 'QUALM', 'QUART', 'QUASH', 'QUEEN', 'QUERY', 
+'PULPY', 'PUPIL', 'PURGE', 'QUAIL', 'QUAKE', 'QUALM', 'QUARK', 'QUART', 'QUASH', 'QUEEN', 
+'QUERY', 
 'QUEST', 'QUEUE', 'QUICK', 'QUIET', 'QUILL', 'QUILT', 'QUIRK', 'QUITE', 'QUOTA', 'QUOTE', 
 'RABID', 'RADIO', 'RAINY', 'RAISE', 'RAMEN', 'RANCH', 'RANGE', 'RAPID', 'RATIO', 'RATTY',
 'RAYON', 'REACH', 'REACT', 'READY', 'REALM', 'REBEL', 'REBUS', 'REBUT', 'RECAP', 'RECUR', 
@@ -216,7 +217,7 @@ my_list = {
 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'MANIC'
+word_to_find = 'QUARK'
 
 
 if word_to_find in my_list:
