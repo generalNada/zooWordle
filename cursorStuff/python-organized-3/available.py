@@ -76,7 +76,7 @@ unused_list = [
 		    "PRIED", "PRIVY", 
 		    "PRUDE", "PUBIC", "PUDGY", "PUFFY", "PULSE", "PUNCH",
 		    "PUPPY", "PUREE", "PURER", "PURSE", "PUSHY", "PUTTY", "PYGMY", "QUACK",
-		    "QUARK", "QUASI", "QUEER", "QUELL", 
+		    "QUASI", "QUEER", "QUELL", 
 		    "QUOTH", "RABBI", "RACER", "RADAR", "RADII", "RAJAH", "RALLY", "RALPH",
 		    "RANDY", "RARER", "RASPY", "RAVEN", "RAZOR", "REARM",
             "REBAR", "RECUT", "REEDY", "REFIT", "REHAB", "REIGN", "RENAL", 
@@ -123,7 +123,7 @@ unused_list = [
             "WREST", "WRING", "WRYLY", "ZONAL"
              ]
 
-word = 'MANIC'
+word = 'QUARK'
 
 
 if word in unused_list:
