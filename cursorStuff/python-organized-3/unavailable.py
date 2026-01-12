@@ -198,8 +198,9 @@ my_list = {
 'TITLE', 'TIZZY', 'TOAST', 'TODAY', 'TONIC', 'TOOTH', 'TOPAZ', 'TOPIC', 'TORCH', 'TORSO', 
 'TOTAL', 'TOTEM', 'TOUCH', 'TOUGH', 'TOWEL', 'TOWER', 'TOXIC', 'TOXIN', 'TRACE', 'TRACK', 
 'TRACT', 'TRADE', 'TRAIL', 'TRAIN', 'TRAIT', 'TRASH', 'TRAWL', 'TREAT', 'TREND', 'TRIAD', 
-'TRICE', 'TRICK', 'TRIPE', 'TRITE', 'TROLL', 'TROOP', 'TROPE', 'TROUT', 'TROVE', 'TRUCK', 
-'TRULY', 'TRUSS', 'TRUST', 'TRUTH', 'TRYST', 'TUBER', 'TULIP', 'TUNIC',  'TURBO', 'TUTOR', 
+'TRIAL', 'TRICE', 'TRICK', 'TRIPE', 'TRITE', 'TROLL', 'TROOP', 'TROPE', 'TROUT', 'TROVE', 
+'TRUCK', 
+'TRULY', 'TRUSS', 'TRUST', 'TRUTH', 'TRYST', 'TUBER', 'TULIP', 'TUNIC', 'TURBO', 'TUTOR', 
 'TWANG', 'TWEAK', 
 'TWEED', 'TWICE', 'TWINE', 'TWIRL', 'UDDER', 'ULCER', 'ULTRA', 'UNCLE', 'UNDER', 'UNDID', 
 'UNDUE', 'UNFED', 'UNFIT', 'UNIFY', 'UNION', 'UNITE', 'UNLIT', 'UNMET', 'UNTIE', 'UNTIL', 
@@ -217,7 +218,7 @@ my_list = {
 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'QUARK'
+word_to_find = 'TRIAL'
 
 
 if word_to_find in my_list:
