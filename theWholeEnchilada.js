@@ -1433,7 +1433,7 @@ export const dailyWordsSmall = [
     'TERRA', 'TESTY', 'THEFT', 'THETA', 'THONG',
     'TIGHT', 'TODDY', 'TOKEN', 'TONAL',
     'TONER', 'TONGA', 'TORUS',  
-    'TRAMP', 'TREAD', 'TRIAL', 'TRIBE', 'TRIED', 'TRUCE',
+    'TRAMP', 'TREAD', 'TRIBE', 'TRIED', 'TRUCE',
     'TRUER', 'TRUMP', 'TRUNK', 'TUBAL', 'TULLE', 'TUMOR',
     'TWEET', 'TWIXT', 'TYING', 'UMBRA', 'UNCUT', 
     'UNITY', 'UNSET', 'UNWED', 'URINE', 'UTILE', 'VALOR', 'VALVE', 'VAPOR',
@@ -2611,7 +2611,7 @@ export const dailyWordsLarge = [
     'TRAMS', 'TRANK', 'TRANQ', 'TRANS', 'TRANT', 'TRAPE', 'TRAPS', 'TRAPT', 'TRASS',
     'TRATS', 'TRATT', 'TRAVE', 'TRAYF', 'TRAYS', 'TREAD', 'TRECK', 'TREED',
     'TREEN', 'TREES', 'TREFA', 'TREIF', 'TREKS', 'TREMA', 'TREMS', 'TRESS', 'TREST',
-    'TRETS', 'TREWS', 'TREYF', 'TREYS', 'TRIAC', 'TRIAL', 'TRIBE', 
+    'TRETS', 'TREWS', 'TREYF', 'TREYS', 'TRIAC', 'TRIBE', 
     'TRIDE', 'TRIED', 'TRIER', 'TRIES', 'TRIFF', 'TRIGO', 'TRIGS', 'TRIKE', 'TRILD', 'TRILL',
     'TRIMS', 'TRINE', 'TRINS', 'TRIOL', 'TRIOR', 'TRIOS', 'TRIPS', 'TRIPY', 'TRIST',
     'TROAD', 'TROAK', 'TROAT', 'TROCK', 'TRODE', 'TRODS', 'TROGS', 'TROIS', 'TROKE',
@@ -12624,6 +12624,11 @@ export const wordleWords = [
         myScore: 3,
         wordNumber: 1667,
       }, 
+      { word: "TRIAL",
+        gameDate: "1/12/26",
+        myScore: 2,
+        wordNumber: 1668,
+      }, 
 
     
   ];
@@ -12641,7 +12646,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("January 11, 2026: Trump sux dykk000000000! QUARK")
+console.log("January 12, 2026: Trump sux dykk000000000! TRIAL")
 
 
 console.log(wordleWords)
