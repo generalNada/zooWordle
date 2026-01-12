@@ -3,18 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>MyWordWorld</title>
+    <title>MyWordPool</title>
     <link href="world.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <p id="themeToggle">🌑</p>
-    <h1>The Word Wangerie, Mang!!</h1>
-
     <a href="../index.html">Hit The Fuckin Zoo</a>
     <a href="../wordWorld/world.html">To Word World - Now Useless  #️⃣3️⃣ </a>
     <a href="../wordWinder/index.html">To Word Winder -Quite Useless#️⃣2️⃣</a>
-    <a href="../wordPool/index.html">To Word Pool, Assholes - New And Usefuls#️⃣2️⃣</a>
+    <a href="../wordWang/index.html">To Word Wang - Pretty Usefuls#️⃣2️⃣</a>
 
+    <p id="themeToggle">🌑</p>
+    <h1>The Word Pool, Jerko!!</h1>
     <h2 id="toggleButton">⚔ Click to View Filters ⚔</h2>
 
     <!-- Day of Week Search Section -->
@@ -270,6 +269,51 @@
       <div id="dailyWordsSearchResults"></div>
     </div>
 
+    <!-- Position Pattern Search Section -->
+    <div id="positionSearchContainer" style="display: none">
+      <div id="positionSearchHeader">
+        <h3 id="positionSearchTitle">Customize Your Position</h3>
+        <button
+          id="closePositionSearchButton"
+          class="close-btn"
+          style="display: none"
+        >
+          ✕
+        </button>
+      </div>
+      <div id="positionSearchControls">
+        <input
+          type="text"
+          id="positionPatternInput"
+          placeholder="Enter pattern (e.g., S _ _ S _)"
+          maxlength="9"
+          style="
+            padding: 8px;
+            font-size: 1.2rem;
+            text-transform: uppercase;
+            letter-spacing: 0.2em;
+            text-align: center;
+            width: 250px;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            border-radius: 4px;
+            background: rgba(255, 255, 255, 0.1);
+            color: inherit;
+          "
+        />
+        <div style="margin-top: 8px; font-size: 0.9rem; opacity: 0.8">
+          Use letters for positions, underscore (_) or space for wildcards
+        </div>
+      </div>
+      <button
+        id="positionSearchSortButton"
+        class="position-search-sort-button"
+        style="display: none"
+      >
+        Sort by Date
+      </button>
+      <div id="positionSearchResults"></div>
+    </div>
+
     <div id="scoreField"></div>
 
     <!-- New nested functionality containers -->
@@ -330,6 +374,39 @@
         </select>
       </div>
     </div>
+
+    <!-- Score Streaks Section -->
+    <div id="scoreStreaksContainer" style="display: none">
+      <h3 id="scoreStreaksToggle">Pet's Score Streaks</h3>
+      <div id="scoreStreaksContent" style="display: none">
+        <select id="scoreStreaksMode">
+          <option value="exact">Exact Score</option>
+          <option value="below">Below Selected Score</option>
+        </select>
+        <select id="scoreStreaksDropdown">
+          <option value="">Enter a Score</option>
+          <option value="1">Score 1</option>
+          <option value="2">Score 2</option>
+          <option value="3">Score 3</option>
+          <option value="4">Score 4</option>
+          <option value="5">Score 5</option>
+          <option value="6">Score 6</option>
+          <option value="7">Score 7</option>
+        </select>
+        <div id="scoreStreaksResults"></div>
+        <!-- Score Streaks Words Container -->
+        <div id="scoreStreaksWordsContainer" style="display: none">
+          <div id="scoreStreaksWordsHeader">
+            <h3 id="scoreStreaksWordsTitle"></h3>
+            <button id="closeScoreStreaksWordsButton" class="close-btn">
+              ✕
+            </button>
+          </div>
+          <div id="scoreStreaksWordsList"></div>
+        </div>
+      </div>
+    </div>
+
     <script type="module" src="world.js"></script>
   </body>
 </html>
