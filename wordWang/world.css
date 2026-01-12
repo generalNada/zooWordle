@@ -2860,3 +2860,44 @@ h1:active {
 }
 
 
+
+.linkBox {
+  margin-top: 10px;
+  text-align: center;
+  height: auto;
+  width: 100%;
+  background-color: black;
+  color: white;
+  border: green .5rem solid;
+  border-radius: 1rem;
+}
+
+.linkOne {
+  margin: 5px;
+  padding: 5px;
+  display: inline-block;
+  color: yellow;
+}
+
+.linkTwo {
+  margin: 5px;
+  padding: 5px;
+  display: inline-block;
+  color: chartreuse;
+}
+
+.linkThree {
+  margin: 5px;
+  padding: 5px;
+  display: inline-block;
+  color: chartreuse;
+}
+
+.linkFour {
+  margin: 5px;
+  padding: 5px;
+  display: inline-block;
+  color: yellow;
+}
+
+

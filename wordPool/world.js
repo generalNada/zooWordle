@@ -4,7 +4,7 @@ import {
   dailyWordsSmall,
   dailyWordsLarge,
   letterValues,
-} from "./theWholeEnchilada.js";
+} from "../theWholeEnchilada.js";
 //INCLUDES ZEROES
 
 // Helper function to calculate Scrabble points for a word
