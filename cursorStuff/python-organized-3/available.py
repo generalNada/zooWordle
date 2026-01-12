@@ -109,7 +109,7 @@ unused_list = [
 	        "THETA", "THONG", "TIGHT", "TIMID",
 	        "TODDY", "TOKEN", "TONAL", "TONER", "TONGA", 
 	        "TORUS", "TRAMP", "TREAD",
-	        "TRIAL", "TRIBE", "TRIED", "TRUCE", "TRUER",
+	        "TRIBE", "TRIED", "TRUCE", "TRUER",
 	        "TRUMP", "TRUNK", "TUBAL", "TULLE", "TUMOR", 
 	        "TWEET", "TWIXT", "TYING", "UMBRA", "UNCUT", 
 	        "UNITY", "UNSET", "UNWED", "URINE", "UTILE", "VALOR", 
@@ -123,7 +123,7 @@ unused_list = [
             "WREST", "WRING", "WRYLY", "ZONAL"
              ]
 
-word = 'QUARK'
+word = 'TRIAL'
 
 
 if word in unused_list:
