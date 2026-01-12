@@ -886,7 +886,7 @@ export const fixedWordsLarge = [
     'PYXIE', 'PYXIS', 'PZAZZ',
     'QADIS', 'QAIDS', 'QAJAQ', 'QANAT', 'QAPIK', 'QIBLA', 'QOPHS', 'QORMA', 'QUACK', 'QUADS',
     'QUAFF', 'QUAGS', 'QUAIL', 'QUAIR', 'QUAIS', 'QUAKE', 'QUAKY', 'QUALE', 'QUALM', 'QUANT',
-    'QUARE', 'QUARK', 'QUART', 'QUASH', 'QUASI', 'QUASS', 'QUATE', 'QUATS', 'QUAYD', 'QUAYS',
+    'QUARE', 'QUART', 'QUASH', 'QUASI', 'QUASS', 'QUATE', 'QUATS', 'QUAYD', 'QUAYS',
     'QUBIT', 'QUEAN', 'QUEEN', 'QUEER', 'QUELL', 'QUEME', 'QUENA', 'QUERN', 'QUERY', 'QUEST',
     'QUEUE', 'QUEYN', 'QUEYS', 'QUICH', 'QUICK', 'QUIDS', 'QUIET', 'QUIFF', 'QUILL', 'QUILT',
     'QUIMS', 'QUINA', 'QUINE', 'QUINO', 'QUINS', 'QUINT', 'QUIPO', 'QUIPS', 'QUIPU', 'QUIRE',
@@ -1400,7 +1400,7 @@ export const dailyWordsSmall = [
     'PRAWN', 'PRIED', 'PRIVY',  
     'PRUDE', 'PUBIC', 'PUDGY', 'PUFFY', 'PULSE', 'PUNCH',
     'PUPPY', 'PUREE', 'PURER', 'PURSE', 'PUSHY', 'PUTTY', 'PYGMY', 'PYLON', 'QUACK',
-    'QUARK', 'QUASI', 'QUEER', 'QUELL', 'QUOTH',
+    'QUASI', 'QUEER', 'QUELL', 'QUOTH',
     'RABBI', 'RACER', 'RADAR', 'RADII', 'RAJAH', 'RALLY', 'RALPH', 'RANDY',
     'RARER', 'RASPY', 'RAVEN', 'RAZOR', 'REARM', 'REBAR', 
     'RECUT', 'REEDY', 'REFIT', 'REHAB', 'REIGN', 
@@ -12619,6 +12619,11 @@ export const wordleWords = [
         myScore: 3,
         wordNumber: 1666,
       }, 
+      { word: "QUARK",
+        gameDate: "1/11/26",
+        myScore: 3,
+        wordNumber: 1667,
+      }, 
 
     
   ];
@@ -12636,7 +12641,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("January 10, 2026: Trump sux dykk000000000! MANIC")
+console.log("January 11, 2026: Trump sux dykk000000000! QUARK")
 
 
 console.log(wordleWords)
