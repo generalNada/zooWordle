@@ -733,10 +733,10 @@ export const myPeople = [
     firstName: "Josiah",
     lastName: "Mur",
     birthMonth: "January",
-    birthDay: 13,
+    birthDay: 14,
     birthYear: 1971,
     passedAway: null,
-    comment: "Al Olander",
+    comment: "Al Olander, Count Fuckula",
     groups: [ "All", "Friend"],
   },
   {
