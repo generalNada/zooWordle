@@ -17,7 +17,7 @@ export const myPeople = [
     birthYear: 1975,
     passedAway: null,
     comment: null,
-    groups: ["All", "Pet"],
+    groups: [ "All", "Pet"],
   },
   {
     firstName: "Paulette",
@@ -47,7 +47,7 @@ export const myPeople = [
     birthYear: null,
     passedAway: null,
     comment: null,
-    groups: ["All", "The Lark"],
+    groups: [ "All", "The Lark"],
   },
   {
     firstName: "Chris",
@@ -57,7 +57,7 @@ export const myPeople = [
     birthYear: 1969,
     passedAway: null,
     comment: "I take it you and your wife are still alive?",
-    groups: ["All", "Friend"],
+    groups: [ "All", "Friend"],
   },
   {
     firstName: "Anne",
@@ -67,7 +67,7 @@ export const myPeople = [
     birthYear: 1973,
     passedAway: null,
     comment: "Carolyn's friend, loco?",
-    groups: ["All", "Pet"],
+    groups: [ "All", "Pet"],
   },
   {
     firstName: "Ruth",
@@ -77,7 +77,7 @@ export const myPeople = [
     birthYear: null,
     passedAway: null,
     comment: null,
-    groups: ["All", "Family Friend"],
+    groups: [ "All", "Family Friend"],
   },
   {
     firstName: "Leah",
@@ -87,7 +87,7 @@ export const myPeople = [
     birthYear: 1970,
     passedAway: null,
     comment: null,
-    groups: ["All", "Family Friend"],
+    groups: [ "All", "Family Friend"],
   },
   {
     firstName: "Robert",
@@ -96,9 +96,8 @@ export const myPeople = [
     birthDay: 6,
     birthYear: null,
     passedAway: null,
-    comment:
-      "Point O' Woods friend - his brother Kevin: Dead - defenders of my honor - anti-Bullies",
-    groups: ["All"],
+    comment: "Point O' Woods friend - his brother Kevin: Dead - defenders of my honor - anti-Bullies",
+    groups: [ "All"],
   },
   {
     firstName: "James",
@@ -108,7 +107,7 @@ export const myPeople = [
     birthYear: null,
     passedAway: null,
     comment: "Jimmy C., now hates me!",
-    groups: ["All", "Friend"],
+    groups: [ "All", "Friend" ],
   },
   {
     firstName: "Helena",
@@ -118,7 +117,7 @@ export const myPeople = [
     birthYear: null,
     passedAway: null,
     comment: "Gram's Mom",
-    groups: ["All", "Family"],
+    groups: [ "All", "Family"],
   },
   {
     firstName: "Anne",
@@ -128,7 +127,7 @@ export const myPeople = [
     birthYear: null,
     passedAway: null,
     comment: null,
-    groups: ["All", "Family"],
+    groups: [ "All", "Family"],
   },
   {
     firstName: "George",
@@ -138,7 +137,7 @@ export const myPeople = [
     birthYear: 1941,
     passedAway: null,
     comment: null,
-    groups: ["All", "Family"],
+    groups: [ "All", "Family"],
   },
   {
     firstName: "Diane",
@@ -148,7 +147,7 @@ export const myPeople = [
     birthYear: 1942,
     passedAway: null,
     comment: null,
-    groups: ["All", "Family"],
+    groups: [ "All", "Family"],
   },
   {
     firstName: "Pat",
@@ -158,7 +157,7 @@ export const myPeople = [
     birthYear: 1974,
     passedAway: null,
     comment: null,
-    groups: ["All", "Family"],
+    groups: [ "All", "Family"],
   },
   {
     firstName: "Leigh",
@@ -168,7 +167,7 @@ export const myPeople = [
     birthYear: 1977,
     passedAway: null,
     comment: null,
-    groups: ["All", "Pet"],
+    groups: [ "All", "Pet"],
   },
   {
     firstName: "Maurice",
@@ -178,7 +177,7 @@ export const myPeople = [
     birthYear: null,
     passedAway: null,
     comment: "Flick",
-    groups: ["All", "Friend"],
+    groups: [ "All", "Friend"],
   },
   {
     firstName: "Rita",
@@ -188,7 +187,7 @@ export const myPeople = [
     birthYear: 1919,
     passedAway: "September 5, 2012",
     comment: "Gram  -Best person ever",
-    groups: ["All", "Deceased", "Family"],
+    groups: [ "All", "Deceased", "Family"],
   },
   {
     firstName: "Pat",
@@ -198,7 +197,7 @@ export const myPeople = [
     birthYear: 1981,
     passedAway: null,
     comment: null,
-    groups: ["All", "Family"],
+    groups: [ "All", "Family"],
   },
   {
     firstName: "Mike",
@@ -208,7 +207,7 @@ export const myPeople = [
     birthYear: 1984,
     passedAway: null,
     comment: null,
-    groups: ["All", "Family"],
+    groups: [ "All", "Family"],
   },
   {
     firstName: "Jack",
@@ -218,7 +217,7 @@ export const myPeople = [
     birthYear: 1987,
     passedAway: null,
     comment: null,
-    groups: ["All", "Family"],
+    groups: [ "All", "Family"],
   },
   {
     firstName: "Daniel",
@@ -228,7 +227,7 @@ export const myPeople = [
     birthYear: 1988,
     passedAway: null,
     comment: null,
-    groups: ["All", "Family"],
+    groups: [ "All", "Family"],
   },
   {
     firstName: "Marty",
@@ -238,7 +237,7 @@ export const myPeople = [
     birthYear: 1948,
     passedAway: null,
     comment: null,
-    groups: ["All", "Family"],
+    groups: [ "All", "Family"],
   },
   {
     firstName: "Maureen",
@@ -248,7 +247,7 @@ export const myPeople = [
     birthYear: 1956,
     passedAway: null,
     comment: null,
-    groups: ["All", "Family"],
+    groups: [ "All", "Family"],
   },
   {
     firstName: "John",
@@ -258,7 +257,7 @@ export const myPeople = [
     birthYear: 1916,
     passedAway: "8/9/69",
     comment: "Grandfather",
-    groups: ["All", "Deceased", "Family"],
+    groups: [ "All", "Deceased", "Family"],
   },
   {
     firstName: "Rose",
@@ -268,7 +267,7 @@ export const myPeople = [
     birthYear: 2023,
     passedAway: null,
     comment: "Daniel's Kid",
-    groups: ["All", "Family"],
+    groups: [ "All", "Family"],
   },
   {
     firstName: "Katherine",
@@ -278,7 +277,7 @@ export const myPeople = [
     birthYear: null,
     passedAway: null,
     comment: null,
-    groups: ["All", "Deceased", "Family"],
+    groups: [ "All", "Deceased", "Family"],
   },
   {
     firstName: "John",
@@ -288,7 +287,7 @@ export const myPeople = [
     birthYear: null,
     passedAway: null,
     comment: null,
-    groups: ["All", "Deceased", "Family"],
+    groups: [ "All", "Deceased",  "Family"],
   },
   {
     firstName: "Edith",
@@ -578,7 +577,7 @@ export const myPeople = [
     birthYear: 1923,
     passedAway: "8/11/2008",
     comment: null,
-    groups: ["All", "Deceased", "Family"],
+    groups: [ "All", "Deceased", "Family"],
   },
   {
     firstName: "Robert",
@@ -588,7 +587,7 @@ export const myPeople = [
     birthYear: null,
     passedAway: null,
     comment: null,
-    groups: ["All", "Deceased", "Family"],
+    groups: [ "All", "Deceased", "Family"],
   },
   {
     firstName: "Patricia",
@@ -598,7 +597,7 @@ export const myPeople = [
     birthYear: 1974,
     passedAway: null,
     comment: null,
-    groups: ["All", "Pet"],
+    groups: [ "All", "Pet"],
   },
   {
     firstName: "Christine",
@@ -608,7 +607,7 @@ export const myPeople = [
     birthYear: null,
     passedAway: null,
     comment: "Aunt Cis",
-    groups: ["All", "Deceased", "The Lark", "Family"],
+    groups: [ "All", "Deceased", "The Lark", "Family"],
   },
   {
     firstName: "Courtney",
@@ -618,7 +617,7 @@ export const myPeople = [
     birthYear: null,
     passedAway: null,
     comment: null,
-    groups: ["All", "The Lark", "Family"],
+    groups: [ "All", "The Lark", "Family"],
   },
   {
     firstName: "Riley ",
@@ -628,7 +627,7 @@ export const myPeople = [
     birthYear: 2009,
     passedAway: null,
     comment: null,
-    groups: ["All", "The Lark", "Family"],
+    groups: [ "All", "The Lark", "Family"],
   },
   {
     firstName: "Eleanor",
@@ -648,7 +647,7 @@ export const myPeople = [
     birthYear: 2006,
     passedAway: null,
     comment: null,
-    groups: ["All", "The Lark", "Family"],
+    groups: [ "All", "The Lark", "Family"],
   },
   {
     firstName: "John",
@@ -658,7 +657,7 @@ export const myPeople = [
     birthYear: null,
     passedAway: null,
     comment: null,
-    groups: ["All", "The Lark", "Family"],
+    groups: [ "All", "The Lark", "Family"],
   },
   {
     firstName: "Jake",
@@ -668,7 +667,7 @@ export const myPeople = [
     birthYear: 1969,
     passedAway: null,
     comment: null,
-    groups: ["All", "Friend"],
+    groups: [ "All", "Friend"],
   },
   {
     firstName: "Oscar",
@@ -678,7 +677,7 @@ export const myPeople = [
     birthYear: 2004,
     passedAway: null,
     comment: null,
-    groups: ["All", "Friend"],
+    groups: [ "All", "Friend"],
   },
   {
     firstName: "Razel",
@@ -688,7 +687,7 @@ export const myPeople = [
     birthYear: 2001,
     passedAway: null,
     comment: null,
-    groups: ["All", "Friend"],
+    groups: [ "All", "Friend"],
   },
   {
     firstName: "Gelaine",
@@ -698,7 +697,7 @@ export const myPeople = [
     birthYear: 1966,
     passedAway: null,
     comment: null,
-    groups: ["All", "Friend"],
+    groups: [ "All", "Friend"],
   },
   {
     firstName: "Duane",
@@ -708,7 +707,7 @@ export const myPeople = [
     birthYear: 1972,
     passedAway: null,
     comment: null,
-    groups: ["All", "Friend"],
+    groups: [ "All", "Friend"],
   },
   {
     firstName: "Meredith",
@@ -718,7 +717,7 @@ export const myPeople = [
     birthYear: null,
     passedAway: null,
     comment: "Not Jason's wife, but partner",
-    groups: ["All", "Friend"],
+    groups: [ "All", "Friend"],
   },
   {
     firstName: "Corey",
@@ -728,17 +727,17 @@ export const myPeople = [
     birthYear: null,
     passedAway: null,
     comment: null,
-    groups: ["All", "Friend"],
+    groups: [ "All", "Friend"],
   },
   {
     firstName: "Josiah",
     lastName: "Mur",
     birthMonth: "January",
-    birthDay: 13,
+    birthDay: 14,
     birthYear: 1971,
     passedAway: null,
-    comment: "Al Olander",
-    groups: ["All", "Friend"],
+    comment: "Al Olander, Count Fuckula",
+    groups: [ "All", "Friend"],
   },
   {
     firstName: "Shannon",
@@ -748,7 +747,7 @@ export const myPeople = [
     birthYear: 1970,
     passedAway: null,
     comment: "Tessie Olander",
-    groups: ["All", "Friend"],
+    groups: [ "All", "Friend"],
   },
   {
     firstName: "Kai",
@@ -758,7 +757,7 @@ export const myPeople = [
     birthYear: 1987,
     passedAway: null,
     comment: "Bird's Husband",
-    groups: ["All", "Family"],
+    groups: [ "All", "Family"],
   },
   {
     firstName: "Eryn",
@@ -768,7 +767,7 @@ export const myPeople = [
     birthYear: null,
     passedAway: null,
     comment: null,
-    groups: ["All", "Jackal's People", "Friend"],
+    groups: [ "All", "Jackal's People", "Friend"],
   },
   {
     firstName: "Charlie",
@@ -777,7 +776,7 @@ export const myPeople = [
     birthDay: 4,
     birthYear: 1974,
     comment: null,
-    groups: ["All", "Friend"],
+    groups: [ "All", "Friend"],
   },
   {
     firstName: "Louisa",
@@ -787,7 +786,7 @@ export const myPeople = [
     birthYear: 2001,
     passedAway: null,
     comment: null,
-    groups: ["All", "Friend"],
+    groups: [ "All", "Friend"],
   },
   {
     firstName: "Naomi",
@@ -797,7 +796,7 @@ export const myPeople = [
     birthYear: 1999,
     passedAway: null,
     comment: null,
-    groups: ["All", "Friend"],
+    groups: [ "All", "Friend"],
   },
   {
     firstName: "Jonathon",
@@ -807,7 +806,7 @@ export const myPeople = [
     birthYear: 1965,
     passedAway: null,
     comment: "Priestman",
-    groups: ["All", "Friend"],
+    groups: [ "All", "Friend"],
   },
   {
     firstName: "Marino",
@@ -817,7 +816,7 @@ export const myPeople = [
     birthYear: 1961,
     passedAway: null,
     comment: "Annie's Italian Boyfriend",
-    groups: ["All", "Family"],
+    groups: [ "All", "Family"],
   },
   {
     firstName: "Lynne",
@@ -827,7 +826,7 @@ export const myPeople = [
     birthYear: 1965,
     passedAway: null,
     comment: null,
-    groups: ["All", "Friend"],
+    groups: [ "All", "Friend"],
   },
   {
     firstName: "Oliver",
@@ -837,7 +836,7 @@ export const myPeople = [
     birthYear: 2001,
     passedAway: null,
     comment: "My Nephew, a Mango",
-    groups: ["All", "Family", "My People"],
+    groups: [ "All", "Family", "My People"],
   },
   {
     firstName: "Paul",
@@ -847,7 +846,7 @@ export const myPeople = [
     birthYear: null,
     passedAway: null,
     comment: "Sis's Cat",
-    groups: ["All", "Family", "My People"],
+    groups: [ "All", "Family", "My People"],
   },
   {
     firstName: "Andrey",
@@ -857,7 +856,7 @@ export const myPeople = [
     birthYear: 1988,
     passedAway: null,
     comment: null,
-    groups: ["All", "Friend"],
+    groups: [ "All", "Friend"],
   },
   {
     firstName: "Danika",
@@ -867,7 +866,7 @@ export const myPeople = [
     birthYear: 2022,
     passedAway: null,
     comment: null,
-    groups: ["All", "Friend"],
+    groups: [ "All", "Friend"],
   },
   {
     firstName: "Lorelei",
@@ -877,7 +876,7 @@ export const myPeople = [
     birthYear: 2018,
     passedAway: null,
     comment: "Lolo",
-    groups: ["All", "Friend"],
+    groups: [ "All", "Friend"],
   },
   {
     firstName: "Ophelia",
@@ -887,7 +886,7 @@ export const myPeople = [
     birthYear: 2022,
     passedAway: null,
     comment: "Fifi",
-    groups: ["All", "Friend"],
+    groups: [ "All", "Friend"],
   },
   {
     firstName: "Carol",
@@ -897,7 +896,7 @@ export const myPeople = [
     birthYear: null,
     passedAway: null,
     comment: null,
-    groups: ["All", "Deceased", "Family"],
+    groups: [ "All", "Deceased", "Family"],
   },
   {
     firstName: "Naomi",
@@ -907,7 +906,7 @@ export const myPeople = [
     birthYear: 2008,
     passedAway: null,
     comment: "Livia's kid 1",
-    groups: ["All", "Family"],
+    groups: [ "All", "Family"],
   },
   {
     firstName: "Fiona",
@@ -917,7 +916,7 @@ export const myPeople = [
     birthYear: 2010,
     passedAway: null,
     comment: "Livia's kid 2",
-    groups: ["All", "Family"],
+    groups: [ "All", "Family"],
   },
   {
     firstName: "Luna",
@@ -927,7 +926,7 @@ export const myPeople = [
     birthYear: 2011,
     passedAway: null,
     comment: "Selena's kid 1",
-    groups: ["All", "Family"],
+    groups: [ "All", "Family"],
   },
   {
     firstName: "Leo",
@@ -937,7 +936,7 @@ export const myPeople = [
     birthYear: 2010,
     passedAway: null,
     comment: "Selena's kid 2",
-    groups: ["All", "Family"],
+    groups: [ "All", "Family"],
   },
   {
     firstName: "Billie",
@@ -947,7 +946,7 @@ export const myPeople = [
     birthYear: 1931,
     passedAway: "October 27, 2022",
     comment: "The Good William",
-    groups: ["All", "Deceased", "Family"],
+    groups: [ "All", "Deceased", "Family"],
   },
   {
     firstName: "Bertha",
@@ -957,7 +956,7 @@ export const myPeople = [
     birthYear: 1882,
     passedAway: 1968,
     comment: "Bertha was born in 1882 and died in 1968?",
-    groups: ["All", "Deceased", "Family"],
+    groups: [ "All", "Deceased", "Family"],
   },
   {
     firstName: "Joseph",
@@ -967,7 +966,7 @@ export const myPeople = [
     birthYear: 1923,
     passedAway: null,
     comment: null,
-    groups: ["All", "Deceased", "Family"],
+    groups: [ "All", "Deceased", "Family"],
   },
   {
     firstName: "Roger",
@@ -977,7 +976,7 @@ export const myPeople = [
     birthYear: 1926,
     passedAway: null,
     comment: null,
-    groups: ["All", "Deceased", "Family"],
+    groups: [ "All", "Deceased", "Family"],
   },
   {
     firstName: "Pamela",
@@ -987,7 +986,7 @@ export const myPeople = [
     birthYear: 1956,
     passedAway: null,
     comment: null,
-    groups: ["All", "Family"],
+    groups: [ "All", "Family"],
   },
   {
     firstName: "Selena",
@@ -997,7 +996,7 @@ export const myPeople = [
     birthYear: 1978,
     passedAway: null,
     comment: null,
-    groups: ["All", "Family"],
+    groups: [ "All", "Family"],
   },
   {
     firstName: "Livia",
@@ -1007,7 +1006,7 @@ export const myPeople = [
     birthYear: 1980,
     passedAway: null,
     comment: null,
-    groups: ["All", "Family"],
+    groups: [ "All", "Family"],
   },
   {
     firstName: "Tony",
@@ -1017,7 +1016,7 @@ export const myPeople = [
     birthYear: 2002,
     passedAway: null,
     comment: null,
-    groups: ["All", "Family"],
+    groups: [ "All", "Family"],
   },
   {
     firstName: "Isabel",
@@ -1027,7 +1026,7 @@ export const myPeople = [
     birthYear: 2002,
     passedAway: null,
     comment: null,
-    groups: ["All", "Family"],
+    groups: [ "All", "Family"],
   },
   {
     firstName: "Patrick, Jr.",
@@ -1037,7 +1036,7 @@ export const myPeople = [
     birthYear: null,
     passedAway: null,
     comment: null,
-    groups: ["All", "Family"],
+    groups: [ "All", "Family"],
   },
   {
     firstName: "Patrick",
@@ -1047,7 +1046,7 @@ export const myPeople = [
     birthYear: null,
     passedAway: null,
     comment: null,
-    groups: ["All", "Family"],
+    groups: [ "All", "Family"],
   },
   {
     firstName: "Maryanne",
@@ -1057,7 +1056,7 @@ export const myPeople = [
     birthYear: null,
     passedAway: null,
     comment: null,
-    groups: ["All", "Deceased", "Family"],
+    groups: [ "All", "Deceased", "Family"],
   },
   {
     firstName: "Sloane",
@@ -1067,7 +1066,7 @@ export const myPeople = [
     birthYear: null,
     passedAway: null,
     comment: null,
-    groups: ["All", "Friend"],
+    groups: [ "All", "Friend"],
   },
   {
     firstName: "Jason",
@@ -1077,7 +1076,7 @@ export const myPeople = [
     birthYear: null,
     passedAway: null,
     comment: null,
-    groups: ["All", "Friend"],
+    groups: [ "All", "Friend"],
   },
   {
     firstName: "John",
@@ -1088,7 +1087,7 @@ export const myPeople = [
     passedAway: "Ok, he's alive but dead in terms of brain power",
     comment:
       "A nice guy but not particularly bright - Worried too much about trans stuff and in love with Trump - gross!",
-    groups: ["All", "Friend", "Deceased"],
+    groups: [ "All", "Friend", "Deceased"],
   },
   {
     firstName: "Omer",
@@ -1098,7 +1097,7 @@ export const myPeople = [
     birthYear: null,
     passedAway: null,
     comment: null,
-    groups: ["All", "Family Friend"],
+    groups: [ "All", "Family Friend"],
   },
   {
     firstName: "Maxine",
@@ -1108,9 +1107,9 @@ export const myPeople = [
     birthYear: null,
     passedAway: null,
     comment: null,
-    groups: ["All", "Family Friend"],
+    groups: [ "All", "Family Friend"],
   },
-  {
+    {
     firstName: "Alec",
     lastName: "T",
     birthMonth: "January",
@@ -1118,7 +1117,7 @@ export const myPeople = [
     birthYear: null,
     passedAway: null,
     comment: null,
-    groups: ["All", "Family Friend"],
+    groups: [ "All", "Family Friend"],
   },
   {
     firstName: "Mamie",
@@ -1128,9 +1127,9 @@ export const myPeople = [
     birthYear: null,
     passedAway: null,
     comment: null,
-    groups: ["All", "Family Friend"],
+    groups: [ "All", "Family Friend"],
   },
-  {
+    {
     firstName: "Sarah",
     lastName: "T",
     birthMonth: "January",
@@ -1138,7 +1137,7 @@ export const myPeople = [
     birthYear: null,
     passedAway: null,
     comment: null,
-    groups: ["All", "Family Friend"],
+    groups: [ "All", "Family Friend"],
   },
   {
     firstName: "Joel",
@@ -1148,9 +1147,9 @@ export const myPeople = [
     birthYear: null,
     passedAway: null,
     comment: null,
-    groups: ["All", "Family Friend"],
+    groups: [ "All", "Family Friend"],
   },
-  {
+    {
     firstName: "Evangeline",
     lastName: "T",
     birthMonth: null,
@@ -1158,7 +1157,7 @@ export const myPeople = [
     birthYear: null,
     passedAway: null,
     comment: null,
-    groups: ["All", "Family Friend"],
+    groups: [ "All", "Family Friend"],
   },
   {
     firstName: "Scott",
@@ -1168,7 +1167,7 @@ export const myPeople = [
     birthYear: 1969,
     passedAway: null,
     comment: null,
-    groups: ["All", "Friend"],
+    groups: [ "All", "Friend"],
   },
   {
     firstName: "Peter",
@@ -1349,7 +1348,7 @@ export const myPeople = [
     birthYear: "BC 0005",
     passedAway: "AD 0033",
     comment: "Who really knows dates when it comes to this mysterious dude?",
-    groups: ["Holiday People", "All", "Deceased"],
+    groups: [ "Holiday People", "All", "Deceased"],
   },
   {
     firstName: "Easter Bunny",
@@ -1359,7 +1358,7 @@ export const myPeople = [
     birthYear: "Unknown Year",
     passedAway: "Unknown Year",
     comment: "This happy bastard loves hopping around like a fool",
-    groups: ["Holiday People", "All", "Deceased"],
+    groups: [ "Holiday People", "All", "Deceased"],
   },
   {
     firstName: "XXXXX",
