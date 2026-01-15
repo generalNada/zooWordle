@@ -1323,7 +1323,7 @@ export const dailyWordsSmall = [
     'ALIBI', 'ALIGN', 'ALLAY', 'ALLEY', 'ALLOT', 'ALLOY', 'ALOHA', 'AMAZE', 'AMEND',
     'AMITY', 'AMPLY', 'ANIME', 'ANKLE',
     'ANNUL', 'ANTSY', 'APING', 'APNEA', 'ARENA', 'ARMOR', 'AROSE', 'ARRAY', 
-    'ARSON', 'ASTIR', 'ATTIC', 'AUGUR', 'AUNTY', 'AVIAN', 'AVOID', 
+    'ARSON', 'ASTIR', 'ATTIC', 'AUGUR', 'AUNTY', 'AVIAN', 
     'AXIAL', 'AXION', 'BAGGY', 'BARON',
     'BASAL', 'BASIL', 'BASIS', 'BEECH', 'BEFIT',
     'BEGAN', 'BEGAT', 'BEGUN', 'BEIGE', 'BELLE', 'BERRY', 'BETEL', 'BEZEL', 'BIBLE',
@@ -1511,7 +1511,7 @@ export const dailyWordsLarge = [
     'AUGER', 'AUGHT', 'AUGUR', 'AULAS', 'AULIC', 'AULOI', 'AULOS', 'AUMIL', 'AUNES',
     'AUNTS', 'AUNTY', 'AURAE', 'AURAL', 'AURAR', 'AURAS', 'AUREI', 'AURES', 'AURIC', 'AURIS',
     'AURUM', 'AUTOS', 'AUXIN', 'AVALE', 'AVANT', 'AVAST', 'AVELS', 'AVENS', 'AVERS',
-    'AVGAS', 'AVIAN', 'AVINE', 'AVION', 'AVISE', 'AVISO', 'AVIZE', 'AVOID', 'AVOWS',
+    'AVGAS', 'AVIAN', 'AVINE', 'AVION', 'AVISE', 'AVISO', 'AVIZE', 'AVOWS',
     'AVYZE', 'AWARN', 'AWATO', 'AWAVE', 'AWAYS',
     'AWDLS', 'AWEEL', 'AWETO', 'AWING', 'AWMRY', 'AWNED', 'AWNER', 'AWOLS',
     'AWORK', 'AXELS', 'AXIAL', 'AXILE', 'AXILS', 'AXING', 'AXION', 'AXITE', 'AXLED',
@@ -12634,6 +12634,11 @@ export const wordleWords = [
         myScore: 4,
         wordNumber: 1669,
       }, 
+      { word: "AVOID",
+        gameDate: "1/14/26",
+        myScore: 4,
+        wordNumber: 1670,
+      }, 
 
     
   ];
@@ -12651,7 +12656,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("January 13, 2026: Trump sux dykk000000000! GUMBO")
+console.log("January 14, 2026: Trump sux dykk000000000! AVOID")
 
 
 console.log(wordleWords)
