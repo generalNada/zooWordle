@@ -11,7 +11,8 @@ my_list = {
 'AORTA', 'APART', 'APHID', 'APPLE', 'APPLY', 'APRON', 'APTLY', 'ARBOR', 'ARDOR', 'ARGUE', 
 'ARISE', 'AROMA', 'ARROW', 'ARTSY', 'ASCOT', 'ASHEN', 'ASIDE', 'ASKEW', 'ASSAY', 'ASSET', 
 'ATLAS', 
-'ATOLL', 'ATONE', 'ATRIA', 'AUDIO', 'AUDIT', 'AVAIL', 'AVERT', 'AWAIT', 'AWAKE', 'AWARD', 
+'ATOLL', 'ATONE', 'ATRIA', 'AUDIO', 'AUDIT', 'AVAIL', 'AVERT', 'AVOID', 'AWAIT', 'AWAKE', 
+'AWARD', 
 'AWARE', 'AWASH', 'AWOKE', 'AWFUL', 'AXIOM', 'AZURE', 'BACON', 'BADGE', 'BADLY', 'BAGEL', 
 'BAKER', 
 'BALER', 'BALMY', 'BALSA', 'BANAL', 'BANJO', 'BARGE', 'BASIC', 'BASIN', 'BATCH', 'BASTE', 
@@ -218,7 +219,7 @@ my_list = {
 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'GUMBO'
+word_to_find = 'AVOID'
 
 
 if word_to_find in my_list:
