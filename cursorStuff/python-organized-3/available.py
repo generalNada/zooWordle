@@ -14,7 +14,7 @@ unused_list = [
 		    "BRAWL", "BRICK", "BRINY", "BROIL", "BROOD", "BUDGE",
 		    "BURNT", "BURST", "BUSED", "BUSHY", "BUTCH", "BUTTE", "BUXOM", "BUYER", "BYLAW", "CABAL", 
             "CABBY", "CABIN", "CADDY", "CAGEY", "CAIRN", "CANAL", "CAPUT", "CASTE", 
-            "CAVIL", "CELLO", "CHAFF", "CHASM", "CHESS", 
+            "CAVIL", "CELLO", "CHAFF", "CHESS", 
             "CHICK", "CHIDE", "CHILI", "CHINA", "CHOMP", "CHUCK", "CHUMP", "CHURN",
 		    "CLACK", "CLAIM", "CLANG", "CLANK", "CLASP", "CLEAT", "CLIFF", 
             "CLINK", "CLOUT", "CLUED", "CLUMP", "COBRA", "COLOR", 
@@ -123,7 +123,7 @@ unused_list = [
             "WREST", "WRING", "WRYLY", "ZONAL"
              ]
 
-word = 'AVOID'
+word = 'CHASM'
 
 
 if word in unused_list:
