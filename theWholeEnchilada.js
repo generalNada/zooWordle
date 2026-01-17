@@ -1401,7 +1401,7 @@ export const dailyWordsSmall = [
     'PRUDE', 'PUBIC', 'PUDGY', 'PUFFY', 'PULSE', 'PUNCH',
     'PUPPY', 'PUREE', 'PURER', 'PURSE', 'PUSHY', 'PUTTY', 'PYGMY', 'PYLON', 'QUACK',
     'QUASI', 'QUEER', 'QUELL', 'QUOTH',
-    'RABBI', 'RACER', 'RADAR', 'RADII', 'RAJAH', 'RALLY', 'RALPH', 'RANDY',
+    'RABBI', 'RADAR', 'RADII', 'RAJAH', 'RALLY', 'RALPH', 'RANDY',
     'RARER', 'RASPY', 'RAVEN', 'RAZOR', 'REARM', 'REBAR', 
     'RECUT', 'REEDY', 'REFIT', 'REHAB', 'REIGN', 
     'RENAL', 'REPLY', 'RESET', 'RICER', 'RIFLE', 
@@ -2329,7 +2329,7 @@ export const dailyWordsLarge = [
     'QUIDS', 'QUIFF', 'QUIMS', 'QUINA', 'QUINE', 'QUINO', 'QUINS', 'QUINT', 
     'QUIPO', 'QUIPS', 'QUIPU', 'QUIRE', 'QUIRT', 'QUIST', 'QUITS', 'QUOAD', 'QUODS', 'QUOIF', 
     'QUOIN', 'QUOIT', 'QUOLL', 'QUONK', 'QUOPS', 'QUOTH', 'QURSH', 'QUYTE', 'RABAT', 'RABBI',
-    'RABIC', 'RABIS', 'RACED', 'RACER', 'RACES', 'RACHE', 'RACKS', 'RACON', 'RADAR',
+    'RABIC', 'RABIS', 'RACED', 'RACES', 'RACHE', 'RACKS', 'RACON', 'RADAR',
     'RADGE', 'RADII', 'RADIX', 'RADON', 'RAFFS', 'RAFTS', 'RAGAS', 'RAGDE', 'RAGED',
     'RAGEE', 'RAGER', 'RAGES', 'RAGGA', 'RAGGS', 'RAGGY', 'RAGIS', 'RAGUS', 'RAHED', 'RAHUI',
     'RAIAS', 'RAIDS', 'RAIKS', 'RAILE', 'RAILS', 'RAINE', 'RAINS', 'RAIRD', 
@@ -12644,6 +12644,11 @@ export const wordleWords = [
         myScore: 3,
         wordNumber: 1671,
       }, 
+      { word: "RACER",
+        gameDate: "1/16/26",
+        myScore: 3,
+        wordNumber: 1672,
+      }, 
 
     
   ];
@@ -12661,7 +12666,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("January 15, 2026: Trump sux dykk000000000! CHASM")
+console.log("January 16, 2026: Trump sux dykk000000000! RACER")
 
 
 console.log(wordleWords)
