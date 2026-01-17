@@ -77,7 +77,7 @@ unused_list = [
 		    "PRUDE", "PUBIC", "PUDGY", "PUFFY", "PULSE", "PUNCH",
 		    "PUPPY", "PUREE", "PURER", "PURSE", "PUSHY", "PUTTY", "PYGMY", "QUACK",
 		    "QUASI", "QUEER", "QUELL", 
-		    "QUOTH", "RABBI", "RACER", "RADAR", "RADII", "RAJAH", "RALLY", "RALPH",
+		    "QUOTH", "RABBI", "RADAR", "RADII", "RAJAH", "RALLY", "RALPH",
 		    "RANDY", "RARER", "RASPY", "RAVEN", "RAZOR", "REARM",
             "REBAR", "RECUT", "REEDY", "REFIT", "REHAB", "REIGN", "RENAL", 
             "REPLY", "RESET", "RIFLE", "RIGOR", "RINSE", "RIPEN", "RISER",
