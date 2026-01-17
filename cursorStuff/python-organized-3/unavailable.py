@@ -67,7 +67,7 @@ my_list = {
 'EXIST', 'EXPEL', 'EXTOL', 'EXTRA', 'EVENT', 'EXULT', 'FABLE', 'FACET', 'FAINT', 'FAITH', 
 'FALSE', 
 'FANCY', 'FARCE', 'FAULT', 'FAVOR', 'FEAST', 'FEIGN', 'FERAL', 'FERRY', 'FETCH', 'FETID', 
-'FEVER', 'FEWER', 'FIBER', 'FIELD', 'FIEND', 
+'FEVER', 'FEWER', 'FIBER', 'FIELD', 'FIEND', 'FIERY',
 'FIFTH', 'FIFTY', 'FILET', 'FILLY', 'FINAL', 'FINCH', 'FINER', 'FIRST', 'FISHY', 'FIXER', 
 'FJORD', 
 'FLAIL', 'FLAIR', 'FLAKE', 'FLANK', 'FLAME', 'FLARE', 'FLASH', 'FLASK', 'FLESH', 'FLICK', 
@@ -221,7 +221,7 @@ my_list = {
 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'RACER'
+word_to_find = 'FIERY'
 
 
 if word_to_find in my_list:
