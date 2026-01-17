@@ -152,7 +152,8 @@ my_list = {
 'PULPY', 'PUPIL', 'PURGE', 'QUAIL', 'QUAKE', 'QUALM', 'QUARK', 'QUART', 'QUASH', 'QUEEN', 
 'QUERY', 
 'QUEST', 'QUEUE', 'QUICK', 'QUIET', 'QUILL', 'QUILT', 'QUIRK', 'QUITE', 'QUOTA', 'QUOTE', 
-'RABID', 'RADIO', 'RAINY', 'RAISE', 'RAMEN', 'RANCH', 'RANGE', 'RAPID', 'RATIO', 'RATTY',
+'RABID', 'RACER', 'RADIO', 'RAINY', 'RAISE', 'RAMEN', 'RANCH', 'RANGE', 'RAPID', 'RATIO', 
+'RATTY',
 'RAYON', 'REACH', 'REACT', 'READY', 'REALM', 'REBEL', 'REBUS', 'REBUT', 'RECAP', 'RECUR', 
 'REFER', 'REGAL', 'RELAX', 'RELAY', 'RELIC', 'REMIT', 'RENEW', 'REPAY', 'REPEL', 'RERUN', 
 'RESIN', 'RETCH', 'RETRO', 'RETRY', 'REVEL', 'REVUE', 'RHINO', 'RHYME', 'RIDER', 'RIDGE', 
@@ -220,7 +221,7 @@ my_list = {
 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'CHASM'
+word_to_find = 'RACER'
 
 
 if word_to_find in my_list:
