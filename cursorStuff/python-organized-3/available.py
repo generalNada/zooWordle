@@ -120,7 +120,7 @@ unused_list = [
 	        "WELCH", "WELSH", "WHARF", 
 	        "WIDER", "WIDOW", "WIGHT", "WILLY", "WIMPY", "WINCH", "WISER", "WISPY",
 	        "WOMEN", "WOODY", "WOOLY", "WOOZY", "WORTH", "WRACK", "WRECK", 
-            "WREST", "WRING", "WRYLY", "ZONAL"
+            "WREST", "WRING", "WRYLY", "ZONAL" 
              ]
 
 word = 'SUMAC'
