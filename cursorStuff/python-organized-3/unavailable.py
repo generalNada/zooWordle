@@ -222,7 +222,7 @@ my_list = {
 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'WAXEN'
+word_to_find = 'SULLY'
 
 
 if word_to_find in my_list:
