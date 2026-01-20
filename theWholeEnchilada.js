@@ -1426,7 +1426,7 @@ export const dailyWordsSmall = [
     'STANK', 'STAVE', 'STEAK', 'STEAL', 
     'STEER', 'STOKE', 'STOOP', 
     'STRIP', 'STRUT', 'STUCK', 'STUFF', 'STUNK', 'SUING',
-    'SULLY', 'SURGE', 'SWAMI', 'SWAMP', 'SWARM', 'SWASH',
+    'SURGE', 'SWAMI', 'SWAMP', 'SWARM', 'SWASH',
     'SWEAR', 'SWEPT', 'SWIFT', 'SWOOP', 'SWORE', 
     'SWORN', 'SYNOD', 'TAINT', 'TAKER', 'TAMER', 
     'TANGO', 'TAROT', 'TATTY', 'TEDDY', 'TENET', 'TENSE', 'TEPEE', 
@@ -2534,7 +2534,7 @@ export const dailyWordsLarge = [
     'SUBAS', 'SUBBY', 'SUBER', 'SUBHA', 'SUCCI', 'SUCKS', 'SUCKY', 'SUCRE', 'SUDDS', 'SUDOR',
     'SUDSY', 'SUENT', 'SUERS', 'SUETE', 'SUETS', 'SUETY', 'SUGAN', 'SUGHS',
     'SUGOS', 'SUHUR', 'SUIDS', 'SUING', 'SUINT', 'SUITS', 'SUJEE', 'SUKHS', 'SUKUK',
-    'SULCI', 'SULFA', 'SULFO', 'SULKS', 'SULLY', 'SULPH', 'SULUS',  'SUMIS',
+    'SULCI', 'SULFA', 'SULFO', 'SULKS', 'SULPH', 'SULUS',  'SUMIS',
     'SUMMA', 'SUMOS', 'SUMPH', 'SUMPS', 'SUNIS', 'SUNKS', 'SUNNA', 'SUNNS', 'SUNUP',
     'SUPES', 'SUPRA', 'SURAH', 'SURAL', 'SURAS', 'SURAT', 'SURDS', 'SURED',
     'SURES', 'SURFS', 'SURFY', 'SURGE', 'SURGY', 'SURRA', 'SUSED', 'SUSES',
@@ -12664,6 +12664,11 @@ export const wordleWords = [
         myScore: 3,
         wordNumber: 1675,
       }, 
+      { word: "SULLY",
+        gameDate: "1/20/26",
+        myScore: 3,
+        wordNumber: 1676,
+      }, 
 
     
   ];
@@ -12681,7 +12686,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("January 19, 2026: Trump sux dykk000000000! WAXEN")
+console.log("January 20, 2026: Trump sux dykk000000000! SULLY")
 
 
 console.log(wordleWords)
