@@ -1440,7 +1440,7 @@ export const dailyWordsSmall = [
     'VAUNT', 'VEGAN', 'VERSO', 'VICAR', 'VIGIL', 
     'VIPER', 'VIRUS', 'VISIT', 'VISTA', 'VOCAL', 'VOGUE', 
     'VOMIT', 'VYING', 'WAGER', 'WAIVE', 'WARTY', 
-    'WAVER', 'WAXEN', 'WEAVE', 'WEIGH', 'WELCH', 'WELSH', 'WHARF', 
+    'WAVER', 'WEAVE', 'WEIGH', 'WELCH', 'WELSH', 'WHARF', 
     'WIDER', 'WIDOW', 'WIGHT',
     'WILLY', 'WIMPY', 'WINCH', 'WISER', 'WISPY', 'WOMEN', 'WOODY', 'WOOLY',
     'WOOZY', 'WORTH', 'WRACK', 'WRECK', 'WREST', 'WRING', 'WRYLY', 
@@ -2686,7 +2686,7 @@ export const dailyWordsLarge = [
     'WAREZ', 'WARKS', 'WARMS', 'WARNS', 'WARPS', 'WARRE', 'WARST', 'WARTS', 'WARTY', 'WASES',
     'WASHY', 'WASMS', 'WASPS', 'WASPY', 'WASTS', 'WATAP', 'WATTS',
     'WAUFF', 'WAUGH', 'WAUKS', 'WAULK', 'WAULS', 'WAURS', 'WAVED', 'WAVER', 'WAVES', 'WAVEY',
-    'WAWAS', 'WAWES', 'WAWLS', 'WAXED', 'WAXEN', 'WAXER', 'WAXES', 'WAYED', 'WAZIR', 'WAZOO',
+    'WAWAS', 'WAWES', 'WAWLS', 'WAXED', 'WAXER', 'WAXES', 'WAYED', 'WAZIR', 'WAZOO',
     'WEALD', 'WEALS', 'WEAMB', 'WEANS', 'WEARS', 'WEAVE', 'WEBBY', 'WEBER', 'WECHT',
     'WEDEL', 'WEDGY', 'WEEDS', 'WEEKE', 'WEEKS', 'WEELS', 'WEEMS', 'WEENS',
     'WEENY', 'WEEPS', 'WEEPY', 'WEEST', 'WEETE', 'WEETS', 'WEFTE', 'WEFTS', 'WEIDS', 'WEIGH',
@@ -12676,7 +12676,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("January 18, 2026: Trump sux dykk000000000! SUMAC")
+console.log("January 19, 2026: Trump sux dykk000000000! WAXEN")
 
 
 console.log(wordleWords)
