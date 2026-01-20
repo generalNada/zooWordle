@@ -212,8 +212,8 @@ my_list = {
 'UVULA', 'VAGUE', 'VALET', 'VALID', 'VAPID', 'VENOM', 'VALUE', 'VAULT', 'VENUE', 'VERGE', 
 'VERVE', 'VIDEO', 'VIGOR', 'VILLA', 'VINYL', 'VIOLA', 'VIRAL', 'VISOR', 'VITAL', 'VIVID',
 'VIXEN', 'VODKA', 'VOILA', 'VOICE', 'VOTER', 'VOUCH', 'VOWEL', 'VYING', 'WACKY', 'WAFER', 
-'WAGON', 'WAIST', 'WALTZ', 'WASTE', 'WATCH', 'WATER', 'WEARY', 'WEDGE', 'WEEDY', 'WEIRD', 
-'WHACK', 
+'WAGON', 'WAIST', 'WALTZ', 'WASTE', 'WATCH', 'WATER', 'WAXEN', 'WEARY', 'WEDGE', 'WEEDY', 
+'WEIRD', 'WHACK', 
 'WHALE', 'WHEAT', 'WHEEL', 'WHELP', 'WHERE', 'WHICH', 'WHIFF', 'WHILE', 'WHINE', 'WHINY', 
 'WHIRL', 'WHISK', 'WHITE', 'WHOLE', 'WHOOP', 'WHOSE', 'WIDEN', 'WIDTH', 'WIELD', 'WINCE', 
 'WINDY', 
@@ -222,7 +222,7 @@ my_list = {
 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'SUMAC'
+word_to_find = 'WAXEN'
 
 
 if word_to_find in my_list:
