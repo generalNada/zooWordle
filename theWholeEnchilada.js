@@ -2534,7 +2534,7 @@ export const dailyWordsLarge = [
     'SUBAS', 'SUBBY', 'SUBER', 'SUBHA', 'SUCCI', 'SUCKS', 'SUCKY', 'SUCRE', 'SUDDS', 'SUDOR',
     'SUDSY', 'SUENT', 'SUERS', 'SUETE', 'SUETS', 'SUETY', 'SUGAN', 'SUGHS',
     'SUGOS', 'SUHUR', 'SUIDS', 'SUING', 'SUINT', 'SUITS', 'SUJEE', 'SUKHS', 'SUKUK',
-    'SULCI', 'SULFA', 'SULFO', 'SULKS', 'SULPH', 'SULUS',  'SUMIS',
+    'SULCI', 'SULFA', 'SULFO', 'SULKS', 'SULPH', 'SULUS', 'SUMIS',
     'SUMMA', 'SUMOS', 'SUMPH', 'SUMPS', 'SUNIS', 'SUNKS', 'SUNNA', 'SUNNS', 'SUNUP',
     'SUPES', 'SUPRA', 'SURAH', 'SURAL', 'SURAS', 'SURAT', 'SURDS', 'SURED',
     'SURES', 'SURFS', 'SURFY', 'SURGE', 'SURGY', 'SURRA', 'SUSED', 'SUSES',
