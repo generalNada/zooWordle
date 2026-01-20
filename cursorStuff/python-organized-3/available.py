@@ -101,7 +101,7 @@ unused_list = [
             "STAVE", "STEAK", "STEAL", "STEER", 
             "STOKE", "STOOD", "STOOP", "STRIP", "STRUT", "STUCK", 
             "STUFF", "STUNK",
-	        "SUING", "SULLY", "SURGE", "SWAMI", "SWAMP", "SWARM",
+	        "SUING", "SURGE", "SWAMI", "SWAMP", "SWARM",
 	        "SWASH", "SWEAR", "SWEPT", "SWIFT", "SWOOP"
             "SWORE", "SWORN", "SYNOD", "TAINT",
 	        "TAKER", "TAMER", "TANGO", "TAROT", "TATTY", "TEARY", "TEDDY",
@@ -123,7 +123,7 @@ unused_list = [
             "WREST", "WRING", "WRYLY", "ZONAL" 
              ]
 
-word = 'WAXEN'
+word = 'SULLY'
 
 
 if word in unused_list:
