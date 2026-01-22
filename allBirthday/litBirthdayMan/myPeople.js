@@ -180,6 +180,16 @@ export const myPeople = [
     groups: [ "All", "Friend"],
   },
   {
+    firstName: "Jeff",
+    lastName: "Hains",
+    birthMonth: "January",
+    birthDay: 20,
+    birthYear: null,
+    passedAway: null,
+    comment: null,
+    groups: [ "All", "Friend"],
+  },
+  {
     firstName: "Rita",
     lastName: "Hen.",
     birthMonth: "July",

@@ -180,6 +180,16 @@ export const theNames = [
     group: "unknown",
   },
   {
+    firstName: "Jeff",
+    lastName: "Hains",
+    birthMonth: "January",
+    birthDay: 20,
+    birthYear: null,
+    passedAway: null,
+    comment: null,
+    group: "unknown",
+  },
+  {
     firstName: "Rita",
     lastName: "Hen.",
     birthMonth: "July",
