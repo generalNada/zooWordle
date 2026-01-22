@@ -184,7 +184,7 @@ export const myPeople = [
     lastName: "Hains",
     birthMonth: "January",
     birthDay: 20,
-    birthYear: null,
+    birthYear: 1986,
     passedAway: null,
     comment: null,
     groups: [ "All", "Friend"],
