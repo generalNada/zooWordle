@@ -15,7 +15,8 @@ my_list = {
 'AWARD', 
 'AWARE', 'AWASH', 'AWOKE', 'AWFUL', 'AXIOM', 'AZURE', 'BACON', 'BADGE', 'BADLY', 'BAGEL', 
 'BAKER', 
-'BALER', 'BALMY', 'BALSA', 'BANAL', 'BANJO', 'BARGE', 'BASIC', 'BASIN', 'BATCH', 'BASTE', 
+'BALER', 'BALMY', 'BALSA', 'BANAL', 'BANJO', 'BARGE', 'BARON', 'BASIC', 'BASIN', 'BATCH', 
+'BASTE', 
 'BATHE', 'BATON', 'BATTY', 'BAWDY', 'BAYOU', 'BEACH', 'BEADY', 'BEARD', 'BEAST', 'BEAUT', 
 'BEEFY', 'BEGET', 
 'BEGIN', 'BEING', 'BELCH', 'BELIE', 'BELLY', 'BELOW', 'BENCH', 'BERET', 'BERTH', 'BESET', 
@@ -224,7 +225,7 @@ my_list = {
 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'CLINK'
+word_to_find = 'BARON'
 
 
 if word_to_find in my_list:
