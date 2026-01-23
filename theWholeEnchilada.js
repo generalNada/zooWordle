@@ -1324,7 +1324,7 @@ export const dailyWordsSmall = [
     'AMITY', 'AMPLY', 'ANIME', 'ANKLE',
     'ANNUL', 'ANTSY', 'APING', 'APNEA', 'ARENA', 'ARMOR', 'AROSE', 'ARRAY', 
     'ARSON', 'ASTIR', 'ATTIC', 'AUGUR', 'AUNTY', 'AVIAN', 
-    'AXIAL', 'AXION', 'BAGGY', 'BARON',
+    'AXIAL', 'AXION', 'BAGGY', 
     'BASAL', 'BASIL', 'BASIS', 'BEECH', 'BEFIT',
     'BEGAN', 'BEGAT', 'BEGUN', 'BEIGE', 'BELLE', 'BERRY', 'BETEL', 'BEZEL', 'BIBLE',
     'BIDDY', 'BIGOT', 'BILLY', 'BINGO', 'BISON', 'BITTY', 
@@ -1528,7 +1528,7 @@ export const dailyWordsLarge = [
     'BANDS', 'BANDY', 'BANED', 'BANES', 'BANGS', 'BANIA', 'BANKS', 'BANNS', 'BANTS',
     'BANTY', 'BANYA', 'BAPUS', 'BARBE', 'BARBS', 'BARBY', 'BARCA', 'BARDE', 'BARDO', 'BARDS',
     'BARDY', 'BARED', 'BARER', 'BARES', 'BARFI', 'BARFS', 'BARIC', 'BARKS', 'BARKY',
-    'BARMS', 'BARMY', 'BARNS', 'BARNY', 'BARON', 'BARPS', 'BARRA', 'BARRE', 'BARRO', 'BARRY',
+    'BARMS', 'BARMY', 'BARNS', 'BARNY', 'BARPS', 'BARRA', 'BARRE', 'BARRO', 'BARRY',
     'BARYE', 'BASAL', 'BASAN', 'BASED', 'BASEN', 'BASER', 'BASES', 'BASHO', 'BASIJ',
     'BASIL', 'BASIS', 'BASKS', 'BASON', 'BASSE', 'BASSI', 'BASSO', 'BASSY', 'BASTA',
     'BASTI', 'BASTO', 'BASTS', 'BATED', 'BATES', 'BATHS', 'BATIK',
@@ -12679,6 +12679,11 @@ export const wordleWords = [
         myScore: 3,
         wordNumber: 1678,
       }, 
+      { word: "BARON",
+        gameDate: "1/23/26",
+        myScore: 4,
+        wordNumber: 1679,
+      }, 
 
     
   ];
@@ -12696,7 +12701,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("January 22, 2026: Trump sux dykk000000000! CLINK")
+console.log("January 23, 2026: Trump sux dykk000000000! BARON")
 
 
 console.log(wordleWords)
