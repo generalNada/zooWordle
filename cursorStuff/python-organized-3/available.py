@@ -1,5 +1,5 @@
 unused_list = [ 
-            "ABLED", "ABODE", "ABORT", "ABUSE", "ADORN",
+            "ABLED", "ABODE", "ABORT", "ABUSE", "ADORN", 
             "AFIRE", "AFOOT", "AFOUL", "AFOUL", "AIDER", "ALGAE", "ALIBI", "ALIGN",
 			"ALLAY", "ALLEY", "ALLOT", "ALLOY", "AMAZE", "AMEND", "AMPLY",  
             "ANIME", "ANKLE", "ANNUL", "APING", "APNEA", "ARENA",
@@ -17,7 +17,7 @@ unused_list = [
             "CAVIL", "CELLO", "CHAFF", "CHESS", 
             "CHICK", "CHIDE", "CHILI", "CHINA", "CHOMP", "CHUCK", "CHUMP", "CHURN",
 		    "CLACK", "CLAIM", "CLANG", "CLANK", "CLASP", "CLEAT", "CLIFF", 
-            "CLINK", "CLOUT", "CLUED", "CLUMP", "COBRA", "COLOR", 
+            "CLOUT", "CLUED", "CLUMP", "COBRA", "COLOR", 
             "COMIC", "COPSE", "COUCH", "COUGH", "COUPE", "COVEY", "CRACK", 
             "CRASH", "CREED", "CREEK", "CREEP", "CREME", "CRESS", 
             "CRICK", "CRIED", "CRIER", "CROCK", "CRONY", "CROUP", "CRUDE", "CRUEL", 
@@ -123,7 +123,7 @@ unused_list = [
             "WREST", "WRING", "WRYLY", "ZONAL" 
              ]
 
-word = 'CUBIC'
+word = 'CLINK'
 
 
 if word in unused_list:
