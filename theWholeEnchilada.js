@@ -1338,7 +1338,7 @@ export const dailyWordsSmall = [
     'CAPUT', 'CASTE', 'CAVIL', 'CELLO', 'CHAFF', 
     'CHESS', 'CHICK', 'CHIDE', 'CHILI', 'CHINA', 'CHOMP',
     'CHUCK', 'CHUMP', 'CHURN', 'CLACK', 'CLAIM',
-    'CLANG', 'CLANK', 'CLASP', 'CLEAT', 'CLIFF',
+    'CLANG', 'CLANK', 'CLASP', 'CLEAT', 
     'CLOUT', 'CLUED', 'CLUMP', 'COBRA', 'COLOR', 'COMIC',
     'COPSE', 'COUCH', 'COUGH', 'COUPE', 'COVEY', 'CRACK', 
     'CRASH', 'CREED', 'CREEK', 'CREEP', 'CREME', 'CRESS',
@@ -1654,7 +1654,7 @@ export const dailyWordsLarge = [
     'CLARO', 'CLART', 'CLARY', 'CLASP', 'CLAST', 'CLATS', 'CLAUT', 'CLAVE',
     'CLAVI', 'CLAWS', 'CLAYS', 'CLEAT', 'CLECK', 'CLEEK', 'CLEEP', 'CLEFS',
     'CLEGS', 'CLEIK', 'CLEMS', 'CLEPE', 'CLEPT', 'CLEVE', 'CLEWS',
-    'CLIED', 'CLIES', 'CLIFF', 'CLIFT', 'CLIME', 'CLINE', 'CLINT',
+    'CLIED', 'CLIES', 'CLIFT', 'CLIME', 'CLINE', 'CLINT',
     'CLIPE', 'CLIPS', 'CLIPT', 'CLITS', 'CLOAM', 'CLODS', 'CLOFF', 'CLOGS',
     'CLOKE', 'CLOMB', 'CLOMP', 'CLONK', 'CLONS', 'CLOOP', 'CLOOT', 'CLOPS',
     'CLOTE', 'CLOTS', 'CLOUR', 'CLOUS', 'CLOUT', 'CLOWS',
@@ -12684,6 +12684,11 @@ export const wordleWords = [
         myScore: 4,
         wordNumber: 1679,
       }, 
+      { word: "CLIFF",
+        gameDate: "1/24/26",
+        myScore: 4,
+        wordNumber: 1680,
+      }, 
 
     
   ];
@@ -12701,7 +12706,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("January 23, 2026: Trump sux dykk000000000! BARON")
+console.log("January 24, 2026: Trump sux dykk000000000! CLIFF")
 
 
 console.log(wordleWords)
