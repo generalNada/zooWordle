@@ -1,6 +1,6 @@
 unused_list = [ 
             "ABLED", "ABODE", "ABORT", "ABUSE", "ADORN", 
-            "AFIRE", "AFOOT", "AFOUL", "AFOUL", "AIDER", "ALGAE", "ALIBI", "ALIGN",
+            "AFIRE", "AFOOT", "AFOUL", "AIDER", "ALGAE", "ALIBI", "ALIGN",
 			"ALLAY", "ALLEY", "ALLOT", "ALLOY", "AMAZE", "AMEND", "AMPLY",  
             "ANIME", "ANKLE", "ANNUL", "APING", "APNEA", "ARENA",
             "ARMOR", "AROSE", "ARRAY", "ARSON", "ASTIR", "ATTIC", 
@@ -99,7 +99,7 @@ unused_list = [
             "SPERM", "SPIED", "SPIKY", "SPILT", "SPINY", "SPOOK", "SPREE", 
             "SPUNK", "SPURN", "SQUIB", "STALK", "STALL", "STANK",
             "STAVE", "STEAK", "STEAL", "STEER", 
-            "STOKE", "STOOD", "STOOP", "STRIP", "STRUT", "STUCK", 
+            "STOKE", "STOOD", "STOOP", "STRIP", "STUCK", 
             "STUFF", "STUNK",
 	        "SUING", "SURGE", "SWAMI", "SWAMP", "SWARM",
 	        "SWASH", "SWEAR", "SWEPT", "SWIFT", "SWOOP"
@@ -123,7 +123,7 @@ unused_list = [
             "WREST", "WRING", "WRYLY", "ZONAL" 
              ]
 
-word = 'CLIFF'
+word = 'STRUT'
 
 
 if word in unused_list:
