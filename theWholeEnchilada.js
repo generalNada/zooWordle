@@ -1351,7 +1351,7 @@ export const dailyWordsSmall = [
     'DOGMA', 'DOWDY', 'DOWNY', 'DRAKE', 'DRAMA',
     'DRANK', 'DRAWL', 'DRESS', 'DRIED', 'DRIER', 
     'DROIT', 'DROSS', 'DROWN', 'DRUID', 'DRUNK', 'DRYLY',
-    'DULLY', 'DUMPY', 'DUNCE', 'DUSKY', 'DUSTY', 'DYING',   
+    'DULLY', 'DUMPY', 'DUNCE', 'DUSTY', 'DYING',   
     'EATEN', 'EATER', 'ECLAT', 'EERIE', 'EKING', 'ELECT',
     'ELEGY', 'ELFIN', 'ELIDE', 'EMBED', 'EMCEE', 'ENEMY', 
     'ENTRY', 'ENVOY', 'ERECT', 'ESTER', 'ETUDE', 'EVICT',
@@ -1768,7 +1768,7 @@ export const dailyWordsLarge = [
     'DUMPS', 'DUMPY', 'DUNAM', 'DUNCE', 'DUNCH', 'DUNES', 'DUNGS', 'DUNGY', 'DUNKS', 'DUNNO',
     'DUNNY', 'DUNSH', 'DUNTS', 'DUOMI', 'DUOMO', 'DUPED', 'DUPER', 'DUPES', 'DUPLE', 'DUPLY',
     'DUPPY', 'DURAL', 'DURAS', 'DURED', 'DURES', 'DURGY', 'DURNS', 'DUROC', 'DUROS', 'DUROY',
-    'DURRA', 'DURRS', 'DURRY', 'DURST', 'DURUM', 'DURZI', 'DUSKS', 'DUSKY', 'DUSTS', 'DUSTY',
+    'DURRA', 'DURRS', 'DURRY', 'DURST', 'DURUM', 'DURZI', 'DUSKS', 'DUSTS', 'DUSTY',
     'DUXES', 'DWAAL', 'DWALE', 'DWALM', 'DWAMS', 'DWANG', 'DWAUM',
     'DWEEB', 'DWILE', 'DWINE', 'DYADS', 'DYERS', 'DYING', 'DYKED', 'DYKES',
     'DYKON', 'DYNEL', 'DYNES', 'EAGRE', 'EALED', 'EALES', 'EANED', 'EARDS',
@@ -12699,6 +12699,11 @@ export const wordleWords = [
         myScore: 3,
         wordNumber: 1682,
       }, 
+      { word: "DUSKY",
+        gameDate: "1/27/26",
+        myScore: 3,
+        wordNumber: 1683,
+      }, 
 
     
   ];
@@ -12716,7 +12721,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("January 26, 2026: Trump sux dykk000000000! FREAK")
+console.log("January 27, 2026: Trump sux dykk000000000! DUSKY")
 
 
 console.log(wordleWords)
