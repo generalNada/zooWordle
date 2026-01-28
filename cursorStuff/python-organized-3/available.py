@@ -20,7 +20,7 @@ unused_list = [
             "CLOUT", "CLUED", "CLUMP", "COBRA", "COLOR", 
             "COMIC", "COPSE", "COUCH", "COUGH", "COUPE", "COVEY", "CRACK", 
             "CRASH", "CREED", "CREEK", "CREEP", "CREME", "CRESS", 
-            "CRICK", "CRIED", "CRIER", "CROCK", "CRONY", "CROUP", "CRUDE", "CRUEL", 
+            "CRICK", "CRIED", "CRIER", "CROCK", "CRONY", "CROUP", "CRUDE", 
             "CRUMP", "CURRY", "CURVY", "CUTIE", "CYCLE", 
             "DAILY", "DAIRY", "DEALT", "DEBAR", 
             "DEIGN", "DEMON", "DEMUR", "DENSE", "DERBY", "DILLY", "DIMLY", 
@@ -123,7 +123,7 @@ unused_list = [
             "WREST", "WRING", "WRYLY", "ZONAL" 
              ]
 
-word = 'DUSKY'
+word = 'CRUEL'
 
 
 if word in unused_list:
