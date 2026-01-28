@@ -60,7 +60,8 @@ my_list = {
 'DOUBT', 
 'DOUGH', 'DOWEL', 'DOWRY', 'DOZEN', 'DRAFT', 'DRAIN', 'DRAPE', 'DRAWN', 'DREAD', 'DREAM', 
 'DRILL', 'DRINK', 'DRIVE', 'DROLL', 'DRONE', 'DROOL', 'DROOP', 'DROVE', 'DRYER', 'DUCHY', 
-'DUMMY', 'DUTCH', 'DUVET', 'DWARF', 'DWELL', 'DWELT', 'EAGER', 'EAGLE', 'EARLY', 'EARTH', 
+'DUMMY', 'DUSKY', 'DUTCH', 'DUVET', 'DWARF', 'DWELL', 'DWELT', 'EAGER', 'EAGLE', 'EARLY', 
+'EARTH', 
 'EASEL', 'EBONY', 'EDIFY', 'EGRET', 'EIGHT', 'EJECT', 'ELATE', 'ELBOW', 'ELDER', 'ELITE', 
 'ELOPE', 
 'ELUDE', 'EMAIL', 'EMBER', 'EMPTY', 'ENACT', 'ENDOW', 'ENEMA', 'ENJOY', 'ENNUI', 'ENSUE', 
@@ -227,7 +228,7 @@ my_list = {
 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'FREAK'
+word_to_find = 'DUSKY'
 
 
 if word_to_find in my_list:
