@@ -1343,7 +1343,7 @@ export const dailyWordsSmall = [
     'COPSE', 'COUCH', 'COUGH', 'COUPE', 'COVEY', 'CRACK', 
     'CRASH', 'CREED', 'CREEK', 'CREEP', 'CREME', 'CRESS',
     'CRICK', 'CRIED', 'CRIER', 'CROCK', 'CRONY', 'CROUP', 'CRUDE',
-    'CRUEL', 'CRUMP', 'CURRY', 'CURVY',
+    'CRUMP', 'CURRY', 'CURVY',
     'CUTIE', 'CYCLE', 'DAILY', 'DAIRY', 'DEALT', 'DEBAR',
     'DEIGN', 
     'DEMON', 'DEMUR', 'DENSE', 'DERBY', 'DILLY', 'DIMLY',
@@ -1691,7 +1691,7 @@ export const dailyWordsLarge = [
     'CRITH', 'CRITS', 'CROCI', 'CROCK', 'CROCS', 'CROFT', 'CROGS', 'CROMB',
     'CROME', 'CRONK', 'CRONS', 'CRONY', 'CROOL', 'CROON', 'CROPS', 'CRORE',
     'CROST', 'CROUP', 'CROUT', 'CROWS', 'CROZE', 'CRUCK', 'CRUDE',
-    'CRUDO', 'CRUDS', 'CRUDY', 'CRUEL', 'CRUES', 'CRUET', 'CRUFT', 'CRUMP', 'CRUNK',
+    'CRUDO', 'CRUDS', 'CRUDY', 'CRUES', 'CRUET', 'CRUFT', 'CRUMP', 'CRUNK',
     'CRUOR', 'CRURA', 'CRUSE', 'CRUSY', 'CRUVE', 'CRWTH', 'CRYER',
     'CTENE', 'CUBBY', 'CUBEB', 'CUBED', 'CUBER', 'CUBES', 'CUBIT', 'CUDDY', 'CUFFO',
     'CUFFS', 'CUIFS', 'CUING', 'CUISH', 'CUITS', 'CUKES', 'CULCH', 'CULET', 'CULEX', 'CULLS',
@@ -12704,6 +12704,11 @@ export const wordleWords = [
         myScore: 3,
         wordNumber: 1683,
       }, 
+      { word: "CRUEL",
+        gameDate: "1/28/26",
+        myScore: 3,
+        wordNumber: 1684,
+      }, 
 
     
   ];
@@ -12721,7 +12726,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("January 27, 2026: Trump sux dykk000000000! DUSKY")
+console.log("January 28, 2026: Trump sux dykk000000000! CRUEL")
 
 
 console.log(wordleWords)
