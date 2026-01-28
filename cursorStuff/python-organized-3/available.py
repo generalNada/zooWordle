@@ -27,7 +27,7 @@ unused_list = [
             "DIODE", "DIRGE", "DIRTY", "DITCH", "DIVAN", "DIVER", "DIZZY",
             "DOWDY", "DOWNY", "DRAKE", "DRAMA", "DRANK", "DRAWL", 
             "DRESS", "DRIED", "DRIER", "DRIFT", "DROIT", "DROSS", 
-            "DROWN", "DRUID", "DRUNK", "DRYLY", "DULLY", "DUMPY", "DUNCE", "DUSKY", 
+            "DROWN", "DRUID", "DRUNK", "DRYLY", "DULLY", "DUMPY", "DUNCE", 
             "DUSTY", "DYING", "EATEN", "EATER", "ECLAT", "EDICT", "EERIE",
 		    "EKING", "ELECT", "ELEGY", "ELFIN", "ELIDE", "EMBED",
 		    "EMCEE", "ENEMY", "ENTRY", "ENVOY", "ERECT", "ESTER", "ETUDE", 
