@@ -49,8 +49,8 @@ my_list = {
 'COVET', 'COWER', 'COYLY', 'CRAFT', 
 'CRAMP', 'CRANE', 'CRANK', 'CRASS', 'CRATE', 'CRAVE', 'CRAWL', 'CRAZE', 'CRAZY', 'CREAK', 
 'CREAM', 'CREDO', 'CREPE', 'CREPT', 'CREST', 'CRIME', 'CRIMP', 'CRISP', 'CROAK', 'CRONE', 
-'CROOK', 'CROSS', 'CROWD', 'CROWN', 'CRUEL', 'CRUMB', 'CRUSH', 'CRUST', 'CRYPT', 'CUBIC',
-'CUMIN', 'CURIO', 
+'CROOK', 'CROSS', 'CROWD', 'CROWN', 'CRUMB', 'CRUSH', 'CRUST', 'CRYPT', 'CUBIC', 'CUMIN', 
+'CURIO', 
 'CURLY', 'CURVE', 'CURSE', 'CYBER', 'CYNIC', 'DADDY', 'DAISY', 'DALLY', 'DANCE', 'DANDY', 
 'DATUM', 'DAUNT', 'DEATH', 'DEBIT', 'DEBUG', 'DEBUT', 'DECAL', 'DECAY', 'DECOR', 'DECOY', 
 'DECRY', 
@@ -74,7 +74,7 @@ my_list = {
 'FEVER', 'FEWER', 'FIBER', 'FIELD', 'FIEND', 'FIERY',
 'FIFTH', 'FIFTY', 'FILET', 'FILLY', 'FINAL', 'FINCH', 'FINER', 'FIRST', 'FISHY', 'FIXER', 
 'FJORD', 
-'FLAIL', 'FLAIR', 'FLAKE', 'FLANK', 'FLAME', 'FLARE', 'FLASH', 'FLASK', 'FLESH', 'FLICK', 
+'FLAIL', 'FLAIR', 'FLAKE', 'FLAKY', 'FLANK', 'FLAME', 'FLARE', 'FLASH', 'FLASK', 'FLESH', 'FLICK', 
 'FLING', 'FLINT', 'FLIRT', 'FLOAT', 'FLOCK', 'FLOOD', 'FLOOR', 'FLORA', 'FLOSS', 'FLOUR', 
 'FLOUT', 'FLOWN', 'FLUFF', 'FLUME', 'FLUNG', 'FLUNK', 'FLUTE', 'FLYER', 'FOAMY', 'FOCAL', 
 'FOCUS', 
@@ -228,7 +228,7 @@ my_list = {
 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'CRUEL'
+word_to_find = 'FLAKY'
 
 
 if word_to_find in my_list:
