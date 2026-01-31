@@ -50,7 +50,7 @@ unused_list = [
             "HUMUS", "HUSKY", "HUSSY", "HYDRO", "HYMEN", "ICILY", 
 		    "IDIOT", "IDYLL", "ILIAC", "IMPLY", "INGOT", 
             "INLET", "INTRO", "ISSUE", "JETTY", "JOIST ", 
-            "JUICY", "JUMBO", "JUNTA", "JUNTO", "JUROR", "KAPPA", "KINKY", "KITTY", 
+            "JUICY", "JUNTA", "JUNTO", "JUROR", "KAPPA", "KINKY", "KITTY", 
             "KNEED", "LADEN",
             "LANCE", "LATCH", "LEANT", "LEGAL", 
 	        "LEPER", "LIEGE", "LIKEN", "LIPID",
@@ -123,7 +123,7 @@ unused_list = [
             "WREST", "WRING", "WRYLY", "ZONAL" 
              ]
 
-word = 'FLAKY'
+word = 'JUMBO'
 
 
 if word in unused_list:
