@@ -106,6 +106,7 @@ my_list = {
 'INBOX', 'INCUR', 'INDEX', 'INDIE', 'INEPT', 'INERT', 'INFER', 'INLAY', 'INNER', 'INPUT', 
 'INTER', 'INTRO', 'IONIC', 'IRATE', 'IRONY', 'ISLET', 'ITCHY', 'IVORY', 'JAUNT', 'JAZZY', 
 'JELLY', 'JERKY', 'JEWEL', 'JIFFY', 'JOINT', 'JOKER', 'JOLLY', 'JOUST', 'JUDGE', 'JUICE', 
+'JUMBO',
 'JUMPY', 'KARMA', 'KAYAK', 'KAZOO', 'KEBAB', 'KEFIR', 'KHAKI', 'KIOSK', 'KNACK', 'KNAVE', 
 'KNEAD', 'KNEEL', 'KNELL', 'KNELT', 'KNIFE', 'KNOCK', 'KNOLL', 'KNOWN', 'KOALA', 'KRILL', 
 'LABEL', 'LABOR', 'LADLE', 'LAGER', 'LANKY', 'LAPEL', 'LAPSE', 'LARGE', 'LARVA',
@@ -228,7 +229,7 @@ my_list = {
 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'FLAKY'
+word_to_find = 'JUMBO'
 
 
 if word_to_find in my_list:
