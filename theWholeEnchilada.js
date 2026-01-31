@@ -1374,7 +1374,7 @@ export const dailyWordsSmall = [
     'HONOR', 'HORNY', 'HOTLY', 'HUMUS', 'HUSKY', 'HUSSY', 'HYDRO',
     'HYMEN', 'ICILY', 'IDIOT', 'IDYLL', 'ILIAC', 
     'IMPLY', 'INGOT', 'INLET',  
-    'JETTY', 'JOIST', 'JUICY', 'JUMBO', 'JUNTA',
+    'JETTY', 'JOIST', 'JUICY', 'JUNTA',
     'JUNTO', 'JUROR', 'KAPPA', 'KINKY', 'KITTY', 'KNEED', 
     'LADEN', 'LANCE', 'LATCH', 
     'LEANT', 'LEGAL',
@@ -2008,7 +2008,7 @@ export const dailyWordsLarge = [
     'JOMON', 'JOMOS', 'JONES', 'JONGS', 'JONTY', 'JOOKS', 'JORAM', 'JORUM', 'JOTAS', 'JOTTY',
     'JOTUN', 'JOUAL', 'JOUGS', 'JOUKS', 'JOULE', 'JOURS', 'JOWAR', 'JOWED', 'JOWLS',
     'JOWLY', 'JOYED', 'JUBAS', 'JUBES', 'JUCOS', 'JUDAS', 'JUDGE', 'JUDGY', 'JUDOS', 'JUGAL',
-    'JUGUM', 'JUICY', 'JUJUS', 'JUKED', 'JUKES', 'JUKUS', 'JULEP', 'JUMAR', 'JUMBO',
+    'JUGUM', 'JUICY', 'JUJUS', 'JUKED', 'JUKES', 'JUKUS', 'JULEP', 'JUMAR', 
     'JUMBY', 'JUMPS', 'JUNCO', 'JUNKS', 'JUNKY', 'JUNTA', 'JUNTO', 'JUPES', 'JUPON',
     'JURAL', 'JURAT', 'JUREL', 'JURES', 'JUROR', 'JUSTS', 'JUTES', 'JUTTY', 'JUVES', 'JUVIE',
     'KAAMA', 'KABAB', 'KABAR', 'KABOB', 'KACHA', 'KACKS', 'KADAI', 'KADES', 'KADIS', 'KAGOS',
@@ -12714,6 +12714,11 @@ export const wordleWords = [
         myScore: 3,
         wordNumber: 1685,
       }, 
+      { word: "JUMBO",
+        gameDate: "1/30/26",
+        myScore: 3,
+        wordNumber: 1686,
+      }, 
 
     
   ];
@@ -12731,7 +12736,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("January 29, 2026: Trump sux dykk000000000! FLAKY")
+console.log("January 30, 2026: Trump sux dykk000000000! JUMBO")
 
 
 console.log(wordleWords)
