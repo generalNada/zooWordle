@@ -1320,7 +1320,7 @@ export const dailyWordsSmall = [
     'ACING', 'ADDED', 'ADDER', 'ADDLE', 'ADIOS', 'ADOBO',
     'ADORN', 'AEGIS', 'AERIE', 'AFIRE', 'AFORE', 'AFOOT', 'AFOUL', 'AGAVE', 'AGAZE', 'AGISM', 
     'AGITA', 'AGONE', 'AGORA', 'AIDER', 'ALACK', 'ALAMO', 'ALGAE', 'ALGAL',
-    'ALIBI', 'ALIGN', 'ALLAY', 'ALLEY', 'ALLOT', 'ALLOY', 'ALOHA', 'AMAZE', 'AMEND',
+    'ALIBI', 'ALIGN', 'ALLAY', 'ALLEY', 'ALLOY', 'ALOHA', 'AMAZE', 'AMEND',
     'AMITY', 'AMPLY', 'ANIME', 'ANKLE',
     'ANNUL', 'ANTSY', 'APING', 'APNEA', 'ARENA', 'ARMOR', 'AROSE', 'ARRAY', 
     'ARSON', 'ASTIR', 'ATTIC', 'AUGUR', 'AUNTY', 'AVIAN', 
@@ -1475,7 +1475,7 @@ export const dailyWordsLarge = [
     'ALECK', 'ALECS', 'ALEFS', 'ALEPH', 'ALEWS', 'ALEYE', 'ALFAS', 'ALGAE', 'ALGAL', 'ALGAS',
     'ALGID', 'ALGIN', 'ALGOL', 'ALIAS', 'ALIBI', 'ALIFS', 'ALIGN', 'ALINE',
     'ALIST', 'ALIYA', 'ALKIE', 'ALKOS', 'ALKYD', 'ALKYL', 'ALLEE', 'ALLEY', 'ALLIS',
-    'ALLOD', 'ALLOT', 'ALLOY', 'ALLYL', 'ALMAH', 'ALMAS', 'ALMEH', 'ALMES', 'ALMUD',
+    'ALLOD', 'ALLOY', 'ALLYL', 'ALMAH', 'ALMAS', 'ALMEH', 'ALMES', 'ALMUD',
     'ALMUG', 'ALODS', 'ALOED', 'ALOES', 'ALOHA', 'ALOIN', 'ALONE', 'ALOOS',
     'ALOSE', 'ALTHO', 'ALTOS', 'ALULA', 'ALUMS', 'ALURE',
     'ALVAR', 'ALWAY', 'AMAHS', 'AMAIN', 'AMATE', 'AMAUT', 'AMAZE', 'AMBAN',
@@ -12719,6 +12719,11 @@ export const wordleWords = [
         myScore: 3,
         wordNumber: 1686,
       }, 
+      { word: "ALLOT",
+        gameDate: "1/31/26",
+        myScore: 2,
+        wordNumber: 1687,
+      }, 
 
     
   ];
@@ -12736,7 +12741,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("January 30, 2026: Trump sux dykk000000000! JUMBO")
+console.log("January 31, 2026: Trump sux dykk000000000! ALLOT")
 
 
 console.log(wordleWords)
