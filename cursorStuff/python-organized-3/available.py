@@ -1,7 +1,7 @@
 unused_list = [ 
             "ABLED", "ABODE", "ABORT", "ABUSE", "ADORN", 
             "AFIRE", "AFOOT", "AFOUL", "AIDER", "ALGAE", "ALIBI", "ALIGN",
-			"ALLAY", "ALLEY", "ALLOT", "ALLOY", "AMAZE", "AMEND", "AMPLY",  
+			"ALLAY", "ALLEY", "ALLOY", "AMAZE", "AMEND", "AMPLY",  
             "ANIME", "ANKLE", "ANNUL", "APING", "APNEA", "ARENA",
             "ARMOR", "AROSE", "ARRAY", "ARSON", "ASTIR", "ATTIC", 
             "AUGUR", "AUNTY", "AVIAN", "AXIAL", "AXION", "BAGGY", 
@@ -123,7 +123,7 @@ unused_list = [
             "WREST", "WRING", "WRYLY", "ZONAL" 
              ]
 
-word = 'JUMBO'
+word = 'ALLOT'
 
 
 if word in unused_list:
