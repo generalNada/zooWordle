@@ -1,3 +1,4 @@
+
 export const fixedWordsLarge = [
     'QQQQQ', 'ZZZZZ', 'JJJJJ', 'QQZZJ', 'KKKJJ', 'JQQZZ', 'JZZQQ', 'QQJZZ', 'ZZJQQ', 'QQJZX',   
     'AAHED', 'AALII', 'AARGH', 'AARTI', 'ABACA', 'ABACI', 'ABACK', 'ABACS', 'ABAFT', 'ABAKA',
@@ -1421,7 +1422,7 @@ export const dailyWordsSmall = [
     'SMOTE', 'SNEER', 'SNIFF', 'SNIPE', 'SNORE', 'SNOWY', 'SNUCK', 'SNUFF',
     'SOAPY', 'SOBER', 'SONAR', 'SOOTH', 'SOOTY', 'SORRY', 'SPANK', 
     'SPAWN', 'SPERM', 'SPIED', 'SPIKY', 'SPILT', 
-    'SPINY', 'SPOOK', 
+    'SPOOK', 
     'SPREE', 'SPUNK', 'SPURN', 'SQUIB', 'STALK',
     'STANK', 'STAVE', 'STEAK', 'STEAL', 
     'STEER', 'STOKE', 'STOOP', 
@@ -2505,7 +2506,7 @@ export const dailyWordsLarge = [
     'SPEKS', 'SPELD', 'SPELK', 'SPEOS', 'SPERM', 'SPETS',
     'SPEUG', 'SPEWS', 'SPEWY', 'SPIAL', 'SPICA', 'SPICK', 'SPIDE', 'SPIED',
     'SPIER', 'SPIES', 'SPIFF', 'SPIFS', 'SPIKY', 'SPILE', 
-    'SPIMS', 'SPINA', 'SPINK', 'SPINS', 'SPINY', 'SPIRT', 'SPIRY', 
+    'SPIMS', 'SPINA', 'SPINK', 'SPINS', 'SPIRT', 'SPIRY', 
     'SPITS', 'SPITZ', 'SPIVS', 'SPLAY', 'SPLIT', 'SPLOG', 'SPODE', 'SPODS',
     'SPOOK', 'SPOOM', 'SPOOR', 'SPOOT', 'SPORK',
     'SPOSH', 'SPOTS', 'SPRAD', 'SPRAG', 'SPRAT', 'SPRED', 'SPREE',
@@ -12724,6 +12725,11 @@ export const wordleWords = [
         myScore: 2,
         wordNumber: 1687,
       }, 
+      { word: "SPINY",
+        gameDate: "2/1/26",
+        myScore: 4,
+        wordNumber: 1688,
+      }, 
 
     
   ];
@@ -12741,7 +12747,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("January 31, 2026: Trump sux dykk000000000! ALLOT")
+console.log("Feb 1, 2026: Trump sux dykk000000000! SPINY")
 
 
 console.log(wordleWords)
