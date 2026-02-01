@@ -1,4 +1,3 @@
-
 my_list = {
 
 'ABACK', 'ABASE', 'ABATE', 'ABBEY', 'ABBOT', 'ABHOR', 'ABIDE', 'ABOUT', 'ABOVE', 'ABYSS', 
@@ -186,7 +185,8 @@ my_list = {
 'SOLAR', 'SOLID', 'SOLVE', 'SONIC', 'SORRY', 'SOUND', 'SOUTH', 'SOWER', 'SPACE', 'SPADE', 
 'SPARE', 'SPASM', 'SPARK', 'SPATE', 'SPEAK', 'SPEAR', 'SPECK', 'SPEED', 'SPELL', 'SPELT', 
 'SPEND', 'SPENT', 'SPICE', 
-'SPICY', 'SPIEL', 'SPIKE', 'SPILL', 'SPINE', 'SPIRE', 'SPITE', 'SPLAT', 'SPLIT', 'SPOIL', 
+'SPICY', 'SPIEL', 'SPIKE', 'SPILL', 'SPINE', 'SPINY', 'SPIRE', 'SPITE', 'SPLAT', 'SPLIT', 
+'SPOIL', 
 'SPOKE', 'SPOOF', 'SPOOL', 'SPOON', 'SPORE', 'SPORT', 'SPOUT', 'SPRAY', 'SPRIG', 'SPURT', 
 'SQUAD', 'SQUAT', 'SQUID', 'STACK',
  
@@ -231,7 +231,7 @@ my_list = {
 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'ALLOT'
+word_to_find = 'SPINY'
 
 
 if word_to_find in my_list:
