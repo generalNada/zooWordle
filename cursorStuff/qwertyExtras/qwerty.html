@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>oldAndNewQwerty</title>
+    <link href="../../repeatedWordsKit/repeatedWords.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="qwertyStyle.css" />
     <link
       rel="stylesheet"
@@ -93,6 +94,19 @@
         </div>
       </main>
     </div>
+
+    <div class="repeated-words-section">
+      <button id="toggleRepeatedWordsButton">Show Repeated Words</button>
+    </div>
+      <!-- Repeated Words Modal -->
+  <div id="repeatedWordsModal" class="repeated-words-modal">
+    <div class="repeated-words-modal-content">
+      <span class="repeated-words-close">&times;</span>
+      <div id="repeatedWordsContent"></div>
+    </div>
+  </div>
+
+    <script type="module" src="../../repeatedWordsKit/repeatedWords.js"></script>
     <script type="module" src="qwertyScript.js"></script>
   </body>
 </html>
