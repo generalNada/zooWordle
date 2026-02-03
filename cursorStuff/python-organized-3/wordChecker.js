@@ -15,6 +15,7 @@
 
       const availableWords = new Set();
       const unavailableWords = new Set();
+      const unavailableWordCounts = new Map(); // Track count of each word in unavailable list
       let dataReady = false;
 
       const sanitizeWord = (word) =>
@@ -50,6 +51,34 @@
           }
         }
         return words;
+      }
+
+      // Function to fetch word counts from unavailable.py
+      async function fetchWordCounts(path) {
+        const response = await fetch(path);
+        if (!response.ok) {
+          throw new Error(`Failed to load ${path}`);
+        }
+        const text = await response.text();
+
+        // Extract content between first [ or { and matching ] or }
+        const listMatch = text.match(/[\[{]([\s\S]*?)[\]}]/);
+        if (!listMatch) {
+          return new Map();
+        }
+        const listContent = listMatch[1];
+
+        // Match quoted strings and count occurrences
+        const pattern = /["']([^"']+)["']\s*(?:,|$)/g;
+        const matches = listContent.matchAll(pattern);
+        const wordCounts = new Map();
+        for (const match of matches) {
+          const cleaned = sanitizeWord(match[1]);
+          if (cleaned.length === 5) {
+            wordCounts.set(cleaned, (wordCounts.get(cleaned) || 0) + 1);
+          }
+        }
+        return wordCounts;
       }
 
       function renderMessage(target, { word, status, details }) {
@@ -113,18 +142,24 @@
 
       async function initialise() {
         try {
-          const [availableData, unavailableData] = await Promise.all([
+          const [availableData, unavailableData, unavailableCountsData] = await Promise.all([
             fetchWordSet(AVAILABLE_PATH),
             fetchWordSet(UNAVAILABLE_PATH),
+            fetchWordCounts(UNAVAILABLE_PATH),
           ]);
 
           availableWords.clear();
           unavailableWords.clear();
+          unavailableWordCounts.clear();
+          
           for (const word of availableData) {
             availableWords.add(word);
           }
           for (const word of unavailableData) {
             unavailableWords.add(word);
+          }
+          for (const [word, count] of unavailableCountsData) {
+            unavailableWordCounts.set(word, count);
           }
 
           availableCountEl.textContent = availableWords.size.toLocaleString();
@@ -141,25 +176,29 @@
       }
 
       handleSubmit(
-        availableWords,
         unavailableWords,
+        availableWords,
         availableForm,
         availableInput,
         availableMessage,
-        (word) => `${word} is in the available list. Give it a shot!`,
-        (word) =>
-          `${word} is marked as unavailable. It has likely been used already.`
+        (word) => {
+          const count = unavailableWordCounts.get(word) || 0;
+          if (count > 1) {
+            return `${word} is on the unavailable list. Steer clear! In fact, ${word} appears ${count} times`;
+          }
+          return `${word} is on the unavailable list. Steer clear!`;
+        },
+        (word) => `${word} is not marked as unavailable. It might still be available.`
       );
 
       handleSubmit(
-        unavailableWords,
         availableWords,
+        unavailableWords,
         unavailableForm,
         unavailableInput,
         unavailableMessage,
-        (word) => `${word} is on the unavailable list. Steer clear!`,
-        (word) =>
-          `${word} is not marked as unavailable. It might still be available.`
+        (word) => `${word} is in the Available list. Feel free to guess ${word}`,
+        (word) => `${word} was not found in the Available list. It has likely been used by Wordle`
       );
 
       initialise();
