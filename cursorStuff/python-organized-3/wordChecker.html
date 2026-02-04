@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Word Availability Checker</title>
+    <link href="../../repeatedWordsKit/repeatedWords.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="./wordChecker.css" />
   </head>
  <body>
@@ -82,7 +83,20 @@
       <span class="word"></span>
       <span class="details"></span>
     </template>
+
+        <div class="repeated-words-section">
+      <button id="toggleRepeatedWordsButton">Show Repeated Words</button>
+    </div>
+      <!-- Repeated Words Modal -->
+  <div id="repeatedWordsModal" class="repeated-words-modal">
+    <div class="repeated-words-modal-content">
+      <span class="repeated-words-close">&times;</span>
+      <div id="repeatedWordsContent"></div>
+    </div>
+  </div>
+  
     <a href="../cursor.html">Back To Cursor, Homey</a>
+    <script type="module" src="../../repeatedWordsKit/repeatedWords.js"></script>
     <script type="module"  src="./wordChecker.js" ></script> 
   </body>
 </html>
