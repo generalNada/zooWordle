@@ -38,7 +38,7 @@ my_list = {
 # BREAK FOR ALPHABIZING - ADDITIONS CAN BE HELD AT BOTTOM OF REPRESENATIVE BLOCK
 
 'CHARM', 'CHART', 'CHASE', 'CHASM', 'CHEAP', 'CHEAT', 'CHECK', 'CHEEK', 'CHEER', 'CHEST', 
-'CHIEF', 
+'CHIDE', 'CHIEF', 
 'CHILD', 'CHILL', 'CHIME', 'CHOCK', 'CHOIR', 'CHOKE', 'CHORD', 'CHORE', 'CHOSE', 'CHUNK', 
 'CHUTE', 'CIDER', 'CIGAR', 'CIGAR', 'CINCH', 'CIRCA', 'CIVIC', 'CIVIL', 'CLAMP', 'CLASH', 
 'CLASS', 
@@ -232,7 +232,7 @@ my_list = {
 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'WEIGH'
+word_to_find = 'CHIDE'
 
 
 if word_to_find in my_list:
