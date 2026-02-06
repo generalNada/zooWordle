@@ -39,7 +39,7 @@ unused_list = [
 		    "FRAUD", "FREED", "FREER", "FRIAR", "FRISK",  
             "FUDGE",
 		    "FUROR", "FURRY", "FUSSY", "GABLE", "GAFFE", "GAILY", "GASSY", "GATOR",
-		    "GAVEL", "GAYER", "GAYLY", "GAZER", "GEEKY", "GIPSY",
+		    "GAYER", "GAYLY", "GAZER", "GEEKY", "GIPSY",
 		    "GIRLY", "GIVER", "GLOSS", "GODLY", 
             "GOLLY", "GONAD", "GOURD", "GRAPE",
             "GRAZE", "GRILL", "GROPE", "GROWN", 
@@ -123,7 +123,7 @@ unused_list = [
             "WREST", "WRING", "WRYLY", "ZONAL" 
              ]
 
-word = 'SWOOP'
+word = 'GAVEL'
 
 
 if word in unused_list:
