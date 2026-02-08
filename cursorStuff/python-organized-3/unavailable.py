@@ -66,7 +66,8 @@ my_list = {
 'EARTH', 
 'EASEL', 'EBONY', 'EDIFY', 'EGRET', 'EIGHT', 'EJECT', 'ELATE', 'ELBOW', 'ELDER', 'ELITE', 
 'ELOPE', 
-'ELUDE', 'EMAIL', 'EMBER', 'EMPTY', 'ENACT', 'ENDOW', 'ENEMA', 'ENJOY', 'ENNUI', 'ENSUE', 
+'ELUDE', 'EMAIL', 'EMBED', 'EMBER', 'EMPTY', 'ENACT', 'ENDOW', 'ENEMA', 'ENJOY', 'ENNUI', 
+'ENSUE', 
 'ENTER', 'EPOCH', 'EPOXY', 'EQUAL', 'EQUIP', 'ERASE', 'ERODE', 'ERROR', 'ERUPT', 'ESSAY', 
 'ETHER', 
 'ETHIC', 'ETHOS', 'EVADE', 'EVERY', 'EVOKE', 'EXACT', 'EXALT', 'EXCEL', 'EXERT', 'EXILE', 
@@ -76,7 +77,8 @@ my_list = {
 'FEVER', 'FEWER', 'FIBER', 'FIELD', 'FIEND', 'FIERY',
 'FIFTH', 'FIFTY', 'FILET', 'FILLY', 'FINAL', 'FINCH', 'FINER', 'FIRST', 'FISHY', 'FIXER', 
 'FJORD', 
-'FLAIL', 'FLAIR', 'FLAKE', 'FLAKY', 'FLANK', 'FLAME', 'FLARE', 'FLASH', 'FLASK', 'FLESH', 'FLICK', 
+'FLAIL', 'FLAIR', 'FLAKE', 'FLAKY', 'FLANK', 'FLAME', 'FLARE', 'FLASH', 'FLASK', 'FLESH', 
+'FLICK', 
 'FLING', 'FLINT', 'FLIRT', 'FLOAT', 'FLOCK', 'FLOOD', 'FLOOR', 'FLORA', 'FLOSS', 'FLOUR', 
 'FLOUT', 'FLOWN', 'FLUFF', 'FLUME', 'FLUNG', 'FLUNK', 'FLUTE', 'FLYER', 'FOAMY', 'FOCAL', 
 'FOCUS', 
@@ -233,7 +235,7 @@ my_list = {
 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'BLEAT'
+word_to_find = 'EMBED'
 
 
 if word_to_find in my_list:
