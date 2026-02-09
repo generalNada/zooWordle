@@ -33,7 +33,7 @@ my_list = {
 'BULGE', 'BULLY', 'BULKY', 'BUNCH', 'BUNNY', 'BURLY', 'BURNT', 'CABLE', 'CACAO', 'CACHE', 
 'CACTI', 'CADET', 'CAMEL', 'CAMEO', 'CANDY', 'CANNY', 'CANON', 'CANOE', 'CAPER', 'CARAT', 
 'CARGO', 'CAROL', 'CARRY', 'CATCH', 'CATER', 'CATTY', 'CAULK', 'CAUSE', 'CARVE', 'CEASE', 
-'CEDAR', 'CHAFE', 'CHAIN', 'CHAIR', 'CHALK', 'CHAMP', 'CHANT', 'CHAOS', 'CHARD', 
+'CEDAR', 'CELLO', 'CHAFE', 'CHAIN', 'CHAIR', 'CHALK', 'CHAMP', 'CHANT', 'CHAOS', 'CHARD', 
 
 # BREAK FOR ALPHABIZING - ADDITIONS CAN BE HELD AT BOTTOM OF REPRESENATIVE BLOCK
 
@@ -235,7 +235,7 @@ my_list = {
 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'EMBED'
+word_to_find = 'CELLO'
 
 
 if word_to_find in my_list:
