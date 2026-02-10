@@ -85,7 +85,7 @@ unused_list = [
 		    "RISKY", "RIVER", "ROAST", "ROGER", "ROOST", "ROTOR", "RULER", "RUMOR", "RURAL", 
 	        "SADLY", "SAFER",
 		    "SALON", "SALVE", "SALVO", "SANER", "SAPPY", "SATIN", "SATYR", "SAUCE",
-		    "SAVOY", "SCALP", "SCALY", "SCAMP", "SCARY", "SCENE",
+		    "SAVOY", "SCALP", "SCALY", "SCAMP", "SCARY", 
 		    "SCION", "SCOOP", "SCREE", "SCREW", "SCUBA",  
             "SEIZE", "SEMEN", "SEPIA", "SERIF", "SETUP", "SEWER", "SHACK", "SHADY", 
             "SHALE", "SHALT", "SHARK", "SHEEN", "SHEEP", "SHEER", 
@@ -124,7 +124,7 @@ unused_list = [
             "WREST", "WRING", "WRYLY", "ZONAL" 
              ]
 
-word = 'CELLO'
+word = 'SCENE'
 
 
 if word in unused_list:
