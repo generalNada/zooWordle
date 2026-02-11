@@ -1784,7 +1784,7 @@ export const dailyWordsSmall = [
 'UNDER', 'UNDID', 'UNDUE', 'UNFED', 'UNFIT', 'UNIFY', 'UNION', 'UNITE', 'UNITY', 'UNLIT',
 'UNMET', 'UNSET', 'UNTIE', 'UNTIL', 'UNWED', 'UNZIP', 'UPPER', 'UPSET', 'URBAN', 'URINE',
 'USAGE', 'USHER', 'USING', 'USUAL', 'USURP', 'UTILE', 'UTTER', 'UVULA', 'VAGUE', 'VALET',
-'VALID', 'VALOR', 'VALUE', 'VALVE', 'VAPID', 'VAPOR', 'VAULT', 'VAUNT', 'VEGAN', 'VENOM',
+'VALID', 'VALOR', 'VALUE', 'VALVE', 'VAPID', 'VAPOR', 'VAULT', 'VAUNT', 'VENOM',
 'VENUE', 'VERGE', 'VERSE', 'VERSO', 'VERVE', 'VICAR', 'VIDEO', 'VIGIL', 'VIGOR', 'VILLA',
 'VINYL', 'VIOLA', 'VIPER', 'VIRAL', 'VIRUS', 'VISIT', 'VISOR', 'VISTA', 'VITAL', 'VIVID',
 'VIXEN', 'VOCAL', 'VODKA', 'VOGUE', 'VOICE', 'VOILA', 'VOMIT', 'VOTER', 'VOUCH', 'VOWEL',
@@ -3022,7 +3022,7 @@ export const dailyWordsLarge = [
     'VAPOR', 'VARAN', 'VARAS', 'VARDY', 'VAREC', 'VARES', 'VARIA', 'VARIX', 'VARNA', 'VARUS',
     'VARVE', 'VASAL', 'VASES', 'VASTS', 'VASTY', 'VATIC', 'VATUS', 'VAUCH', 'VAULT', 'VAUNT',
     'VAUTE', 'VAUTS', 'VAWTE', 'VAXES', 'VEALE', 'VEALS', 'VEALY', 'VEENA', 'VEEPS', 'VEERS',
-    'VEERY', 'VEGAN', 'VEGAS', 'VEGES', 'VEGIE', 'VEGOS', 'VEHME', 'VEILS', 'VEILY', 'VEINS',
+    'VEERY', 'VEGAS', 'VEGES', 'VEGIE', 'VEGOS', 'VEHME', 'VEILS', 'VEILY', 'VEINS',
     'VEINY', 'VELAR', 'VELDS', 'VELDT', 'VELES', 'VELLS', 'VELUM', 'VENAE', 'VENAL', 'VENDS',
     'VENEY', 'VENGE', 'VENIN', 'VENOM', 'VENTS', 'VENUE', 'VENUS', 'VERBS', 'VERGE', 'VERRA',
     'VERRY', 'VERSE', 'VERSO', 'VERST', 'VERTS', 'VERTU', 'VERVE', 'VESPA', 'VESTA', 'VESTS',
@@ -13140,6 +13140,11 @@ export const wordleWords = [
         myScore: 3,
         wordNumber: 1697,
       }, 
+      { word: "VEGAN",
+        gameDate: "2/11/26",
+        myScore: 3,
+        wordNumber: 1698,
+      }, 
 
     
   ];
@@ -13157,7 +13162,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("Feb 10, 2026: Trump sux dykk000000000! SCENE")
+console.log("Feb 11, 2026: Trump sux dykk000000000! VEGAN")
 
 
 console.log(wordleWords)
