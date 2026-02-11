@@ -114,7 +114,7 @@ unused_list = [
 	        "TRUMP", "TRUNK", "TUBAL", "TULLE", "TUMOR", 
 	        "TWEET", "TWIXT", "TYING", "UMBRA", "UNCUT", 
 	        "UNITY", "UNSET", "UNWED", "URINE", "UTILE", "VALOR", 
-	        "VALVE", "VAPOR", "VAUNT", "VEGAN", "VERSE", "VERSO",
+	        "VALVE", "VAPOR", "VAUNT", "VERSE", "VERSO",
 	        "VICAR", "VIGIL", "VIPER", "VIRUS", "VISIT", "VISTA",
 	        "VOCAL", "VOGUE", "VOMIT", "WAGER", 
 	        "WAIVE", "WARTY", "WAVER", "WEAVE", 
@@ -124,7 +124,7 @@ unused_list = [
             "WREST", "WRING", "WRYLY", "ZONAL" 
              ]
 
-word = 'SCENE'
+word = 'VEGAN'
 
 
 if word in unused_list:
