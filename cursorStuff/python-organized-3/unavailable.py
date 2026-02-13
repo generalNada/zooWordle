@@ -203,7 +203,7 @@ my_list = {
 'STORY', 'STOUT', 'STOVE', 'STRAP', 'STRAW', 'STRAY', 'STRUT', 'STUDY', 'STUMP', 'STUNG', 
 'STUNT', 
 'STYLE', 'SUAVE', 'SUEDE', 'SUGAR', 'SUITE', 'SULKY', 'SULLY', 'SUMAC', 'SUNNY', 'SUPER', 
-'SURER', 'SURLY', 
+'SURER', 'SURGE', 'SURLY', 
 'SUSHI', 'SWEAT', 'SWEEP', 'SWEET', 'SWELL', 'SWILL', 'SWINE', 'SWING', 'SWIRL', 'SWISH', 
 'SWOON', 'SWOOP', 'SWORD', 'SWUNG', 'SYRUP', 'TABBY', 'TABLE', 
 'TABOO', 'TACIT', 'TACKY', 'TAFFY', 'TAKEN', 'TALLY', 'TALON', 'TANGY', 'TAPER', 'TAPIR', 
@@ -236,7 +236,7 @@ my_list = {
 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'SCENE'
+word_to_find = 'SURGE'
 
 
 if word_to_find in my_list:
