@@ -134,7 +134,7 @@ my_list = {
 'MEDAL', 'MEDIA', 'MEDIC', 'MELON', 'MERCY', 'MERGE', 'MERIT', 'MERRY', 'METAL', 'METER', 
 'METRO', 'MICRO', 'MIDGE', 'MIDST', 'MIGHT', 'MIMIC', 'MINER', 'MINTY', 'MINUS', 'MINCE', 
 'MIRTH', 'MISER', 'MODAL', 'MODEL', 'MODEM', 'MOIST', 'MOLAR', 'MOLDY', 'MOMMY', 'MONEY', 
-'MONTH', 
+'MONTH', 'MOOCH',
 'MOOSE', 'MORAL', 'MOSSY', 'MOTEL', 'MOTOR', 'MOTTO', 'MOULT', 'MOUNT', 'MOURN', 'MOUSE', 
 'MOUTH', 'MOVIE', 'MUCKY', 'MUGGY', 'MULCH', 'MUNCH', 'MUMMY', 'MURAL', 'MUSIC', 'MUSHY', 
 'MUSTY', 'MYRRH', 'NADIR', 
@@ -236,7 +236,7 @@ my_list = {
 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'SURGE'
+word_to_find = 'MOOCH'
 
 
 if word_to_find in my_list:
