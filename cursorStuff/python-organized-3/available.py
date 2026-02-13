@@ -47,7 +47,7 @@ unused_list = [
             "GRUNT", "GUAVA", "GUILT", "GULCH", "GUSTO", "GUTSY", 
             "GYPSY", "HAREM", "HARPY", "HARRY", "HASTY", 
             "HAUTE", "HEDGE",  
-            "HIPPY", "HITCH", "HOIST", "HONOR", "HORNY", "HOTLY", 
+            "HIPPY", "HITCH", "HOIST", "HONOR", "HOOCH", "HORNY", "HOTLY", 
             "HUMUS", "HUSKY", "HUSSY", "HYDRO", "HYMEN", "ICILY", 
 		    "IDIOT", "IDYLL", "ILIAC", "IMPLY", "INGOT", 
             "INLET", "INTRO", "ISSUE", "JETTY", "JOIST ", 
@@ -124,7 +124,7 @@ unused_list = [
             "WREST", "WRING", "WRYLY", "ZONAL" 
              ]
 
-word = 'SURGE'
+word = 'MOOCH'
 
 
 if word in unused_list:
