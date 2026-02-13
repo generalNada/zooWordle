@@ -1418,7 +1418,8 @@ export const combinedWords = [
     'HAUNT', 'HAUTE', 'HAVEN', 'HAVOC', 'HAZEL', 'HEADY', 'HEARD', 'HEART', 'HEATH', 'HEAVE',
     'HEAVY', 'HEDGE', 'HEFTY', 'HEIST', 'HELIX', 'HELLO', 'HENCE', 'HERON', 'HILLY', 'HINGE',
     'HIPPO', 'HIPPY', 'HITCH', 'HOARD', 'HOBBY', 'HOIST', 'HOLLY', 'HOMER', 'HONEY', 'HONOR',
-    'HORDE', 'HORNY', 'HORSE', 'HOTEL', 'HOTLY', 'HOUND', 'HOUSE', 'HOVEL', 'HOVER', 'HOWDY',
+    'HOOCH', 'HORDE', 'HORNY', 'HORSE', 'HOTEL', 'HOTLY', 'HOUND', 'HOUSE', 'HOVEL', 'HOVER', 
+    'HOWDY',
     'HUMAN', 'HUMID', 'HUMOR', 'HUMPH', 'HUMUS', 'HUNCH', 'HUNKY', 'HURRY', 'HUSKY', 'HUSSY',
     'HUTCH', 'HYDRO', 'HYENA', 'HYMEN', 'HYPER', 'ICILY', 'ICING', 'IDEAL', 'IDIOM', 'IDIOT',
     'IDLER', 'IDYLL', 'IGLOO', 'ILIAC', 'IMAGE', 'IMBUE', 'IMPEL', 'IMPLY', 'INANE', 'INBOX',
@@ -1444,7 +1445,8 @@ export const combinedWords = [
     'MECCA', 'MEDAL', 'MEDIA', 'MEDIC', 'MELEE', 'MELON', 'MERCY', 'MERGE', 'MERIT', 'MERRY',
     'METAL', 'METER', 'METRO', 'MICRO', 'MIDGE', 'MIDST', 'MIGHT', 'MILKY', 'MIMIC', 'MINCE',
     'MINER', 'MINIM', 'MINOR', 'MINTY', 'MINUS', 'MIRTH', 'MISER', 'MISSY', 'MOCHA', 'MODAL',
-    'MODEL', 'MODEM', 'MOGUL', 'MOIST', 'MOLAR', 'MOLDY', 'MOMMY', 'MONEY', 'MONTH', 'MOODY',
+    'MODEL', 'MODEM', 'MOGUL', 'MOIST', 'MOLAR', 'MOLDY', 'MOMMY', 'MONEY', 'MONTH', 'MOOCH', 
+    'MOODY',
     'MOOSE', 'MORAL', 'MORON', 'MORPH', 'MOSSY', 'MOTEL', 'MOTIF', 'MOTOR', 'MOTTO', 'MOULT',
     'MOUND', 'MOUNT', 'MOURN', 'MOUSE', 'MOUTH', 'MOVER', 'MOVIE', 'MOWER', 'MUCKY', 'MUCUS',
     'MUDDY', 'MULCH', 'MUMMY', 'MUNCH', 'MURAL', 'MURKY', 'MUSHY', 'MUSIC', 'MUSKY', 'MUSTY',
@@ -1660,7 +1662,8 @@ export const dailyWordsSmall = [
 'HAUNT', 'HAUTE', 'HAVEN', 'HAVOC', 'HAZEL', 'HEADY', 'HEARD', 'HEART', 'HEATH', 'HEAVE',
 'HEAVY', 'HEDGE', 'HEFTY', 'HEIST', 'HELIX', 'HELLO', 'HENCE', 'HERON', 'HILLY', 'HINGE',
 'HIPPO', 'HIPPY', 'HITCH', 'HOARD', 'HOBBY', 'HOIST', 'HOLLY', 'HOMER', 'HONEY', 'HONOR',
-'HORDE', 'HORNY', 'HORSE', 'HOTEL', 'HOTLY', 'HOUND', 'HOUSE', 'HOVEL', 'HOVER', 'HOWDY',
+'HOOCH', 'HORDE', 'HORNY', 'HORSE', 'HOTEL', 'HOTLY', 'HOUND', 'HOUSE', 'HOVEL', 'HOVER', 
+'HOWDY',
 'HUMAN', 'HUMID', 'HUMOR', 'HUMPH', 'HUMUS', 'HUNCH', 'HUNKY', 'HURRY', 'HUSKY', 'HUSSY',
 'HUTCH', 'HYDRO', 'HYENA', 'HYMEN', 'HYPER', 'ICILY', 'ICING', 'IDEAL', 'IDIOM', 'IDIOT',
 'IDLER', 'IDYLL', 'IGLOO', 'ILIAC', 'IMAGE', 'IMBUE', 'IMPEL', 'IMPLY', 'INANE', 'INBOX',
@@ -2518,7 +2521,7 @@ export const dailyWordsLarge = [
     'MOLDY', 'MOLED', 'MOLES', 'MOLLA', 'MOLLS', 'MOLLY', 'MOLTO', 'MOLTS', 'MOLYS', 'MOMES',
     'MOMMA', 'MOMMY', 'MOMUS', 'MONAD', 'MONAL', 'MONAS', 'MONDE', 'MONDO', 'MONER', 'MONEY',
     'MONGO', 'MONGS', 'MONIC', 'MONIE', 'MONKS', 'MONOS', 'MONTE', 'MONTH', 'MONTY', 'MOOBS',
-    'MOOCH', 'MOODS', 'MOODY', 'MOOED', 'MOOKS', 'MOOLA', 'MOOLI', 'MOOLS', 'MOOLY', 'MOONG',
+    'MOODS', 'MOODY', 'MOOED', 'MOOKS', 'MOOLA', 'MOOLI', 'MOOLS', 'MOOLY', 'MOONG',
     'MOONS', 'MOONY', 'MOOPS', 'MOORS', 'MOORY', 'MOOSE', 'MOOTS', 'MOOVE', 'MOPED', 'MOPER',
     'MOPES', 'MOPEY', 'MOPPY', 'MOPSY', 'MOPUS', 'MORAE', 'MORAL', 'MORAS', 'MORAT', 'MORAY',
     'MOREL', 'MORES', 'MORIA', 'MORNE', 'MORNS', 'MORON', 'MORPH', 'MORRA', 'MORRO', 'MORSE',
@@ -13150,6 +13153,11 @@ export const wordleWords = [
         myScore: 2,
         wordNumber: 1699,
       }, 
+      { word: "MOOCH",
+        gameDate: "2/13/26",
+        myScore: 5,
+        wordNumber: 1700,
+      }, 
 
     
   ];
@@ -13167,7 +13175,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("Feb 12, 2026: Trump sux dykk000000000! SURGE")
+console.log("Feb 13, 2026: Trump sux dykk000000000! MOOCH")
 
 
 console.log(wordleWords)
