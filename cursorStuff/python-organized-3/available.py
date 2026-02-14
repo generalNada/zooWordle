@@ -10,7 +10,7 @@ unused_list = [
             "BEECH", "BEFIT", "BEGAN", "BEGAT", "BEGUN", "BELLE", "BERRY", "BETEL", "BEVEL", "BEZEL", 
             "BIBLE", "BIDDY", "BIGOT", "BILLY", "BINGO", "BISON", "BITTY", 
             "BLESS", "BLIND", "BLITZ", "BLOAT", 
-            "BLOOD", "BLOOM", "BLUER", "BOBBY", "BONEY", 
+            "BLOOD", "BLUER", "BOBBY", "BONEY", 
             "BOOTH", "BOSOM", "BOTCH", "BOULE", "BOUND", "BOWEL", 
 		    "BRAWL", "BRICK", "BRINY", "BROIL", "BROOD", "BUDGE",
 		    "BURNT", "BURST", "BUSED", "BUSHY", "BUTCH", "BUTTE", "BUXOM", "BUYER", "BYLAW", "CABAL", 
@@ -124,7 +124,7 @@ unused_list = [
             "WREST", "WRING", "WRYLY", "ZONAL" 
              ]
 
-word = 'MOOCH'
+word = 'BLOOM'
 
 
 if word in unused_list:
