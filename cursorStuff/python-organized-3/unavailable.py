@@ -182,8 +182,8 @@ my_list = {
 'SHAVE', 'SHAWL', 'SHEAR', 'SHEET', 'SHELF', 'SHELL', 'SHIFT', 'SHINE', 'SHIRE', 'SHIRK', 
 'SHORE', 'SHORN', 'SHORT', 'SHOUT', 'SHOVE', 'SHOWN', 'SHOWY', 'SHRUB', 'SHRUG', 'SHUCK', 
 'SHUNT', 'SHYLY', 'SIEGE', 'SIGHT', 'SILLY', 'SINCE', 'SIREN', 'SISSY', 'SITAR', 'SIXTH', 
-'SKATE', 
-'SKILL', 'SKIMP', 'SKIER', 'SKIFF', 'SKIRT', 'SKUNK', 'SLANG', 'SLATE', 'SLEEK', 'SLEEP', 
+'SKATE', 'SKILL', 'SKIMP', 'SKIER', 'SKIFF', 'SKIRT', 'SKULL', 'SKUNK', 'SLANG', 'SLATE', 
+'SLEEK', 'SLEEP', 
 'SLICE', 'SLOPE', 'SLOSH', 'SLOTH', 'SLUMP', 'SLUNG', 'SMALL', 'SMART', 'SMASH', 'SMEAR', 
 'SMELT', 'SMILE', 'SMIRK', 'SMITE', 'SMITH', 'SMOCK', 'SMOKE', 'SNACK', 'SNAFU', 'SNAIL', 
 'SNAKE', 'SNAKY', 'SNARE', 'SNARL', 'SNEAK', 'SNIDE', 'SNOOP', 'SNORT', 'SNOUT', 'SOGGY', 
@@ -237,7 +237,7 @@ my_list = {
 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'BLOOM'
+word_to_find = 'SKULL'
 
 
 if word_to_find in my_list:
