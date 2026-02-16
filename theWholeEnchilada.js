@@ -1728,7 +1728,7 @@ export const dailyWordsSmall = [
 'RETCH', 'RETRO', 'RETRY', 'REUSE', 'REVEL', 'REVUE', 'RHINO', 'RHYME', 'RICER', 'RIDER',
 'RIDGE', 'RIFLE', 'RIGHT', 'RIGID', 'RIGOR', 'RINSE', 'RIPEN', 'RIPER', 'RISEN', 'RISER',
 'RISKY', 'RIVAL', 'RIVER', 'RIVET', 'ROACH', 'ROAST', 'ROBIN', 'ROBOT', 'ROCKY', 'RODEO',
-'ROGER', 'ROGUE', 'ROOMY', 'ROOST', 'ROTOR', 'ROUGE', 'ROUGH', 'ROUND', 'ROUSE', 'ROUTE',
+'ROGER', 'ROGUE', 'ROOMY', 'ROTOR', 'ROUGE', 'ROUGH', 'ROUND', 'ROUSE', 'ROUTE',
 'ROVER', 'ROWDY', 'ROWER', 'ROYAL', 'RUDDY', 'RUDER', 'RUGBY', 'RULER', 'RUMBA', 'RUMOR',
 'RUPEE', 'RURAL', 'RUSTY', 'SADLY', 'SAFER', 'SAINT', 'SALAD', 'SALLY', 'SALON', 'SALSA',
 'SALTY', 'SALVE', 'SALVO', 'SANDY', 'SANER', 'SAPPY', 'SASSY', 'SATIN', 'SATYR', 'SAUCE',
@@ -2745,7 +2745,7 @@ export const dailyWordsLarge = [
     'ROKED', 'ROKER', 'ROKES', 'ROLAG', 'ROLES', 'ROLFS', 'ROLLS', 'ROMAL', 'ROMAN', 'ROMEO',
     'ROMPS', 'RONDE', 'RONDO', 'RONEO', 'RONES', 'RONIN', 'RONNE', 'RONTE', 'RONTS', 'ROODS',
     'ROOFS', 'ROOFY', 'ROOKS', 'ROOKY', 'ROOMS', 'ROOMY', 'ROONS', 'ROOPS', 'ROOPY', 'ROOSA',
-    'ROOSE', 'ROOST', 'ROOTS', 'ROOTY', 'ROPED', 'ROPER', 'ROPES', 'ROPEY', 'ROQUE', 'RORAL',
+    'ROOSE', 'ROOTS', 'ROOTY', 'ROPED', 'ROPER', 'ROPES', 'ROPEY', 'ROQUE', 'RORAL',
     'RORES', 'RORIC', 'RORID', 'RORIE', 'RORTS', 'RORTY', 'ROSED', 'ROSES', 'ROSET', 'ROSHI',
     'ROSIN', 'ROSIT', 'ROSTI', 'ROSTS', 'ROTAL', 'ROTAN', 'ROTAS', 'ROTCH', 'ROTED', 'ROTES',
     'ROTIS', 'ROTLS', 'ROTON', 'ROTOR', 'ROTOS', 'ROTTE', 'ROUEN', 'ROUES', 'ROUGE', 'ROUGH',
@@ -13168,6 +13168,11 @@ export const wordleWords = [
         myScore: 3,
         wordNumber: 1702,
       }, 
+      { word: "ROOST",
+        gameDate: "2/16/26",
+        myScore: 2,
+        wordNumber: 1703,
+      }, 
 
     
   ];
@@ -13185,7 +13190,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("Feb 15, 2026: Trump sux dykk000000000! SKULL")
+console.log("Feb 16, 2026: Trump sux dykk000000000! ROOST")
 
 
 console.log(wordleWords)
