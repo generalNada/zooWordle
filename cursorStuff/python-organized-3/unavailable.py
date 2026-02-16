@@ -171,7 +171,8 @@ my_list = {
 'RESIN', 'RETCH', 'RETRO', 'RETRY', 'REVEL', 'REVUE', 'RHINO', 'RHYME', 'RIDER', 'RIDGE', 
 'RIGHT', 'RIGID', 'RIPER', 
 'RISEN', 'RIVAL', 'RIVET', 'ROACH', 'ROBIN', 'ROBOT', 'ROCKY', 'RODEO', 'ROGUE', 'ROUGE', 
-'ROOMY', 'ROUGH', 'ROUND', 'ROUSE', 'ROUTE', 'ROVER', 'ROWDY', 'ROWER', 'ROYAL', 'RUDDY', 
+'ROOMY', 'ROOST', 'ROUGH', 'ROUND', 'ROUSE', 'ROUTE', 'ROVER', 'ROWDY', 'ROWER', 'ROYAL', 
+'RUDDY', 
 'RUDER', 'RUGBY', 'RUMBA', 'RUPEE', 'RUSTY', 'SAINT', 'SALAD', 'SALLY', 'SALSA', 'SALTY', 
 'SANDY', 'SASSY', 'SAUCY', 'SAUNA', 'SAUTE', 'SAVOR', 'SAVVY', 'SCALD', 'SCALE', 'SCANT', 
 'SCARE', 'SCARF', 'SCENE', 'SCENT', 'SCOFF', 
@@ -237,7 +238,7 @@ my_list = {
 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'SKULL'
+word_to_find = 'ROOST'
 
 
 if word_to_find in my_list:
