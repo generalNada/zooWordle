@@ -1,4 +1,4 @@
- * {
+* {
   font-family: "Gaegu", sans-serif;
   margin: 0;
   padding: 0;
@@ -41,7 +41,9 @@ body {
   background-color: black;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start; 
+  justify-content: start;
+  align-items: center;
+  color: black;
 }
 
 .whole-box {
@@ -65,7 +67,8 @@ body {
     height: 900px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 0.3rem; 
+    grid-gap: 0.3rem;
+    background-color: coral;
   }
 
   .whole-box {
@@ -91,7 +94,7 @@ body {
     height: 900px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 0.3rem; 
+    grid-gap: 0.4rem;
     background-color: black;
     /*       background-color: rgb(200, 90, 20); */
   }
@@ -118,7 +121,7 @@ body {
     height: 900px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 0.5rem;
+    grid-gap: 0.5rem;
     background-color: rgb(255, 77, 1);
   }
 
@@ -1692,15 +1695,14 @@ body {
   padding: 0.55rem;
 }
 
-
 .whole-box-257 {
-  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUG2CLsZxLRGnEZHtxAOSWSSZpJjCDEarZ_Q&s);
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDtEXWIeF_Jn0qzy2_UxfZC-k-TPlVBPl3OQ&s);
   background-size: fit-content;
   padding: 0.55rem;
 }
 
 .whole-box-258 {
-  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgZY4785XF_aZeTtCPI2m-RLcYOezJdwNcOg&s);
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtEW1qXT_2RJH4SmS8mfB53W0Xsf1lpsHTtA&s);
   background-size: fit-content;
   padding: 0.55rem;
 }
@@ -1751,6 +1753,7 @@ body {
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDtEXWIeF_Jn0qzy2_UxfZC-k-TPlVBPl3OQ&s);
   background-size: fit-content;
   padding: 0.55rem;
+}
 
 .whole-box-267 {
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtEW1qXT_2RJH4SmS8mfB53W0Xsf1lpsHTtA&s);
@@ -1758,10 +1761,9 @@ body {
   padding: 0.55rem;
 }
 
-
 .line-1a {
   color: rgb(0, 0, 0);
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(255, 255 255);
   opacity: 0.5;
 }
 
@@ -2284,7 +2286,7 @@ body {
 }
 
 .line-31c {
-  background-color: rgb(227, 35, 77);
+  background-color: (227, 35, 77);
   color: rgb(10, 215, 226);
   opacity: 0.65;
 }
@@ -6718,4 +6720,4 @@ body {
   opacity: 0.77;
 }
 
-}
+
