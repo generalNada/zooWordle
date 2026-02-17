@@ -1757,7 +1757,7 @@ export const dailyWordsSmall = [
 'SPELT', 'SPEND', 'SPENT', 'SPERM', 'SPICE', 'SPICY', 'SPIED', 'SPIEL', 'SPIKE', 'SPIKY',
 'SPILL', 'SPILT', 'SPINE', 'SPINY', 'SPIRE', 'SPITE', 'SPLAT', 'SPLIT', 'SPOIL', 'SPOKE',
 'SPOOF', 'SPOOK', 'SPOOL', 'SPOON', 'SPORE', 'SPORT', 'SPOUT', 'SPRAY', 'SPREE', 'SPRIG',
-'SPUNK', 'SPURN', 'SPURT', 'SQUAD', 'SQUAT', 'SQUIB', 'SQUID', 'STACK', 'STAFF', 'STAGE',
+'SPUNK', 'SPURN', 'SPURT', 'SQUAT', 'SQUIB', 'SQUID', 'STACK', 'STAFF', 'STAGE',
 'STAID', 'STAIN', 'STAIR', 'STAKE', 'STALE', 'STALK', 'STALL', 'STAMP', 'STAND', 'STANK',
 'STARE', 'STARK', 'START', 'STASH', 'STATE', 'STAVE', 'STEAD', 'STEAK', 'STEAL', 'STEAM',
 'STEED', 'STEEL', 'STEEP', 'STEER', 'STEIN', 'STERN', 'STICK', 'STIFF', 'STILL', 'STILT',
@@ -2880,7 +2880,7 @@ export const dailyWordsLarge = [
     'SPORT', 'SPOSH', 'SPOTS', 'SPOUT', 'SPRAD', 'SPRAG', 'SPRAT', 'SPRAY', 'SPRED', 'SPREE',
     'SPREW', 'SPRIG', 'SPRIT', 'SPROD', 'SPROG', 'SPRUE', 'SPRUG', 'SPUDS', 'SPUED', 'SPUER',
     'SPUES', 'SPUGS', 'SPULE', 'SPUME', 'SPUMY', 'SPUNK', 'SPURN', 'SPURS', 'SPURT', 'SPUTA',
-    'SPYAL', 'SPYRE', 'SQUAB', 'SQUAD', 'SQUAT', 'SQUEG', 'SQUIB', 'SQUID', 'SQUIT', 'SQUIZ',
+    'SPYAL', 'SPYRE', 'SQUAB', 'SQUAT', 'SQUEG', 'SQUIB', 'SQUID', 'SQUIT', 'SQUIZ',
     'STABS', 'STACK', 'STADE', 'STAFF', 'STAGE', 'STAGS', 'STAGY', 'STAID', 'STAIG', 'STAIN',
     'STAIR', 'STAKE', 'STALE', 'STALK', 'STALL', 'STAMP', 'STAND', 'STANE', 'STANG', 'STANK',
     'STAPH', 'STAPS', 'STARE', 'STARK', 'STARN', 'STARR', 'STARS', 'START', 'STASH', 'STATE',
@@ -13173,6 +13173,11 @@ export const wordleWords = [
         myScore: 2,
         wordNumber: 1703,
       }, 
+      { word: "SQUAD",
+        gameDate: "2/17/26",
+        myScore: 3,
+        wordNumber: 1704,
+      }, 
 
     
   ];
@@ -13190,7 +13195,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("Feb 16, 2026: Trump sux dykk000000000! ROOST")
+console.log("Feb 17, 2026: Trump sux dykk000000000! SQUAD")
 
 
 console.log(wordleWords)
