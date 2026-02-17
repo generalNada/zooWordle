@@ -124,7 +124,7 @@ unused_list = [
             "WREST", "WRING", "WRYLY", "ZONAL" 
              ]
 
-word = 'ROOST'
+word = 'SQUAD'
 
 
 if word in unused_list:
