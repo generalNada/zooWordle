@@ -194,7 +194,7 @@ my_list = {
 'SPICY', 'SPIEL', 'SPIKE', 'SPILL', 'SPINE', 'SPINY', 'SPIRE', 'SPITE', 'SPLAT', 'SPLIT', 
 'SPOIL', 
 'SPOKE', 'SPOOF', 'SPOOL', 'SPOON', 'SPORE', 'SPORT', 'SPOUT', 'SPRAY', 'SPRIG', 'SPURT', 
-'SQUAD', 'SQUAT', 'SQUID', 'STACK',
+'SQUAD', 'SQUAD', 'SQUAT', 'SQUID', 'STACK',
  
 # BREAK FOR ALPHABIZING - ADDITIONS CAN BE HELD AT BOTTOM OF REPRESENATIVE BLOCK
 
@@ -238,7 +238,7 @@ my_list = {
 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'ROOST'
+word_to_find = 'SQUAD'
 
 
 if word_to_find in my_list:
