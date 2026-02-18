@@ -1689,7 +1689,7 @@ export const dailyWordsSmall = [
 'MECCA', 'MEDAL', 'MEDIA', 'MEDIC', 'MELEE', 'MELON', 'MERCY', 'MERGE', 'MERIT', 'MERRY',
 'METAL', 'METER', 'METRO', 'MICRO', 'MIDGE', 'MIDST', 'MIGHT', 'MILKY', 'MIMIC', 'MINCE',
 'MINER', 'MINIM', 'MINOR', 'MINTY', 'MINUS', 'MIRTH', 'MISER', 'MISSY', 'MOCHA', 'MODAL',
-'MODEL', 'MODEM', 'MOGUL', 'MOIST', 'MOLAR', 'MOLDY', 'MOMMY', 'MONEY', 'MONTH', 'MOODY',
+'MODEL', 'MODEM', 'MOIST', 'MOLAR', 'MOLDY', 'MOMMY', 'MONEY', 'MONTH', 'MOODY',
 'MOOSE', 'MORAL', 'MORON', 'MORPH', 'MOSSY', 'MOTEL', 'MOTIF', 'MOTOR', 'MOTTO', 'MOULT',
 'MOUND', 'MOUNT', 'MOURN', 'MOUSE', 'MOUTH', 'MOVER', 'MOVIE', 'MOWER', 'MUCKY', 'MUCUS',
 'MUDDY', 'MULCH', 'MUMMY', 'MUNCH', 'MURAL', 'MURKY', 'MUSHY', 'MUSIC', 'MUSKY', 'MUSTY',
@@ -2516,7 +2516,7 @@ export const dailyWordsLarge = [
     'MIXER', 'MIXES', 'MIXTE', 'MIXUP', 'MIZEN', 'MIZZY', 'MNEME', 'MOANS', 'MOATS', 'MOBBY',
     'MOBES', 'MOBEY', 'MOBIE', 'MOBLE', 'MOCHA', 'MOCHI', 'MOCHS', 'MOCHY', 'MOCKS', 'MODAL',
     'MODEL', 'MODEM', 'MODER', 'MODES', 'MODGE', 'MODII', 'MODUS', 'MOERS', 'MOFOS', 'MOGGY',
-    'MOGUL', 'MOHEL', 'MOHOS', 'MOHRS', 'MOHUA', 'MOHUR', 'MOILE', 'MOILS', 'MOIRA', 'MOIRE',
+    'MOHEL', 'MOHOS', 'MOHRS', 'MOHUA', 'MOHUR', 'MOILE', 'MOILS', 'MOIRA', 'MOIRE',
     'MOIST', 'MOITS', 'MOJOS', 'MOKES', 'MOKIS', 'MOKOS', 'MOLAL', 'MOLAR', 'MOLAS', 'MOLDS',
     'MOLDY', 'MOLED', 'MOLES', 'MOLLA', 'MOLLS', 'MOLLY', 'MOLTO', 'MOLTS', 'MOLYS', 'MOMES',
     'MOMMA', 'MOMMY', 'MOMUS', 'MONAD', 'MONAL', 'MONAS', 'MONDE', 'MONDO', 'MONER', 'MONEY',
@@ -13178,6 +13178,11 @@ export const wordleWords = [
         myScore: 3,
         wordNumber: 1704,
       }, 
+      { word: "MOGUL",
+        gameDate: "2/18/26",
+        myScore: 4,
+        wordNumber: 1705,
+      }, 
 
     
   ];
@@ -13195,7 +13200,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("Feb 17, 2026: Trump sux dykk000000000! SQUAD")
+console.log("Feb 18, 2026: Trump sux dykk000000000! MOGUL")
 
 
 console.log(wordleWords)
