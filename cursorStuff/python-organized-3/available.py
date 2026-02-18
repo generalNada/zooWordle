@@ -60,7 +60,7 @@ unused_list = [
 	        "LYRIC", "MACRO", "MAFIA", "MAMMA", "MAMMY", 
 	        "MANGE", "MANGY", "MEATY", "MECCA",
 	        "MELEE", "MILKY", "MINIM", "MINOR", "MISSY", "MOCHA",
-	        "MOGUL", "MOODY", "MORON", "MORPH", "MOTIF", "MOUND",
+	        "MOODY", "MORON", "MORPH", "MOTIF", "MOUND",
 	        "MOVER", "MOWER", "MUCUS", "MUDDY", "MURKY", "MUSKY",
 	        "NACHO", "NEWER", "NEWLY",
 	        "NIECE", "NINNY", "NOBLY", "NOOSE", "NOSEY",
@@ -124,7 +124,7 @@ unused_list = [
             "WREST", "WRING", "WRYLY", "ZONAL" 
              ]
 
-word = 'SQUAD'
+word = 'MOGUL'
 
 
 if word in unused_list:
