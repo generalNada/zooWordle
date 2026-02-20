@@ -47,10 +47,10 @@ unused_list = [
             "GRUNT", "GUAVA", "GUILT", "GULCH", "GUSTO", "GUTSY", 
             "GYPSY", "HAREM", "HARPY", "HARRY", "HASTY", 
             "HAUTE", "HEDGE",  
-            "HIPPY", "HITCH", "HOIST", "HONOR", "HOOCH", "HORNY", "HOTLY", 
+            "HIPPY", "HITCH", "HONOR", "HOOCH", "HORNY", "HOTLY", 
             "HUMUS", "HUSKY", "HUSSY", "HYDRO", "HYMEN", "ICILY", 
 		    "IDIOT", "IDYLL", "ILIAC", "IMPLY", "INGOT", 
-            "INLET", "INTRO", "ISSUE", "JETTY", "JOIST ", 
+            "INLET", "INTRO", "ISSUE", "JETTY", "JOIST", 
             "JUICY", "JUNTA", "JUNTO", "JUROR", "KAPPA", "KINKY", "KITTY", 
             "KNEED", "LADEN",
             "LANCE", "LATCH", "LEANT", "LEGAL", 
@@ -124,7 +124,7 @@ unused_list = [
             "WREST", "WRING", "WRYLY", "ZONAL" 
              ]
 
-word = 'MOGUL'
+word = 'HOIST'
 
 
 if word in unused_list:
