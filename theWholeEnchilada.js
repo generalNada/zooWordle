@@ -1661,7 +1661,7 @@ export const dailyWordsSmall = [
 'HAPPY', 'HARDY', 'HAREM', 'HARPY', 'HARRY', 'HARSH', 'HASTE', 'HASTY', 'HATCH', 'HATER',
 'HAUNT', 'HAUTE', 'HAVEN', 'HAVOC', 'HAZEL', 'HEADY', 'HEARD', 'HEART', 'HEATH', 'HEAVE',
 'HEAVY', 'HEDGE', 'HEFTY', 'HEIST', 'HELIX', 'HELLO', 'HENCE', 'HERON', 'HILLY', 'HINGE',
-'HIPPO', 'HIPPY', 'HITCH', 'HOARD', 'HOBBY', 'HOIST', 'HOLLY', 'HOMER', 'HONEY', 'HONOR',
+'HIPPO', 'HIPPY', 'HITCH', 'HOARD', 'HOBBY', 'HOLLY', 'HOMER', 'HONEY', 'HONOR',
 'HOOCH', 'HORDE', 'HORNY', 'HORSE', 'HOTEL', 'HOTLY', 'HOUND', 'HOUSE', 'HOVEL', 'HOVER', 
 'HOWDY',
 'HUMAN', 'HUMID', 'HUMOR', 'HUMPH', 'HUMUS', 'HUNCH', 'HUNKY', 'HURRY', 'HUSKY', 'HUSSY',
@@ -2319,7 +2319,7 @@ export const dailyWordsLarge = [
     'HIOIS', 'HIPLY', 'HIPPO', 'HIPPY', 'HIRED', 'HIREE', 'HIRER', 'HIRES', 'HISSY', 'HISTS',
     'HITCH', 'HITHE', 'HIVED', 'HIVER', 'HIVES', 'HIZEN', 'HOAED', 'HOAGY', 'HOARD', 'HOARS',
     'HOARY', 'HOAST', 'HOBBY', 'HOBOS', 'HOCKS', 'HOCUS', 'HODAD', 'HODJA', 'HOERS', 'HOGAN',
-    'HOGEN', 'HOGGS', 'HOGHS', 'HOHED', 'HOICK', 'HOIED', 'HOIKS', 'HOING', 'HOISE', 'HOIST',
+    'HOGEN', 'HOGGS', 'HOGHS', 'HOHED', 'HOICK', 'HOIED', 'HOIKS', 'HOING', 'HOISE', 
     'HOKAS', 'HOKED', 'HOKES', 'HOKEY', 'HOKIS', 'HOKKU', 'HOKUM', 'HOLDS', 'HOLED', 'HOLES',
     'HOLEY', 'HOLKS', 'HOLLA', 'HOLLO', 'HOLLY', 'HOLME', 'HOLMS', 'HOLON', 'HOLOS', 'HOLTS',
     'HOMAS', 'HOMED', 'HOMER', 'HOMES', 'HOMEY', 'HOMIE', 'HOMME', 'HOMOS', 'HONAN', 'HONDA',
@@ -13183,6 +13183,11 @@ export const wordleWords = [
         myScore: 4,
         wordNumber: 1705,
       }, 
+      { word: "HOIST",
+        gameDate: "2/19/26",
+        myScore: 4,
+        wordNumber: 1706,
+      }, 
 
     
   ];
@@ -13200,7 +13205,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("Feb 18, 2026: Trump sux dykk000000000! MOGUL")
+console.log("Feb 19, 2026: Trump sux dykk000000000! HOIST")
 
 
 console.log(wordleWords)
