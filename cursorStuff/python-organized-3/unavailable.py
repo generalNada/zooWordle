@@ -106,7 +106,8 @@ my_list = {
 'HAUNT', 
 'HAVEN', 'HAVOC', 'HAZEL', 'HEADY', 'HEART', 'HEARD', 'HEATH', 'HEAVE', 'HEAVY', 'HEFTY', 
 'HEIST', 'HELIX', 'HELLO', 'HENCE', 'HERON', 'HILLY', 'HINGE', 'HIPPO', 'HOARD', 'HOBBY', 
-'HOLLY', 'HOMER', 'HONEY', 'HORDE', 'HORSE', 'HOTEL', 'HOUND', 'HOUSE', 'HOVEL', 'HOVER', 
+'HOIST', 'HOLLY', 'HOMER', 'HONEY', 'HORDE', 'HORSE', 'HOTEL', 'HOUND', 'HOUSE', 'HOVEL', 
+'HOVER', 
 'HOWDY', 'HUMAN', 'HUMID', 'HUMOR', 'HUMPH', 'HUNCH', 'HUNKY', 'HURRY', 'HUTCH', 'HYENA', 
 'HYPER', 'ICING', 'IDEAL', 'IDIOM', 'IDLER', 'IGLOO', 'IMAGE', 'IMBUE', 'IMPEL', 'INANE', 
 'INBOX', 'INCUR', 'INDEX', 'INDIE', 'INEPT', 'INERT', 'INFER', 'INLAY', 'INNER', 'INPUT', 
@@ -238,7 +239,7 @@ my_list = {
 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'MOGUL'
+word_to_find = 'HOIST'
 
 
 if word_to_find in my_list:
