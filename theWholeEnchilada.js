@@ -1758,7 +1758,7 @@ export const dailyWordsSmall = [
 'SPILL', 'SPILT', 'SPINE', 'SPINY', 'SPIRE', 'SPITE', 'SPLAT', 'SPLIT', 'SPOIL', 'SPOKE',
 'SPOOF', 'SPOOK', 'SPOOL', 'SPOON', 'SPORE', 'SPORT', 'SPOUT', 'SPRAY', 'SPREE', 'SPRIG',
 'SPUNK', 'SPURN', 'SPURT', 'SQUAT', 'SQUIB', 'SQUID', 'STACK', 'STAFF', 'STAGE',
-'STAID', 'STAIN', 'STAIR', 'STAKE', 'STALE', 'STALK', 'STALL', 'STAMP', 'STAND', 'STANK',
+'STAID', 'STAIN', 'STAIR', 'STAKE', 'STALE', 'STALK', 'STALL', 'STAMP', 'STAND',
 'STARE', 'STARK', 'START', 'STASH', 'STATE', 'STAVE', 'STEAD', 'STEAK', 'STEAL', 'STEAM',
 'STEED', 'STEEL', 'STEEP', 'STEER', 'STEIN', 'STERN', 'STICK', 'STIFF', 'STILL', 'STILT',
 'STING', 'STINK', 'STINT', 'STOCK', 'STOIC', 'STOKE', 'STOLE', 'STOMP', 'STONE', 'STONY',
@@ -2882,7 +2882,7 @@ export const dailyWordsLarge = [
     'SPUES', 'SPUGS', 'SPULE', 'SPUME', 'SPUMY', 'SPUNK', 'SPURN', 'SPURS', 'SPURT', 'SPUTA',
     'SPYAL', 'SPYRE', 'SQUAB', 'SQUAT', 'SQUEG', 'SQUIB', 'SQUID', 'SQUIT', 'SQUIZ',
     'STABS', 'STACK', 'STADE', 'STAFF', 'STAGE', 'STAGS', 'STAGY', 'STAID', 'STAIG', 'STAIN',
-    'STAIR', 'STAKE', 'STALE', 'STALK', 'STALL', 'STAMP', 'STAND', 'STANE', 'STANG', 'STANK',
+    'STAIR', 'STAKE', 'STALE', 'STALK', 'STALL', 'STAMP', 'STAND', 'STANE', 'STANG', 
     'STAPH', 'STAPS', 'STARE', 'STARK', 'STARN', 'STARR', 'STARS', 'START', 'STASH', 'STATE',
     'STATS', 'STAUN', 'STAVE', 'STAWS', 'STAYS',
     'STEAD', 'STEAK', 'STEAL', 'STEAM', 'STEAN', 'STEAR', 'STEDD', 'STEDE', 'STEDS', 'STEED',
@@ -13188,6 +13188,11 @@ export const wordleWords = [
         myScore: 4,
         wordNumber: 1706,
       }, 
+      { word: "STANK",
+        gameDate: "2/20/26",
+        myScore: 2,
+        wordNumber: 1707,
+      }, 
 
     
   ];
@@ -13205,7 +13210,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("Feb 19, 2026: Trump sux dykk000000000! HOIST")
+console.log("Feb 20, 2026: Trump sux dykk000000000! STANK")
 
 
 console.log(wordleWords)
