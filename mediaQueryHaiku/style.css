@@ -1774,6 +1774,12 @@ body {
 }
 
 .whole-box-270 {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU5C1pqnJrt8ILTto0ekD4dtdaFCh-b4CGlQ&s);
+  background-size: fit-content;
+  padding: 0.55rem;
+}
+
+.whole-box-271 {
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDtEXWIeF_Jn0qzy2_UxfZC-k-TPlVBPl3OQ&s);
   background-size: fit-content;
   padding: 0.55rem;
@@ -6824,6 +6830,27 @@ body {
 .line-271c {
   background-color: orange;
   color: mahogany;
+  font-style: oblique;               
+  opacity: 0.77;
+}
+
+.line-272a {
+  background-color: rgb(207, 112, 221);
+  color: rgb (115, 142, 106);
+  font-style: oblique;               
+  opacity: 0.77;
+}
+
+.line-272b {
+  background-color: rgb(207, 112, 221);
+  color: rgb (115, 142, 106);
+  font-style: oblique;              
+  opacity: 0.77;
+}
+
+.line-272c {
+  background-color: rgb(207, 112, 221);
+  color: rgb (115, 142, 106);
   font-style: oblique;               
   opacity: 0.77;
 }
