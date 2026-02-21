@@ -1914,3 +1914,10 @@ h1:active {
   display: inline-block;
   color: yellow;
 }
+
+.linkFive {
+  margin: 5px;
+  padding: 5px;
+  display: inline-block;
+  color: rgb(0, 64, 255);
+}

@@ -20,8 +20,6 @@ body {
   transition: background 0.5s ease;
 }
 
-
-
 body.dark-theme {
   background: linear-gradient(
     135deg,
@@ -56,8 +54,6 @@ body.dark-theme #themeToggle {
   filter: drop-shadow(0 0 15px rgba(200, 200, 200, 0.6));
 }
 
-
-
 body.dark-theme h1 {
   background: linear-gradient(
     135deg,
@@ -73,8 +69,6 @@ body.dark-theme h1 {
   animation: titleGlowDark 4s ease-in-out infinite alternate;
 }
 
-
-
 @keyframes titleGlowDark {
   0% {
     filter: drop-shadow(0 0 10px rgba(160, 160, 160, 0.4));
@@ -83,24 +77,6 @@ body.dark-theme h1 {
     filter: drop-shadow(0 0 20px rgba(200, 200, 200, 0.7));
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* body.dark-theme {
   background: linear-gradient(
@@ -198,7 +174,6 @@ h1:active {
   }
 } */
 
-
 #toggleButton {
   font-size: 2.5rem;
   color: rgba(220, 200, 240, 0.9);
@@ -207,7 +182,7 @@ h1:active {
     rgba(30, 30, 30, 0.4),
     rgba(45, 45, 45, 0.5),
     rgba(30, 30, 30, 0.4)
-    /* rgba(100, 80, 140, 0.4),
+      /* rgba(100, 80, 140, 0.4),
     rgba(120, 100, 160, 0.5),
     rgba(100, 80, 140, 0.4) */
   );
@@ -256,7 +231,7 @@ h1:active {
     rgba(60, 60, 60, 0.5),
     rgba(80, 80, 80, 0.6),
     rgba(60, 60, 60, 0.5)
-    /* rgba(110, 90, 150, 0.5),
+      /* rgba(110, 90, 150, 0.5),
     rgba(130, 110, 170, 0.6),
     rgba(110, 90, 150, 0.5) */
   );
@@ -278,7 +253,7 @@ h1:active {
     rgba(30, 30, 30, 0.4),
     rgba(45, 45, 45, 0.5),
     rgba(30, 30, 30, 0.4)
-    /* rgba(80, 60, 120, 0.3),
+      /* rgba(80, 60, 120, 0.3),
     rgba(100, 80, 140, 0.4),
     rgba(80, 60, 120, 0.3) */
   );
@@ -303,10 +278,10 @@ h1:active {
 .score-result {
   background: linear-gradient(
     135deg,
-        rgba(30, 30, 30, 0.4),
-        rgba(45, 45, 45, 0.5),
-        rgba(30, 30, 30, 0.4)
-    /* rgba(100, 80, 140, 0.4),
+    rgba(30, 30, 30, 0.4),
+    rgba(45, 45, 45, 0.5),
+    rgba(30, 30, 30, 0.4)
+      /* rgba(100, 80, 140, 0.4),
     rgba(120, 100, 160, 0.5),
     rgba(100, 80, 140, 0.4) */
   );
@@ -331,10 +306,10 @@ h1:active {
 .month-year-result {
   background: linear-gradient(
     135deg,
-        rgba(30, 30, 30, 0.4),
-        rgba(45, 45, 45, 0.5),
-        rgba(30, 30, 30, 0.4)
-    /* rgba(110, 90, 150, 0.4),
+    rgba(30, 30, 30, 0.4),
+    rgba(45, 45, 45, 0.5),
+    rgba(30, 30, 30, 0.4)
+      /* rgba(110, 90, 150, 0.4),
     rgba(130, 110, 170, 0.5),
     rgba(110, 90, 150, 0.4) */
   );
@@ -359,10 +334,10 @@ h1:active {
 .year-result {
   background: linear-gradient(
     135deg,
-        rgba(30, 30, 30, 0.4),
-        rgba(45, 45, 45, 0.5),
-        rgba(30, 30, 30, 0.4)
-    /* rgba(130, 90, 130, 0.4),
+    rgba(30, 30, 30, 0.4),
+    rgba(45, 45, 45, 0.5),
+    rgba(30, 30, 30, 0.4)
+      /* rgba(130, 90, 130, 0.4),
     rgba(150, 110, 150, 0.5),
     rgba(130, 90, 130, 0.4) */
   );
@@ -412,10 +387,10 @@ h1:active {
   color: rgba(220, 200, 240, 0.9);
   background: linear-gradient(
     135deg,
-        rgba(30, 30, 30, 0.4),
-        rgba(45, 45, 45, 0.5),
-        rgba(30, 30, 30, 0.4)
-    /* rgba(100, 80, 140, 0.4),
+    rgba(30, 30, 30, 0.4),
+    rgba(45, 45, 45, 0.5),
+    rgba(30, 30, 30, 0.4)
+      /* rgba(100, 80, 140, 0.4),
     rgba(120, 100, 160, 0.5),
     rgba(100, 80, 140, 0.4) */
   );
@@ -461,10 +436,10 @@ h1:active {
   transform: translateY(-2px);
   background: linear-gradient(
     135deg,
-        rgba(60, 60, 60, 0.5),
-        rgba(80, 80, 80, 0.6),
-        rgba(60, 60, 60, 0.5)
-    /* rgba(110, 90, 150, 0.5),
+    rgba(60, 60, 60, 0.5),
+    rgba(80, 80, 80, 0.6),
+    rgba(60, 60, 60, 0.5)
+      /* rgba(110, 90, 150, 0.5),
     rgba(130, 110, 170, 0.6),
     rgba(110, 90, 150, 0.5) */
   );
@@ -481,6 +456,497 @@ h1:active {
   gap: 15px;
   width: 100%;
   margin: 0 auto;
+}
+
+#scoreStreaksContainer {
+  margin: 20px auto;
+  max-width: 50rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#scoreStreaksToggle {
+  font-size: 2rem;
+  color: rgba(220, 200, 240, 0.9);
+  background: linear-gradient(
+    135deg,
+    rgba(30, 30, 30, 0.4),
+    rgba(45, 45, 45, 0.5),
+    rgba(30, 30, 30, 0.4)
+  );
+  cursor: pointer;
+  margin: 0 auto 15px auto;
+  padding: 15px 30px;
+  border-radius: 12px;
+  border: 1px solid rgba(160, 140, 200, 0.3);
+  box-shadow: 0 4px 15px rgba(80, 60, 120, 0.2),
+    0 0 10px rgba(140, 120, 180, 0.15);
+  transition: all 0.3s ease;
+  text-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+  position: relative;
+  overflow: hidden;
+  backdrop-filter: blur(10px);
+  text-align: center;
+  display: block;
+  width: fit-content;
+}
+
+#scoreStreaksToggle::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.3),
+    transparent
+  );
+  transition: left 0.5s ease;
+}
+
+#scoreStreaksToggle:hover::before {
+  left: 100%;
+}
+
+#scoreStreaksToggle:hover {
+  color: rgba(240, 220, 255, 1);
+  transform: translateY(-2px);
+  background: linear-gradient(
+    135deg,
+    rgba(60, 60, 60, 0.5),
+    rgba(80, 80, 80, 0.6),
+    rgba(60, 60, 60, 0.5)
+  );
+  box-shadow: 0 6px 20px rgba(80, 60, 120, 0.3),
+    0 0 15px rgba(140, 120, 180, 0.2);
+  border-color: rgba(180, 160, 220, 0.4);
+}
+
+#scoreStreaksContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 15px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#scoreStreaksMode,
+#scoreStreaksDropdown {
+  font-size: 2rem;
+  margin: 0 auto;
+  background: linear-gradient(135deg, rgb(255, 255, 255), rgb(245, 245, 255));
+  color: rgb(0, 0, 0);
+  border: 2px solid rgba(0, 8, 255, 0.3);
+  border-radius: 10px;
+  padding: 12px 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2),
+    inset 0 1px 0 rgba(255, 255, 255, 0.8);
+  transition: all 0.3s ease;
+  width: 100%;
+  max-width: 300px;
+  box-sizing: border-box;
+  display: block;
+}
+
+#scoreStreaksMode:hover,
+#scoreStreaksDropdown:hover {
+  box-shadow: 0 8px 20px rgba(0, 8, 255, 0.3),
+    inset 0 1px 0 rgba(255, 255, 255, 0.9);
+  border-color: rgba(0, 8, 255, 0.5);
+}
+
+#scoreStreaksResults {
+  width: 100%;
+  margin-top: 20px;
+  display: block;
+}
+
+.score-streaks-summary {
+  background: linear-gradient(
+    135deg,
+    rgba(30, 30, 30, 0.4),
+    rgba(45, 45, 45, 0.5),
+    rgba(30, 30, 30, 0.4)
+  );
+  color: rgba(220, 200, 240, 0.95);
+  padding: 15px;
+  margin: 8px 0;
+  border-radius: 10px;
+  border: 1px solid rgba(140, 120, 180, 0.3);
+  box-shadow: 0 3px 10px rgba(60, 40, 100, 0.2),
+    0 0 8px rgba(120, 100, 160, 0.15);
+  transition: all 0.3s ease;
+  backdrop-filter: blur(8px);
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.streak-rank-header {
+  background: linear-gradient(
+    135deg,
+    rgba(50, 50, 50, 0.6),
+    rgba(65, 65, 65, 0.7),
+    rgba(50, 50, 50, 0.6)
+  );
+  color: rgba(240, 220, 255, 0.95);
+  padding: 12px 20px;
+  margin: 15px 0 8px 0;
+  border-radius: 10px;
+  border: 2px solid rgba(160, 140, 200, 0.4);
+  box-shadow: 0 4px 12px rgba(60, 40, 100, 0.3),
+    0 0 10px rgba(140, 120, 180, 0.2);
+  backdrop-filter: blur(8px);
+  text-align: center;
+  font-size: 1.4rem;
+  cursor: pointer;
+  user-select: none;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.streak-rank-header:hover {
+  background: linear-gradient(
+    135deg,
+    rgba(65, 65, 65, 0.7),
+    rgba(80, 80, 80, 0.8),
+    rgba(65, 65, 65, 0.7)
+  );
+  border-color: rgba(180, 160, 220, 0.5);
+  transform: translateY(-1px);
+  box-shadow: 0 5px 15px rgba(60, 40, 100, 0.4),
+    0 0 12px rgba(140, 120, 180, 0.3);
+}
+
+.streak-rank-header:active {
+  transform: translateY(0);
+}
+
+.streak-tooltip {
+  position: fixed;
+  background: linear-gradient(
+    135deg,
+    rgba(20, 20, 20, 0.95),
+    rgba(35, 35, 35, 0.95),
+    rgba(20, 20, 20, 0.95)
+  );
+  color: rgba(240, 220, 255, 0.95);
+  padding: 12px 16px;
+  border-radius: 8px;
+  border: 2px solid rgba(160, 140, 200, 0.6);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5),
+    0 0 10px rgba(140, 120, 180, 0.3);
+  font-size: 1rem;
+  z-index: 1000;
+  backdrop-filter: blur(10px);
+  text-align: left;
+  min-width: 200px;
+  max-width: 400px;
+  pointer-events: none;
+  opacity: 0;
+  animation: tooltipFadeIn 0.2s ease-out forwards;
+}
+
+@keyframes tooltipFadeIn {
+  from {
+    opacity: 0;
+    transform: translateX(-50%) translateY(-4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+}
+
+.streaks-group {
+  width: 100%;
+}
+
+.streak-item {
+  background: linear-gradient(
+    135deg,
+    rgba(30, 30, 30, 0.4),
+    rgba(45, 45, 45, 0.5),
+    rgba(30, 30, 30, 0.4)
+  );
+  color: rgba(220, 200, 240, 0.95);
+  padding: 15px;
+  margin: 8px 0;
+  border-radius: 10px;
+  border: 1px solid rgba(140, 120, 180, 0.3);
+  box-shadow: 0 3px 10px rgba(60, 40, 100, 0.2),
+    0 0 8px rgba(120, 100, 160, 0.15);
+  transition: all 0.3s ease;
+  backdrop-filter: blur(8px);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.streak-item:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 15px rgba(60, 40, 100, 0.25),
+    0 0 12px rgba(140, 120, 180, 0.2);
+  border-color: rgba(160, 140, 200, 0.4);
+}
+
+.streak-info {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.view-streak-button {
+  background: linear-gradient(
+    135deg,
+    rgba(100, 80, 140, 0.6),
+    rgba(120, 100, 160, 0.7),
+    rgba(100, 80, 140, 0.6)
+  );
+  color: rgba(240, 220, 255, 0.95);
+  border: 2px solid rgba(140, 120, 180, 0.6);
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 3px 10px rgba(100, 80, 140, 0.3),
+    0 0 8px rgba(140, 120, 180, 0.2);
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(8px);
+}
+
+.view-streak-button:hover {
+  background: linear-gradient(
+    135deg,
+    rgba(120, 100, 160, 0.7),
+    rgba(140, 120, 180, 0.8),
+    rgba(120, 100, 160, 0.7)
+  );
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(100, 80, 140, 0.4),
+    0 0 12px rgba(160, 140, 200, 0.3);
+  border-color: rgba(180, 160, 220, 0.7);
+  color: rgba(255, 240, 255, 1);
+}
+
+.view-streak-button:active {
+  transform: translateY(0) scale(0.98);
+  box-shadow: 0 2px 8px rgba(100, 80, 140, 0.3);
+}
+
+#scoreStreaksWordsContainer {
+  margin: 20px 0 0 0;
+  background: linear-gradient(
+    135deg,
+    rgba(30, 30, 30, 0.4),
+    rgba(45, 45, 45, 0.5),
+    rgba(30, 30, 30, 0.4)
+  );
+  border: 1px solid rgba(160, 200, 180, 0.3);
+  border-radius: 15px;
+  padding: 20px;
+  max-width: 40rem;
+  width: 100%;
+  box-shadow: 0 4px 15px rgba(60, 40, 100, 0.2),
+    0 0 10px rgba(140, 180, 160, 0.15);
+  animation: containerFadeIn 0.5s ease-out;
+  backdrop-filter: blur(10px);
+  box-sizing: border-box;
+  display: block;
+  position: relative;
+  align-self: center;
+}
+
+#scoreStreaksWordsHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+#scoreStreaksWordsTitle {
+  color: rgba(180, 200, 200, 0.9);
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+#scoreStreaksWordsList {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* Repeating Words Section */
+#repeatingWordsContainer {
+  margin: 20px auto;
+  max-width: 50rem;
+  width: 100%;
+  box-sizing: border-box;
+  background: linear-gradient(
+    135deg,
+    rgba(30, 30, 30, 0.4),
+    rgba(45, 45, 45, 0.5),
+    rgba(30, 30, 30, 0.4)
+  );
+  border: 1px solid rgba(160, 140, 200, 0.3);
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 15px rgba(60, 40, 100, 0.2),
+    0 0 10px rgba(140, 120, 180, 0.15);
+  backdrop-filter: blur(10px);
+}
+
+#repeatingWordsToggle {
+  font-size: 2rem;
+  color: rgba(220, 200, 240, 0.9);
+  background: linear-gradient(
+    135deg,
+    rgba(30, 30, 30, 0.4),
+    rgba(45, 45, 45, 0.5),
+    rgba(30, 30, 30, 0.4)
+  );
+  cursor: pointer;
+  margin: 0 auto 15px auto;
+  padding: 15px 30px;
+  border-radius: 12px;
+  border: 1px solid rgba(160, 140, 200, 0.3);
+  box-shadow: 0 4px 15px rgba(80, 60, 120, 0.2),
+    0 0 10px rgba(140, 120, 180, 0.15);
+  transition: all 0.3s ease;
+  text-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+  position: relative;
+  overflow: hidden;
+  backdrop-filter: blur(10px);
+  text-align: center;
+  display: block;
+  width: fit-content;
+}
+
+#repeatingWordsToggle::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.3),
+    transparent
+  );
+  transition: left 0.5s ease;
+}
+
+#repeatingWordsToggle:hover::before {
+  left: 100%;
+}
+
+#repeatingWordsToggle:hover {
+  color: rgba(240, 220, 255, 1);
+  transform: translateY(-2px);
+  background: linear-gradient(
+    135deg,
+    rgba(60, 60, 60, 0.5),
+    rgba(80, 80, 80, 0.6),
+    rgba(60, 60, 60, 0.5)
+  );
+  box-shadow: 0 6px 20px rgba(80, 60, 120, 0.3),
+    0 0 15px rgba(140, 120, 180, 0.2);
+  border-color: rgba(180, 160, 220, 0.4);
+}
+
+#repeatingWordsContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 15px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#repeatingWordsList {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.repeating-word-button {
+  background-color: rgb(6, 6, 37);
+  color: rgba(220, 200, 240, 0.9);
+  border: 2px solid rgba(140, 120, 180, 0.6);
+  border-radius: 0.5rem;
+  padding: 15px 20px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: center;
+  min-height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.repeating-word-button:hover {
+  background-color: rgb(15, 15, 60);
+  border-color: rgba(160, 140, 200, 0.7);
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(100, 80, 140, 0.3);
+}
+
+.repeating-word-tooltip {
+  position: fixed;
+  background: linear-gradient(
+    135deg,
+    rgba(20, 20, 20, 0.95),
+    rgba(35, 35, 35, 0.95),
+    rgba(20, 20, 20, 0.95)
+  );
+  color: rgba(240, 220, 255, 0.95);
+  padding: 12px 16px;
+  border-radius: 8px;
+  border: 2px solid rgba(160, 140, 200, 0.6);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5),
+    0 0 10px rgba(140, 120, 180, 0.3);
+  font-size: 1rem;
+  z-index: 1000;
+  backdrop-filter: blur(10px);
+  text-align: left;
+  min-width: 200px;
+  max-width: 400px;
+  pointer-events: none;
+  opacity: 0;
+  animation: tooltipFadeIn 0.2s ease-out forwards;
+}
+
+@keyframes tooltipFadeIn {
+  from {
+    opacity: 0;
+    transform: translateX(-50%) translateY(-4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+}
+
+.repeating-word-occasion {
+  margin: 5px 0;
+  padding: 5px 0;
+  border-bottom: 1px solid rgba(140, 120, 180, 0.3);
+}
+
+.repeating-word-occasion:last-child {
+  border-bottom: none;
 }
 
 #monthYearDropdown,
@@ -548,10 +1014,10 @@ h1:active {
 #showWordsButton {
   background: linear-gradient(
     135deg,
-            rgba(30, 30, 30, 0.4),
-            rgba(45, 45, 45, 0.5),
-            rgba(30, 30, 30, 0.4)
-    /* rgba(100, 80, 140, 0.4),
+    rgba(30, 30, 30, 0.4),
+    rgba(45, 45, 45, 0.5),
+    rgba(30, 30, 30, 0.4)
+      /* rgba(100, 80, 140, 0.4),
     rgba(120, 100, 160, 0.5),
     rgba(100, 80, 140, 0.4) */
   );
@@ -596,10 +1062,10 @@ h1:active {
 #showWordsButton:hover {
   background: linear-gradient(
     135deg,
-        rgba(60, 60, 60, 0.5),
-        rgba(80, 80, 80, 0.6),
-        rgba(60, 60, 60, 0.5)
-    /* rgba(110, 90, 150, 0.5),
+    rgba(60, 60, 60, 0.5),
+    rgba(80, 80, 80, 0.6),
+    rgba(60, 60, 60, 0.5)
+      /* rgba(110, 90, 150, 0.5),
     rgba(130, 110, 170, 0.6),
     rgba(110, 90, 150, 0.5) */
   );
@@ -672,7 +1138,7 @@ h1:active {
     rgba(30, 30, 30, 0.4),
     rgba(45, 45, 45, 0.5),
     rgba(30, 30, 30, 0.4)
-    /* rgba(70, 50, 100, 0.4),
+      /* rgba(70, 50, 100, 0.4),
     rgba(80, 60, 110, 0.5),
     rgba(70, 50, 100, 0.4) */
   );
@@ -971,8 +1437,7 @@ h1:active {
   border-radius: 8px;
   cursor: pointer;
   transition: all 0.3s ease;
-  box-shadow: 0 3px 10px rgba(50, 80, 50, 0.3),
-    0 0 8px rgba(100, 120, 100, 0.2);
+  box-shadow: 0 3px 10px rgba(50, 80, 50, 0.3), 0 0 8px rgba(100, 120, 100, 0.2);
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
   position: relative;
   z-index: 1;
@@ -1411,8 +1876,7 @@ h1:active {
   border-radius: 8px;
   cursor: pointer;
   transition: all 0.3s ease;
-  box-shadow: 0 3px 10px rgba(120, 50, 70, 0.3),
-    0 0 8px rgba(140, 60, 80, 0.2);
+  box-shadow: 0 3px 10px rgba(120, 50, 70, 0.3), 0 0 8px rgba(140, 60, 80, 0.2);
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
   position: relative;
   z-index: 1;
@@ -1428,8 +1892,7 @@ h1:active {
     rgba(140, 60, 80, 0.7)
   );
   transform: translateY(-2px);
-  box-shadow: 0 5px 15px rgba(120, 50, 70, 0.4),
-    0 0 12px rgba(150, 70, 90, 0.3);
+  box-shadow: 0 5px 15px rgba(120, 50, 70, 0.4), 0 0 12px rgba(150, 70, 90, 0.3);
   border-color: rgba(150, 100, 120, 0.7);
   color: rgba(220, 170, 190, 1);
 }
@@ -1617,8 +2080,7 @@ h1:active {
   border-radius: 8px;
   cursor: pointer;
   transition: all 0.3s ease;
-  box-shadow: 0 3px 10px rgba(60, 70, 100, 0.3),
-    0 0 8px rgba(70, 80, 110, 0.2);
+  box-shadow: 0 3px 10px rgba(60, 70, 100, 0.3), 0 0 8px rgba(70, 80, 110, 0.2);
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
   position: relative;
   z-index: 1;
@@ -1834,8 +2296,7 @@ h1:active {
   border-radius: 8px;
   cursor: pointer;
   transition: all 0.3s ease;
-  box-shadow: 0 3px 10px rgba(120, 80, 40, 0.3),
-    0 0 8px rgba(140, 100, 50, 0.2);
+  box-shadow: 0 3px 10px rgba(120, 80, 40, 0.3), 0 0 8px rgba(140, 100, 50, 0.2);
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
   position: relative;
   z-index: 1;
@@ -2166,6 +2627,225 @@ h1:active {
   font-size: 1.2rem;
 }
 
+/* Position Pattern Search Styles */
+#positionSearchContainer {
+  margin: 20px auto;
+  border-radius: 0.5rem;
+  padding: 20px;
+  max-width: 50rem;
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+  background: linear-gradient(
+    135deg,
+    rgba(30, 30, 30, 0.4),
+    rgba(45, 45, 45, 0.5),
+    rgba(30, 30, 30, 0.4)
+  );
+  overflow: hidden;
+  border: none;
+  transition: border 0.3s ease;
+}
+
+#positionSearchContainer.borders-off {
+  border: 2px solid rgb(150, 100, 75);
+}
+
+#positionSearchContainer.borders-off::before {
+  display: none;
+}
+
+#positionSearchContainer::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: conic-gradient(
+    from 0deg,
+    rgba(150, 100, 75, 0.6),
+    rgba(220, 220, 220, 0.4),
+    rgba(170, 120, 85, 0.6),
+    rgba(240, 240, 240, 0.3),
+    rgba(130, 80, 65, 0.6),
+    rgba(200, 200, 200, 0.4),
+    rgba(150, 100, 75, 0.6),
+    rgba(220, 220, 220, 0.4),
+    rgba(170, 120, 85, 0.6)
+  );
+  animation: borderRotate 3s linear infinite;
+  z-index: 0;
+}
+
+#positionSearchContainer::after {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  right: 3px;
+  bottom: 3px;
+  border-radius: calc(0.5rem - 3px);
+  background: linear-gradient(
+    135deg,
+    rgba(30, 30, 30, 0.4),
+    rgba(45, 45, 45, 0.5),
+    rgba(30, 30, 30, 0.4)
+  );
+  z-index: 0;
+}
+
+#positionSearchHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  position: relative;
+  z-index: 1;
+}
+
+#positionSearchTitle {
+  color: rgba(200, 180, 150, 0.9);
+  font-size: 1.8rem;
+  margin: 0;
+  flex-grow: 1;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+#positionSearchTitle:hover {
+  transform: scale(1.02);
+  opacity: 0.9;
+  background: rgba(150, 100, 75, 0.2);
+}
+
+#positionSearchTitle:active {
+  transform: scale(0.98);
+}
+
+#positionSearchControls {
+  display: none;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 20px;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+#positionSearchContainer.show-controls #positionSearchControls {
+  display: flex;
+}
+
+.position-search-sort-button {
+  font-size: 1.2rem;
+  margin: 0 auto 20px auto;
+  padding: 10px 20px;
+  background: linear-gradient(
+    135deg,
+    rgba(150, 100, 75, 0.6),
+    rgba(170, 120, 85, 0.7),
+    rgba(150, 100, 75, 0.6)
+  );
+  color: rgba(200, 180, 150, 0.95);
+  border: 2px solid rgba(120, 100, 80, 0.6);
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 3px 10px rgba(150, 100, 75, 0.3),
+    0 0 8px rgba(170, 120, 85, 0.2);
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  position: relative;
+  z-index: 1;
+  display: block;
+  backdrop-filter: blur(8px);
+}
+
+.position-search-sort-button:hover {
+  background: linear-gradient(
+    135deg,
+    rgba(170, 120, 85, 0.7),
+    rgba(190, 140, 95, 0.8),
+    rgba(170, 120, 85, 0.7)
+  );
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(150, 100, 75, 0.4),
+    0 0 12px rgba(190, 140, 95, 0.3);
+  border-color: rgba(150, 130, 110, 0.7);
+  color: rgba(220, 200, 170, 1);
+}
+
+.position-search-sort-button:active {
+  transform: translateY(0) scale(0.98);
+  box-shadow: 0 2px 8px rgba(150, 100, 75, 0.3);
+}
+
+#positionPatternInput {
+  font-size: 1.5rem;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border: 2px solid rgba(120, 100, 80, 0.6);
+  border-radius: 0.3rem;
+  padding: 8px 12px;
+  width: 200px;
+  text-align: center;
+  font-family: monospace;
+  letter-spacing: 0.2em;
+}
+
+#positionSearchResults {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+  position: relative;
+  z-index: 1;
+}
+
+.position-word-button {
+  background-color: rgb(6, 6, 37);
+  color: rgba(200, 180, 150, 0.9);
+  border: 2px solid rgba(120, 100, 80, 0.6);
+  border-radius: 0.5rem;
+  padding: 15px 20px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: center;
+  min-height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.position-word-button:hover {
+  background-color: rgb(15, 15, 60);
+  border-color: rgba(150, 130, 110, 0.7);
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(150, 100, 75, 0.3);
+}
+
+.position-search-summary {
+  background: linear-gradient(
+    135deg,
+    rgba(30, 30, 30, 0.4),
+    rgba(45, 45, 45, 0.5),
+    rgba(30, 30, 30, 0.4)
+  );
+  color: rgba(200, 180, 150, 0.9);
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 0.5rem;
+  border: 2px solid rgba(120, 100, 80, 0.5);
+  text-align: center;
+  font-size: 1.2rem;
+}
+
 /* Daily Words Search Styles */
 #dailyWordsSearchContainer {
   margin: 20px auto;
@@ -2319,6 +2999,31 @@ h1:active {
   width: 180px;
 }
 
+#dailyWordsContainsControls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+#dailyWordsContainsInput {
+  font-size: 1.5rem;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border: 2px solid rgba(120, 110, 80, 0.6);
+  border-radius: 0.3rem;
+  padding: 8px 12px;
+  width: 300px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#dailyWordsContainsInput:focus {
+  outline: none;
+  border-color: rgba(120, 110, 80, 0.9);
+  box-shadow: 0 0 8px rgba(120, 110, 80, 0.3);
+}
+
 #dailyWordsSearchResults {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
@@ -2328,10 +3033,11 @@ h1:active {
   z-index: 1;
 }
 
+/* Non-Wordle: quieter, less lively */
 .daily-words-button {
   background-color: rgb(6, 6, 37);
-  color: rgba(200, 190, 150, 0.9);
-  border: 2px solid rgba(120, 110, 80, 0.6);
+  color: rgba(140, 135, 118, 0.82);
+  border: 2px solid rgba(100, 95, 80, 0.5);
   border-radius: 0.5rem;
   padding: 15px 20px;
   font-size: 1.1rem;
@@ -2346,10 +3052,77 @@ h1:active {
 }
 
 .daily-words-button:hover {
-  background-color: rgb(15, 15, 60);
-  border-color: rgba(150, 140, 110, 0.7);
+  background-color: rgb(12, 12, 50);
+  border-color: rgba(120, 115, 95, 0.55);
   transform: scale(1.05);
-  box-shadow: 0 4px 8px rgba(120, 100, 40, 0.3);
+  box-shadow: 0 4px 8px rgba(80, 75, 50, 0.25);
+}
+
+/* Wordle words: same as base until "Highlight words with played details" is toggled on */
+/* (no extra styles for .has-played-details alone) */
+
+@keyframes wordle-chartreuse-cycle {
+  0%, 100% {
+    color: rgba(220, 255, 140, 0.98);
+    text-shadow: 0 0 8px rgba(180, 255, 100, 0.35);
+  }
+  50% {
+    color: rgba(200, 255, 90, 1);
+    text-shadow: 0 0 12px rgba(190, 255, 80, 0.5);
+  }
+}
+
+/* Only when highlight toggle is on: Wordle words get brighter chartreuse font and border */
+.daily-words-button.has-played-details-highlight {
+  border-color: rgba(160, 255, 100, 0.85);
+  box-shadow: 0 0 0 1px rgba(160, 255, 100, 0.5);
+  color: rgba(220, 255, 140, 0.98);
+}
+
+.daily-words-button.has-played-details-highlight .word-text {
+  animation: wordle-chartreuse-cycle 4s ease-in-out infinite;
+}
+
+.daily-words-button.has-played-details-highlight:hover {
+  border-color: rgba(180, 255, 120, 0.95);
+  box-shadow: 0 0 0 2px rgba(160, 255, 100, 0.6);
+}
+
+#dailyWordsWordleToggleContainer {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.daily-words-wordle-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  color: rgba(200, 200, 200, 0.9);
+  font-size: 0.95rem;
+}
+
+.daily-words-wordle-toggle input[type="checkbox"] {
+  cursor: pointer;
+}
+
+.word-date-multi {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-top: 6px;
+}
+
+.word-date-line {
+  font-size: 0.9rem;
+  opacity: 0.95;
+}
+
+/* Wordle detail lines when highlight is on: bright but no animation */
+.daily-words-button.has-played-details-highlight .word-date,
+.daily-words-button.has-played-details-highlight .word-date-line {
+  color: rgba(200, 240, 160, 0.95);
+  animation: none;
 }
 
 .daily-words-search-summary {
@@ -2422,9 +3195,23 @@ h1:active {
     width: fit-content;
   }
 
+  #scoreStreaksToggle {
+    font-size: 1.6rem;
+    padding: 12px 20px;
+    width: fit-content;
+  }
+
+  #repeatingWordsToggle {
+    font-size: 1.6rem;
+    padding: 12px 20px;
+    width: fit-content;
+  }
+
   #scoreDropdown,
   #monthYearDropdown,
-  #yearDropdown {
+  #yearDropdown,
+  #scoreStreaksMode,
+  #scoreStreaksDropdown {
     font-size: 1.5rem;
     padding: 10px 15px;
     max-width: 280px;
@@ -2438,7 +3225,8 @@ h1:active {
 
   #datesContainer,
   #wordsContainer,
-  #wordDetailsContainer {
+  #wordDetailsContainer,
+  #scoreStreaksWordsContainer {
     padding: 15px;
   }
 
@@ -2463,6 +3251,12 @@ h1:active {
   #containLetterDropdown,
   #containOccurrencesDropdown,
   #dailyWordsSingleLetterDropdown {
+    font-size: 1.2rem;
+    width: 100%;
+    max-width: 250px;
+  }
+
+  #dailyWordsContainsInput {
     font-size: 1.2rem;
     width: 100%;
     max-width: 250px;
@@ -2504,6 +3298,12 @@ h1:active {
     margin-bottom: 15px;
   }
 
+  .position-search-sort-button {
+    font-size: 1rem;
+    padding: 8px 16px;
+    margin-bottom: 15px;
+  }
+
   #monthSearchMonthDropdown,
   #monthSearchYearDropdown,
   #monthDropdown,
@@ -2520,7 +3320,8 @@ h1:active {
   #monthSearchControls,
   #monthDayControls,
   #letterRangeControls,
-  #dailyWordsRangeControls {
+  #dailyWordsRangeControls,
+  #positionSearchControls {
     flex-direction: column;
     align-items: center;
   }
@@ -2537,6 +3338,7 @@ h1:active {
   .month-day-word-button,
   .letter-word-button,
   .contain-letter-word-button,
+  .position-word-button,
   .daily-words-button {
     font-size: 1rem;
     padding: 12px 15px;
@@ -2584,9 +3386,25 @@ h1:active {
     max-width: 90%;
   }
 
+  #scoreStreaksToggle {
+    font-size: 1.4rem;
+    padding: 10px 15px;
+    width: fit-content;
+    max-width: 90%;
+  }
+
+  #repeatingWordsToggle {
+    font-size: 1.4rem;
+    padding: 10px 15px;
+    width: fit-content;
+    max-width: 90%;
+  }
+
   #scoreDropdown,
   #monthYearDropdown,
-  #yearDropdown {
+  #yearDropdown,
+  #scoreStreaksMode,
+  #scoreStreaksDropdown {
     font-size: 1.2rem;
     padding: 8px 12px;
     max-width: 250px;
@@ -2609,13 +3427,22 @@ h1:active {
   #datesContainer,
   #wordsContainer,
   #wordDetailsContainer,
+  #scoreStreaksWordsContainer {
+    padding: 12px;
+    margin: 20px auto 0 auto;
+    width: 100%;
+    max-width: 40rem;
+  }
+
   #daySearchContainer,
   #monthSearchContainer,
   #dayNumberSearchContainer,
   #monthDaySearchContainer,
   #letterSearchContainer,
   #containLetterSearchContainer,
-  #dailyWordsSearchContainer {
+  #positionSearchContainer,
+  #dailyWordsSearchContainer,
+  #repeatingWordsContainer {
     padding: 12px;
     margin: 15px auto;
     width: 95%;
@@ -2653,6 +3480,12 @@ h1:active {
   #containLetterDropdown,
   #containOccurrencesDropdown,
   #dailyWordsSingleLetterDropdown {
+    font-size: 1.1rem;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  #dailyWordsContainsInput {
     font-size: 1.1rem;
     width: 100%;
     max-width: 100%;
@@ -2722,12 +3555,14 @@ h1:active {
   #monthSearchControls,
   #monthDayControls,
   #letterRangeControls,
-  #dailyWordsRangeControls {
+  #dailyWordsRangeControls,
+  #positionSearchControls {
     width: 100%;
   }
 
   #letterSearchControls,
   #containLetterSearchControls,
+  #positionSearchControls,
   #dailyWordsSearchControls {
     width: 100%;
   }
@@ -2745,7 +3580,8 @@ h1:active {
   #monthDaySearchResults,
   #letterSearchResults,
   #containLetterSearchResults,
-  #dailyWordsSearchResults {
+  #dailyWordsSearchResults,
+  #repeatingWordsList {
     grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
     gap: 10px;
   }
@@ -2771,7 +3607,9 @@ h1:active {
   .month-day-word-button,
   .letter-word-button,
   .contain-letter-word-button,
-  .daily-words-button {
+  .position-word-button,
+  .daily-words-button,
+  .repeating-word-button {
     font-size: 0.9rem;
     padding: 10px 12px;
     min-height: 60px;
@@ -2794,9 +3632,26 @@ h1:active {
   .score-result,
   .month-year-result,
   .year-result,
-  .default-message {
+  .default-message,
+  .score-streaks-summary,
+  .streak-info {
     font-size: 0.9rem;
     padding: 12px;
+  }
+
+  .view-streak-button {
+    font-size: 0.9rem;
+    padding: 8px 15px;
+  }
+
+  .streak-rank-header {
+    font-size: 1.1rem;
+    padding: 10px 15px;
+    margin: 12px 0 6px 0;
+  }
+
+  #scoreStreaksWordsTitle {
+    font-size: 1.1rem;
   }
 
   .day-search-summary,
@@ -2850,7 +3705,8 @@ h1:active {
   #monthDaySearchResults,
   #letterSearchResults,
   #containLetterSearchResults,
-  #dailyWordsSearchResults {
+  #dailyWordsSearchResults,
+  #repeatingWordsList {
     grid-template-columns: 1fr;
   }
 
@@ -2866,7 +3722,7 @@ h1:active {
   text-align: center;
   height: auto;
   width: 100%;
-  background-color: black;
+  background-color: chartreuse;
   color: white;
   border: green .5rem solid;
   border-radius: 1rem;
@@ -2876,35 +3732,33 @@ h1:active {
   margin: 5px;
   padding: 5px;
   display: inline-block;
-  color: yellow;
+  color: pink;
 }
 
 .linkTwo {
   margin: 5px;
   padding: 5px;
   display: inline-block;
-  color: chartreuse;
+  color: purple;
 }
 
 .linkThree {
   margin: 5px;
   padding: 5px;
   display: inline-block;
-  color: chartreuse;
+  color: orange;
 }
 
 .linkFour {
   margin: 5px;
   padding: 5px;
   display: inline-block;
-  color: yellow;
+  color: lavender;
 }
 
 .linkFive {
   margin: 5px;
   padding: 5px;
   display: inline-block;
-  color: rgb(0, 64, 255);
+  color: dodgerblue;
 }
-
-

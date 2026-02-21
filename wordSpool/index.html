@@ -1,21 +1,17 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>MyWordPool</title>
-    <link href="world.css" rel="stylesheet" type="text/css" />
+    <title>wordSpool</title>
+    <link href="worldThree.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <div class="linkBox">
-      <a href="../index.html" class="linkOne">Hit The Fuckin Zoo</a>
-      <a href="../wordWorld/world.html" class="linkTwo">To Word World - Now Useless  #️⃣3️⃣ </a>
-      <a href="../wordWinder/index.html" class="linkThree">To Word Winder -Quite Useless#️⃣2️⃣</a>
-      <a href="../wordWang/index.html" class="linkFour">To Word Wang - Pretty Useful#️⃣2️⃣</a>
-      <a href="../wordSpool/index.html" class="linkFive">To Word Spool - The Most Gosh Dab Useful#️⃣2️⃣</a>
-    </div>
     <p id="themeToggle">🌑</p>
-    <h1>The Word Pool, Jerko!!</h1>
+    <h1>
+      The Word Spool!!
+      <p>(Zoo Version)</p>
+    </h1>
     <h2 id="toggleButton">⚔ Click to View Filters ⚔</h2>
 
     <!-- Day of Week Search Section -->
@@ -252,9 +248,16 @@
           <option value="small">Regular List</option>
           <option value="large">Massive List</option>
         </select>
+        <div id="dailyWordsWordleToggleContainer">
+          <label class="daily-words-wordle-toggle">
+            <input type="checkbox" id="dailyWordsWordleHighlightToggle" />
+            <span>Highlight words with played details</span>
+          </label>
+        </div>
         <select id="dailyWordsSearchMode">
           <option value="single">Single Letter</option>
           <option value="range">Letter Range</option>
+          <option value="contains">Contains Letters</option>
         </select>
         <select id="dailyWordsSingleLetterDropdown" style="display: block">
           <option value="">Select Letter</option>
@@ -266,6 +269,37 @@
           <select id="dailyWordsRangeEnd">
             <option value="">End Letter</option>
           </select>
+        </div>
+        <div id="dailyWordsContainsControls" style="display: none">
+          <input
+            type="text"
+            id="dailyWordsContainsInput"
+            placeholder="Enter up to 5 letters (e.g., A C T or ACT)"
+            maxlength="20"
+            style="
+              padding: 8px;
+              font-size: 1.5rem;
+              text-transform: uppercase;
+              text-align: center;
+              width: 300px;
+              border: 2px solid rgba(120, 110, 80, 0.6);
+              border-radius: 0.3rem;
+              background-color: rgb(255, 255, 255);
+              color: rgb(0, 0, 0);
+            "
+          />
+          <div
+            style="
+              margin-top: 8px;
+              font-size: 0.9rem;
+              opacity: 0.8;
+              text-align: center;
+              color: rgba(200, 200, 200, 0.9);
+            "
+          >
+            Order doesn't matter. Multiple letters count (e.g., URNER finds
+            RERUN)
+          </div>
         </div>
       </div>
       <div id="dailyWordsSearchResults"></div>
@@ -407,6 +441,30 @@
           <div id="scoreStreaksWordsList"></div>
         </div>
       </div>
+    </div>
+
+    <!-- Repeating Words Section -->
+    <div id="repeatingWordsContainer" style="display: none">
+      <h3 id="repeatingWordsToggle">Repeating Words</h3>
+      <div id="repeatingWordsContent" style="display: none">
+        <div id="repeatingWordsList"></div>
+      </div>
+    </div>
+
+    <div class="linkBox">
+      <a href="../index.html" class="linkOne">Hit The Fuckin Zoo</a>
+      <a href="../wordWorld/world.html" class="linkTwo"
+        >To Word World - Now Useless 🚜
+      </a>
+      <a href="../wordWinder/index.html" class="linkThree"
+        >To Word Winder -Quite Useless 🥡</a
+      >
+      <a href="../wordWang/index.html" class="linkFour"
+        >To Word Wang - Pretty Useful 🦉</a
+      >
+      <a href="../wordPool/index.html" class="linkFive"
+        >To Word Pool - Pretty Useful 🦴</a
+      >
     </div>
 
     <script type="module" src="world.js"></script>

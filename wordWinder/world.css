@@ -2553,3 +2553,10 @@ h1:active {
   color: yellow;
 }
 
+.linkFive {
+  margin: 5px;
+  padding: 5px;
+  display: inline-block;
+  color: rgb(0, 64, 255);
+}
+
