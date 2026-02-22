@@ -100,8 +100,8 @@ my_list = {
 'GREED', 'GREEN', 'GREET', 'GRIEF', 'GRIFT', 'GRIND', 'GRIME', 'GRIMY', 'GRIPE', 'GROIN', 
 'GROAN', 'GROOM', 'GROSS', 'GROUP', 'GROUT', 'GROVE', 'GROWL', 'GROWN', 'GRUEL', 'GRUFF', 
 'GUANO', 
-'GUARD', 'GUESS', 'GUEST', 'GUIDE', 'GUILD', 'GUILE', 'GUISE', 'GULLY', 'GUMBO', 'GUMMY', 
-'GUPPY', 'GUSTY', 
+'GUARD', 'GUAVA', 'GUESS', 'GUEST', 'GUIDE', 'GUILD', 'GUILE', 'GUISE', 'GULLY', 'GUMBO', 
+'GUMMY', 'GUPPY', 'GUSTY', 
 'HABIT', 'HAIRY', 'HALVE', 'HANDY', 'HAPPY', 'HARDY', 'HARSH', 'HASTE', 'HATCH', 'HATER', 
 'HAUNT', 
 'HAVEN', 'HAVOC', 'HAZEL', 'HEADY', 'HEART', 'HEARD', 'HEATH', 'HEAVE', 'HEAVY', 'HEFTY', 
@@ -240,7 +240,7 @@ my_list = {
 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'AWAKE'
+word_to_find = 'GUAVA'
 
 
 if word_to_find in my_list:
