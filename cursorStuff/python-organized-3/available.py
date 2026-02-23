@@ -4,7 +4,7 @@ unused_list = [
             "AFIRE", "AFOOT", "AFOUL", "AIDER", "ALGAE", "ALIBI", "ALIGN",
 			"ALLAY", "ALLEY", "ALLOY", "AMAZE", "AMEND", "AMPLY",  
             "ANIME", "ANKLE", "ANNUL", "APING", "APNEA", "ARENA",
-            "ARMOR", "AROSE", "ARRAY", "ARSON", "ASTIR", "ATTIC", 
+            "ARMOR", "AROSE", "ARRAY", "ARSON", "ASTIR", 
             "AUGUR", "AUNTY", "AVIAN", "AXIAL", "AXION", "BAGGY", 
             "BASAL", "BASIL", "BASIS", 
             "BEECH", "BEFIT", "BEGAN", "BEGAT", "BEGUN", "BELLE", "BERRY", "BETEL", "BEVEL", "BEZEL", 
@@ -124,7 +124,7 @@ unused_list = [
             "WREST", "WRING", "WRYLY", "ZONAL" 
              ]
 
-word = 'GUAVA'
+word = 'ATTIC'
 
 
 if word in unused_list:
