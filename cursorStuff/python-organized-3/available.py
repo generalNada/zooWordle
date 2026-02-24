@@ -13,7 +13,7 @@ unused_list = [
             "BLOOD", "BLUER", "BOBBY", "BONEY", 
             "BOOTH", "BOSOM", "BOTCH", "BOULE", "BOUND", "BOWEL", 
 		    "BRAWL", "BRICK", "BRINY", "BROIL", "BROOD", "BUDGE",
-		    "BURNT", "BURST", "BUSED", "BUSHY", "BUTCH", "BUTTE", "BUXOM", "BUYER", "BYLAW", "CABAL", 
+		    "BURNT", "BURST", "BUSED", "BUSHY", "BUTCH", "BUTTE", "BUXOM", "BYLAW", "CABAL", 
             "CABBY", "CABIN", "CADDY", "CAGEY", "CAIRN", "CANAL", "CAPUT", "CASTE", 
             "CAVIL", "CHAFF", "CHESS", 
             "CHICK", "CHILI", "CHINA", "CHOMP", "CHUCK", "CHUMP", "CHURN",
@@ -124,7 +124,7 @@ unused_list = [
             "WREST", "WRING", "WRYLY", "ZONAL" 
              ]
 
-word = 'ATTIC'
+word = 'BUYER'
 
 
 if word in unused_list:
