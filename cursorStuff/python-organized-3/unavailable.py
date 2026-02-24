@@ -31,7 +31,8 @@ my_list = {
 'BRASS', 'BRAVE', 'BRAVO', 'BRAWN', 'BREAD', 'BREAK', 'BREED', 'BRIAR', 
 'BRIBE', 'BRIDE', 'BRIEF', 'BRINE', 'BRING', 'BRINK', 'BRISK', 'BROAD', 'BROKE', 'BROOK', 
 'BROOM', 'BROTH', 'BROWN', 'BRUSH', 'BRUTE', 'BUGGY', 'BUDDY', 'BUGLE', 'BUILD', 'BUILT', 
-'BULGE', 'BULLY', 'BULKY', 'BUNCH', 'BUNNY', 'BURLY', 'BURNT', 'CABLE', 'CACAO', 'CACHE', 
+'BULGE', 'BULLY', 'BULKY', 'BUNCH', 'BUNNY', 'BURLY', 'BURNT', 'BUYER', 'CABLE', 'CACAO', 
+'CACHE', 
 'CACTI', 'CADET', 'CAMEL', 'CAMEO', 'CANDY', 'CANNY', 'CANON', 'CANOE', 'CAPER', 'CARAT', 
 'CARGO', 'CAROL', 'CARRY', 'CATCH', 'CATER', 'CATTY', 'CAULK', 'CAUSE', 'CARVE', 'CEASE', 
 'CEDAR', 'CELLO', 'CHAFE', 'CHAIN', 'CHAIR', 'CHALK', 'CHAMP', 'CHANT', 'CHAOS', 'CHARD', 
@@ -240,7 +241,7 @@ my_list = {
 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'ATTIC'
+word_to_find = 'BUYER'
 
 
 if word_to_find in my_list:
