@@ -183,7 +183,8 @@ my_list = {
 'SHADE', 
 'SHAFT', 'SHAKE', 'SHAKY', 'SHALL', 'SHAME', 'SHANK', 'SHAPE', 'SHARD', 'SHARE', 'SHARP', 
 'SHAVE', 'SHAWL', 'SHEAR', 'SHEET', 'SHELF', 'SHELL', 'SHIFT', 'SHINE', 'SHIRE', 'SHIRK', 
-'SHORE', 'SHORN', 'SHORT', 'SHOUT', 'SHOVE', 'SHOWN', 'SHOWY', 'SHRUB', 'SHRUG', 'SHUCK', 
+'SHORE', 'SHORN', 'SHORT', 'SHOUT', 'SHOVE', 'SHOWN', 'SHOWY', 'SHRED', 'SHRUB', 'SHRUG', 
+'SHUCK', 
 'SHUNT', 'SHYLY', 'SIEGE', 'SIGHT', 'SILLY', 'SINCE', 'SIREN', 'SISSY', 'SITAR', 'SIXTH', 
 'SKATE', 'SKILL', 'SKIMP', 'SKIER', 'SKIFF', 'SKIRT', 'SKULL', 'SKUNK', 'SLANG', 'SLATE', 
 'SLEEK', 'SLEEP', 
@@ -241,7 +242,7 @@ my_list = {
 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'BUYER'
+word_to_find = 'SHRED'
 
 
 if word_to_find in my_list:
