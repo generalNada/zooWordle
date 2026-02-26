@@ -1498,7 +1498,8 @@ export const combinedWords = [
     'SHAPE', 'SHARD', 'SHARE', 'SHARK', 'SHARP', 'SHAVE', 'SHAWL', 'SHEAR', 'SHEEN', 'SHEEP',
     'SHEER', 'SHEET', 'SHEIK', 'SHELF', 'SHELL', 'SHIED', 'SHIFT', 'SHINE', 'SHINY', 'SHIRE',
     'SHIRK', 'SHIRT', 'SHOAL', 'SHOCK', 'SHONE', 'SHOOK', 'SHOOT', 'SHORE', 'SHORN', 'SHORT',
-    'SHOVE', 'SHOWN', 'SHOWY', 'SHREW', 'SHRUB', 'SHRUG', 'SHUCK', 'SHUNT', 'SHUSH', 'SHYLY',
+    'SHOVE', 'SHOWN', 'SHOWY', 'SHRED', 'SHREW', 'SHRUB', 'SHRUG', 'SHUCK', 'SHUNT', 'SHUSH', 
+    'SHYLY',
     'SIEGE', 'SIEVE', 'SIGHT', 'SIGMA', 'SILKY', 'SILLY', 'SINCE', 'SINEW', 'SINGE', 'SIREN',
     'SISSY', 'SIXTH', 'SIXTY', 'SKATE', 'SKIER', 'SKIFF', 'SKILL', 'SKIMP', 'SKIRT', 'SKULK',
     'SKULL', 'SKUNK', 'SLACK', 'SLAIN', 'SLANG', 'SLANT', 'SLASH', 'SLATE', 'SLAVE', 'SLEEK', 
@@ -2813,7 +2814,7 @@ export const dailyWordsLarge = [
     'SHOCK', 'SHOED', 'SHOER', 'SHOES', 'SHOGI', 'SHOGS', 'SHOJI', 'SHOJO', 'SHOLA', 'SHONE',
     'SHOOK', 'SHOOL', 'SHOON', 'SHOOS', 'SHOOT', 'SHOPE', 'SHOPS', 'SHORE', 'SHORL', 'SHORN',
     'SHORT', 'SHOTE', 'SHOTS', 'SHOTT', 'SHOUT', 'SHOVE', 'SHOWD', 'SHOWN', 'SHOWS', 'SHOWY',
-    'SHOYU', 'SHRED', 'SHREW', 'SHRIS', 'SHROW', 'SHRUB', 'SHRUG', 'SHTIK', 'SHTUM', 'SHTUP',
+    'SHOYU', 'SHREW', 'SHRIS', 'SHROW', 'SHRUB', 'SHRUG', 'SHTIK', 'SHTUM', 'SHTUP',
     'SHUCK', 'SHULE', 'SHULN', 'SHULS', 'SHUNS', 'SHUNT', 'SHURA', 'SHUSH', 'SHUTE', 'SHUTS',
     'SHWAS', 'SHYER', 'SHYLY', 'SIALS', 'SIBBS', 'SIBYL', 'SICES', 'SICHT', 'SICKO', 'SICKS',
     'SICKY', 'SIDAS', 'SIDED', 'SIDER', 'SIDES', 'SIDHA', 'SIDHE', 'SIDLE', 'SIEGE', 'SIELD',
@@ -13213,6 +13214,11 @@ export const wordleWords = [
         myScore: 4,
         wordNumber: 1711,
       }, 
+      { word: "SHRED",
+        gameDate: "2/25/26",
+        myScore: 3,
+        wordNumber: 1712,
+      }, 
 
     
   ];
@@ -13230,7 +13236,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("Feb 24, 2026: Trump sux dykk000000000! BUYER")
+console.log("Feb 25, 2026: Trump sux dykk000000000! SHRED")
 
 
 console.log(wordleWords)
