@@ -53,7 +53,7 @@ unused_list = [
             "INLET", "INTRO", "ISSUE", "JETTY", "JOIST", 
             "JUICY", "JUNTA", "JUNTO", "JUROR", "KAPPA", "KINKY", "KITTY", 
             "KNEED", "LADEN",
-            "LANCE", "LATCH", "LEANT", "LEGAL", 
+            "LATCH", "LEANT", "LEGAL", 
 	        "LEPER", "LIEGE", "LIKEN", "LIPID",
 	        "LOAMY", "LOATH", "LOBBY", "LOGIN", "LOOSE", "LORRY",
 	        "LUMEN", "LUPUS", "LURCH", "LYMPH",
@@ -124,7 +124,7 @@ unused_list = [
             "WREST", "WRING", "WRYLY", "ZONAL" 
              ]
 
-word = 'SHRED'
+word = 'LANCE'
 
 
 if word in unused_list:
