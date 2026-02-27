@@ -117,7 +117,7 @@ my_list = {
 'JUMBO',
 'JUMPY', 'KARMA', 'KAYAK', 'KAZOO', 'KEBAB', 'KEFIR', 'KHAKI', 'KIOSK', 'KNACK', 'KNAVE', 
 'KNEAD', 'KNEEL', 'KNELL', 'KNELT', 'KNIFE', 'KNOCK', 'KNOLL', 'KNOWN', 'KOALA', 'KRILL', 
-'LABEL', 'LABOR', 'LADLE', 'LAGER', 'LANKY', 'LAPEL', 'LAPSE', 'LARGE', 'LARVA',
+'LABEL', 'LABOR', 'LADLE', 'LAGER', 'LANCE', 'LANKY', 'LAPEL', 'LAPSE', 'LARGE', 'LARVA',
 
 # BREAK FOR ALPHABIZING - ADDITIONS CAN BE HELD AT BOTTOM OF REPRESENATIVE BLOCK
 
@@ -242,7 +242,7 @@ my_list = {
 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'SHRED'
+word_to_find = 'LANCE'
 
 
 if word_to_find in my_list:
