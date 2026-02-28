@@ -108,8 +108,8 @@ my_list = {
 'HAVEN', 'HAVOC', 'HAZEL', 'HEADY', 'HEART', 'HEARD', 'HEATH', 'HEAVE', 'HEAVY', 'HEFTY', 
 'HEIST', 'HELIX', 'HELLO', 'HENCE', 'HERON', 'HILLY', 'HINGE', 'HIPPO', 'HOARD', 'HOBBY', 
 'HOIST', 'HOLLY', 'HOMER', 'HONEY', 'HORDE', 'HORSE', 'HOTEL', 'HOUND', 'HOUSE', 'HOVEL', 
-'HOVER', 
-'HOWDY', 'HUMAN', 'HUMID', 'HUMOR', 'HUMPH', 'HUNCH', 'HUNKY', 'HURRY', 'HUTCH', 'HYENA', 
+'HOVER', 'HOWDY', 'HUMAN', 'HUMID', 'HUMOR', 'HUMPH', 'HUNCH', 'HUNKY', 'HURRY', 'HUTCH', 
+'HYDRA', 'HYENA', 
 'HYPER', 'ICING', 'IDEAL', 'IDIOM', 'IDLER', 'IGLOO', 'IMAGE', 'IMBUE', 'IMPEL', 'INANE', 
 'INBOX', 'INCUR', 'INDEX', 'INDIE', 'INEPT', 'INERT', 'INFER', 'INLAY', 'INNER', 'INPUT', 
 'INTER', 'INTRO', 'IONIC', 'IRATE', 'IRONY', 'ISLET', 'ITCHY', 'IVORY', 'JAUNT', 'JAZZY', 
@@ -242,7 +242,7 @@ my_list = {
 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'DIZZY'
+word_to_find = 'HYDRA'
 
 
 if word_to_find in my_list:
