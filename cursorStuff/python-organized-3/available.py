@@ -36,7 +36,7 @@ unused_list = [
             "FATAL", "FATTY", "FAUNA", "FECAL", "FELLA", "FELON", "FEMME", "FEMUR", "FENCE", "FETAL", 
             "FETUS", "FICUS", "FIGHT", "FILER", 
             "FILMY", "FILTH", "FIZZY", "FLACK", "FLECK", "FLEET", "FLIER", 
-            "FLUID", "FLUKE", "FLUSH", 
+            "FLUID", "FLUSH", 
 		    "FRAUD", "FREED", "FREER", "FRIAR", "FRISK",  
             "FUDGE",
 		    "FUROR", "FURRY", "FUSSY", "GABLE", "GAFFE", "GAILY", "GASSY", "GATOR",
@@ -124,7 +124,7 @@ unused_list = [
             "WREST", "WRING", "WRYLY", "ZONAL" 
              ]
 
-word = 'HYDRA'
+word = 'FLUKE'
 
 
 if word in unused_list:
