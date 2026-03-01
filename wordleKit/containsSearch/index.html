@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Word Search - Contains Letters</title>
+    <link href="world.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <a href="../index.html" target="_blank">To The Kit</a>
+    <a href="../qwertyWord/index.html" target="_blank">To Qwerty</a>
+    <a href="../../index.html" target="_blank">To That Fuckin' Zoo</a>
+
+    <p id="themeToggle">🌑</p>
+    <h1>Word Search - Contains Letters</h1>
+
+    <!-- Contains Letters Search Section -->
+    <div id="dailyWordsSearchContainer">
+      <div id="dailyWordsSearchHeader">
+        <h3 id="dailyWordsSearchTitle">Search By Contains Letter(s)</h3>
+        <button
+          id="closeDailyWordsSearchButton"
+          class="close-btn"
+          style="display: none"
+        >
+          ✕
+        </button>
+      </div>
+      <div id="dailyWordsSearchControls">
+        <select id="dailyWordsListType">
+          <option value="small">Regular List</option>
+          <option value="large">Massive List</option>
+        </select>
+        <div id="dailyWordsContainsControls">
+          <input
+            type="text"
+            id="dailyWordsContainsInput"
+            placeholder="Enter up to 5 letters (e.g., A C T or ACT)"
+            maxlength="20"
+            style="
+              padding: 8px;
+              font-size: 1.5rem;
+              text-transform: uppercase;
+              text-align: center;
+              width: 300px;
+              border: 2px solid rgba(120, 110, 80, 0.6);
+              border-radius: 0.3rem;
+              background-color: rgb(255, 255, 255);
+              color: rgb(0, 0, 0);
+            "
+          />
+          <div style="margin-top: 8px; font-size: 0.9rem; opacity: 0.8; text-align: center; color: rgba(200, 200, 200, 0.9);">
+            Order doesn't matter. Multiple letters count (e.g., URNER finds RERUN)
+          </div>
+        </div>
+      </div>
+      <div id="dailyWordsSearchResults"></div>
+    </div>
+
+    <!-- Word Details Container -->
+    <div id="wordDetailsContainer" style="display: none">
+      <div id="wordDetailsHeader">
+        <h3 id="wordDetailsTitle">Word Details</h3>
+        <button id="closeWordDetailsButton" class="close-btn">✕</button>
+      </div>
+      <div id="wordDetailsContent"></div>
+    </div>
+
+    <script type="module" src="world.js"></script>
+  </body>
+</html>

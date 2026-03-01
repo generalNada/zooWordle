@@ -1,0 +1,679 @@
+body {
+  background: rgb(240, 240, 240);
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+body.dark-theme {
+  background: rgb(20, 20, 20);
+}
+
+#themeToggle {
+  font-size: 2rem;
+  cursor: pointer;
+  user-select: none;
+  margin: 0;
+  margin-bottom: 10px;
+  text-align: center;
+  color: rgb(100, 100, 100);
+}
+
+#themeToggle:hover {
+  color: rgb(50, 50, 50);
+}
+
+body.dark-theme #themeToggle {
+  color: rgb(200, 200, 200);
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  color: rgb(0, 0, 0);
+  margin-bottom: 20px;
+  font-weight: normal;
+}
+
+body.dark-theme h1 {
+  color: rgb(255, 255, 255);
+}
+
+.close-btn {
+  background: rgb(200, 200, 200);
+  color: rgb(0, 0, 0);
+  border: 1px solid rgb(150, 150, 150);
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  font-size: 1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s ease;
+}
+
+.close-btn:hover {
+  background: rgb(150, 150, 150);
+}
+
+.word-text {
+  font-weight: bold;
+  font-size: 0.9rem;
+  margin-bottom: 3px;
+}
+
+.word-date {
+  font-size: 0.75rem;
+  opacity: 0.7;
+}
+
+#dailyWordsSearchContainer {
+  margin: 20px auto;
+  border-radius: 4px;
+  padding: 15px;
+  max-width: 50rem;
+  width: 100%;
+  box-sizing: border-box;
+  background: rgb(255, 255, 255);
+  border: 1px solid rgb(200, 200, 200);
+}
+
+body.dark-theme #dailyWordsSearchContainer {
+  background: rgb(30, 30, 30);
+  border-color: rgb(100, 100, 100);
+}
+
+#dailyWordsSearchHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+#dailyWordsSearchTitle {
+  color: rgb(0, 0, 0);
+  font-size: 1.2rem;
+  margin: 0;
+  flex-grow: 1;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+  font-weight: normal;
+}
+
+body.dark-theme #dailyWordsSearchTitle {
+  color: rgb(255, 255, 255);
+}
+
+#dailyWordsSearchTitle:hover {
+  opacity: 0.7;
+}
+
+#dailyWordsSearchControls {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 15px;
+  align-items: center;
+}
+
+#dailyWordsListType {
+  font-size: 1rem;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border: 1px solid rgb(150, 150, 150);
+  border-radius: 2px;
+  padding: 6px 10px;
+  width: 180px;
+}
+
+body.dark-theme #dailyWordsListType {
+  background-color: rgb(40, 40, 40);
+  color: rgb(255, 255, 255);
+  border-color: rgb(100, 100, 100);
+}
+
+#dailyWordsContainsControls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+#dailyWordsContainsInput {
+  font-size: 1rem;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border: 1px solid rgb(150, 150, 150);
+  border-radius: 2px;
+  padding: 6px 10px;
+  width: 250px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+body.dark-theme #dailyWordsContainsInput {
+  background-color: rgb(40, 40, 40);
+  color: rgb(255, 255, 255);
+  border-color: rgb(100, 100, 100);
+}
+
+#dailyWordsContainsInput:focus {
+  outline: none;
+  border-color: rgb(100, 100, 100);
+}
+
+#dailyWordsSearchResults {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.word-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  grid-column: span 1;
+}
+
+.daily-words-button {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border: 1px solid rgb(200, 200, 200);
+  border-radius: 2px;
+  padding: 8px 12px;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: background 0.2s ease;
+  text-align: center;
+  min-height: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+body.dark-theme .daily-words-button {
+  background-color: rgb(40, 40, 40);
+  color: rgb(255, 255, 255);
+  border-color: rgb(100, 100, 100);
+}
+
+.daily-words-button:hover {
+  background-color: rgb(240, 240, 240);
+}
+
+body.dark-theme .daily-words-button:hover {
+  background-color: rgb(50, 50, 50);
+}
+
+.daily-words-search-summary {
+  background: rgb(250, 250, 250);
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 2px;
+  border: 1px solid rgb(200, 200, 200);
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+body.dark-theme .daily-words-search-summary {
+  background: rgb(30, 30, 30);
+  color: rgb(255, 255, 255);
+  border-color: rgb(100, 100, 100);
+}
+
+/* Wordle Word Styling */
+.wordle-word-button {
+  background-color: rgb(80, 80, 80) !important;
+  border-color: rgb(100, 100, 100) !important;
+  color: rgb(255, 255, 255) !important;
+}
+
+body.dark-theme .wordle-word-button {
+  background-color: rgb(60, 60, 60) !important;
+  border-color: rgb(100, 100, 100) !important;
+  color: rgb(255, 255, 255) !important;
+}
+
+.wordle-word-button:hover {
+  background-color: rgb(100, 100, 100) !important;
+}
+
+body.dark-theme .wordle-word-button:hover {
+  background-color: rgb(70, 70, 70) !important;
+}
+
+.wordle-indicator {
+  color: rgb(0, 0, 0);
+  font-size: 0.9rem;
+  margin-left: 4px;
+  letter-spacing: 1px;
+}
+
+body.dark-theme .wordle-indicator {
+  color: rgb(255, 255, 255);
+}
+
+/* Word Details Inline */
+.wordle-word-details-inline {
+  background: rgb(80, 80, 80);
+  border: 1px solid rgb(100, 100, 100);
+  border-radius: 2px;
+  padding: 8px;
+  margin-top: 4px;
+  font-size: 0.8rem;
+  color: rgb(255, 255, 255);
+}
+
+body.dark-theme .wordle-word-details-inline {
+  background: rgb(60, 60, 60);
+  border-color: rgb(100, 100, 100);
+  color: rgb(255, 255, 255);
+}
+
+.wordle-entry-inline {
+  margin-bottom: 6px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid rgb(100, 100, 100);
+}
+
+body.dark-theme .wordle-entry-inline {
+  border-bottom-color: rgb(80, 80, 80);
+}
+
+.wordle-entry-inline:last-of-type {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.wordle-entry-header-inline {
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  margin-bottom: 3px;
+  font-size: 0.85rem;
+}
+
+body.dark-theme .wordle-entry-header-inline {
+  color: rgb(255, 255, 255);
+}
+
+.wordle-entry-detail-inline {
+  color: rgb(220, 220, 220);
+  font-size: 0.75rem;
+  display: flex;
+  gap: 8px;
+}
+
+body.dark-theme .wordle-entry-detail-inline {
+  color: rgb(200, 200, 200);
+}
+
+.wordle-scrabble-inline {
+  margin-top: 6px;
+  padding-top: 6px;
+  border-top: 1px solid rgb(100, 100, 100);
+  color: rgb(64, 61, 61);
+  font-weight: bold;
+  font-size: 0.85rem;
+}
+
+body.dark-theme .wordle-scrabble-inline {
+  border-top-color: rgb(80, 80, 80);
+  color: rgb(255, 255, 255);
+}
+
+/* Details for non-Wordle words */
+.word-details-inline {
+  background: rgb(250, 250, 250);
+  border: 1px solid rgb(200, 200, 200);
+  border-radius: 2px;
+  padding: 8px;
+  margin-top: 4px;
+  font-size: 0.8rem;
+  color: rgb(0, 0, 0);
+}
+
+body.dark-theme .word-details-inline {
+  background: rgb(30, 30, 30);
+  border-color: rgb(100, 100, 100);
+  color: rgb(255, 255, 255);
+}
+
+.word-details-inline .wordle-scrabble-inline {
+  border-top: none;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+/* Word Details Container */
+#wordDetailsContainer {
+  margin: 20px auto;
+  border-radius: 4px;
+  padding: 15px;
+  max-width: 50rem;
+  width: 100%;
+  box-sizing: border-box;
+  background: rgb(255, 255, 255);
+  border: 1px solid rgb(200, 200, 200);
+}
+
+body.dark-theme #wordDetailsContainer {
+  background: rgb(30, 30, 30);
+  border-color: rgb(100, 100, 100);
+}
+
+#wordDetailsHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  border-bottom: 1px solid rgb(200, 200, 200);
+  padding-bottom: 10px;
+}
+
+body.dark-theme #wordDetailsHeader {
+  border-bottom-color: rgb(100, 100, 100);
+}
+
+#wordDetailsTitle {
+  color: rgb(0, 0, 0);
+  font-size: 1.2rem;
+  margin: 0;
+  font-weight: normal;
+}
+
+body.dark-theme #wordDetailsTitle {
+  color: rgb(255, 255, 255);
+}
+
+#wordDetailsContent {
+  color: rgb(0, 0, 0);
+  font-size: 0.9rem;
+}
+
+body.dark-theme #wordDetailsContent {
+  color: rgb(255, 255, 255);
+}
+
+.word-details-word {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+body.dark-theme .word-details-word {
+  color: rgb(255, 255, 255);
+}
+
+.wordle-entries-count {
+  font-size: 1rem;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+body.dark-theme .wordle-entries-count {
+  color: rgb(255, 255, 255);
+}
+
+.wordle-entry {
+  background: rgb(250, 250, 250);
+  border: 1px solid rgb(200, 200, 200);
+  border-radius: 2px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+body.dark-theme .wordle-entry {
+  background: rgb(40, 40, 40);
+  border-color: rgb(100, 100, 100);
+}
+
+.wordle-entry-header {
+  font-size: 1rem;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  margin-bottom: 8px;
+  border-bottom: 1px solid rgb(200, 200, 200);
+  padding-bottom: 5px;
+}
+
+body.dark-theme .wordle-entry-header {
+  color: rgb(255, 255, 255);
+  border-bottom-color: rgb(100, 100, 100);
+}
+
+.wordle-entry-detail {
+  display: flex;
+  justify-content: space-between;
+  margin: 6px 0;
+  padding: 4px 0;
+}
+
+.detail-label {
+  font-weight: bold;
+  color: rgb(50, 50, 50);
+  min-width: 100px;
+}
+
+body.dark-theme .detail-label {
+  color: rgb(200, 200, 200);
+}
+
+.detail-value {
+  color: rgb(0, 0, 0);
+  flex-grow: 1;
+  text-align: right;
+}
+
+body.dark-theme .detail-value {
+  color: rgb(255, 255, 255);
+}
+
+/* ============================================
+   RESPONSIVE MEDIA QUERIES
+   ============================================ */
+
+/* Large Tablets and Small Desktops (1024px and below) */
+@media screen and (max-width: 1024px) {
+  body {
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  #dailyWordsSearchTitle {
+    font-size: 1.1rem;
+  }
+
+  #dailyWordsContainsInput {
+    font-size: 0.9rem;
+    width: 100%;
+    max-width: 220px;
+  }
+
+  #dailyWordsListType {
+    font-size: 0.9rem;
+    width: 100%;
+    max-width: 220px;
+  }
+
+  .daily-words-button {
+    font-size: 0.8rem;
+    padding: 6px 10px;
+  }
+
+  #wordDetailsContainer {
+    padding: 12px;
+    margin: 15px auto;
+    width: 95%;
+  }
+
+  #wordDetailsTitle {
+    font-size: 1.1rem;
+  }
+
+  .word-details-word {
+    font-size: 1.3rem;
+  }
+
+  .wordle-entries-count {
+    font-size: 0.9rem;
+  }
+}
+
+/* Tablets (768px and below) */
+@media screen and (max-width: 768px) {
+  body {
+    padding: 12px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  #dailyWordsSearchContainer {
+    padding: 12px;
+    margin: 15px auto;
+    width: 95%;
+  }
+
+  #dailyWordsSearchTitle {
+    font-size: 1rem;
+  }
+
+  #dailyWordsSearchHeader {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  #dailyWordsContainsInput {
+    font-size: 0.85rem;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  #dailyWordsListType {
+    font-size: 0.85rem;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  #dailyWordsSearchControls {
+    width: 100%;
+  }
+
+  #dailyWordsSearchResults {
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 8px;
+  }
+
+  .daily-words-button {
+    font-size: 0.75rem;
+    padding: 6px 8px;
+  }
+}
+
+/* Mobile Devices (480px and below) */
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 1.3rem;
+  }
+
+  #dailyWordsSearchTitle {
+    font-size: 0.9rem;
+  }
+
+  #dailyWordsContainsInput {
+    font-size: 0.8rem;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  #dailyWordsListType {
+    font-size: 0.8rem;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .daily-words-search-summary {
+    font-size: 0.8rem;
+    padding: 8px;
+  }
+
+  #dailyWordsSearchResults {
+    grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
+    gap: 6px;
+  }
+
+  #wordDetailsContainer {
+    padding: 10px;
+  }
+
+  #wordDetailsTitle {
+    font-size: 1rem;
+  }
+
+  .word-details-word {
+    font-size: 1.2rem;
+  }
+
+  .wordle-entry {
+    padding: 8px;
+  }
+}
+
+/* Very Small Mobile Devices (360px and below) */
+@media screen and (max-width: 360px) {
+  h1 {
+    font-size: 1.2rem;
+  }
+
+  #dailyWordsSearchResults {
+    grid-template-columns: 1fr;
+  }
+
+  #wordDetailsContainer {
+    padding: 8px;
+  }
+
+  #wordDetailsTitle {
+    font-size: 0.9rem;
+  }
+
+  .word-details-word {
+    font-size: 1.1rem;
+  }
+
+  .wordle-entry {
+    padding: 6px;
+  }
+
+  .wordle-entry-detail {
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .detail-label {
+    min-width: auto;
+  }
+
+  .detail-value {
+    text-align: left;
+  }
+}
