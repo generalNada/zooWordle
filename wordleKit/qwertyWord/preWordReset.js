@@ -1,5 +1,5 @@
 // import { wordleWords, combinedWords, fixedWordsLarge } from './theWholeEnchilada.js';
-import { wordleWords, dailyWordsSmall, dailyWordsLarge } from '../theWholeEnchilada.js';
+import { wordleWords, dailyWordsSmall, dailyWordsLarge } from '../../theWholeEnchilada.js';
 
 // Create a Set of wordleWords for fast lookup (uppercase for comparison)
 // wordleWords is an array of objects with a 'word' property
