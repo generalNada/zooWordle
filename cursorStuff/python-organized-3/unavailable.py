@@ -129,7 +129,8 @@ my_list = {
     'SHIFT', 'SHINE', 'SHIRE', 'SHIRK', 'SHORE', 'SHORN', 'SHORT', 'SHOUT', 'SHOVE', 'SHOWN',
     'SHOWY', 'SHRED', 'SHRUB', 'SHRUG', 'SHUCK', 'SHUNT', 'SHYLY', 'SIEGE', 'SIGHT', 'SILLY',
     'SINCE', 'SIREN', 'SISSY', 'SITAR', 'SIXTH', 'SKATE', 'SKILL', 'SKIMP', 'SKIER', 'SKIFF',
-    'SKIRT', 'SKULL', 'SKUNK', 'SLANG', 'SLATE', 'SLEEK', 'SLEEP', 'SLICE', 'SLOPE', 'SLOSH',
+    'SKIRT', 'SKULL', 'SKUNK', 'SLANG', 'SLATE', 'SLEEK', 'SLEEP', 'SLICE', 'SLIME', 'SLOPE', 
+    'SLOSH',
     'SLOTH', 'SLUMP', 'SLUNG', 'SMALL', 'SMART', 'SMASH', 'SMEAR', 'SMELT', 'SMILE', 'SMIRK',
     'SMITE', 'SMITH', 'SMOCK', 'SMOKE', 'SNACK', 'SNAFU', 'SNAIL', 'SNAKE', 'SNAKY', 'SNARE',
     'SNARL', 'SNEAK', 'SNIDE', 'SNOOP', 'SNORT', 'SNOUT', 'SOGGY', 'SOLAR', 'SOLID', 'SOLVE',
@@ -171,7 +172,7 @@ my_list = {
     'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'FLUKE'
+word_to_find = 'SLIME'
 
 
 if word_to_find in my_list:
