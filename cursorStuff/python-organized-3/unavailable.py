@@ -84,7 +84,8 @@ my_list = {
     'LAGER', 'LANCE', 'LANKY', 'LAPEL', 'LAPSE', 'LARGE', 'LARVA', 'LASER', 'LASSO', 'LATER',
     'LATHE', 'LATTE', 'LAUGH', 'LAYER', 'LEACH', 'LEAFY', 'LEAKY', 'LEAPT', 'LEARN', 'LEASE',
     'LEASH', 'LEAST', 'LEAVE', 'LEDGE', 'LEECH', 'LEERY', 'LEFTY', 'LEGGY', 'LEMON', 'LEMUR',
-    'LEVEL', 'LEVER', 'LIBEL', 'LIGHT', 'LILAC', 'LIMBO', 'LIMIT', 'LINEN', 'LINER', 'LINGO',
+    'LEVEL', 'LEVER', 'LIBEL', 'LIGHT', 'LILAC', 'LIMBO', 'LIMIT', 'LINEN', 'LINEN', 'LINER', 
+    'LINGO',
     'LITHE', 'LIVER', 'LIVID', 'LLAMA', 'LOCAL', 'LOCUS', 'LOFTY', 'LOGIC', 'LOOPY', 'LORIS',
     'LOSER', 'LOUSE', 'LOUSY', 'LOVER', 'LOWER', 'LOWLY', 'LOYAL', 'LUCID', 'LUCKY', 'LUMPY',
     'LUNAR', 'LUNCH', 'LUNGE', 'LURID', 'LUSTY', 'LYING', 'MACAW', 'MACHO', 'MADAM', 'MADLY',
@@ -172,7 +173,7 @@ my_list = {
     'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'SLIME'
+word_to_find = 'LINEN'
 
 
 if word_to_find in my_list:
