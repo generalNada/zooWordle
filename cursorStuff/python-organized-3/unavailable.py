@@ -150,7 +150,8 @@ my_list = {
     'SWISH', 'SWOON', 'SWOOP', 'SWORD', 'SWUNG', 'SYRUP', 'TABBY', 'TABLE', 'TABOO', 'TACIT',
     'TACKY', 'TAFFY', 'TAKEN', 'TALLY', 'TALON', 'TANGY', 'TAPER', 'TAPIR', 'TARDY', 'TASTE',
     'TASTY', 'TAUNT', 'TAUPE', 'TAWNY', 'TEACH', 'TEARY', 'TEASE', 'TEETH', 'TEMPO', 'TENOR',
-    'TENTH', 'TEPID', 'TERSE', 'THANK', 'THEIR', 'THEME', 'THERE', 'THESE', 'THICK', 'THIEF',
+    'TENTH', 'TEPID', 'TERSE', 'THANK', 'THEFT', 'THEIR', 'THEME', 'THERE', 'THESE', 'THICK', 
+    'THIEF',
     'THIGH', 'THING', 'THINK', 'THIRD', 'THORN', 'THOSE', 'THREE', 'THREW', 'THROB', 'THROW',
     'THRUM', 'THUMB', 'THUMP', 'THYME', 'TIARA', 'TIBIA', 'TIDAL', 'TIGER', 'TILDE', 'TIMER',
     'TINGE', 'TIPSY', 'TITAN', 'TITHE', 'TITLE', 'TIZZY', 'TOAST', 'TODAY', 'TONIC', 'TOOTH',
@@ -173,7 +174,7 @@ my_list = {
     'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'LINEN'
+word_to_find = 'THEFT'
 
 
 if word_to_find in my_list:
