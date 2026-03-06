@@ -126,7 +126,8 @@ my_list = {
     'SCENE', 'SCENT', 'SCOFF', 'SCOLD', 'SCONE', 'SCOPE', 'SCORE', 'SCORN', 'SCOUR', 'SCOUT',
     'SCOWL', 'SCRAM', 'SCRAP', 'SCRUB', 'SCRUM', 'SEDAN', 'SEEDY', 'SEGUE', 'SENSE', 'SERUM',
     'SERVE', 'SEVEN', 'SEVER', 'SHADE', 'SHAFT', 'SHAKE', 'SHAKY', 'SHALL', 'SHAME', 'SHANK',
-    'SHAPE', 'SHARD', 'SHARE', 'SHARP', 'SHAVE', 'SHAWL', 'SHEAR', 'SHEET', 'SHELF', 'SHELL',
+    'SHAPE', 'SHARD', 'SHARE', 'SHARP', 'SHAVE', 'SHAWL', 'SHEAR', 'SHEEP', 'SHEET', 'SHELF', 
+    'SHELL',
     'SHIFT', 'SHINE', 'SHIRE', 'SHIRK', 'SHORE', 'SHORN', 'SHORT', 'SHOUT', 'SHOVE', 'SHOWN',
     'SHOWY', 'SHRED', 'SHRUB', 'SHRUG', 'SHUCK', 'SHUNT', 'SHYLY', 'SIEGE', 'SIGHT', 'SILLY',
     'SINCE', 'SIREN', 'SISSY', 'SITAR', 'SIXTH', 'SKATE', 'SKILL', 'SKIMP', 'SKIER', 'SKIFF',
@@ -174,7 +175,7 @@ my_list = {
     'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'THEFT'
+word_to_find = 'SHEEP'
 
 
 if word_to_find in my_list:
