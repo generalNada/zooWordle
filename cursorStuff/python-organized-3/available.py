@@ -46,7 +46,7 @@ unused_list = [
     "RIVER", "ROAST", "ROGER", "ROTOR", "RULER", "RUMOR", "RURAL", "SADLY", "SAFER", "SALON",
     "SALVE", "SALVO", "SANER", "SAPPY", "SATIN", "SATYR", "SAUCE", "SAVOY", "SCALP", "SCALY",
     "SCAMP", "SCARY", "SCION", "SCOOP", "SCREE", "SCREW", "SCUBA", "SEIZE", "SEMEN", "SEPIA",
-    "SERIF", "SETUP", "SEWER", "SHACK", "SHADY", "SHALE", "SHALT", "SHARK", "SHEEN", "SHEEP",
+    "SERIF", "SETUP", "SEWER", "SHACK", "SHADY", "SHALE", "SHALT", "SHARK", "SHEEN", 
     "SHEER", "SHEIK", "SHIED", "SHINY", "SHIRT", "SHOAL", "SHOCK", "SHONE", "SHOOK", "SHOOT",
     "SHREW", "SIEVE", "SIGMA", "SILKY", "SINEW", "SINGE", "SIXTY", "SKULK", "SLACK", "SLAIN",
     "SLANT", "SLASH", "SLAVE", "SLEET", "SLEPT", "SLICK", "SLIDE", "SLIMY", "SLING",
@@ -67,7 +67,7 @@ unused_list = [
     "WREST", "WRING", "WRYLY", "ZONAL"
 ]
 
-word = 'THEFT'
+word = 'SHEEP'
 
 
 if word in unused_list:
