@@ -1846,12 +1846,18 @@ body {
 }
 
 .whole-box-282 {
-  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDtEXWIeF_Jn0qzy2_UxfZC-k-TPlVBPl3OQ&s);
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0-5h-xkRuPFF6ES_ZapbRezW1DKMxz8zjGg&s);
   background-size: fit-content;
   padding: 0.55rem;
 }
 
 .whole-box-283 {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDtEXWIeF_Jn0qzy2_UxfZC-k-TPlVBPl3OQ&s);
+  background-size: fit-content;
+  padding: 0.55rem;
+}
+
+.whole-box-284 {
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtEW1qXT_2RJH4SmS8mfB53W0Xsf1lpsHTtA&s);
   background-size: fit-content;
   padding: 0.55rem;
@@ -6963,20 +6969,9 @@ body {
   opacity: 0.77;
 }
 
-.line-275a {
-  background-color: rgb(171, 84, 22);
-  color: rgb(234, 240, 238);
-  font-style: oblique;               
-  opacity: 0.77;
-}
 
-.line-275b {
-  background-color: rgb(171, 84, 22);
-  color: rgb(234, 240, 238);
-  font-style: oblique;              
-  opacity: 0.77;
-}
-
+.line-275a,
+.line-275b,
 .line-275c {
   background-color: rgb(171, 84, 22);
   color: rgb(234, 240, 238);
@@ -6984,20 +6979,8 @@ body {
   opacity: 0.77;
 }
 
-.line-276a {
-  background-color: orange;
-  color: grey;
-  font-style: oblique;               
-  opacity: 0.77;
-}
-
-.line-276b {
-  background-color: orange;
-  color: grey;
-  font-style: oblique;              
-  opacity: 0.77;
-}
-
+.line-276a,
+.line-276b,
 .line-276c {
   background-color: orange;
   color: grey;
@@ -7005,20 +6988,8 @@ body {
   opacity: 0.77;
 }
 
-.line-277a {
-  background-color: turquoise;
-  color: chartreuse;
-  font-style: oblique;               
-  opacity: 0.77;
-}
-
-.line-277b {
-  background-color: turquoise;
-  color: chartreuse;
-  font-style: oblique;              
-  opacity: 0.77;
-}
-
+.line-277a,
+.line-277b,
 .line-277c {
   background-color: turquoise;
   color: chartreuse;
@@ -7026,20 +6997,8 @@ body {
   opacity: 0.77;
 }
 
-.line-278a {
-  background-color: blue;
-  color: red;
-  font-style: oblique;               
-  opacity: 0.77;
-}
-
-.line-278b {
-  background-color: blue;
-  color: red;
-  font-style: oblique;              
-  opacity: 0.77;
-}
-
+.line-278a,
+.line-278b,
 .line-278c {
   background-color: blue;
   color: red;
@@ -7047,20 +7006,8 @@ body {
   opacity: 0.77;
 }
 
-.line-279a {
-  background-color: grey;
-  color: black;
-  font-style: italic;               
-  opacity: 0.77;
-}
-
-.line-279b {
-  background-color: grey;
-  color: black;
-  font-style: italic;               
-  opacity: 0.77;
-}
-
+.line-279a,
+.line-279b,
 .line-279c {
   background-color: grey;
   color: black;
@@ -7068,20 +7015,8 @@ body {
   opacity: 0.77;
 }
 
-.line-280a {
-  background-color: silver;
-  color: navy;
-  font-style: italic;               
-  opacity: 0.77;
-}
-
-.line-280b {
-  background-color: silver;
-  color: navy;
-  font-style: italic;               
-  opacity: 0.77;
-}
-
+.line-280a,
+.line-280b,
 .line-280c {
   background-color: silver;
   color: navy;
@@ -7089,20 +7024,8 @@ body {
   opacity: 0.77;
 }
 
-.line-281a {
-  background-color: yellow;
-  color: purple;
-  font-style: italic;               
-  opacity: 0.77;
-}
-
-.line-281b {
-  background-color: yellow;
-  color: purple;
-  font-style: italic;               
-  opacity: 0.77;
-}
-
+.line-281a,
+.line-281b,
 .line-281c {
   background-color: yellow;
   color: purple;
@@ -7110,20 +7033,8 @@ body {
   opacity: 0.77;
 }
 
-.line-282a {
-  background-color: red;
-  color: blue;
-  font-style: oblique;               
-  opacity: 0.77;
-}
-
-.line-282b {
-  background-color: red;
-  color: blue;
-  font-style: oblique;             
-  opacity: 0.77;
-}
-
+.line-282a,
+.line-282b,
 .line-282c {
   background-color: red;
   color: blue;
@@ -7131,25 +7042,25 @@ body {
   opacity: 0.77;
 }
 
-.line-283a {
-  background-color: black; 
-  color: white;  
-  font-style: oblique;               
-  opacity: 0.77;
-}
-
-.line-283b {
+.line-283a,
+.line-283b,
+.line-283c {
   background-color: black; 
   color: white;  
   font-style: oblique;             
   opacity: 0.77;
 }
 
-.line-283c {
-  background-color: black; 
-  color: white;  
-  font-style: oblique;              
+.line-284a,
+.line-284b,
+.line-284c {
+  background-color: navy;
+  color: dodgerblue; 
+  font-style: oblique;             
   opacity: 0.77;
 }
+
+
+
 
 
