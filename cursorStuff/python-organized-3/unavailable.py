@@ -167,7 +167,8 @@ my_list = {
     'URBAN', 'USAGE', 'USHER', 'USING', 'USUAL', 'USURP', 'UTTER', 'UVULA', 'VAGUE', 'VALET',
     'VALID', 'VAPID', 'VENOM', 'VALUE', 'VAULT', 'VEGAN', 'VENUE', 'VERGE', 'VERVE', 'VIDEO',
     'VIGOR', 'VILLA', 'VINYL', 'VIOLA', 'VIRAL', 'VISOR', 'VITAL', 'VIVID', 'VIXEN', 'VODKA',
-    'VOILA', 'VOICE', 'VOTER', 'VOUCH', 'VOWEL', 'VYING', 'WACKY', 'WAFER', 'WAGON', 'WAIST',
+    'VOGUE', 'VOILA', 'VOICE', 'VOTER', 'VOUCH', 'VOWEL', 'VYING', 'WACKY', 'WAFER', 'WAGON', 
+    'WAIST',
     'WALTZ', 'WASTE', 'WATCH', 'WATER', 'WAXEN', 'WEARY', 'WEDGE', 'WEEDY', 'WEIGH', 'WEIRD',
     'WHACK', 'WHALE', 'WHEAT', 'WHEEL', 'WHELP', 'WHERE', 'WHICH', 'WHIFF', 'WHILE', 'WHINE',
     'WHINY', 'WHIRL', 'WHISK', 'WHITE', 'WHOLE', 'WHOOP', 'WHOSE', 'WIDEN', 'WIDTH', 'WIELD',
@@ -176,7 +177,7 @@ my_list = {
     'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'GUNKY'
+word_to_find = 'VOGUE'
 
 
 if word_to_find in my_list:
