@@ -70,8 +70,8 @@ my_list = {
     'GROOM', 'GROSS', 'GROUP', 'GROUT', 'GROVE', 'GROWL', 'GROWN', 'GRUEL', 'GRUFF', 'GUANO',
     'GUARD', 'GUAVA', 'GUESS', 'GUEST', 'GUIDE', 'GUILD', 'GUILE', 'GUISE', 'GULLY', 'GUMBO',
     'GUMMY', 'GUNKY', 'GUPPY', 'GUSTY', 'HABIT', 'HAIRY', 'HALVE', 'HANDY', 'HAPPY', 'HARDY', 
-    'HARSH',
-    'HASTE', 'HATCH', 'HATER', 'HAUNT', 'HAVEN', 'HAVOC', 'HAZEL', 'HEADY', 'HEART', 'HEARD',
+    'HARSH', 'HASTE', 'HASTY', 'HATCH', 'HATER', 'HAUNT', 'HAVEN', 'HAVOC', 'HAZEL', 'HEADY', 
+    'HEART', 'HEARD',
     'HEATH', 'HEAVE', 'HEAVY', 'HEFTY', 'HEIST', 'HELIX', 'HELLO', 'HENCE', 'HERON', 'HILLY',
     'HINGE', 'HIPPO', 'HOARD', 'HOBBY', 'HOIST', 'HOLLY', 'HOMER', 'HONEY', 'HORDE', 'HORSE',
     'HOTEL', 'HOUND', 'HOUSE', 'HOVEL', 'HOVER', 'HOWDY', 'HUMAN', 'HUMID', 'HUMOR', 'HUMPH',
@@ -178,7 +178,7 @@ my_list = {
     'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'LOBBY'
+word_to_find = 'HASTY'
 
 
 if word_to_find in my_list:
