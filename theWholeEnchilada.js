@@ -1745,7 +1745,7 @@ export const dailyWordsSmall = [
 'SHADE', 'SHADY', 'SHAFT', 'SHAKE', 'SHAKY', 'SHALE', 'SHALL', 'SHALT', 'SHAME', 'SHANK',
 'SHAPE', 'SHARD', 'SHARE', 'SHARK', 'SHARP', 'SHAVE', 'SHAWL', 'SHEAR', 'SHEEN', 
 'SHEER', 'SHEET', 'SHEIK', 'SHELF', 'SHELL', 'SHIED', 'SHIFT', 'SHINE', 'SHINY', 'SHIRE',
-'SHIRK', 'SHIRT', 'SHIVA', 'SHOAL', 'SHOCK', 'SHONE', 'SHOOK', 'SHOOT', 'SHORE', 'SHORN',
+'SHIRK', 'SHIRT', 'SHIVA', 'SHOCK', 'SHONE', 'SHOOK', 'SHOOT', 'SHORE', 'SHORN',
 'SHORT',
 'SHOVE', 'SHOWN', 'SHOWY', 'SHREW', 'SHRUB', 'SHRUG', 'SHUCK', 'SHUNT', 'SHUSH', 'SHYLY',
 'SIEGE', 'SIEVE', 'SIGHT', 'SIGMA', 'SILKY', 'SILLY', 'SINCE', 'SINEW', 'SINGE', 'SIREN',
@@ -2815,7 +2815,7 @@ export const dailyWordsLarge = [
     'SHERD', 'SHERE', 'SHERO', 'SHETS', 'SHEVA', 'SHEWN', 'SHEWS', 'SHIAI', 'SHIED', 'SHIEL',
     'SHIER', 'SHIES', 'SHIFT', 'SHILL', 'SHILY', 'SHIMS', 'SHINE', 'SHINS', 'SHINY', 'SHIPS',
     'SHIRE', 'SHIRK', 'SHIRR', 'SHIRS', 'SHIRT', 'SHISH', 'SHISO', 'SHIST', 'SHITE', 'SHITS',
-    'SHIUR', 'SHIVA', 'SHIVE', 'SHIVS', 'SHLEP', 'SHLUB', 'SHMEK', 'SHMOE', 'SHOAL', 'SHOAT',
+    'SHIUR', 'SHIVA', 'SHIVE', 'SHIVS', 'SHLEP', 'SHLUB', 'SHMEK', 'SHMOE', 'SHOAT',
     'SHOCK', 'SHOED', 'SHOER', 'SHOES', 'SHOGI', 'SHOGS', 'SHOJI', 'SHOJO', 'SHOLA', 'SHONE',
     'SHOOK', 'SHOOL', 'SHOON', 'SHOOS', 'SHOOT', 'SHOPE', 'SHOPS', 'SHORE', 'SHORL', 'SHORN',
     'SHORT', 'SHOTE', 'SHOTS', 'SHOTT', 'SHOUT', 'SHOVE', 'SHOWD', 'SHOWN', 'SHOWS', 'SHOWY',
@@ -13284,6 +13284,11 @@ export const wordleWords = [
         myScore: 3,
         wordNumber: 1724,
       }, 
+      { word: "SHOAL",
+        gameDate: "3/10/26",
+        myScore: 2,
+        wordNumber: 1725,
+      }, 
 
     
   ];
@@ -13301,7 +13306,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("March 9, 2026: Trump sux dykk000000000! HASTY")
+console.log("March 10, 2026: Trump sux dykk000000000! SHOAL")
 
 
 console.log(wordleWords)
