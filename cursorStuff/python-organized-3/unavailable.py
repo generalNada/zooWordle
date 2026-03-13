@@ -136,7 +136,8 @@ my_list = {
     'SINCE', 'SIREN', 'SISSY', 'SITAR', 'SIXTH', 'SKATE', 'SKILL', 'SKIMP', 'SKIER', 'SKIFF',
     'SKIRT', 'SKULL', 'SKUNK', 'SLANG', 'SLATE', 'SLEEK', 'SLEEP', 'SLICE', 'SLIME', 'SLOPE', 
     'SLOSH',
-    'SLOTH', 'SLUMP', 'SLUNG', 'SMALL', 'SMART', 'SMASH', 'SMEAR', 'SMELT', 'SMILE', 'SMIRK',
+    'SLOTH', 'SLUMP', 'SLUNG', 'SMALL', 'SMART', 'SMASH', 'SMEAR', 'SMELL', 'SMELT', 'SMILE', 
+    'SMIRK',
     'SMITE', 'SMITH', 'SMOCK', 'SMOKE', 'SNACK', 'SNAFU', 'SNAIL', 'SNAKE', 'SNAKY', 'SNARE',
     'SNARL', 'SNEAK', 'SNIDE', 'SNOOP', 'SNORT', 'SNOUT', 'SOGGY', 'SOLAR', 'SOLID', 'SOLVE',
     'SONIC', 'SORRY', 'SOUND', 'SOUTH', 'SOWER', 'SPACE', 'SPADE', 'SPARE', 'SPASM', 'SPARK',
@@ -180,7 +181,7 @@ my_list = {
     'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'TEDDY'
+word_to_find = 'SMELL'
 
 
 if word_to_find in my_list:
