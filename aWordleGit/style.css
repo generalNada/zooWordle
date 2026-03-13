@@ -3289,8 +3289,8 @@ border: 5px solid aqua;
 }
   
 .jasmineCrockett {
-  color: wheat;
-  background-color: black;
+  background-color: rgb(118, 119, 121);
+  color: rgb(196, 198, 200);
   font-family: "Righteous", serif;
   font-size: 2rem;
   line-height: 2rem;
