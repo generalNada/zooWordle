@@ -45,7 +45,8 @@ my_list = {
     'DOWRY', 'DOZEN', 'DRAFT', 'DRAIN', 'DRAPE', 'DRAWN', 'DREAD', 'DREAM', 'DRILL', 'DRINK',
     'DRIVE', 'DROLL', 'DRONE', 'DROOL', 'DROOP', 'DROVE', 'DRYER', 'DUCHY', 'DUMMY', 'DUSKY',
     'DUTCH', 'DUVET', 'DWARF', 'DWELL', 'DWELT', 'EAGER', 'EAGLE', 'EARLY', 'EARTH', 'EASEL',
-    'EBONY', 'EDIFY', 'EGRET', 'EIGHT', 'EJECT', 'ELATE', 'ELBOW', 'ELDER', 'ELITE', 'ELOPE',
+    'EATEN', 'EBONY', 'EDIFY', 'EGRET', 'EIGHT', 'EJECT', 'ELATE', 'ELBOW', 'ELDER', 'ELITE', 
+    'ELOPE',
     'ELUDE', 'EMAIL', 'EMBED', 'EMBER', 'EMPTY', 'ENACT', 'ENDOW', 'ENEMA', 'ENJOY', 'ENNUI',
     'ENSUE', 'ENTER', 'EPOCH', 'EPOXY', 'EQUAL', 'EQUIP', 'ERASE', 'ERODE', 'ERROR', 'ERUPT',
     'ESSAY', 'ETHER', 'ETHIC', 'ETHOS', 'EVADE', 'EVERY', 'EVOKE', 'EXACT', 'EXALT', 'EXCEL',
@@ -181,7 +182,7 @@ my_list = {
     'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'SMELL'
+word_to_find = 'EATEN'
 
 
 if word_to_find in my_list:
