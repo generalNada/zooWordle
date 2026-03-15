@@ -1575,7 +1575,7 @@ export const dailyWordsSmall = [
 'ALIEN', 'ALIGN', 'ALIKE', 'ALIVE', 'ALLAY', 'ALLEY', 'ALLOT', 'ALLOW', 'ALLOY', 'ALOFT',
 'ALONE', 'ALONG', 'ALOOF', 'ALOUD', 'ALPHA', 'ALTAR', 'ALTER', 'AMASS', 'AMAZE', 'AMBER',
 'AMBLE', 'AMEND', 'AMISS', 'AMITY', 'AMONG', 'AMPLE', 'AMPLY', 'AMUSE', 'ANGEL', 'ANGER',
-'ANGLE', 'ANGRY', 'ANGST', 'ANIME', 'ANKLE', 'ANNEX', 'ANNOY', 'ANNUL', 'ANODE', 'ANTIC',
+'ANGLE', 'ANGRY', 'ANGST', 'ANIME', 'ANNEX', 'ANNOY', 'ANNUL', 'ANODE', 'ANTIC',
 'ANVIL', 'AORTA', 'APART', 'APHID', 'APING', 'APNEA', 'APPLE', 'APPLY', 'APRON', 'APTLY',
 'ARBOR', 'ARDOR', 'ARENA', 'ARGUE', 'ARISE', 'ARMOR', 'AROMA', 'AROSE', 'ARRAY', 'ARROW',
 'ARSON', 'ARTSY', 'ASCOT', 'ASHEN', 'ASIDE', 'ASKEW', 'ASSAY', 'ASSET', 'ATLAS', 'ATOLL',
@@ -1854,7 +1854,7 @@ export const dailyWordsLarge = [
     'AMPLE', 'AMPLY', 'AMPUL', 'AMRIT', 'AMUCK', 'AMUSE', 'AMYLS', 'ANANA', 'ANATA', 'ANCHO',
     'ANCLE', 'ANCON', 'ANDRO', 'ANEAR', 'ANELE', 'ANENT', 'ANGAS', 'ANGEL', 'ANGER', 'ANGLE',
     'ANGLO', 'ANGRY', 'ANGST', 'ANIGH', 'ANILE', 'ANILS', 'ANIMA', 'ANIME', 'ANIMI', 'ANION',
-    'ANISE', 'ANKER', 'ANKHS', 'ANKLE', 'ANKUS', 'ANLAS', 'ANNAL', 'ANNAS', 'ANNAT', 'ANNEX',
+    'ANISE', 'ANKER', 'ANKHS', 'ANKUS', 'ANLAS', 'ANNAL', 'ANNAS', 'ANNAT', 'ANNEX',
     'ANNOY', 'ANNUL', 'ANOAS', 'ANODE', 'ANOLE', 'ANOMY', 'ANSAE', 'ANTAE', 'ANTAR', 'ANTAS',
     'ANTED', 'ANTES', 'ANTIC', 'ANTIS', 'ANTRA', 'ANTRE', 'ANTSY', 'ANURA', 'ANVIL', 'ANYON',
     'AORTA', 'APACE', 'APAGE', 'APAID', 'APART', 'APAYD', 'APAYS', 'APEAK', 'APEEK', 'APERS',
@@ -13304,6 +13304,11 @@ export const wordleWords = [
         myScore: 3,
         wordNumber: 1728,
       }, 
+      { word: "ANKLE",
+        gameDate: "3/14/26",
+        myScore: 2,
+        wordNumber: 1729,
+      }, 
 
     
   ];
@@ -13321,7 +13326,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("March 13, 2026: Trump sux dykk000000000! EATEN")
+console.log("March 14, 2026: Trump sux dykk000000000! ANKLE")
 
 
 console.log(wordleWords)
