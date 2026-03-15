@@ -5,7 +5,8 @@ my_list = {
     'AGING', 'AGLOW', 'AGONY', 'AGREE', 'AHEAD', 'AISLE', 'ALARM', 'ALBUM', 'ALERT', 'ALIEN',
     'ALIKE', 'ALIVE', 'ALLOT', 'ALLOW', 'ALOFT', 'ALONE', 'ALONG', 'ALOOF', 'ALOUD', 'ALPHA',
     'ALTAR', 'ALTER', 'AMASS', 'AMBER', 'AMBLE', 'AMISS', 'AMONG', 'AMPLE', 'AMUSE', 'ANGEL',
-    'ANGER', 'ANGLE', 'ANGRY', 'ANGST', 'ANNEX', 'ANODE', 'ANNOY', 'ANTIC', 'ANVIL', 'AORTA',
+    'ANGER', 'ANGLE', 'ANGRY', 'ANGST', 'ANKLE', 'ANNEX', 'ANODE', 'ANNOY', 'ANTIC', 'ANVIL', 
+    'AORTA',
     'APART', 'APHID', 'APPLE', 'APPLY', 'APRON', 'APTLY', 'ARBOR', 'ARDOR', 'ARGUE', 'ARISE',
     'AROMA', 'ARROW', 'ARTSY', 'ASCOT', 'ASHEN', 'ASIDE', 'ASKEW', 'ASSAY', 'ASSET', 'ATLAS',
     'ATOLL', 'ATONE', 'ATRIA', 'ATTIC', 'AUDIO', 'AUDIT', 'AVAIL', 'AVERT', 'AVOID', 'AWAIT',
@@ -182,7 +183,7 @@ my_list = {
     'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'EATEN'
+word_to_find = 'ANKLE'
 
 
 if word_to_find in my_list:
