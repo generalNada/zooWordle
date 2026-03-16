@@ -43,7 +43,8 @@ my_list = {
     'DELVE', 'DENIM', 'DEPOT', 'DEPTH', 'DETER', 'DETOX', 'DEUCE', 'DEVIL', 'DIARY', 'DICEY',
     'DIGIT', 'DINER', 'DINGO', 'DINGY', 'DIRGE', 'DISCO', 'DITTO', 'DITTY', 'DIZZY', 'DODGE',
     'DODGY', 'DOGMA', 'DOING', 'DOLLY', 'DONOR', 'DONUT', 'DOPEY', 'DOUBT', 'DOUGH', 'DOWEL',
-    'DOWRY', 'DOZEN', 'DRAFT', 'DRAIN', 'DRAPE', 'DRAWN', 'DREAD', 'DREAM', 'DRILL', 'DRINK',
+    'DOWRY', 'DOZEN', 'DRAFT', 'DRAIN', 'DRAMA', 'DRAPE', 'DRAWN', 'DREAD', 'DREAM', 'DRILL', 
+    'DRINK',
     'DRIVE', 'DROLL', 'DRONE', 'DROOL', 'DROOP', 'DROVE', 'DRYER', 'DUCHY', 'DUMMY', 'DUSKY',
     'DUTCH', 'DUVET', 'DWARF', 'DWELL', 'DWELT', 'EAGER', 'EAGLE', 'EARLY', 'EARTH', 'EASEL',
     'EATEN', 'EBONY', 'EDIFY', 'EGRET', 'EIGHT', 'EJECT', 'ELATE', 'ELBOW', 'ELDER', 'ELITE', 
@@ -184,7 +185,7 @@ my_list = {
     'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'GRADE'
+word_to_find = 'DRAMA'
 
 
 if word_to_find in my_list:
