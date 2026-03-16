@@ -66,7 +66,8 @@ my_list = {
     'GENIE', 'GENRE', 'GHOST', 'GHOUL', 'GIANT', 'GIDDY', 'GIRTH', 'GIVEN', 'GIZMO', 'GLADE',
     'GLAND', 'GLARE', 'GLASS', 'GLAZE', 'GLEAM', 'GLEAN', 'GLIDE', 'GLINT', 'GLOAT', 'GLOBE',
     'GLOOM', 'GLORY', 'GLOVE', 'GLYPH', 'GNASH', 'GNOME', 'GOING', 'GOLEM', 'GONER', 'GOODY',
-    'GOOEY', 'GOOFY', 'GOOSE', 'GORGE', 'GOUGE', 'GRACE', 'GRADE', 'GRAFT', 'GRAIL', 'GRAIN',
+    'GOOEY', 'GOOFY', 'GOOSE', 'GORGE', 'GOUGE', 'GRACE', 'GRADE', 'GRADE', 'GRAFT', 'GRAIL', 
+    'GRAIN',
     'GRAND', 'GRANT', 'GRAPH', 'GRASP', 'GRASS', 'GRATE', 'GRAVE', 'GRAVY', 'GREAT', 'GREED',
     'GREEN', 'GREET', 'GRIEF', 'GRIFT', 'GRIND', 'GRIME', 'GRIMY', 'GRIPE', 'GROIN', 'GROAN',
     'GROOM', 'GROSS', 'GROUP', 'GROUT', 'GROVE', 'GROWL', 'GROWN', 'GRUEL', 'GRUFF', 'GUANO',
@@ -183,7 +184,7 @@ my_list = {
     'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'ANKLE'
+word_to_find = 'GRADE'
 
 
 if word_to_find in my_list:
