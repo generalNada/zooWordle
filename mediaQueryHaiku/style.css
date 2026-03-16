@@ -1906,12 +1906,18 @@ body {
 }
 
 .whole-box-292 {
-  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDtEXWIeF_Jn0qzy2_UxfZC-k-TPlVBPl3OQ&s);
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIZ2lSF-NAQo4wdqADJ2HbWklfif3xCyVvvw&s);
   background-size: fit-content;
   padding: 0.55rem;
 }
 
 .whole-box-293 {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDtEXWIeF_Jn0qzy2_UxfZC-k-TPlVBPl3OQ&s);
+  background-size: fit-content;
+  padding: 0.55rem;
+}
+
+.whole-box-294 {
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtEW1qXT_2RJH4SmS8mfB53W0Xsf1lpsHTtA&s);
   background-size: fit-content;
   padding: 0.55rem;
@@ -6183,20 +6189,8 @@ body {
   opacity: 0.77;
 }
 
-.line-235a {
-  background-color: mahogany;
-  color: pink;
-  font-style: italic;                
-  opacity: 0.77;
-}
-
-.line-235b {
-  background-color: mahogany;
-  color: pink;
-  font-style: italic;               
-  opacity: 0.77;
-}
-
+.line-235a,
+.line-235b,
 .line-235c {
   background-color: mahogany;
   color: pink;
@@ -6204,20 +6198,8 @@ body {
   opacity: 0.77;
 }
 
-.line-236a {
-  background-color: rgb(19, 24, 101);
-  color: rgb(19, 160, 200);
-  font-style: italic;                
-  opacity: 0.77;
-}
-
-.line-236b {
-  background-color: rgb(19, 24, 101);
-  color: rgb(19, 160, 200);
-  font-style: italic;               
-  opacity: 0.77;
-}
-
+.line-236a,
+.line-236b,
 .line-236c {
   background-color: rgb(19, 24, 101);
   color: rgb(19, 160, 200);
@@ -6225,20 +6207,8 @@ body {
   opacity: 0.77;
 }
 
-.line-237a {
-  background-color: cornflowerblue;
-  color: wheat;
-  font-style: italic;                
-  opacity: 0.77;
-}
-
-.line-237b {
-  background-color: cornflowerblue;
-  color: wheat;
-  font-style: italic;               
-  opacity: 0.77;
-}
-
+.line-237a,
+.line-237b,
 .line-237c {
   background-color: cornflowerblue;
   color: wheat;
@@ -6246,20 +6216,8 @@ body {
   opacity: 0.77;
 }
 
-.line-238a {
-  background-color: wheat;
-  color: cornflowerblue;
-  font-style: italic;                
-  opacity: 0.77;
-}
-
-.line-238b {
-  background-color: wheat;
-  color: cornflowerblue;
-  font-style: italic;               
-  opacity: 0.77;
-}
-
+.line-238a,
+.line-238b,
 .line-238c {
   background-color: wheat;
   color: cornflowerblue;
@@ -6267,20 +6225,8 @@ body {
   opacity: 0.77;
 }
 
-.line-239a {
-  background-color: rgb(212, 12, 11);
-  color: rgb(10, 31, 20);
-  font-style: italic;                
-  opacity: 0.77;
-}
-
-.line-239b {
-  background-color: rgb(212, 12, 11);
-  color: rgb(10, 31, 20);
-  font-style: italic;               
-  opacity: 0.77;
-}
-
+.line-239a,
+.line-239b,
 .line-239c {
   background-color: rgb(212, 12, 11);
   color: rgb(10, 31, 20);
@@ -6288,20 +6234,8 @@ body {
   opacity: 0.77;
 }
 
-.line-240a {
-  background-color: rgb(11, 11, 11);
-  color: rgb(221, 241, 252);
-  font-style: italic;                
-  opacity: 0.77;
-}
-
-.line-240b {
-  background-color: rgb(11, 11, 11);
-  color: rgb(221, 241, 252);
-  font-style: italic;               
-  opacity: 0.77;
-}
-
+.line-240a,
+.line-240b,
 .line-240c {
   background-color: rgb(11, 11, 11);
   color: rgb(221, 241, 252);
@@ -6309,20 +6243,8 @@ body {
   opacity: 0.77;
 }
 
-.line-241a {
-  background-color: black;
-  color: red;
-  font-style: italic;                
-  opacity: 0.77;
-}
-
-.line-241b {
-  background-color: black;
-  color: red;
-  font-style: italic;               
-  opacity: 0.77;
-}
-
+.line-241a,
+.line-241b,
 .line-241c {
   background-color: black;
   color: red;
@@ -6330,20 +6252,8 @@ body {
   opacity: 0.77;
 }
 
-.line-242a {
-  background-color: navy;
-  color: dodgerblue;
-  font-style: italic;                
-  opacity: 0.77;
-}
-
-.line-242b {
-  background-color: navy;
-  color: dodgerblue;
-  font-style: italic;               
-  opacity: 0.77;
-}
-
+.line-242a,
+.line-242b,
 .line-242c {
   background-color: navy;
   color: dodgerblue;
@@ -6351,20 +6261,8 @@ body {
   opacity: 0.77;
 }
 
-.line-243a {
-  background-color: rgb(17, 122, 94);
-  color: rgb(30, 19, 129);
-  font-style: italic;                
-  opacity: 0.77;
-}
-
-.line-243b {
-  background-color: rgb(17, 122, 94);
-  color: rgb(30, 19, 129);
-  font-style: italic;               
-  opacity: 0.77;
-}
-
+.line-243a,
+.line-243b,
 .line-243c {
   background-color: rgb(17, 122, 94);
   color: rgb(30, 19, 129);
@@ -6372,20 +6270,8 @@ body {
   opacity: 0.77;
 }
 
-.line-244a {
-  background-color: #101820;
-  color: #FEE715;  
-  font-style: italic;                
-  opacity: 0.77;
-}
-
-.line-244b {
-  background-color: #101820;
-  color: #FEE715;  
-  font-style: italic;               
-  opacity: 0.77;
-}
-
+.line-244a,
+.line-244b,
 .line-244c {
   background-color: #101820;
   color: #FEE715;  
@@ -6842,6 +6728,15 @@ body {
 .line-293c {
   background-color: navy;
   color: lavender;
+  font-style: oblique;             
+  opacity: 0.77;
+}
+
+.line-294a,
+.line-294b,
+.line-294c {
+  background-color: red;
+  color: blue;
   font-style: oblique;             
   opacity: 0.77;
 }
