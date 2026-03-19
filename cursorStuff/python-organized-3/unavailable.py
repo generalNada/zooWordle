@@ -4,7 +4,8 @@ my_list = {
     'ADOPT', 'ADORE', 'ADULT', 'AFFIX', 'AFTER', 'AGAIN', 'AGAPE', 'AGATE', 'AGENT', 'AGILE',
     'AGING', 'AGLOW', 'AGONY', 'AGREE', 'AHEAD', 'AISLE', 'ALARM', 'ALBUM', 'ALERT', 'ALIEN',
     'ALIKE', 'ALIVE', 'ALLOT', 'ALLOW', 'ALOFT', 'ALONE', 'ALONG', 'ALOOF', 'ALOUD', 'ALPHA',
-    'ALTAR', 'ALTER', 'AMASS', 'AMBER', 'AMBLE', 'AMISS', 'AMONG', 'AMPLE', 'AMUSE', 'ANGEL',
+    'ALTAR', 'ALTER', 'AMASS', 'AMBER', 'AMBLE', 'AMISS', 'AMONG', 'AMPLE', 'AMPLY', 'AMUSE', 
+    'ANGEL',
     'ANGER', 'ANGLE', 'ANGRY', 'ANGST', 'ANKLE', 'ANNEX', 'ANODE', 'ANNOY', 'ANTIC', 'ANVIL', 
     'AORTA',
     'APART', 'APHID', 'APPLE', 'APPLY', 'APRON', 'APTLY', 'ARBOR', 'ARDOR', 'ARGUE', 'ARISE',
@@ -186,7 +187,7 @@ my_list = {
     'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'CLASP'
+word_to_find = 'AMPLY'
 
 
 if word_to_find in my_list:
