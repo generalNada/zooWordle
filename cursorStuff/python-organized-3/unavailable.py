@@ -124,7 +124,8 @@ my_list = {
     'QUASH', 'QUEEN', 'QUERY', 'QUEST', 'QUEUE', 'QUICK', 'QUIET', 'QUILL', 'QUILT', 'QUIRK',
     'QUITE', 'QUOTA', 'QUOTE', 'RABID', 'RACER', 'RADIO', 'RAINY', 'RAISE', 'RAMEN', 'RANCH',
     'RANGE', 'RAPID', 'RATIO', 'RATTY', 'RAYON', 'REACH', 'REACT', 'READY', 'REALM', 'REBEL',
-    'REBUS', 'REBUT', 'RECAP', 'RECUR', 'REFER', 'REGAL', 'RELAX', 'RELAY', 'RELIC', 'REMIT',
+    'REBUS', 'REBUT', 'RECAP', 'RECUR', 'REFER', 'REGAL', 'REHAB', 'RELAX', 'RELAY', 'RELIC', 
+    'REMIT',
     'RENEW', 'REPAY', 'REPEL', 'RERUN', 'RESIN', 'RETCH', 'RETRO', 'RETRY', 'REVEL', 'REVUE',
     'RHINO', 'RHYME', 'RIDER', 'RIDGE', 'RIGHT', 'RIGID', 'RIPER', 'RISEN', 'RIVAL', 'RIVET',
     'ROACH', 'ROBIN', 'ROBOT', 'ROCKY', 'RODEO', 'ROGUE', 'ROUGE', 'ROOMY', 'ROOST', 'ROUGH',
@@ -187,7 +188,7 @@ my_list = {
     'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'AMPLY'
+word_to_find = 'REHAB'
 
 
 if word_to_find in my_list:
