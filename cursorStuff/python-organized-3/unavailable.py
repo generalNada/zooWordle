@@ -108,7 +108,8 @@ my_list = {
     'MUSTY', 'MYRRH', 'NADIR', 'NAÏVE', 'NANNY', 'NASAL', 'NASTY', 'NATAL', 'NAVAL', 'NAVEL',
     'NEEDY', 'NEIGH', 'NERDY', 'NERVE', 'NERVY', 'NEVER', 'NICHE', 'NICER', 'NIGHT', 'NINJA',
     'NINTH', 'NOBLE', 'NOISE', 'NOISY', 'NOMAD', 'NORTH', 'NOVEL', 'NUDGE', 'NYLON', 'NYMPH',
-    'OCCUR', 'OCEAN', 'OCTET', 'ODDLY', 'OFFAL', 'OFFER', 'OFTEN', 'OLDER', 'OLIVE', 'OMEGA',
+    'OASIS', 'OCCUR', 'OCEAN', 'OCTET', 'ODDLY', 'OFFAL', 'OFFER', 'OFTEN', 'OLDER', 'OLIVE', 
+    'OMEGA',
     'ONION', 'ONSET', 'OPERA', 'OPINE', 'ORDER', 'ORGAN', 'OTHER', 'OTTER', 'OUGHT', 'OUNCE',
     'OUTDO', 'OUTER', 'OVERT', 'OWNER', 'OXIDE', 'OZONE', 'PAINT', 'PANEL', 'PANIC', 'PAPAL',
     'PAPER', 'PARER', 'PARRY', 'PARTY', 'PASTA', 'PATCH', 'PATIO', 'PATSY', 'PATTY', 'PAUSE',
@@ -188,7 +189,7 @@ my_list = {
     'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'REHAB'
+word_to_find = 'OASIS'
 
 
 if word_to_find in my_list:
