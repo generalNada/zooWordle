@@ -2582,7 +2582,7 @@ export const dailyWordsLarge = [
     'NUDZH', 'NUFFS', 'NUGAE', 'NUKED', 'NUKES', 'NULLA', 'NULLS', 'NUMBS', 'NUMEN', 'NUMMY',
     'NUNNY', 'NURDS', 'NURDY', 'NURLS', 'NURRS', 'NURSE', 'NUTSO', 'NUTSY', 'NUTTY', 'NYAFF',
     'NYALA', 'NYING', 'NYLON', 'NYMPH', 'NYSSA', 'OAKED', 'OAKEN', 'OAKER', 'OAKUM', 'OARED',
-    'OASES', 'OASIS', 'OASTS', 'OATEN', 'OATER', 'OATHS', 'OAVES', 'OBANG', 'OBEAH', 'OBELI',
+    'OASES', 'OASTS', 'OATEN', 'OATER', 'OATHS', 'OAVES', 'OBANG', 'OBEAH', 'OBELI',
     'OBESE', 'OBEYS', 'OBIAS', 'OBIED', 'OBIIT', 'OBITS', 'OBJET', 'OBOES', 'OBOLE', 'OBOLI',
     'OBOLS', 'OCCAM', 'OCCUR', 'OCEAN', 'OCHER', 'OCHES', 'OCHRE', 'OCHRY', 'OCKER', 'OCREA',
     'OCTAD', 'OCTAL', 'OCTAN', 'OCTAS', 'OCTET', 'OCTYL', 'OCULI', 'ODAHS', 'ODALS', 'ODDER',
@@ -13334,6 +13334,11 @@ export const wordleWords = [
         myScore: 4,
         wordNumber: 1734,
       }, 
+      { word: "OASIS",
+        gameDate: "3/20/26",
+        myScore: 4,
+        wordNumber: 1735,
+      }, 
 
     
   ];
@@ -13351,7 +13356,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("March 19, 2026: Trump sux dykk000000000! REHAB")
+console.log("March 20, 2026: Trump sux dykk000000000! OASIS")
 
 
 console.log(wordleWords)
