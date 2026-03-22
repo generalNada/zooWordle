@@ -142,8 +142,8 @@ my_list = {
     'SHOWN',
     'SHOWY', 'SHRED', 'SHRUB', 'SHRUG', 'SHUCK', 'SHUNT', 'SHYLY', 'SIEGE', 'SIGHT', 'SILLY',
     'SINCE', 'SIREN', 'SISSY', 'SITAR', 'SIXTH', 'SKATE', 'SKILL', 'SKIMP', 'SKIER', 'SKIFF',
-    'SKIRT', 'SKULL', 'SKUNK', 'SLANG', 'SLATE', 'SLEEK', 'SLEEP', 'SLICE', 'SLIME', 'SLOPE', 
-    'SLOSH',
+    'SKIRT', 'SKULL', 'SKUNK', 'SLANG', 'SLATE', 'SLEEK', 'SLEEP', 'SLICE', 'SLICK', 'SLIME', 
+    'SLOPE', 'SLOSH',
     'SLOTH', 'SLUMP', 'SLUNG', 'SMALL', 'SMART', 'SMASH', 'SMEAR', 'SMELL', 'SMELT', 'SMILE', 
     'SMIRK',
     'SMITE', 'SMITH', 'SMOCK', 'SMOKE', 'SNACK', 'SNAFU', 'SNAIL', 'SNAKE', 'SNAKY', 'SNARE',
@@ -189,7 +189,7 @@ my_list = {
     'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'OASIS'
+word_to_find = 'SLICK'
 
 
 if word_to_find in my_list:
