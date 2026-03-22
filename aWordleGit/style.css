@@ -3289,8 +3289,8 @@ border: 5px solid aqua;
 }
   
 .jasmineCrockett {
-  color: rgb(255, 60, 102);
-  background-color: rgb(255, 45, 157); 
+  background-color: canary;
+  color: rose;
   font-family: "Merienda", cursive;  font-size: 2rem;
   font-size: 2.25rem;
   line-height: 2rem;
