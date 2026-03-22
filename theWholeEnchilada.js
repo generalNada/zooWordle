@@ -1756,7 +1756,7 @@ export const dailyWordsSmall = [
 'SKULK',
 'SKUNK', 'SLACK', 'SLAIN', 'SLANG', 'SLANT', 'SLASH', 'SLATE', 'SLAVE', 'SLEEK', 
 'SLEEP',
-'SLEET', 'SLEPT', 'SLICE', 'SLICK', 'SLIDE', 'SLIMY', 'SLING', 'SLINK', 'SLOOP',
+'SLEET', 'SLEPT', 'SLICE', 'SLIDE', 'SLIMY', 'SLING', 'SLINK', 'SLOOP',
 'SLOPE', 'SLOSH', 'SLOTH', 'SLUMP', 'SLUNG', 'SLUNK', 'SLURP', 'SLUSH', 'SLYLY', 'SMACK',
 'SMALL', 'SMART', 'SMASH', 'SMEAR', 'SMELT', 'SMILE', 'SMIRK', 'SMITE', 'SMITH',
 'SMOCK', 'SMOKE', 'SMOKY', 'SMOTE', 'SNACK', 'SNAFU', 'SNAIL', 'SNAKE', 'SNAKY', 'SNARE',
@@ -2846,7 +2846,7 @@ export const dailyWordsLarge = [
     'SLABS', 'SLACK', 'SLADE', 'SLAES', 'SLAGS', 'SLAID', 'SLAIN', 'SLAKE', 'SLAMS', 'SLANE',
     'SLANG', 'SLANK', 'SLANT', 'SLAPS', 'SLART', 'SLASH', 'SLATE', 'SLATS', 'SLATY', 'SLAVE',
     'SLAWS', 'SLAYS', 'SLEBS', 'SLEDS', 'SLEEK', 'SLEEP', 'SLEER', 'SLEET', 'SLEPT', 'SLEWS',
-    'SLEYS', 'SLICE', 'SLICK', 'SLIDE', 'SLIER', 'SLILY', 'SLIMS', 'SLIMY', 'SLING',
+    'SLEYS', 'SLICE', 'SLIDE', 'SLIER', 'SLILY', 'SLIMS', 'SLIMY', 'SLING',
     'SLINK', 'SLIPE', 'SLIPS', 'SLIPT', 'SLISH', 'SLITS', 'SLIVE', 'SLOAN', 'SLOBS', 'SLOES',
     'SLOGS', 'SLOID', 'SLOJD', 'SLOMO', 'SLOOM', 'SLOOP', 'SLOOT', 'SLOPE', 'SLOPS', 'SLOPY',
     'SLORM', 'SLOSH', 'SLOTH', 'SLOTS', 'SLOVE', 'SLOWS', 'SLOYD', 'SLUBB', 'SLUBS', 'SLUED',
@@ -13343,6 +13343,11 @@ export const wordleWords = [
         myScore: 4,
         wordNumber: 1735,
       }, 
+      { word: "SLICK",
+        gameDate: "3/21/26",
+        myScore: 3,
+        wordNumber: 1736,
+      }, 
 
     
   ];
@@ -13360,7 +13365,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("March 20, 2026: Trump sux dykk000000000! OASIS")
+console.log("March 21, 2026: Trump sux dykk000000000! SLICK")
 
 
 console.log(wordleWords)
