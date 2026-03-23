@@ -13,7 +13,8 @@ my_list = {
     'ATOLL', 'ATONE', 'ATRIA', 'ATTIC', 'AUDIO', 'AUDIT', 'AVAIL', 'AVERT', 'AVOID', 'AWAIT',
     'AWAKE', 'AWAKE', 'AWARD', 'AWARE', 'AWASH', 'AWOKE', 'AWFUL', 'AXIOM', 'AZURE', 'BACON',
     'BADGE', 'BADLY', 'BAGEL', 'BAKER', 'BALER', 'BALMY', 'BALSA', 'BANAL', 'BANJO', 'BARGE',
-    'BARON', 'BASIC', 'BASIN', 'BATCH', 'BASTE', 'BATHE', 'BATON', 'BATTY', 'BAWDY', 'BAYOU',
+    'BARON', 'BASIC', 'BASIL', 'BASIN', 'BATCH', 'BASTE', 'BATHE', 'BATON', 'BATTY', 'BAWDY', 
+    'BAYOU',
     'BEACH', 'BEADY', 'BEARD', 'BEAST', 'BEAUT', 'BEEFY', 'BEGET', 'BEGIN', 'BEING', 'BELCH',
     'BELIE', 'BELLY', 'BELOW', 'BENCH', 'BERET', 'BERTH', 'BESET', 'BEVEL', 'BICEP', 'BILGE',
     'BINGE', 'BIOME', 'BIRCH', 'BIRTH', 'BLACK', 'BLADE', 'BLAME', 'BLAND', 'BLANK', 'BLARE',
@@ -189,7 +190,7 @@ my_list = {
     'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'SLICK'
+word_to_find = 'BASIL'
 
 
 if word_to_find in my_list:
