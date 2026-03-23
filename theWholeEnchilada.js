@@ -1744,7 +1744,7 @@ export const dailyWordsSmall = [
 'SCAMP', 'SCANT', 'SCARE', 'SCARF', 'SCARY', 'SCENT', 'SCION', 'SCOFF', 'SCOLD',
 'SCONE', 'SCOOP', 'SCOPE', 'SCORE', 'SCORN', 'SCOUR', 'SCOUT', 'SCOWL', 'SCRAM', 'SCRAP',
 'SCREE', 'SCREW', 'SCRUB', 'SCRUM', 'SCUBA', 'SEDAN', 'SEEDY', 'SEGUE', 'SEIZE', 'SEMEN',
-'SENSE', 'SEPIA', 'SERIF', 'SERUM', 'SERVE', 'SETUP', 'SEVEN', 'SEVER', 'SEWER', 'SHACK',
+'SENSE', 'SEPIA', 'SERUM', 'SERVE', 'SETUP', 'SEVEN', 'SEVER', 'SEWER', 'SHACK',
 'SHADE', 'SHADY', 'SHAFT', 'SHAKE', 'SHAKY', 'SHALE', 'SHALL', 'SHALT', 'SHAME', 'SHANK',
 'SHAPE', 'SHARD', 'SHARE', 'SHARK', 'SHARP', 'SHAVE', 'SHAWL', 'SHEAR', 'SHEEN', 
 'SHEER', 'SHEET', 'SHEIK', 'SHELF', 'SHELL', 'SHIED', 'SHIFT', 'SHINE', 'SHINY', 'SHIRE',
@@ -2806,7 +2806,7 @@ export const dailyWordsLarge = [
     'SEMIS', 'SENAS', 'SENDS', 'SENES', 'SENGI', 'SENNA', 'SENOR', 'SENSA', 'SENSE', 'SENSI',
     'SENTE', 'SENTI', 'SENTS', 'SENVY', 'SENZA', 'SEPAD', 'SEPAL', 'SEPIA', 'SEPIC', 'SEPOY',
     'SEPTA', 'SEPTS', 'SERAC', 'SERAI', 'SERAL', 'SERED', 'SERER', 'SERES', 'SERFS', 'SERGE',
-    'SERIC', 'SERIF', 'SERIN', 'SERKS', 'SERON', 'SEROW', 'SERRA', 'SERRE', 'SERRS', 'SERRY',
+    'SERIC', 'SERIN', 'SERKS', 'SERON', 'SEROW', 'SERRA', 'SERRE', 'SERRS', 'SERRY',
     'SERUM', 'SERVE', 'SERVO', 'SESEY', 'SESSA', 'SETAE', 'SETAL', 'SETON', 'SETTS', 'SETUP',
     'SEVEN', 'SEVER', 'SEWAN', 'SEWAR', 'SEWED', 'SEWEL', 'SEWEN', 'SEWER', 'SEWIN', 'SEXED',
     'SEXER', 'SEXES', 'SEXTO', 'SEXTS', 'SEYEN', 'SHACK', 'SHADE', 'SHADS', 'SHADY', 'SHAFT',
@@ -13353,6 +13353,11 @@ export const wordleWords = [
         myScore: 3,
         wordNumber: 1737,
       }, 
+      { word: "SERIF",
+        gameDate: "3/23/26",
+        myScore: 3,
+        wordNumber: 1738,
+      }, 
 
     
   ];
@@ -13370,7 +13375,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("March 22, 2026: Trump sux dykk000000000! BASIL")
+console.log("March 23, 2026: Trump sux dykk000000000! SERIF")
 
 
 console.log(wordleWords)
