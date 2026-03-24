@@ -538,4 +538,15 @@ const flicksMusic = [
     downloadUrl:
       "https://www.dropbox.com/scl/fi/6ofzwu3fwrf6k67i8sxn3/The-Police-Can-t-Stand-Losing-You-Live-on-Countdown-1979.mp4?rlkey=d9pvi6yssp0oip8jxol7r374p&dl=0",
   },
+  {
+    ref: 1005,
+    title: "Moonlight Sonata - Deadbios Alex",
+    year: 2016,
+    genre: "Music",
+    collection: "Good Tunes",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/2jhbieam2g8yjcbtb73ja/moonlightSonataGuitar.mp4?rlkey=lcw71qo4hz2gw1kxjg41q7yvw&st=1psvgvhv&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/2jhbieam2g8yjcbtb73ja/moonlightSonataGuitar.mp4?rlkey=lcw71qo4hz2gw1kxjg41q7yvw&st=1psvgvhv&dl=0",
+  },
 ];
