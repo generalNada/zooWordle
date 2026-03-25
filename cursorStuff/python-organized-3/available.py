@@ -68,7 +68,7 @@ unused_list = [
     "WREST", "WRING", "WRYLY", "ZONAL"
 ]
 
-word = 'SERIF'
+word = 'BROOD'
 
 
 if word in unused_list:
