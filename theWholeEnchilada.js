@@ -1675,7 +1675,7 @@ export const dailyWordsSmall = [
 'HUTCH', 'HYDRO', 'HYENA', 'HYMEN', 'HYPER', 'ICILY', 'ICING', 'IDEAL', 'IDIOM', 'IDIOT',
 'IDLER', 'IDYLL', 'IGLOO', 'ILIAC', 'IMAGE', 'IMBUE', 'IMPEL', 'IMPLY', 'INANE', 'INBOX',
 'INCUR', 'INDEX', 'INDIE', 'INEPT', 'INERT', 'INFER', 'INGOT', 'INLAY', 'INLET', 'INNER',
-'INPUT', 'INTER', 'INTRO', 'IONIC', 'IRATE', 'IRONY', 'ISLET', 'ISSUE', 'ITCHY', 'IVORY',
+'INPUT', 'INTER', 'INTRO', 'IONIC', 'IRATE', 'IRONY', 'ISLET', 'ISSUE', 'ITCHY', 
 'JAUNT', 'JAZZY', 'JELLY', 'JERKY', 'JETTY', 'JEWEL', 'JIFFY', 'JOINT', 'JOIST', 'JOKER',
 'JOLLY', 'JOUST', 'JUDGE', 'JUICE', 'JUICY', 'JUMBO', 'JUMPY', 'JUNTA', 'JUNTO', 'JUROR',
 'KAPPA', 'KARMA', 'KAYAK', 'KAZOO', 'KEBAB', 'KEFIR', 'KHAKI', 'KINKY', 'KIOSK', 'KITTY',
@@ -2365,7 +2365,7 @@ export const dailyWordsLarge = [
     'INVAR', 'INWIT', 'IODIC', 'IODID', 'IODIN', 'IONIC', 'IOTAS', 'IPPON', 'IRADE', 'IRATE',
     'IRIDS', 'IRING', 'IRKED', 'IROKO', 'IRONE', 'IRONS', 'IRONY', 'ISBAS', 'ISHES', 'ISLED',
     'ISLES', 'ISLET', 'ISNAE', 'ISSEI', 'ISSUE', 'ISTLE', 'ITCHY', 'ITEMS', 'ITHER', 'IVIED',
-    'IVIES', 'IVORY', 'IXIAS', 'IXNAY', 'IXORA', 'IXTLE', 'IZARD', 'IZARS', 'IZZAT', 'JAAPS',
+    'IVIES', 'IXIAS', 'IXNAY', 'IXORA', 'IXTLE', 'IZARD', 'IZARS', 'IZZAT', 'JAAPS',
     'JABOT', 'JACAL', 'JACKS', 'JACKY', 'JADED', 'JADES', 'JAFAS', 'JAFFA', 'JAGAS', 'JAGER',
     'JAGGS', 'JAGGY', 'JAGIR', 'JAGRA', 'JAILS', 'JAKER', 'JAKES', 'JAKEY', 'JALAP', 'JALOP',
     'JAMBE', 'JAMBO', 'JAMBS', 'JAMBU', 'JAMES', 'JAMMY', 'JAMON', 'JANES', 'JANNS', 'JANNY',
@@ -13373,6 +13373,11 @@ export const wordleWords = [
         myScore: 4,
         wordNumber: 1741,
       }, 
+      { word: "IVORY",
+        gameDate: "3/27/26",
+        myScore: 3,
+        wordNumber: 1742,
+      }, 
 
     
   ];
@@ -13390,7 +13395,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("March 26, 2026: Trump sux dykk000000000! BEFIT")
+console.log("March 27, 2026: Trump sux dykk000000000! IVORY")
 
 
 console.log(wordleWords)
