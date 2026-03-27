@@ -1978,12 +1978,18 @@ body {
 }
 
 .whole-box-304 {
-  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDtEXWIeF_Jn0qzy2_UxfZC-k-TPlVBPl3OQ&s);
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_eHAL3SnneUa6lmID_xqkkpudOCmhWbBgdA&s);
   background-size: fit-content;
   padding: 0.55rem;
 }
 
 .whole-box-305 {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDtEXWIeF_Jn0qzy2_UxfZC-k-TPlVBPl3OQ&s);
+  background-size: fit-content;
+  padding: 0.55rem;
+}
+
+.whole-box-306 {
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtEW1qXT_2RJH4SmS8mfB53W0Xsf1lpsHTtA&s);
   background-size: fit-content;
   padding: 0.55rem;
@@ -6150,20 +6156,8 @@ body {
   opacity: 0.77;
 }
 
-.line-230a {
-  background-color: black;
-  color: white;
-  font-style: oblique;               
-  opacity: 0.77;
-}
-
-.line-230b {
-  background-color: black;
-  color: white;
-  font-style: oblique;              
-  opacity: 0.77;
-}
-
+.line-230a,
+.line-230b,
 .line-230c {
   background-color: black;
   color: white;
@@ -6171,20 +6165,8 @@ body {
   opacity: 0.77;
 }
 
-.line-231a {
-  background-color: rgb(130, 142, 31);
-  color: rgb(188, 19, 37);
-  font-style: oblique;               
-  opacity: 0.77;
-}
-
-.line-231b {
-  background-color: rgb(130, 142, 31);
-  color: rgb(188, 19, 37);
-  font-style: oblique;              
-  opacity: 0.77;
-}
-
+.line-231a,
+.line-231b,
 .line-231c {
   background-color: rgb(130, 142, 31);
   color: rgb(188, 19, 37);
@@ -6192,20 +6174,8 @@ body {
   opacity: 0.77;
 }
 
-.line-232a {
-  background-color: rgb(19, 232, 141);
-  color: rgb(29, 41, 90);
-  font-style: oblique;               
-  opacity: 0.77;
-}
-
-.line-232b {
-  background-color: rgb(19, 232, 141);
-  color: rgb(29, 41, 90);
-  font-style: oblique;              
-  opacity: 0.77;
-}
-
+.line-232a,
+.line-232b,
 .line-232c {
   background-color: rgb(19, 232, 141);
   color: rgb(29, 41, 90);
@@ -6878,6 +6848,15 @@ body {
 .line-305c {
   background-color: yellow;
   color: purple;   
+  font-style: italic;             
+  opacity: 0.77;
+}
+
+.line-306a,
+.line-306b,
+.line-306c {
+  background-color: rgb(178, 181, 5);
+  color: rgb(93, 94, 5); 
   font-style: italic;             
   opacity: 0.77;
 }
