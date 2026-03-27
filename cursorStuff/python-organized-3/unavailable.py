@@ -87,7 +87,8 @@ my_list = {
     'HUNCH', 'HUNKY', 'HURRY', 'HUTCH', 'HYDRA', 'HYENA', 'HYPER', 'ICING', 'IDEAL', 'IDIOM',
     'IDLER', 'IGLOO', 'IMAGE', 'IMBUE', 'IMPEL', 'INANE', 'INBOX', 'INCUR', 'INDEX', 'INDIE',
     'INEPT', 'INERT', 'INFER', 'INLAY', 'INNER', 'INPUT', 'INTER', 'INTRO', 'IONIC', 'IRATE',
-    'IRONY', 'ISLET', 'ITCHY', 'IVORY', 'JAUNT', 'JAZZY', 'JELLY', 'JERKY', 'JEWEL', 'JIFFY',
+    'IRONY', 'ISLET', 'ITCHY', 'IVORY', 'IVORY', 'JAUNT', 'JAZZY', 'JELLY', 'JERKY', 'JEWEL', 
+    'JIFFY',
     'JOINT', 'JOKER', 'JOLLY', 'JOUST', 'JUDGE', 'JUICE', 'JUMBO', 'JUMPY', 'KARMA', 'KAYAK',
     'KAZOO', 'KEBAB', 'KEFIR', 'KHAKI', 'KIOSK', 'KNACK', 'KNAVE', 'KNEAD', 'KNEEL', 'KNELL',
     'KNELT', 'KNIFE', 'KNOCK', 'KNOLL', 'KNOWN', 'KOALA', 'KRILL', 'LABEL', 'LABOR', 'LADLE',
@@ -194,7 +195,7 @@ my_list = {
     'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'BEFIT'
+word_to_find = 'IVORY'
 
 
 if word_to_find in my_list:
