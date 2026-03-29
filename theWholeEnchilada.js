@@ -13386,6 +13386,8 @@ export const wordleWords = [
       }, 
 
     
+
+      
   ];
 
 export const letterValues = {
