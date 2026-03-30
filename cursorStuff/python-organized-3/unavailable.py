@@ -34,7 +34,8 @@ my_list = {
     'CELLO', 'CHAFE', 'CHAIN', 'CHAIR', 'CHALK', 'CHAMP', 'CHANT', 'CHAOS', 'CHARD', 'CHARM',
     'CHART', 'CHASE', 'CHASM', 'CHEAP', 'CHEAT', 'CHECK', 'CHEEK', 'CHEER', 'CHEST', 'CHIDE',
     'CHIEF', 'CHILD', 'CHILL', 'CHIME', 'CHOCK', 'CHOIR', 'CHOKE', 'CHORD', 'CHORE', 'CHOSE',
-    'CHUNK', 'CHUTE', 'CIDER', 'CIGAR', 'CIGAR', 'CINCH', 'CIRCA', 'CIVIC', 'CIVIL', 'CLAMP',
+    'CHUMP', 'CHUNK', 'CHUTE', 'CIDER', 'CIGAR', 'CIGAR', 'CINCH', 'CIRCA', 'CIVIC', 'CIVIL', 
+    'CLAMP',
     'CLASH', 'CLASP', 'CLASS', 'CLEAN', 'CLEAR', 'CLEFT', 'CLERK', 'CLICK', 'CLIFF', 'CLIMB', 
     'CLING',
     'CLINK', 'CLOAK', 'CLOCK', 'CLONE', 'CLOSE', 'CLOTH', 'CLOUD', 'CLOVE', 'CLOWN', 'CLUCK',
@@ -196,7 +197,7 @@ my_list = {
     'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'AFOOT'
+word_to_find = 'CHUMP'
 
 
 if word_to_find in my_list:
