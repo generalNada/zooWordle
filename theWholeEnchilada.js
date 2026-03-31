@@ -1,4 +1,5 @@
 
+
 export const fixedWordsLarge = [
     'QQQQQ', 'ZZZZZ', 'JJJJJ', 'QQZZJ', 'KKKJJ', 'JQQZZ', 'JZZQQ', 'QQJZZ', 'ZZJQQ', 'QQJZX',   
     'AAHED', 'AALII', 'AARGH', 'AARTI', 'ABACA', 'ABACI', 'ABACK', 'ABACS', 'ABAFT', 'ABAKA',
@@ -1613,7 +1614,7 @@ export const dailyWordsSmall = [
 'CLAIM', 'CLAMP', 'CLANG', 'CLANK', 'CLASH', 'CLASS', 'CLEAN', 'CLEAR', 'CLEAT',
 'CLEFT', 'CLERK', 'CLICK', 'CLIFF', 'CLIMB', 'CLING', 'CLINK', 'CLOAK', 'CLOCK', 'CLONE',
 'CLOSE', 'CLOTH', 'CLOUD', 'CLOUT', 'CLOVE', 'CLOWN', 'CLUCK', 'CLUED', 'CLUMP', 'CLUNG',
-'COACH', 'COAST', 'COBRA', 'COCOA', 'COLON', 'COLOR', 'COMET', 'COMFY', 'COMIC', 'COMMA',
+'COACH', 'COAST', 'COBRA', 'COCOA', 'COLON', 'COLOR', 'COMFY', 'COMIC', 'COMMA',
 'CONCH', 'CONDO', 'CONIC', 'COPSE', 'CORAL', 'CORER', 'CORNY', 'COUCH', 'COUGH', 'COULD',
 'COUNT', 'COUPE', 'COURT', 'COVEN', 'COVER', 'COVET', 'COVEY', 'COWER', 'COYLY', 'CRACK',
 'CRAFT', 'CRAMP', 'CRANE', 'CRANK', 'CRASH', 'CRASS', 'CRATE', 'CRAVE', 'CRAWL', 'CRAZE',
@@ -2039,7 +2040,7 @@ export const dailyWordsLarge = [
     'COGUE', 'COHAB', 'COHEN', 'COHOE', 'COHOG', 'COHOS', 'COIFS', 'COIGN', 'COILS', 'COINS',
     'COIRS', 'COITS', 'COKED', 'COKES', 'COLAS', 'COLBY', 'COLDS', 'COLED', 'COLES', 'COLEY',
     'COLIC', 'COLIN', 'COLLS', 'COLLY', 'COLOG', 'COLON', 'COLOR', 'COLTS', 'COLZA', 'COMAE',
-    'COMAL', 'COMAS', 'COMBE', 'COMBI', 'COMBO', 'COMBS', 'COMBY', 'COMER', 'COMES', 'COMET',
+    'COMAL', 'COMAS', 'COMBE', 'COMBI', 'COMBO', 'COMBS', 'COMBY', 'COMER', 'COMES', 
     'COMFY', 'COMIC', 'COMIX', 'COMMA', 'COMMO', 'COMMS', 'COMMY', 'COMPO', 'COMPS', 'COMPT',
     'COMTE', 'COMUS', 'CONCH', 'CONDO', 'CONED', 'CONES', 'CONEY', 'CONFS', 'CONGA', 'CONGE',
     'CONGO', 'CONIA', 'CONIC', 'CONIN', 'CONKS', 'CONKY', 'CONNE', 'CONNS', 'CONTE', 'CONTO',
@@ -13389,6 +13390,11 @@ export const wordleWords = [
         myScore: 3,
         wordNumber: 1744,
       }, 
+      { word: "COMET",
+        gameDate: "3/30/26",
+        myScore: 3,
+        wordNumber: 1745,
+      }, 
 
     
 
@@ -13408,7 +13414,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("March 29, 2026: Trump sux dykk000000000! CHUMP")
+console.log("March 30, 2026: Trump sux dykk000000000! COMET")
 
 
 console.log(wordleWords)
