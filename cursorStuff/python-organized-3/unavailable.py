@@ -167,7 +167,8 @@ my_list = {
     'STONE', 'STONY', 'STOOD', 'STOOL', 'STORE', 'STORK', 'STORM', 'STORY', 'STOUT', 'STOVE',
     'STRAP', 'STRAW', 'STRAY', 'STRUT', 'STUDY', 'STUMP', 'STUNG', 'STUNT', 'STYLE', 'SUAVE',
     'SUEDE', 'SUGAR', 'SUITE', 'SULKY', 'SULLY', 'SUMAC', 'SUNNY', 'SUPER', 'SURER', 'SURGE',
-    'SURLY', 'SUSHI', 'SWEAT', 'SWEEP', 'SWEET', 'SWELL', 'SWILL', 'SWINE', 'SWING', 'SWIRL',
+    'SURLY', 'SUSHI', 'SWAMP', 'SWEAT', 'SWEEP', 'SWEET', 'SWELL', 'SWILL', 'SWINE', 'SWING', 
+    'SWIRL',
     'SWISH', 'SWOON', 'SWOOP', 'SWORD', 'SWUNG', 'SYRUP', 'TABBY', 'TABLE', 'TABOO', 'TACIT',
     'TACKY', 'TAFFY', 'TAKEN', 'TALLY', 'TALON', 'TANGY', 'TAPER', 'TAPIR', 'TARDY', 'TASTE',
     'TASTY', 'TAUNT', 'TAUPE', 'TAWNY', 'TEACH', 'TEARY', 'TEASE', 'TEETH', 'TEDDY', 'TEMPO', 
@@ -198,7 +199,7 @@ my_list = {
     'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'COMET'
+word_to_find = 'SWAMP'
 
 
 if word_to_find in my_list:
