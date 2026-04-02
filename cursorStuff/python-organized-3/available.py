@@ -20,7 +20,7 @@ unused_list = [
     "EDICT", "EERIE", "EKING", "ELECT", "ELEGY", "ELFIN", "ELIDE", "EMCEE", "ENEMY", "ENTRY",
     "ENVOY", "ERECT", "ESTER", "ETUDE", "EVICT", "EXPEL", "EYING", "FAIRY", "FANNY", "FATAL",
     "FATTY", "FAUNA", "FECAL", "FELLA", "FELON", "FEMME", "FEMUR", "FENCE", "FETAL", "FETUS",
-    "FICUS", "FIGHT", "FILER", "FILMY", "FILTH", "FIZZY", "FLACK", "FLECK", "FLEET", "FLIER",
+    "FICUS", "FIGHT", "FILER", "FILMY", "FILTH", "FLACK", "FLECK", "FLEET", "FLIER",
     "FLUID", "FLUSH", "FRAUD", "FREED", "FREER", "FRIAR", "FRISK", "FUDGE", "FUROR", "FURRY",
     "FUSSY", "GABLE", "GAFFE", "GAILY", "GASSY", "GATOR", "GAYER", "GAYLY", "GAZER", "GEEKY",
     "GIPSY", "GIRLY", "GIVER", "GLOSS", "GODLY", "GOLLY", "GONAD", "GOURD", "GRAPE", "GRAZE",
@@ -69,7 +69,7 @@ unused_list = [
     "WREST", "WRING", "WRYLY", "ZONAL"
 ]
 
-word = 'SWAMP'
+word = 'FIZZY'
 
 
 if word in unused_list:
