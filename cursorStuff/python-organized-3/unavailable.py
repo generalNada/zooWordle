@@ -63,7 +63,8 @@ my_list = {
     'EXERT', 'EXILE', 'EXIST', 'EXPEL', 'EXTOL', 'EXTRA', 'EVENT', 'EXULT', 'FABLE', 'FACET',
     'FAINT', 'FAITH', 'FALSE', 'FANCY', 'FARCE', 'FAULT', 'FAVOR', 'FEAST', 'FEIGN', 'FERAL',
     'FERRY', 'FETCH', 'FETID', 'FEVER', 'FEWER', 'FIBER', 'FIELD', 'FIEND', 'FIERY', 'FIFTH',
-    'FIFTY', 'FILET', 'FILLY', 'FINAL', 'FINCH', 'FINER', 'FIRST', 'FISHY', 'FIXER', 'FJORD',
+    'FIFTY', 'FILET', 'FILLY', 'FINAL', 'FINCH', 'FINER', 'FIRST', 'FISHY', 'FIXER', 'FIZZY'
+    'FJORD',
     'FLAIL', 'FLAIR', 'FLAKE', 'FLAKY', 'FLANK', 'FLAME', 'FLARE', 'FLASH', 'FLASK', 'FLESH',
     'FLICK', 'FLING', 'FLINT', 'FLIRT', 'FLOAT', 'FLOCK', 'FLOOD', 'FLOOR', 'FLORA', 'FLOSS',
     'FLOUR', 'FLOUT', 'FLOWN', 'FLUFF', 'FLUKE', 'FLUME', 'FLUNG', 'FLUNK', 'FLUTE', 'FLYER',
@@ -199,7 +200,7 @@ my_list = {
     'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'SWAMP'
+word_to_find = 'FIZZY'
 
 
 if word_to_find in my_list:
