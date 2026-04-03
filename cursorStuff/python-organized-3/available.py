@@ -53,7 +53,7 @@ unused_list = [
     "SLAIN",
     "SLANT", "SLASH", "SLAVE", "SLEET", "SLEPT", "SLIDE", "SLIMY", "SLING",
     "SLINK", "SLOOP", "SLUNK", "SLURP", "SLUSH", "SLYLY", "SMACK", "SMOKY", "SMOTE",
-    "SNEER", "SNIFF", "SNIPE", "SNORE", "SNOWY", "SNUCK", "SNUFF", "SOAPY", "SOBER", "SONAR",
+    "SNEER", "SNIFF", "SNIPE", "SNORE", "SNOWY", "SNUCK", "SNUFF", "SOAPY", "SONAR",
     "SOOTH", "SOOTY", "SPANK", "SPAWN", "SPERM", "SPIED", "SPIKY", "SPILT", "SPOOK", "SPREE",
     "SPUNK", "SPURN", "SQUIB", "STALK", "STALL", "STAVE", "STEAK", "STEAL", "STEER", "STOKE",
     "STOOD", "STOOP", "STRIP", "STUCK", "STUFF", "STUNK", "SUING", "SWAMI", "SWARM",
@@ -69,7 +69,7 @@ unused_list = [
     "WREST", "WRING", "WRYLY", "ZONAL"
 ]
 
-word = 'FIZZY'
+word = 'SOBER'
 
 
 if word in unused_list:
