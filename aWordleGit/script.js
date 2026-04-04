@@ -104,21 +104,51 @@ function doesNotContainMultipleLetters(letters) {
   });
 }
 
+// function handleWordInput() {
+//   const inputWord = document.getElementById("wordInput").value.toLowerCase();
+//   const foundWord = wordleWords.find(
+//     (wordObj) => wordObj.word.toLowerCase() === inputWord
+//   );
+
+//   if (foundWord) {
+//     const averageScoreUpToDate = calculateAverageScoreUpToDate(
+//       foundWord.gameDate
+//     );
+//     const resultString = `'${foundWord.word}': That, ah, um, uh, fuuuu..., fuck off, you, ahh, get it, most, ah, wellll, er, uh, well, mmmm, errr, retardally, er, ah, ahem, gaa, um, idiotical, er, um, WORD was so abso-fuckin-um-lutely fuckin' ALREADY Goddamn FUCKING em-fuckin'-ployed by this Pissing Ass Wordle affair (as I've said! Repeatedly! Listen!) on ${foundWord.gameDate}. Goddamn you Ace! <br> It was word #${foundWord.wordNumber}, 
+//           and ye had ye a score of '${foundWord.myScore}'!<br> Your, um, Score, ahhh, um, Average, er, thru this here stupid ass lousy, um, fuckin' date: ${averageScoreUpToDate}!<br> Do NOT guess '${foundWord.word}', and do not waste our time!`;
+//     document.querySelector(".field-one").innerHTML = resultString;
+//   } else {
+//     const notFoundString = `The fockin word "${inputWord}", which, ah, er, ahh, gaaaaa, ahh, errrr, ahhh, is, gaaaa, um, er, an innocent, ah, but extremely foolosh bystander †‡ †‡ †‡ , was notteth found, oh wretched Whores and Assfucks, making Rand Paul that rapist. Hit that fuck again neighbor. Shut up, but<br> feel free, feel obligated, to guess the word "${inputWord}", Fuckface! You're <span><em>all</em></span> fuckfaces.`;
+//     document.querySelector(".field-one").innerHTML = notFoundString;
+//   }
+// }
+
 function handleWordInput() {
   const inputWord = document.getElementById("wordInput").value.toLowerCase();
-  const foundWord = wordleWords.find(
-    (wordObj) => wordObj.word.toLowerCase() === inputWord
+  const foundWords = wordleWords.filter(
+    (wordObj) => wordObj.word.toLowerCase() === inputWord,
   );
 
-  if (foundWord) {
-    const averageScoreUpToDate = calculateAverageScoreUpToDate(
-      foundWord.gameDate
-    );
-    const resultString = `'${foundWord.word}': That, ah, um, uh, fuuuu..., fuck off, you, ahh, get it, most, ah, wellll, er, uh, well, mmmm, errr, retardally, er, ah, ahem, gaa, um, idiotical, er, um, WORD was so abso-fuckin-um-lutely fuckin' ALREADY Goddamn FUCKING em-fuckin'-ployed by this Pissing Ass Wordle affair (as I've said! Repeatedly! Listen!) on ${foundWord.gameDate}. Goddamn you Ace! <br> It was word #${foundWord.wordNumber}, 
-          and ye had ye a score of '${foundWord.myScore}'!<br> Your, um, Score, ahhh, um, Average, er, thru this here stupid ass lousy, um, fuckin' date: ${averageScoreUpToDate}!<br> Do NOT guess '${foundWord.word}', and do not waste our time!`;
+  if (foundWords.length > 0) {
+    const usageCount = foundWords.length;
+    const usageHeader =
+      usageCount === 1
+        ? `'${foundWords[0].word}' was already used by Wordle once:`
+        : `'${foundWords[0].word}' was already used by Wordle ${usageCount} times:`;
+
+    const usageDetails = foundWords
+      .map((wordObj, index) => {
+        const averageScoreUpToDate = calculateAverageScoreUpToDate(
+          wordObj.gameDate,
+        );
+        return `${index + 1}. Date: ${wordObj.gameDate}, Word #: ${wordObj.wordNumber}, My Score: ${wordObj.myScore}, Avg up to date: ${averageScoreUpToDate}`;
+      })
+      .join("<br>");
+
+    const resultString = `${usageHeader}<br>${usageDetails}<br><br>Hesistantly guess '${foundWords[0].word}'. Wordle repeats words but still...`;
     document.querySelector(".field-one").innerHTML = resultString;
   } else {
-    const notFoundString = `The fockin word "${inputWord}", which, ah, er, ahh, gaaaaa, ahh, errrr, ahhh, is, gaaaa, um, er, an innocent, ah, but extremely foolosh bystander †‡ †‡ †‡ , was notteth found, oh wretched Whores and Assfucks, making Rand Paul that rapist. Hit that fuck again neighbor. Shut up, but<br> feel free, feel obligated, to guess the word "${inputWord}", Fuckface! You're <span><em>all</em></span> fuckfaces.`;
+    const notFoundString = `The word "${inputWord}" was not found....<br> Feel free to guess the word "${inputWord}"`;
     document.querySelector(".field-one").innerHTML = notFoundString;
   }
 }
