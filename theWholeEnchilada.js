@@ -1753,7 +1753,7 @@ export const dailyWordsSmall = [
 'SHIRK', 'SHIRT', 'SHIVA', 'SHOCK', 'SHONE', 'SHOOK', 'SHOOT', 'SHORE', 'SHORN',
 'SHORT',
 'SHOVE', 'SHOWN', 'SHOWY', 'SHREW', 'SHRUB', 'SHRUG', 'SHUCK', 'SHUNT', 'SHUSH', 'SHYLY',
-'SIEGE', 'SIEVE', 'SIGHT', 'SIGMA', 'SILKY', 'SILLY', 'SINCE', 'SINEW', 'SINGE', 'SIREN',
+'SIEGE', 'SIEVE', 'SIGHT', 'SIGMA', 'SILKY', 'SILLY', 'SINCE', 'SINEW', 'SIREN',
 'SISSY', 'SIXTH', 'SIXTY', 'SKATE', 'SKEIN', 'SKIER', 'SKIFF', 'SKILL', 'SKIMP', 'SKIRT', 
 'SKULK',
 'SKUNK', 'SLACK', 'SLAIN', 'SLANG', 'SLANT', 'SLASH', 'SLATE', 'SLAVE', 'SLEEK', 
@@ -2833,7 +2833,7 @@ export const dailyWordsLarge = [
     'SIGMA', 'SIGNA', 'SIGNS', 'SIJOS', 'SIKAS', 'SIKER', 'SIKES', 'SILDS', 'SILED', 'SILEN',
     'SILER', 'SILES', 'SILEX', 'SILKS', 'SILKY', 'SILLS', 'SILLY', 'SILOS', 'SILTS', 'SILTY',
     'SILVA', 'SIMAR', 'SIMAS', 'SIMBA', 'SIMIS', 'SIMPS', 'SIMUL', 'SINCE', 'SINDS', 'SINED',
-    'SINES', 'SINEW', 'SINGE', 'SINGS', 'SINHS', 'SINKS', 'SINKY', 'SINUS', 'SIPED', 'SIPES',
+    'SINES', 'SINEW', 'SINGS', 'SINHS', 'SINKS', 'SINKY', 'SINUS', 'SIPED', 'SIPES',
     'SIPPY', 'SIRED', 'SIREE', 'SIREN', 'SIRES', 'SIRIH', 'SIRIS', 'SIROC', 'SIRRA', 'SIRUP',
     'SISAL', 'SISES', 'SISSY', 'SISTA', 'SISTS', 'SITAR', 'SITED', 'SITES', 'SITHE', 'SITKA',
     'SITUP', 'SITUS', 'SIVER', 'SIXER', 'SIXES', 'SIXMO', 'SIXTE', 'SIXTH', 'SIXTY', 'SIZAR',
@@ -13410,6 +13410,11 @@ export const wordleWords = [
         myScore: 3,
         wordNumber: 1748,
       }, 
+      { word: "SINGE",
+        gameDate: "4/3/26",
+        myScore: 2,
+        wordNumber: 1749,
+      }, 
  
   ];
 
@@ -13426,7 +13431,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("April 2, 2026: Trump sux dykk000000000! SOBER")
+console.log("April 3, 2026: Trump sux dykk000000000! SINGE")
 
 
 console.log(wordleWords)
