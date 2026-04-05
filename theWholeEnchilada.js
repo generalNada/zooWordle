@@ -1,5 +1,4 @@
 
-
 export const fixedWordsLarge = [
     'QQQQQ', 'ZZZZZ', 'JJJJJ', 'QQZZJ', 'KKKJJ', 'JQQZZ', 'JZZQQ', 'QQJZZ', 'ZZJQQ', 'QQJZX',   
     'AAHED', 'AALII', 'AARGH', 'AARTI', 'ABACA', 'ABACI', 'ABACK', 'ABACS', 'ABAFT', 'ABAKA',
@@ -1637,7 +1636,7 @@ export const dailyWordsSmall = [
 'EARLY', 'EARTH', 'EASEL', 'EATER', 'EBONY', 'ECLAT', 'EDICT', 'EDIFY', 'EERIE',
 'EGRET', 'EIGHT', 'EJECT', 'EKING', 'ELATE', 'ELBOW', 'ELDER', 'ELECT', 'ELEGY', 'ELFIN',
 'ELIDE', 'ELITE', 'ELOPE', 'ELUDE', 'EMAIL', 'EMBER', 'EMCEE', 'EMPTY', 'ENACT',
-'ENDOW', 'ENEMA', 'ENEMY', 'ENJOY', 'ENNUI', 'ENSUE', 'ENTER', 'ENTRY', 'ENVOY', 'EPOCH',
+'ENDOW', 'ENEMA', 'ENEMY', 'ENJOY', 'ENNUI', 'ENSUE', 'ENTER', 'ENTRY', 'EPOCH',
 'EPOXY', 'EQUAL', 'EQUIP', 'ERASE', 'ERECT', 'ERODE', 'ERROR', 'ERUPT', 'ESSAY', 'ESTER',
 'ETHER', 'ETHIC', 'ETHOS', 'ETUDE', 'EVADE', 'EVENT', 'EVERY', 'EVICT', 'EVOKE', 'EXACT',
 'EXALT', 'EXCEL', 'EXERT', 'EXILE', 'EXIST', 'EXPEL', 'EXTOL', 'EXTRA', 'EXULT', 'EYING',
@@ -2162,7 +2161,7 @@ export const dailyWordsLarge = [
     'EMYDS', 'ENACT', 'ENARM', 'ENATE', 'ENDED', 'ENDER', 'ENDEW', 'ENDOW', 'ENDUE', 'ENEMA',
     'ENEMY', 'ENEWS', 'ENFIX', 'ENIAC', 'ENJOY', 'ENLIT', 'ENMEW', 'ENNOG', 'ENNUI', 'ENOKI',
     'ENOLS', 'ENORM', 'ENOWS', 'ENROL', 'ENSEW', 'ENSKY', 'ENSUE', 'ENTER', 'ENTIA', 'ENTRY',
-    'ENURE', 'ENURN', 'ENVOI', 'ENVOY', 'ENZYM', 'EORLS', 'EOSIN', 'EPACT', 'EPEES', 'EPHAH',
+    'ENURE', 'ENURN', 'ENVOI', 'ENZYM', 'EORLS', 'EOSIN', 'EPACT', 'EPEES', 'EPHAH',
     'EPHAS', 'EPHOD', 'EPHOR', 'EPICS', 'EPOCH', 'EPODE', 'EPOPT', 'EPOXY', 'EPRIS', 'EQUAL',
     'EQUES', 'EQUID', 'EQUIP', 'ERASE', 'ERBIA', 'ERECT', 'EREVS', 'ERGON', 'ERGOS', 'ERGOT',
     'ERHUS', 'ERICA', 'ERICK', 'ERICS', 'ERING', 'ERNED', 'ERNES', 'ERODE', 'EROSE', 'ERRED',
@@ -13420,6 +13419,11 @@ export const wordleWords = [
         myScore: 3,
         wordNumber: 1750,
       }, 
+      { word: "ENVOY",
+        gameDate: "4/5/26",
+        myScore: 4,
+        wordNumber: 1751,
+      }, 
  
   ];
 
@@ -13436,7 +13440,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("April 4, 2026: Trump sux dykk000000000! SANDY")
+console.log("April 5, 2026: Trump sux dykk000000000! ENVOY")
 
 
 console.log(wordleWords)
