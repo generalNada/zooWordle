@@ -58,7 +58,8 @@ my_list = {
     'EATEN', 'EBONY', 'EDIFY', 'EGRET', 'EIGHT', 'EJECT', 'ELATE', 'ELBOW', 'ELDER', 'ELITE', 
     'ELOPE',
     'ELUDE', 'EMAIL', 'EMBED', 'EMBER', 'EMPTY', 'ENACT', 'ENDOW', 'ENEMA', 'ENJOY', 'ENNUI',
-    'ENSUE', 'ENTER', 'EPOCH', 'EPOXY', 'EQUAL', 'EQUIP', 'ERASE', 'ERODE', 'ERROR', 'ERUPT',
+    'ENSUE', 'ENTER', 'ENVOY', 'EPOCH', 'EPOXY', 'EQUAL', 'EQUIP', 'ERASE', 'ERODE', 'ERROR', 
+    'ERUPT',
     'ESSAY', 'ETHER', 'ETHIC', 'ETHOS', 'EVADE', 'EVERY', 'EVOKE', 'EXACT', 'EXALT', 'EXCEL',
     'EXERT', 'EXILE', 'EXIST', 'EXPEL', 'EXTOL', 'EXTRA', 'EVENT', 'EXULT', 'FABLE', 'FACET',
     'FAINT', 'FAITH', 'FALSE', 'FANCY', 'FARCE', 'FAULT', 'FAVOR', 'FEAST', 'FEIGN', 'FERAL',
@@ -203,7 +204,7 @@ my_list = {
     'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'SANDY'
+word_to_find = 'ENVOY'
 
 
 if word_to_find in my_list:
