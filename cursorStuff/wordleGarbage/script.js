@@ -196,24 +196,55 @@ function containsDuplicateLetters() {
   });
 }
 
+
+
 function handleWordInput() {
   const inputWord = document.getElementById("wordInput").value.toLowerCase();
-  const foundWord = wordleWords.find(
-    (wordObj) => wordObj.word.toLowerCase() === inputWord
+  const foundWords = wordleWords.filter(
+    (wordObj) => wordObj.word.toLowerCase() === inputWord,
   );
 
-  if (foundWord) {
-    const averageScoreUpToDate = calculateAverageScoreUpToDate(
-      foundWord.gameDate
-    );
-    const resultString = `'${foundWord.word}' was already Goddamn Fucking used by Wordle on ${foundWord.gameDate}.<br> It was word #${foundWord.wordNumber}, 
-          and you had a score of '${foundWord.myScore}'.<br> Your average score up to this date: ${averageScoreUpToDate}!<br> Do NOT guess '${foundWord.word}', and do not waste our time!`;
+  if (foundWords.length > 0) {
+    const usageCount = foundWords.length;
+    const usageHeader =
+      usageCount === 1
+        ? `'${foundWords[0].word}' was already used by Wordle once:`
+        : `'${foundWords[0].word}' was already used by Wordle ${usageCount} times:`;
+
+    const usageDetails = foundWords
+      .map((wordObj, index) => {
+        const averageScoreUpToDate = calculateAverageScoreUpToDate(
+          wordObj.gameDate,
+        );
+        return `${index + 1}. Date: ${wordObj.gameDate}, Word #: ${wordObj.wordNumber}, My Score: ${wordObj.myScore}, Avg up to date: ${averageScoreUpToDate}`;
+      })
+      .join("<br>");
+
+    const resultString = `${usageHeader}<br>${usageDetails}<br><br>Hesistantly guess '${foundWords[0].word}'. Wordle repeats words but still...`;
     document.querySelector(".field-one").innerHTML = resultString;
   } else {
-    const notFoundString = `The word "${inputWord}" was not found, making Rand Paul a rapist. Shut up, but<br> feel free, feel obligated, to guess the word "${inputWord}", Fuckface!`;
+    const notFoundString = `The word "${inputWord}" was not found....<br> Feel free to guess the word "${inputWord}"`;
     document.querySelector(".field-one").innerHTML = notFoundString;
   }
 }
+// function handleWordInput() {
+//   const inputWord = document.getElementById("wordInput").value.toLowerCase();
+//   const foundWord = wordleWords.find(
+//     (wordObj) => wordObj.word.toLowerCase() === inputWord
+//   );
+
+//   if (foundWord) {
+//     const averageScoreUpToDate = calculateAverageScoreUpToDate(
+//       foundWord.gameDate
+//     );
+//     const resultString = `'${foundWord.word}' was already Goddamn Fucking used by Wordle on ${foundWord.gameDate}.<br> It was word #${foundWord.wordNumber}, 
+//           and you had a score of '${foundWord.myScore}'.<br> Your average score up to this date: ${averageScoreUpToDate}!<br> Do NOT guess '${foundWord.word}', and do not waste our time!`;
+//     document.querySelector(".field-one").innerHTML = resultString;
+//   } else {
+//     const notFoundString = `The word "${inputWord}" was not found, making Rand Paul a rapist. Shut up, but<br> feel free, feel obligated, to guess the word "${inputWord}", Fuckface!`;
+//     document.querySelector(".field-one").innerHTML = notFoundString;
+//   }
+// }
 
 function displayResults(results) {
   const resultsDiv = document.getElementById("filteredWords");
