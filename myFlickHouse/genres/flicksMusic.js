@@ -549,4 +549,26 @@ const flicksMusic = [
     downloadUrl:
       "https://www.dropbox.com/scl/fi/2jhbieam2g8yjcbtb73ja/moonlightSonataGuitar.mp4?rlkey=lcw71qo4hz2gw1kxjg41q7yvw&st=1psvgvhv&dl=0",
   },
+  {
+    ref: 1006,
+    title: "God And The Broken Ribs - Jack White - SNL",
+    year: 2026,
+    genre: "Music",
+    collection: "Good Tunes",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/mnlfxsc8lz4ha8p73uks9/JackWhiteG.O.D.AndTheBrokenRibs-Live-SNL.mp4?rlkey=qp7b2x8c36ne8njqj7037hyjz&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/mnlfxsc8lz4ha8p73uks9/JackWhiteG.O.D.AndTheBrokenRibs-Live-SNL.mp4?rlkey=qp7b2x8c36ne8njqj7037hyjz&dl=0",
+  },
+  {
+    ref: 1007,
+    title: "Derecho Delmonico - Jack White - SNL",
+    year: 2026,
+    genre: "Music",
+    collection: "Good Tunes",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/h52wyhybd3fzy91gk6eb9/JackWhiteDerechoDemonico-Live-SNL.mp4?rlkey=6luh8erfevv8qc071cqc9xl52&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/h52wyhybd3fzy91gk6eb9/JackWhiteDerechoDemonico-Live-SNL.mp4?rlkey=6luh8erfevv8qc071cqc9xl52&dl=0",
+  },
 ];
