@@ -165,7 +165,7 @@ body {
 .whole-box-2 {
   font-family: "Maiden Orange", serif;
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa7eq_RFQosh2otCMc3H57FTCUjqX9mDmRKw&s);
-   background-size: 100%;
+  background-size: 100%;
   padding: 0.5rem;
 }
 
@@ -2038,12 +2038,18 @@ body {
 }
 
 .whole-box-314 {
-  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDtEXWIeF_Jn0qzy2_UxfZC-k-TPlVBPl3OQ&s);
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuK9EU8gdukvVQxJ9UFXY8OS-Cwo22wkJexA&s);
   background-size: fit-content;
   padding: 0.55rem;
 }
 
 .whole-box-315 {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDtEXWIeF_Jn0qzy2_UxfZC-k-TPlVBPl3OQ&s);
+  background-size: fit-content;
+  padding: 0.55rem;
+}
+
+.whole-box-316 {
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtEW1qXT_2RJH4SmS8mfB53W0Xsf1lpsHTtA&s);
   background-size: fit-content;
   padding: 0.55rem;
@@ -5477,7 +5483,6 @@ body {
   opacity: 0.77;
 }
 
-
 .line-193a {
   background-color: silver;
   color: chartreuse;
@@ -5515,38 +5520,38 @@ body {
 }
 
 .line-195a {
-  background-color: rgb(210, 214, 90); 
-  color: rgb(60, 60, 10);  
+  background-color: rgb(210, 214, 90);
+  color: rgb(60, 60, 10);
   opacity: 0.77;
 }
 
 .line-195b {
-  background-color: rgb(210, 214, 90); 
-  color: rgb(60, 60, 10);  
+  background-color: rgb(210, 214, 90);
+  color: rgb(60, 60, 10);
   opacity: 0.77;
 }
 
 .line-195c {
-  background-color: rgb(210, 214, 90); 
-  color: rgb(60, 60, 10);               
+  background-color: rgb(210, 214, 90);
+  color: rgb(60, 60, 10);
   opacity: 0.77;
 }
 
 .line-196a {
-  background-color: black; 
-  color: white;  
+  background-color: black;
+  color: white;
   opacity: 0.77;
 }
 
 .line-196b {
-  background-color: black; 
-  color: white;   
+  background-color: black;
+  color: white;
   opacity: 0.77;
 }
 
 .line-196c {
-  background-color: black; 
-  color: white;              
+  background-color: black;
+  color: white;
   opacity: 0.77;
 }
 
@@ -5558,13 +5563,13 @@ body {
 
 .line-197b {
   background-color: pink;
-  color: green;  
+  color: green;
   opacity: 0.77;
 }
 
 .line-197c {
   background-color: pink;
-  color: green;          
+  color: green;
   opacity: 0.77;
 }
 
@@ -5582,7 +5587,7 @@ body {
 
 .line-198c {
   background-color: rgb(130, 42, 31);
-  color: rgb(188, 119, 37);      
+  color: rgb(188, 119, 37);
   opacity: 0.77;
 }
 
@@ -5600,7 +5605,7 @@ body {
 
 .line-199c {
   background-color: rgb(12, 202, 151);
-  color: rgb(206, 42, 61);    
+  color: rgb(206, 42, 61);
   opacity: 0.77;
 }
 
@@ -5618,7 +5623,7 @@ body {
 
 .line-200c {
   background-color: #754a6b;
-  color: wheat;   
+  color: wheat;
   opacity: 0.77;
 }
 
@@ -5642,571 +5647,571 @@ body {
 
 .line-202a {
   background-color: moccasin;
-  color: rgb(47,79,79);
+  color: rgb(47, 79, 79);
   opacity: 0.77;
 }
 
 .line-202b {
   background-color: moccasin;
-  color: rgb(47,79,79);
+  color: rgb(47, 79, 79);
   opacity: 0.77;
 }
 
 .line-202c {
   background-color: moccasin;
-  color: rgb(47,79,79);
+  color: rgb(47, 79, 79);
   opacity: 0.77;
 }
 
 .line-203a {
-  background-color: rgb(47,79,79);
+  background-color: rgb(47, 79, 79);
   color: moccasin;
   opacity: 0.77;
 }
 
 .line-203b {
-  background-color: rgb(47,79,79);
+  background-color: rgb(47, 79, 79);
   color: moccasin;
   opacity: 0.77;
 }
 
 .line-203c {
-  background-color: rgb(47,79,79);
+  background-color: rgb(47, 79, 79);
   color: moccasin;
   opacity: 0.77;
 }
 
 .line-204a {
-  background-color: #D9DADB; 
-  color: #B11226; 
+  background-color: #d9dadb;
+  color: #b11226;
   opacity: 0.77;
 }
 
 .line-204b {
-  background-color: #D9DADB; 
-  color: #B11226; 
+  background-color: #d9dadb;
+  color: #b11226;
   opacity: 0.77;
 }
 
 .line-204c {
-  background-color: #D9DADB; 
-  color: #B11226;           
+  background-color: #d9dadb;
+  color: #b11226;
   opacity: 0.77;
 }
 
 .line-205a {
   background-color: #101820;
-  color: #FEE715;  
+  color: #fee715;
   opacity: 0.77;
 }
 
 .line-205b {
   background-color: #101820;
-  color: #FEE715;  
+  color: #fee715;
   opacity: 0.77;
 }
 
 .line-205c {
   background-color: #101820;
-  color: #FEE715;            
+  color: #fee715;
   opacity: 0.77;
 }
 
 .line-206a {
-  background-color: black; 
-  color: white;           
+  background-color: black;
+  color: white;
   opacity: 0.77;
 }
 
 .line-206b {
-  background-color: black; 
-  color: white;           
+  background-color: black;
+  color: white;
   opacity: 0.77;
 }
 
 .line-206c {
-  background-color: black; 
-  color: white;            
+  background-color: black;
+  color: white;
   opacity: 0.77;
 }
 
 .line-207a {
-  background-color: #151A1E; 
-  color: #B3B8BF;               
+  background-color: #151a1e;
+  color: #b3b8bf;
   opacity: 0.77;
 }
 
 .line-207b {
-  background-color: #151A1E; 
-  color: #B3B8BF;       
+  background-color: #151a1e;
+  color: #b3b8bf;
   opacity: 0.77;
 }
 
 .line-207c {
-  background-color: #151A1E; 
-  color: #B3B8BF;          
+  background-color: #151a1e;
+  color: #b3b8bf;
   opacity: 0.77;
 }
 
 .line-208a {
-  background-color: #171B20;
-  color: #D0CBC4;
-  font-style: italic;               
+  background-color: #171b20;
+  color: #d0cbc4;
+  font-style: italic;
   opacity: 0.77;
 }
 
 .line-208b {
-  background-color: #171B20;
-  color: #D0CBC4;
-  font-style: italic;     
+  background-color: #171b20;
+  color: #d0cbc4;
+  font-style: italic;
   opacity: 0.77;
 }
 
 .line-208c {
-  background-color: #171B20;
-  color: #D0CBC4;
-  font-style: italic;           
+  background-color: #171b20;
+  color: #d0cbc4;
+  font-style: italic;
   opacity: 0.77;
 }
 
 .line-209a {
-  background-color: #24282D;
-  color: #E1E4E8;         
-  font-style: italic;               
+  background-color: #24282d;
+  color: #e1e4e8;
+  font-style: italic;
   opacity: 0.77;
 }
 
 .line-209b {
-  background-color: #24282D;
-  color: #E1E4E8;           
-  font-style: italic;     
+  background-color: #24282d;
+  color: #e1e4e8;
+  font-style: italic;
   opacity: 0.77;
 }
 
 .line-209c {
-  background-color: #24282D;
-  color: #E1E4E8;         
-  font-style: italic;           
+  background-color: #24282d;
+  color: #e1e4e8;
+  font-style: italic;
   opacity: 0.77;
 }
 
 .line-210a {
-  background-color: #171B20;
-  color: #3EE6C1;           
-  font-style: italic;               
+  background-color: #171b20;
+  color: #3ee6c1;
+  font-style: italic;
   opacity: 0.77;
 }
 
 .line-210b {
-  background-color: #171B20;
-  color: #3EE6C1;         
-  font-style: italic;     
+  background-color: #171b20;
+  color: #3ee6c1;
+  font-style: italic;
   opacity: 0.77;
 }
 
 .line-210c {
-  background-color: #171B20;
-  color: #3EE6C1;         
-  font-style: italic;           
+  background-color: #171b20;
+  color: #3ee6c1;
+  font-style: italic;
   opacity: 0.77;
 }
 
 .line-211a {
   background-color: rgb(19, 24, 101);
-  color: rgb(109, 240, 110);       
-  font-style: italic;               
+  color: rgb(109, 240, 110);
+  font-style: italic;
   opacity: 0.77;
 }
 
 .line-211b {
   background-color: rgb(19, 24, 101);
-  color: rgb(109, 240, 110);      
-  font-style: italic;     
+  color: rgb(109, 240, 110);
+  font-style: italic;
   opacity: 0.77;
 }
 
 .line-211c {
   background-color: rgb(19, 24, 101);
-  color: rgb(109, 240, 110);        
-  font-style: italic;           
+  color: rgb(109, 240, 110);
+  font-style: italic;
   opacity: 0.77;
 }
 
 .line-212a {
   background-color: rgb(24, 24, 24);
-  color: rgb(100, 100, 100);       
-  font-style: italic;               
+  color: rgb(100, 100, 100);
+  font-style: italic;
   opacity: 0.77;
 }
 
 .line-212b {
   background-color: rgb(24, 24, 24);
-  color: rgb(100, 100, 100);       
-  font-style: italic;     
+  color: rgb(100, 100, 100);
+  font-style: italic;
   opacity: 0.77;
 }
 
 .line-212c {
   background-color: rgb(24, 24, 24);
-  color: rgb(100, 100, 100);        
-  font-style: italic;           
+  color: rgb(100, 100, 100);
+  font-style: italic;
   opacity: 0.77;
 }
 
 .line-213a {
   background-color: rgb(17, 217, 222);
-  color: rgb(190, 210, 211);    
-  font-style: oblique;               
+  color: rgb(190, 210, 211);
+  font-style: oblique;
   opacity: 0.77;
 }
 
 .line-213b {
   background-color: rgb(17, 217, 222);
-  color: rgb(190, 210, 211);  
-  font-style: oblique;    
+  color: rgb(190, 210, 211);
+  font-style: oblique;
   opacity: 0.77;
 }
 
 .line-213c {
   background-color: rgb(17, 217, 222);
-  color: rgb(190, 210, 211);       
-  font-style: oblique;      
+  color: rgb(190, 210, 211);
+  font-style: oblique;
   opacity: 0.77;
 }
 
 .line-214a {
   background-color: rgb(170, 217, 222);
-  color: rgb(190, 21, 111);    
-  font-style: oblique;               
+  color: rgb(190, 21, 111);
+  font-style: oblique;
   opacity: 0.77;
 }
 
 .line-214b {
   background-color: rgb(170, 217, 222);
-  color: rgb(190, 21, 111);  
-  font-style: oblique;    
+  color: rgb(190, 21, 111);
+  font-style: oblique;
   opacity: 0.77;
 }
 
 .line-214c {
   background-color: rgb(170, 217, 222);
-  color: rgb(190, 21, 111);       
-  font-style: oblique;      
+  color: rgb(190, 21, 111);
+  font-style: oblique;
   opacity: 0.77;
 }
 
 .line-215a {
   background-color: chartreuse;
-  color: crimson;    
-  font-style: oblique;               
+  color: crimson;
+  font-style: oblique;
   opacity: 0.77;
 }
 
 .line-215b {
   background-color: chartreuse;
-  color: crimson;  
-  font-style: oblique;    
+  color: crimson;
+  font-style: oblique;
   opacity: 0.77;
 }
 
 .line-215c {
   background-color: chartreuse;
-  color: crimson;     
-  font-style: oblique;      
+  color: crimson;
+  font-style: oblique;
   opacity: 0.77;
 }
 
 .line-216a {
   background-color: crimson;
-  color: chartreuse;    
-  font-style: italic;               
+  color: chartreuse;
+  font-style: italic;
   opacity: 0.77;
 }
 
 .line-216b {
   background-color: crimson;
-  color: chartreuse;  
-  font-style: italic;               
+  color: chartreuse;
+  font-style: italic;
   opacity: 0.77;
 }
 
 .line-216c {
   background-color: crimson;
-  color: chartreuse;     
-  font-style: italic;               
+  color: chartreuse;
+  font-style: italic;
   opacity: 0.77;
 }
 
 .line-217a {
   background-color: yellow;
-  color: purple;   
-  font-style: italic;               
+  color: purple;
+  font-style: italic;
   opacity: 0.77;
 }
 
 .line-217b {
   background-color: yellow;
   color: purple;
-  font-style: italic;               
+  font-style: italic;
   opacity: 0.77;
 }
 
 .line-217c {
   background-color: yellow;
-  color: purple;    
-  font-style: italic;               
+  color: purple;
+  font-style: italic;
   opacity: 0.77;
 }
 
 .line-218a {
   background-color: orange;
-  color: green;   
-  font-style: italic;               
+  color: green;
+  font-style: italic;
   opacity: 0.77;
 }
 
 .line-218b {
   background-color: orange;
-  color: green;  
-  font-style: italic;               
+  color: green;
+  font-style: italic;
   opacity: 0.77;
 }
 
 .line-218c {
   background-color: orange;
-  color: green;     
-  font-style: italic;               
+  color: green;
+  font-style: italic;
   opacity: 0.77;
 }
 
 .line-219a {
   background-color: wheat;
   color: blue;
-  font-style: oblique;               
+  font-style: oblique;
   opacity: 0.77;
 }
 
 .line-219b {
   background-color: wheat;
   color: blue;
-  font-style: oblique;               
+  font-style: oblique;
   opacity: 0.77;
 }
 
 .line-219c {
   background-color: wheat;
-  color: blue;    
-  font-style: oblique;               
+  color: blue;
+  font-style: oblique;
   opacity: 0.77;
 }
 
 .line-220a {
   background-color: black;
   color: white;
-  font-style: oblique;               
+  font-style: oblique;
   opacity: 0.77;
 }
 
 .line-220b {
   background-color: black;
   color: white;
-  font-style: oblique;               
+  font-style: oblique;
   opacity: 0.77;
 }
 
 .line-220c {
   background-color: black;
-  color: white;  
-  font-style: oblique;               
+  color: white;
+  font-style: oblique;
   opacity: 0.77;
 }
 
 .line-221a {
   background-color: rgb(20, 22, 11);
   color: rgb(190, 190, 190);
-  font-style: italic;               
+  font-style: italic;
   opacity: 0.77;
 }
 
 .line-221b {
   background-color: rgb(20, 22, 11);
   color: rgb(190, 190, 190);
-  font-style: italic;              
+  font-style: italic;
   opacity: 0.77;
 }
 
 .line-221c {
   background-color: rgb(20, 22, 11);
   color: rgb(190, 190, 190);
-  font-style: italic;              
+  font-style: italic;
   opacity: 0.77;
 }
 
 .line-222a {
   background-color: mahogany;
   color: pink;
-  font-style: italic;               
+  font-style: italic;
   opacity: 0.77;
 }
 
 .line-222b {
   background-color: mahogany;
   color: pink;
-  font-style: italic;              
+  font-style: italic;
   opacity: 0.77;
 }
 
 .line-222c {
   background-color: mahogany;
   color: pink;
-  font-style: italic;              
+  font-style: italic;
   opacity: 0.77;
 }
 
 .line-223a {
   background-color: rgb(77, 12, 21);
   color: rgb (15, 142, 16);
-  font-style: italic;               
+  font-style: italic;
   opacity: 0.77;
 }
 
 .line-223b {
   background-color: rgb(77, 12, 21);
   color: rgb (15, 142, 16);
-  font-style: italic;              
+  font-style: italic;
   opacity: 0.77;
 }
 
 .line-223c {
   background-color: rgb(77, 12, 21);
   color: rgb (15, 142, 16);
-  font-style: italic;              
+  font-style: italic;
   opacity: 0.77;
 }
 
 .line-224a {
   background-color: rgb(18, 11, 95);
   color: rgb(93, 164, 15);
-  font-style: italic;               
+  font-style: italic;
   opacity: 0.77;
 }
 
 .line-224b {
   background-color: rgb(18, 11, 95);
   color: rgb(93, 164, 15);
-  font-style: italic;              
+  font-style: italic;
   opacity: 0.77;
 }
 
 .line-224c {
   background-color: rgb(18, 11, 95);
   color: rgb(93, 164, 15);
-  font-style: italic;              
+  font-style: italic;
   opacity: 0.77;
 }
 
 .line-225a {
   background-color: rgb(10, 42, 31);
   color: rgb(188, 19, 37);
-  font-style: italic;               
+  font-style: italic;
   opacity: 0.77;
 }
 
 .line-225b {
   background-color: rgb(10, 42, 31);
   color: rgb(188, 19, 37);
-  font-style: italic;              
+  font-style: italic;
   opacity: 0.77;
 }
 
 .line-225c {
   background-color: rgb(10, 42, 31);
   color: rgb(188, 19, 37);
-  font-style: italic;              
+  font-style: italic;
   opacity: 0.77;
 }
 
 .line-226a {
   background-color: chartreuse;
   color: silver;
-  font-style: italic;               
+  font-style: italic;
   opacity: 0.77;
 }
 
 .line-226b {
   background-color: chartreuse;
   color: silver;
-  font-style: italic;              
+  font-style: italic;
   opacity: 0.77;
 }
 
 .line-226c {
   background-color: chartreuse;
   color: silver;
-  font-style: italic;              
+  font-style: italic;
   opacity: 0.77;
 }
 
 .line-227a {
   background-color: red;
   color: navy;
-  font-style: italic;               
+  font-style: italic;
   opacity: 0.77;
 }
 
 .line-227b {
   background-color: red;
   color: navy;
-  font-style: italic;              
+  font-style: italic;
   opacity: 0.77;
 }
 
 .line-227c {
   background-color: red;
   color: navy;
-  font-style: italic;              
+  font-style: italic;
   opacity: 0.77;
 }
 
 .line-228a {
   background-color: rgb(178, 141, 85);
   color: rgb(30, 3, 35);
-  font-style: italic;               
+  font-style: italic;
   opacity: 0.77;
 }
 
 .line-228b {
   background-color: rgb(178, 141, 85);
   color: rgb(30, 3, 35);
-  font-style: italic;              
+  font-style: italic;
   opacity: 0.77;
 }
 
 .line-228c {
   background-color: rgb(178, 141, 85);
   color: rgb(30, 3, 35);
-  font-style: italic;              
+  font-style: italic;
   opacity: 0.77;
 }
 
 .line-229a {
   background-color: wheat;
   color: blue;
-  font-style: oblique;               
+  font-style: oblique;
   opacity: 0.77;
 }
 
 .line-229b {
   background-color: wheat;
   color: blue;
-  font-style: oblique;              
+  font-style: oblique;
   opacity: 0.77;
 }
 
 .line-229c {
   background-color: wheat;
   color: blue;
-  font-style: oblique;              
+  font-style: oblique;
   opacity: 0.77;
 }
 
@@ -6215,7 +6220,7 @@ body {
 .line-230c {
   background-color: black;
   color: white;
-  font-style: oblique;              
+  font-style: oblique;
   opacity: 0.77;
 }
 
@@ -6224,7 +6229,7 @@ body {
 .line-231c {
   background-color: rgb(130, 142, 31);
   color: rgb(188, 19, 37);
-  font-style: oblique;              
+  font-style: oblique;
   opacity: 0.77;
 }
 
@@ -6233,7 +6238,7 @@ body {
 .line-232c {
   background-color: rgb(19, 232, 141);
   color: rgb(29, 41, 90);
-  font-style: oblique;              
+  font-style: oblique;
   opacity: 0.77;
 }
 
@@ -6242,7 +6247,7 @@ body {
 .line-233c {
   background-color: rgb(137, 120, 171);
   color: rgb(29, 21, 100);
-  font-style: oblique;              
+  font-style: oblique;
   opacity: 0.77;
 }
 
@@ -6251,7 +6256,7 @@ body {
 .line-234c {
   background-color: yellow;
   color: green;
-  font-style: oblique;              
+  font-style: oblique;
   opacity: 0.77;
 }
 
@@ -6260,7 +6265,7 @@ body {
 .line-235c {
   background-color: mahogany;
   color: pink;
-  font-style: italic;              
+  font-style: italic;
   opacity: 0.77;
 }
 
@@ -6269,7 +6274,7 @@ body {
 .line-236c {
   background-color: rgb(19, 24, 101);
   color: rgb(19, 160, 200);
-  font-style: italic;              
+  font-style: italic;
   opacity: 0.77;
 }
 
@@ -6278,7 +6283,7 @@ body {
 .line-237c {
   background-color: cornflowerblue;
   color: wheat;
-  font-style: italic;              
+  font-style: italic;
   opacity: 0.77;
 }
 
@@ -6287,7 +6292,7 @@ body {
 .line-238c {
   background-color: wheat;
   color: cornflowerblue;
-  font-style: italic;              
+  font-style: italic;
   opacity: 0.77;
 }
 
@@ -6296,7 +6301,7 @@ body {
 .line-239c {
   background-color: rgb(212, 12, 11);
   color: rgb(10, 31, 20);
-  font-style: italic;              
+  font-style: italic;
   opacity: 0.77;
 }
 
@@ -6305,7 +6310,7 @@ body {
 .line-240c {
   background-color: rgb(11, 11, 11);
   color: rgb(221, 241, 252);
-  font-style: italic;              
+  font-style: italic;
   opacity: 0.77;
 }
 
@@ -6314,7 +6319,7 @@ body {
 .line-241c {
   background-color: black;
   color: red;
-  font-style: italic;              
+  font-style: italic;
   opacity: 0.77;
 }
 
@@ -6323,7 +6328,7 @@ body {
 .line-242c {
   background-color: navy;
   color: dodgerblue;
-  font-style: italic;              
+  font-style: italic;
   opacity: 0.77;
 }
 
@@ -6332,7 +6337,7 @@ body {
 .line-243c {
   background-color: rgb(17, 122, 94);
   color: rgb(30, 19, 129);
-  font-style: italic;              
+  font-style: italic;
   opacity: 0.77;
 }
 
@@ -6340,8 +6345,8 @@ body {
 .line-244b,
 .line-244c {
   background-color: #101820;
-  color: #FEE715;  
-  font-style: italic;              
+  color: #fee715;
+  font-style: italic;
   opacity: 0.77;
 }
 
@@ -6349,8 +6354,8 @@ body {
 .line-245b,
 .line-245c {
   background-color: rgb(17, 217, 222);
-  color: rgb(190, 210, 211); 
-  font-style: italic;              
+  color: rgb(190, 210, 211);
+  font-style: italic;
   opacity: 0.77;
 }
 
@@ -6359,7 +6364,7 @@ body {
 .line-246c {
   background-color: rgb(211, 211, 211);
   color: rgb(2, 2, 2);
-  font-style: oblique;                
+  font-style: oblique;
   opacity: 0.77;
 }
 
@@ -6367,8 +6372,8 @@ body {
 .line-247b,
 .line-247c {
   background-color: chartreuse;
-  color: crimson;  
-  font-style: oblique;                
+  color: crimson;
+  font-style: oblique;
   opacity: 0.77;
 }
 
@@ -6376,8 +6381,8 @@ body {
 .line-248b,
 .line-248c {
   background-color: grey;
-  color: black; 
-  font-style: italic;               
+  color: black;
+  font-style: italic;
   opacity: 0.77;
 }
 
@@ -6385,8 +6390,8 @@ body {
 .line-249b,
 .line-249c {
   background-color: orange;
-  color: green;   
-  font-style: italic;               
+  color: green;
+  font-style: italic;
   opacity: 0.77;
 }
 
@@ -6394,8 +6399,8 @@ body {
 .line-250b,
 .line-250c {
   background-color: wheat;
-  color: blue; 
-  font-style: italic;               
+  color: blue;
+  font-style: italic;
   opacity: 0.77;
 }
 
@@ -6403,8 +6408,8 @@ body {
 .line-251b,
 .line-251c {
   background-color: rgb(170, 217, 222);
-  color: rgb(190, 21, 111); 
-  font-style: italic;               
+  color: rgb(190, 21, 111);
+  font-style: italic;
   opacity: 0.77;
 }
 
@@ -6412,8 +6417,8 @@ body {
 .line-252b,
 .line-252c {
   background-color: rgb(170, 217, 222);
-  color: rgb(190, 21, 111); 
-  font-style: italic;               
+  color: rgb(190, 21, 111);
+  font-style: italic;
   opacity: 0.77;
 }
 
@@ -6421,8 +6426,8 @@ body {
 .line-253b,
 .line-253c {
   background-color: chartreuse;
-  color: silver;  
-  font-style: italic;               
+  color: silver;
+  font-style: italic;
   opacity: 0.77;
 }
 
@@ -6431,7 +6436,7 @@ body {
 .line-254c {
   background-color: rgb(42, 162, 161);
   color: rgb(236, 62, 51);
-  font-style: italic;               
+  font-style: italic;
   opacity: 0.77;
 }
 
@@ -6440,7 +6445,7 @@ body {
 .line-255c {
   background-color: pink;
   color: green;
-  font-style: oblique;               
+  font-style: oblique;
   opacity: 0.77;
 }
 
@@ -6448,17 +6453,17 @@ body {
 .line-256b,
 .line-256c {
   background-color: moccasin;
-  color: rgb(47,79,79);
-  font-style: oblique;               
+  color: rgb(47, 79, 79);
+  font-style: oblique;
   opacity: 0.77;
 }
 
 .line-257a,
 .line-257b,
 .line-257c {
-  background-color: #D9DADB; 
-  color: #B11226;  
-  font-style: oblique;               
+  background-color: #d9dadb;
+  color: #b11226;
+  font-style: oblique;
   opacity: 0.77;
 }
 
@@ -6466,8 +6471,8 @@ body {
 .line-258b,
 .line-258c {
   background-color: pink;
-  color: green;  
-  font-style: oblique;               
+  color: green;
+  font-style: oblique;
   opacity: 0.77;
 }
 
@@ -6475,8 +6480,8 @@ body {
 .line-259b,
 .line-259c {
   background-color: orange;
-  color: mahogany;  
-  font-style: oblique;               
+  color: mahogany;
+  font-style: oblique;
   opacity: 0.77;
 }
 
@@ -6485,7 +6490,7 @@ body {
 .line-260c {
   background-color: rgb(12, 202, 151);
   color: rgb(206, 42, 61);
-  font-style: oblique;               
+  font-style: oblique;
   opacity: 0.77;
 }
 
@@ -6494,7 +6499,7 @@ body {
 .line-261c {
   background-color: silver;
   color: chartreuse;
-  font-style: italic;               
+  font-style: italic;
   opacity: 0.77;
 }
 
@@ -6503,7 +6508,7 @@ body {
 .line-262c {
   background-color: rgb(99, 10, 21);
   color: rgb(119, 119, 129);
-  font-style: italic;               
+  font-style: italic;
   opacity: 0.77;
 }
 
@@ -6512,27 +6517,24 @@ body {
 .line-263c {
   background-color: maroon;
   color: whitesmoke;
-  font-style: italic;               
+  font-style: italic;
   opacity: 0.77;
 }
-
 
 .line-264a,
 .line-264b,
 .line-264c {
   background-color: navy;
   color: dodgerblue;
-  font-style: italic;               
+  font-style: italic;
   opacity: 0.77;
 }
 
-
-.line-265a
-.line-265b,
+.line-265a .line-265b,
 .line-265c {
   background-color: blue;
   color: chartreuse;
-  font-style: italic;               
+  font-style: italic;
   opacity: 0.77;
 }
 
@@ -6541,7 +6543,7 @@ body {
 .line-266c {
   background-color: chartreuse;
   color: blue;
-  font-style: oblique;               
+  font-style: oblique;
   opacity: 0.77;
 }
 
@@ -6550,7 +6552,7 @@ body {
 .line-267c {
   background-color: rgb(107, 100, 181);
   color: rgb(119, 200, 100);
-  font-style: oblique;               
+  font-style: oblique;
   opacity: 0.77;
 }
 
@@ -6559,7 +6561,7 @@ body {
 .line-268c {
   background-color: rgb(18, 11, 95);
   color: rgb(93, 164, 15);
-  font-style: oblique;               
+  font-style: oblique;
   opacity: 0.77;
 }
 
@@ -6568,16 +6570,16 @@ body {
 .line-269c {
   background-color: chartreuse;
   color: silver;
-  font-style: oblique;               
+  font-style: oblique;
   opacity: 0.77;
 }
 
-.line-270a, 
+.line-270a,
 .line-270b,
 .line-270c {
   background-color: red;
   color: blue;
-  font-style: oblique;               
+  font-style: oblique;
   opacity: 0.77;
 }
 
@@ -6586,7 +6588,7 @@ body {
 .line-271c {
   background-color: orange;
   color: mahogany;
-  font-style: oblique;               
+  font-style: oblique;
   opacity: 0.77;
 }
 
@@ -6595,7 +6597,7 @@ body {
 .line-272c {
   background-color: rgb(207, 112, 221);
   color: rgb (115, 142, 106);
-  font-style: oblique;               
+  font-style: oblique;
   opacity: 0.77;
 }
 
@@ -6604,7 +6606,7 @@ body {
 .line-273c {
   background-color: rgb(207, 112, 221);
   color: rgb (115, 142, 106);
-  font-style: oblique;               
+  font-style: oblique;
   opacity: 0.77;
 }
 
@@ -6613,17 +6615,16 @@ body {
 .line-274c {
   background-color: black;
   color: white;
-  font-style: oblique;               
+  font-style: oblique;
   opacity: 0.77;
 }
-
 
 .line-275a,
 .line-275b,
 .line-275c {
   background-color: rgb(171, 84, 22);
   color: rgb(234, 240, 238);
-  font-style: oblique;               
+  font-style: oblique;
   opacity: 0.77;
 }
 
@@ -6632,7 +6633,7 @@ body {
 .line-276c {
   background-color: orange;
   color: grey;
-  font-style: oblique;               
+  font-style: oblique;
   opacity: 0.77;
 }
 
@@ -6641,7 +6642,7 @@ body {
 .line-277c {
   background-color: turquoise;
   color: chartreuse;
-  font-style: oblique;               
+  font-style: oblique;
   opacity: 0.77;
 }
 
@@ -6650,7 +6651,7 @@ body {
 .line-278c {
   background-color: blue;
   color: red;
-  font-style: oblique;               
+  font-style: oblique;
   opacity: 0.77;
 }
 
@@ -6659,7 +6660,7 @@ body {
 .line-279c {
   background-color: grey;
   color: black;
-  font-style: italic;               
+  font-style: italic;
   opacity: 0.77;
 }
 
@@ -6668,7 +6669,7 @@ body {
 .line-280c {
   background-color: silver;
   color: navy;
-  font-style: italic;               
+  font-style: italic;
   opacity: 0.77;
 }
 
@@ -6677,7 +6678,7 @@ body {
 .line-281c {
   background-color: yellow;
   color: purple;
-  font-style: italic;               
+  font-style: italic;
   opacity: 0.77;
 }
 
@@ -6686,16 +6687,16 @@ body {
 .line-282c {
   background-color: red;
   color: blue;
-  font-style: oblique;              
+  font-style: oblique;
   opacity: 0.77;
 }
 
 .line-283a,
 .line-283b,
 .line-283c {
-  background-color: black; 
-  color: white;  
-  font-style: oblique;             
+  background-color: black;
+  color: white;
+  font-style: oblique;
   opacity: 0.77;
 }
 
@@ -6703,8 +6704,8 @@ body {
 .line-284b,
 .line-284c {
   background-color: navy;
-  color: dodgerblue; 
-  font-style: oblique;             
+  color: dodgerblue;
+  font-style: oblique;
   opacity: 0.77;
 }
 
@@ -6712,8 +6713,8 @@ body {
 .line-284b,
 .line-284c {
   background-color: navy;
-  color: dodgerblue; 
-  font-style: oblique;             
+  color: dodgerblue;
+  font-style: oblique;
   opacity: 0.77;
 }
 
@@ -6722,7 +6723,7 @@ body {
 .line-285c {
   background-color: yellow;
   color: green;
-  font-style: oblique;             
+  font-style: oblique;
   opacity: 0.77;
 }
 
@@ -6731,7 +6732,7 @@ body {
 .line-286c {
   background-color: cornflowerblue;
   color: wheat;
-  font-style: oblique;             
+  font-style: oblique;
   opacity: 0.77;
 }
 
@@ -6740,7 +6741,7 @@ body {
 .line-287c {
   background-color: rgb(20, 20, 180);
   color: rgb(90, 200, 20);
-  font-style: oblique;             
+  font-style: oblique;
   opacity: 0.77;
 }
 
@@ -6749,7 +6750,7 @@ body {
 .line-288c {
   background-color: rgb(122, 112, 111);
   color: rgb(20, 21, 77);
-  font-style: oblique;             
+  font-style: oblique;
   opacity: 0.77;
 }
 
@@ -6758,7 +6759,7 @@ body {
 .line-289c {
   background-color: blue;
   color: red;
-  font-style: oblique;             
+  font-style: oblique;
   opacity: 0.77;
 }
 
@@ -6767,7 +6768,7 @@ body {
 .line-290c {
   color: silver;
   color: chartreuse;
-  font-style: oblique;             
+  font-style: oblique;
   opacity: 0.77;
 }
 
@@ -6776,7 +6777,7 @@ body {
 .line-291c {
   background-color: mahogany;
   color: pink;
-  font-style: oblique;             
+  font-style: oblique;
   opacity: 0.77;
 }
 
@@ -6785,7 +6786,7 @@ body {
 .line-292c {
   background-color: black;
   color: red;
-  font-style: oblique;             
+  font-style: oblique;
   opacity: 0.77;
 }
 
@@ -6794,7 +6795,7 @@ body {
 .line-293c {
   background-color: navy;
   color: lavender;
-  font-style: oblique;             
+  font-style: oblique;
   opacity: 0.77;
 }
 
@@ -6803,7 +6804,7 @@ body {
 .line-294c {
   background-color: red;
   color: blue;
-  font-style: oblique;             
+  font-style: oblique;
   opacity: 0.77;
 }
 
@@ -6812,7 +6813,7 @@ body {
 .line-295c {
   background-color: black;
   color: white;
-  font-style: oblique;             
+  font-style: oblique;
   opacity: 0.77;
 }
 
@@ -6821,7 +6822,7 @@ body {
 .line-296c {
   background-color: crimson;
   color: rgb(189, 176, 76);
-  font-style: oblique;             
+  font-style: oblique;
   opacity: 0.77;
 }
 
@@ -6830,7 +6831,7 @@ body {
 .line-297c {
   background-color: rgb(11, 11, 11);
   color: rgb(220, 12, 242);
-  font-style: oblique;             
+  font-style: oblique;
   opacity: 0.77;
 }
 
@@ -6839,7 +6840,7 @@ body {
 .line-298c {
   background-color: rgb(77, 12, 21);
   color: rgb (15, 142, 16);
-  font-style: oblique;             
+  font-style: oblique;
   opacity: 0.77;
 }
 
@@ -6848,7 +6849,7 @@ body {
 .line-299c {
   background-color: rgb(12, 212, 171);
   color: rgb(206, 32, 41);
-  font-style: oblique;             
+  font-style: oblique;
   opacity: 0.77;
 }
 
@@ -6857,7 +6858,7 @@ body {
 .line-300c {
   background-color: yellow;
   color: blue;
-  font-style: oblique;             
+  font-style: oblique;
   opacity: 0.77;
 }
 
@@ -6865,8 +6866,8 @@ body {
 .line-301b,
 .line-301c {
   background-color: yellow;
-  color: rgb(100, 100, 100);       
-  font-style: italic;             
+  color: rgb(100, 100, 100);
+  font-style: italic;
   opacity: 0.77;
 }
 
@@ -6874,8 +6875,8 @@ body {
 .line-302b,
 .line-302c {
   background-color: rgb(69, 164, 161);
-  color: rgb(59, 6, 6);       
-  font-style: italic;             
+  color: rgb(59, 6, 6);
+  font-style: italic;
   opacity: 0.77;
 }
 
@@ -6883,8 +6884,8 @@ body {
 .line-303b,
 .line-303c {
   background-color: rgb(18, 11, 95);
-  color: rgb(93, 164, 15);     
-  font-style: italic;             
+  color: rgb(93, 164, 15);
+  font-style: italic;
   opacity: 0.77;
 }
 
@@ -6892,8 +6893,8 @@ body {
 .line-304b,
 .line-304c {
   background-color: yellow;
-  color: purple;   
-  font-style: italic;             
+  color: purple;
+  font-style: italic;
   opacity: 0.77;
 }
 
@@ -6901,8 +6902,8 @@ body {
 .line-305b,
 .line-305c {
   background-color: yellow;
-  color: purple;   
-  font-style: italic;             
+  color: purple;
+  font-style: italic;
   opacity: 0.77;
 }
 
@@ -6910,8 +6911,8 @@ body {
 .line-306b,
 .line-306c {
   background-color: rgb(178, 181, 5);
-  color: rgb(93, 94, 5); 
-  font-style: italic;             
+  color: rgb(93, 94, 5);
+  font-style: italic;
   opacity: 0.77;
 }
 
@@ -6920,7 +6921,7 @@ body {
 .line-307c {
   background-color: rgb(127, 120, 171);
   color: rgb(19, 21, 100);
-  font-style: italic;             
+  font-style: italic;
   opacity: 0.77;
 }
 
@@ -6929,16 +6930,16 @@ body {
 .line-308c {
   background-color: rgb(94, 77, 79);
   color: rgb(200, 138, 184);
-  font-style: italic;             
+  font-style: italic;
   opacity: 0.77;
 }
 
 .line-309a,
 .line-309b,
 .line-309c {
-  background-color: black; 
-  color: white;   
-  font-style: italic;             
+  background-color: black;
+  color: white;
+  font-style: italic;
   opacity: 0.77;
 }
 
@@ -6946,8 +6947,8 @@ body {
 .line-310b,
 .line-310c {
   background-color: rgb(207, 12, 221);
-  color: rgb (115, 142, 116); 
-  font-style: italic;             
+  color: rgb (115, 142, 116);
+  font-style: italic;
   opacity: 0.77;
 }
 
@@ -6956,7 +6957,7 @@ body {
 .line-311c {
   background-color: rgb(22, 202, 161);
   color: rgb(216, 42, 51);
-  font-style: italic;             
+  font-style: italic;
   opacity: 0.77;
 }
 
@@ -6965,7 +6966,7 @@ body {
 .line-312c {
   background-color: rgb(119, 28, 189);
   color: rgb(186, 189, 28);
-  font-style: italic;             
+  font-style: italic;
   opacity: 0.77;
 }
 
@@ -6974,7 +6975,7 @@ body {
 .line-313c {
   background-color: rgb(9, 232, 195);
   color: rgb(79, 124, 227);
-  font-style: italic;             
+  font-style: italic;
   opacity: 0.77;
 }
 
@@ -6983,7 +6984,7 @@ body {
 .line-314c {
   background-color: mahogany;
   color: orange;
-  font-style: italic;             
+  font-style: italic;
   opacity: 0.77;
 }
 
@@ -6992,12 +6993,15 @@ body {
 .line-315c {
   background-color: mahogany;
   color: orange;
-  font-style: italic;             
+  font-style: italic;
   opacity: 0.77;
 }
 
-
-
-
-
-
+.line-316a,
+.line-316b,
+.line-316c {
+  background-color: rgb(237, 14, 111);
+  color: rgb(18, 222, 181);
+  font-style: italic;
+  opacity: 0.77;
+}
