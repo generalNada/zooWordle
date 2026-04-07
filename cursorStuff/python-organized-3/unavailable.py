@@ -174,7 +174,8 @@ my_list = {
     'SUEDE', 'SUGAR', 'SUITE', 'SULKY', 'SULLY', 'SUMAC', 'SUNNY', 'SUPER', 'SURER', 'SURGE',
     'SURLY', 'SUSHI', 'SWAMP', 'SWEAT', 'SWEEP', 'SWEET', 'SWELL', 'SWILL', 'SWINE', 'SWING', 
     'SWIRL',
-    'SWISH', 'SWOON', 'SWOOP', 'SWORD', 'SWUNG', 'SYRUP', 'TABBY', 'TABLE', 'TABOO', 'TACIT',
+    'SWISH', 'SWOON', 'SWOOP', 'SWORD', 'SWORN', 'SWUNG', 'SYRUP', 'TABBY', 'TABLE', 'TABOO', 
+    'TACIT',
     'TACKY', 'TAFFY', 'TAKEN', 'TALLY', 'TALON', 'TANGY', 'TAPER', 'TAPIR', 'TARDY', 'TASTE',
     'TASTY', 'TAUNT', 'TAUPE', 'TAWNY', 'TEACH', 'TEARY', 'TEASE', 'TEETH', 'TEDDY', 'TEMPO', 
     'TENOR',
@@ -204,7 +205,7 @@ my_list = {
     'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'ENVOY'
+word_to_find = 'SWORN'
 
 
 if word_to_find in my_list:
