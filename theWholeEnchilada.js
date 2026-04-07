@@ -1778,7 +1778,7 @@ export const dailyWordsSmall = [
 'STUNT', 'STYLE', 'SUAVE', 'SUEDE', 'SUGAR', 'SUING', 'SUITE', 'SULKY', 'SULLY', 'SUMAC',
 'SUNNY', 'SUPER', 'SURER', 'SURLY', 'SUSHI', 'SWAMI', 'SWARM', 'SWASH',
 'SWATH', 'SWEAR', 'SWEAT', 'SWEEP', 'SWEET', 'SWELL', 'SWEPT', 'SWIFT', 'SWILL', 'SWINE',
-'SWING', 'SWIRL', 'SWISH', 'SWOON', 'SWORD', 'SWORE', 'SWORN', 'SWUNG', 'SYNOD',
+'SWING', 'SWIRL', 'SWISH', 'SWOON', 'SWORD', 'SWORE', 'SWUNG', 'SYNOD',
 'SYRUP', 'TABBY', 'TABLE', 'TABOO', 'TACIT', 'TACKY', 'TAFFY', 'TAINT', 'TAKEN', 'TAKER',
 'TALLY', 'TALON', 'TAMER', 'TANGO', 'TANGY', 'TAPER', 'TAPIR', 'TARDY', 'TAROT', 'TASTE',
 'TASTY', 'TATTY', 'TAUNT', 'TAUPE', 'TAWNY', 'TEACH', 'TEARY', 'TEASE', 'TEETH',
@@ -2925,7 +2925,7 @@ export const dailyWordsLarge = [
     'SWEET', 'SWEIR', 'SWELL', 'SWELT', 'SWEPT', 'SWERF', 'SWEYS', 'SWIES', 'SWIFT', 'SWIGS',
     'SWILE', 'SWILL', 'SWIMS', 'SWINE', 'SWING', 'SWINK', 'SWIPE', 'SWIRE', 'SWIRL', 'SWISH',
     'SWISS', 'SWITH', 'SWITS', 'SWIVE', 'SWIZZ', 'SWOBS', 'SWOLE', 'SWOLN', 'SWOON', 
-    'SWOPS', 'SWOPT', 'SWORD', 'SWORE', 'SWORN', 'SWOTS', 'SWOUN', 'SWUNG', 'SYBBE', 'SYBIL',
+    'SWOPS', 'SWOPT', 'SWORD', 'SWORE', 'SWOTS', 'SWOUN', 'SWUNG', 'SYBBE', 'SYBIL',
     'SYBOE', 'SYBOW', 'SYCEE', 'SYCES', 'SYCON', 'SYENS', 'SYKER', 'SYKES', 'SYLIS', 'SYLPH',
     'SYLVA', 'SYMAR', 'SYNCH', 'SYNCS', 'SYNDS', 'SYNED', 'SYNES', 'SYNOD', 'SYNTH', 'SYPED',
     'SYPES', 'SYPHS', 'SYRAH', 'SYREN', 'SYRUP', 'SYSOP', 'SYTHE', 'SYVER',
@@ -13424,6 +13424,11 @@ export const wordleWords = [
         myScore: 4,
         wordNumber: 1751,
       }, 
+      { word: "SWORN",
+        gameDate: "4/6/26",
+        myScore: 3,
+        wordNumber: 1752,
+      }, 
  
   ];
 
@@ -13440,7 +13445,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("April 5, 2026: Trump sux dykk000000000! ENVOY")
+console.log("April 6, 2026: Trump sux dykk000000000! SWORN")
 
 
 console.log(wordleWords)
