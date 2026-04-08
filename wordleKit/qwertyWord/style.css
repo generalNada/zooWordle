@@ -563,6 +563,221 @@ body.dark-theme ::-webkit-scrollbar-thumb:hover {
   background: rgb(120, 120, 120);
 }
 
+/* Letter use (Wordle history) modal */
+.letter-use-fab {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 8px 16px;
+  border: 1px solid rgb(150, 150, 150);
+  border-radius: 4px;
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-size: 0.9rem;
+  cursor: pointer;
+  z-index: 1001;
+  transition: background 0.2s ease;
+}
+
+.letter-use-fab:hover {
+  background: rgb(240, 240, 240);
+}
+
+body.dark-theme .letter-use-fab {
+  background: rgb(40, 40, 40);
+  color: rgb(255, 255, 255);
+  border-color: rgb(100, 100, 100);
+}
+
+body.dark-theme .letter-use-fab:hover {
+  background: rgb(50, 50, 50);
+}
+
+.letter-use-modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 10020;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.letter-use-modal.active {
+  display: flex;
+}
+
+.letter-use-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+}
+
+.letter-use-panel {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 520px;
+  max-height: 90vh;
+  overflow-y: auto;
+  background: rgb(255, 255, 255);
+  border: 1px solid rgb(200, 200, 200);
+  border-radius: 6px;
+  padding: 1.25rem 1.5rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+body.dark-theme .letter-use-panel {
+  background: rgb(30, 30, 30);
+  border-color: rgb(100, 100, 100);
+  color: rgb(240, 240, 240);
+}
+
+.letter-use-panel-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.letter-use-panel-header h2 {
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.letter-use-close-x {
+  border: none;
+  background: transparent;
+  font-size: 1.5rem;
+  line-height: 1;
+  cursor: pointer;
+  color: inherit;
+  padding: 0 0.25rem;
+}
+
+.letter-use-hint {
+  font-size: 0.85rem;
+  color: rgb(80, 80, 80);
+  margin-bottom: 1rem;
+  line-height: 1.45;
+}
+
+body.dark-theme .letter-use-hint {
+  color: rgb(180, 180, 180);
+}
+
+.letter-use-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.letter-use-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  font-size: 0.9rem;
+}
+
+.letter-use-field span {
+  font-weight: 600;
+}
+
+.letter-use-field select,
+.letter-use-field input {
+  padding: 0.4rem 0.5rem;
+  border: 1px solid rgb(170, 170, 170);
+  border-radius: 4px;
+  font: inherit;
+}
+
+body.dark-theme .letter-use-field select,
+body.dark-theme .letter-use-field input {
+  background: rgb(45, 45, 45);
+  color: rgb(240, 240, 240);
+  border-color: rgb(100, 100, 100);
+}
+
+.letter-use-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.letter-use-primary,
+.letter-use-secondary {
+  padding: 0.45rem 1rem;
+  border-radius: 4px;
+  border: 1px solid rgb(150, 150, 150);
+  cursor: pointer;
+  font: inherit;
+}
+
+.letter-use-primary {
+  background: rgb(220, 220, 220);
+  font-weight: 600;
+}
+
+.letter-use-secondary {
+  background: rgb(255, 255, 255);
+}
+
+body.dark-theme .letter-use-primary {
+  background: rgb(80, 80, 80);
+  color: rgb(255, 255, 255);
+}
+
+body.dark-theme .letter-use-secondary {
+  background: rgb(50, 50, 50);
+  color: rgb(255, 255, 255);
+}
+
+.letter-use-summary {
+  font-size: 0.9rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.5;
+}
+
+.letter-use-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.letter-use-table th,
+.letter-use-table td {
+  border: 1px solid rgb(200, 200, 200);
+  padding: 0.45rem 0.5rem;
+  text-align: left;
+}
+
+.letter-use-table th {
+  background: rgb(245, 245, 245);
+  font-weight: 600;
+}
+
+body.dark-theme .letter-use-table th,
+body.dark-theme .letter-use-table td {
+  border-color: rgb(90, 90, 90);
+}
+
+body.dark-theme .letter-use-table th {
+  background: rgb(50, 50, 50);
+}
+
+.letter-use-empty {
+  font-size: 0.9rem;
+  color: rgb(120, 0, 0);
+}
+
+body.dark-theme .letter-use-empty {
+  color: rgb(255, 150, 150);
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
   :root {
