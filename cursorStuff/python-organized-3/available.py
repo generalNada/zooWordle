@@ -27,7 +27,7 @@ unused_list = [
     "GRILL", "GROPE", "GROWN", "GRUNT", "GUILT", "GULCH", "GUSTO", "GUTSY", "GYPSY", "HAREM",
     "HARPY", "HARRY", "HAUTE", "HEDGE", "HIPPY", "HITCH", "HONOR", "HOOCH", "HORNY",
     "HOTLY", "HUMUS", "HUSKY", "HUSSY", "HYDRO", "HYMEN", "ICILY", "IDIOT", "IDYLL", "ILIAC",
-    "IMPLY", "INGOT", "INLET", "INTRO", "ISSUE", "JETTY", "JOIST", "JUICY", "JUNTA", "JUNTO",
+    "IMPLY", "INGOT", "INTRO", "ISSUE", "JETTY", "JOIST", "JUICY", "JUNTA", "JUNTO",
     "JUROR", "KAPPA", "KINKY", "KITTY", "KNEED", "LADEN", "LATCH", "LEANT", "LEGAL", "LEPER",
     "LIEGE", "LIKEN", "LIPID", "LOAMY", "LOATH", "LOGIN", "LOOSE", "LORRY", "LUMEN",
     "LUPUS", "LURCH", "LYMPH", "LYRIC", "MACRO", "MAFIA", "MAMMA", "MAMMY", "MANGE", "MANGY",
@@ -69,7 +69,7 @@ unused_list = [
     "WREST", "WRING", "WRYLY", "ZONAL"
 ]
 
-word = 'DENSE'
+word = 'INLET'
 
 
 if word in unused_list:
