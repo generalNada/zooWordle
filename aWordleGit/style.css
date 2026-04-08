@@ -3289,8 +3289,8 @@ border: 5px solid aqua;
 }
   
 .jasmineCrockett {
-  color: rgb(255, 255, 0);
-  background-color: silver;
+  background-color: tomato;
+  color: green;
   font-family: "Kaushan Script", cursive;
   font-size: 2rem;  
   line-height: 2rem;
