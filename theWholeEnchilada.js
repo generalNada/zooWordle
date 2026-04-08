@@ -1675,7 +1675,7 @@ export const dailyWordsSmall = [
 'HUMAN', 'HUMID', 'HUMOR', 'HUMPH', 'HUMUS', 'HUNCH', 'HUNKY', 'HURRY', 'HUSKY', 'HUSSY',
 'HUTCH', 'HYDRO', 'HYENA', 'HYMEN', 'HYPER', 'ICILY', 'ICING', 'IDEAL', 'IDIOM', 'IDIOT',
 'IDLER', 'IDYLL', 'IGLOO', 'ILIAC', 'IMAGE', 'IMBUE', 'IMPEL', 'IMPLY', 'INANE', 'INBOX',
-'INCUR', 'INDEX', 'INDIE', 'INEPT', 'INERT', 'INFER', 'INGOT', 'INLAY', 'INLET', 'INNER',
+'INCUR', 'INDEX', 'INDIE', 'INEPT', 'INERT', 'INFER', 'INGOT', 'INLAY', 'INNER',
 'INPUT', 'INTER', 'INTRO', 'IONIC', 'IRATE', 'IRONY', 'ISLET', 'ISSUE', 'ITCHY', 
 'JAUNT', 'JAZZY', 'JELLY', 'JERKY', 'JETTY', 'JEWEL', 'JIFFY', 'JOINT', 'JOIST', 'JOKER',
 'JOLLY', 'JOUST', 'JUDGE', 'JUICE', 'JUICY', 'JUMBO', 'JUMPY', 'JUNTA', 'JUNTO', 'JUROR',
@@ -2361,7 +2361,7 @@ export const dailyWordsLarge = [
     'INBOX', 'INBYE', 'INCEL', 'INCLE', 'INCOG', 'INCUR', 'INCUS', 'INCUT', 'INDEW', 'INDEX',
     'INDIA', 'INDIE', 'INDOL', 'INDOW', 'INDRI', 'INDUE', 'INEPT', 'INERM', 'INERT', 'INFER',
     'INFIX', 'INFOS', 'INFRA', 'INGAN', 'INGLE', 'INGOT', 'INION', 'INKED', 'INKER', 'INKLE',
-    'INLAY', 'INLET', 'INNED', 'INNER', 'INNIT', 'INORB', 'INPUT', 'INRUN', 'INSET', 'INSPO',
+    'INLAY', 'INNED', 'INNER', 'INNIT', 'INORB', 'INPUT', 'INRUN', 'INSET', 'INSPO',
     'INTEL', 'INTER', 'INTIL', 'INTIS', 'INTRA', 'INTRO', 'INULA', 'INURE', 'INURN', 'INUST',
     'INVAR', 'INWIT', 'IODIC', 'IODID', 'IODIN', 'IONIC', 'IOTAS', 'IPPON', 'IRADE', 'IRATE',
     'IRIDS', 'IRING', 'IRKED', 'IROKO', 'IRONE', 'IRONS', 'IRONY', 'ISBAS', 'ISHES', 'ISLED',
@@ -13434,6 +13434,11 @@ export const wordleWords = [
         myScore: 3,
         wordNumber: 1753,
       }, 
+      { word: "INLET",
+        gameDate: "4/8/26",
+        myScore: 2,
+        wordNumber: 1754,
+      }, 
  
   ];
 
@@ -13450,7 +13455,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("April 7, 2026: Trump sux dykk000000000! DENSE")
+console.log("April 8, 2026: Trump sux dykk000000000! INLET")
 
 
 console.log(wordleWords)
