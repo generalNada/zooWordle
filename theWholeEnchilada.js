@@ -1995,7 +1995,7 @@ export const dailyWordsLarge = [
     'CAPER', 'CAPES', 'CAPEX', 'CAPHS', 'CAPIZ', 'CAPLE', 'CAPON', 'CAPOS', 'CAPOT', 'CAPRI',
     'CAPUL', 'CAPUT', 'CARAP', 'CARAT', 'CARBO', 'CARBS', 'CARBY', 'CARDI', 'CARDS', 'CARDY',
     'CARED', 'CARER', 'CARES', 'CARET', 'CAREX', 'CARGO', 'CARKS', 'CARLE', 'CARLS', 'CARNS',
-    'CARNY', 'CAROB', 'CAROL', 'CAROM', 'CARON', 'CARPI', 'CARPS', 'CARRS', 'CARRY', 'CARSE',
+    'CARNY', 'CAROB', 'CAROL', 'CARON', 'CARPI', 'CARPS', 'CARRS', 'CARRY', 'CARSE',
     'CARTA', 'CARTE', 'CARTS', 'CARVE', 'CARVY', 'CASAS', 'CASCO', 'CASED', 'CASES', 'CASKS',
     'CASKY', 'CASTE', 'CASTS', 'CASUS', 'CATCH', 'CATER', 'CATES', 'CATTY', 'CAUDA', 'CAUKS',
     'CAULD', 'CAULK', 'CAULS', 'CAUMS', 'CAUPS', 'CAURI', 'CAUSA', 'CAUSE', 'CAVAS', 'CAVED',
@@ -13444,6 +13444,11 @@ export const wordleWords = [
         myScore: 3,
         wordNumber: 1755,
       }, 
+      { word: "CAROM",
+        gameDate: "4/10/26",
+        myScore: 5,
+        wordNumber: 1756,
+      }, 
  
   ];
 
@@ -13460,8 +13465,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("April 9, 2026: Trump sux dykk000000000! LADEN")
-
+console.log("April 10, 2026: Trump sux dykk000000000! CAROM")
 
 console.log(wordleWords)
 
