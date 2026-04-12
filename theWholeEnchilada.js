@@ -1723,7 +1723,7 @@ export const dailyWordsSmall = [
 'POLYP', 'POOCH', 'POPPY', 'PORCH', 'POSER', 'POSIT', 'POSSE', 'POUCH', 'POUND', 'POUTY',
 'POWER', 'PRANK', 'PRAWN', 'PREEN', 'PRESS', 'PRICE', 'PRICK', 'PRIDE', 'PRIED', 'PRIME',
 'PRIMO', 'PRIMP', 'PRINT', 'PRIOR', 'PRISM', 'PRIVY', 'PRIZE', 'PROBE', 'PRONE', 'PRONG',
-'PROOF', 'PROSE', 'PROUD', 'PROVE', 'PROWL', 'PROXY', 'PRUDE', 'PRUNE', 'PSALM', 'PUBIC',
+'PROOF', 'PROSE', 'PROUD', 'PROVE', 'PROWL', 'PROXY', 'PRUNE', 'PSALM', 'PUBIC',
 'PUDGY', 'PUFFY', 'PULPY', 'PULSE', 'PUNCH', 'PUPIL', 'PUPPY', 'PUREE', 'PURER', 'PURGE',
 'PURSE', 'PUSHY', 'PUTTY', 'PYGMY', 'PYLON', 'QUACK', 'QUAIL', 'QUAKE', 'QUALM', 'QUARK', 
 'QUART',
@@ -2685,7 +2685,7 @@ export const dailyWordsLarge = [
     'PRION', 'PRIOR', 'PRISE', 'PRISM', 'PRISS', 'PRIVY', 'PRIZE', 'PROAS', 'PROBE', 'PROBS',
     'PRODS', 'PROEM', 'PROFS', 'PROGS', 'PROIN', 'PROKE', 'PROLE', 'PROLL', 'PROMO', 'PROMS',
     'PRONE', 'PRONG', 'PRONK', 'PROOF', 'PROPS', 'PRORE', 'PROSE', 'PROSO', 'PROSS', 'PROST',
-    'PROSY', 'PROTO', 'PROUD', 'PROUL', 'PROVE', 'PROWL', 'PROWS', 'PROXY', 'PROYN', 'PRUDE',
+    'PROSY', 'PROTO', 'PROUD', 'PROUL', 'PROVE', 'PROWL', 'PROWS', 'PROXY', 'PROYN', 
     'PRUNE', 'PRUNT', 'PRUTA', 'PRYER', 'PRYSE', 'PSALM', 'PSEUD', 'PSHAW', 'PSION', 'PSOAE',
     'PSOAI', 'PSOAS', 'PSORA', 'PSYCH', 'PSYOP', 'PUBCO', 'PUBES', 'PUBIC', 'PUBIS', 'PUCAN',
     'PUCER', 'PUCES', 'PUCKA', 'PUCKS', 'PUDDY', 'PUDGE', 'PUDGY', 'PUDIC', 'PUDOR', 'PUDSY',
@@ -13449,6 +13449,11 @@ export const wordleWords = [
         myScore: 5,
         wordNumber: 1756,
       }, 
+      { word: "PRUDE",
+        gameDate: "4/11/26",
+        myScore: 2,
+        wordNumber: 1757,
+      }, 
  
   ];
 
@@ -13465,7 +13470,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("April 10, 2026: Trump sux dykk000000000! CAROM")
+console.log("April 11, 2026: Trump sux dykk000000000! PRUDE")
 
 console.log(wordleWords)
 
