@@ -1635,7 +1635,7 @@ export const dailyWordsSmall = [
 'DROWN', 'DRUID', 'DRUNK', 'DRYER', 'DRYLY', 'DUCHY', 'DULLY', 'DUMMY', 'DUMPY', 'DUNCE',
 'DUSKY', 'DUSTY', 'DUTCH', 'DUVET', 'DWARF', 'DWELL', 'DWELT', 'DYING', 'EAGER', 'EAGLE',
 'EARLY', 'EARTH', 'EASEL', 'EATER', 'EBONY', 'ECLAT', 'EDICT', 'EDIFY', 'EERIE',
-'EGRET', 'EIGHT', 'EJECT', 'EKING', 'ELATE', 'ELBOW', 'ELDER', 'ELECT', 'ELEGY', 'ELFIN',
+'EGRET', 'EIGHT', 'EJECT', 'EKING', 'ELATE', 'ELBOW', 'ELDER', 'ELECT', 'ELEGY', 
 'ELIDE', 'ELITE', 'ELOPE', 'ELUDE', 'EMAIL', 'EMBER', 'EMCEE', 'EMPTY', 'ENACT',
 'ENDOW', 'ENEMA', 'ENEMY', 'ENJOY', 'ENNUI', 'ENSUE', 'ENTER', 'ENTRY', 'EPOCH',
 'EPOXY', 'EQUAL', 'EQUIP', 'ERASE', 'ERECT', 'ERODE', 'ERROR', 'ERUPT', 'ESSAY', 'ESTER',
@@ -2153,7 +2153,7 @@ export const dailyWordsLarge = [
     'EENSY', 'EERIE', 'EEVEN', 'EEVNS', 'EFFED', 'EGADS', 'EGERS', 'EGEST', 'EGGAR', 'EGGED',
     'EGGER', 'EGMAS', 'EGRET', 'EHING', 'EIDER', 'EIDOS', 'EIGHT', 'EIGNE', 'EIKED', 'EIKON',
     'EILDS', 'EISEL', 'EJECT', 'EJIDO', 'EKING', 'EKKAS', 'ELAIN', 'ELAND', 'ELANS', 'ELATE',
-    'ELBOW', 'ELCHI', 'ELDER', 'ELDIN', 'ELECT', 'ELEGY', 'ELEMI', 'ELFED', 'ELFIN', 'ELIAD',
+    'ELBOW', 'ELCHI', 'ELDER', 'ELDIN', 'ELECT', 'ELEGY', 'ELEMI', 'ELFED', 'ELIAD',
     'ELIDE', 'ELINT', 'ELITE', 'ELMEN', 'ELOGE', 'ELOGY', 'ELOIN', 'ELOPE', 'ELOPS', 'ELPEE',
     'ELSIN', 'ELUDE', 'ELUTE', 'ELVAN', 'ELVEN', 'ELVER', 'ELVES', 'EMACS', 'EMAIL', 'EMBAR',
     'EMBAY', 'EMBER', 'EMBOG', 'EMBOW', 'EMBOX', 'EMBUS', 'EMCEE', 'EMEER', 'EMEND',
@@ -13460,6 +13460,11 @@ export const wordleWords = [
         myScore: 4,
         wordNumber: 1758,
       }, 
+      { word: "ELFIN",
+        gameDate: "4/13/26",
+        myScore: 3,
+        wordNumber: 1759,
+      }, 
  
   ];
 
@@ -13476,7 +13481,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("April 12, 2026: Trump sux dykk000000000! ALLEY")
+console.log("April 13, 2026: Trump sux dykk000000000! ELFIN")
 
 console.log(wordleWords)
 
