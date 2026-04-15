@@ -47,7 +47,8 @@ my_list = {
     'COVET', 'COWER', 'COYLY', 'CRAFT', 'CRAMP', 'CRANE', 'CRANK', 'CRASS', 'CRATE', 'CRAVE',
     'CRAWL', 'CRAZE', 'CRAZY', 'CREAK', 'CREAM', 'CREDO', 'CREPE', 'CREPT', 'CREST', 'CRIME',
     'CRIMP', 'CRISP', 'CROAK', 'CRONE', 'CROOK', 'CROSS', 'CROWD', 'CROWN', 'CRUMB', 'CRUSH',
-    'CRUST', 'CRYPT', 'CUBIC', 'CUMIN', 'CURIO', 'CURLY', 'CURVE', 'CURSE', 'CYBER', 'CYNIC',
+    'CRUST', 'CRYPT', 'CUBIC', 'CUMIN', 'CURIO', 'CURLY', 'CURVE', 'CURSE', 'CYBER', 'CYCLE', 
+    'CYNIC',
     'DADDY', 'DAISY', 'DALLY', 'DANCE', 'DANDY', 'DATUM', 'DAUNT', 'DEATH', 'DEBIT', 'DEBUG',
     'DEBUT', 'DECAL', 'DECAY', 'DECOR', 'DECOY', 'DECRY', 'DEFER', 'DEITY', 'DELAY', 'DELTA',
     'DELVE', 'DENIM', 'DENSE', 'DEPOT', 'DEPTH', 'DETER', 'DETOX', 'DEUCE', 'DEVIL', 'DIARY', 
@@ -211,7 +212,7 @@ my_list = {
     'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'ELFIN'
+word_to_find = 'CYCLE'
 
 
 if word_to_find in my_list:
