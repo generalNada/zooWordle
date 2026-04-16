@@ -3,7 +3,7 @@ unused_list = [
     "ALIBI", "ALIGN", "ALLAY", "ALLOY", "AMAZE", "AMEND", "ANIME",
     "ANNUL", "APING", "APNEA", "ARENA", "ARMOR", "AROSE", "ARRAY", "ARSON", "ASTIR", "AUGUR",
     "AUNTY", "AVIAN", "AXIAL", "AXION", "BAGGY", "BASAL", "BASIS", "BEECH",
-    "BEGAN", "BEGAT", "BEGUN", "BELLE", "BERRY", "BETEL", "BEVEL", "BEZEL", "BIBLE", "BIDDY",
+    "BEGAN", "BEGAT", "BELLE", "BERRY", "BETEL", "BEVEL", "BEZEL", "BIBLE", "BIDDY",
     "BIGOT", "BILLY", "BINGO", "BISON", "BITTY", "BLESS", "BLIND", "BLITZ", "BLOAT", "BLOOD",
     "BLUER", "BOBBY", "BONEY", "BOOTH", "BOSOM", "BOTCH", "BOULE", "BOUND", "BOWEL", "BRAWL",
     "BRICK", "BRINY", "BROIL", "BUDGE", "BURNT", "BURST", "BUSED", "BUSHY", "BUTCH",
@@ -69,7 +69,7 @@ unused_list = [
     "WREST", "WRING", "WRYLY", "ZONAL"
 ]
 
-word = 'CYCLE'
+word = 'BEGUN'
 
 
 if word in unused_list:
