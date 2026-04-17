@@ -1370,7 +1370,8 @@ export const combinedWords = [
     'CRAZY', 'CREAK', 'CREAM', 'CREDO', 'CREED', 'CREEK', 'CREEP', 'CREME', 'CREPE', 'CREPT',
     'CRESS', 'CREST', 'CRICK', 'CRIED', 'CRIER', 'CRIME', 'CRIMP', 'CRISP', 'CROAK', 'CROCK',
     'CRONE', 'CRONY', 'CROOK', 'CROSS', 'CROUP', 'CROWD', 'CROWN', 'CRUDE', 'CRUEL', 'CRUMB',
-    'CRUMP', 'CRUSH', 'CRUST', 'CRYPT', 'CUBIC', 'CUMIN', 'CURIO', 'CURLY', 'CURRY', 'CURSE',
+    'CRUMP', 'CRUSH', 'CRUST', 'CRYPT', 'CUBIC', 'CUBIT', 'CUMIN', 'CURIO', 'CURLY', 'CURRY', 
+    'CURSE',
     'CURVE', 'CURVY', 'CUTIE', 'CYBER', 'CYCLE', 'CYNIC', 'DADDY', 'DAILY', 'DAIRY', 'DAISY',
     'DALLY', 'DANCE', 'DANDY', 'DATUM', 'DAUNT', 'DEALT', 'DEATH', 'DEBAR', 'DEBIT', 'DEBUG',
     'DEBUT', 'DECAL', 'DECAY', 'DECOR', 'DECOY', 'DECRY', 'DEFER', 'DEIGN', 'DEITY', 'DELAY',
@@ -2067,7 +2068,7 @@ export const dailyWordsLarge = [
     'CROSS', 'CROST', 'CROUP', 'CROUT', 'CROWD', 'CROWN', 'CROWS', 'CROZE', 'CRUCK', 'CRUDE',
     'CRUDO', 'CRUDS', 'CRUDY', 'CRUEL', 'CRUES', 'CRUET', 'CRUFT', 'CRUMB', 'CRUMP', 'CRUNK',
     'CRUOR', 'CRURA', 'CRUSE', 'CRUSH', 'CRUST', 'CRUSY', 'CRUVE', 'CRWTH', 'CRYER', 'CRYPT',
-    'CTENE', 'CUBBY', 'CUBEB', 'CUBED', 'CUBER', 'CUBES', 'CUBIC', 'CUBIT', 'CUDDY', 'CUFFO',
+    'CTENE', 'CUBBY', 'CUBEB', 'CUBED', 'CUBER', 'CUBES', 'CUBIC', 'CUDDY', 'CUFFO',
     'CUFFS', 'CUIFS', 'CUING', 'CUISH', 'CUITS', 'CUKES', 'CULCH', 'CULET', 'CULEX', 'CULLS',
     'CULLY', 'CULMS', 'CULPA', 'CULTI', 'CULTS', 'CULTY', 'CUMEC', 'CUMIN', 'CUNDY', 'CUNEI',
     'CUNIT', 'CUNTS', 'CUPEL', 'CUPID', 'CUPPA', 'CUPPY', 'CURAT', 'CURBS', 'CURCH', 'CURDS',
@@ -13475,6 +13476,11 @@ export const wordleWords = [
         myScore: 3,
         wordNumber: 1761,
       }, 
+      { word: "CUBIT",
+        gameDate: "4/16/26",
+        myScore: 3,
+        wordNumber: 1762,
+      }, 
  
   ];
 
@@ -13491,7 +13497,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("April 15, 2026: Trump sux dykk000000000! BEGUN")
+console.log("April 16, 2026: Trump sux dykk000000000! CUBIT")
 
 console.log(wordleWords)
 
