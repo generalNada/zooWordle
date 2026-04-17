@@ -2639,7 +2639,7 @@ border: 5px solid aqua;
 }
 
 .badAssMan1P {
-  background-color: chartreuse;
+  background-color: chartreuse;      
   color: silver;
   font-family: "Yanone Kaffeesatz", serif;
   font-size: 1.65rem;
@@ -3291,7 +3291,7 @@ border: 5px solid aqua;
 .jasmineCrockett {
   background-color: #00fff7;
   color: silver;
-  font-family: "Poetsen One", cursive;
+  font-family: "Yanone Kaffeesatz", serif;
   line-height: 1.65rem;
   line-height: 2rem;
   border: solid rgb(255, 215, 0) 0.3rem;
