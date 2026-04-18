@@ -19,7 +19,8 @@ my_list = {
     'BAYOU',
     'BEACH', 'BEADY', 'BEARD', 'BEAST', 'BEAUT', 'BEEFY', 'BEFIT', 'BEGET', 'BEGIN', 'BEGUN',
     'BEING', 'BELCH',
-    'BELIE', 'BELLY', 'BELOW', 'BENCH', 'BERET', 'BERTH', 'BESET', 'BEVEL', 'BICEP', 'BILGE',
+    'BELIE', 'BELLE', 'BELLY', 'BELOW', 'BENCH', 'BERET', 'BERTH', 'BESET', 'BEVEL', 'BICEP', 
+    'BILGE',
     'BINGE', 'BIOME', 'BIRCH', 'BIRTH', 'BLACK', 'BLADE', 'BLAME', 'BLAND', 'BLANK', 'BLARE',
     'BLAST', 'BLAZE', 'BLEAK', 'BLEAT', 'BLEED', 'BLEEP', 'BLEND', 'BLIMP', 'BLINK', 'BLISS',
     'BLOCK', 'BLOKE', 'BLOND', 'BLOOM', 'BLOWN', 'BLUFF', 'BLUNT', 'BLURB', 'BLURT', 'BLUSH',
@@ -212,7 +213,7 @@ my_list = {
     'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'CUBIT'
+word_to_find = 'BELLE'
 
 
 if word_to_find in my_list:
