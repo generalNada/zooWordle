@@ -1542,7 +1542,8 @@ export const combinedWords = [
     'THANK', 'THEFT', 'THEIR', 'THEME', 'THERE', 'THESE', 'THETA', 'THICK', 'THIEF', 'THIGH',
     'THING', 'THINK', 'THIRD', 'THONG', 'THORN', 'THOSE', 'THREE', 'THREW', 'THROB', 'THROW',
     'THRUM', 'THUMB', 'THUMP', 'THYME', 'TIARA', 'TIBIA', 'TIDAL', 'TIGER', 'TIGHT', 'TILDE',
-    'TIMER', 'TIMID', 'TINGE', 'TIPSY', 'TITAN', 'TITHE', 'TITLE', 'TIZZY', 'TOAST', 'TODAY',
+    'TIMER', 'TIMID', 'TINGE', 'TIPSY', 'TITAN', 'TITHE', 'TITLE', 'TIZZY', 'TOADY', 'TOAST', 
+    'TODAY',
     'TODDY', 'TOKEN', 'TONAL', 'TONER', 'TONGA', 'TONIC', 'TOOTH', 'TOPAZ', 'TOPIC', 'TORCH',
     'TORSO', 'TORUS', 'TOTAL', 'TOTEM', 'TOUCH', 'TOUGH', 'TOWEL', 'TOWER', 'TOXIC', 'TOXIN',
     'TRACE', 'TRACK', 'TRACT', 'TRADE', 'TRAIL', 'TRAIN', 'TRAIT', 'TRAMP', 'TRASH', 'TRAWL',
@@ -2973,7 +2974,7 @@ export const dailyWordsLarge = [
     'TIMID', 'TIMON', 'TIMPS', 'TINAS', 'TINCT', 'TINDS', 'TINEA', 'TINED', 'TINES', 'TINGE',
     'TINGS', 'TINKS', 'TINNY', 'TINTS', 'TINTY', 'TIPIS', 'TIPPY', 'TIPSY', 'TIRED', 'TIRES',
     'TIRLS', 'TIROS', 'TIRRS', 'TITAN', 'TITCH', 'TITER', 'TITHE', 'TITIS', 'TITLE', 'TITRE',
-    'TITTY', 'TITUP', 'TIYIN', 'TIYNS', 'TIZES', 'TIZZY', 'TOADS', 'TOADY', 'TOAST', 'TOAZE',
+    'TITTY', 'TITUP', 'TIYIN', 'TIYNS', 'TIZES', 'TIZZY', 'TOADS', 'TOAST', 'TOAZE',
     'TOCKS', 'TOCKY', 'TOCOS', 'TODAY', 'TODDE', 'TODDY', 'TOEAS', 'TOFFS', 'TOFFY', 'TOFTS',
     'TOFUS', 'TOGAE', 'TOGAS', 'TOGED', 'TOGES', 'TOGUE', 'TOHOS', 'TOILE', 'TOILS', 'TOING',
     'TOISE', 'TOITS', 'TOKAY', 'TOKED', 'TOKEN', 'TOKER', 'TOKES', 'TOKOS', 'TOLAN', 'TOLAR',
@@ -13486,6 +13487,11 @@ export const wordleWords = [
         myScore: 4,
         wordNumber: 1763,
       }, 
+      { word: "TOADY",
+        gameDate: "4/18/26",
+        myScore: 3,
+        wordNumber: 1764,
+      }, 
  
   ];
 
@@ -13502,7 +13508,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("April 17, 2026: Trump sux dykk000000000! BELLE")
+console.log("April 18, 2026: Trump sux dykk000000000! TOADY")
 
 console.log(wordleWords)
 
