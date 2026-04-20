@@ -174,7 +174,8 @@ my_list = {
     'SPICY', 'SPIEL', 'SPIKE', 'SPILL', 'SPINE', 'SPINY', 'SPIRE', 'SPITE', 'SPLAT', 'SPLIT',
     'SPOIL', 'SPOKE', 'SPOOF', 'SPOOL', 'SPOON', 'SPORE', 'SPORT', 'SPOUT', 'SPRAY', 'SPRIG',
     'SPURT', 'SQUAD', 'SQUAD', 'SQUAT', 'SQUID', 'STACK', 'STAFF', 'STAGE', 'STAID', 'STAIN',
-    'STAIR', 'STAKE', 'STALE', 'STALL', 'STAMP', 'STAND', 'STANK', 'STARE', 'STARK', 'START',
+    'STAIR', 'STAKE', 'STALE', 'STALL', 'STAMP', 'STAND', 'STAND', 'STANK', 'STARE', 'STARK', 
+    'START',
     'STASH', 'STATE', 'STEAD', 'STEAM', 'STEED', 'STEEL', 'STEEP', 'STEIN', 'STERN', 'STICK',
     'STIFF', 'STILL', 'STILT', 'STING', 'STINK', 'STINT', 'STOCK', 'STOIC', 'STOLE', 'STOMP',
     'STONE', 'STONY', 'STOOD', 'STOOL', 'STORE', 'STORK', 'STORM', 'STORY', 'STOUT', 'STOVE',
@@ -214,7 +215,7 @@ my_list = {
     'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'TOADY'
+word_to_find = 'STAND'
 
 
 if word_to_find in my_list:
