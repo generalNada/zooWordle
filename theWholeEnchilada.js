@@ -1799,7 +1799,7 @@ export const dailyWordsSmall = [
 'TREAD', 'TREAT', 'TREND', 'TRIAD', 'TRIAL', 'TRIBE', 'TRICE', 'TRICK', 'TRIED', 'TRIPE',
 'TRITE', 'TROLL', 'TROOP', 'TROPE', 'TROUT', 'TROVE', 'TRUCE', 'TRUCK', 'TRUER', 'TRULY',
 'TRUMP', 'TRUNK', 'TRUSS', 'TRUST', 'TRUTH', 'TRYST', 'TUBAL', 'TUBER', 'TULIP', 'TULLE',
-'TUMOR', 'TUNIC', 'TURBO', 'TUTOR', 'TWANG', 'TWEAK', 'TWEED', 'TWEET', 'TWICE', 'TWINE',
+'TUMOR', 'TUNIC', 'TURBO', 'TUTOR', 'TWANG', 'TWEAK', 'TWEED', 'TWICE', 'TWINE',
 'TWIRL', 'TWIST', 'TWIXT', 'TYING', 'UDDER', 'ULCER', 'ULTRA', 'UMBRA', 'UNCLE', 'UNCUT',
 'UNDER', 'UNDID', 'UNDUE', 'UNFED', 'UNFIT', 'UNIFY', 'UNION', 'UNITE', 'UNITY', 'UNLIT',
 'UNMET', 'UNSET', 'UNTIE', 'UNTIL', 'UNWED', 'UNZIP', 'UPPER', 'UPSET', 'URBAN', 'URINE',
@@ -3012,7 +3012,7 @@ export const dailyWordsLarge = [
     'TUNNY', 'TUPEK', 'TUPIK', 'TUPLE', 'TUQUE', 'TURBO', 'TURDS', 'TURFS', 'TURFY', 'TURKS',
     'TURME', 'TURMS', 'TURNS', 'TURNT', 'TURPS', 'TURRS', 'TUSHY', 'TUSKS', 'TUSKY', 'TUTEE',
     'TUTOR', 'TUTTI', 'TUTTY', 'TUTUS', 'TUXES', 'TUYER', 'TWAES', 'TWAIN', 'TWALS', 'TWANG',
-    'TWANK', 'TWATS', 'TWAYS', 'TWEAK', 'TWEED', 'TWEEL', 'TWEEN', 'TWEEP', 'TWEER', 'TWEET',
+    'TWANK', 'TWATS', 'TWAYS', 'TWEAK', 'TWEED', 'TWEEL', 'TWEEN', 'TWEEP', 'TWEER', 
     'TWERK', 'TWERP', 'TWICE', 'TWIER', 'TWIGS', 'TWILL', 'TWILT', 'TWINE', 'TWINK', 'TWINS',
     'TWINY', 'TWIRE', 'TWIRL', 'TWIRP', 'TWIST', 'TWITE', 'TWITS', 'TWIXT', 'TWOER', 'TWYER',
     'TYEES', 'TYERS', 'TYING', 'TYIYN', 'TYKES', 'TYLER', 'TYMPS', 'TYNDE', 'TYNED', 'TYNES',
@@ -13516,6 +13516,11 @@ export const wordleWords = [
         myScore: 2,
         wordNumber: 1768,
       }, 
+      { word: "TWEET",
+        gameDate: "4/23/26",
+        myScore: 4,
+        wordNumber: 1769,
+      }, 
  
   ];
 
@@ -13532,7 +13537,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("April 22, 2026: Trump sux dykk000000000! SNORE")
+console.log("April 23, 2026: Trump sux dykk000000000! TWEET")
 
 console.log(wordleWords)
 
