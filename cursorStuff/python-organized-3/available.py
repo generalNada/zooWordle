@@ -60,7 +60,7 @@ unused_list = [
     "TANGO", "TAROT", "TATTY", "TEARY", "TENET", "TENSE", "TEPEE", "TERRA", "TESTY",
     "THETA", "THONG", "TIGHT", "TIMID", "TODDY", "TOKEN", "TONAL", "TONER", "TONGA",
     "TORUS", "TRAMP", "TREAD", "TRIBE", "TRIED", "TRUCE", "TRUER", "TRUMP", "TRUNK", "TUBAL",
-    "TULLE", "TUMOR", "TWEET", "TWIXT", "TYING", "UMBRA", "UNCUT", "UNITY", "UNSET", "UNWED",
+    "TULLE", "TUMOR", "TWIXT", "TYING", "UMBRA", "UNCUT", "UNITY", "UNSET", "UNWED",
     "URINE", "UTILE", "VALOR", "VALVE", "VAPOR", "VAUNT", "VERSE", "VERSO", "VICAR", "VIGIL",
     "VIPER", "VIRUS", "VISIT", "VISTA", "VOCAL", "VOMIT", "WAGER", "WAIVE", "WARTY",
     "WAVER", "WELCH", "WELSH", "WHARF", "WIDER", "WIDOW", "WIGHT", "WILLY", "WIMPY",
@@ -68,7 +68,7 @@ unused_list = [
     "WREST", "WRING", "WRYLY", "ZONAL"
 ]
 
-word = 'SNORE'
+word = 'TWEET'
 
 
 if word in unused_list:
