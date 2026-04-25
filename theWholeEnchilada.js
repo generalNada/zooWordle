@@ -1380,7 +1380,7 @@ export const combinedWords = [
     'DINGY', 'DIODE', 'DIRGE', 'DIRTY', 'DISCO', 'DITCH', 'DITTO', 'DITTY', 'DIVAN', 'DIVER',
     'DIZZY', 'DODGE', 'DODGY', 'DOGMA', 'DOING', 'DOLLY', 'DONOR', 'DONUT', 'DOPEY', 'DOUBT',
     'DOUGH', 'DOWDY', 'DOWEL', 'DOWNY', 'DOWRY', 'DOZEN', 'DRAFT', 'DRAIN', 'DRAKE', 'DRAMA',
-    'DRANK', 'DRAPE', 'DRAWL', 'DRAWN', 'DREAd', 'DREAM', 'DRESS', 'DRIED', 'DRIER', 'DRIFT',
+    'DRANK', 'DRAPE', 'DRAWL', 'DRAWN', 'DREAD', 'DREAM', 'DRESS', 'DRIED', 'DRIER', 'DRIFT',
     'DRILL', 'DRINK', 'DRIVE', 'DROIT', 'DROLL', 'DRONE', 'DROOL', 'DROOP', 'DROSS', 'DROVE',
     'DROWN', 'DRUID', 'DRUNK', 'DRYER', 'DRYLY', 'DUCHY', 'DULLY', 'DUMMY', 'DUMPY', 'DUNCE',
     'DUSKY', 'DUSTY', 'DUTCH', 'DUVET', 'DWARF', 'DWELL', 'DWELT', 'DYING', 'EAGER', 'EAGLE',
@@ -1634,9 +1634,9 @@ export const dailyWordsSmall = [
 'DINGY', 'DIODE', 'DIRGE', 'DIRTY', 'DISCO', 'DITCH', 'DITTO', 'DITTY', 'DIVAN', 'DIVER',
 'DODGE', 'DODGY', 'DOGMA', 'DOING', 'DOLLY', 'DONOR', 'DONUT', 'DOPEY', 'DOUBT',
 'DOUGH', 'DOWDY', 'DOWEL', 'DOWNY', 'DOWRY', 'DOZEN', 'DRAFT', 'DRAIN', 'DRAKE', 
-'DRANK', 'DRAPE', 'DRAWL', 'DRAWN', 'DREAd', 'DREAM', 'DRESS', 'DRIED', 'DRIER', 'DRIFT',
+'DRANK', 'DRAPE', 'DRAWL', 'DRAWN', 'DREAD', 'DREAM', 'DRESS', 'DRIED', 'DRIER', 'DRIFT',
 'DRILL', 'DRINK', 'DRIVE', 'DROIT', 'DROLL', 'DRONE', 'DROOL', 'DROOP', 'DROSS', 'DROVE',
-'DROWN', 'DRUID', 'DRUNK', 'DRYER', 'DRYLY', 'DUCHY', 'DULLY', 'DUMMY', 'DUMPY', 'DUNCE',
+'DROWN', 'DRUID', 'DRYER', 'DRYLY', 'DUCHY', 'DULLY', 'DUMMY', 'DUMPY', 'DUNCE',
 'DUSKY', 'DUSTY', 'DUTCH', 'DUVET', 'DWARF', 'DWELL', 'DWELT', 'DYING', 'EAGER', 'EAGLE',
 'EARLY', 'EARTH', 'EASEL', 'EATER', 'EBONY', 'ECLAT', 'EDICT', 'EDIFY', 'EERIE',
 'EGRET', 'EIGHT', 'EJECT', 'EKING', 'ELATE', 'ELBOW', 'ELDER', 'ELECT', 'ELEGY', 
@@ -2139,7 +2139,7 @@ export const dailyWordsLarge = [
     'DREYS', 'DRIBS', 'DRICE', 'DRIED', 'DRIER', 'DRIES', 'DRIFT', 'DRILL', 'DRILY', 'DRINK',
     'DRIPS', 'DRIPT', 'DRIVE', 'DROID', 'DROIL', 'DROIT', 'DROKE', 'DROLE', 'DROLL', 'DROME',
     'DRONE', 'DRONY', 'DROOB', 'DROOG', 'DROOK', 'DROOL', 'DROOP', 'DROPS', 'DROPT', 'DROSS', 
-    'DROUK', 'DROVE', 'DROWN', 'DROWS', 'DRUBS', 'DRUGS', 'DRUID', 'DRUMS', 'DRUNK', 'DRUPE', 
+    'DROUK', 'DROVE', 'DROWN', 'DROWS', 'DRUBS', 'DRUGS', 'DRUID', 'DRUMS', 'DRUPE', 
     'DRUSE', 'DRUSY', 'DRUXY', 'DRYAD', 'DRYAS', 'DRYER', 'DRYLY', 'DSOBO', 'DSOMO', 'DUADS', 
     'DUALS', 'DUANS', 'DUARS', 'DUBBO', 'DUCAL', 'DUCAT', 'DUCES',
     'DUCHY', 'DUCKS', 'DUCKY', 'DUCTS', 'DUDDY', 'DUDED', 'DUDES', 'DUELS', 'DUETS', 'DUETT',
@@ -13521,6 +13521,11 @@ export const wordleWords = [
         myScore: 4,
         wordNumber: 1769,
       }, 
+      { word: "DRUNK",
+        gameDate: "4/24/26",
+        myScore: 4,
+        wordNumber: 1770,
+      }, 
  
   ];
 
@@ -13537,7 +13542,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("April 23, 2026: Trump sux dykk000000000! TWEET")
+console.log("April 24, 2026: Trump sux dykk000000000! DRUNK")
 
 console.log(wordleWords)
 
