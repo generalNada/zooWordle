@@ -16,7 +16,7 @@ unused_list = [
     "DAIRY", "DEALT", "DEBAR", "DEIGN", "DEMON", "DEMUR", "DERBY", "DILLY", "DIMLY",
     "DIODE", "DIRGE", "DIRTY", "DITCH", "DIVAN", "DIVER", "DOWDY", "DOWNY", "DRAKE", 
     "DRANK", "DRAWL", "DRESS", "DRIED", "DRIER", "DRIFT", "DROIT", "DROSS", "DROWN", "DRUID",
-    "DRUNK", "DRYLY", "DULLY", "DUMPY", "DUNCE", "DUSTY", "DYING", "EATER", "ECLAT",
+    "DRYLY", "DULLY", "DUMPY", "DUNCE", "DUSTY", "DYING", "EATER", "ECLAT",
     "EDICT", "EERIE", "EKING", "ELECT", "ELEGY", "ELIDE", "EMCEE", "ENEMY", "ENTRY",
     "ERECT", "ESTER", "ETUDE", "EVICT", "EXPEL", "EYING", "FAIRY", "FANNY", "FATAL",
     "FATTY", "FAUNA", "FECAL", "FELLA", "FELON", "FEMME", "FEMUR", "FENCE", "FETAL", "FETUS",
@@ -68,7 +68,7 @@ unused_list = [
     "WREST", "WRING", "WRYLY", "ZONAL"
 ]
 
-word = 'TWEET'
+word = 'DRUNK'
 
 
 if word in unused_list:
