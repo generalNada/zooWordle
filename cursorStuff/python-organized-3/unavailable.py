@@ -213,13 +213,13 @@ my_list = {
     'WEIRD',
     'WHACK', 'WHALE', 'WHEAT', 'WHEEL', 'WHELP', 'WHERE', 'WHICH', 'WHIFF', 'WHILE', 'WHINE',
     'WHINY', 'WHIRL', 'WHISK', 'WHITE', 'WHOLE', 'WHOOP', 'WHOSE', 'WIDEN', 'WIDTH', 'WIELD',
-    'WINCE', 'WINDY', 'WISER', 'WITTY', 'WOKEN', 'WOMAN', 'WOOER', 'WORDY', 'WORLD', 'WORRY', 
-    'WORSE',
+    'WINCE', 'WINDY', 'WISER', 'WITTY', 'WOKEN', 'WOMAN', 'WOMEN', 'WOOER', 'WORDY', 'WORLD', 
+    'WORRY', 'WORSE',
     'WORST', 'WOULD', 'WOUND', 'WOVEN', 'WRATH', 'WREAK', 'WRIST', 'WRITE', 'WRONG', 'WROTE',
     'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'DRUNK'
+word_to_find = 'WOMEN'
 
 
 if word_to_find in my_list:
