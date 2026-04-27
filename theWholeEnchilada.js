@@ -1662,7 +1662,7 @@ export const dailyWordsSmall = [
 'GASSY', 'GATOR', 'GAUDY', 'GAUGE', 'GAUNT', 'GAUZE', 'GAWKY', 'GAYER', 'GAYLY',
 'GAZER', 'GECKO', 'GEEKY', 'GEESE', 'GENIE', 'GENRE', 'GHOST', 'GHOUL', 'GIANT', 'GIDDY',
 'GIPSY', 'GIRLY', 'GIRTH', 'GIVEN', 'GIVER', 'GIZMO', 'GLADE', 'GLAND', 'GLARE', 'GLASS',
-'GLAZE', 'GLEAM', 'GLEAN', 'GLIDE', 'GLINT', 'GLOAT', 'GLOBE', 'GLOOM', 'GLORY', 'GLOSS',
+'GLAZE', 'GLEAM', 'GLEAN', 'GLIDE', 'GLINT', 'GLOAT', 'GLOBE', 'GLOOM', 'GLORY', 
 'GLOVE', 'GLYPH', 'GNASH', 'GNOME', 'GODLY', 'GOFER', 'GOING', 'GOLEM', 'GOLLY', 'GONAD',
 'GONER', 'GOODY', 'GOOEY', 'GOOFY', 'GOOSE', 'GORGE', 'GOUGE', 'GOURD', 'GRACE', 
 'GRAFT', 'GRAIL', 'GRAIN', 'GRAND', 'GRANT', 'GRAPE', 'GRAPH', 'GRASP', 'GRASS', 'GRATE',
@@ -2274,7 +2274,7 @@ export const dailyWordsLarge = [
     'GLEIS', 'GLENS', 'GLENT', 'GLEYS', 'GLIAL', 'GLIAS', 'GLIBS', 'GLIDE', 'GLIFF', 'GLIFT',
     'GLIKE', 'GLIME', 'GLIMS', 'GLINT', 'GLISK', 'GLITS', 'GLITZ', 'GLOAM', 'GLOAT', 'GLOBE',
     'GLOBI', 'GLOBS', 'GLOBY', 'GLODE', 'GLOGG', 'GLOMS', 'GLOOM', 'GLOOP', 'GLOPS', 'GLORY',
-    'GLOSS', 'GLOST', 'GLOUT', 'GLOVE', 'GLOWS', 'GLOZE', 'GLUED', 'GLUER', 'GLUES', 'GLUEY',
+    'GLOST', 'GLOUT', 'GLOVE', 'GLOWS', 'GLOZE', 'GLUED', 'GLUER', 'GLUES', 'GLUEY',
     'GLUGS', 'GLUME', 'GLUMS', 'GLUON', 'GLUTE', 'GLUTS', 'GLYPH', 'GNARL', 'GNARR', 'GNARS',
     'GNASH', 'GNATS', 'GNAWN', 'GNAWS', 'GNOME', 'GNOWS', 'GOADS', 'GOAFS', 'GOALS', 'GOARY',
     'GOATS', 'GOATY', 'GOBAN', 'GOBAR', 'GOBBI', 'GOBBO', 'GOBBY', 'GOBIS', 'GOBOS', 'GODET',
@@ -13531,6 +13531,11 @@ export const wordleWords = [
         myScore: 3,
         wordNumber: 1771,
       }, 
+      { word: "GLOSS",
+        gameDate: "4/26/26",
+        myScore: 3,
+        wordNumber: 1772,
+      }, 
  
   ];
 
@@ -13547,7 +13552,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("April 25, 2026: Trump sux dykk000000000! WOMEN")
+console.log("April 26, 2026: Trump sux dykk000000000! GLOSS")
 
 console.log(wordleWords)
 
