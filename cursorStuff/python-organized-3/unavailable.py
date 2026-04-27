@@ -83,7 +83,8 @@ my_list = {
     'GAMMA', 'GAMUT', 'GAUDY', 'GAUGE', 'GAUNT', 'GAUZE', 'GAVEL', 'GAWKY', 'GECKO', 'GEESE',
     'GENIE', 'GENRE', 'GHOST', 'GHOUL', 'GIANT', 'GIDDY', 'GIRTH', 'GIVEN', 'GIZMO', 'GLADE',
     'GLAND', 'GLARE', 'GLASS', 'GLAZE', 'GLEAM', 'GLEAN', 'GLIDE', 'GLINT', 'GLOAT', 'GLOBE',
-    'GLOOM', 'GLORY', 'GLOVE', 'GLYPH', 'GNASH', 'GNOME', 'GOING', 'GOLEM', 'GONER', 'GOODY',
+    'GLOOM', 'GLORY', 'GLOSS', 'GLOVE', 'GLYPH', 'GNASH', 'GNOME', 'GOING', 'GOLEM', 'GONER', 
+    'GOODY',
     'GOOEY', 'GOOFY', 'GOOSE', 'GORGE', 'GOUGE', 'GRACE', 'GRADE', 'GRADE', 'GRAFT', 'GRAIL', 
     'GRAIN',
     'GRAND', 'GRANT', 'GRAPH', 'GRASP', 'GRASS', 'GRATE', 'GRAVE', 'GRAVY', 'GREAT', 'GREED',
@@ -219,7 +220,7 @@ my_list = {
     'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'WOMEN'
+word_to_find = 'GLOSS'
 
 
 if word_to_find in my_list:
