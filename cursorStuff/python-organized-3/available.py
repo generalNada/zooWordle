@@ -23,7 +23,7 @@ unused_list = [
     "FICUS", "FIGHT", "FILER", "FILMY", "FILTH", "FLACK", "FLECK", "FLEET", "FLIER",
     "FLUID", "FLUSH", "FRAUD", "FREED", "FREER", "FRIAR", "FRISK", "FUDGE", "FUROR", "FURRY",
     "FUSSY", "GABLE", "GAFFE", "GAILY", "GASSY", "GATOR", "GAYER", "GAYLY", "GAZER", "GEEKY",
-    "GIPSY", "GIRLY", "GIVER", "GLOSS", "GODLY", "GOLLY", "GONAD", "GOURD", "GRAPE", "GRAZE",
+    "GIPSY", "GIRLY", "GIVER", "GODLY", "GOLLY", "GONAD", "GOURD", "GRAPE", "GRAZE",
     "GRILL", "GROPE", "GROWN", "GRUNT", "GUILT", "GULCH", "GUSTO", "GUTSY", "GYPSY", "HAREM",
     "HARPY", "HARRY", "HAUTE", "HEDGE", "HIPPY", "HITCH", "HONOR", "HOOCH", "HORNY",
     "HOTLY", "HUMUS", "HUSKY", "HUSSY", "HYDRO", "HYMEN", "ICILY", "IDIOT", "IDYLL", "ILIAC",
@@ -68,7 +68,7 @@ unused_list = [
     "WREST", "WRING", "WRYLY", "ZONAL"
 ]
 
-word = 'WOMEN'
+word = 'GLOSS'
 
 
 if word in unused_list:
