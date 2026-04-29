@@ -40,7 +40,7 @@ unused_list = [
     "PARSE", "PASTE", "PASTY", "PAYEE", "PAYER", "PENAL", "PENCE", "PENNY", "PESTO", "PIGGY",
     "PIVOT", "PIZZA", "PLACE", "PLIED", "PLIER", "PLUME", "PLUSH", "POESY", "POOCH", "POSER",
     "POSIT", "POUCH", "PRAWN", "PRIED", "PRIVY", "PUBIC", "PUDGY", "PUFFY", "PULSE",
-    "PUNCH", "PUPPY", "PUREE", "PURER", "PURSE", "PUSHY", "PUTTY", "PYGMY", "QUACK", "QUASI",
+    "PUNCH", "PUPPY", "PUREE", "PURER", "PURSE", "PUSHY", "PUTTY", "PYGMY", "QUASI",
     "QUEER", "QUELL", "QUOTH", "RABBI", "RADAR", "RADII", "RAJAH", "RALLY", "RALPH", "RANDY",
     "RARER", "RASPY", "RAVEN", "RAZOR", "REARM", "REBAR", "RECUT", "REEDY", "REFIT", 
     "REIGN", "RENAL", "REPLY", "RESET", "RIFLE", "RIGOR", "RINSE", "RIPEN", "RISER", "RISKY",
@@ -68,7 +68,7 @@ unused_list = [
     "WREST", "WRING", "WRYLY", "ZONAL"
 ]
 
-word = 'EERIE'
+word = 'QUACK'
 
 
 if word in unused_list:
