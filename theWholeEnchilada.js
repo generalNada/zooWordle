@@ -735,7 +735,6 @@ export const fixedWordsLarge = [
     'MUNGS', 'MUNIS', 'MUONS', 'MURAL', 'MURAS', 'MURED', 'MURES', 'MUREX', 'MURID', 'MURKS',
     'MURKY', 'MURLS', 'MURLY', 'MURRA', 'MURRE', 'MURRI', 'MURRS', 'MURRY', 'MURTI', 'MURVA',
     'MUSAR', 'MUSCA', 'MUSED', 'MUSER', 'MUSES', 'MUSET', 'MUSHA', 'MUSHY', 'MUSIC', 'MUSIT',
-    
     'MUSKS', 'MUSKY', 'MUSOS', 'MUSSE', 'MUSSY', 'MUSTH', 'MUSTS', 'MUSTY', 'MUTCH', 'MUTED',
     'MUTER', 'MUTES', 'MUTHA', 'MUTIS', 'MUTON', 'MUTTS', 'MUXED', 'MUXES', 'MUZAK', 'MUZZY',
     'MVULE', 'MYALL', 'MYLAR', 'MYNAH', 'MYNAS', 'MYOID', 'MYOMA', 'MYOPE', 'MYOPS', 'MYOPY',
@@ -1730,7 +1729,7 @@ export const dailyWordsSmall = [
 'PRIMO', 'PRIMP', 'PRINT', 'PRIOR', 'PRISM', 'PRIVY', 'PRIZE', 'PROBE', 'PRONE', 'PRONG',
 'PROOF', 'PROSE', 'PROUD', 'PROVE', 'PROWL', 'PROXY', 'PRUNE', 'PSALM', 'PUBIC',
 'PUDGY', 'PUFFY', 'PULPY', 'PULSE', 'PUNCH', 'PUPIL', 'PUPPY', 'PUREE', 'PURER', 'PURGE',
-'PURSE', 'PUSHY', 'PUTTY', 'PYGMY', 'PYLON', 'QUACK', 'QUAIL', 'QUAKE', 'QUALM', 'QUARK', 
+'PURSE', 'PUSHY', 'PUTTY', 'PYGMY', 'PYLON', 'QUAIL', 'QUAKE', 'QUALM', 'QUARK', 
 'QUART',
 'QUASH', 'QUASI', 'QUEEN', 'QUEER', 'QUELL', 'QUERY', 'QUEST', 'QUEUE', 'QUICK', 'QUIET',
 'QUILL', 'QUILT', 'QUIRK', 'QUITE', 'QUOTA', 'QUOTE', 'QUOTH', 'RABBI', 'RABID', 'RACER',
@@ -2707,7 +2706,7 @@ export const dailyWordsLarge = [
     'PUZEL', 'PWNED', 'PYATS', 'PYETS', 'PYGAL', 'PYGMY', 'PYINS', 'PYLON', 'PYNED', 'PYNES',
     'PYOID', 'PYOTS', 'PYRAL', 'PYRAN', 'PYRES', 'PYREX', 'PYRIC', 'PYROS', 'PYXED', 'PYXES',
     'PYXIE', 'PYXIS', 'PZAZZ',
-    'QADIS', 'QAIDS', 'QAJAQ', 'QANAT', 'QAPIK', 'QIBLA', 'QOPHS', 'QORMA', 'QUACK', 'QUADS',
+    'QADIS', 'QAIDS', 'QAJAQ', 'QANAT', 'QAPIK', 'QIBLA', 'QOPHS', 'QORMA', 'QUADS',
     'QUAFF', 'QUAGS', 'QUAIL', 'QUAIR', 'QUAIS', 'QUAKE', 'QUAKY', 'QUALE', 'QUALM', 'QUANT',
     'QUARE', 'QUART', 'QUASH', 'QUASI', 'QUASS', 'QUATE', 'QUATS', 'QUAYD', 'QUAYS',
     'QUBIT', 'QUEAN', 'QUEEN', 'QUEER', 'QUELL', 'QUEME', 'QUENA', 'QUERN', 'QUERY', 'QUEST',
@@ -13541,6 +13540,11 @@ export const wordleWords = [
         myScore: 5,
         wordNumber: 1773,
       }, 
+      { word: "QUACK",
+        gameDate: "4/28/26",
+        myScore: 4,
+        wordNumber: 1774,
+      }, 
  
   ];
 
@@ -13557,7 +13561,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("April 27, 2026: Trump sux dykk000000000! EERIE")
+console.log("April 28, 2026: Trump sux dykk000000000! QUACK")
 
 console.log(wordleWords)
 
