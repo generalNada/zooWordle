@@ -44,7 +44,7 @@ unused_list = [
     "QUEER", "QUELL", "QUOTH", "RABBI", "RADAR", "RADII", "RAJAH", "RALLY", "RALPH", "RANDY",
     "RARER", "RASPY", "RAVEN", "RAZOR", "REARM", "REBAR", "RECUT", "REEDY", "REFIT", 
     "REIGN", "RENAL", "REPLY", "RESET", "RIFLE", "RIGOR", "RINSE", "RIPEN", "RISER", "RISKY",
-    "RIVER", "ROAST", "ROGER", "ROTOR", "RULER", "RUMOR", "RURAL", "SADLY", "SAFER", "SALON",
+    "RIVER", "ROAST", "ROGER", "ROTOR", "RULER", "RUMOR", "SADLY", "SAFER", "SALON",
     "SALVE", "SALVO", "SANER", "SAPPY", "SATIN", "SATYR", "SAUCE", "SAVOY", "SCALP", "SCALY",
     "SCAMP", "SCARY", "SCION", "SCOOP", "SCREE", "SCREW", "SCUBA", "SEIZE", "SEMEN", "SEPIA",
     "SETUP", "SEWER", "SHACK", "SHADY", "SHALE", "SHALT", "SHARK", "SHEEN", 
@@ -68,7 +68,7 @@ unused_list = [
     "WREST", "WRING", "WRYLY", "ZONAL"
 ]
 
-word = 'QUACK'
+word = 'RURAL'
 
 
 if word in unused_list:
