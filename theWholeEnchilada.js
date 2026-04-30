@@ -1743,7 +1743,7 @@ export const dailyWordsSmall = [
 'RISKY', 'RIVAL', 'RIVER', 'RIVET', 'ROACH', 'ROAST', 'ROBIN', 'ROBOT', 'ROCKY', 'RODEO',
 'ROGER', 'ROGUE', 'ROOMY', 'ROTOR', 'ROUGE', 'ROUGH', 'ROUND', 'ROUSE', 'ROUST', 'ROUTE',
 'ROVER', 'ROWDY', 'ROWER', 'ROYAL', 'RUDDY', 'RUDER', 'RUGBY', 'RULER', 'RUMBA', 'RUMOR',
-'RUPEE', 'RURAL', 'RUSTY', 'SADLY', 'SAFER', 'SAINT', 'SALAD', 'SALLY', 'SALON', 'SALSA',
+'RUPEE', 'RUSTY', 'SADLY', 'SAFER', 'SAINT', 'SALAD', 'SALLY', 'SALON', 'SALSA',
 'SALTY', 'SALVE', 'SALVO', 'SANER', 'SAPPY', 'SASSY', 'SATIN', 'SATYR', 'SAUCE',
 'SAUCY', 'SAUNA', 'SAUTE', 'SAVOR', 'SAVOY', 'SAVVY', 'SCALD', 'SCALE', 'SCALP', 'SCALY',
 'SCAMP', 'SCANT', 'SCARE', 'SCARF', 'SCARY', 'SCENT', 'SCION', 'SCOFF', 'SCOLD',
@@ -2774,7 +2774,7 @@ export const dailyWordsLarge = [
     'RUERS', 'RUFFE', 'RUFFS', 'RUGAE', 'RUGAL', 'RUGBY', 'RUGGY', 'RUING', 'RUINS', 'RUKHS',
     'RULED', 'RULER', 'RULES', 'RUMAL', 'RUMBA', 'RUMBO', 'RUMEN', 'RUMES', 'RUMLY', 'RUMMY',
     'RUMOR', 'RUMPO', 'RUMPS', 'RUMPY', 'RUNCH', 'RUNDS', 'RUNED', 'RUNES', 'RUNGS', 'RUNIC',
-    'RUNNY', 'RUNTS', 'RUNTY', 'RUPEE', 'RUPIA', 'RURAL', 'RURPS', 'RURUS', 'RUSAS', 'RUSES',
+    'RUNNY', 'RUNTS', 'RUNTY', 'RUPEE', 'RUPIA', 'RURPS', 'RURUS', 'RUSAS', 'RUSES',
     'RUSHY', 'RUSKS', 'RUSMA', 'RUSSE', 'RUSTS', 'RUSTY', 'RUTHS', 'RUTIN', 'RUTTY', 'RYALS',
     'RYBAT', 'RYKED', 'RYKES', 'RYMME', 'RYNDS', 'RYOTS', 'RYPER',
     'SAAGS', 'SABAL', 'SABED', 'SABER', 'SABES', 'SABHA', 'SABIN', 'SABIR', 'SABLE', 'SABOT',
@@ -13545,6 +13545,11 @@ export const wordleWords = [
         myScore: 4,
         wordNumber: 1774,
       }, 
+      { word: "RURAL",
+        gameDate: "4/29/26",
+        myScore: 3,
+        wordNumber: 1775,
+      }, 
  
   ];
 
@@ -13561,7 +13566,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("April 28, 2026: Trump sux dykk000000000! QUACK")
+console.log("April 29, 2026: Trump sux dykk000000000! RURAL")
 
 console.log(wordleWords)
 
