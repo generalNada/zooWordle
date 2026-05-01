@@ -13550,6 +13550,11 @@ export const wordleWords = [
         myScore: 3,
         wordNumber: 1775,
       }, 
+      { word: "CROCK",
+        gameDate: "4/30/26",
+        myScore: 3,
+        wordNumber: 1776,
+      }, 
  
   ];
 
@@ -13566,7 +13571,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("April 29, 2026: Trump sux dykk000000000! RURAL")
+console.log("April 30, 2026: Trump sux dykk000000000! CROCK")
 
 console.log(wordleWords)
 
