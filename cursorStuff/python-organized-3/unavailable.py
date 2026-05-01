@@ -48,7 +48,8 @@ my_list = {
     'CONDO', 'CONIC', 'CORAL', 'CORER', 'CORNY', 'COULD', 'COUNT', 'COURT', 'COVEN', 'COVER',
     'COVET', 'COWER', 'COYLY', 'CRAFT', 'CRAMP', 'CRANE', 'CRANK', 'CRASS', 'CRATE', 'CRAVE',
     'CRAWL', 'CRAZE', 'CRAZY', 'CREAK', 'CREAM', 'CREDO', 'CREPE', 'CREPT', 'CREST', 'CRIME',
-    'CRIMP', 'CRISP', 'CROAK', 'CRONE', 'CROOK', 'CROSS', 'CROWD', 'CROWN', 'CRUMB', 'CRUSH',
+    'CRIMP', 'CRISP', 'CROAK', 'CROCK', 'CRONE', 'CROOK', 'CROSS', 'CROWD', 'CROWN', 'CRUMB', 
+    'CRUSH',
     'CRUST', 'CRYPT', 'CUBIC', 'CUBIT', 'CUMIN', 'CURIO', 'CURLY', 'CURVE', 'CURSE', 'CYBER', 
     'CYCLE', 'CYNIC',
     'DADDY', 'DAISY', 'DALLY', 'DANCE', 'DANDY', 'DATUM', 'DAUNT', 'DEATH', 'DEBIT', 'DEBUG',
@@ -220,7 +221,7 @@ my_list = {
     'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'RURAL'
+word_to_find = 'CROCK'
 
 
 if word_to_find in my_list:
