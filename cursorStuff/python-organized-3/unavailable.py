@@ -137,7 +137,8 @@ my_list = {
     'PETAL', 'PETTY', 'PHASE', 'PHONE', 'PHONY', 'PHOTO', 'PIANO', 'PICKY', 'PIECE', 'PIETY',
     'PINKY', 'PILOT', 'PINCH', 'PINEY', 'PINTO', 'PIOUS', 'PIPER', 'PIQUE', 'PITCH', 'PITHY',
     'PIXEL', 'PIXIE', 'PLACE', 'PLAID', 'PLAIN', 'PLAIT', 'PLANE', 'PLANK', 'PLANT', 'PLATE',
-    'PLAZA', 'PLEAD', 'PLEAT', 'PLUCK', 'PLUMB', 'PLUMP', 'PLUNK', 'POINT', 'POISE', 'POKER',
+    'PLAZA', 'PLEAD', 'PLEAT', 'PLUCK', 'PLUMB', 'PLUME', 'PLUMP', 'PLUNK', 'POINT', 'POISE', 
+    'POKER',
     'POLKA', 'POLYP', 'POPPY', 'PORCH', 'POSSE', 'POUND', 'POUTY', 'POWER', 'PRANK', 'PREEN',
     'PRESS', 'PRICE', 'PRICK', 'PRIDE', 'PRIME', 'PRIMO', 'PRIMP', 'PRINT', 'PRIOR', 'PRISM',
     'PRIZE', 'PROBE', 'PRONE', 'PRONG', 'PROOF', 'PROSE', 'PROUD', 'PROVE', 'PROWL', 'PROXY',
@@ -221,7 +222,7 @@ my_list = {
     'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'CROCK'
+word_to_find = 'PLUME'
 
 
 if word_to_find in my_list:
