@@ -4802,13 +4802,13 @@ export const wordleWords = [
       {
         word: "PURGE",
         gameDate: "3/23/22",
-        myScore: 5,
+        myScore: 6,
         wordNumber: 277,
       },
       {
         word: "CHEST",
         gameDate: "3/24/22",
-        myScore: 5,
+        myScore: 6,
         wordNumber: 278,
       },
       {
@@ -5732,7 +5732,7 @@ export const wordleWords = [
       {
         word: "CLOWN",
         gameDate: "8/25/22",
-        myScore: 5,
+        myScore: 3,
         wordNumber: 432,
       },
       {
@@ -6729,7 +6729,7 @@ export const wordleWords = [
       {
         word: "APPLE",
         gameDate: "2/7/23",
-        myScore: 3,
+        myScore: 4,
         wordNumber: 598,
       },
       {
@@ -7083,13 +7083,13 @@ export const wordleWords = [
       {
         word: "LOCUS",
         gameDate: "4/7/23",
-        myScore: 4,
+        myScore: 5,
         wordNumber: 657,
       },
       {
         word: "LEDGE",
         gameDate: "4/8/23",
-        myScore: 3,
+        myScore: 4,
         wordNumber: 658,
       },
       {
@@ -7803,7 +7803,7 @@ export const wordleWords = [
       {
         word: "ANODE",
         gameDate: "8/5/23",
-        myScore: 4,
+        myScore: 3,
         wordNumber: 777,
       },
       {
