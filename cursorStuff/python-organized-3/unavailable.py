@@ -27,8 +27,8 @@ my_list = {
     'BOARD', 'BOAST', 'BONGO', 'BONUS', 'BOOBY', 'BOOST', 'BOOTY', 'BOOZE', 'BOOZY', 'BORAX',
     'BORNE', 'BOSSY', 'BOUGH', 'BOXER', 'BRACE', 'BRAID', 'BRAIN', 'BRAKE', 'BRAND', 'BRASH',
     'BRASS', 'BRAVE', 'BRAVO', 'BRAWN', 'BREAD', 'BREAK', 'BREED', 'BRIAR', 'BRIBE', 'BRIDE',
-    'BRIEF', 'BRINE', 'BRING', 'BRINK', 'BRISK', 'BROAD', 'BROKE', 'BROOD', 'BROOK', 'BROOM', 
-    'BROTH',
+    'BRIEF', 'BRINE', 'BRING', 'BRING', 'BRINK', 'BRISK', 'BROAD', 'BROKE', 'BROOD', 'BROOK', 
+    'BROOM', 'BROTH',
     'BROWN', 'BRUSH', 'BRUTE', 'BUGGY', 'BUDDY', 'BUGLE', 'BUILD', 'BUILT', 'BULGE', 'BULLY',
     'BULKY', 'BUNCH', 'BUNNY', 'BURLY', 'BURNT', 'BUYER', 'CABLE', 'CACAO', 'CACHE', 'CACTI',
     'CADET', 'CAMEL', 'CAMEO', 'CANDY', 'CANNY', 'CANON', 'CANOE', 'CAPER', 'CARAT', 'CARGO',
@@ -222,7 +222,7 @@ my_list = {
     'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'PLUME'
+word_to_find = 'BRING'
 
 
 if word_to_find in my_list:
