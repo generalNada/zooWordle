@@ -72,7 +72,7 @@ word = 'PUFFY'
 
 
 if word in unused_list:
- print(f"{word} is in this list -  {word} is available! Guess {word}. Give {word} a try!")
+ print(f"{word} is in this list -  {word} is available! Guess {word}. Give {word} a try, Man!")
 else:
    print(f"{word} is not in this list, Jerk!! {word} has most likely already been used by Wordle.")
 
