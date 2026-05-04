@@ -1728,7 +1728,7 @@ export const dailyWordsSmall = [
 'POWER', 'PRANK', 'PRAWN', 'PREEN', 'PRESS', 'PRICE', 'PRICK', 'PRIDE', 'PRIED', 'PRIME',
 'PRIMO', 'PRIMP', 'PRINT', 'PRIOR', 'PRISM', 'PRIVY', 'PRIZE', 'PROBE', 'PRONE', 'PRONG',
 'PROOF', 'PROSE', 'PROUD', 'PROVE', 'PROWL', 'PROXY', 'PRUNE', 'PSALM', 'PUBIC',
-'PUDGY', 'PUFFY', 'PULPY', 'PULSE', 'PUNCH', 'PUPIL', 'PUPPY', 'PUREE', 'PURER', 'PURGE',
+'PUDGY', 'PULPY', 'PULSE', 'PUNCH', 'PUPIL', 'PUPPY', 'PUREE', 'PURER', 'PURGE',
 'PURSE', 'PUSHY', 'PUTTY', 'PYGMY', 'PYLON', 'QUAIL', 'QUAKE', 'QUALM', 'QUARK', 
 'QUART',
 'QUASH', 'QUASI', 'QUEEN', 'QUEER', 'QUELL', 'QUERY', 'QUEST', 'QUEUE', 'QUICK', 'QUIET',
@@ -2695,7 +2695,7 @@ export const dailyWordsLarge = [
     'PRUNE', 'PRUNT', 'PRUTA', 'PRYER', 'PRYSE', 'PSALM', 'PSEUD', 'PSHAW', 'PSION', 'PSOAE',
     'PSOAI', 'PSOAS', 'PSORA', 'PSYCH', 'PSYOP', 'PUBCO', 'PUBES', 'PUBIC', 'PUBIS', 'PUCAN',
     'PUCER', 'PUCES', 'PUCKA', 'PUCKS', 'PUDDY', 'PUDGE', 'PUDGY', 'PUDIC', 'PUDOR', 'PUDSY',
-    'PUDUS', 'PUERS', 'PUFFA', 'PUFFS', 'PUFFY', 'PUGGY', 'PUGIL', 'PUHAS', 'PUJAH', 'PUJAS',
+    'PUDUS', 'PUERS', 'PUFFA', 'PUFFS', 'PUGGY', 'PUGIL', 'PUHAS', 'PUJAH', 'PUJAS',
     'PUKAS', 'PUKED', 'PUKER', 'PUKES', 'PUKEY', 'PUKKA', 'PUKUS', 'PULAO', 'PULAS', 'PULED',
     'PULER', 'PULES', 'PULIK', 'PULIS', 'PULKA', 'PULKS', 'PULLI', 'PULLS', 'PULLY', 'PULMO',
     'PULPS', 'PULPY', 'PULSE', 'PULUS', 'PUMAS', 'PUMIE', 'PUMPS', 'PUNAS', 'PUNCE', 'PUNCH',
@@ -13565,6 +13565,11 @@ export const wordleWords = [
         myScore: 4,
         wordNumber: 1778,
       }, 
+      { word: "PUFFY",
+        gameDate: "5/3/26",
+        myScore: 5,
+        wordNumber: 1779,
+      }, 
  
   ];
 
@@ -13581,7 +13586,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("May 2, 2026: Trump sux dykk000000000! BRING")
+console.log("May 3, 2026: Trump sux dykk000000000! PUFFY")
 
 console.log(wordleWords)
 
