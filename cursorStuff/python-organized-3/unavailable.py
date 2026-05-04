@@ -142,8 +142,8 @@ my_list = {
     'POLKA', 'POLYP', 'POPPY', 'PORCH', 'POSSE', 'POUND', 'POUTY', 'POWER', 'PRANK', 'PREEN',
     'PRESS', 'PRICE', 'PRICK', 'PRIDE', 'PRIME', 'PRIMO', 'PRIMP', 'PRINT', 'PRIOR', 'PRISM',
     'PRIZE', 'PROBE', 'PRONE', 'PRONG', 'PROOF', 'PROSE', 'PROUD', 'PROVE', 'PROWL', 'PROXY',
-    'PRUDE', 'PRUNE', 'PSALM', 'PULPY', 'PUPIL', 'PURGE', 'QUAIL', 'QUAKE', 'QUALM', 'QUACK',
-    'QUARK', 'QUART',
+    'PRUDE', 'PRUNE', 'PSALM', 'PUFFY', 'PULPY', 'PUPIL', 'PURGE', 'QUAIL', 'QUAKE', 'QUALM', 
+    'QUACK', 'QUARK', 'QUART',
     'QUASH', 'QUEEN', 'QUERY', 'QUEST', 'QUEUE', 'QUICK', 'QUIET', 'QUILL', 'QUILT', 'QUIRK',
     'QUITE', 'QUOTA', 'QUOTE', 'RABID', 'RACER', 'RADIO', 'RAINY', 'RAISE', 'RAMEN', 'RANCH',
     'RANGE', 'RAPID', 'RATIO', 'RATTY', 'RAYON', 'REACH', 'REACT', 'READY', 'REALM', 'REBEL',
@@ -222,7 +222,7 @@ my_list = {
     'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'BRING'
+word_to_find = 'PUFFY'
 
 
 if word_to_find in my_list:
