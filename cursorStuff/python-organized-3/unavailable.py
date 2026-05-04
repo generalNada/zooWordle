@@ -226,7 +226,7 @@ word_to_find = 'PUFFY'
 
 
 if word_to_find in my_list:
- print(f"{word_to_find} was found! Wordle has already used '{word_to_find}'. Do NOT guess {word_to_find}.")
+ print(f"{word_to_find} was found! Wordle has already used '{word_to_find}'. Do NOT guess {word_to_find}, Man.")
 else:
    print(f"{word_to_find} was NOT found! Feel free to guess {word_to_find}.") 
    
