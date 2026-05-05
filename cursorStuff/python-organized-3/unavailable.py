@@ -150,7 +150,8 @@ my_list = {
     'REBUS', 'REBUT', 'RECAP', 'RECUR', 'REFER', 'REGAL', 'REHAB', 'RELAX', 'RELAY', 'RELIC', 
     'REMIT',
     'RENEW', 'REPAY', 'REPEL', 'RERUN', 'RESIN', 'RETCH', 'RETRO', 'RETRY', 'REVEL', 'REVUE',
-    'RHINO', 'RHYME', 'RIDER', 'RIDGE', 'RIGHT', 'RIGID', 'RIPER', 'RISEN', 'RIVAL', 'RIVET',
+    'RHINO', 'RHYME', 'RIDER', 'RIDGE', 'RIGHT', 'RIGID', 'RIPER', 'RISEN', 'RISER', 'RIVAL', 
+    'RIVET',
     'ROACH', 'ROBIN', 'ROBOT', 'ROCKY', 'RODEO', 'ROGUE', 'ROUGE', 'ROOMY', 'ROOST', 'ROUGH',
     'ROUND', 'ROUSE', 'ROUTE', 'ROVER', 'ROWDY', 'ROWER', 'ROYAL', 'RUDDY', 'RUDER', 'RUGBY',
     'RUMBA', 'RUPEE', 'RURAL', 'RUSTY', 'SAINT', 'SALAD', 'SALLY', 'SALSA', 'SALTY', 'SANDY', 
@@ -222,7 +223,7 @@ my_list = {
     'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'PUFFY'
+word_to_find = 'RISER'
 
 
 if word_to_find in my_list:
