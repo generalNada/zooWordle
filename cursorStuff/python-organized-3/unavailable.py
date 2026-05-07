@@ -112,8 +112,8 @@ my_list = {
     'LATER',
     'LATHE', 'LATTE', 'LAUGH', 'LAYER', 'LEACH', 'LEAFY', 'LEAKY', 'LEAPT', 'LEARN', 'LEASE',
     'LEASH', 'LEAST', 'LEAVE', 'LEDGE', 'LEECH', 'LEERY', 'LEFTY', 'LEGGY', 'LEMON', 'LEMUR',
-    'LEVEL', 'LEVER', 'LIBEL', 'LIGHT', 'LILAC', 'LIMBO', 'LIMIT', 'LINEN', 'LINEN', 'LINER', 
-    'LINGO',
+    'LEVEL', 'LEVER', 'LIBEL', 'LIGHT', 'LIKEN', 'LILAC', 'LIMBO', 'LIMIT', 'LINEN', 'LINEN', 
+    'LINER', 'LINGO',
     'LITHE', 'LIVER', 'LIVID', 'LLAMA', 'LOBBY', 'LOCAL', 'LOCUS', 'LOFTY', 'LOGIC', 'LOOPY', 
     'LORIS',
     'LOSER', 'LOUSE', 'LOUSY', 'LOVER', 'LOWER', 'LOWLY', 'LOYAL', 'LUCID', 'LUCKY', 'LUMPY',
@@ -224,7 +224,7 @@ my_list = {
     'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'LATCH'
+word_to_find = 'LIKEN'
 
 
 if word_to_find in my_list:
