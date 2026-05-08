@@ -6,7 +6,7 @@ unused_list = [
     "BEGAN", "BEGAT", "BERRY", "BETEL", "BEVEL", "BEZEL", "BIBLE", "BIDDY",
     "BIGOT", "BILLY", "BINGO", "BISON", "BITTY", "BLESS", "BLIND", "BLITZ", "BLOAT", "BLOOD",
     "BLUER", "BOBBY", "BONEY", "BOOTH", "BOSOM", "BOTCH", "BOULE", "BOUND", "BOWEL", "BRAWL",
-    "BRICK", "BRINY", "BROIL", "BUDGE", "BURNT", "BURST", "BUSED", "BUSHY", "BUTCH",
+    "BRICK", "BRINY", "BROIL", "BURNT", "BURST", "BUSED", "BUSHY", "BUTCH",
     "BUTTE", "BUXOM", "BYLAW", "CABAL", "CABBY", "CABIN", "CADDY", "CAGEY", "CAIRN", "CANAL",
     "CAPUT", "CASTE", "CAVIL", "CHAFF", "CHESS", "CHICK", "CHILI", "CHINA", "CHOMP", "CHUCK",
     "CHURN", "CLACK", "CLAIM", "CLANG", "CLANK", "CLEAT", "CLOUT", "CLUED",
@@ -68,7 +68,7 @@ unused_list = [
     "WREST", "WRING", "WRYLY", "ZONAL"
 ]
 
-word = 'LIKEN'
+word = 'BUDGE'
 
 
 if word in unused_list:
