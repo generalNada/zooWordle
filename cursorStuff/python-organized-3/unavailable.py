@@ -29,7 +29,7 @@ my_list = {
     'BRASS', 'BRAVE', 'BRAVO', 'BRAWN', 'BREAD', 'BREAK', 'BREED', 'BRIAR', 'BRIBE', 'BRIDE',
     'BRIEF', 'BRINE', 'BRING', 'BRING', 'BRINK', 'BRISK', 'BROAD', 'BROKE', 'BROOD', 'BROOK', 
     'BROOM', 'BROTH',
-    'BROWN', 'BRUSH', 'BRUTE', 'BUGGY', 'BUDDY', 'BUDGE', 'BUGLE', 'BUILD', 'BUILT', 'BULGE', 
+    'BROWN', 'BRUSH', 'BRUTE', 'BUDDY', 'BUDGE', 'BUGGY', 'BUGLE', 'BUILD', 'BUILT', 'BULGE', 
     'BULLY',
     'BULKY', 'BUNCH', 'BUNNY', 'BURLY', 'BURNT', 'BUYER', 'CABLE', 'CACAO', 'CACHE', 'CACTI',
     'CADET', 'CAMEL', 'CAMEO', 'CANDY', 'CANNY', 'CANON', 'CANOE', 'CAPER', 'CARAT', 'CARGO',
@@ -208,7 +208,8 @@ my_list = {
     'TROOP', 'TROPE', 'TROUT', 'TROVE', 'TRUCK', 'TRULY', 'TRUSS', 'TRUST', 'TRUTH', 'TRYST',
     'TUBER', 'TULIP', 'TUNIC', 'TURBO', 'TUTOR', 'TWANG', 'TWEAK', 'TWEED', 'TWEET', 'TWICE', 
     'TWINE',
-    'TWIRL', 'UDDER', 'ULCER', 'ULTRA', 'UNCLE', 'UNDER', 'UNDID', 'UNDUE', 'UNFED', 'UNFIT',
+    'TWIRL', 'UDDER', 'ULCER', 'ULTRA', 'UMBRA', 'UNCLE', 'UNDER', 'UNDID', 'UNDUE', 'UNFED', 
+    'UNFIT',
     'UNIFY', 'UNION', 'UNITE', 'UNLIT', 'UNMET', 'UNTIE', 'UNTIL', 'UNZIP', 'UPPER', 'UPSET',
     'URBAN', 'USAGE', 'USHER', 'USING', 'USUAL', 'USURP', 'UTTER', 'UVULA', 'VAGUE', 'VALET',
     'VALID', 'VAPID', 'VENOM', 'VALUE', 'VAULT', 'VEGAN', 'VENUE', 'VERGE', 'VERVE', 'VIDEO',
@@ -225,7 +226,7 @@ my_list = {
     'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'BUDGE'
+word_to_find = 'UMBRA'
 
 
 if word_to_find in my_list:
