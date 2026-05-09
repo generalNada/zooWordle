@@ -1800,7 +1800,7 @@ export const dailyWordsSmall = [
 'TRITE', 'TROLL', 'TROOP', 'TROPE', 'TROUT', 'TROVE', 'TRUCE', 'TRUCK', 'TRUER', 'TRULY',
 'TRUMP', 'TRUNK', 'TRUSS', 'TRUST', 'TRUTH', 'TRYST', 'TUBAL', 'TUBER', 'TULIP', 'TULLE',
 'TUMOR', 'TUNIC', 'TURBO', 'TUTOR', 'TWANG', 'TWEAK', 'TWEED', 'TWICE', 'TWINE',
-'TWIRL', 'TWIST', 'TWIXT', 'TYING', 'UDDER', 'ULCER', 'ULTRA', 'UMBRA', 'UNCLE', 'UNCUT',
+'TWIRL', 'TWIST', 'TWIXT', 'TYING', 'UDDER', 'ULCER', 'ULTRA', 'UNCLE', 'UNCUT',
 'UNDER', 'UNDID', 'UNDUE', 'UNFED', 'UNFIT', 'UNIFY', 'UNION', 'UNITE', 'UNITY', 'UNLIT',
 'UNMET', 'UNSET', 'UNTIE', 'UNTIL', 'UNWED', 'UNZIP', 'UPPER', 'UPSET', 'URBAN', 'URINE',
 'USAGE', 'USHER', 'USING', 'USUAL', 'USURP', 'UTILE', 'UTTER', 'UVULA', 'VAGUE', 'VALET',
@@ -3020,7 +3020,7 @@ export const dailyWordsLarge = [
     'TYRES', 'TYROS', 'TYTHE', 'TZARS',
     'UDALS', 'UDDER', 'UDONS', 'UGALI', 'UGGED', 'UHLAN', 'UHURU', 'UKASE', 'ULAMA', 'ULANS',
     'ULCER', 'ULEMA', 'ULMIN', 'ULNAD', 'ULNAE', 'ULNAR', 'ULNAS', 'ULPAN', 'ULTRA', 'ULVAS',
-    'ULYIE', 'ULZIE', 'UMAMI', 'UMBEL', 'UMBER', 'UMBLE', 'UMBOS', 'UMBRA', 'UMBRE', 'UMIAC',
+    'ULYIE', 'ULZIE', 'UMAMI', 'UMBEL', 'UMBER', 'UMBLE', 'UMBOS', 'UMBRE', 'UMIAC',
     'UMIAK', 'UMIAQ', 'UMMAH', 'UMMAS', 'UMMED', 'UMPED', 'UMPHS', 'UMPIE', 'UMPTY', 'UMRAH',
     'UMRAS', 'UNAIS', 'UNAPT', 'UNARM', 'UNARY', 'UNAUS', 'UNBAG', 'UNBAN', 'UNBAR', 'UNBED',
     'UNBID', 'UNBOX', 'UNCAP', 'UNCES', 'UNCIA', 'UNCLE', 'UNCOS', 'UNCOY', 'UNCUS', 'UNCUT',
@@ -24294,6 +24294,17 @@ export const wordleWords = [
         guess_5: null,
         guess_6: null,
       }, 
+      { word: "UMBRA",
+        gameDate: "5/8/26",
+        myScore: 4,
+        wordNumber: 1784,
+        guess_1: "STEAL",
+        guess_2: "CAIRN",
+        guess_3: "WHARF",
+        guess_4: "UMBRA",
+        guess_5: null,
+        guess_6: null,
+      }, 
  
   ];
 
@@ -24310,7 +24321,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("May 7, 2026: Trump sux dykk000000000! BUDGE")
+console.log("May 8, 2026: Trump sux dykk000000000! UMBRA")
 
 console.log(wordleWords)
 
