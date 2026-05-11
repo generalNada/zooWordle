@@ -134,7 +134,8 @@ my_list = {
     'OMEGA',
     'ONION', 'ONSET', 'OPERA', 'OPINE', 'ORDER', 'ORGAN', 'OTHER', 'OTTER', 'OUGHT', 'OUNCE',
     'OUTDO', 'OUTER', 'OVERT', 'OWNER', 'OXIDE', 'OZONE', 'PAINT', 'PANEL', 'PANIC', 'PAPAL',
-    'PAPER', 'PARER', 'PARRY', 'PARTY', 'PASTA', 'PATCH', 'PATIO', 'PATSY', 'PATTY', 'PAUSE',
+    'PAPER', 'PARER', 'PARKA', 'PARRY', 'PARTY', 'PASTA', 'PATCH', 'PATIO', 'PATSY', 'PATTY', 
+    'PAUSE',
     'PEACE', 'PEACH', 'PEARL', 'PECAN', 'PEDAL', 'PENNE', 'PERCH', 'PERIL', 'PERKY', 'PESKY',
     'PETAL', 'PETTY', 'PHASE', 'PHONE', 'PHONY', 'PHOTO', 'PIANO', 'PICKY', 'PIECE', 'PIETY',
     'PINKY', 'PILOT', 'PINCH', 'PINEY', 'PINTO', 'PIOUS', 'PIPER', 'PIQUE', 'PITCH', 'PITHY',
@@ -226,7 +227,7 @@ my_list = {
     'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'SATIN'
+word_to_find = 'PARKA'
 
 
 if word_to_find in my_list:
