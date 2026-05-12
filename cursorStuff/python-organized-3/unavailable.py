@@ -128,7 +128,8 @@ my_list = {
     'MOOSE', 'MORAL', 'MOSSY', 'MOTEL', 'MOTOR', 'MOTTO', 'MOULT', 'MOUNT', 'MOURN', 'MOUSE',
     'MOUTH', 'MOVIE', 'MUCKY', 'MUGGY', 'MULCH', 'MUNCH', 'MUMMY', 'MURAL', 'MUSIC', 'MUSHY',
     'MUSTY', 'MYRRH', 'NADIR', 'NAÏVE', 'NANNY', 'NASAL', 'NASTY', 'NATAL', 'NAVAL', 'NAVEL',
-    'NEEDY', 'NEIGH', 'NERDY', 'NERVE', 'NERVY', 'NEVER', 'NICHE', 'NICER', 'NIGHT', 'NINJA',
+    'NEEDY', 'NEIGH', 'NERDY', 'NERVE', 'NERVY', 'NEVER', 'NEWLY', 'NICHE', 'NICER', 'NIGHT', 
+    'NINJA',
     'NINTH', 'NOBLE', 'NOISE', 'NOISY', 'NOMAD', 'NORTH', 'NOVEL', 'NUDGE', 'NYLON', 'NYMPH',
     'OASIS', 'OCCUR', 'OCEAN', 'OCTET', 'ODDLY', 'OFFAL', 'OFFER', 'OFTEN', 'OLDER', 'OLIVE', 
     'OMEGA',
@@ -227,7 +228,7 @@ my_list = {
     'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'PARKA'
+word_to_find = 'NEWLY'
 
 
 if word_to_find in my_list:
