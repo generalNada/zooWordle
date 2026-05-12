@@ -1708,7 +1708,7 @@ export const dailyWordsSmall = [
 'MUDDY', 'MULCH', 'MUMMY', 'MUNCH', 'MURAL', 'MURKY', 'MUSHY', 'MUSIC', 'MUSKY', 'MUSTY',
 'MYRRH', 'NACHO', 'NADIR', 'NAIVE', 'NANNY', 'NASAL', 'NASTY', 'NATAL', 'NAVAL', 'NAVEL', 
 'NEEDY',
-'NEIGH', 'NERDY', 'NERVE', 'NERVY', 'NEVER', 'NEWER', 'NEWLY', 'NICER', 'NICHE', 'NIECE',
+'NEIGH', 'NERDY', 'NERVE', 'NERVY', 'NEVER', 'NEWER', 'NICER', 'NICHE', 'NIECE',
 'NIGHT', 'NINJA', 'NINNY', 'NINTH', 'NOBLE', 'NOBLY', 'NOISE', 'NOISY', 'NOMAD', 'NOOSE',
 'NORTH', 'NOSEY', 'NOTCH', 'NOVEL', 'NUDGE', 'NURSE', 'NUTTY', 'NYLON', 'NYMPH', 'OAKEN',
 'OASES', 'OBESE', 'OCCUR', 'OCEAN', 'OCTAL', 'OCTET', 'ODDER', 'ODDLY', 'OFFAL', 'OFFER', 
@@ -2574,7 +2574,7 @@ export const dailyWordsLarge = [
     'NEIST', 'NEIVE', 'NELIS', 'NELLY', 'NEMAS', 'NEMNS', 'NEMPT', 'NENES', 'NEONS', 'NEPER',
     'NEPIT', 'NERAL', 'NERDS', 'NERDY', 'NERKA', 'NERKS', 'NEROL', 'NERTS', 'NERTZ', 'NERVE',
     'NERVY', 'NESTS', 'NETES', 'NETOP', 'NETTS', 'NETTY', 'NEUKS', 'NEUME', 'NEUMS', 'NEVEL',
-    'NEVER', 'NEVES', 'NEVUS', 'NEWBS', 'NEWED', 'NEWEL', 'NEWER', 'NEWIE', 'NEWLY', 'NEWSY',
+    'NEVER', 'NEVES', 'NEVUS', 'NEWBS', 'NEWED', 'NEWEL', 'NEWER', 'NEWIE', 'NEWSY',
     'NEWTS', 'NEXTS', 'NEXUS',
     'NGAIO', 'NGANA', 'NGATI', 'NGOMA', 'NGWEE', 'NICAD', 'NICER', 'NICHE', 'NICHT', 'NICKS',
     'NICOL', 'NIDAL', 'NIDED', 'NIDES', 'NIDOR', 'NIDUS', 'NIECE', 'NIEFS', 'NIEVE', 'NIFES',
@@ -24327,6 +24327,17 @@ export const wordleWords = [
         guess_5: null,
         guess_6: null,
       }, 
+      { word: "NEWLY",
+        gameDate: "5/11/26",
+        myScore: 2,
+        wordNumber: 1787,
+        guess_1: "RINSE",
+        guess_2: "NEWLY",
+        guess_3: null,
+        guess_4: null,
+        guess_5: null,
+        guess_6: null,
+      }, 
 
  
   ];
@@ -24344,7 +24355,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("May 10, 2026: Trump sux dykk000000000! PARKA")
+console.log("May 11, 2026: Trump sux dykk000000000! NEWLY")
 
 console.log(wordleWords)
 
