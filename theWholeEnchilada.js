@@ -1810,7 +1810,7 @@ export const dailyWordsSmall = [
 'VIVID',
 'VIXEN', 'VOCAL', 'VODKA', 'VOICE', 'VOILA', 'VOMIT', 'VOTER', 'VOUCH', 'VOWEL',
 'VYING', 'WACKY', 'WAFER', 'WAGER', 'WAGON', 'WAIST', 'WAIVE', 'WALTZ', 'WARTY', 'WASTE',
-'WATCH', 'WATER', 'WAVER', 'WAXEN', 'WEARY', 'WEDGE', 'WEEDY', 'WEIRD',
+'WATCH', 'WATER', 'WAXEN', 'WEARY', 'WEDGE', 'WEEDY', 'WEIRD',
 'WELCH', 'WELSH', 'WHACK', 'WHALE', 'WHARF', 'WHEAT', 'WHEEL', 'WHELP', 'WHERE', 'WHICH',
 'WHIFF', 'WHILE', 'WHINE', 'WHINY', 'WHIRL', 'WHISK', 'WHITE', 'WHOLE', 'WHOOP', 'WHOSE',
 'WIDEN', 'WIDER', 'WIDOW', 'WIDTH', 'WIELD', 'WIGHT', 'WILLY', 'WIMPY', 'WINCE', 'WINCH',
@@ -3071,7 +3071,7 @@ export const dailyWordsLarge = [
     'WANNA', 'WANTS', 'WANTY', 'WANZE', 'WAQFS', 'WARBS', 'WARBY', 'WARDS', 'WARED', 'WARES',
     'WAREZ', 'WARKS', 'WARMS', 'WARNS', 'WARPS', 'WARRE', 'WARST', 'WARTS', 'WARTY', 'WASES',
     'WASHY', 'WASMS', 'WASPS', 'WASPY', 'WASTE', 'WASTS', 'WATAP', 'WATCH', 'WATER', 'WATTS',
-    'WAUFF', 'WAUGH', 'WAUKS', 'WAULK', 'WAULS', 'WAURS', 'WAVED', 'WAVER', 'WAVES', 'WAVEY',
+    'WAUFF', 'WAUGH', 'WAUKS', 'WAULK', 'WAULS', 'WAURS', 'WAVED', 'WAVES', 'WAVEY',
     'WAWAS', 'WAWES', 'WAWLS', 'WAXED', 'WAXEN', 'WAXER', 'WAXES', 'WAYED', 'WAZIR', 'WAZOO',
     'WEALD', 'WEALS', 'WEAMB', 'WEANS', 'WEARS', 'WEARY', 'WEBBY', 'WEBER', 'WECHT',
     'WEDEL', 'WEDGE', 'WEDGY', 'WEEDS', 'WEEDY', 'WEEKE', 'WEEKS', 'WEELS', 'WEEMS', 'WEENS',
@@ -24360,6 +24360,17 @@ export const wordleWords = [
         guess_5: "DOWDY",
         guess_6: null,
       }, 
+      { word: "WAVER",
+        gameDate: "5/14/26",
+        myScore: 4,
+        wordNumber: 1790,
+        guess_1: "RINSE",
+        guess_2: "WRECK",
+        guess_3: "WAGER",
+        guess_4: "WAVER",
+        guess_5: null,
+        guess_6: null,
+      }, 
 
  
   ];
@@ -24377,7 +24388,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("May 13, 2026: Trump sux dykk000000000! DOWDY")
+console.log("May 14, 2026: Trump sux dykk000000000! WAVER")
 
 console.log(wordleWords)
 
