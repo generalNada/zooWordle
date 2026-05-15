@@ -63,12 +63,12 @@ unused_list = [
     "TULLE", "TUMOR", "TWIXT", "TYING", "UNCUT", "UNITY", "UNSET", "UNWED",
     "URINE", "UTILE", "VALOR", "VALVE", "VAPOR", "VAUNT", "VERSE", "VERSO", "VICAR", "VIGIL",
     "VIPER", "VIRUS", "VISIT", "VISTA", "VOCAL", "VOMIT", "WAGER", "WAIVE", "WARTY",
-    "WAVER", "WELCH", "WELSH", "WHARF", "WIDER", "WIDOW", "WIGHT", "WILLY", "WIMPY",
+    "WELCH", "WELSH", "WHARF", "WIDER", "WIDOW", "WIGHT", "WILLY", "WIMPY",
     "WINCH", "WISPY", "WOODY", "WOOLY", "WOOZY", "WORTH", "WRACK", "WRECK",
     "WREST", "WRING", "WRYLY", "ZONAL"
 ]
 
-word = 'DOWDY'
+word = 'WAVER'
 
 
 if word in unused_list:
