@@ -48,7 +48,7 @@ my_list = {
     'CONCH',
     'CONDO', 'CONIC', 'CORAL', 'CORER', 'CORNY', 'COULD', 'COUNT', 'COURT', 'COVEN', 'COVER',
     'COVET', 'COWER', 'COYLY', 'CRAFT', 'CRAMP', 'CRANE', 'CRANK', 'CRASS', 'CRATE', 'CRAVE',
-    'CRAWL', 'CRAZE', 'CRAZY', 'CREAK', 'CREAM', 'CREDO', 'CREEP', 'CREPE', 'CREPT', 'CREST', 
+    'CRAWL', 'CRAZE', 'CRAZY', 'CREAK', 'CREAM', 'CREDO', 'CREED', 'CREPE', 'CREPT', 'CREST', 
     'CRIME',
     'CRIMP', 'CRISP', 'CROAK', 'CROCK', 'CRONE', 'CROOK', 'CROSS', 'CROWD', 'CROWN', 'CRUMB', 
     'CRUSH',
@@ -230,7 +230,7 @@ my_list = {
     'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'CREEP'
+word_to_find = 'CREED'
 
 
 if word_to_find in my_list:
