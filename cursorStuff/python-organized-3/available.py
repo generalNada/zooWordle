@@ -32,7 +32,7 @@ unused_list = [
     "LIEGE", "LIPID", "LOAMY", "LOATH", "LOGIN", "LOOSE", "LORRY", "LUMEN",
     "LUPUS", "LURCH", "LYMPH", "LYRIC", "MACRO", "MAFIA", "MAMMA", "MAMMY", "MANGE", "MANGY",
     "MEATY", "MECCA", "MELEE", "MILKY", "MINIM", "MINOR", "MISSY", "MOCHA", "MOODY", "MORON",
-    "MORPH", "MOTIF", "MOUND", "MOVER", "MOWER", "MUCUS", "MUDDY", "MURKY", "MUSKY", "NACHO",
+    "MORPH", "MOTIF", "MOUND", "MOWER", "MUCUS", "MUDDY", "MURKY", "MUSKY", "NACHO",
     "NEWER", "NIECE", "NINNY", "NOBLY", "NOOSE", "NOSEY", "NOTCH", "NUTTY", "OAKEN",
     "OASES", "OBESE", "OCTAL", "ODDER", "OLDEN", "OMBRE", "OPIUM", "OPTIC", "ORBIT", "OUTGO", 
     "OVARY",
@@ -68,7 +68,7 @@ unused_list = [
     "WREST", "WRING", "WRYLY", "ZONAL"
 ]
 
-word = 'CREED'
+word = 'MOVER'
 
 
 if word in unused_list:
