@@ -128,7 +128,8 @@ my_list = {
     'MIDST', 'MIGHT', 'MIMIC', 'MINER', 'MINTY', 'MINUS', 'MINCE', 'MIRTH', 'MISER', 'MODAL',
     'MODEL', 'MODEM', 'MOGUL', 'MOIST', 'MOLAR', 'MOLDY', 'MOMMY', 'MONEY', 'MONTH', 'MOOCH',
     'MOOSE', 'MORAL', 'MOSSY', 'MOTEL', 'MOTOR', 'MOTTO', 'MOULT', 'MOUNT', 'MOURN', 'MOUSE',
-    'MOUTH', 'MOVIE', 'MUCKY', 'MUGGY', 'MULCH', 'MUNCH', 'MUMMY', 'MURAL', 'MUSIC', 'MUSHY',
+    'MOUTH', 'MOVER', 'MOVIE', 'MUCKY', 'MUGGY', 'MULCH', 'MUNCH', 'MUMMY', 'MURAL', 'MUSIC', 
+    'MUSHY',
     'MUSTY', 'MYRRH', 'NADIR', 'NAÏVE', 'NANNY', 'NASAL', 'NASTY', 'NATAL', 'NAVAL', 'NAVEL',
     'NEEDY', 'NEIGH', 'NERDY', 'NERVE', 'NERVY', 'NEVER', 'NEWLY', 'NICHE', 'NICER', 'NIGHT', 
     'NINJA',
@@ -230,7 +231,7 @@ my_list = {
     'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'CREED'
+word_to_find = 'MOVER'
 
 
 if word_to_find in my_list:
