@@ -1606,7 +1606,7 @@ export const dailyWordsSmall = [
 'BRINE', 'BRINK', 'BRINY', 'BRISK', 'BROAD', 'BROIL', 'BROKE', 'BROOK',
 'BROOM', 'BROTH', 'BROWN', 'BRUNT', 'BRUSH', 'BRUTE', 'BUDDY', 'BUGGY', 'BUGLE',
 'BUILD', 'BUILT', 'BULGE', 'BULKY', 'BULLY', 'BUNCH', 'BUNNY', 'BURLY', 'BURNT', 'BURST',
-'BUSED', 'BUSHY', 'BUTCH', 'BUTTE', 'BUXOM', 'BYLAW', 'CABAL', 'CABBY', 'CABIN',
+'BUSED', 'BUSHY', 'BUTCH', 'BUTTE', 'BUXOM', 'CABAL', 'CABBY', 'CABIN',
 'CABLE', 'CACAO', 'CACHE', 'CACTI', 'CADDY', 'CADET', 'CAGEY', 'CAIRN', 'CAMEL', 'CAMEO',
 'CANAL', 'CANDY', 'CANNY', 'CANOE', 'CANON', 'CAPER', 'CAPUT', 'CARAT', 'CARGO', 'CAROL',
 'CARRY', 'CARVE', 'CASTE', 'CATCH', 'CATER', 'CATTY', 'CAULK', 'CAUSE', 'CAVIL', 'CEASE',
@@ -1988,7 +1988,7 @@ export const dailyWordsLarge = [
     'BURRO', 'BURRS', 'BURRY', 'BURSA', 'BURSE', 'BURST', 'BUSBY', 'BUSED', 'BUSES', 'BUSHY',
     'BUSKS', 'BUSKY', 'BUSSU', 'BUSTI', 'BUSTS', 'BUSTY', 'BUTCH', 'BUTEO', 'BUTES', 'BUTLE',
     'BUTOH', 'BUTTE', 'BUTTS', 'BUTTY', 'BUTUT', 'BUTYL', 'BUXOM', 'BUZZY', 'BWANA',
-    'BWAZI', 'BYDED', 'BYDES', 'BYKED', 'BYKES', 'BYLAW', 'BYRES', 'BYRLS', 'BYSSI', 'BYTES',
+    'BWAZI', 'BYDED', 'BYDES', 'BYKED', 'BYKES', 'BYRES', 'BYRLS', 'BYSSI', 'BYTES',
     'BYWAY',
     'CAAED', 'CABAL', 'CABAS', 'CABBY', 'CABER', 'CABIN', 'CABLE', 'CABOB', 'CABOC', 'CABRE',
     'CACAO', 'CACAS', 'CACHE', 'CACKS', 'CACKY', 'CACTI', 'CADDY', 'CADEE', 'CADES', 'CADET',
@@ -24393,6 +24393,17 @@ export const wordleWords = [
         guess_5: null,
         guess_6: null,
       }, 
+      { word: "BYLAW",
+        gameDate: "5/17/26",
+        myScore: 2,
+        wordNumber: 1793,
+        guess_1: "STEAL",
+        guess_2: "BYLAW",
+        guess_3: null,
+        guess_4: null,
+        guess_5: null,
+        guess_6: null,
+      }, 
 
  
   ];
@@ -24410,7 +24421,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("May 16, 2026: Trump sux dykk000000000! MOVER")
+console.log("May 17, 2026: Trump sux dykk000000000! BYLAW")
 
 console.log(wordleWords)
 
