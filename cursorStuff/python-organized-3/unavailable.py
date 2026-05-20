@@ -31,7 +31,8 @@ my_list = {
     'BROOM', 'BROTH',
     'BROWN', 'BRUSH', 'BRUTE', 'BUDDY', 'BUDGE', 'BUGGY', 'BUGLE', 'BUILD', 'BUILT', 'BULGE', 
     'BULLY',
-    'BULKY', 'BUNCH', 'BUNNY', 'BURLY', 'BURNT', 'BUYER', 'BYLAW', 'CABLE', 'CACAO', 'CACHE', 'CACTI',
+    'BULKY', 'BUNCH', 'BUNNY', 'BURLY', 'BURNT', 'BUYER', 'BYLAW', 'CABLE', 'CACAO', 'CACHE', 
+    'CACTI',
     'CADET', 'CAMEL', 'CAMEO', 'CANDY', 'CANNY', 'CANON', 'CANOE', 'CAPER', 'CARAT', 'CARGO',
     'CAROL', 'CAROM', 'CARRY', 'CATCH', 'CATER', 'CATTY', 'CAULK', 'CAUSE', 'CARVE', 'CEASE', 
     'CEDAR',
@@ -64,7 +65,7 @@ my_list = {
     'DOWRY', 'DOZEN', 'DRAFT', 'DRAIN', 'DRAMA', 'DRAPE', 'DRAWN', 'DREAD', 'DREAM', 'DRILL', 
     'DRINK',
     'DRIVE', 'DROLL', 'DRONE', 'DROOL', 'DROOP', 'DROVE', 'DRUNK', 'DRYER', 'DUCHY', 'DUMMY', 
-    'DUSKY',
+    'DUSKY', 'DUSTY',
     'DUTCH', 'DUVET', 'DWARF', 'DWELL', 'DWELT', 'EAGER', 'EAGLE', 'EARLY', 'EARTH', 'EASEL',
     'EATEN', 'EBONY', 'EERIE', 'EDIFY', 'EGRET', 'EIGHT', 'EJECT', 'ELATE', 'ELBOW', 'ELDER', 
     'ELFIN', 'ELITE', 'ELOPE',
@@ -231,7 +232,7 @@ my_list = {
     'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'LOATH'
+word_to_find = 'DUSTY'
 
 
 if word_to_find in my_list:
