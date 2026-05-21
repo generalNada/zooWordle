@@ -1816,7 +1816,7 @@ export const dailyWordsSmall = [
 'WIDEN', 'WIDER', 'WIDOW', 'WIDTH', 'WIELD', 'WIGHT', 'WILLY', 'WIMPY', 'WINCE', 'WINCH',
 'WINDY', 'WISPY', 'WITCH', 'WITTY', 'WOKEN', 'WOMAN', 'WOODY', 'WOOER',
 'WOOLY', 'WOOZY', 'WORDY', 'WORLD', 'WORRY', 'WORSE', 'WORST', 'WORTH', 'WOULD', 'WOUND',
-'WOVEN', 'WRACK', 'WRATH', 'WREAK', 'WRECK', 'WREST', 'WRING', 'WRIST', 'WRITE', 'WRONG',
+'WOVEN', 'WRACK', 'WRATH', 'WREAK', 'WREST', 'WRING', 'WRIST', 'WRITE', 'WRONG',
 'WROTE', 'WRUNG', 'WRYLY', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA',
 'ZESTY', 'ZONAL'
     ];
@@ -3099,7 +3099,7 @@ export const dailyWordsLarge = [
     'WOOLS', 'WOOLY', 'WOONS', 'WOOPS', 'WOOPY', 'WOOSE', 'WOOSH', 'WOOTZ', 'WOOZY', 'WORDS',
     'WORDY', 'WORKS', 'WORLD', 'WORMS', 'WORMY', 'WORRY', 'WORSE', 'WORST', 'WORTH', 'WORTS',
     'WOULD', 'WOUND', 'WOVEN', 'WOWED', 'WOWEE', 'WOXEN', 'WRACK', 'WRANG', 'WRAPS', 'WRAPT',
-    'WRAST', 'WRATE', 'WRATH', 'WRAWL', 'WREAK', 'WRECK', 'WRENS', 'WREST', 'WRICK', 'WRIED',
+    'WRAST', 'WRATE', 'WRATH', 'WRAWL', 'WREAK', 'WRENS', 'WREST', 'WRICK', 'WRIED',
     'WRIER', 'WRIES', 'WRING', 'WRIST', 'WRITE', 'WRITS', 'WROKE', 'WRONG', 'WROOT', 'WROTE',
     'WROTH', 'WRUNG', 'WRYER', 'WRYLY', 'WUDDY',
     'WUDUS', 'WULLS', 'WURST', 'WUSES', 'WUSHU', 'WUSSY', 'WUXIA', 'WYLED', 'WYLES', 'WYNDS',
@@ -24426,6 +24426,17 @@ export const wordleWords = [
         guess_5: null,
         guess_6: null,
       }, 
+      { word: "WRECK",
+        gameDate: "5/20/26",
+        myScore: 3,
+        wordNumber: 1796,
+        guess_1: "RINSE",
+        guess_2: "TREAD",
+        guess_3: "WRECK",
+        guess_4: null,
+        guess_5: null,
+        guess_6: null,
+      }, 
 
  
   ];
@@ -24443,7 +24454,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("May 19, 2026: Trump sux dykk000000000! DUSTY")
+console.log("May 20, 2026: Trump sux dykk000000000! WRECK")
 
 console.log(wordleWords)
 
