@@ -228,11 +228,11 @@ my_list = {
     'WHINY', 'WHIRL', 'WHISK', 'WHITE', 'WHOLE', 'WHOOP', 'WHOSE', 'WIDEN', 'WIDTH', 'WIELD',
     'WINCE', 'WINDY', 'WISER', 'WITTY', 'WOKEN', 'WOMAN', 'WOMEN', 'WOOER', 'WORDY', 'WORLD', 
     'WORRY', 'WORSE',
-    'WORST', 'WOULD', 'WOUND', 'WOVEN', 'WRATH', 'WREAK', 'WRIST', 'WRITE', 'WRONG', 'WROTE',
-    'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
+    'WORST', 'WOULD', 'WOUND', 'WOVEN', 'WRATH', 'WREAK', 'WRECK', 'WRIST', 'WRITE', 'WRONG', 
+    'WROTE', 'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'DUSTY'
+word_to_find = 'WRECK'
 
 
 if word_to_find in my_list:
