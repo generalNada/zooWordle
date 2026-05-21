@@ -64,11 +64,11 @@ unused_list = [
     "URINE", "UTILE", "VALOR", "VALVE", "VAPOR", "VAUNT", "VERSE", "VERSO", "VICAR", "VIGIL",
     "VIPER", "VIRUS", "VISIT", "VISTA", "VOCAL", "VOMIT", "WAGER", "WAIVE", "WARTY",
     "WELCH", "WELSH", "WHARF", "WIDER", "WIDOW", "WIGHT", "WILLY", "WIMPY",
-    "WINCH", "WISPY", "WOODY", "WOOLY", "WOOZY", "WORTH", "WRACK", "WRECK",
+    "WINCH", "WISPY", "WOODY", "WOOLY", "WOOZY", "WORTH", "WRACK",
     "WREST", "WRING", "WRYLY", "ZONAL"
 ]
 
-word = 'DUSTY'
+word = 'WRECK'
 
 
 if word in unused_list:
