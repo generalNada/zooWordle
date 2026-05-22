@@ -1579,7 +1579,7 @@ export const dailyWordsSmall = [
 'ABOUT', 'ABOVE', 'ABUSE', 'ABYSS', 'ACORN', 'ACRID', 'ACTOR', 'ACUTE', 'ADAGE', 'ADAPT',
 'ADEPT', 'ADMIN', 'ADMIT', 'ADOBE', 'ADOPT', 'ADORE', 'ADORN', 'ADULT', 'AFFIX', 'AFIRE',
 'AFOUL', 'AFTER', 'AGAIN', 'AGAPE', 'AGATE', 'AGENT', 'AGILE', 'AGING', 'AGLOW',
-'AGONY', 'AGREE', 'AHEAD', 'AIDER', 'AISLE', 'ALARM', 'ALBUM', 'ALERT', 'ALGAE', 'ALIBI',
+'AGONY', 'AHEAD', 'AIDER', 'AISLE', 'ALARM', 'ALBUM', 'ALERT', 'ALGAE', 'ALIBI',
 'ALIEN', 'ALIGN', 'ALIKE', 'ALIVE', 'ALLAY', 'ALLOT', 'ALLOW', 'ALLOY', 'ALOFT',
 'ALONE', 'ALONG', 'ALOOF', 'ALOUD', 'ALPHA', 'ALTAR', 'ALTER', 'AMASS', 'AMAZE', 'AMBER',
 'AMBLE', 'AMEND', 'AMISS', 'AMITY', 'AMONG', 'AMPLE', 'AMUSE', 'ANGEL', 'ANGER',
@@ -1842,7 +1842,7 @@ export const dailyWordsLarge = [
     'AGATE', 'AGAVE',
     'AGAZE', 'AGENE', 'AGENT', 'AGERS', 'AGGER', 'AGGIE', 'AGGRO', 'AGGRY', 'AGHAS', 'AGILA',
     'AGILE', 'AGING', 'AGIOS', 'AGISM', 'AGIST', 'AGITA', 'AGLEE', 'AGLET', 'AGLEY', 'AGLOO',
-    'AGLOW', 'AGLUS', 'AGMAS', 'AGOGE', 'AGONE', 'AGONY', 'AGORA', 'AGREE', 'AGRIA', 'AGRIN',
+    'AGLOW', 'AGLUS', 'AGMAS', 'AGOGE', 'AGONE', 'AGONY', 'AGORA', 'AGRIA', 'AGRIN',
     'AGROM', 'AGUED', 'AGUES', 'AGUNA', 'AGUTI', 'AHEAD', 'AHING', 'AHINT', 'AHOLD', 'AHULL', 
     'AIDAS',
     'AIDED', 'AIDER', 'AIDES', 'AIDOI', 'AIERY', 'AILED', 'AILER', 'AILIE', 'AIMED', 'AIMER',
@@ -24437,6 +24437,17 @@ export const wordleWords = [
         guess_5: null,
         guess_6: null,
       }, 
+      { word: "AGREE",
+        gameDate: "5/21/26",
+        myScore: 5,
+        wordNumber: 1797,
+        guess_1: "LEANT",
+        guess_2: "SWEAR",
+        guess_3: "AFIRE",
+        guess_4: "ARGUE",
+        guess_5: "AGREE",
+        guess_6: null,
+      }, 
 
  
   ];
@@ -24454,7 +24465,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("May 20, 2026: Trump sux dykk000000000! WRECK")
+console.log("May 21, 2026: Trump sux dykk000000000! AGREE")
 
 console.log(wordleWords)
 
