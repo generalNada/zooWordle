@@ -220,7 +220,8 @@ my_list = {
     'UNIFY', 'UNION', 'UNITE', 'UNLIT', 'UNMET', 'UNTIE', 'UNTIL', 'UNZIP', 'UPPER', 'UPSET',
     'URBAN', 'USAGE', 'USHER', 'USING', 'USUAL', 'USURP', 'UTTER', 'UVULA', 'VAGUE', 'VALET',
     'VALID', 'VAPID', 'VENOM', 'VALUE', 'VAULT', 'VEGAN', 'VENUE', 'VERGE', 'VERVE', 'VIDEO',
-    'VIGOR', 'VILLA', 'VINYL', 'VIOLA', 'VIRAL', 'VISOR', 'VITAL', 'VIVID', 'VIXEN', 'VODKA',
+    'VIGOR', 'VILLA', 'VINYL', 'VIOLA', 'VIRAL', 'VISOR', 'VITAL', 'VIVID', 'VIXEN', 'VOCAL', 
+    'VODKA',
     'VOGUE', 'VOILA', 'VOICE', 'VOTER', 'VOUCH', 'VOWEL', 'VYING', 'WACKY', 'WAFER', 'WAGON', 
     'WAIST',
     'WALTZ', 'WASTE', 'WATCH', 'WATER', 'WAVER', 'WAXEN', 'WEARY', 'WEAVE', 'WEDGE', 'WEEDY', 
@@ -233,7 +234,7 @@ my_list = {
     'WROTE', 'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'AGREE'
+word_to_find = 'VOCAL'
 
 
 if word_to_find in my_list:
