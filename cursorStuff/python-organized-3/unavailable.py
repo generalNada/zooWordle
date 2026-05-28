@@ -195,7 +195,8 @@ my_list = {
     'STASH', 'STATE', 'STEAD', 'STEAM', 'STEED', 'STEEL', 'STEEP', 'STEIN', 'STERN', 'STICK',
     'STIFF', 'STILL', 'STILT', 'STING', 'STINK', 'STINT', 'STOCK', 'STOIC', 'STOLE', 'STOMP',
     'STONE', 'STONY', 'STOOD', 'STOOL', 'STORE', 'STORK', 'STORM', 'STORY', 'STOUT', 'STOVE',
-    'STRAP', 'STRAW', 'STRAY', 'STRUT', 'STUDY', 'STUMP', 'STUNG', 'STUNT', 'STYLE', 'SUAVE',
+    'STRAP', 'STRAW', 'STRAY', 'STRUT', 'STUDY', 'STUFF', 'STUMP', 'STUNG', 'STUNT', 'STYLE', 
+    'SUAVE',
     'SUEDE', 'SUGAR', 'SUITE', 'SULKY', 'SULLY', 'SUMAC', 'SUNNY', 'SUPER', 'SURER', 'SURGE',
     'SURLY', 'SUSHI', 'SWAMP', 'SWEAT', 'SWEEP', 'SWEET', 'SWELL', 'SWILL', 'SWINE', 'SWING', 
     'SWIRL',
@@ -235,7 +236,7 @@ my_list = {
     'WROTE', 'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'COUCH'
+word_to_find = 'STUFF'
 
 
 if word_to_find in my_list:
