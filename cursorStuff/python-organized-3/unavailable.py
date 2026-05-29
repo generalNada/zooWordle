@@ -61,7 +61,8 @@ my_list = {
     'DEBUT', 'DECAL', 'DECAY', 'DECOR', 'DECOY', 'DECRY', 'DEFER', 'DEITY', 'DELAY', 'DELTA',
     'DELVE', 'DENIM', 'DENSE', 'DEPOT', 'DEPTH', 'DETER', 'DETOX', 'DEUCE', 'DEVIL', 'DIARY', 
     'DICEY',
-    'DIGIT', 'DINER', 'DINGO', 'DINGY', 'DIRGE', 'DISCO', 'DITTO', 'DITTY', 'DIZZY', 'DODGE',
+    'DIGIT', 'DINER', 'DINGO', 'DINGY', 'DIRGE', 'DISCO', 'DITTO', 'DITTY', 'DIVOT', 'DIZZY', 
+    'DODGE',
     'DODGY', 'DOGMA', 'DOING', 'DOLLY', 'DONOR', 'DONUT', 'DOPEY', 'DOUBT', 'DOUGH', 'DOWDY', 
     'DOWEL',
     'DOWRY', 'DOZEN', 'DRAFT', 'DRAIN', 'DRAMA', 'DRAPE', 'DRAWN', 'DREAD', 'DREAM', 'DRILL', 
@@ -236,7 +237,7 @@ my_list = {
     'WROTE', 'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'STUFF'
+word_to_find = 'DIVOT'
 
 
 if word_to_find in my_list:
