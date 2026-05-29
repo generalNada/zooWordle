@@ -1377,7 +1377,8 @@ export const combinedWords = [
     'DELTA', 'DELVE', 'DEMON', 'DEMUR', 'DENIM', 'DENSE', 'DEPOT', 'DEPTH', 'DERBY', 'DETER',
     'DETOX', 'DEUCE', 'DEVIL', 'DIARY', 'DICEY', 'DIGIT', 'DILLY', 'DIMLY', 'DINER', 'DINGO',
     'DINGY', 'DIODE', 'DIRGE', 'DIRTY', 'DISCO', 'DITCH', 'DITTO', 'DITTY', 'DIVAN', 'DIVER',
-    'DIZZY', 'DODGE', 'DODGY', 'DOGMA', 'DOING', 'DOLLY', 'DONOR', 'DONUT', 'DOPEY', 'DOUBT',
+    'DIVOT', 'DIZZY', 'DODGE', 'DODGY', 'DOGMA', 'DOING', 'DOLLY', 'DONOR', 'DONUT', 'DOPEY', 
+    'DOUBT',
     'DOUGH', 'DOWDY', 'DOWEL', 'DOWNY', 'DOWRY', 'DOZEN', 'DRAFT', 'DRAIN', 'DRAKE', 'DRAMA',
     'DRANK', 'DRAPE', 'DRAWL', 'DRAWN', 'DREAD', 'DREAM', 'DRESS', 'DRIED', 'DRIER', 'DRIFT',
     'DRILL', 'DRINK', 'DRIVE', 'DROIT', 'DROLL', 'DRONE', 'DROOL', 'DROOP', 'DROSS', 'DROVE',
@@ -2116,7 +2117,7 @@ export const dailyWordsLarge = [
     'DIPSO', 'DIRAM', 'DIRER', 'DIRGE', 'DIRKE', 'DIRKS', 'DIRLS', 'DIRTS', 'DIRTY', 'DISAS',
     'DISCI', 'DISCO', 'DISCS', 'DISHY', 'DISKS', 'DISME', 'DITAL', 'DITAS', 'DITCH', 'DITED',
     'DITES', 'DITSY', 'DITTO', 'DITTS', 'DITTY', 'DITZY', 'DIVAN', 'DIVAS', 'DIVED', 'DIVER',
-    'DIVES', 'DIVIS', 'DIVNA', 'DIVOS', 'DIVOT', 'DIVVY', 'DIWAN', 'DIXIE', 'DIXIT', 'DIYAS',
+    'DIVES', 'DIVIS', 'DIVNA', 'DIVOS', 'DIVVY', 'DIWAN', 'DIXIE', 'DIXIT', 'DIYAS',
     'DIZEN', 'DJINN', 'DJINS', 'DOABS', 'DOATS', 'DOBBY', 'DOBES', 'DOBIE', 'DOBLA',
     'DOBRA', 'DOBRO', 'DOCHT', 'DOCKS', 'DOCOS', 'DOCUS', 'DODDY', 'DODGE', 'DODGY', 'DODOS',
     'DOEKS', 'DOERS', 'DOEST', 'DOETH', 'DOFFS', 'DOGES', 'DOGEY', 'DOGGO', 'DOGGY', 'DOGIE',
@@ -24503,7 +24504,6 @@ export const wordleWords = [
         guess_5: null,
         guess_6: null,
       }, 
-    
       { word: "STUFF",
         gameDate: "5/27/26",
         myScore: 3,
@@ -24512,6 +24512,17 @@ export const wordleWords = [
         guess_2: "STUCK",
         guess_3: "STUFF",
         guess_4: null,
+        guess_5: null,
+        guess_6: null,
+      }, 
+      { word: "DIVOT",
+        gameDate: "5/28/26",
+        myScore: 4,
+        wordNumber: 1804,
+        guess_1: "LEANT",
+        guess_2: "POSIT",
+        guess_3: "BIGOT",
+        guess_4: "DIVOT",
         guess_5: null,
         guess_6: null,
       }, 
@@ -24532,7 +24543,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("May 27, 2026: Trump sux dykk000000000! STUFF")
+console.log("May 28, 2026: Trump sux dykk000000000! DIVOT")
 
 console.log(wordleWords)
 
