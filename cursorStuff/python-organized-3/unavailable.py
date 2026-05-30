@@ -41,7 +41,7 @@ my_list = {
     'CHART', 'CHASE', 'CHASM', 'CHEAP', 'CHEAT', 'CHECK', 'CHEEK', 'CHEER', 'CHEST', 'CHIDE',
     'CHIEF', 'CHILD', 'CHILL', 'CHIME', 'CHOCK', 'CHOIR', 'CHOKE', 'CHORD', 'CHORE', 'CHOSE',
     'CHUCK', 'CHUMP', 'CHUNK', 'CHUTE', 'CIDER', 'CIGAR', 'CIGAR', 'CINCH', 'CIRCA', 'CIVIC', 
-    'CIVIL', 'CLAMP',
+    'CIVIL', 'CLAMP', 'CLANG',
     'CLASH', 'CLASP', 'CLASS', 'CLEAN', 'CLEAR', 'CLEFT', 'CLERK', 'CLICK', 'CLIFF', 'CLIMB', 
     'CLING',
     'CLINK', 'CLOAK', 'CLOCK', 'CLOCK', 'CLONE', 'CLOSE', 'CLOTH', 'CLOUD', 'CLOVE', 'CLOWN', 
