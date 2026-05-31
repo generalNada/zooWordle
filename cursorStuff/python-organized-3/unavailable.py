@@ -182,7 +182,7 @@ my_list = {
     'SKIRT', 'SKULL', 'SKUNK', 'SLANG', 'SLATE', 'SLEEK', 'SLEEP', 'SLICE', 'SLICK', 'SLIME', 
     'SLOPE', 'SLOSH',
     'SLOTH', 'SLUMP', 'SLUNG', 'SMALL', 'SMART', 'SMASH', 'SMEAR', 'SMELL', 'SMELT', 'SMILE', 
-    'SMIRK',
+    'SMILE', 'SMIRK',
     'SMITE', 'SMITH', 'SMOCK', 'SMOKE', 'SNACK', 'SNAFU', 'SNAIL', 'SNAKE', 'SNAKY', 'SNARE',
     'SNARL', 'SNEAK', 'SNIDE', 'SNOOP', 'SNORE', 'SNORT', 'SNOUT', 'SOBER', 'SOGGY', 'SOLAR', 
     'SOLID', 'SOLVE',
@@ -237,7 +237,7 @@ my_list = {
     'WROTE', 'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'CLANG'
+word_to_find = 'SMILE'
 
 
 if word_to_find in my_list:
