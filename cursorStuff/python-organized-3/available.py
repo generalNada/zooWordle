@@ -68,7 +68,7 @@ unused_list = [
     "WREST", "WRING", "WRYLY", "ZONAL"
 ]
 
-word = 'CLANG'
+word = 'SMILE'
 
 
 if word in unused_list:
