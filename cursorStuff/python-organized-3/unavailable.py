@@ -75,7 +75,8 @@ my_list = {
     'ELUDE', 'EMAIL', 'EMBED', 'EMBER', 'EMPTY', 'ENACT', 'ENDOW', 'ENEMA', 'ENJOY', 'ENNUI',
     'ENSUE', 'ENTER', 'ENVOY', 'EPOCH', 'EPOXY', 'EQUAL', 'EQUIP', 'ERASE', 'ERODE', 'ERROR', 
     'ERUPT',
-    'ESSAY', 'ETHER', 'ETHIC', 'ETHOS', 'EVADE', 'EVERY', 'EVOKE', 'EXACT', 'EXALT', 'EXCEL',
+    'ESSAY', 'ETHER', 'ETHIC', 'ETHOS', 'ETUDE', 'EVADE', 'EVERY', 'EVOKE', 'EXACT', 'EXALT', 
+    'EXCEL',
     'EXERT', 'EXILE', 'EXIST', 'EXPEL', 'EXTOL', 'EXTRA', 'EVENT', 'EXULT', 'FABLE', 'FACET',
     'FAINT', 'FAITH', 'FALSE', 'FANCY', 'FARCE', 'FAULT', 'FAVOR', 'FEAST', 'FEIGN', 'FERAL',
     'FERRY', 'FETCH', 'FETID', 'FEVER', 'FEWER', 'FIBER', 'FIELD', 'FIEND', 'FIERY', 'FIFTH',
@@ -237,7 +238,7 @@ my_list = {
     'WROTE', 'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'SMILE'
+word_to_find = 'ETUDE'
 
 
 if word_to_find in my_list:
