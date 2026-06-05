@@ -1581,7 +1581,7 @@ export const dailyWordsSmall = [
 'ADEPT', 'ADMIN', 'ADMIT', 'ADOBE', 'ADOPT', 'ADORE', 'ADORN', 'ADULT', 'AFFIX', 'AFIRE',
 'AFOUL', 'AFTER', 'AGAIN', 'AGAPE', 'AGATE', 'AGENT', 'AGILE', 'AGING', 'AGLOW',
 'AGONY', 'AHEAD', 'AIDER', 'AISLE', 'ALARM', 'ALBUM', 'ALERT', 'ALGAE', 'ALIBI',
-'ALIEN', 'ALIGN', 'ALIKE', 'ALIVE', 'ALLAY', 'ALLOT', 'ALLOW', 'ALLOY', 'ALOFT',
+'ALIEN', 'ALIGN', 'ALIKE', 'ALIVE', 'ALLAY', 'ALLOT', 'ALLOW', 'ALOFT',
 'ALONE', 'ALONG', 'ALOOF', 'ALOUD', 'ALPHA', 'ALTAR', 'ALTER', 'AMASS', 'AMAZE', 'AMBER',
 'AMBLE', 'AMEND', 'AMISS', 'AMITY', 'AMONG', 'AMPLE', 'AMUSE', 'ANGEL', 'ANGER',
 'ANGLE', 'ANGRY', 'ANGST', 'ANIME', 'ANNEX', 'ANNOY', 'ANNUL', 'ANODE', 'ANTIC',
@@ -1855,7 +1855,7 @@ export const dailyWordsLarge = [
     'ALGAE', 'ALGAL', 'ALGAS',
     'ALGID', 'ALGIN', 'ALGOL', 'ALIAS', 'ALIBI', 'ALIEN', 'ALIFS', 'ALIGN', 'ALIKE', 'ALINE',
     'ALIST', 'ALIVE', 'ALIYA', 'ALKIE', 'ALKOS', 'ALKYD', 'ALKYL', 'ALLEE', 'ALLIS',
-    'ALLOD', 'ALLOT', 'ALLOW', 'ALLOY', 'ALLYL', 'ALMAH', 'ALMAS', 'ALMEH', 'ALMES', 'ALMUD',
+    'ALLOD', 'ALLOT', 'ALLOW', 'ALLYL', 'ALMAH', 'ALMAS', 'ALMEH', 'ALMES', 'ALMUD',
     'ALMUG', 'ALODS', 'ALOED', 'ALOES', 'ALOFT', 'ALOHA', 'ALOIN', 'ALONG', 'ALOOS',
     'ALOOF', 'ALOSE', 'ALOUD', 'ALOWE',
     'ALPHA', 'ALTAR', 'ALTER', 'ALTHO', 'ALTOS', 'ALULA', 'ALUMS', 'ALURE',
@@ -24592,6 +24592,17 @@ export const wordleWords = [
         guess_5: null,
         guess_6: null,
       }, 
+      { word: "ALLOY",
+        gameDate: "6/4/26",
+        myScore: 3,
+        wordNumber: 1811,
+        guess_1: "STEAL",
+        guess_2: "CLAIM",
+        guess_3: "ALLOY",
+        guess_4: null,
+        guess_5: null,
+        guess_6: null,
+      }, 
 
  
   ];
@@ -24609,7 +24620,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("June 3, 2026: Trump sux dykk000000000! NOTCH")
+console.log("June 4, 2026: Trump sux dykk000000000! ALLOY")
 
 console.log(wordleWords)
 
