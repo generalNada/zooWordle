@@ -5,7 +5,7 @@ my_list = {
     'AGILE',
     'AGING', 'AGLOW', 'AGONY', 'AGREE', 'AGREE', 'AHEAD', 'AISLE', 'ALARM', 'ALBUM', 'ALERT', 
     'ALIEN',
-    'ALIKE', 'ALIVE', 'ALLEY', 'ALLOT', 'ALLOW', 'ALOFT', 'ALONE', 'ALONG', 'ALOOF', 'ALOUD', 
+    'ALIKE', 'ALIVE', 'ALLEY', 'ALLOT', 'ALLOW', 'ALLOY', 'ALOFT', 'ALONE', 'ALONG', 'ALOOF', 'ALOUD', 
     'ALPHA',
     'ALTAR', 'ALTER', 'AMASS', 'AMBER', 'AMBLE', 'AMISS', 'AMONG', 'AMPLE', 'AMPLY', 'AMUSE', 
     'ANGEL',
@@ -240,7 +240,7 @@ my_list = {
     'WROTE', 'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'NOTCH'
+word_to_find = 'ALLOY'
 
 
 if word_to_find in my_list:
