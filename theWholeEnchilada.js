@@ -2583,7 +2583,7 @@ export const dailyWordsLarge = [
     'NIMBI', 'NIMBS', 'NIMPS', 'NINER', 'NINES', 'NINJA', 'NINNY', 'NINON', 'NINTH', 'NIPAS',
     'NIPPY', 'NIQAB', 'NIRLS', 'NIRLY', 'NISEI', 'NISSE', 'NISUS', 'NITER', 'NITES', 'NITID',
     'NITON', 'NITRE', 'NITRO', 'NITRY', 'NITTY', 'NIVAL', 'NIXED', 'NIXER', 'NIXES', 'NIXIE',
-    'NIZAM', 'NKOSI', 'NOAHS', 'NOBBY', 'NOBLE', 'NOBLY', 'NOCKS', 'NODAL', 'NODDY', 'NODES',
+    'NIZAM', 'NKOSI', 'NOAHS', 'NOBBY', 'NOBLE', 'NOCKS', 'NODAL', 'NODDY', 'NODES',
     'NODUS', 'NOELS', 'NOGGS', 'NOHOW', 'NOILS', 'NOILY', 'NOINT', 'NOIRS', 'NOISE', 'NOISY',
     'NOLES', 'NOLLS', 'NOLOS', 'NOMAD', 'NOMAS', 'NOMEN', 'NOMES', 'NOMIC', 'NOMOI', 'NOMOS',
     'NONAS', 'NONCE', 'NONES', 'NONET', 'NONGS', 'NONIS', 'NONNY', 'NONYL', 'NOOBS', 'NOOIT',
@@ -24603,6 +24603,17 @@ export const wordleWords = [
         guess_5: null,
         guess_6: null,
       }, 
+      { word: "NOBLY",
+        gameDate: "6/5/26",
+        myScore: 5,
+        wordNumber: 1812,
+        guess_1: "STEAL",
+        guess_2: "FLUID",
+        guess_3: "LYMPH",
+        guess_4: "WOOLY",
+        guess_5: "NOBLY",
+        guess_6: null,
+      }, 
 
  
   ];
@@ -24620,7 +24631,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("June 4, 2026: Trump sux dykk000000000! ALLOY")
+console.log("June 5, 2026: Trump sux dykk000000000! NOBLY")
 
 console.log(wordleWords)
 
