@@ -563,11 +563,20 @@ body.dark-theme ::-webkit-scrollbar-thumb:hover {
   background: rgb(120, 120, 120);
 }
 
-/* Letter use (Wordle history) modal */
-.letter-use-fab {
+/* Upper-right action buttons */
+.top-right-fabs {
   position: fixed;
   top: 20px;
   right: 20px;
+  z-index: 1001;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 0.5rem;
+}
+
+.letter-use-fab,
+.repeated-words-fab {
   padding: 8px 16px;
   border: 1px solid rgb(150, 150, 150);
   border-radius: 4px;
@@ -575,23 +584,28 @@ body.dark-theme ::-webkit-scrollbar-thumb:hover {
   color: rgb(0, 0, 0);
   font-size: 0.9rem;
   cursor: pointer;
-  z-index: 1001;
   transition: background 0.2s ease;
+  white-space: nowrap;
 }
 
-.letter-use-fab:hover {
+.letter-use-fab:hover,
+.repeated-words-fab:hover {
   background: rgb(240, 240, 240);
 }
 
-body.dark-theme .letter-use-fab {
+body.dark-theme .letter-use-fab,
+body.dark-theme .repeated-words-fab {
   background: rgb(40, 40, 40);
   color: rgb(255, 255, 255);
   border-color: rgb(100, 100, 100);
 }
 
-body.dark-theme .letter-use-fab:hover {
+body.dark-theme .letter-use-fab:hover,
+body.dark-theme .repeated-words-fab:hover {
   background: rgb(50, 50, 50);
 }
+
+/* Letter use (Wordle history) modal */
 
 .letter-use-modal {
   display: none;

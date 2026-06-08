@@ -108,3 +108,71 @@
 .repeated-word-occurrences li strong {
   font-weight: 600;
 }
+
+.repeated-words-sort-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.repeated-words-sort-label {
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+.repeated-words-sort-btn {
+  padding: 0.35rem 0.75rem;
+  border: 1px solid #000;
+  background: #fff;
+  font-family: "Datatype", monospace;
+  font-weight: 600;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.repeated-words-sort-btn:hover {
+  background: #f0f0f0;
+}
+
+.repeated-words-sort-btn.active {
+  background: #000;
+  color: #fff;
+}
+
+.repeated-words-summary {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  font-weight: 700;
+  text-align: left;
+}
+
+.repeated-words-by-date {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.repeated-words-by-date li {
+  border: 1px solid #ddd;
+  padding: 0.75rem;
+  background: #fafafa;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.repeated-date-word {
+  font-weight: 700;
+  font-size: 1rem;
+  letter-spacing: 0.05em;
+}
+
+.repeated-date-meta {
+  font-size: 0.9rem;
+  line-height: 1.4;
+}

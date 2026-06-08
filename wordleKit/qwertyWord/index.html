@@ -5,14 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>A Renegade QWERTY Wordle</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="../../repeatedWordsKit/repeatedWords.css"
+      type="text/css"
+    />
   </head>
   <body>
     <button class="wordlist-toggle" id="wordlistToggle">
       Use Our Large Word List, Guy
     </button>
-    <button type="button" class="letter-use-fab" id="letterUseButton">
-      Letter use
-    </button>
+    <div class="top-right-fabs">
+      <button type="button" class="letter-use-fab" id="letterUseButton">
+        Letter use
+      </button>
+      <button
+        type="button"
+        class="repeated-words-fab"
+        id="toggleRepeatedWordsButton"
+      >
+        Repeated words
+      </button>
+    </div>
     <div class="app-container">
       <header>
         <a href="../containsSearch/index.html" target="_blank">To Contains Letter(s)</a>
@@ -181,9 +195,20 @@
       </div>
     </div>
 
+    <div id="repeatedWordsModal" class="repeated-words-modal">
+      <div class="repeated-words-modal-content">
+        <span class="repeated-words-close" aria-label="Close">&times;</span>
+        <div id="repeatedWordsContent"></div>
+      </div>
+    </div>
+
     <script type="module" src="script.js"></script>
     <script src="positionCounter.js"></script>
     <script type="module" src="preWordReset.js"></script>
     <script type="module" src="letterUse.js"></script>
+    <script
+      type="module"
+      src="../../repeatedWordsKit/repeatedWords.js"
+    ></script>
   </body>
 </html>
