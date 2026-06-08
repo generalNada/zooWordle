@@ -213,7 +213,8 @@ my_list = {
     'TENTH', 'TEPID', 'TERSE', 'THANK', 'THEFT', 'THEIR', 'THEME', 'THERE', 'THESE', 'THICK', 
     'THIEF',
     'THIGH', 'THING', 'THINK', 'THIRD', 'THORN', 'THOSE', 'THREE', 'THREW', 'THROB', 'THROW',
-    'THRUM', 'THUMB', 'THUMP', 'THYME', 'TIARA', 'TIBIA', 'TIDAL', 'TIGER', 'TILDE', 'TIMER',
+    'THRUM', 'THUMB', 'THUMB', 'THUMP', 'THYME', 'TIARA', 'TIBIA', 'TIDAL', 'TIGER', 'TILDE', 
+    'TIMER',
     'TINGE', 'TIPSY', 'TITAN', 'TITHE', 'TITLE', 'TIZZY', 'TOAST', 'TODAY', 'TONIC', 'TOADY', 
     'TOOTH',
     'TOPAZ', 'TOPIC', 'TORCH', 'TORSO', 'TOTAL', 'TOTEM', 'TOUCH', 'TOUGH', 'TOWEL', 'TOWER',
@@ -241,7 +242,7 @@ my_list = {
     'WROTE', 'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'MORPH'
+word_to_find = 'THUMB'
 
 
 if word_to_find in my_list:
