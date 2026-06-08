@@ -1791,7 +1791,7 @@ export const dailyWordsSmall = [
 'TEMPO', 'TENET', 'TENOR', 'TENSE', 'TENTH', 'TEPEE', 'TEPID', 'TERRA', 'TERSE', 'TESTY',
 'THANK', 'THEIR', 'THEME', 'THERE', 'THESE', 'THETA', 'THICK', 'THIEF', 'THIGH',
 'THING', 'THINK', 'THIRD', 'THONG', 'THORN', 'THOSE', 'THREE', 'THREW', 'THROB', 'THROW',
-'THRUM', 'THUMB', 'THUMP', 'THYME', 'TIARA', 'TIBIA', 'TIDAL', 'TIGER', 'TIGHT', 'TILDE',
+'THRUM', 'THUMP', 'THYME', 'TIARA', 'TIBIA', 'TIDAL', 'TIGER', 'TIGHT', 'TILDE',
 'TIMER', 'TIMID', 'TINGE', 'TIPSY', 'TITAN', 'TITHE', 'TITLE', 'TIZZY', 'TOAST', 'TODAY',
 'TODDY', 'TOKEN', 'TONAL', 'TONER', 'TONGA', 'TONIC', 'TOOTH', 'TOPAZ', 'TOPIC', 'TORCH',
 'TORSO', 'TORTA', 'TORUS', 'TOTAL', 'TOTEM', 'TOUCH', 'TOUGH', 'TOWEL', 'TOWER', 'TOXIC', 
@@ -2971,7 +2971,7 @@ export const dailyWordsLarge = [
     'THILK', 'THILL', 'THINE', 'THING', 'THINK', 'THINS', 'THIOL', 'THIRD', 'THIRL', 'THOFT',
     'THOLE', 'THOLI', 'THONG', 'THORN', 'THORO', 'THORP', 'THOSE', 'THOUS', 'THOWL', 'THRAE',
     'THRAW', 'THREE', 'THREW', 'THRID', 'THRIP', 'THROB', 'THROE', 'THROW', 'THRUM', 'THUDS',
-    'THUGS', 'THUJA', 'THUMB', 'THUMP', 'THUNK', 'THURL', 'THUYA', 'THYME', 'THYMI', 'THYMY',
+    'THUGS', 'THUJA', 'THUMP', 'THUNK', 'THURL', 'THUYA', 'THYME', 'THYMI', 'THYMY',
     'TIANS', 'TIARA', 'TIARS', 'TIBIA', 'TICAL', 'TICCA', 'TICED', 'TICES', 'TICHY', 'TICKS',
     'TICKY', 'TIDAL', 'TIDDY', 'TIDED', 'TIDES', 'TIERS', 'TIFFS', 'TIFOS', 'TIFTS', 'TIGER',
     'TIGES', 'TIGHT', 'TIGON', 'TIKAS', 'TIKES', 'TIKIS', 'TIKKA', 'TILAK', 'TILDE', 'TILED',
@@ -24625,6 +24625,17 @@ export const wordleWords = [
         guess_5: null,
         guess_6: null,
       }, 
+      { word: "THUMB",
+        gameDate: "6/7/26",
+        myScore: 4,
+        wordNumber: 1814,
+        guess_1: "STEAL",
+        guess_2: "FIGHT",
+        guess_3: "BOTCH",
+        guess_4: "THUMB",
+        guess_5: null,
+        guess_6: null,
+      }, 
 
  
   ];
@@ -24642,7 +24653,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("June 6, 2026: Trump sux dykk000000000! MORPH")
+console.log("June 7, 2026: Trump sux dykk000000000! THUMB")
 
 console.log(wordleWords)
 
