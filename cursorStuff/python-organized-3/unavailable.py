@@ -127,7 +127,7 @@ my_list = {
     'LOOPY', 'LORIS',
     'LOSER', 'LOUSE', 'LOUSY', 'LOVER', 'LOWER', 'LOWLY', 'LOYAL', 'LUCID', 'LUCKY', 'LUMPY',
     'LUNAR', 'LUNCH', 'LUNGE', 'LURID', 'LUSTY', 'LYING', 'MACAW', 'MACHO', 'MADAM', 'MADLY',
-    'MAFIA",
+    'MAFIA',
     'MAGIC', 'MAGMA', 'MAIZE', 'MAJOR', 'MAKER', 'MAMBO', 'MANGA', 'MANGO', 'MANIA', 'MANIC',
     'MANLY', 'MANOR', 'MAPLE', 'MARCH', 'MARRY', 'MARSH', 'MASON', 'MASSE', 'MATEY', 'MATCH',
     'MATTE', 'MAUVE', 'MAXIM', 'MAYBE', 'MAYOR', 'MEALY', 'MEANT', 'MEDAL', 'MEDIA', 'MEDIC',
