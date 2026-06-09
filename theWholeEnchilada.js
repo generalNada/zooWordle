@@ -1696,7 +1696,7 @@ export const dailyWordsSmall = [
 'LOCAL', 'LOCUS', 'LODGE', 'LOFTY', 'LOGIC', 'LOGIN', 'LOOPY', 'LOOSE', 'LORIS',
 'LORRY', 'LOSER', 'LOUSE', 'LOUSY', 'LOVER', 'LOWER', 'LOWLY', 'LOYAL', 'LUCID', 'LUCKY',
 'LUMEN', 'LUMPY', 'LUNAR', 'LUNCH', 'LUNGE', 'LUPUS', 'LURCH', 'LURID', 'LUSTY', 'LYING',
-'LYMPH', 'LYRIC', 'MACAW', 'MACHO', 'MACRO', 'MADAM', 'MADLY', 'MAFIA', 'MAGIC', 'MAGMA',
+'LYMPH', 'LYRIC', 'MACAW', 'MACHO', 'MACRO', 'MADAM', 'MADLY', 'MAGIC', 'MAGMA',
 'MAIZE', 'MAJOR', 'MAKER', 'MAMBO', 'MAMMA', 'MAMMY', 'MANGA', 'MANGE', 'MANGO', 'MANGY',
 'MANIA', 'MANIC', 'MANLY', 'MANOR', 'MAPLE', 'MARCH', 'MARRY', 'MARSH', 'MASON', 'MASSE',
 'MATCH', 'MATEY', 'MATTE', 'MAUVE', 'MAXIM', 'MAYBE', 'MAYOR', 'MEALY', 'MEANT', 'MEATY',
@@ -2493,7 +2493,7 @@ export const dailyWordsLarge = [
     'LYSES', 'LYSIN', 'LYSIS', 'LYSOL', 'LYSSA', 'LYTED', 'LYTES', 'LYTHE', 'LYTIC', 'LYTTA',
     'MAAED', 'MAARE', 'MAARS', 'MABES', 'MACAS', 'MACAW', 'MACED', 'MACER', 'MACES', 'MACHE',
     'MACHI', 'MACHO', 'MACHS', 'MACKS', 'MACLE', 'MACON', 'MACRO', 'MADAM', 'MADGE', 'MADID',
-    'MADLY', 'MADRE', 'MAERL', 'MAFIA', 'MAFIC', 'MAGES', 'MAGGS', 'MAGIC', 'MAGMA', 'MAGOT',
+    'MADLY', 'MADRE', 'MAERL', 'MAFIC', 'MAGES', 'MAGGS', 'MAGIC', 'MAGMA', 'MAGOT',
     'MAGUS', 'MAHOE', 'MAHUA', 'MAHWA', 'MAIDS', 'MAIKO', 'MAIKS', 'MAILE', 'MAILL', 'MAILS',
     'MAIMS', 'MAINS', 'MAIRE', 'MAIRS', 'MAISE', 'MAIST', 'MAIZE', 'MAJOR', 'MAKAR', 'MAKER',
     'MAKES', 'MAKIS', 'MAKOS', 'MALAM', 'MALAR', 'MALAS', 'MALAX', 'MALES', 'MALIC', 'MALIK',
@@ -24636,6 +24636,17 @@ export const wordleWords = [
         guess_5: null,
         guess_6: null,
       }, 
+      { word: "MAFIA",
+        gameDate: "6/8/26",
+        myScore: 3,
+        wordNumber: 1815,
+        guess_1: "STEAL",
+        guess_2: "CAIRN",
+        guess_3: "MAFIA",
+        guess_4: null,
+        guess_5: null,
+        guess_6: null,
+      }, 
 
  
   ];
@@ -24653,7 +24664,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("June 7, 2026: Trump sux dykk000000000! THUMB")
+console.log("June 8, 2026: Trump sux dykk000000000! MAFIA")
 
 console.log(wordleWords)
 
