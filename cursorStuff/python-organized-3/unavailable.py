@@ -4,7 +4,7 @@ my_list = {
     'ADOPT', 'ADORE', 'ADULT', 'AFFIX', 'AFOOT', 'AFTER', 'AGAIN', 'AGAPE', 'AGATE', 'AGENT', 
     'AGILE',
     'AGING', 'AGLOW', 'AGONY', 'AGREE', 'AGREE', 'AHEAD', 'AISLE', 'ALARM', 'ALBUM', 'ALERT', 
-    'ALIEN',
+    'ALIEN', 'ALIGN',
     'ALIKE', 'ALIVE', 'ALLEY', 'ALLOT', 'ALLOW', 'ALLOY', 'ALOFT', 'ALONE', 'ALONG', 'ALOOF', 
     'ALOUD', 'ALPHA',
     'ALTAR', 'ALTER', 'AMASS', 'AMBER', 'AMBLE', 'AMISS', 'AMONG', 'AMPLE', 'AMPLY', 'AMUSE', 
@@ -244,7 +244,7 @@ my_list = {
     'WROTE', 'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'WHARF'
+word_to_find = 'ALIGN'
 
 
 if word_to_find in my_list:
