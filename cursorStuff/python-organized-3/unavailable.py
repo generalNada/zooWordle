@@ -27,7 +27,7 @@ my_list = {
     'BLOCK', 'BLOKE', 'BLOND', 'BLOOM', 'BLOWN', 'BLUFF', 'BLUNT', 'BLURB', 'BLURT', 'BLUSH',
     'BOARD', 'BOAST', 'BONGO', 'BONUS', 'BOOBY', 'BOOST', 'BOOTY', 'BOOZE', 'BOOZY', 'BORAX',
     'BORNE', 'BOSSY', 'BOUGH', 'BOXER', 'BRACE', 'BRAID', 'BRAIN', 'BRAKE', 'BRAND', 'BRASH',
-    'BRASS', 'BRAVE', 'BRAVO', 'BRAWN', 'BREAD', 'BREAK', 'BREED', 'BRIAR', 'BRIBE', 'BRIDE',
+    'BRASS', 'BRAVE', 'BRAVO', 'BRAWN', 'BREAD', 'BREAK', 'BREAK', 'BREED', 'BRIAR', 'BRIBE', 'BRIDE',
     'BRIEF', 'BRINE', 'BRING', 'BRING', 'BRINK', 'BRISK', 'BROAD', 'BROKE', 'BROOD', 'BROOK', 
     'BROOM', 'BROTH',
     'BROWN', 'BRUSH', 'BRUTE', 'BUDDY', 'BUDGE', 'BUGGY', 'BUGLE', 'BUILD', 'BUILT', 'BULGE', 
@@ -244,7 +244,7 @@ my_list = {
     'WROTE', 'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'TESTY'
+word_to_find = 'BREAK'
 
 
 if word_to_find in my_list:
