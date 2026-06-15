@@ -176,8 +176,8 @@ my_list = {
     'SANDY', 'SASSY', 'SATIN',
     'SAUCY', 'SAUNA', 'SAUTE', 'SAVOR', 'SAVVY', 'SCALD', 'SCALE', 'SCANT', 'SCARE', 'SCARF',
     'SCENE', 'SCENT', 'SCOFF', 'SCOLD', 'SCONE', 'SCOPE', 'SCORE', 'SCORN', 'SCOUR', 'SCOUT',
-    'SCOWL', 'SCRAM', 'SCRAP', 'SCRUB', 'SCRUM', 'SEDAN', 'SEEDY', 'SEGUE', 'SENSE', 'SERIF', 
-    'SERUM',
+    'SCOWL', 'SCRAM', 'SCRAP', 'SCRUB', 'SCRUM', 'SEDAN', 'SEEDY', 'SEGUE', 'SENSE', 'SEPIA',
+    'SERIF', 'SERUM',
     'SERVE', 'SEVEN', 'SEVER', 'SHADE', 'SHAFT', 'SHAKE', 'SHAKY', 'SHALL', 'SHAME', 'SHANK',
     'SHAPE', 'SHARD', 'SHARE', 'SHARP', 'SHAVE', 'SHAWL', 'SHEAR', 'SHEEP', 'SHEET', 'SHELF', 
     'SHELL',
@@ -246,7 +246,7 @@ my_list = {
     'WROTE', 'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'QUELL'
+word_to_find = 'SEPIA'
 
 
 if word_to_find in my_list:
