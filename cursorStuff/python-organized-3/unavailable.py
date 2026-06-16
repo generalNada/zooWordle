@@ -29,8 +29,8 @@ my_list = {
     'BORNE', 'BOSSY', 'BOUGH', 'BOXER', 'BRACE', 'BRAID', 'BRAIN', 'BRAKE', 'BRAND', 'BRASH',
     'BRASS', 'BRAVE', 'BRAVO', 'BRAWN', 'BREAD', 'BREAK', 'BREAK', 'BREED', 'BRIAR', 'BRIBE', 
     'BRIDE',
-    'BRIEF', 'BRINE', 'BRING', 'BRING', 'BRINK', 'BRISK', 'BROAD', 'BROKE', 'BROOD', 'BROOK', 
-    'BROOM', 'BROTH',
+    'BRIEF', 'BRINE', 'BRING', 'BRING', 'BRINK', 'BRISK', 'BROAD', 'BROIL', 'BROKE', 'BROOD', 
+    'BROOK', 'BROOM', 'BROTH',
     'BROWN', 'BRUSH', 'BRUTE', 'BUDDY', 'BUDGE', 'BUGGY', 'BUGLE', 'BUILD', 'BUILT', 'BULGE', 
     'BULLY',
     'BULKY', 'BUNCH', 'BUNNY', 'BURLY', 'BURNT', 'BUYER', 'BYLAW', 'CABLE', 'CACAO', 'CACHE', 
@@ -246,7 +246,7 @@ my_list = {
     'WROTE', 'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'SEPIA'
+word_to_find = 'BROIL'
 
 
 if word_to_find in my_list:
