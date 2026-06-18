@@ -52,12 +52,17 @@
   color: #000;
 }
 
+.repeated-words-modal-content p {
+  font-weight: 700;
+}
+
 /* Close button */
 .repeated-words-close {
   position: absolute;
   top: 1rem;
   right: 1.4rem;
   font-size: 1.6rem;
+  font-weight: 700;
   cursor: pointer;
 }
 
@@ -79,7 +84,7 @@
 /* Word heading */
 .repeated-word-header {
   font-family: "Datatype", monospace;
-  font-weight: 700;
+  font-weight: 800;
   font-size: 1rem;
   margin-bottom: 0.6rem;
   text-align: left;
@@ -97,6 +102,7 @@
   border-bottom: 1px solid #eee;
   padding: 0.4rem 0;
   font-size: 0.9rem;
+  font-weight: 700;
   line-height: 1.4;
 }
 
@@ -104,9 +110,8 @@
   border-bottom: none;
 }
 
-/* Highlight index numbers */
 .repeated-word-occurrences li strong {
-  font-weight: 600;
+  font-weight: 800;
 }
 
 .repeated-words-sort-controls {
@@ -127,7 +132,7 @@
   border: 1px solid #000;
   background: #fff;
   font-family: "Datatype", monospace;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 0.85rem;
   cursor: pointer;
 }
@@ -144,7 +149,7 @@
 .repeated-words-summary {
   margin-bottom: 1rem;
   font-size: 1rem;
-  font-weight: 700;
+  font-weight: 800;
   text-align: left;
 }
 
@@ -164,15 +169,21 @@
   display: flex;
   flex-direction: column;
   gap: 0.25rem;
+  font-weight: 700;
 }
 
 .repeated-date-word {
-  font-weight: 700;
+  font-weight: 800;
   font-size: 1rem;
   letter-spacing: 0.05em;
 }
 
 .repeated-date-meta {
   font-size: 0.9rem;
+  font-weight: 700;
   line-height: 1.4;
+}
+
+.repeated-date-meta strong {
+  font-weight: 800;
 }
