@@ -1793,7 +1793,7 @@ export const dailyWordsSmall = [
 'THING', 'THINK', 'THIRD', 'THONG', 'THORN', 'THOSE', 'THREE', 'THREW', 'THROB', 'THROW',
 'THRUM', 'THUMP', 'THYME', 'TIARA', 'TIBIA', 'TIDAL', 'TIGER', 'TIGHT', 'TILDE',
 'TIMER', 'TIMID', 'TINGE', 'TIPSY', 'TITAN', 'TITHE', 'TITLE', 'TIZZY', 'TOAST', 'TODAY',
-'TODDY', 'TOKEN', 'TONAL', 'TONER', 'TONGA', 'TONIC', 'TOOTH', 'TOPAZ', 'TOPIC', 'TORCH',
+'TODDY', 'TONAL', 'TONER', 'TONGA', 'TONIC', 'TOOTH', 'TOPAZ', 'TOPIC', 'TORCH',
 'TORSO', 'TORTA', 'TORUS', 'TOTAL', 'TOTEM', 'TOUCH', 'TOUGH', 'TOWEL', 'TOWER', 'TOXIC', 
 'TOXIN',
 'TRACE', 'TRACK', 'TRACT', 'TRADE', 'TRAIL', 'TRAIN', 'TRAIT', 'TRAMP', 'TRASH', 'TRAWL',
@@ -2982,7 +2982,7 @@ export const dailyWordsLarge = [
     'TITTY', 'TITUP', 'TIYIN', 'TIYNS', 'TIZES', 'TIZZY', 'TOADS', 'TOAST', 'TOAZE',
     'TOCKS', 'TOCKY', 'TOCOS', 'TODAY', 'TODDE', 'TODDY', 'TOEAS', 'TOFFS', 'TOFFY', 'TOFTS',
     'TOFUS', 'TOGAE', 'TOGAS', 'TOGED', 'TOGES', 'TOGUE', 'TOHOS', 'TOILE', 'TOILS', 'TOING',
-    'TOISE', 'TOITS', 'TOKAY', 'TOKED', 'TOKEN', 'TOKER', 'TOKES', 'TOKOS', 'TOLAN', 'TOLAR',
+    'TOISE', 'TOITS', 'TOKAY', 'TOKED', 'TOKER', 'TOKES', 'TOKOS', 'TOLAN', 'TOLAR',
     'TOLAS', 'TOLED', 'TOLES', 'TOLLS', 'TOLLY', 'TOLTS', 'TOLUS', 'TOLYL', 'TOMAN', 'TOMBS',
     'TOMES', 'TOMIA', 'TOMMY', 'TOMOS', 'TONAL', 'TONDI', 'TONDO', 'TONED', 'TONER', 'TONES',
     'TONEY', 'TONGA', 'TONGS', 'TONIC', 'TONKA', 'TONKS', 'TONNE', 'TONUS', 'TOOLS', 'TOOMS',
@@ -24735,6 +24735,17 @@ export const wordleWords = [
         guess_5: null,
         guess_6: null,
       }, 
+      { word: "TOKEN",
+        gameDate: "6/17/26",
+        myScore: 3,
+        wordNumber: 1824,
+        guess_1: "CASTE",
+        guess_2: "TONER",
+        guess_3: "TOKEN",
+        guess_4: null,
+        guess_5: null,
+        guess_6: null,
+      }, 
 
  
   ];
@@ -24752,7 +24763,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("June 16, 2026: Trump sux dykk000000000! AMAZE")
+console.log("June 17, 2026: Trump sux dykk000000000! TOKEN")
 
 console.log(wordleWords)
 
