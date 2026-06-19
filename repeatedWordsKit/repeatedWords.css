@@ -1,6 +1,6 @@
 
 
-@import url("https://fonts.googleapis.com/css2?family=Datatype:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Datatype:wght@700&family=IBM+Plex+Mono:wght@700&display=swap");
 /* Repeated Words Section */
 .repeated-words-section {
   display: flex;
@@ -15,8 +15,8 @@
   border: 1px solid #000;
   border-radius: 0;
   padding: 0.6rem 1.2rem;
-  font-family: "Datatype", monospace;
-  font-weight: 900;
+  font-family: "Datatype", "IBM Plex Mono", monospace;
+  font-weight: 700;
   font-size: 1rem;
   color: #000;
   cursor: pointer;
@@ -36,7 +36,7 @@
   background: rgba(0,0,0,0.65);
 }
 
-/* Modal container */
+/* Modal container — IBM Plex Mono Bold (Datatype wght axis breaks fallback bold) */
 .repeated-words-modal-content {
   background: #ffffff;
   margin: 6% auto;
@@ -47,9 +47,20 @@
   max-height: 80vh;
   overflow-y: auto;
   position: relative;
-  font-family: "Datatype", monospace;
+  font-family: "IBM Plex Mono", ui-monospace, "Courier New", monospace;
   font-weight: 700;
   color: #000;
+}
+
+.repeated-words-modal-content h3,
+.repeated-words-modal-content h4,
+.repeated-words-modal-content p,
+.repeated-words-modal-content li,
+.repeated-words-modal-content span,
+.repeated-words-modal-content strong,
+.repeated-words-modal-content button {
+  font-family: "IBM Plex Mono", ui-monospace, "Courier New", monospace;
+  font-weight: 700;
 }
 
 .repeated-words-modal-content p {
@@ -63,6 +74,7 @@
   right: 1.4rem;
   font-size: 1.6rem;
   font-weight: 700;
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
   cursor: pointer;
 }
 
@@ -83,8 +95,8 @@
 
 /* Word heading */
 .repeated-word-header {
-  font-family: "Datatype", monospace;
-  font-weight: 800;
+  font-family: "IBM Plex Mono", ui-monospace, "Courier New", monospace;
+  font-weight: 700;
   font-size: 1rem;
   margin-bottom: 0.6rem;
   text-align: left;
@@ -102,6 +114,7 @@
   border-bottom: 1px solid #eee;
   padding: 0.4rem 0;
   font-size: 0.9rem;
+  font-family: "IBM Plex Mono", ui-monospace, "Courier New", monospace;
   font-weight: 700;
   line-height: 1.4;
 }
@@ -111,7 +124,7 @@
 }
 
 .repeated-word-occurrences li strong {
-  font-weight: 800;
+  font-weight: 700;
 }
 
 .repeated-words-sort-controls {
@@ -131,7 +144,7 @@
   padding: 0.35rem 0.75rem;
   border: 1px solid #000;
   background: #fff;
-  font-family: "Datatype", monospace;
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
   font-weight: 700;
   font-size: 0.85rem;
   cursor: pointer;
@@ -149,7 +162,7 @@
 .repeated-words-summary {
   margin-bottom: 1rem;
   font-size: 1rem;
-  font-weight: 800;
+  font-weight: 700;
   text-align: left;
 }
 
@@ -173,7 +186,7 @@
 }
 
 .repeated-date-word {
-  font-weight: 800;
+  font-weight: 700;
   font-size: 1rem;
   letter-spacing: 0.05em;
 }
@@ -185,5 +198,12 @@
 }
 
 .repeated-date-meta strong {
-  font-weight: 800;
+  font-weight: 700;
+}
+
+/* Dynamic modal body — wins over page-level font rules */
+#repeatedWordsContent,
+#repeatedWordsContent * {
+  font-family: "IBM Plex Mono", ui-monospace, "Courier New", monospace !important;
+  font-weight: 700 !important;
 }
