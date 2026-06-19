@@ -75,8 +75,8 @@ my_list = {
     'EATEN', 'EBONY', 'EERIE', 'EDIFY', 'EGRET', 'EIGHT', 'EJECT', 'ELATE', 'ELBOW', 'ELDER', 
     'ELFIN', 'ELITE', 'ELOPE',
     'ELUDE', 'EMAIL', 'EMBED', 'EMBER', 'EMPTY', 'ENACT', 'ENDOW', 'ENEMA', 'ENJOY', 'ENNUI',
-    'ENSUE', 'ENTER', 'ENVOY', 'EPOCH', 'EPOXY', 'EQUAL', 'EQUIP', 'ERASE', 'ERODE', 'ERROR', 
-    'ERUPT',
+    'ENSUE', 'ENTER', 'ENTRY', 'ENVOY', 'EPOCH', 'EPOXY', 'EQUAL', 'EQUIP', 'ERASE', 'ERODE', 
+    'ERROR', 'ERUPT',
     'ESSAY', 'ETHER', 'ETHIC', 'ETHOS', 'ETUDE', 'EVADE', 'EVERY', 'EVOKE', 'EXACT', 'EXALT', 
     'EXCEL',
     'EXERT', 'EXILE', 'EXIST', 'EXPEL', 'EXTOL', 'EXTRA', 'EVENT', 'EXULT', 'FABLE', 'FACET',
@@ -246,7 +246,7 @@ my_list = {
     'WROTE', 'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'TOKEN'
+word_to_find = 'ENTRY'
 
 
 if word_to_find in my_list:
