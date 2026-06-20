@@ -1386,7 +1386,8 @@ export const combinedWords = [
     'DUSKY', 'DUSTY', 'DUTCH', 'DUVET', 'DWARF', 'DWELL', 'DWELT', 'DYING', 'EAGER', 'EAGLE',
     'EARLY', 'EARTH', 'EASEL', 'EATEN', 'EATER', 'EBONY', 'ECLAT', 'EDICT', 'EDIFY', 'EERIE',
     'EGRET', 'EIGHT', 'EJECT', 'EKING', 'ELATE', 'ELBOW', 'ELDER', 'ELECT', 'ELEGY', 'ELFIN',
-    'ELIDE', 'ELITE', 'ELOPE', 'ELUDE', 'EMAIL', 'EMBED', 'EMBER', 'EMCEE', 'EMPTY', 'ENACT',
+    'ELIDE', 'ELITE', 'ELOPE', 'ELUDE', 'EMAIL', 'EMBED', 'EMBER', 'EMCEE', 'EMOJI', 'EMPTY', 
+    'ENACT',
     'ENDOW', 'ENEMA', 'ENEMY', 'ENJOY', 'ENNUI', 'ENSUE', 'ENTER', 'ENTRY', 'ENVOY', 'EPOCH',
     'EPOXY', 'EQUAL', 'EQUIP', 'ERASE', 'ERECT', 'ERODE', 'ERROR', 'ERUPT', 'ESSAY', 'ESTER',
     'ETHER', 'ETHIC', 'ETHOS', 'ETUDE', 'EVADE', 'EVENT', 'EVERY', 'EVICT', 'EVOKE', 'EXACT',
@@ -2165,7 +2166,7 @@ export const dailyWordsLarge = [
     'ELSIN', 'ELUDE', 'ELUTE', 'ELVAN', 'ELVEN', 'ELVER', 'ELVES', 'EMACS', 'EMAIL', 'EMBAR',
     'EMBAY', 'EMBER', 'EMBOG', 'EMBOW', 'EMBOX', 'EMBUS', 'EMCEE', 'EMEER', 'EMEND',
     'EMERG', 'EMERY', 'EMEUS', 'EMICS', 'EMIRS', 'EMITS', 'EMMAS', 'EMMER', 'EMMET', 'EMMEW',
-    'EMMYS', 'EMOJI', 'EMONG', 'EMOTE', 'EMOVE', 'EMPTS', 'EMPTY', 'EMULE', 'EMURE', 'EMYDE',
+    'EMMYS', 'EMONG', 'EMOTE', 'EMOVE', 'EMPTS', 'EMPTY', 'EMULE', 'EMURE', 'EMYDE',
     'EMYDS', 'ENACT', 'ENARM', 'ENATE', 'ENDED', 'ENDER', 'ENDEW', 'ENDOW', 'ENDUE', 'ENEMA',
     'ENEMY', 'ENEWS', 'ENFIX', 'ENIAC', 'ENJOY', 'ENLIT', 'ENMEW', 'ENNOG', 'ENNUI', 'ENOKI',
     'ENOLS', 'ENORM', 'ENOWS', 'ENROL', 'ENSEW', 'ENSKY', 'ENSUE', 'ENTER', 'ENTIA',
@@ -24757,6 +24758,17 @@ export const wordleWords = [
         guess_5: null,
         guess_6: null,
       }, 
+      { word: "EMOJI",
+        gameDate: "6/19/26",
+        myScore: 5,
+        wordNumber: 1826,
+        guess_1: "STEAL",
+        guess_2: "DEMON",
+        guess_3: "MOWER",
+        guess_4: "BIOME",
+        guess_5: "EMOJI",
+        guess_6: null,
+      }, 
 
  
   ];
@@ -24774,7 +24786,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("June 18, 2026: Trump sux dykk000000000! ENTRY")
+console.log("June 19, 2026: Trump sux dykk000000000! EMOJI")
 
 console.log(wordleWords)
 
