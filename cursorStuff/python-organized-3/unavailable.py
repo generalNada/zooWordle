@@ -67,8 +67,8 @@ my_list = {
     'DODGE',
     'DODGY', 'DOGMA', 'DOING', 'DOLLY', 'DONOR', 'DONUT', 'DOPEY', 'DOUBT', 'DOUGH', 'DOWDY', 
     'DOWEL',
-    'DOWRY', 'DOZEN', 'DRAFT', 'DRAIN', 'DRAMA', 'DRAPE', 'DRAWN', 'DREAD', 'DREAM', 'DRILL', 
-    'DRINK',
+    'DOWRY', 'DOZEN', 'DRAFT', 'DRAIN', 'DRAKE', 'DRAMA', 'DRAPE', 'DRAWN', 'DREAD', 'DREAM', 
+    'DRILL', 'DRINK',
     'DRIVE', 'DROLL', 'DRONE', 'DROOL', 'DROOP', 'DROVE', 'DRUNK', 'DRYER', 'DUCHY', 'DUMMY', 
     'DUSKY', 'DUSTY',
     'DUTCH', 'DUVET', 'DWARF', 'DWELL', 'DWELT', 'EAGER', 'EAGLE', 'EARLY', 'EARTH', 'EASEL',
@@ -247,7 +247,7 @@ my_list = {
     'WROTE', 'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'EMOJI'
+word_to_find = 'DRAKE'
 
 
 if word_to_find in my_list:
