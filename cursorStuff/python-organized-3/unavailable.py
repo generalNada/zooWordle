@@ -4,7 +4,7 @@ my_list = {
     'ADOPT', 'ADORE', 'ADULT', 'AFFIX', 'AFOOT', 'AFTER', 'AGAIN', 'AGAPE', 'AGATE', 'AGENT', 
     'AGILE',
     'AGING', 'AGLOW', 'AGONY', 'AGREE', 'AGREE', 'AHEAD', 'AISLE', 'ALARM', 'ALBUM', 'ALERT', 
-    'ALIEN', 'ALIGN',
+    'ALIBI', 'ALIEN', 'ALIGN',
     'ALIKE', 'ALIVE', 'ALLEY', 'ALLOT', 'ALLOW', 'ALLOY', 'ALOFT', 'ALONE', 'ALONG', 'ALOOF', 
     'ALOUD', 'ALPHA',
     'ALTAR', 'ALTER', 'AMASS', 'AMAZE', 'AMBER', 'AMBLE', 'AMISS', 'AMONG', 'AMPLE', 'AMPLY', 
@@ -247,7 +247,7 @@ my_list = {
     'WROTE', 'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'DRAKE'
+word_to_find = 'ALIBI'
 
 
 if word_to_find in my_list:
