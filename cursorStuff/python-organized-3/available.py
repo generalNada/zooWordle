@@ -1,6 +1,6 @@
 unused_list = [
     "ABLED", "ABODE", "ABORT", "ABUSE", "ADORN", "AFIRE", "AFOUL", "AIDER", "ALGAE",
-    "ALIBI", "ALLAY", "AMEND", "ANIME",
+    "ALLAY", "AMEND", "ANIME",
     "ANNUL", "APING", "APNEA", "ARENA", "ARMOR", "AROSE", "ARRAY", "ARSON", "ASTIR", "AUGUR",
     "AUNTY", "AVIAN", "AXIAL", "AXION", "BAGGY", "BASAL", "BEECH",
     "BEGAN", "BEGAT", "BERRY", "BETEL", "BEVEL", "BEZEL", "BIBLE", "BIDDY",
@@ -68,7 +68,7 @@ unused_list = [
     "WREST", "WRING", "WRYLY", "ZONAL"
 ]
 
-word = 'DRAKE'
+word = 'ALIBI'
 
 
 if word in unused_list:
