@@ -35,8 +35,7 @@ unused_list = [
     "MOTIF", "MOUND", "MOWER", "MUCUS", "MUDDY", "MURKY", "MUSKY", "NACHO",
     "NEWER", "NINNY", "NOOSE", "NOSEY", "NUTTY", "OAKEN",
     "OASES", "OBESE", "OCTAL", "ODDER", "OLDEN", "OMBRE", "OPIUM", "OPTIC", "ORBIT", "OUTGO", 
-    "OVARY",
-    "OVATE", "OVINE", "OVOID", "OWING", "PADDY", "PAGAN", "PALER", "PALSY", "PANSY",
+    "OVARY", "OVINE", "OVOID", "OWING", "PADDY", "PAGAN", "PALER", "PALSY", "PANSY",
     "PARSE", "PASTE", "PASTY", "PAYEE", "PAYER", "PENAL", "PENCE", "PENNY", "PESTO", "PIGGY",
     "PIVOT", "PIZZA", "PLACE", "PLIED", "PLIER", "PLUSH", "POESY", "POOCH", "POSER",
     "POSIT", "POUCH", "PRAWN", "PRIED", "PRIVY", "PUBIC", "PUDGY", "PULSE",
@@ -68,7 +67,7 @@ unused_list = [
     "WREST", "WRING", "WRYLY", "ZONAL"
 ]
 
-word = 'ALIBI'
+word = 'OVATE'
 
 
 if word in unused_list:
