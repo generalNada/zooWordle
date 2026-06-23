@@ -1717,7 +1717,7 @@ export const dailyWordsSmall = [
 'OFTEN',
 'OLDEN', 'OLDER', 'OLIVE', 'OMBRE', 'OMEGA', 'ONION', 'ONSET', 'OPERA', 'OPINE', 'OPIUM',
 'OPTIC', 'ORBIT', 'ORDER', 'ORGAN', 'OTHER', 'OTTER', 'OUGHT', 'OUNCE', 'OUTDO', 'OUTER',
-'OUTGO', 'OVARY', 'OVATE', 'OVERT', 'OVINE', 'OVOID', 'OWING', 'OWNER', 'OXIDE', 'OZONE',
+'OUTGO', 'OVARY', 'OVERT', 'OVINE', 'OVOID', 'OWING', 'OWNER', 'OXIDE', 'OZONE',
 'PADDY', 'PAGAN', 'PAINT', 'PALER', 'PALSY', 'PANEL', 'PANIC', 'PANSY', 'PAPAL', 'PAPER',
 'PARER', 'PARRY', 'PARSE', 'PARTY', 'PASTA', 'PASTE', 'PASTY', 'PATCH', 'PATIO',
 'PATSY', 'PATTY', 'PAUSE', 'PAYEE', 'PAYER', 'PEACE', 'PEACH', 'PEARL', 'PECAN', 'PEDAL',
@@ -2618,7 +2618,7 @@ export const dailyWordsLarge = [
     'OTTER', 'OTTOS', 'OUBIT', 'OUCHT', 'OUENS', 'OUGHT', 'OUIJA', 'OULKS', 'OUMAS', 'OUNCE',
     'OUNDY', 'OUPAS', 'OUPED', 'OUPHE', 'OUPHS', 'OURIE', 'OUSEL', 'OUSTS', 'OUTBY', 'OUTDO',
     'OUTED', 'OUTER', 'OUTGO', 'OUTRE', 'OUTRO', 'OUTTA', 'OUZEL', 'OUZOS', 'OVALS', 'OVARY',
-    'OVATE', 'OVELS', 'OVENS', 'OVERS', 'OVERT', 'OVINE', 'OVIST', 'OVOID', 'OVOLI', 'OVOLO',
+    'OVELS', 'OVENS', 'OVERS', 'OVERT', 'OVINE', 'OVIST', 'OVOID', 'OVOLI', 'OVOLO',
     'OVULE', 'OWCHE', 'OWIES', 'OWING', 'OWLED', 'OWLER', 'OWLET', 'OWNED', 'OWNER', 'OWRES',
     'OWRIE', 'OWSEN', 'OXBOW', 'OXERS', 'OXEYE', 'OXIDE', 'OXIDS', 'OXIES', 'OXIME', 'OXIMS',
     'OXLIP', 'OXTER', 'OYERS', 'OZEKI', 'OZONE', 'OZZIE',
@@ -24791,6 +24791,17 @@ export const wordleWords = [
         guess_5: null,
         guess_6: null,
       }, 
+      { word: "OVATE",
+        gameDate: "6/22/26",
+        myScore: 3,
+        wordNumber: 1829,
+        guess_1: "STEAL",
+        guess_2: "TAMER",
+        guess_3: "OVATE",
+        guess_4:  null,
+        guess_5: null,
+        guess_6: null,
+      }, 
 
  
   ];
@@ -24808,7 +24819,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("June 21, 2026: Trump sux dykk000000000! ALIBI")
+console.log("June 22, 2026: Trump sux dykk000000000! OVATE")
 
 console.log(wordleWords)
 
