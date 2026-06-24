@@ -57,7 +57,7 @@ my_list = {
     'CRIME',
     'CRIMP', 'CRISP', 'CROAK', 'CROCK', 'CRONE', 'CROOK', 'CROSS', 'CROWD', 'CROWN', 'CRUMB', 
     'CRUSH',
-    'CRUST', 'CRYPT', 'CUBIC', 'CUBIT', 'CUMIN', 'CURIO', 'CURLY', 'CURVE', 'CURSE', 'CYBER', 
+    'CRUST', 'CRYPT', 'CUBIC', 'CUBIT', 'CUMIN', 'CURIO', 'CURLY', 'CURRY', 'CURVE', 'CURSE', 'CYBER', 
     'CYCLE', 'CYNIC',
     'DADDY', 'DAISY', 'DALLY', 'DANCE', 'DANDY', 'DATUM', 'DAUNT', 'DEATH', 'DEBIT', 'DEBUG',
     'DEBUT', 'DECAL', 'DECAY', 'DECOR', 'DECOY', 'DECRY', 'DEFER', 'DEITY', 'DELAY', 'DELTA',
@@ -248,7 +248,7 @@ my_list = {
     'WROTE', 'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'OVATE'
+word_to_find = 'CURRY'
 
 
 if word_to_find in my_list:
