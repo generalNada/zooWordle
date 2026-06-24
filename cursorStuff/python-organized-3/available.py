@@ -12,7 +12,7 @@ unused_list = [
     "CHURN", "CLACK", "CLAIM", "CLANK", "CLEAT", "CLOUT", "CLUED",
     "COBRA", "COLOR", "COMIC", "COPSE", "COUGH", "COUPE", "COVEY", "CRACK",
     "CRASH", "CREEK", "CREEP", "CREME", "CRESS", "CRICK", "CRIED", "CRIER", 
-    "CRONY", "CROUP", "CRUDE", "CRUEL", "CRUMP", "CURRY", "CURVY", "CUTIE",  "DAILY",
+    "CRONY", "CROUP", "CRUDE", "CRUEL", "CRUMP", "CURVY", "CUTIE",  "DAILY",
     "DAIRY", "DEALT", "DEBAR", "DEIGN", "DEMON", "DEMUR", "DERBY", "DILLY", "DIMLY",
     "DIODE", "DIRGE", "DIRTY", "DITCH", "DIVAN", "DIVER", "DOWNY", 
     "DRANK", "DRAWL", "DRESS", "DRIED", "DRIER", "DRIFT", "DROIT", "DROSS", "DROWN", "DRUID",
@@ -67,7 +67,7 @@ unused_list = [
     "WREST", "WRING", "WRYLY", "ZONAL"
 ]
 
-word = 'OVATE'
+word = 'CURRY'
 
 
 if word in unused_list:
