@@ -1734,7 +1734,7 @@ export const dailyWordsSmall = [
 'PUDGY', 'PULPY', 'PULSE', 'PUNCH', 'PUPIL', 'PUPPY', 'PUREE', 'PURER', 'PURGE',
 'PURSE', 'PUSHY', 'PUTTY', 'PYGMY', 'PYLON', 'QUAIL', 'QUAKE', 'QUALM', 'QUARK', 
 'QUART',
-'QUASH', 'QUASI', 'QUEEN', 'QUEER', 'QUERY', 'QUEST', 'QUEUE', 'QUICK', 'QUIET',
+'QUASH', 'QUASI', 'QUEEN', 'QUERY', 'QUEST', 'QUEUE', 'QUICK', 'QUIET',
 'QUILL', 'QUILT', 'QUIRK', 'QUITE', 'QUOTA', 'QUOTE', 'QUOTH', 'RABBI', 'RABID', 'RACER',
 'RADAR', 'RADII', 'RADIO', 'RAINY', 'RAISE', 'RAJAH', 'RALLY', 'RALPH', 'RAMEN', 'RANCH',
 'RANDY', 'RANGE', 'RAPID', 'RARER', 'RASPY', 'RATIO', 'RATTY', 'RAVEN', 'RAYON', 'RAZOR',
@@ -2712,7 +2712,7 @@ export const dailyWordsLarge = [
     'QADIS', 'QAIDS', 'QAJAQ', 'QANAT', 'QAPIK', 'QIBLA', 'QOPHS', 'QORMA', 'QUADS',
     'QUAFF', 'QUAGS', 'QUAIL', 'QUAIR', 'QUAIS', 'QUAKE', 'QUAKY', 'QUALE', 'QUALM', 'QUANT',
     'QUARE', 'QUART', 'QUASH', 'QUASI', 'QUASS', 'QUATE', 'QUATS', 'QUAYD', 'QUAYS',
-    'QUBIT', 'QUEAN', 'QUEEN', 'QUEER', 'QUEME', 'QUENA', 'QUERN', 'QUERY', 'QUEST',
+    'QUBIT', 'QUEAN', 'QUEEN', 'QUEME', 'QUENA', 'QUERN', 'QUERY', 'QUEST',
     'QUEUE', 'QUEYN', 'QUEYS', 'QUICH', 'QUICK', 'QUIDS', 'QUIET', 'QUIFF', 'QUILL', 'QUILT',
     'QUIMS', 'QUINA', 'QUINE', 'QUINO', 'QUINS', 'QUINT', 'QUIPO', 'QUIPS', 'QUIPU', 'QUIRE',
     'QUIRK', 'QUIRT', 'QUIST', 'QUITE', 'QUITS', 'QUOAD', 'QUODS', 'QUOIF', 'QUOIN', 'QUOIT',
@@ -24813,6 +24813,17 @@ export const wordleWords = [
         guess_5: null,
         guess_6: null,
       }, 
+      { word: "QUEER",
+        gameDate: "6/24/26",
+        myScore: 3,
+        wordNumber: 1831,
+        guess_1: "STEAL",
+        guess_2: "CREEP",
+        guess_3: "QUEER",
+        guess_4: null,
+        guess_5: null,
+        guess_6: null,
+      }, 
 
  
   ];
@@ -24830,7 +24841,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("June 23, 2026: Trump sux dykk000000000! CURRY")
+console.log("June 24, 2026: Trump sux dykk000000000! QUEER")
 
 console.log(wordleWords)
 
