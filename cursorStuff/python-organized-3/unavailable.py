@@ -230,7 +230,8 @@ my_list = {
     'TWINE',
     'TWIRL', 'UDDER', 'ULCER', 'ULTRA', 'UMBRA', 'UNCLE', 'UNDER', 'UNDID', 'UNDUE', 'UNFED', 
     'UNFIT',
-    'UNIFY', 'UNION', 'UNITE', 'UNLIT', 'UNMET', 'UNTIE', 'UNTIL', 'UNZIP', 'UPPER', 'UPSET',
+    'UNIFY', 'UNION', 'UNITE', 'UNITY', 'UNLIT', 'UNMET', 'UNTIE', 'UNTIL', 'UNZIP', 'UPPER', 
+    'UPSET',
     'URBAN', 'USAGE', 'USHER', 'USING', 'USUAL', 'USURP', 'UTTER', 'UVULA', 'VAGUE', 'VALET',
     'VALID', 'VAPID', 'VENOM', 'VALUE', 'VAULT', 'VEGAN', 'VENUE', 'VERGE', 'VERVE', 'VIDEO',
     'VIGOR', 'VILLA', 'VINYL', 'VIOLA', 'VIRAL', 'VISIT', 'VISOR', 'VITAL', 'VIVID', 'VIXEN', 
@@ -248,7 +249,7 @@ my_list = {
     'WROTE', 'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'QUEER'
+word_to_find = 'UNITY'
 
 
 if word_to_find in my_list:
