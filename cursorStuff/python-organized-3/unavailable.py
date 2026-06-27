@@ -1,6 +1,7 @@
 my_list = {
     'ABACK', 'ABASE', 'ABATE', 'ABBEY', 'ABBOT', 'ABHOR', 'ABIDE', 'ABOUT', 'ABOVE', 'ABYSS',
-    'ACORN', 'ACRID', 'ACTOR', 'ACUTE', 'ADAGE', 'ADAPT', 'ADEPT', 'ADMIN', 'ADMIT', 'ADOBE',
+    'ACORN', 'ACRID', 'ACTOR', 'ACUTE', 'ACUTE', 'ADAGE', 'ADAPT', 'ADEPT', 'ADMIN', 'ADMIT', 
+    'ADOBE',
     'ADOPT', 'ADORE', 'ADULT', 'AFFIX', 'AFOOT', 'AFTER', 'AGAIN', 'AGAPE', 'AGATE', 'AGENT', 
     'AGILE',
     'AGING', 'AGLOW', 'AGONY', 'AGREE', 'AGREE', 'AHEAD', 'AISLE', 'ALARM', 'ALBUM', 'ALERT', 
@@ -249,7 +250,7 @@ my_list = {
     'WROTE', 'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'UNITY'
+word_to_find = 'ACUTE'
 
 
 if word_to_find in my_list:
