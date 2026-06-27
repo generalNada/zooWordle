@@ -1578,7 +1578,7 @@ export const combinedWords = [
 
 export const dailyWordsSmall = [
 'ABACK', 'ABASE', 'ABATE', 'ABBEY', 'ABBOT', 'ABHOR', 'ABIDE', 'ABLED', 'ABODE', 'ABORT',
-'ABOUT', 'ABOVE', 'ABUSE', 'ABYSS', 'ACORN', 'ACRID', 'ACTOR', 'ACUTE', 'ADAGE', 'ADAPT',
+'ABOUT', 'ABOVE', 'ABUSE', 'ABYSS', 'ACORN', 'ACRID', 'ACTOR', 'ADAGE', 'ADAPT',
 'ADEPT', 'ADMIN', 'ADMIT', 'ADOBE', 'ADOPT', 'ADORE', 'ADORN', 'ADULT', 'AFFIX', 'AFIRE',
 'AFOUL', 'AFTER', 'AGAIN', 'AGAPE', 'AGATE', 'AGENT', 'AGILE', 'AGING', 'AGLOW',
 'AGONY', 'AHEAD', 'AIDER', 'AISLE', 'ALARM', 'ALBUM', 'ALERT', 'ALGAE', 
@@ -1833,7 +1833,7 @@ export const dailyWordsLarge = [
     'ABSEY', 'ABSIT', 'ABUNA', 'ABUNE', 'ABUSE', 'ABUTS', 'ABUZZ', 'ABYES', 'ABYME', 'ABYSS',
     'ACARI', 'ACERB', 'ACERS', 'ACETA', 'ACHAR', 'ACHED', 'ACHES', 'ACHOO', 'ACIDS', 'ACIDY',
     'ACING', 'ACINI', 'ACKEE', 'ACMES', 'ACMIC', 'ACNED', 'ACNES', 'ACOCK', 'ACOLD', 'ACORN',
-    'ACRED', 'ACRES', 'ACRID', 'ACROS', 'ACTED', 'ACTIN', 'ACTON', 'ACTOR', 'ACUTE', 'ACYLS',
+    'ACRED', 'ACRES', 'ACRID', 'ACROS', 'ACTED', 'ACTIN', 'ACTON', 'ACTOR', 'ACYLS',
     'ADAGE', 'ADAPT', 'ADAWS', 'ADAYS', 'ADDAX', 'ADDED', 'ADDER', 'ADDIE', 'ADDLE', 'ADEEM',
     'ADEPT', 'ADHAN', 'ADIEU', 'ADIOS', 'ADITS', 'ADMAN', 'ADMEN', 'ADMIN', 'ADMIT', 'ADMIX', 
     'ADOBE',
@@ -24835,6 +24835,17 @@ export const wordleWords = [
         guess_5: null,
         guess_6: null,
       }, 
+      { word: "ACUTE",
+        gameDate: "6/26/26",
+        myScore: 3,
+        wordNumber: 1833,
+        guess_1: "STEAL",
+        guess_2: "TAMER",
+        guess_3: "ACUTE",
+        guess_4: null,
+        guess_5: null,
+        guess_6: null,
+      }, 
 
  
   ];
@@ -24852,7 +24863,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("June 25, 2026: Trump sux dykk000000000! UNITY")
+console.log("June 26, 2026: Trump sux dykk000000000! ACUTE")
 
 console.log(wordleWords)
 
