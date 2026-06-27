@@ -1501,7 +1501,8 @@ export const combinedWords = [
     'SAUCY', 'SAUNA', 'SAUTE', 'SAVOR', 'SAVOY', 'SAVVY', 'SCALD', 'SCALE', 'SCALP', 'SCALY',
     'SCAMP', 'SCANT', 'SCARE', 'SCARF', 'SCARY', 'SCENE', 'SCENT', 'SCION', 'SCOFF', 'SCOLD',
     'SCONE', 'SCOOP', 'SCOPE', 'SCORE', 'SCORN', 'SCOUR', 'SCOUT', 'SCOWL', 'SCRAM', 'SCRAP',
-    'SCREE', 'SCREW', 'SCRUB', 'SCRUM', 'SCUBA', 'SEDAN', 'SEEDY', 'SEGUE', 'SEIZE', 'SEMEN',
+    'SCREE', 'SCREW', 'SCROD', 'SCRUB', 'SCRUM', 'SCUBA', 'SEDAN', 'SEEDY', 'SEGUE', 'SEIZE', 
+    'SEMEN',
     'SENSE', 'SEPIA', 'SERIF', 'SERUM', 'SERVE', 'SETUP', 'SEVEN', 'SEVER', 'SEWER', 'SHACK',
     'SHADE', 'SHADY', 'SHAFT', 'SHAKE', 'SHAKY', 'SHALE', 'SHALL', 'SHALT', 'SHAME', 'SHANK',
     'SHAPE', 'SHARD', 'SHARE', 'SHARK', 'SHARP', 'SHAVE', 'SHAWL', 'SHEAR', 'SHEEN', 'SHEEP',
@@ -1750,8 +1751,9 @@ export const dailyWordsSmall = [
 'SALTY', 'SALVE', 'SALVO', 'SANER', 'SAPPY', 'SASSY', 'SATYR', 'SAUCE',
 'SAUCY', 'SAUNA', 'SAUTE', 'SAVOR', 'SAVOY', 'SAVVY', 'SCALD', 'SCALE', 'SCALP', 'SCALY',
 'SCAMP', 'SCANT', 'SCARE', 'SCARF', 'SCARY', 'SCENT', 'SCION', 'SCOFF', 'SCOLD',
-'SCONE', 'SCOOP', 'SCOPE', 'SCORE', 'SCORN', 'SCOUR', 'SCOUT', 'SCOWL', 'SCRAM', 'SCRAP',
-'SCREE', 'SCREW', 'SCRUB', 'SCRUM', 'SCUBA', 'SEDAN', 'SEEDY', 'SEGUE', 'SEIZE', 'SEMEN',
+'SCONE', 'SCOPE', 'SCORE', 'SCORN', 'SCOUR', 'SCOUT', 'SCOWL', 'SCRAM', 'SCRAP',
+'SCREE', 'SCREW', 'SCROD', 'SCRUB', 'SCRUM', 'SCUBA', 'SEDAN', 'SEEDY', 'SEGUE', 'SEIZE', 
+'SEMEN',
 'SENSE', 'SERUM', 'SERVE', 'SETUP', 'SEVEN', 'SEVER', 'SEWER', 'SHACK',
 'SHADE', 'SHADY', 'SHAFT', 'SHAKE', 'SHAKY', 'SHALE', 'SHALL', 'SHALT', 'SHAME', 'SHANK',
 'SHAPE', 'SHARD', 'SHARE', 'SHARK', 'SHARP', 'SHAVE', 'SHAWL', 'SHEAR', 'SHEEN', 
@@ -2801,7 +2803,7 @@ export const dailyWordsLarge = [
     'SCAPA', 'SCAPE', 'SCAPI', 'SCARE', 'SCARF', 'SCARP', 'SCARS', 'SCART', 'SCARY', 'SCATH',
     'SCATS', 'SCATT', 'SCAUD', 'SCAUP', 'SCAUR', 'SCAWS', 'SCEAT', 'SCENA', 'SCEND', 
     'SCENT', 'SCHAV', 'SCHMO', 'SCHUL', 'SCHWA', 'SCION', 'SCLIM', 'SCODY', 'SCOFF', 'SCOGS',
-    'SCOLD', 'SCONE', 'SCOOG', 'SCOOP', 'SCOOT', 'SCOPA', 'SCOPE', 'SCOPS', 'SCORE', 'SCORN',
+    'SCOLD', 'SCONE', 'SCOOG', 'SCOOT', 'SCOPA', 'SCOPE', 'SCOPS', 'SCORE', 'SCORN',
     'SCOTS', 'SCOUG', 'SCOUP', 'SCOUR', 'SCOUT', 'SCOWL', 'SCOWP', 'SCOWS', 'SCRAB', 'SCRAE',
     'SCRAG', 'SCRAM', 'SCRAN', 'SCRAP', 'SCRAT', 'SCRAW', 'SCRAY', 'SCREE', 'SCREW', 'SCRIM',
     'SCRIP', 'SCROB', 'SCROD', 'SCROG', 'SCROW', 'SCRUB', 'SCRUM', 'SCUBA', 'SCUDI', 'SCUDO',
@@ -24846,6 +24848,17 @@ export const wordleWords = [
         guess_5: null,
         guess_6: null,
       }, 
+      { word: "SCOOP",
+        gameDate: "6/27/26",
+        myScore: 3,
+        wordNumber: 1834,
+        guess_1: "STEAL",
+        guess_2: "SCION",
+        guess_3: "SCOOP",
+        guess_4: null,
+        guess_5: null,
+        guess_6: null,
+      }, 
 
  
   ];
@@ -24863,7 +24876,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("June 26, 2026: Trump sux dykk000000000! ACUTE")
+console.log("June 27, 2026: Trump sux dykk000000000! SCOOP")
 
 console.log(wordleWords)
 
