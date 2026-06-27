@@ -178,7 +178,7 @@ my_list = {
     'RUMBA', 'RUPEE', 'RURAL', 'RUSTY', 'SAINT', 'SALAD', 'SALLY', 'SALSA', 'SALTY', 'SANDY', 
     'SANDY', 'SASSY', 'SATIN',
     'SAUCY', 'SAUNA', 'SAUTE', 'SAVOR', 'SAVVY', 'SCALD', 'SCALE', 'SCANT', 'SCARE', 'SCARF',
-    'SCENE', 'SCENT', 'SCOFF', 'SCOLD', 'SCONE', 'SCOPE', 'SCORE', 'SCORN', 'SCOUR', 'SCOUT',
+    'SCENE', 'SCENT', 'SCOFF', 'SCOLD', 'SCONE', 'SCOOP', 'SCOPE', 'SCORE', 'SCORN', 'SCOUR', 'SCOUT',
     'SCOWL', 'SCRAM', 'SCRAP', 'SCRUB', 'SCRUM', 'SEDAN', 'SEEDY', 'SEGUE', 'SENSE', 'SEPIA',
     'SERIF', 'SERUM',
     'SERVE', 'SEVEN', 'SEVER', 'SHADE', 'SHAFT', 'SHAKE', 'SHAKY', 'SHALL', 'SHAME', 'SHANK',
@@ -250,7 +250,7 @@ my_list = {
     'WROTE', 'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'ACUTE'
+word_to_find = 'SCOOP'
 
 
 if word_to_find in my_list:
