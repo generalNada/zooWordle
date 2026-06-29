@@ -75,8 +75,8 @@ my_list = {
     'DUTCH', 'DUVET', 'DWARF', 'DWELL', 'DWELT', 'EAGER', 'EAGLE', 'EARLY', 'EARTH', 'EASEL',
     'EATEN', 'EBONY', 'EERIE', 'EDIFY', 'EGRET', 'EIGHT', 'EJECT', 'ELATE', 'ELBOW', 'ELDER', 
     'ELFIN', 'ELITE', 'ELOPE',
-    'ELUDE', 'EMAIL', 'EMBED', 'EMBER', 'EMOJI', 'EMPTY', 'ENACT', 'ENDOW', 'ENEMA', 'ENJOY', 
-    'ENNUI',
+    'ELUDE', 'EMAIL', 'EMBED', 'EMBER', 'EMCEE', 'EMOJI', 'EMPTY', 'ENACT', 'ENDOW', 'ENEMA', 
+    'ENJOY', 'ENNUI',
     'ENSUE', 'ENTER', 'ENTRY', 'ENVOY', 'EPOCH', 'EPOXY', 'EQUAL', 'EQUIP', 'ERASE', 'ERODE', 
     'ERROR', 'ERUPT',
     'ESSAY', 'ETHER', 'ETHIC', 'ETHOS', 'ETUDE', 'EVADE', 'EVERY', 'EVOKE', 'EXACT', 'EXALT', 
@@ -251,7 +251,7 @@ my_list = {
     'WROTE', 'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'SCOOP'
+word_to_find = 'EMCEE'
 
 
 if word_to_find in my_list:
