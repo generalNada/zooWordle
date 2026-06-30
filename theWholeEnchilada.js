@@ -1627,7 +1627,7 @@ export const dailyWordsSmall = [
 'CRAFT', 'CRAMP', 'CRANE', 'CRANK', 'CRASH', 'CRASS', 'CRATE', 'CRAVE', 'CRAWL', 'CRAZE',
 'CRAZY', 'CREAK', 'CREAM', 'CREDO', 'CREEK', 'CREEP', 'CREME', 'CREPE', 'CREPT',
 'CRESS', 'CREST', 'CRICK', 'CRIED', 'CRIER', 'CRIME', 'CRIMP', 'CRISP', 'CROAK', 'CROCK',
-'CRONE', 'CRONY', 'CROOK', 'CROSS', 'CROUP', 'CROWD', 'CROWN', 'CRUDE', 'CRUEL', 'CRUMB',
+'CRONE', 'CRONY', 'CROOK', 'CROSS', 'CROUP', 'CROWD', 'CROWN', 'CRUEL', 'CRUMB',
 'CRUMP', 'CRUSH', 'CRUST', 'CRYPT', 'CUBIC', 'CUMIN', 'CURIO', 'CURLY', 'CURSE',
 'CURVE', 'CURVY', 'CUTIE', 'CYBER', 'CYNIC', 'DADDY', 'DAILY', 'DAIRY', 'DAISY',
 'DALLY', 'DANCE', 'DANDY', 'DATUM', 'DAUNT', 'DEALT', 'DEATH', 'DEBAR', 'DEBIT', 'DEBUG',
@@ -2074,7 +2074,7 @@ export const dailyWordsLarge = [
     'CRIED', 'CRIER', 'CRIES', 'CRIME', 'CRIMP', 'CRIMS', 'CRINE', 'CRIOS', 'CRIPE', 'CRISE',
     'CRISP', 'CRITH', 'CRITS', 'CROAK', 'CROCI', 'CROCK', 'CROCS', 'CROFT', 'CROGS', 'CROMB',
     'CROME', 'CRONE', 'CRONK', 'CRONS', 'CRONY', 'CROOK', 'CROOL', 'CROON', 'CROPS', 'CRORE',
-    'CROSS', 'CROST', 'CROUP', 'CROUT', 'CROWD', 'CROWN', 'CROWS', 'CROZE', 'CRUCK', 'CRUDE',
+    'CROSS', 'CROST', 'CROUP', 'CROUT', 'CROWD', 'CROWN', 'CROWS', 'CROZE', 'CRUCK', 
     'CRUDO', 'CRUDS', 'CRUDY', 'CRUEL', 'CRUES', 'CRUET', 'CRUFT', 'CRUMB', 'CRUMP', 'CRUNK',
     'CRUOR', 'CRURA', 'CRUSE', 'CRUSH', 'CRUST', 'CRUSY', 'CRUVE', 'CRWTH', 'CRYER', 'CRYPT',
     'CTENE', 'CUBBY', 'CUBEB', 'CUBED', 'CUBER', 'CUBES', 'CUBIC', 'CUDDY', 'CUFFO',
@@ -24861,12 +24861,23 @@ export const wordleWords = [
       }, 
       { word: "EMCEE",
         gameDate: "6/28/26",
-        myScore: 3,
+        myScore: 4,
         wordNumber: 1835,
         guess_1: "STEAL",
         guess_2: "CRIED",
         guess_3: "FENCE",
         guess_4: "EMCEE",
+        guess_5: null,
+        guess_6: null,
+      }, 
+      { word: "CRUDE",
+        gameDate: "6/29/26",
+        myScore: 4,
+        wordNumber: 1836,
+        guess_1: "STEAL",
+        guess_2: "REIGN",
+        guess_3: "MOWER",
+        guess_4: "CRUDE",
         guess_5: null,
         guess_6: null,
       }, 
@@ -24887,7 +24898,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("June 28, 2026: Trump sux dykk000000000! EMCEE")
+console.log("June 29, 2026: Trump sux dykk000000000! CRUDE")
 
 console.log(wordleWords)
 
