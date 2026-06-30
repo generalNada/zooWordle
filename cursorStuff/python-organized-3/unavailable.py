@@ -56,8 +56,8 @@ my_list = {
     'COVET', 'COWER', 'COYLY', 'CRAFT', 'CRAMP', 'CRANE', 'CRANK', 'CRASS', 'CRATE', 'CRAVE',
     'CRAWL', 'CRAZE', 'CRAZY', 'CREAK', 'CREAM', 'CREDO', 'CREED', 'CREPE', 'CREPT', 'CREST', 
     'CRIME',
-    'CRIMP', 'CRISP', 'CROAK', 'CROCK', 'CRONE', 'CROOK', 'CROSS', 'CROWD', 'CROWN', 'CRUMB', 
-    'CRUSH',
+    'CRIMP', 'CRISP', 'CROAK', 'CROCK', 'CRONE', 'CROOK', 'CROSS', 'CROWD', 'CROWN', 'CRUDE', 
+    'CRUMB', 'CRUSH',
     'CRUST', 'CRYPT', 'CUBIC', 'CUBIT', 'CUMIN', 'CURIO', 'CURLY', 'CURRY', 'CURVE', 'CURSE', 
     'CYBER', 'CYCLE', 'CYNIC',
     'DADDY', 'DAISY', 'DALLY', 'DANCE', 'DANDY', 'DATUM', 'DAUNT', 'DEATH', 'DEBIT', 'DEBUG',
@@ -251,7 +251,7 @@ my_list = {
     'WROTE', 'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'EMCEE'
+word_to_find = 'CRUDE'
 
 
 if word_to_find in my_list:
