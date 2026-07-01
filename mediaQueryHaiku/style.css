@@ -8277,3 +8277,12 @@ body {
   opacity: 0.77;
 }
 
+.line-401a,
+.line-401b,
+.line-401c {
+  background-color: rgb(120, 21, 212);
+  color: rgb(119, 200, 100);
+  font-style: oblique;
+  opacity: 0.77;
+}
+
