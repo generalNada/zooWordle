@@ -1632,7 +1632,7 @@ export const dailyWordsSmall = [
 'CURVE', 'CURVY', 'CUTIE', 'CYBER', 'CYNIC', 'DADDY', 'DAILY', 'DAIRY', 'DAISY',
 'DALLY', 'DANCE', 'DANDY', 'DATUM', 'DAUNT', 'DEALT', 'DEATH', 'DEBAR', 'DEBIT', 'DEBUG',
 'DEBUT', 'DECAL', 'DECAY', 'DECOR', 'DECOY', 'DECRY', 'DEFER', 'DEIGN', 'DEITY', 'DELAY',
-'DELTA', 'DELVE', 'DEMON', 'DEMUR', 'DENIM', 'DEPOT', 'DEPTH', 'DERBY', 'DETER',
+'DELTA', 'DELVE', 'DEMON', 'DENIM', 'DEPOT', 'DEPTH', 'DERBY', 'DETER',
 'DETOX', 'DEUCE', 'DEVIL', 'DIARY', 'DICEY', 'DIGIT', 'DILLY', 'DIMLY', 'DINER', 'DINGO',
 'DINGY', 'DIODE', 'DIRGE', 'DIRTY', 'DISCO', 'DITCH', 'DITTO', 'DITTY', 'DIVAN', 'DIVER',
 'DODGE', 'DODGY', 'DOGMA', 'DOING', 'DOLLY', 'DONOR', 'DONUT', 'DOPEY', 'DOUBT',
@@ -2105,7 +2105,7 @@ export const dailyWordsLarge = [
     'DEIFY', 'DEIGN', 'DEILS', 'DEISM', 'DEIST', 'DEITY', 'DEKED', 'DEKES', 'DEKKO', 'DELAY',
     'DELED', 'DELES', 'DELFS', 'DELFT', 'DELIS', 'DELLS', 'DELLY', 'DELOS', 'DELPH', 'DELTA',
     'DELTS', 'DELVE', 'DEMAN', 'DEMES', 'DEMIC', 'DEMIT', 'DEMOB', 'DEMOI', 'DEMON', 'DEMOS',
-    'DEMPT', 'DEMUR', 'DENAR', 'DENAY', 'DENCH', 'DENES', 'DENET', 'DENIM', 'DENIS', 
+    'DEMPT', 'DENAR', 'DENAY', 'DENCH', 'DENES', 'DENET', 'DENIM', 'DENIS', 
     'DENTS', 'DEOXY', 'DEPOT', 'DEPTH', 'DERAT', 'DERAY', 'DERBY', 'DERED', 'DERES', 'DERIG',
     'DERMA', 'DERMS', 'DERNS', 'DERNY', 'DEROS', 'DERRO', 'DERRY', 'DERTH', 'DERVS', 'DESEX',
     'DESHI', 'DESIS', 'DESKS', 'DESSE', 'DETER', 'DETOX', 'DEUCE', 'DEVAS', 'DEVEL', 'DEVIL',
@@ -24892,6 +24892,17 @@ export const wordleWords = [
         guess_5: null,
         guess_6: null,
       }, 
+      { word: "DEMUR",
+        gameDate: "7/1/26",
+        myScore: 3,
+        wordNumber: 1838,
+        guess_1: "STEAL",
+        guess_2: "REIGN",
+        guess_3: "DEMUR",
+        guess_4: null,
+        guess_5: null,
+        guess_6: null,
+      }, 
 
  
   ];
@@ -24909,7 +24920,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("June 30, 2026: Trump sux dykk000000000! PUPPY")
+console.log("July 1, 2026: Trump sux dykk000000000! DEMUR")
 
 console.log(wordleWords)
 
