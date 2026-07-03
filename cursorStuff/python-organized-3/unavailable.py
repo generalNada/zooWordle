@@ -133,7 +133,8 @@ my_list = {
     'MAFIA',
     'MAGIC', 'MAGMA', 'MAIZE', 'MAJOR', 'MAKER', 'MAMBO', 'MANGA', 'MANGO', 'MANIA', 'MANIC',
     'MANLY', 'MANOR', 'MAPLE', 'MARCH', 'MARRY', 'MARSH', 'MASON', 'MASSE', 'MATEY', 'MATCH',
-    'MATTE', 'MAUVE', 'MAXIM', 'MAYBE', 'MAYOR', 'MEALY', 'MEANT', 'MEDAL', 'MEDIA', 'MEDIC',
+    'MATTE', 'MAUVE', 'MAVEN', 'MAXIM', 'MAYBE', 'MAYOR', 'MEALY', 'MEANT', 'MEDAL', 'MEDIA', 
+    'MEDIC',
     'MELON', 'MERCY', 'MERGE', 'MERIT', 'MERRY', 'METAL', 'METER', 'METRO', 'MICRO', 'MIDGE',
     'MIDST', 'MIGHT', 'MIMIC', 'MINER', 'MINTY', 'MINUS', 'MINCE', 'MIRTH', 'MISER', 'MODAL',
     'MODEL', 'MODEM', 'MOGUL', 'MOIST', 'MOLAR', 'MOLDY', 'MOMMY', 'MONEY', 'MONTH', 'MOOCH',
@@ -251,7 +252,7 @@ my_list = {
     'WROTE', 'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'DEMUR'
+word_to_find = 'MAVEN'
 
 
 if word_to_find in my_list:
