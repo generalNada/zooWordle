@@ -17,8 +17,8 @@ my_list = {
     'ATOLL', 'ATONE', 'ATRIA', 'ATTIC', 'AUDIO', 'AUDIT', 'AVAIL', 'AVERT', 'AVOID', 'AWAIT',
     'AWAKE', 'AWAKE', 'AWARD', 'AWARE', 'AWASH', 'AWOKE', 'AWFUL', 'AXIOM', 'AZURE', 'BACON',
     'BADGE', 'BADLY', 'BAGEL', 'BAKER', 'BALER', 'BALMY', 'BALSA', 'BANAL', 'BANJO', 'BARGE',
-    'BARON', 'BASIC', 'BASIL', 'BASIN', 'BASIS', 'BASTE', 'BATHE', 'BATCH', 'BATON', 'BATTY', 
-    'BAWDY', 'BAYOU',
+    'BARON', 'BASIC', 'BASIL', 'BASIN', 'BASIS', 'BASTE', 'BATHE', 'BATCH', 'BATON', 'BATON', 
+    'BATTY', 'BAWDY', 'BAYOU',
     'BEACH', 'BEADY', 'BEARD', 'BEAST', 'BEAUT', 'BEEFY', 'BEFIT', 'BEGET', 'BEGIN', 'BEGUN',
     'BEING', 'BELCH',
     'BELIE', 'BELLE', 'BELLY', 'BELOW', 'BENCH', 'BERET', 'BERTH', 'BESET', 'BEVEL', 'BICEP', 
@@ -252,7 +252,7 @@ my_list = {
     'WROTE', 'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'MAVEN'
+word_to_find = 'BATON'
 
 
 if word_to_find in my_list:
