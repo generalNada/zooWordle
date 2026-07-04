@@ -157,7 +157,7 @@ my_list = {
     'PEACE', 'PEACH', 'PEARL', 'PECAN', 'PEDAL', 'PENNE', 'PERCH', 'PERIL', 'PERKY', 'PESKY',
     'PETAL', 'PETTY', 'PHASE', 'PHONE', 'PHONY', 'PHOTO', 'PIANO', 'PICKY', 'PIECE', 'PIETY',
     'PINKY', 'PILOT', 'PINCH', 'PINEY', 'PINTO', 'PIOUS', 'PIPER', 'PIQUE', 'PITCH', 'PITHY',
-    'PIXEL', 'PIXIE', 'PLACE', 'PLAID', 'PLAIN', 'PLAIT', 'PLANE', 'PLANK', 'PLANT', 'PLATE',
+    'PIXEL', 'PIXIE', 'PIZZA', 'PLACE', 'PLAID', 'PLAIN', 'PLAIT', 'PLANE', 'PLANK', 'PLANT', 'PLATE',
     'PLAZA', 'PLEAD', 'PLEAT', 'PLUCK', 'PLUMB', 'PLUME', 'PLUMP', 'PLUNK', 'POINT', 'POISE', 
     'POKER',
     'POLKA', 'POLYP', 'POPPY', 'PORCH', 'POSSE', 'POUND', 'POUTY', 'POWER', 'PRANK', 'PREEN',
@@ -252,7 +252,7 @@ my_list = {
     'WROTE', 'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'BATON'
+word_to_find = 'PIZZA'
 
 
 if word_to_find in my_list:
