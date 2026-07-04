@@ -1726,7 +1726,7 @@ export const dailyWordsSmall = [
 'PENAL', 'PENCE', 'PENNE', 'PENNY', 'PEONY', 'PERCH', 'PERIL', 'PERKY', 'PESKY', 'PESTO',
 'PETAL', 'PETTY', 'PHASE', 'PHONE', 'PHONY', 'PHOTO', 'PIANO', 'PICKY', 'PIECE', 'PIETY',
 'PIGGY', 'PILOT', 'PINCH', 'PINEY', 'PINKY', 'PINTO', 'PIOUS', 'PIPER', 'PIQUE', 'PITCH',
-'PITHY', 'PIVOT', 'PIXEL', 'PIXIE', 'PIZZA', 'PLACE', 'PLAID', 'PLAIN', 'PLAIT', 'PLANE',
+'PITHY', 'PIVOT', 'PIXEL', 'PIXIE', 'PLACE', 'PLAID', 'PLAIN', 'PLAIT', 'PLANE',
 'PLANK', 'PLANT', 'PLATE', 'PLAZA', 'PLEAD', 'PLEAT', 'PLIED', 'PLIER', 'PLUCK', 'PLUMB',
 'PLUMP', 'PLUNK', 'PLUSH', 'POESY', 'POINT', 'POISE', 'POKER', 'POLAR', 'POLKA',
 'POLYP', 'POOCH', 'POPPY', 'PORCH', 'POSER', 'POSIT', 'POSSE', 'POUCH', 'POUND', 'POUTY',
@@ -2667,7 +2667,7 @@ export const dailyWordsLarge = [
     'PIPIT', 'PIPPY', 'PIPUL', 'PIQUE', 'PIRAI', 'PIRLS', 'PIRNS', 'PIROG', 'PISCO', 'PISES',
     'PISKY', 'PISOS', 'PISSY', 'PISTE', 'PITAS', 'PITCH', 'PITHS', 'PITHY', 'PITON', 'PITOT',
     'PITTA',
-    'PIUMS', 'PIVOT', 'PIXEL', 'PIXES', 'PIXIE', 'PIZED', 'PIZES', 'PIZZA', 'PLAAS', 'PLACE',
+    'PIUMS', 'PIVOT', 'PIXEL', 'PIXES', 'PIXIE', 'PIZED', 'PIZES', 'PLAAS', 'PLACE',
     'PLACK', 'PLAGE', 'PLAID', 'PLAIN', 'PLAIT', 'PLANE', 'PLANK', 'PLANS', 'PLANT', 'PLAPS',
     'PLASH', 'PLASM', 'PLAST', 'PLATE', 'PLATS', 'PLATT', 'PLATY', 'PLAYA', 'PLAYS', 'PLAZA',
     'PLEAD', 'PLEAS', 'PLEAT', 'PLEBE', 'PLEBS', 'PLENA', 'PLEON', 'PLESH', 'PLEWS', 'PLICA',
@@ -24926,6 +24926,17 @@ export const wordleWords = [
         guess_5: null,
         guess_6: null,
       }, 
+      { word: "PIZZA",
+        gameDate: "7/4/26",
+        myScore: 3,
+        wordNumber: 1841,
+        guess_1: "STEAL",
+        guess_2: "CAIRN",
+        guess_3: "PIZZA",
+        guess_4: null,
+        guess_5: null,
+        guess_6: null,
+      }, 
 
  
   ];
@@ -24943,7 +24954,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("July 3, 2026: Trump sux dykk000000000! BATON")
+console.log("July 4, 2026: Trump sux dykk000000000! PIZZA")
 
 console.log(wordleWords)
 
