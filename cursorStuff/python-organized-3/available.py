@@ -54,7 +54,7 @@ unused_list = [
     "SNEER", "SNIFF", "SNIPE", "SNOWY", "SNUCK", "SNUFF", "SOAPY", "SONAR",
     "SOOTH", "SOOTY", "SPANK", "SPAWN", "SPERM", "SPIED", "SPIKY", "SPILT", "SPOOK", "SPREE",
     "SPUNK", "SPURN", "SQUIB", "STALK", "STALL", "STAVE", "STEAK", "STEAL", "STEER", "STOKE",
-    "STOOD", "STOOP", "STRIP", "STUCK", "STUNK", "SUING", "SWAMI", "SWARM",
+    "STOOD", "STOOP", "STRIP", "STUCK", "STUNK", "SUING", "SWARM",
     "SWASH", "SWEAR", "SWEPT", "SWIFT", "SWORE", "SYNOD", "TAINT", "TAKER", "TAMER",
     "TANGO", "TAROT", "TATTY", "TEARY", "TENET", "TENSE", "TEPEE", "TERRA", 
     "THETA", "THONG", "TIGHT", "TIMID", "TODDY", "TONAL", "TONER", "TONGA",
@@ -67,7 +67,7 @@ unused_list = [
     "WREST", "WRING", "WRYLY", "ZONAL"
 ]
 
-word = 'PIZZA'
+word = 'SWAMI'
 
 
 if word in unused_list:
