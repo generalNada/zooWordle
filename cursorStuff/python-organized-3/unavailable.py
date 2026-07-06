@@ -211,8 +211,8 @@ my_list = {
     'STRAP', 'STRAW', 'STRAY', 'STRUT', 'STUDY', 'STUFF', 'STUMP', 'STUNG', 'STUNT', 'STYLE', 
     'SUAVE',
     'SUEDE', 'SUGAR', 'SUITE', 'SULKY', 'SULLY', 'SUMAC', 'SUNNY', 'SUPER', 'SURER', 'SURGE',
-    'SURLY', 'SUSHI', 'SWAMP', 'SWEAT', 'SWEEP', 'SWEET', 'SWELL', 'SWILL', 'SWINE', 'SWING', 
-    'SWIRL',
+    'SURLY', 'SUSHI', 'SWAMI', 'SWAMP', 'SWEAT', 'SWEEP', 'SWEET', 'SWELL', 'SWILL', 'SWINE', 
+    'SWING', 'SWIRL',
     'SWISH', 'SWOON', 'SWOOP', 'SWORD', 'SWORN', 'SWUNG', 'SYRUP', 'TABBY', 'TABLE', 'TABOO', 
     'TACIT',
     'TACKY', 'TAFFY', 'TAKEN', 'TALLY', 'TALON', 'TANGY', 'TAPER', 'TAPIR', 'TARDY', 'TASTE',
@@ -252,7 +252,7 @@ my_list = {
     'WROTE', 'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'PIZZA'
+word_to_find = 'SWAMI'
 
 
 if word_to_find in my_list:
