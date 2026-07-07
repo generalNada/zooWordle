@@ -57,7 +57,7 @@ unused_list = [
     "STOOD", "STOOP", "STRIP", "STUCK", "STUNK", "SUING", "SWARM",
     "SWASH", "SWEAR", "SWEPT", "SWIFT", "SWORE", "SYNOD", "TAINT", "TAKER", "TAMER",
     "TANGO", "TAROT", "TATTY", "TEARY", "TENET", "TENSE", "TEPEE", "TERRA", 
-    "THETA", "THONG", "TIGHT", "TIMID", "TODDY", "TONAL", "TONER", "TONGA",
+    "THETA", "THONG", "TIGHT", "TIMID", "TONAL", "TONER", "TONGA",
     "TORUS", "TRAMP", "TREAD", "TRIBE", "TRIED", "TRUCE", "TRUER", "TRUMP", "TRUNK", "TUBAL",
     "TULLE", "TUMOR", "TWIXT", "TYING", "UNCUT", "UNSET", "UNWED",
     "URINE", "UTILE", "VALOR", "VALVE", "VAPOR", "VAUNT", "VERSE", "VERSO", "VICAR", "VIGIL",
@@ -67,7 +67,7 @@ unused_list = [
     "WREST", "WRING", "WRYLY", "ZONAL"
 ]
 
-word = 'SWAMI'
+word = 'TODDY'
 
 
 if word in unused_list:
