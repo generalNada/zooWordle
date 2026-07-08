@@ -62,8 +62,8 @@ my_list = {
     'CYBER', 'CYCLE', 'CYNIC',
     'DADDY', 'DAISY', 'DALLY', 'DANCE', 'DANDY', 'DATUM', 'DAUNT', 'DEATH', 'DEBIT', 'DEBUG',
     'DEBUT', 'DECAL', 'DECAY', 'DECOR', 'DECOY', 'DECRY', 'DEFER', 'DEITY', 'DELAY', 'DELTA',
-    'DELVE', 'DEMUR', 'DENIM', 'DENSE', 'DEPOT', 'DEPTH', 'DETER', 'DETOX', 'DEUCE', 'DEVIL', 
-    'DIARY', 'DICEY',
+    'DELVE', 'DEMON', 'DEMUR', 'DENIM', 'DENSE', 'DEPOT', 'DEPTH', 'DETER', 'DETOX', 'DEUCE', 
+    'DEVIL', 'DIARY', 'DICEY',
     'DIGIT', 'DINER', 'DINGO', 'DINGY', 'DIRGE', 'DISCO', 'DITTO', 'DITTY', 'DIVOT', 'DIZZY', 
     'DODGE',
     'DODGY', 'DOGMA', 'DOING', 'DOLLY', 'DONOR', 'DONUT', 'DOPEY', 'DOUBT', 'DOUGH', 'DOWDY', 
@@ -157,7 +157,8 @@ my_list = {
     'PEACE', 'PEACH', 'PEARL', 'PECAN', 'PEDAL', 'PENNE', 'PERCH', 'PERIL', 'PERKY', 'PESKY',
     'PETAL', 'PETTY', 'PHASE', 'PHONE', 'PHONY', 'PHOTO', 'PIANO', 'PICKY', 'PIECE', 'PIETY',
     'PINKY', 'PILOT', 'PINCH', 'PINEY', 'PINTO', 'PIOUS', 'PIPER', 'PIQUE', 'PITCH', 'PITHY',
-    'PIXEL', 'PIXIE', 'PIZZA', 'PLACE', 'PLAID', 'PLAIN', 'PLAIT', 'PLANE', 'PLANK', 'PLANT', 'PLATE',
+    'PIXEL', 'PIXIE', 'PIZZA', 'PLACE', 'PLAID', 'PLAIN', 'PLAIT', 'PLANE', 'PLANK', 'PLANT', 
+    'PLATE',
     'PLAZA', 'PLEAD', 'PLEAT', 'PLUCK', 'PLUMB', 'PLUME', 'PLUMP', 'PLUNK', 'POINT', 'POISE', 
     'POKER',
     'POLKA', 'POLYP', 'POPPY', 'PORCH', 'POSSE', 'POUND', 'POUTY', 'POWER', 'PRANK', 'PREEN',
@@ -211,8 +212,8 @@ my_list = {
     'STRAP', 'STRAW', 'STRAY', 'STRUT', 'STUDY', 'STUFF', 'STUMP', 'STUNG', 'STUNT', 'STYLE', 
     'SUAVE',
     'SUEDE', 'SUGAR', 'SUITE', 'SULKY', 'SULLY', 'SUMAC', 'SUNNY', 'SUPER', 'SURER', 'SURGE',
-    'SURLY', 'SUSHI', 'SWAMI', 'SWAMP', 'SWEAT', 'SWEEP', 'SWEET', 'SWELL', 'SWILL', 'SWINE', 'SWING', 
-    'SWIRL',
+    'SURLY', 'SUSHI', 'SWAMI', 'SWAMP', 'SWEAT', 'SWEEP', 'SWEET', 'SWELL', 'SWILL', 'SWINE', 
+    'SWING', 'SWIRL',
     'SWISH', 'SWOON', 'SWOOP', 'SWORD', 'SWORN', 'SWUNG', 'SYRUP', 'TABBY', 'TABLE', 'TABOO', 
     'TACIT',
     'TACKY', 'TAFFY', 'TAKEN', 'TALLY', 'TALON', 'TANGY', 'TAPER', 'TAPIR', 'TARDY', 'TASTE',
@@ -252,7 +253,7 @@ my_list = {
     'WROTE', 'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'SLING'
+word_to_find = 'DEMON'
 
 
 if word_to_find in my_list:
