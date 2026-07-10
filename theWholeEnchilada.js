@@ -1586,7 +1586,7 @@ export const dailyWordsSmall = [
 'AGONY', 'AHEAD', 'AIDER', 'AISLE', 'ALARM', 'ALBUM', 'ALERT', 'ALGAE', 
 'ALIEN', 'ALIGN', 'ALIKE', 'ALIVE', 'ALLAY', 'ALLOT', 'ALLOW', 'ALOFT',
 'ALONE', 'ALONG', 'ALOOF', 'ALOUD', 'ALPHA', 'ALTAR', 'ALTER', 'AMASS', 'AMBER',
-'AMBLE', 'AMEND', 'AMISS', 'AMITY', 'AMONG', 'AMPLE', 'AMUSE', 'ANGEL', 'ANGER',
+'AMBLE', 'AMISS', 'AMITY', 'AMONG', 'AMPLE', 'AMUSE', 'ANGEL', 'ANGER',
 'ANGLE', 'ANGRY', 'ANGST', 'ANIME', 'ANNEX', 'ANNOY', 'ANNUL', 'ANODE', 'ANTIC',
 'ANVIL', 'AORTA', 'APART', 'APHID', 'APING', 'APNEA', 'APPLE', 'APPLY', 'APRON', 'APTLY',
 'ARBOR', 'ARDOR', 'ARENA', 'ARGUE', 'ARISE', 'ARMOR', 'AROMA', 'AROSE', 'ARRAY', 'ARROW',
@@ -1864,7 +1864,7 @@ export const dailyWordsLarge = [
     'ALOOF', 'ALOSE', 'ALOUD', 'ALOWE',
     'ALPHA', 'ALTAR', 'ALTER', 'ALTHO', 'ALTOS', 'ALULA', 'ALUMS', 'ALURE',
     'ALVAR', 'ALWAY', 'AMAHS', 'AMAIN', 'AMASS', 'AMATE', 'AMAUT', 'AMBAN', 'AMBER',
-    'AMBIT', 'AMBLE', 'AMBOS', 'AMBRY', 'AMEBA', 'AMEER', 'AMEND', 'AMENE', 'AMENS', 'AMENT',
+    'AMBIT', 'AMBLE', 'AMBOS', 'AMBRY', 'AMEBA', 'AMEER', 'AMENE', 'AMENS', 'AMENT',
     'AMIAS', 'AMICE', 'AMICI', 'AMIDE', 'AMIDO', 'AMIDS', 'AMIES', 'AMIGA', 'AMIGO', 'AMINE',
     'AMINO', 'AMINS', 'AMIRS', 'AMISS', 'AMITY', 'AMLAS', 'AMMAN', 'AMMON', 'AMMOS', 'AMNIA',
     'AMNIC', 'AMNIO', 'AMOKS', 'AMOLE', 'AMONG', 'AMORT', 'AMOUR', 'AMOVE', 'AMOWT', 'AMPED',
@@ -24974,9 +24974,20 @@ export const wordleWords = [
         gameDate: "7/8/26",
         myScore: 3,
         wordNumber: 1845,
-        guess_1: "STEAL",
+        guess_1: "LEANT",
         guess_2: "REIGN",
         guess_3: "DEMON",
+        guess_4: null,
+        guess_5: null,
+        guess_6: null,
+      }, 
+      { word: "AMEND", 
+        gameDate: "7/9/26",
+        myScore: 3,
+        wordNumber: 1845,
+        guess_1: "LEANT",
+        guess_2: "ARENA",
+        guess_3: "AMEND",
         guess_4: null,
         guess_5: null,
         guess_6: null,
@@ -24998,7 +25009,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("July 8, 2026: Trump sux dykk000000000! DEMON")
+console.log("July 9, 2026: Trump sux dykk000000000! AMEND")
 
 console.log(wordleWords)
 
