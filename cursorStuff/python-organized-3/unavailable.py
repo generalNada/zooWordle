@@ -8,8 +8,8 @@ my_list = {
     'ALIBI', 'ALIEN', 'ALIGN',
     'ALIKE', 'ALIVE', 'ALLEY', 'ALLOT', 'ALLOW', 'ALLOY', 'ALOFT', 'ALONE', 'ALONG', 'ALOOF', 
     'ALOUD', 'ALPHA',
-    'ALTAR', 'ALTER', 'AMASS', 'AMAZE', 'AMBER', 'AMBLE', 'AMISS', 'AMONG', 'AMPLE', 'AMPLY', 
-    'AMUSE', 'ANGEL',
+    'ALTAR', 'ALTER', 'AMASS', 'AMAZE', 'AMBER', 'AMBLE', 'AMEND', 'AMISS', 'AMONG', 'AMPLE', 
+    'AMPLY', 'AMUSE', 'ANGEL',
     'ANGER', 'ANGLE', 'ANGRY', 'ANGST', 'ANKLE', 'ANNEX', 'ANODE', 'ANNOY', 'ANTIC', 'ANVIL', 
     'AORTA',
     'APART', 'APHID', 'APPLE', 'APPLY', 'APRON', 'APTLY', 'ARBOR', 'ARDOR', 'ARGUE', 'ARISE',
@@ -253,7 +253,7 @@ my_list = {
     'WROTE', 'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'DEMON'
+word_to_find = 'AMEND'
 
 
 if word_to_find in my_list:
