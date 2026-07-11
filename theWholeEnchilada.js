@@ -1326,7 +1326,8 @@ export const combinedWords = [
     'ALIEN', 'ALIGN', 'ALIKE', 'ALIVE', 'ALLAY', 'ALLEY', 'ALLOT', 'ALLOW', 'ALLOY', 'ALOFT',
     'ALONE', 'ALONG', 'ALOOF', 'ALOUD', 'ALPHA', 'ALTAR', 'ALTER', 'AMASS', 'AMAZE', 'AMBER',
     'AMBLE', 'AMEND', 'AMISS', 'AMITY', 'AMONG', 'AMPLE', 'AMPLY', 'AMUSE', 'ANGEL', 'ANGER',
-    'ANGLE', 'ANGRY', 'ANGST', 'ANIME', 'ANKLE', 'ANNEX', 'ANNOY', 'ANNUL', 'ANODE', 'ANTIC',
+    'ANGLE', 'ANGRY', 'ANGST', 'ANIME', 'ANKLE', 'ANNAL', 'ANNEX', 'ANNOY', 'ANNUL', 'ANODE', 
+    'ANTIC',
     'ANVIL', 'AORTA', 'APART', 'APHID', 'APING', 'APNEA', 'APPLE', 'APPLY', 'APRON', 'APTLY',
     'ARBOR', 'ARDOR', 'ARENA', 'ARGUE', 'ARISE', 'ARMOR', 'AROMA', 'AROSE', 'ARRAY', 'ARROW',
     'ARSON', 'ARTSY', 'ASCOT', 'ASHEN', 'ASIDE', 'ASKEW', 'ASSAY', 'ASSET', 'ATLAS', 'ATOLL',
@@ -1587,7 +1588,7 @@ export const dailyWordsSmall = [
 'ALIEN', 'ALIGN', 'ALIKE', 'ALIVE', 'ALLAY', 'ALLOT', 'ALLOW', 'ALOFT',
 'ALONE', 'ALONG', 'ALOOF', 'ALOUD', 'ALPHA', 'ALTAR', 'ALTER', 'AMASS', 'AMBER',
 'AMBLE', 'AMISS', 'AMITY', 'AMONG', 'AMPLE', 'AMUSE', 'ANGEL', 'ANGER',
-'ANGLE', 'ANGRY', 'ANGST', 'ANIME', 'ANNEX', 'ANNOY', 'ANNUL', 'ANODE', 'ANTIC',
+'ANGLE', 'ANGRY', 'ANGST', 'ANIME', 'ANNAL', 'ANNEX', 'ANNOY', 'ANNUL', 'ANODE', 'ANTIC',
 'ANVIL', 'AORTA', 'APART', 'APHID', 'APING', 'APNEA', 'APPLE', 'APPLY', 'APRON', 'APTLY',
 'ARBOR', 'ARDOR', 'ARENA', 'ARGUE', 'ARISE', 'ARMOR', 'AROMA', 'AROSE', 'ARRAY', 'ARROW',
 'ARSON', 'ARTSY', 'ASCOT', 'ASHEN', 'ASIDE', 'ASKEW', 'ASSAY', 'ASSET', 'ATLAS', 'ATOLL',
@@ -1612,7 +1613,7 @@ export const dailyWordsSmall = [
 'BUILD', 'BUILT', 'BULGE', 'BULKY', 'BULLY', 'BUNCH', 'BUNNY', 'BURLY', 'BURNT', 'BURST',
 'BUSED', 'BUSHY', 'BUTCH', 'BUTTE', 'BUXOM', 'CABAL', 'CABBY', 'CABIN',
 'CABLE', 'CACAO', 'CACHE', 'CACTI', 'CADDY', 'CADET', 'CAGEY', 'CAIRN', 'CAMEL', 'CAMEO',
-'CANAL', 'CANDY', 'CANNY', 'CANOE', 'CANON', 'CAPER', 'CAPUT', 'CARAT', 'CARGO', 'CAROL',
+'CANDY', 'CANNY', 'CANOE', 'CANON', 'CAPER', 'CAPUT', 'CARAT', 'CARGO', 'CAROL',
 'CARRY', 'CARVE', 'CASTE', 'CATCH', 'CATER', 'CATTY', 'CAULK', 'CAUSE', 'CAVIL', 'CEASE',
 'CEDAR', 'CHAFE', 'CHAFF', 'CHAIN', 'CHAIR', 'CHALK', 'CHAMP', 'CHANT', 'CHAOS',
 'CHARD', 'CHARM', 'CHART', 'CHASE', 'CHASM', 'CHEAP', 'CHEAT', 'CHECK', 'CHEEK', 'CHEER',
@@ -2002,7 +2003,7 @@ export const dailyWordsLarge = [
     'CAJUN', 'CAKED', 'CAKES', 'CAKEY', 'CALFS', 'CALID', 'CALIF', 'CALIX', 'CALKS', 'CALLA',
     'CALLS', 'CALMS', 'CALMY', 'CALOS', 'CALPA', 'CALPS', 'CALVE', 'CALYX', 'CAMAN', 'CAMAS',
     'CAMEL', 'CAMEO', 'CAMES', 'CAMIS', 'CAMOS', 'CAMPI', 'CAMPO', 'CAMPS', 'CAMPY', 'CAMUS',
-    'CANAL', 'CANDY', 'CANED', 'CANEH', 'CANER', 'CANES', 'CANGS', 'CANID', 'CANNA', 'CANNS',
+    'CANDY', 'CANED', 'CANEH', 'CANER', 'CANES', 'CANGS', 'CANID', 'CANNA', 'CANNS',
     'CANNY', 'CANOE', 'CANON', 'CANSO', 'CANST', 'CANTO', 'CANTS', 'CANTY', 'CAPAS', 'CAPED',
     'CAPER', 'CAPES', 'CAPEX', 'CAPHS', 'CAPIZ', 'CAPLE', 'CAPON', 'CAPOS', 'CAPOT', 'CAPRI',
     'CAPUL', 'CAPUT', 'CARAP', 'CARAT', 'CARBO', 'CARBS', 'CARBY', 'CARDI', 'CARDS', 'CARDY',
@@ -24992,6 +24993,17 @@ export const wordleWords = [
         guess_5: null,
         guess_6: null,
       }, 
+      { word: "CANAL", 
+        gameDate: "7/10/26",
+        myScore: 3,
+        wordNumber: 1847,
+        guess_1: "RINSE",
+        guess_2: "TONAL",
+        guess_3: "CANAL",
+        guess_4: null,
+        guess_5: null,
+        guess_6: null,
+      }, 
 
  
   ];
@@ -25009,7 +25021,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("July 9, 2026: Trump sux dykk000000000! AMEND")
+console.log("July 10, 2026: Trump sux dykk000000000! CANAL")
 
 console.log(wordleWords)
 
