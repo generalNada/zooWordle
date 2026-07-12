@@ -1328,10 +1328,10 @@ export const combinedWords = [
     'AMBLE', 'AMEND', 'AMISS', 'AMITY', 'AMONG', 'AMPLE', 'AMPLY', 'AMUSE', 'ANGEL', 'ANGER',
     'ANGLE', 'ANGRY', 'ANGST', 'ANIME', 'ANKLE', 'ANNAL', 'ANNEX', 'ANNOY', 'ANNUL', 'ANODE', 
     'ANTIC',
-    'ANVIL', 'AORTA', 'APART', 'APHID', 'APING', 'APNEA', 'APPLE', 'APPLY', 'APRON', 'APTLY',
+    'ANVIL', 'AORTA', 'APART', 'APIAN', 'APHID', 'APING', 'APNEA', 'APPLE', 'APPLY', 'APRON', 'APTLY',
     'ARBOR', 'ARDOR', 'ARENA', 'ARGUE', 'ARISE', 'ARMOR', 'AROMA', 'AROSE', 'ARRAY', 'ARROW',
     'ARSON', 'ARTSY', 'ASCOT', 'ASHEN', 'ASIDE', 'ASKEW', 'ASSAY', 'ASSET', 'ATLAS', 'ATOLL',
-    'ATONE', 'ATRIA', 'ATTIC', 'AUDIO', 'AUDIT', 'AUGUR', 'AUNTY', 'AVAIL', 'AVERT', 'AVIAN',
+    'ATONE', 'ATRIA', 'ATTIC', 'AUDIO', 'AUDIT', 'AUGUR', 'AUNTY', 'AVAIL', 'AVERT', 
     'AVOID', 'AWAIT', 'AWAKE', 'AWARD', 'AWARE', 'AWASH', 'AWFUL', 'AWOKE', 'AXIAL', 'AXIOM',
     'AXION', 'AZURE', 'BACON', 'BADGE', 'BADLY', 'BAGEL', 'BAGGY', 'BAKER', 'BALER', 'BALMY',
     'BALSA', 'BANAL', 'BANJO', 'BARGE', 'BARON', 'BASAL', 'BASIC', 'BASIL', 'BASIN', 'BASIS',
@@ -1589,10 +1589,11 @@ export const dailyWordsSmall = [
 'ALONE', 'ALONG', 'ALOOF', 'ALOUD', 'ALPHA', 'ALTAR', 'ALTER', 'AMASS', 'AMBER',
 'AMBLE', 'AMISS', 'AMITY', 'AMONG', 'AMPLE', 'AMUSE', 'ANGEL', 'ANGER',
 'ANGLE', 'ANGRY', 'ANGST', 'ANIME', 'ANNAL', 'ANNEX', 'ANNOY', 'ANNUL', 'ANODE', 'ANTIC',
-'ANVIL', 'AORTA', 'APART', 'APHID', 'APING', 'APNEA', 'APPLE', 'APPLY', 'APRON', 'APTLY',
+'ANVIL', 'AORTA', 'APART', 'APIAN', 'APHID', 'APING', 'APNEA', 'APPLE', 'APPLY', 'APRON', 
+'APTLY',
 'ARBOR', 'ARDOR', 'ARENA', 'ARGUE', 'ARISE', 'ARMOR', 'AROMA', 'AROSE', 'ARRAY', 'ARROW',
 'ARSON', 'ARTSY', 'ASCOT', 'ASHEN', 'ASIDE', 'ASKEW', 'ASSAY', 'ASSET', 'ATLAS', 'ATOLL',
-'ATONE', 'ATRIA', 'AUDIO', 'AUDIT', 'AUGUR', 'AUNTY', 'AVAIL', 'AVERT', 'AVIAN',
+'ATONE', 'ATRIA', 'AUDIO', 'AUDIT', 'AUGUR', 'AUNTY', 'AVAIL', 'AVERT', 
 'AVOID', 'AWAIT', 'AWARD', 'AWARE', 'AWASH', 'AWFUL', 'AWOKE', 'AXIAL', 'AXIOM',
 'AXION', 'AZURE', 'BACON', 'BADGE', 'BADLY', 'BAGEL', 'BAGGY', 'BAKER', 'BALER', 'BALMY',
 'BALSA', 'BANAL', 'BANJO', 'BARGE', 'BARON', 'BASAL', 'BASIC', 'BASIN', 
@@ -25004,6 +25005,17 @@ export const wordleWords = [
         guess_5: null,
         guess_6: null,
       }, 
+      { word: "AVIAN", 
+        gameDate: "7/11/26",
+        myScore: 3,
+        wordNumber: 1848,
+        guess_1: "RINSE",
+        guess_2: "LOGIN",
+        guess_3: "AVIAN",
+        guess_4: null,
+        guess_5: null,
+        guess_6: null,
+      }, 
 
  
   ];
@@ -25021,7 +25033,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("July 10, 2026: Trump sux dykk000000000! CANAL")
+console.log("July 11, 2026: Trump sux dykk000000000! AVIAN")
 
 console.log(wordleWords)
 
