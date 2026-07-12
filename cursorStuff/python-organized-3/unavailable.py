@@ -14,7 +14,8 @@ my_list = {
     'AORTA',
     'APART', 'APHID', 'APPLE', 'APPLY', 'APRON', 'APTLY', 'ARBOR', 'ARDOR', 'ARGUE', 'ARISE',
     'AROMA', 'ARROW', 'ARTSY', 'ASCOT', 'ASHEN', 'ASIDE', 'ASKEW', 'ASSAY', 'ASSET', 'ATLAS',
-    'ATOLL', 'ATONE', 'ATRIA', 'ATTIC', 'AUDIO', 'AUDIT', 'AVAIL', 'AVERT', 'AVOID', 'AWAIT',
+    'ATOLL', 'ATONE', 'ATRIA', 'ATTIC', 'AUDIO', 'AUDIT', 'AVAIL', 'AVERT', 'AVIAN', 'AVOID', 
+    'AWAIT',
     'AWAKE', 'AWAKE', 'AWARD', 'AWARE', 'AWASH', 'AWOKE', 'AWFUL', 'AXIOM', 'AZURE', 'BACON',
     'BADGE', 'BADLY', 'BAGEL', 'BAKER', 'BALER', 'BALMY', 'BALSA', 'BANAL', 'BANJO', 'BARGE',
     'BARON', 'BASIC', 'BASIL', 'BASIN', 'BASIS', 'BASTE', 'BATHE', 'BATCH', 'BATON', 'BATON', 
@@ -254,7 +255,7 @@ my_list = {
     'WROTE', 'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'CANAL'
+word_to_find = 'AVIAN'
 
 
 if word_to_find in my_list:
