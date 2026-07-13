@@ -46,7 +46,7 @@ my_list = {
     'CHIEF', 'CHILD', 'CHILI', 'CHILL', 'CHIME', 'CHOCK', 'CHOIR', 'CHOKE', 'CHORD', 'CHORE', 
     'CHOSE',
     'CHUCK', 'CHUMP', 'CHUNK', 'CHUTE', 'CIDER', 'CIGAR', 'CIGAR', 'CINCH', 'CIRCA', 'CIVIC', 
-    'CIVIL', 'CLAMP', 'CLANG',
+    'CIVIL', 'CLACK', 'CLAMP', 'CLANG',
     'CLASH', 'CLASP', 'CLASS', 'CLEAN', 'CLEAR', 'CLEFT', 'CLERK', 'CLICK', 'CLIFF', 'CLIMB', 
     'CLING',
     'CLINK', 'CLOAK', 'CLOCK', 'CLOCK', 'CLONE', 'CLOSE', 'CLOTH', 'CLOUD', 'CLOVE', 'CLOWN', 
@@ -255,7 +255,7 @@ my_list = {
     'WROTE', 'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'AVIAN'
+word_to_find = 'CLACK'
 
 
 if word_to_find in my_list:
