@@ -1785,7 +1785,7 @@ export const dailyWordsSmall = [
 'STARE', 'STARK', 'START', 'STASH', 'STATE', 'STAVE', 'STEAD', 'STEAK', 'STEAL', 'STEAM',
 'STEED', 'STEEL', 'STEEP', 'STEER', 'STEIN', 'STERN', 'STICK', 'STIFF', 'STILL', 'STILT',
 'STING', 'STINK', 'STINT', 'STOCK', 'STOIC', 'STOKE', 'STOLE', 'STOMP', 'STONE', 'STONY',
-'STOOD', 'STOOL', 'STOOP', 'STORE', 'STORK', 'STORM', 'STORY', 'STOUT', 'STOVE', 'STRAP',
+'STOOD', 'STOOL', 'STOOP', 'STORE', 'STORK', 'STORM', 'STORY', 'STOVE', 'STRAP',
 'STRAW', 'STRAY', 'STRIP', 'STRUT', 'STUCK', 'STUDY', 'STUMP', 'STUNG', 'STUNK',
 'STUNT', 'STYLE', 'SUAVE', 'SUEDE', 'SUGAR', 'SUING', 'SUITE', 'SULKY', 'SULLY', 'SUMAC',
 'SUNNY', 'SUPER', 'SURER', 'SURLY', 'SUSHI', 'SWARM', 'SWASH',
@@ -2919,7 +2919,7 @@ export const dailyWordsLarge = [
     'STOAS', 'STOAT', 'STOBS', 'STOCK', 'STOEP', 'STOGY', 'STOIC', 'STOIT', 'STOKE', 'STOLE',
     'STOLN', 'STOMA', 'STOMP', 'STOND', 'STONE', 'STONG', 'STONK', 'STONN', 'STONY', 'STOOD',
     'STOOK', 'STOOL', 'STOOP', 'STOOR', 'STOPE', 'STOPS', 'STOPT', 'STORE', 'STORK', 'STORM',
-    'STORY', 'STOSS', 'STOTS', 'STOTT', 'STOUN', 'STOUP', 'STOUR', 'STOUT', 'STOVE', 'STOWN',
+    'STORY', 'STOSS', 'STOTS', 'STOTT', 'STOUN', 'STOUP', 'STOUR', 'STOVE', 'STOWN',
     'STOWP', 'STOWS', 'STRAD', 'STRAE', 'STRAG', 'STRAK', 'STRAP', 'STRAW', 'STRAY', 'STREP',
     'STREW', 'STRIA', 'STRIG', 'STRIM', 'STRIP', 'STROP', 'STROW', 'STROY', 'STRUM', 'STRUT',
     'STUBS', 'STUCK', 'STUDE', 'STUDS', 'STUDY', 'STULL', 'STULM', 'STUMM', 'STUMP',
@@ -25024,7 +25024,17 @@ export const wordleWords = [
         guess_2: "LOAMY",
         guess_3: "CLANK",
         guess_4: "CLACK",
-        guess_4: null,
+        guess_5: null,
+        guess_6: null,
+      }, 
+      { word: "STOUT", 
+        gameDate: "7/13/26",
+        myScore: 4,
+        wordNumber: 1850,
+        guess_1: "RINSE",
+        guess_2: "STALK",
+        guess_3: "STOOP",
+        guess_4: "STOUT",
         guess_5: null,
         guess_6: null,
       }, 
@@ -25045,7 +25055,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("July 12, 2026: Trump sux dykk000000000! CLACK")
+console.log("July 13, 2026: Trump sux dykk000000000! STOUT")
 
 console.log(wordleWords)
 
