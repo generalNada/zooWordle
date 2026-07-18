@@ -28,7 +28,7 @@ unused_list = [
     "HARPY", "HARRY", "HAUTE", "HEDGE", "HIPPY", "HITCH", "HONOR", "HOOCH", "HORNY",
     "HOTLY", "HUMUS", "HUSKY", "HUSSY", "HYDRO", "HYMEN", "ICILY", "IDIOT", "IDYLL", "ILIAC",
     "IMPLY", "INGOT", "INTRO", "ISSUE", "JETTY", "JOIST", "JUICY", "JUNTA", "JUNTO",
-    "JUROR", "KAPPA", "KINKY", "KITTY", "KNEED", "LEANT", "LEGAL", "LEPER",
+    "JUROR", "KAPPA", "KINKY", "KITTY", "KNEED", "LEANT", "LEPER",
     "LIEGE", "LIPID", "LOAMY", "LOGIN", "LOOSE", "LORRY", "LUMEN",
     "LUPUS", "LURCH", "LYMPH", "LYRIC", "MACRO", "MAMMA", "MAMMY", "MANGE", "MANGY",
     "MEATY", "MECCA", "MELEE", "MILKY", "MINIM", "MINOR", "MISSY", "MOCHA", "MOODY", "MORON",
@@ -67,7 +67,7 @@ unused_list = [
     "WREST", "WRING", "WRYLY", "ZONAL"
 ]
 
-word = 'BUTTE'
+word = 'LEGAL'
 
 
 if word in unused_list:
