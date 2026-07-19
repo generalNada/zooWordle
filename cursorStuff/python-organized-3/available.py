@@ -5,7 +5,7 @@ unused_list = [
     "AUNTY", "AXIAL", "AXION", "BAGGY", "BASAL", "BEECH",
     "BEGAN", "BEGAT", "BERRY", "BETEL", "BEVEL", "BEZEL", "BIBLE", "BIDDY",
     "BIGOT", "BILLY", "BINGO", "BISON", "BITTY", "BLESS", "BLIND", "BLITZ", "BLOAT", "BLOOD",
-    "BLUER", "BOBBY", "BONEY", "BOOTH", "BOSOM", "BOTCH", "BOULE", "BOUND", "BOWEL", "BRAWL",
+    "BLUER", "BOBBY", "BONEY", "BOSOM", "BOTCH", "BOULE", "BOUND", "BOWEL", "BRAWL",
     "BRICK", "BRINY", "BURNT", "BURST", "BUSED", "BUSHY", "BUTCH",
     "BUXOM", "CABAL", "CABBY", "CABIN", "CADDY", "CAGEY", "CAIRN", 
     "CAPUT", "CASTE", "CAVIL", "CHAFF", "CHESS", "CHICK", "CHINA", "CHOMP",
@@ -67,7 +67,7 @@ unused_list = [
     "WREST", "WRING", "WRYLY", "ZONAL"
 ]
 
-word = 'LEGAL'
+word = 'BOOTH'
 
 
 if word in unused_list:
