@@ -1621,7 +1621,7 @@ export const dailyWordsSmall = [
 'CHARD', 'CHARM', 'CHART', 'CHASE', 'CHASM', 'CHEAP', 'CHEAT', 'CHECK', 'CHEEK', 'CHEER',
 'CHESS', 'CHEST', 'CHICK', 'CHIEF', 'CHILD', 'CHILL', 'CHIME', 'CHINA',
 'CHIRP', 'CHOCK', 'CHOIR', 'CHOKE', 'CHOMP', 'CHORD', 'CHORE', 'CHOSE', 
-'CHUNK', 'CHURN', 'CHUTE', 'CIDER', 'CINCH', 'CIRCA', 'CIVIC', 'CIVIL',
+'CHUNK', 'CHUTE', 'CIDER', 'CINCH', 'CIRCA', 'CIVIC', 'CIVIL',
 'CLAIM', 'CLAMP', 'CLANK', 'CLASH', 'CLASS', 'CLEAN', 'CLEAR', 'CLEAT',
 'CLEFT', 'CLERK', 'CLICK', 'CLIFF', 'CLIMB', 'CLING', 'CLINK', 'CLOAK', 'CLONE',
 'CLOSE', 'CLOTH', 'CLOUD', 'CLOUT', 'CLOVE', 'CLOWN', 'CLUCK', 'CLUED', 'CLUNG',
@@ -2032,7 +2032,7 @@ export const dailyWordsLarge = [
     'CHIVY', 'CHIZZ', 'CHOCK', 'CHOCO', 'CHOCS', 'CHODE', 'CHOGS', 'CHOIL', 'CHOIR', 'CHOKE',
     'CHOKO', 'CHOKY', 'CHOLA', 'CHOLI', 'CHOMP', 'CHONS', 'CHOOF', 'CHOOK', 'CHOOM', 'CHOON',
     'CHOPS', 'CHORD', 'CHORE', 'CHOSE', 'CHOTA', 'CHOTT', 'CHOUT', 'CHOUX', 'CHOWK', 'CHOWS',
-    'CHUBS', 'CHUFA', 'CHUFF', 'CHUGS', 'CHUMS', 'CHUNK', 'CHURL', 'CHURN',
+    'CHUBS', 'CHUFA', 'CHUFF', 'CHUGS', 'CHUMS', 'CHUNK', 'CHURL', 
     'CHURR', 'CHUSE', 'CHUTE', 'CHUTS', 'CHYLE', 'CHYME', 'CHYND',
     'CIBOL', 'CIDED', 'CIDER', 'CIDES', 'CIELS', 'CIGGY', 'CILIA', 'CILLS', 'CIMAR',
     'CIMEX', 'CINCH', 'CINCT', 'CINES', 'CINQS', 'CIONS', 'CIPPI', 'CIRCA', 'CIRCS', 'CIRES',
@@ -25094,6 +25094,17 @@ export const wordleWords = [
         guess_5: "BOOTH",
         guess_6: null,
       }, 
+      { word: "CHURN", 
+        gameDate: "7/19/26",
+        myScore: 3,
+        wordNumber: 1856,
+        guess_1: "STEAL",
+        guess_2: "CROUP",
+        guess_3: "CHURN",
+        guess_4: null,
+        guess_5: null,
+        guess_6: null,
+      }, 
 
  
   ];
@@ -25111,7 +25122,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("July 18, 2026: Trump sux dykk000000000! BOOTH")
+console.log("July 19, 2026: Trump sux dykk000000000! CHURN")
 
 console.log(wordleWords)
 
