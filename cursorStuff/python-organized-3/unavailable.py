@@ -27,7 +27,8 @@ my_list = {
     'BINGE', 'BIOME', 'BIRCH', 'BIRTH', 'BLACK', 'BLADE', 'BLAME', 'BLAND', 'BLANK', 'BLARE',
     'BLAST', 'BLAZE', 'BLEAK', 'BLEAT', 'BLEED', 'BLEEP', 'BLEND', 'BLIMP', 'BLINK', 'BLISS',
     'BLOCK', 'BLOKE', 'BLOND', 'BLOOM', 'BLOWN', 'BLUFF', 'BLUNT', 'BLURB', 'BLURT', 'BLUSH',
-    'BOARD', 'BOAST', 'BONGO', 'BONUS', 'BOOBY', 'BOOST', 'BOOTH', 'BOOTY', 'BOOZE', 'BOOZY', 'BORAX',
+    'BOARD', 'BOAST', 'BONGO', 'BONUS', 'BOOBY', 'BOOST', 'BOOTH', 'BOOTY', 'BOOZE', 'BOOZY', 
+    'BORAX',
     'BORNE', 'BOSSY', 'BOUGH', 'BOXER', 'BRACE', 'BRAID', 'BRAIN', 'BRAKE', 'BRAND', 'BRASH',
     'BRASS', 'BRAVE', 'BRAVO', 'BRAWN', 'BREAD', 'BREAK', 'BREAK', 'BREED', 'BRIAR', 'BRIBE', 
     'BRIDE',
@@ -191,13 +192,13 @@ my_list = {
     'SERVE', 'SEVEN', 'SEVER', 'SHADE', 'SHAFT', 'SHAKE', 'SHAKY', 'SHALL', 'SHAME', 'SHANK',
     'SHAPE', 'SHARD', 'SHARE', 'SHARP', 'SHAVE', 'SHAWL', 'SHEAR', 'SHEEP', 'SHEET', 'SHELF', 
     'SHELL',
-    'SHIFT', 'SHINE', 'SHIRE', 'SHIRK', 'SHOAL', 'SHORE', 'SHORN', 'SHORT', 'SHOUT', 'SHOVE', 
-    'SHOWN',
+    'SHIFT', 'SHILL', 'SHINE', 'SHIRE', 'SHIRK', 'SHOAL', 'SHORE', 'SHORN', 'SHORT', 'SHOUT', 
+    'SHOVE', 'SHOWN',
     'SHOWY', 'SHRED', 'SHRUB', 'SHRUG', 'SHUCK', 'SHUNT', 'SHYLY', 'SIEGE', 'SIGHT', 'SILLY',
     'SINCE', 'SINGE', 'SIREN', 'SISSY', 'SITAR', 'SIXTH', 'SKATE', 'SKILL', 'SKIMP', 'SKIER', 
     'SKIFF',
     'SKIRT', 'SKULL', 'SKUNK', 'SLANG', 'SLATE', 'SLEEK', 'SLEEP', 'SLICE', 'SLICK', 'SLIME', 
-    'SLING','SLOPE', 'SLOSH',
+    'SLING', 'SLOPE', 'SLOSH',
     'SLOTH', 'SLUMP', 'SLUNG', 'SMALL', 'SMART', 'SMASH', 'SMEAR', 'SMELL', 'SMELT', 'SMILE', 
     'SMILE', 'SMIRK',
     'SMITE', 'SMITH', 'SMOCK', 'SMOKE', 'SNACK', 'SNAFU', 'SNAIL', 'SNAKE', 'SNAKY', 'SNARE',
@@ -210,7 +211,8 @@ my_list = {
     'SPURT', 'SQUAD', 'SQUAD', 'SQUAT', 'SQUID', 'STACK', 'STAFF', 'STAGE', 'STAID', 'STAIN',
     'STAIR', 'STAKE', 'STALE', 'STALL', 'STAMP', 'STAND', 'STAND', 'STANK', 'STARE', 'STARK', 
     'START',
-    'STASH', 'STATE', 'STEAD', 'STEAK', 'STEAM', 'STEED', 'STEEL', 'STEEP', 'STEIN', 'STERN', 'STICK',
+    'STASH', 'STATE', 'STEAD', 'STEAK', 'STEAM', 'STEED', 'STEEL', 'STEEP', 'STEIN', 'STERN', 
+    'STICK',
     'STIFF', 'STILL', 'STILT', 'STING', 'STINK', 'STINT', 'STOCK', 'STOIC', 'STOLE', 'STOMP',
     'STONE', 'STONY', 'STOOD', 'STOOL', 'STORE', 'STORK', 'STORM', 'STORY', 'STOUT', 'STOUT', 
     'STOVE',
@@ -258,7 +260,7 @@ my_list = {
     'WROTE', 'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'DIVER'
+word_to_find = 'SHILL'
 
 
 if word_to_find in my_list:
