@@ -1443,7 +1443,8 @@ export const combinedWords = [
     'LEAST', 'LEAVE', 'LEDGE', 'LEECH', 'LEERY', 'LEFTY', 'LEGAL', 'LEGGY', 'LEMON', 'LEMUR',
     'LEPER', 'LEVEL', 'LEVER', 'LIBEL', 'LIEGE', 'LIGHT', 'LILAC', 'LIMBO', 'LIMIT',
     'LINEN', 'LINER', 'LINGO', 'LIPID', 'LITHE', 'LIVER', 'LIVID', 'LLAMA', 'LOAMY', 'LOATH',
-    'LOBBY', 'LOCAL', 'LOCUS', 'LODGE', 'LOFTY', 'LOGIC', 'LOGIN', 'LOOPY', 'LOOSE', 'LORIS',
+    'LOBBY', 'LOCAL', 'LOCUS', 'LODGE', 'LOFTY', 'LOGIC', 'LOGIN', 'LOOPY', 'LOOSE', 'LORDY', 
+    'LORIS',
     'LORRY', 'LOSER', 'LOUSE', 'LOUSY', 'LOVER', 'LOWER', 'LOWLY', 'LOYAL', 'LUCID', 'LUCKY',
     'LUMEN', 'LUMPY', 'LUNAR', 'LUNCH', 'LUNGE', 'LUPUS', 'LURCH', 'LURID', 'LUSTY', 'LYING',
     'LYMPH', 'LYRIC', 'MACAW', 'MACHO', 'MACRO', 'MADAM', 'MADLY', 'MAFIA', 'MAGIC', 'MAGMA',
@@ -1699,8 +1700,8 @@ export const dailyWordsSmall = [
 'LEAST', 'LEAVE', 'LEDGE', 'LEECH', 'LEERY', 'LEFTY', 'LEGGY', 'LEMON', 'LEMUR',
 'LEPER', 'LEVEL', 'LEVER', 'LIBEL', 'LIEGE', 'LIGHT', 'LILAC', 'LIMBO', 'LIMIT',
 'LINER', 'LINGO', 'LIPID', 'LITHE', 'LIVER', 'LIVID', 'LLAMA', 'LOAMY', 
-'LOCAL', 'LOCUS', 'LODGE', 'LOFTY', 'LOGIC', 'LOGIN', 'LOOPY', 'LOOSE', 'LORIS',
-'LORRY', 'LOSER', 'LOUSE', 'LOUSY', 'LOVER', 'LOWER', 'LOWLY', 'LOYAL', 'LUCID', 'LUCKY',
+'LOCAL', 'LOCUS', 'LODGE', 'LOFTY', 'LOGIC', 'LOGIN', 'LOOPY', 'LOOSE', 'LORDY', 'LORIS',
+'LOSER', 'LOUSE', 'LOUSY', 'LOVER', 'LOWER', 'LOWLY', 'LOYAL', 'LUCID', 'LUCKY',
 'LUMEN', 'LUMPY', 'LUNAR', 'LUNCH', 'LUNGE', 'LUPUS', 'LURCH', 'LURID', 'LUSTY', 'LYING',
 'LYMPH', 'LYRIC', 'MACAW', 'MACHO', 'MACRO', 'MADAM', 'MADLY', 'MAGIC', 'MAGMA',
 'MAIZE', 'MAJOR', 'MAKER', 'MAMBO', 'MAMMA', 'MAMMY', 'MANGA', 'MANGE', 'MANGO', 'MANGY',
@@ -2483,7 +2484,7 @@ export const dailyWordsLarge = [
     'LOMAS', 'LOMED', 'LOMES', 'LONER', 'LONGA', 'LONGE', 'LONGS', 'LOOBY', 'LOOED', 'LOOEY',
     'LOOFA', 'LOOFS', 'LOOIE', 'LOOKS', 'LOOKY', 'LOOMS', 'LOONS', 'LOONY', 'LOOPS', 'LOOPY',
     'LOORD', 'LOOSE', 'LOOTS', 'LOPED', 'LOPER', 'LOPES', 'LOPPY', 'LORAL', 'LORAN', 'LORDS',
-    'LORDY', 'LOREL', 'LORES', 'LORIC', 'LORIS', 'LORRY', 'LOSED', 'LOSEL', 'LOSEN', 'LOSER',
+    'LORDY', 'LOREL', 'LORES', 'LORIC', 'LORIS', 'LOSED', 'LOSEL', 'LOSEN', 'LOSER',
     'LOSES', 'LOSSY', 'LOTAH', 'LOTAS', 'LOTES', 'LOTIC', 'LOTOS', 'LOTSA', 'LOTTA', 'LOTTE',
     'LOTTO', 'LOTUS', 'LOUED', 'LOUGH', 'LOUIE', 'LOUIS', 'LOUMA', 'LOUND', 'LOUNS', 'LOUPE',
     'LOUPS', 'LOURE', 'LOURS', 'LOURY', 'LOUSE', 'LOUSY', 'LOUTS', 'LOVAT', 'LOVED', 'LOVER',
@@ -25127,6 +25128,17 @@ export const wordleWords = [
         guess_5: "SHILL",
         guess_6: null,
       }, 
+      { word: "LORRY", 
+        gameDate: "7/22/26",
+        myScore: 3,
+        wordNumber: 1859,
+        guess_1: "LEANT",
+        guess_2: "LYRIC",
+        guess_3: "LORRY",
+        guess_4: null,
+        guess_5: null,
+        guess_6: null,
+      }, 
 
  
   ];
@@ -25144,7 +25156,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("July 21, 2026: Trump sux dykk000000000! SHILL")
+console.log("July 22, 2026: Trump sux dykk000000000! LORRY")
 
 console.log(wordleWords)
 
