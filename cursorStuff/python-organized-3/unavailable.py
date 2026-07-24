@@ -153,7 +153,8 @@ my_list = {
     'NYLON', 'NYMPH',
     'OASIS', 'OCCUR', 'OCEAN', 'OCTET', 'ODDLY', 'OFFAL', 'OFFER', 'OFTEN', 'OLDER', 'OLIVE', 
     'OMEGA',
-    'ONION', 'ONSET', 'OPERA', 'OPINE', 'ORDER', 'ORGAN', 'OTHER', 'OTTER', 'OUGHT', 'OUNCE',
+    'ONION', 'ONSET', 'OPERA', 'OPINE', 'ORBIT' ,'ORDER', 'ORGAN', 'OTHER', 'OTTER', 'OUGHT', 
+    'OUNCE',
     'OUTDO', 'OUTER', 'OVATE', 'OVERT', 'OWNER', 'OXIDE', 'OZONE', 'PAINT', 'PANEL', 'PANIC', 
     'PAPAL',
     'PAPER', 'PARER', 'PARKA', 'PARRY', 'PARTY', 'PASTA', 'PATCH', 'PATIO', 'PATSY', 'PATTY', 
@@ -260,7 +261,7 @@ my_list = {
     'WROTE', 'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'LORRY'
+word_to_find = 'ORBIT'
 
 
 if word_to_find in my_list:
