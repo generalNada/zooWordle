@@ -1324,11 +1324,13 @@ export const combinedWords = [
     'AFOOT', 'AFOUL', 'AFTER', 'AGAIN', 'AGAPE', 'AGATE', 'AGENT', 'AGILE', 'AGING', 'AGLOW',
     'AGONY', 'AGREE', 'AHEAD', 'AIDER', 'AISLE', 'ALARM', 'ALBUM', 'ALERT', 'ALGAE', 'ALIBI',
     'ALIEN', 'ALIGN', 'ALIKE', 'ALIVE', 'ALLAY', 'ALLEY', 'ALLOT', 'ALLOW', 'ALLOY', 'ALOFT',
-    'ALONE', 'ALONG', 'ALOOF', 'ALOUD', 'ALPHA', 'ALTAR', 'ALTER', 'AMASS', 'AMAZE', 'AMBER',
+    'ALOHA', 'ALONE', 'ALONG', 'ALOOF', 'ALOUD', 'ALPHA', 'ALTAR', 'ALTER', 'AMASS', 'AMAZE', 
+    'AMBER',
     'AMBLE', 'AMEND', 'AMISS', 'AMITY', 'AMONG', 'AMPLE', 'AMPLY', 'AMUSE', 'ANGEL', 'ANGER',
     'ANGLE', 'ANGRY', 'ANGST', 'ANIME', 'ANKLE', 'ANNAL', 'ANNEX', 'ANNOY', 'ANNUL', 'ANODE', 
     'ANTIC',
-    'ANVIL', 'AORTA', 'APART', 'APIAN', 'APHID', 'APING', 'APNEA', 'APPLE', 'APPLY', 'APRON', 'APTLY',
+    'ANVIL', 'AORTA', 'APART', 'APIAN', 'APHID', 'APING', 'APNEA', 'APPLE', 'APPLY', 'APRON', 
+    'APTLY',
     'ARBOR', 'ARDOR', 'ARENA', 'ARGUE', 'ARISE', 'ARMOR', 'AROMA', 'AROSE', 'ARRAY', 'ARROW',
     'ARSON', 'ARTSY', 'ASCOT', 'ASHEN', 'ASIDE', 'ASKEW', 'ASSAY', 'ASSET', 'ATLAS', 'ATOLL',
     'ATONE', 'ATRIA', 'ATTIC', 'AUDIO', 'AUDIT', 'AUGUR', 'AUNTY', 'AVAIL', 'AVERT', 
@@ -1864,7 +1866,7 @@ export const dailyWordsLarge = [
     'ALGID', 'ALGIN', 'ALGOL', 'ALIAS', 'ALIEN', 'ALIFS', 'ALIGN', 'ALIKE', 'ALINE',
     'ALIST', 'ALIVE', 'ALIYA', 'ALKIE', 'ALKOS', 'ALKYD', 'ALKYL', 'ALLEE', 'ALLIS',
     'ALLOD', 'ALLOT', 'ALLOW', 'ALLYL', 'ALMAH', 'ALMAS', 'ALMEH', 'ALMES', 'ALMUD',
-    'ALMUG', 'ALODS', 'ALOED', 'ALOES', 'ALOFT', 'ALOHA', 'ALOIN', 'ALONG', 'ALOOS',
+    'ALMUG', 'ALODS', 'ALOED', 'ALOES', 'ALOFT', 'ALOIN', 'ALONG', 'ALOOS',
     'ALOOF', 'ALOSE', 'ALOUD', 'ALOWE',
     'ALPHA', 'ALTAR', 'ALTER', 'ALTHO', 'ALTOS', 'ALULA', 'ALUMS', 'ALURE',
     'ALVAR', 'ALWAY', 'AMAHS', 'AMAIN', 'AMASS', 'AMATE', 'AMAUT', 'AMBAN', 'AMBER',
@@ -25161,6 +25163,17 @@ export const wordleWords = [
         guess_5: null,
         guess_6: null,
       }, 
+      { word: "ALOHA", 
+        gameDate: "7/25/26",
+        myScore: 4,
+        wordNumber: 1862,
+        guess_1: "LEANT",
+        guess_2: "SADLY",
+        guess_3: "AFOUL",
+        guess_4: "ALOHA", 
+        guess_5: null,
+        guess_6: null,
+      }, 
       
 
  
@@ -25179,7 +25192,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("July 24, 2026: Trump sux dykk000000000! PUTTY")
+console.log("July 25, 2026: Trump sux dykk000000000! ALOHA")
 
 console.log(wordleWords)
 
