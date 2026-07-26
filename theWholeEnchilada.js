@@ -1675,7 +1675,7 @@ export const dailyWordsSmall = [
 'GLAZE', 'GLEAM', 'GLEAN', 'GLIDE', 'GLINT', 'GLOAT', 'GLOBE', 'GLOOM', 'GLORY', 
 'GLOVE', 'GLYPH', 'GNASH', 'GNOME', 'GODLY', 'GOFER', 'GOING', 'GOLEM', 'GOLLY', 'GONAD',
 'GONER', 'GOODY', 'GOOEY', 'GOOFY', 'GOOSE', 'GORGE', 'GOUGE', 'GOURD', 'GRACE', 
-'GRAFT', 'GRAIL', 'GRAIN', 'GRAND', 'GRANT', 'GRAPE', 'GRAPH', 'GRASP', 'GRASS', 'GRATE',
+'GRAFT', 'GRAIL', 'GRAIN', 'GRAND', 'GRANT', 'GRAPH', 'GRASP', 'GRASS', 'GRATE',
 'GRAVE', 'GRAVY', 'GRAZE', 'GREAT', 'GREED', 'GREEN', 'GREET', 'GRIEF', 'GRIFT', 'GRILL',
 'GRIME', 'GRIMY', 'GRIND', 'GRIPE', 'GROAN', 'GROIN', 'GROOM', 'GROPE', 'GROSS', 'GROUP',
 'GROUT', 'GROVE', 'GROWL', 'GROWN', 'GRUEL', 'GRUFF', 'GRUNT', 'GUANO', 'GUARD', 
@@ -2299,7 +2299,7 @@ export const dailyWordsLarge = [
     'GOSHT', 'GOSSE', 'GOTCH', 'GOTHS', 'GOTHY', 'GOTTA', 'GOUCH', 'GOUGE', 'GOUKS', 'GOURA',
     'GOURD', 'GOUTS', 'GOUTY', 'GOWAN', 'GOWDS', 'GOWFS', 'GOWKS', 'GOWLS', 'GOWNS', 'GOXES',
     'GOYLE', 'GRAAL', 'GRABS', 'GRACE', 'GRADS', 'GRAFF', 'GRAFT', 'GRAIL', 'GRAIN',
-    'GRAIP', 'GRAMA', 'GRAME', 'GRAMP', 'GRAMS', 'GRANA', 'GRAND', 'GRANS', 'GRANT', 'GRAPE',
+    'GRAIP', 'GRAMA', 'GRAME', 'GRAMP', 'GRAMS', 'GRANA', 'GRAND', 'GRANS', 'GRANT', 
     'GRAPH', 'GRAPY', 'GRASP', 'GRASS', 'GRATE', 'GRAVE', 'GRAVS', 'GRAVY', 'GRAYS', 'GRAZE',
     'GREAT', 'GREBE', 'GREBO', 'GRECE', 'GREED', 'GREEK', 'GREEN', 'GREES', 'GREET', 'GREGE',
     'GREGO', 'GREIN', 'GRENS', 'GRESE', 'GREVE', 'GREWS', 'GREYS', 'GRICE', 'GRIDE', 'GRIDS',
@@ -25174,6 +25174,17 @@ export const wordleWords = [
         guess_5: null,
         guess_6: null,
       }, 
+      { word: "GRAPE", 
+        gameDate: "7/26/26",
+        myScore: 2,
+        wordNumber: 1863,
+        guess_1: "LEANT",
+        guess_2: "GRAPE",
+        guess_3: null,
+        guess_4: null,
+        guess_5: null,
+        guess_6: null,
+      }, 
       
 
  
@@ -25192,7 +25203,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("July 25, 2026: Trump sux dykk000000000! ALOHA")
+console.log("July 26, 2026: Trump sux dykk000000000! GRAPE")
 
 console.log(wordleWords)
 
