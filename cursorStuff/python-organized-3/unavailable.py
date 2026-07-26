@@ -103,7 +103,8 @@ my_list = {
     'GOODY',
     'GOOEY', 'GOOFY', 'GOOSE', 'GORGE', 'GOUGE', 'GRACE', 'GRADE', 'GRADE', 'GRAFT', 'GRAIL', 
     'GRAIN',
-    'GRAND', 'GRANT', 'GRAPH', 'GRASP', 'GRASS', 'GRATE', 'GRAVE', 'GRAVY', 'GREAT', 'GREED',
+    'GRAND', 'GRANT', 'GRAPE', 'GRAPH', 'GRASP', 'GRASS', 'GRATE', 'GRAVE', 'GRAVY', 'GREAT', 
+    'GREED',
     'GREEN', 'GREET', 'GRIEF', 'GRIFT', 'GRIND', 'GRIME', 'GRIMY', 'GRIPE', 'GROIN', 'GROAN',
     'GROOM', 'GROSS', 'GROUP', 'GROUT', 'GROVE', 'GROWL', 'GROWN', 'GRUEL', 'GRUFF', 'GUANO',
     'GUARD', 'GUAVA', 'GUESS', 'GUEST', 'GUIDE', 'GUILD', 'GUILE', 'GUISE', 'GULLY', 'GUMBO',
@@ -260,7 +261,7 @@ my_list = {
     'WROTE', 'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'ALOHA'
+word_to_find = 'GRAPE'
 
 
 if word_to_find in my_list:
