@@ -167,7 +167,8 @@ my_list = {
     'PLATE',
     'PLAZA', 'PLEAD', 'PLEAT', 'PLUCK', 'PLUMB', 'PLUME', 'PLUMP', 'PLUNK', 'POINT', 'POISE', 
     'POKER',
-    'POLKA', 'POLYP', 'POPPY', 'PORCH', 'POSSE', 'POUND', 'POUTY', 'POWER', 'PRANK', 'PREEN',
+    'POLKA', 'POLYP', 'POPPY', 'PORCH', 'POSER', 'POSSE', 'POUND', 'POUTY', 'POWER', 'PRANK', 
+    'PREEN',
     'PRESS', 'PRICE', 'PRICK', 'PRIDE', 'PRIME', 'PRIMO', 'PRIMP', 'PRINT', 'PRIOR', 'PRISM',
     'PRIZE', 'PROBE', 'PRONE', 'PRONG', 'PROOF', 'PROSE', 'PROUD', 'PROVE', 'PROWL', 'PROXY',
     'PRUDE', 'PRUNE', 'PSALM', 'PSHAW', 'PUFFY', 'PULPY', 'PUPIL', 'PUPPY', 'PURGE', 'PUTTY', 
@@ -261,7 +262,7 @@ my_list = {
     'WROTE', 'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'GRAPE'
+word_to_find = 'POSER'
 
 
 if word_to_find in my_list:
