@@ -173,6 +173,7 @@
         <select id="letterSearchMode">
           <option value="single">Single Letter</option>
           <option value="range">Letter Range</option>
+          <option value="multiple">Multiple Letters</option>
         </select>
         <select id="singleLetterDropdown" style="display: block">
           <option value="">Select Letter</option>
@@ -184,6 +185,40 @@
           <select id="letterRangeEnd">
             <option value="">End Letter</option>
           </select>
+        </div>
+        <div id="letterMultipleControls" style="display: none">
+          <label for="multipleLettersInput" class="letter-search-label"
+            >Letters (e.g. L, N, S)</label
+          >
+          <input
+            type="text"
+            id="multipleLettersInput"
+            placeholder="L, N, S or LNS"
+            maxlength="40"
+            autocomplete="off"
+          />
+        </div>
+        <div id="letterDateRangeControls" class="letter-date-range-controls">
+          <label class="letter-search-label"
+            >Date range (optional — leave blank for all words)</label
+          >
+          <div class="letter-date-inputs">
+            <label for="letterSearchDateStart"
+              >From
+              <input type="date" id="letterSearchDateStart" />
+            </label>
+            <label for="letterSearchDateEnd"
+              >To
+              <input type="date" id="letterSearchDateEnd" />
+            </label>
+            <button
+              type="button"
+              id="letterSearchClearDates"
+              class="letter-search-clear-dates"
+            >
+              Clear dates
+            </button>
+          </div>
         </div>
       </div>
       <button

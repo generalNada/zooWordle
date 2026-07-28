@@ -499,6 +499,9 @@ body.dark-theme #positionSearchTitle {
 #singleLetterDropdown,
 #letterRangeStart,
 #letterRangeEnd,
+#multipleLettersInput,
+#letterSearchDateStart,
+#letterSearchDateEnd,
 #containLetterDropdown,
 #containOccurrencesDropdown,
 #dailyWordsListType,
@@ -525,6 +528,9 @@ body.dark-theme #monthDayDropdown,
 body.dark-theme #singleLetterDropdown,
 body.dark-theme #letterRangeStart,
 body.dark-theme #letterRangeEnd,
+body.dark-theme #multipleLettersInput,
+body.dark-theme #letterSearchDateStart,
+body.dark-theme #letterSearchDateEnd,
 body.dark-theme #containLetterDropdown,
 body.dark-theme #containOccurrencesDropdown,
 body.dark-theme #dailyWordsListType,
@@ -548,6 +554,30 @@ body.dark-theme #positionPatternInput {
 #dailyWordsContainsControls,
 #positionSearchControls {
   margin-bottom: 14px;
+}
+
+.letter-search-label {
+  color: #555;
+}
+
+body.dark-theme .letter-search-label {
+  color: #ccc;
+}
+
+.letter-search-clear-dates {
+  font-size: 0.9rem;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: #f5f5f5;
+  color: #333;
+  cursor: pointer;
+}
+
+body.dark-theme .letter-search-clear-dates {
+  background: #404040;
+  color: #e0e0e0;
+  border-color: #555;
 }
 
 #dailyWordsWordleToggleContainer {

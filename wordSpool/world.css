@@ -2350,6 +2350,83 @@ h1:active {
   flex-wrap: wrap;
 }
 
+#letterMultipleControls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  max-width: 360px;
+}
+
+#multipleLettersInput {
+  font-size: 1.3rem;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border: 2px solid rgba(120, 100, 80, 0.6);
+  border-radius: 0.3rem;
+  padding: 8px 12px;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.letter-search-label {
+  font-size: 0.95rem;
+  color: rgba(200, 180, 150, 0.95);
+  text-align: center;
+}
+
+.letter-date-range-controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  max-width: 420px;
+  margin-top: 4px;
+}
+
+.letter-date-inputs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 12px;
+}
+
+.letter-date-inputs label {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 0.9rem;
+  color: rgba(200, 180, 150, 0.95);
+}
+
+#letterSearchDateStart,
+#letterSearchDateEnd {
+  font-size: 1rem;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border: 2px solid rgba(120, 100, 80, 0.6);
+  border-radius: 0.3rem;
+  padding: 8px 12px;
+}
+
+.letter-search-clear-dates {
+  font-size: 0.95rem;
+  padding: 8px 14px;
+  background: rgba(120, 80, 40, 0.55);
+  color: rgba(200, 180, 150, 0.95);
+  border: 2px solid rgba(120, 100, 80, 0.6);
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+
+.letter-search-clear-dates:hover {
+  background: rgba(140, 100, 50, 0.7);
+}
+
 #letterRangeStart,
 #letterRangeEnd {
   font-size: 1.5rem;

@@ -201,6 +201,15 @@ const singleLetterDropdown = document.getElementById("singleLetterDropdown");
 const letterRangeControls = document.getElementById("letterRangeControls");
 const letterRangeStart = document.getElementById("letterRangeStart");
 const letterRangeEnd = document.getElementById("letterRangeEnd");
+const letterMultipleControls = document.getElementById(
+  "letterMultipleControls",
+);
+const multipleLettersInput = document.getElementById("multipleLettersInput");
+const letterSearchDateStart = document.getElementById("letterSearchDateStart");
+const letterSearchDateEnd = document.getElementById("letterSearchDateEnd");
+const letterSearchClearDates = document.getElementById(
+  "letterSearchClearDates",
+);
 const letterSearchResults = document.getElementById("letterSearchResults");
 const letterSearchSortButton = document.getElementById(
   "letterSearchSortButton",
@@ -2342,8 +2351,66 @@ function clearMonthDaySearch() {
 }
 
 // Letter Search Functionality
+function parseLetterSearchGameDate(str) {
+  if (!str) return null;
+  const d = new Date(str);
+  return Number.isNaN(d.getTime()) ? null : d;
+}
+
+function parseLetterSearchInputDate(iso) {
+  if (!iso) return null;
+  const parts = iso.split("-").map(Number);
+  if (parts.length !== 3 || parts.some((n) => Number.isNaN(n))) return null;
+  const [y, m, d] = parts;
+  return new Date(y, m - 1, d);
+}
+
+function startOfLocalDay(d) {
+  return new Date(d.getFullYear(), d.getMonth(), d.getDate());
+}
+
+function entryMatchesLetterSearchDateRange(entry) {
+  const startIso = letterSearchDateStart?.value || "";
+  const endIso = letterSearchDateEnd?.value || "";
+  if (!startIso && !endIso) return true;
+
+  const gd = parseLetterSearchGameDate(entry.gameDate);
+  if (!gd) return false;
+  const g = startOfLocalDay(gd).getTime();
+
+  if (startIso) {
+    const s = startOfLocalDay(parseLetterSearchInputDate(startIso));
+    if (s && g < s.getTime()) return false;
+  }
+  if (endIso) {
+    const e = startOfLocalDay(parseLetterSearchInputDate(endIso));
+    if (e && g > e.getTime()) return false;
+  }
+  return true;
+}
+
+function getLetterSearchDateRangeLabel() {
+  const startIso = letterSearchDateStart?.value || "";
+  const endIso = letterSearchDateEnd?.value || "";
+  if (!startIso && !endIso) return "";
+  if (startIso && endIso) return ` · Dates ${startIso} to ${endIso}`;
+  if (startIso) return ` · From ${startIso}`;
+  return ` · Through ${endIso}`;
+}
+
+function filterWordleWordsByLetterSearchDate(entries) {
+  return entries.filter(entryMatchesLetterSearchDateRange);
+}
+
+function parseMultipleLetters(raw) {
+  if (!raw) return [];
+  const letters = [...raw.toUpperCase()].filter(
+    (ch) => ch >= "A" && ch <= "Z",
+  );
+  return [...new Set(letters)];
+}
+
 function populateLetterDropdowns() {
-  // Populate single letter dropdown
   singleLetterDropdown.innerHTML = '<option value="">Select Letter</option>';
   for (let i = 65; i <= 90; i++) {
     const letter = String.fromCharCode(i);
@@ -2353,7 +2420,6 @@ function populateLetterDropdowns() {
     singleLetterDropdown.appendChild(option);
   }
 
-  // Populate range start and end dropdowns
   letterRangeStart.innerHTML = '<option value="">Start Letter</option>';
   letterRangeEnd.innerHTML = '<option value="">End Letter</option>';
   for (let i = 65; i <= 90; i++) {
@@ -2371,35 +2437,55 @@ function populateLetterDropdowns() {
   }
 }
 
-// Toggle between single letter and range mode
+function rerunActiveLetterSearch() {
+  const mode = letterSearchMode.value;
+  if (mode === "single") {
+    const letter = singleLetterDropdown.value;
+    if (letter) searchWordsByLetter(letter);
+    return;
+  }
+  if (mode === "range") {
+    if (letterRangeStart.value && letterRangeEnd.value) {
+      searchWordsByLetterRange(letterRangeStart.value, letterRangeEnd.value);
+    }
+    return;
+  }
+  if (mode === "multiple") {
+    const letters = parseMultipleLetters(multipleLettersInput.value);
+    if (letters.length > 0) searchWordsByMultipleLetters(letters);
+  }
+}
+
 letterSearchMode.addEventListener("change", (event) => {
   const mode = event.target.value;
-  if (mode === "single") {
-    singleLetterDropdown.style.display = "block";
-    letterRangeControls.style.display = "none";
+  singleLetterDropdown.style.display = mode === "single" ? "block" : "none";
+  letterRangeControls.style.display = mode === "range" ? "flex" : "none";
+  letterMultipleControls.style.display =
+    mode === "multiple" ? "flex" : "none";
+
+  if (mode !== "single") singleLetterDropdown.value = "";
+  if (mode !== "range") {
     letterRangeStart.value = "";
     letterRangeEnd.value = "";
-  } else {
-    singleLetterDropdown.style.display = "none";
-    letterRangeControls.style.display = "flex";
-    singleLetterDropdown.value = "";
   }
+  if (mode !== "multiple") multipleLettersInput.value = "";
+
   letterSearchResults.innerHTML = "";
   closeLetterSearchButton.style.display = "none";
+  letterSearchSortButton.style.display = "none";
 });
 
-// Single letter search
 singleLetterDropdown.addEventListener("change", (event) => {
   const selectedLetter = event.target.value;
   if (!selectedLetter) {
     letterSearchResults.innerHTML = "";
     closeLetterSearchButton.style.display = "none";
+    letterSearchSortButton.style.display = "none";
     return;
   }
   searchWordsByLetter(selectedLetter);
 });
 
-// Letter range search
 letterRangeStart.addEventListener("change", () => {
   if (letterRangeStart.value && letterRangeEnd.value) {
     searchWordsByLetterRange(letterRangeStart.value, letterRangeEnd.value);
@@ -2412,31 +2498,43 @@ letterRangeEnd.addEventListener("change", () => {
   }
 });
 
-function searchWordsByLetter(letter) {
-  // Filter words that start with the selected letter
-  const wordsWithLetter = wordleWords.filter((entry) => {
-    return entry.word.toUpperCase().startsWith(letter);
-  });
+multipleLettersInput.addEventListener("input", () => {
+  const letters = parseMultipleLetters(multipleLettersInput.value);
+  if (letters.length === 0) {
+    letterSearchResults.innerHTML = "";
+    closeLetterSearchButton.style.display = "none";
+    letterSearchSortButton.style.display = "none";
+    return;
+  }
+  searchWordsByMultipleLetters(letters);
+});
 
-  // Store filtered words for sorting
-  currentLetterSearchWords = [...wordsWithLetter];
+letterSearchDateStart.addEventListener("change", rerunActiveLetterSearch);
+letterSearchDateEnd.addEventListener("change", rerunActiveLetterSearch);
+letterSearchClearDates.addEventListener("click", () => {
+  letterSearchDateStart.value = "";
+  letterSearchDateEnd.value = "";
+  rerunActiveLetterSearch();
+});
 
-  // Reset to alphabetical sort mode for new searches (default for letter search)
+function finishLetterSearch(words, searchType, searchValue) {
+  currentLetterSearchWords = [...words];
   letterSearchSortMode = "alphabetical";
-
-  // Clear previous results
   letterSearchResults.innerHTML = "";
 
-  if (wordsWithLetter.length === 0) {
-    letterSearchResults.innerHTML = `<div class="letter-search-summary">No words found starting with "${letter}"</div>`;
+  const dateLabel = getLetterSearchDateRangeLabel();
+
+  if (words.length === 0) {
+    let emptyMsg = `No words found for "${searchValue}"`;
+    if (dateLabel) emptyMsg += dateLabel;
+    letterSearchResults.innerHTML = `<div class="letter-search-summary">${emptyMsg}</div>`;
     closeLetterSearchButton.style.display = "block";
     letterSearchSortButton.style.display = "none";
     currentLetterSearchSummary = null;
     return;
   }
 
-  // Calculate statistics
-  const playedWords = wordsWithLetter.filter((entry) => entry.myScore > 0);
+  const playedWords = words.filter((entry) => entry.myScore > 0);
   const averageScore =
     playedWords.length > 0
       ? (
@@ -2445,80 +2543,54 @@ function searchWordsByLetter(letter) {
         ).toFixed(2)
       : "N/A";
 
-  // Store summary
   currentLetterSearchSummary = {
-    searchType: "letter",
-    searchValue: letter,
-    totalWords: wordsWithLetter.length,
+    searchType,
+    searchValue,
+    dateLabel,
+    totalWords: words.length,
     playedWords: playedWords.length,
-    averageScore: averageScore,
+    averageScore,
   };
 
-  // Show close button and sort button
   closeLetterSearchButton.style.display = "block";
   letterSearchSortButton.style.display = "block";
-
-  // Render words based on current sort mode
+  letterSearchSortButton.textContent = "Sort by Date";
   renderLetterSearchWords();
 }
 
+function searchWordsByLetter(letter) {
+  const wordsWithLetter = filterWordleWordsByLetterSearchDate(
+    wordleWords.filter((entry) =>
+      entry.word.toUpperCase().startsWith(letter),
+    ),
+  );
+  finishLetterSearch(wordsWithLetter, "letter", letter);
+}
+
 function searchWordsByLetterRange(startLetter, endLetter) {
-  // Convert letters to character codes
   const startCode = startLetter.charCodeAt(0);
   const endCode = endLetter.charCodeAt(0);
-
-  // Ensure start is before end
   const actualStart = Math.min(startCode, endCode);
   const actualEnd = Math.max(startCode, endCode);
 
-  // Filter words that start with letters in the range
-  const wordsInRange = wordleWords.filter((entry) => {
-    const firstLetter = entry.word.toUpperCase().charCodeAt(0);
-    return firstLetter >= actualStart && firstLetter <= actualEnd;
-  });
+  const wordsInRange = filterWordleWordsByLetterSearchDate(
+    wordleWords.filter((entry) => {
+      const firstLetter = entry.word.toUpperCase().charCodeAt(0);
+      return firstLetter >= actualStart && firstLetter <= actualEnd;
+    }),
+  );
 
-  // Store filtered words for sorting
-  currentLetterSearchWords = [...wordsInRange];
+  finishLetterSearch(wordsInRange, "range", `${startLetter}-${endLetter}`);
+}
 
-  // Reset to alphabetical sort mode for new searches (default for letter search)
-  letterSearchSortMode = "alphabetical";
-
-  // Clear previous results
-  letterSearchResults.innerHTML = "";
-
-  if (wordsInRange.length === 0) {
-    letterSearchResults.innerHTML = `<div class="letter-search-summary">No words found in range "${startLetter}-${endLetter}"</div>`;
-    closeLetterSearchButton.style.display = "block";
-    letterSearchSortButton.style.display = "none";
-    currentLetterSearchSummary = null;
-    return;
-  }
-
-  // Calculate statistics
-  const playedWords = wordsInRange.filter((entry) => entry.myScore > 0);
-  const averageScore =
-    playedWords.length > 0
-      ? (
-          playedWords.reduce((sum, entry) => sum + entry.myScore, 0) /
-          playedWords.length
-        ).toFixed(2)
-      : "N/A";
-
-  // Store summary
-  currentLetterSearchSummary = {
-    searchType: "range",
-    searchValue: `${startLetter}-${endLetter}`,
-    totalWords: wordsInRange.length,
-    playedWords: playedWords.length,
-    averageScore: averageScore,
-  };
-
-  // Show close button and sort button
-  closeLetterSearchButton.style.display = "block";
-  letterSearchSortButton.style.display = "block";
-
-  // Render words based on current sort mode
-  renderLetterSearchWords();
+function searchWordsByMultipleLetters(letters) {
+  const letterSet = new Set(letters);
+  const words = filterWordleWordsByLetterSearchDate(
+    wordleWords.filter((entry) =>
+      letterSet.has(entry.word.toUpperCase().charAt(0)),
+    ),
+  );
+  finishLetterSearch(words, "multiple", letters.join(", "));
 }
 
 function renderLetterSearchWords() {
@@ -2526,39 +2598,32 @@ function renderLetterSearchWords() {
     return;
   }
 
-  // Clear previous results but keep structure
   letterSearchResults.innerHTML = "";
 
-  // Re-add summary
   const summaryDiv = document.createElement("div");
   summaryDiv.className = "letter-search-summary";
-  if (currentLetterSearchSummary.searchType === "letter") {
-    summaryDiv.innerHTML = `
-      <strong>Letter "${currentLetterSearchSummary.searchValue}":</strong> ${currentLetterSearchSummary.totalWords} total words | 
-      ${currentLetterSearchSummary.playedWords} played | 
-      Average Score: ${currentLetterSearchSummary.averageScore}
-    `;
-  } else {
-    summaryDiv.innerHTML = `
-      <strong>Range "${currentLetterSearchSummary.searchValue}":</strong> ${currentLetterSearchSummary.totalWords} total words | 
-      ${currentLetterSearchSummary.playedWords} played | 
-      Average Score: ${currentLetterSearchSummary.averageScore}
-    `;
+  const dateExtra = currentLetterSearchSummary.dateLabel || "";
+  let labelPrefix = "Letter";
+  if (currentLetterSearchSummary.searchType === "range") {
+    labelPrefix = "Range";
+  } else if (currentLetterSearchSummary.searchType === "multiple") {
+    labelPrefix = "Letters";
   }
+  summaryDiv.innerHTML = `
+      <strong>${labelPrefix} "${currentLetterSearchSummary.searchValue}"${dateExtra}:</strong> ${currentLetterSearchSummary.totalWords} total words | 
+      ${currentLetterSearchSummary.playedWords} played | 
+      Average Score: ${currentLetterSearchSummary.averageScore}
+    `;
   letterSearchResults.appendChild(summaryDiv);
 
-  // Create a copy for sorting
   const sortedWords = [...currentLetterSearchWords];
 
-  // Sort based on current mode
   if (letterSearchSortMode === "date") {
     sortedWords.sort((a, b) => new Date(b.gameDate) - new Date(a.gameDate));
   } else {
-    // Sort alphabetically by word - default
     sortedWords.sort((a, b) => a.word.localeCompare(b.word));
   }
 
-  // Create word buttons
   sortedWords.forEach((entry) => {
     const wordButton = document.createElement("button");
     wordButton.className = "letter-word-button";
@@ -2569,11 +2634,10 @@ function renderLetterSearchWords() {
     const averageScore = calculateAverageScoreUpToWord(entry);
     const daysSinceLast = calculateDaysSinceLastSameFirstLetter(entry);
     const firstLetter = entry.word.toUpperCase().charAt(0);
-    let displayState = 0; // 0: normal, 1: scrabble+average, 2: details shown
+    let displayState = 0;
 
     const updateButtonContent = () => {
       if (displayState === 1) {
-        // Scrabble + Average Score view
         wordButton.innerHTML = `
           <div class="word-text">${entry.word}</div>
           <div class="word-date">Value In Scrabble Points : '${scrabblePoints}'</div>
@@ -2583,7 +2647,6 @@ function renderLetterSearchWords() {
           }${daysSinceLast.word ? ` (${daysSinceLast.word})` : ""}</div>
         `;
       } else {
-        // Normal view
         wordButton.innerHTML = `
           <div class="word-text">${entry.word}</div>
           <div class="word-date">Word#: ${entry.wordNumber}</div>
@@ -2596,22 +2659,18 @@ function renderLetterSearchWords() {
     updateButtonContent();
 
     wordButton.addEventListener("click", () => {
-      // Check if details are currently shown for this entry
       const detailsShown =
         wordDetailsContainer.style.display === "block" &&
         currentlyShownWordNumber === entry.wordNumber;
 
       if (displayState === 0) {
-        // First click: Show scrabble + average
         displayState = 1;
         updateButtonContent();
-        hideWordDetails(); // Hide details if shown
+        hideWordDetails();
       } else if (displayState === 1) {
-        // Second click: Show word details
         displayState = 2;
         showWordDetailsFromSearch(entry);
       } else if (displayState === 2 || detailsShown) {
-        // Return to normal immediately if details are shown
         displayState = 0;
         updateButtonContent();
         hideWordDetails();
@@ -2627,8 +2686,12 @@ function clearLetterSearch() {
   singleLetterDropdown.value = "";
   letterRangeStart.value = "";
   letterRangeEnd.value = "";
+  multipleLettersInput.value = "";
+  letterSearchDateStart.value = "";
+  letterSearchDateEnd.value = "";
   singleLetterDropdown.style.display = "block";
   letterRangeControls.style.display = "none";
+  letterMultipleControls.style.display = "none";
   letterSearchResults.innerHTML = "";
   closeLetterSearchButton.style.display = "none";
   letterSearchSortButton.style.display = "none";
