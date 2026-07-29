@@ -163,7 +163,153 @@ const flicksShows = [
       "https://www.dropbox.com/scl/fi/j0ukpszn5moj1zjc96uqh/WILL_FERRELL_SNL1.mp4?rlkey=54u8fbekrep0osupvhlp003x7&raw=1",
     downloadUrl:
       "https://www.dropbox.com/scl/fi/j0ukpszn5moj1zjc96uqh/WILL_FERRELL_SNL1.mp4?rlkey=54u8fbekrep0osupvhlp003x7&dl=1",
+  },
+  {
+    ref: 1415,
+    title:
+      "Strangers with Candy - Retardation: A Celebration - The Unaired Pilot",
+    year: 2000,
+    genre: "Shows",
+    collection: "Strangers with Candy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/x9otijiwq1wacy38r6uhw/StrangersWithCandyUnairedPilot-YouTube.mp4?rlkey=ifv81p95r8umdnz876gy59h59&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/x9otijiwq1wacy38r6uhw/StrangersWithCandyUnairedPilot-YouTube.mp4?rlkey=ifv81p95r8umdnz876gy59h59&dl=1",
+  },
+  {
+    ref: 1416,
+    title: "Strangers with Candy - S1E1 - Old Habits/New Beginnings",
+    year: 2000,
+    genre: "Shows",
+    collection: "Strangers with Candy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/c7m6fv522ykamo0jmlqh4/StrangersWithCandyS1E1.mp4?rlkey=2upsh3posrang8wdfg4jsw14v&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/c7m6fv522ykamo0jmlqh4/StrangersWithCandyS1E1.mp4?rlkey=2upsh3posrang8wdfg4jsw14v&dl=1",
+  },
+  {
+    ref: 1417,
+    title: "Strangers with Candy - S1E2 - A Burden's Burden",
+    year: 2000,
+    genre: "Shows",
+    collection: "Strangers with Candy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/u7z566i6wfcy6clxzw7jj/StrangersWithCandyS1E2.mp4?rlkey=btox4q1jyjt7b1jlikc54m9a4&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/u7z566i6wfcy6clxzw7jj/StrangersWithCandyS1E2.mp4?rlkey=btox4q1jyjt7b1jlikc54m9a4&dl=1",
+  },
+  {
+    ref: 1418,
+    title: "Strangers with Candy - S1E3 - Dreams on the Rocks",
+    year: 2000,
+    genre: "Shows",
+    collection: "Strangers with Candy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/0qd5b110s9fakzzpqhlqz/StrangersWithCandyS1E3.mp4?rlkey=rjnq2c004r2px40lvmz21ody6&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/0qd5b110s9fakzzpqhlqz/StrangersWithCandyS1E3.mp4?rlkey=rjnq2c004r2px40lvmz21ody6&dl=1",
+  },
+  {
+    ref: 1419,
+    title: "Strangers with Candy - S1E4 - Who Wants Cake?",
+    year: 2000,
+    genre: "Shows",
+    collection: "Strangers with Candy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/b1mc2kfhpcc747jkg28zk/StrangersWithCandyS1E4.mp4?rlkey=pt30rb2qidd9nrzryxy3dld9k&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/b1mc2kfhpcc747jkg28zk/StrangersWithCandyS1E4.mp4?rlkey=pt30rb2qidd9nrzryxy3dld9k&dl=1",
+  },
+  {
+    ref: 1420,
+    title: "Strangers with Candy - S1E5 - Bogie Nights",
+    year: 2000,
+    genre: "Shows",
+    collection: "Strangers with Candy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/znt7qf33hybfwnr35aa46/StrangersWithCandyS1E5.mp4?rlkey=kt3emyhwlom6m6c8lqkon96n6&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/znt7qf33hybfwnr35aa46/StrangersWithCandyS1E5.mp4?rlkey=kt3emyhwlom6m6c8lqkon96n6&dl=1",
+  },
+  {
+    ref: 1421,
+    title: "Strangers with Candy - S1E6 - Let Freedom Ring",
+    year: 2000,
+    genre: "Shows",
+    collection: "Strangers with Candy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/jbh7xrbyrczcxk8o3auwh/StrangersWithCandyS1E6.mp4?rlkey=x021zl0i3pi8z40o0yjwlhdl8&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/jbh7xrbyrczcxk8o3auwh/StrangersWithCandyS1E6.mp4?rlkey=x021zl0i3pi8z40o0yjwlhdl8&dl=1",
+  },
+  {
+    ref: 1422,
+    title: "Strangers with Candy - S1E7 - Feather in the Storm",
+    year: 2000,
+    genre: "Shows",
+    collection: "Strangers with Candy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/il5qx3zj0qasmh5z156f7/StrangersWithCandyS1E7.mp4?rlkey=d6z8kh26fg806vsvfyll0rn38&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/il5qx3zj0qasmh5z156f7/StrangersWithCandyS1E7.mp4?rlkey=d6z8kh26fg806vsvfyll0rn38&dl=1",
+  },
+  {
+    ref: 1423,
+    title: "Strangers with Candy - S1E8 - To Be Young, Gifted and Blank",
+    year: 2000,
+    genre: "Shows",
+    collection: "Strangers with Candy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/1tzk64m7ew2uo3b3al51e/StrangersWithCandyS1E8.mp4?rlkey=ci4za38kbd3rr49kjasqkr2pt&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/1tzk64m7ew2uo3b3al51e/StrangersWithCandyS1E8.mp4?rlkey=ci4za38kbd3rr49kjasqkr2pt&dl=1",
+  },
+  {
+    ref: 1424,
+    title: "Strangers with Candy - S1E9 - Jerri is Only Skin Deep",
+    year: 2000,
+    genre: "Shows",
+    collection: "Strangers with Candy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/a7a28gcdj0w766fq1c31r/StrangersWithCandyS1E9.mp4?rlkey=ntfkgeai7k4lmbfufyhjpq62i&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/a7a28gcdj0w766fq1c31r/StrangersWithCandyS1E9.mp4?rlkey=ntfkgeai7k4lmbfufyhjpq62i&dl=1",
+  },
+  {
+    ref: 1425,
+    title: "Strangers with Candy - S1E1 - The Trip Back",
+    year: 2000,
+    genre: "Shows",
+    collection: "Strangers with Candy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/u18bj9aanto8t02ta4995/StrangersWithCandyS1E10.mp4?rlkey=0w9n6hxifbewu78e6gqbgnfih&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/u18bj9aanto8t02ta4995/StrangersWithCandyS1E10.mp4?rlkey=0w9n6hxifbewu78e6gqbgnfih&dl=1",
+  },
+  {
+    ref: 1426,
+    title: "Strangers with Candy - S2E1 - ",
+    year: 2000,
+    genre: "Shows",
+    collection: "Strangers with Candy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/vaxekettn4awlfdbxqt7f/StrangersWithCandyS2E1.mp4?rlkey=gw4dsyct20v9mpfkzm1swzv66&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/vaxekettn4awlfdbxqt7f/StrangersWithCandyS2E1.mp4?rlkey=gw4dsyct20v9mpfkzm1swzv66&dl=1",
+  },
+  {
+    ref: 1427,
+    title: "Strangers with Candy - S2E2 - ",
+    year: 2000,
+    genre: "Shows",
+    collection: "Strangers with Candy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/01qvhudk6fw75g4kk7u55/StrangersWithCandyS2E2.mp4?rlkey=52rpiapk5baxrw9apugtbn9xr&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/01qvhudk6fw75g4kk7u55/StrangersWithCandyS2E2.mp4?rlkey=52rpiapk5baxrw9apugtbn9xr&dl=1",
   }
+
+  
 ];
 
 module.exports = flicksShows;
