@@ -143,7 +143,7 @@ const flicksShows = [
       "https://www.dropbox.com/scl/fi/hxx6a944c7kznwb2eua9h/TRUE_DETECTIVE_S1_7-8.mp4?rlkey=iqjt8l4jnzk2q1rock3gaafqw&dl=1",
   },
   {
-    ref: 1414,
+    ref: 1413,
     title: "Will Ferrell SNL 2",
     year: 2002,
     genre: "Shows",
@@ -154,7 +154,7 @@ const flicksShows = [
       "https://www.dropbox.com/scl/fi/flu4jl9vgigeg1y6hchz5/WILL_FERRELL_SNL2.mp4?rlkey=zmjxy0wxyqk9b4kx2yvdze6y8&dl=1",
   },
   {
-    ref: 1413,
+    ref: 1414,
     title: "Will Ferrell SNL 1",
     year: 2002,
     genre: "Shows",
@@ -277,7 +277,7 @@ const flicksShows = [
   },
   {
     ref: 1425,
-    title: "Strangers with Candy - S1E1 - The Trip Back",
+    title: "Strangers with Candy - S1E10 - The Trip Back",
     year: 2000,
     genre: "Shows",
     collection: "Strangers with Candy",
@@ -288,7 +288,7 @@ const flicksShows = [
   },
   {
     ref: 1426,
-    title: "Strangers with Candy - S2E1 - ",
+    title: "Strangers with Candy - S2E1 - The Virgin Jerri",
     year: 2000,
     genre: "Shows",
     collection: "Strangers with Candy",
@@ -299,7 +299,7 @@ const flicksShows = [
   },
   {
     ref: 1427,
-    title: "Strangers with Candy - S2E2 - ",
+    title: "Strangers with Candy - S2E2 - Behind Blank Eyes",
     year: 2000,
     genre: "Shows",
     collection: "Strangers with Candy",
@@ -307,9 +307,95 @@ const flicksShows = [
       "https://www.dropbox.com/scl/fi/01qvhudk6fw75g4kk7u55/StrangersWithCandyS2E2.mp4?rlkey=52rpiapk5baxrw9apugtbn9xr&raw=1",
     downloadUrl:
       "https://www.dropbox.com/scl/fi/01qvhudk6fw75g4kk7u55/StrangersWithCandyS2E2.mp4?rlkey=52rpiapk5baxrw9apugtbn9xr&dl=1",
-  }
-
-  
+  },
+  {
+    ref: 1428,
+    title: "Strangers with Candy - S2E3 - Yes You Can't",
+    year: 2000,
+    genre: "Shows",
+    collection: "Strangers with Candy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/n8cb6nyxbtuay8ztz8a40/StrangersWithCandyS2E3.mp4?rlkey=rw1nhoe9wynwmt8pv6ks7o53m&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/n8cb6nyxbtuay8ztz8a40/StrangersWithCandyS2E3.mp4?rlkey=rw1nhoe9wynwmt8pv6ks7o53m&dl=1",
+  },
+  {
+    ref: 1429,
+    title: "Strangers with Candy - S2E4 - The Goodbye Guy",
+    year: 2000,
+    genre: "Shows",
+    collection: "Strangers with Candy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/rnquz8w4n4tq78bpmirjc/StrangersWithCandyS2E4.mp4?rlkey=b5oyh90i6t5au7ir1v5guc9z8&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/rnquz8w4n4tq78bpmirjc/StrangersWithCandyS2E4.mp4?rlkey=b5oyh90i6t5au7ir1v5guc9z8&dl=1",
+  },
+  {
+    ref: 1430,
+    title: "Strangers with Candy - S2E5 - The Blank Page",
+    year: 2000,
+    genre: "Shows",
+    collection: "Strangers with Candy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/azhjtupouki8bacri9mlj/StrangersWithCandyS2E5.mp4?rlkey=ti0o2tavqhdvmclbwmfos7uq4&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/azhjtupouki8bacri9mlj/StrangersWithCandyS2E5.mp4?rlkey=ti0o2tavqhdvmclbwmfos7uq4&dl=1",
+  },
+  {
+    ref: 1431,
+    title: "Strangers with Candy - S2E6 - Hit and Run",
+    year: 2000,
+    genre: "Shows",
+    collection: "Strangers with Candy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/1ckzeust5qimstql83146/StrangersWithCandyS2E6.mp4?rlkey=95ejk1xvt0pb192456kpbjbqo&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/1ckzeust5qimstql83146/StrangersWithCandyS2E6.mp4?rlkey=95ejk1xvt0pb192456kpbjbqo&dl=1",
+  },
+  {
+    ref: 1432,
+    title: "Strangers with Candy - S2E7 - To Love, Honor and Pretend",
+    year: 2000,
+    genre: "Shows",
+    collection: "Strangers with Candy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/uqw3w8rirzen62bs7nkse/StrangersWithCandyS2E7.mp4?rlkey=mvyquzos9yqobt2e7qgsiglle&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/uqw3w8rirzen62bs7nkse/StrangersWithCandyS2E7.mp4?rlkey=mvyquzos9yqobt2e7qgsiglle&dl=1",
+  },
+  {
+    ref: 1433,
+    title: "Strangers with Candy - S2E8 - The Blank Stare (1)",
+    year: 2000,
+    genre: "Shows",
+    collection: "Strangers with Candy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/ypncl02xh6zfxlagswbs5/StrangersWithCandyS2E8.mp4?rlkey=8ujuqde5j7ue60ki3ny2pnuuq&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/ypncl02xh6zfxlagswbs5/StrangersWithCandyS2E8.mp4?rlkey=8ujuqde5j7ue60ki3ny2pnuuq&dl=1",
+  },
+  {
+    ref: 1434,
+    title: "Strangers with Candy - S2E9 - The Blank Stare (2)",
+    year: 2000,
+    genre: "Shows",
+    collection: "Strangers with Candy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/lduubj884l5yf43hgbg1i/StrangersWithCandyS2E9.mp4?rlkey=77k767cr109gdayozuouh6hj1&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/lduubj884l5yf43hgbg1i/StrangersWithCandyS2E9.mp4?rlkey=77k767cr109gdayozuouh6hj1&dl=1",
+  },
+  {
+    ref: 1435,
+    title: "Strangers with Candy - S2E10 - A Price Too High for Riches",
+    year: 2000,
+    genre: "Shows",
+    collection: "Strangers with Candy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/3s31dys50m34jxdka2k0b/StrangersWithCandyS2E10.mp4?rlkey=2rlt0nj6px7qlu1n2ce9jkv3c&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/3s31dys50m34jxdka2k0b/StrangersWithCandyS2E10.mp4?rlkey=2rlt0nj6px7qlu1n2ce9jkv3c&dl=1",
+  },
 ];
 
 module.exports = flicksShows;
