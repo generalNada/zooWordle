@@ -60,14 +60,14 @@ unused_list = [
     "THETA", "THONG", "TIGHT", "TIMID", "TONAL", "TONER", "TONGA",
     "TORUS", "TRAMP", "TREAD", "TRIBE", "TRIED", "TRUCE", "TRUER", "TRUMP", "TRUNK", "TUBAL",
     "TULLE", "TUMOR", "TWIXT", "TYING", "UNCUT", "UNSET", "UNWED",
-    "URINE", "UTILE", "VALOR", "VALVE", "VAPOR", "VAUNT", "VERSE", "VERSO", "VICAR", "VIGIL",
+    "URINE", "UTILE", "VALOR", "VAPOR", "VAUNT", "VERSE", "VERSO", "VICAR", "VIGIL",
     "VIPER", "VIRUS", "VISTA", "VOMIT", "WAGER", "WAIVE", "WARTY",
     "WELCH", "WELSH", "WIDER", "WIDOW", "WIGHT", "WILLY", "WIMPY",
     "WINCH", "WISPY", "WOODY", "WOOLY", "WOOZY", "WORTH", "WRACK",
     "WREST", "WRING", "WRYLY", "ZONAL"
 ]
 
-word = 'SONAR'
+word = 'VALVE'
 
 
 if word in unused_list:
