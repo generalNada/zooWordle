@@ -1353,7 +1353,8 @@ export const combinedWords = [
     'BROOM', 'BROTH', 'BROWN', 'BRUNT', 'BRUSH', 'BRUTE', 'BUDDY', 'BUDGE', 'BUGGY', 'BUGLE',
     'BUILD', 'BUILT', 'BULGE', 'BULKY', 'BULLY', 'BUNCH', 'BUNNY', 'BURLY', 'BURNT', 'BURST',
     'BUSED', 'BUSHY', 'BUTCH', 'BUTTE', 'BUXOM', 'BUYER', 'BYLAW', 'CABAL', 'CABBY', 'CABIN',
-    'CABLE', 'CACAO', 'CACHE', 'CACTI', 'CADDY', 'CADET', 'CAGEY', 'CAIRN', 'CAMEL', 'CAMEO',
+    'CABLE', 'CACAO', 'CACHE', 'CACTI', 'CADDY', 'CADET', 'CAGEY', 'CAIRN', 'CALVE', 'CAMEL', 
+    'CAMEO',
     'CANAL', 'CANDY', 'CANNY', 'CANOE', 'CANON', 'CAPER', 'CAPUT', 'CARAT', 'CARGO', 'CAROL',
     'CAROM', 'CARRY', 'CARVE', 'CASTE', 'CATCH', 'CATER', 'CATTY', 'CAULK', 'CAUSE', 'CAVIL', 
     'CEASE',
@@ -1617,7 +1618,8 @@ export const dailyWordsSmall = [
 'BROOM', 'BROTH', 'BROWN', 'BRUNT', 'BRUSH', 'BRUTE', 'BUDDY', 'BUGGY', 'BUGLE',
 'BUILD', 'BUILT', 'BULGE', 'BULKY', 'BULLY', 'BUNCH', 'BUNNY', 'BURLY', 'BURNT', 'BURST',
 'BUSED', 'BUSHY', 'BUTCH', 'BUXOM', 'CABAL', 'CABBY', 'CABIN',
-'CABLE', 'CACAO', 'CACHE', 'CACTI', 'CADDY', 'CADET', 'CAGEY', 'CAIRN', 'CAMEL', 'CAMEO',
+'CABLE', 'CACAO', 'CACHE', 'CACTI', 'CADDY', 'CADET', 'CAGEY', 'CAIRN', 'CALVE', 'CAMEL', 
+'CAMEO',
 'CANDY', 'CANNY', 'CANOE', 'CANON', 'CAPER', 'CAPUT', 'CARAT', 'CARGO', 'CAROL',
 'CARRY', 'CARVE', 'CASTE', 'CATCH', 'CATER', 'CATTY', 'CAULK', 'CAUSE', 'CAVIL', 'CEASE',
 'CEDAR', 'CHAFE', 'CHAFF', 'CHAIN', 'CHAIR', 'CHALK', 'CHAMP', 'CHANT', 'CHAOS',
@@ -1815,7 +1817,7 @@ export const dailyWordsSmall = [
 'UNDER', 'UNDID', 'UNDUE', 'UNFED', 'UNFIT', 'UNIFY', 'UNION', 'UNITE', 'UNLIT',
 'UNMET', 'UNSET', 'UNTIE', 'UNTIL', 'UNWED', 'UNZIP', 'UPPER', 'UPSET', 'URBAN', 'URINE',
 'USAGE', 'USHER', 'USING', 'USUAL', 'USURP', 'UTILE', 'UTTER', 'UVULA', 'VAGUE', 'VALET',
-'VALID', 'VALOR', 'VALUE', 'VALVE', 'VAPID', 'VAPOR', 'VAULT', 'VAUNT', 'VENOM',
+'VALID', 'VALOR', 'VALUE', 'VAPID', 'VAPOR', 'VAULT', 'VAUNT', 'VENOM',
 'VENUE', 'VERGE', 'VERSE', 'VERSO', 'VERVE', 'VICAR', 'VIDEO', 'VIGIL', 'VIGOR', 'VILLA',
 'VINYL', 'VIOLA', 'VIPER', 'VIRAL', 'VIRUS', 'VISOR', 'VISTA', 'VITAL', 'VITRO', 
 'VIVID',
@@ -3049,7 +3051,7 @@ export const dailyWordsLarge = [
     'URSON', 'URUBU', 'URVAS', 'USAGE', 'USERS', 'USHER', 'USING', 'USNEA', 'USQUE', 'USUAL',
     'USURE', 'USURP', 'USURY', 'UTERI', 'UTILE', 'UTTER', 'UVEAL', 'UVEAS', 'UVULA', 'VACUA',
     'VADED', 'VADES', 'VAGAL', 'VAGUE', 'VAGUS', 'VAILS', 'VAIRE', 'VAIRS', 'VAIRY', 'VAKAS',
-    'VAKIL', 'VALES', 'VALET', 'VALID', 'VALIS', 'VALOR', 'VALSE', 'VALUE', 'VALVE', 'VAMPS',
+    'VAKIL', 'VALES', 'VALET', 'VALID', 'VALIS', 'VALOR', 'VALSE', 'VALUE',  'VAMPS',
     'VAMPY', 'VANDA', 'VANED', 'VANES', 'VANGS', 'VANTS', 'VAPED', 'VAPER', 'VAPES', 'VAPID',
     'VAPOR', 'VARAN', 'VARAS', 'VARDY', 'VAREC', 'VARES', 'VARIA', 'VARIX', 'VARNA', 'VARUS',
     'VARVE', 'VASAL', 'VASES', 'VASTS', 'VASTY', 'VATIC', 'VATUS', 'VAUCH', 'VAULT', 'VAUNT',
@@ -25207,6 +25209,17 @@ export const wordleWords = [
         guess_5: null,
         guess_6: null,
       }, 
+      { word: "VALVE", 
+        gameDate: "7/29/26",
+        myScore: 4,
+        wordNumber: 1866,
+        guess_1: "LEANT",
+        guess_2: "SALVE",
+        guess_3: "HALVE",
+        guess_4: "VALVE",
+        guess_5: null,
+        guess_6: null,
+      }, 
       
 
  
@@ -25225,7 +25238,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("July 28, 2026: Trump sux dykk000000000! SONAR")
+console.log("July 29, 2026: Trump sux dykk000000000! VALVE")
 
 console.log(wordleWords)
 
