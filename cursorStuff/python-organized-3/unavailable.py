@@ -246,7 +246,8 @@ my_list = {
     'UNIFY', 'UNION', 'UNITE', 'UNITY', 'UNLIT', 'UNMET', 'UNTIE', 'UNTIL', 'UNZIP', 'UPPER', 
     'UPSET',
     'URBAN', 'USAGE', 'USHER', 'USING', 'USUAL', 'USURP', 'UTTER', 'UVULA', 'VAGUE', 'VALET',
-    'VALID', 'VAPID', 'VENOM', 'VALUE', 'VAULT', 'VEGAN', 'VENUE', 'VERGE', 'VERVE', 'VIDEO',
+    'VALID', 'VALUE', 'VALVE', 'VAPID', 'VAULT', 'VEGAN', 'VENOM', 'VENUE', 'VERGE', 'VERVE', 
+    'VIDEO',
     'VIGOR', 'VILLA', 'VINYL', 'VIOLA', 'VIRAL', 'VISIT', 'VISOR', 'VITAL', 'VIVID', 'VIXEN', 
     'VOCAL', 'VODKA',
     'VOGUE', 'VOILA', 'VOICE', 'VOTER', 'VOUCH', 'VOWEL', 'VYING', 'WACKY', 'WAFER', 'WAGON', 
@@ -262,7 +263,7 @@ my_list = {
     'WROTE', 'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'SONAR'
+word_to_find = 'VALVE'
 
 
 if word_to_find in my_list:
