@@ -91,7 +91,7 @@ my_list = {
     'FJORD',
     'FLAIL', 'FLAIR', 'FLAKE', 'FLAKY', 'FLANK', 'FLAME', 'FLARE', 'FLASH', 'FLASK', 'FLESH',
     'FLICK', 'FLING', 'FLINT', 'FLIRT', 'FLOAT', 'FLOCK', 'FLOOD', 'FLOOR', 'FLORA', 'FLOSS',
-    'FLOUR', 'FLOUT', 'FLOWN', 'FLUFF', 'FLUKE', 'FLUME', 'FLUNG', 'FLUNK', 'FLUTE', 'FLYER',
+    'FLOUR', 'FLOUT', 'FLOWN', 'FLUFF', 'FLUKE', 'FLUME', 'FLUME', 'FLUNG', 'FLUNK', 'FLUTE', 'FLYER',
     'FOAMY', 'FOCAL', 'FOCUS', 'FOGGY', 'FOIST', 'FOLIO', 'FOLLY', 'FORAY', 'FORCE', 'FORGE',
     'FORGO', 'FORTE', 'FORTH', 'FORTY', 'FORUM', 'FOUND', 'FOYER', 'FRAIL', 'FRAME', 'FRANK',
     'FREAK', 'FRESH', 'FRIED', 'FRILL', 'FRITZ', 'FROCK', 'FROND', 'FRONT', 'FROST', 'FROTH',
@@ -263,7 +263,7 @@ my_list = {
     'WROTE', 'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'VALVE'
+word_to_find = 'FLUME'
 
 
 if word_to_find in my_list:
