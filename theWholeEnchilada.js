@@ -1665,7 +1665,7 @@ export const dailyWordsSmall = [
 'FJORD', 'FLACK', 'FLAIL', 'FLAIR', 'FLAKE', 'FLAKY', 'FLAME', 'FLANK', 'FLARE', 'FLASH',
 'FLASK', 'FLECK', 'FLEET', 'FLESH', 'FLICK', 'FLIER', 'FLING', 'FLINT', 'FLIRT', 'FLOAT',
 'FLOCK', 'FLOOD', 'FLOOR', 'FLORA', 'FLOSS', 'FLOUR', 'FLOUT', 'FLOWN', 'FLUFF', 'FLUID',
-'FLUME', 'FLUNG', 'FLUNK', 'FLUSH', 'FLUTE', 'FLYER', 'FOAMY', 'FOCAL', 'FOCUS',
+'FLUNG', 'FLUNK', 'FLUSH', 'FLUTE', 'FLYER', 'FOAMY', 'FOCAL', 'FOCUS',
 'FOGGY', 'FOIST', 'FOLIO', 'FOLLY', 'FORAY', 'FORCE', 'FORGE', 'FORGO', 'FORTE', 'FORTH',
 'FORTY', 'FORUM', 'FOUND', 'FOYER', 'FRAIL', 'FRAME', 'FRANK', 'FRAUD', 'FREAK', 'FREED',
 'FREER', 'FRESH', 'FRIAR', 'FRIED', 'FRILL', 'FRISK', 'FRITZ', 'FROCK', 'FROND', 'FRONT',
@@ -2232,7 +2232,7 @@ export const dailyWordsLarge = [
     'FLISK', 'FLITE', 'FLITS', 'FLITT', 'FLOAT', 'FLOBS', 'FLOCK', 'FLOCS', 'FLOES', 'FLOGS',
     'FLONG', 'FLOOD', 'FLOOR', 'FLOPS', 'FLORA', 'FLORS', 'FLORY', 'FLOSH', 'FLOSS', 'FLOTA',
     'FLOTE', 'FLOUR', 'FLOUT', 'FLOWN', 'FLOWS', 'FLUBS', 'FLUED', 'FLUES', 'FLUEY', 'FLUFF',
-    'FLUID', 'FLUKY', 'FLUME', 'FLUMP', 'FLUNG', 'FLUNK', 'FLUOR', 'FLURR', 'FLUSH',
+    'FLUID', 'FLUKY', 'FLUMP', 'FLUNG', 'FLUNK', 'FLUOR', 'FLURR', 'FLUSH',
     'FLUTE', 'FLUTY', 'FLUYT', 'FLYBY', 'FLYER', 'FLYPE', 'FLYTE', 'FOALS', 'FOAMS', 'FOAMY',
     'FOCAL', 'FOCUS', 'FOEHN', 'FOGEY', 'FOGGY', 'FOGIE', 'FOGLE', 'FOGOU', 'FOHNS', 'FOIDS',
     'FOILS', 'FOINS', 'FOIST', 'FOLDS', 'FOLEY', 'FOLIA', 'FOLIC', 'FOLIE', 'FOLIO', 'FOLKS',
@@ -25220,6 +25220,17 @@ export const wordleWords = [
         guess_5: null,
         guess_6: null,
       }, 
+      { word: "FLUME", 
+        gameDate: "7/29/26",
+        myScore: 4,
+        wordNumber: 1866,
+        guess_1: "RINSE",
+        guess_2: "CALVE",
+        guess_3: "BOULE",
+        guess_4: "FLUME",
+        guess_5: null,
+        guess_6: null,
+      }, 
       
 
  
@@ -25238,7 +25249,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("July 29, 2026: Trump sux dykk000000000! VALVE")
+console.log("July 30, 2026: Trump sux dykk000000000! FLUME")
 
 console.log(wordleWords)
 
