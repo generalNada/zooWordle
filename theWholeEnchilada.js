@@ -1742,7 +1742,7 @@ export const dailyWordsSmall = [
 'PRIMO', 'PRIMP', 'PRINT', 'PRIOR', 'PRISM', 'PRIVY', 'PRIZE', 'PROBE', 'PRONE', 'PRONG',
 'PROOF', 'PROSE', 'PROUD', 'PROVE', 'PROWL', 'PROXY', 'PRUNE', 'PSALM', 'PUBIC',
 'PUDGY', 'PULPY', 'PULSE', 'PUNCH', 'PUPIL', 'PUREE', 'PURER', 'PURGE',
-'PURSE', 'PUSHY', 'PYGMY', 'PYLON', 'QUAIL', 'QUAKE', 'QUALM', 'QUARK', 
+'PUSHY', 'PYGMY', 'PYLON', 'QUAIL', 'QUAKE', 'QUALM', 'QUARK', 
 'QUART',
 'QUASH', 'QUASI', 'QUEEN', 'QUERY', 'QUEST', 'QUEUE', 'QUICK', 'QUIET',
 'QUILL', 'QUILT', 'QUIRK', 'QUITE', 'QUOTA', 'QUOTE', 'QUOTH', 'RABBI', 'RABID', 'RACER',
@@ -2715,7 +2715,7 @@ export const dailyWordsLarge = [
     'PULPS', 'PULPY', 'PULSE', 'PULUS', 'PUMAS', 'PUMIE', 'PUMPS', 'PUNAS', 'PUNCE', 'PUNCH',
     'PUNGA', 'PUNGS', 'PUNJI', 'PUNKA', 'PUNKS', 'PUNKY', 'PUNNY', 'PUNTO', 'PUNTS', 'PUNTY',
     'PUPAE', 'PUPAL', 'PUPAS', 'PUPIL', 'PUPUS', 'PURDA', 'PURED', 'PUREE', 'PURER',
-    'PURES', 'PURGE', 'PURIN', 'PURIS', 'PURLS', 'PURPY', 'PURRS', 'PURSE', 'PURSY', 'PURTY',
+    'PURES', 'PURGE', 'PURIN', 'PURIS', 'PURLS', 'PURPY', 'PURRS', 'PURSY', 'PURTY',
     'PUSES', 'PUSHY', 'PUSLE', 'PUSSY', 'PUTID', 'PUTON', 'PUTTI', 'PUTTO', 'PUTTS',
     'PUZEL', 'PWNED', 'PYATS', 'PYETS', 'PYGAL', 'PYGMY', 'PYINS', 'PYLON', 'PYNED', 'PYNES',
     'PYOID', 'PYOTS', 'PYRAL', 'PYRAN', 'PYRES', 'PYREX', 'PYRIC', 'PYROS', 'PYXED', 'PYXES',
@@ -25230,7 +25230,18 @@ export const wordleWords = [
         guess_4: "FLUME",
         guess_5: null,
         guess_6: null,
-      },  
+      }, 
+      { word: "PURSE", 
+        gameDate: "7/31/26",
+        myScore: 3,
+        wordNumber: 1868,
+        guess_1: "LEANT",
+        guess_2: "PRIED",
+        guess_3: "PURSE",
+        guess_4: null,
+        guess_5: null,
+        guess_6: null,
+      }, 
       
 
  
@@ -25249,7 +25260,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("July 30, 2026: Trump sux dykk000000000! FLUME")
+console.log("July 31, 2026: Trump sux dykk000000000! PURSE")
 
 console.log(wordleWords)
 
