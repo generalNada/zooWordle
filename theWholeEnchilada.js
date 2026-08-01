@@ -25221,16 +25221,16 @@ export const wordleWords = [
         guess_6: null,
       }, 
       { word: "FLUME", 
-        gameDate: "7/29/26",
+        gameDate: "7/30/26",
         myScore: 4,
-        wordNumber: 1866,
+        wordNumber: 1867,
         guess_1: "RINSE",
         guess_2: "CALVE",
         guess_3: "BOULE",
         guess_4: "FLUME",
         guess_5: null,
         guess_6: null,
-      }, 
+      },  
       
 
  
