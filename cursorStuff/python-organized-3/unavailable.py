@@ -203,8 +203,8 @@ my_list = {
     'SKIFF',
     'SKIRT', 'SKULL', 'SKUNK', 'SLANG', 'SLATE', 'SLEEK', 'SLEEP', 'SLICE', 'SLICK', 'SLIME', 
     'SLING', 'SLOPE', 'SLOSH',
-    'SLOTH', 'SLUMP', 'SLUNG', 'SMALL', 'SMART', 'SMASH', 'SMEAR', 'SMELL', 'SMELT', 'SMILE', 
-    'SMILE', 'SMIRK',
+    'SLOTH', 'SLUMP', 'SLUNG', 'SLUSH', 'SMALL', 'SMART', 'SMASH', 'SMEAR', 'SMELL', 'SMELT', 
+    'SMILE', 'SMILE', 'SMIRK',
     'SMITE', 'SMITH', 'SMOCK', 'SMOKE', 'SNACK', 'SNAFU', 'SNAIL', 'SNAKE', 'SNAKY', 'SNARE',
     'SNARL', 'SNEAK', 'SNIDE', 'SNOOP', 'SNORE', 'SNORT', 'SNOUT', 'SOBER', 'SOGGY', 'SOLAR', 
     'SOLID', 'SOLVE', 'SONAR',
@@ -265,7 +265,7 @@ my_list = {
     'WROTE', 'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'PURSE'
+word_to_find = 'SLUSH'
 
 
 if word_to_find in my_list:
