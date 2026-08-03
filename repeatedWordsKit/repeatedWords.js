@@ -154,7 +154,10 @@ export function renderRepeatedWordsContent(modalContent, sortMode = currentSortM
  */
 function closeRepeatedWordsModal() {
   const modal = document.getElementById("repeatedWordsModal");
-  if (modal) modal.style.display = "none";
+  if (!modal) return;
+  modal.classList.remove("active");
+  modal.style.display = "none";
+  modal.setAttribute("aria-hidden", "true");
 }
 
 export function displayRepeatedWordsModal() {
@@ -166,28 +169,66 @@ export function displayRepeatedWordsModal() {
     return;
   }
 
-  renderRepeatedWordsContent(modalContent, currentSortMode);
-  modal.style.display = "block";
+  // Show overlay first so a render error can't leave the UI looking dead
+  modal.classList.add("active");
+  modal.style.display = "flex";
+  modal.setAttribute("aria-hidden", "false");
+
+  try {
+    renderRepeatedWordsContent(modalContent, currentSortMode);
+  } catch (err) {
+    console.error("Failed to render repeated words:", err);
+    modalContent.innerHTML =
+      "<p>Could not load repeated words. Check the console for details.</p>";
+  }
 }
 
+let repeatedWordsUiReady = false;
+
 function initRepeatedWordsUi() {
+  if (repeatedWordsUiReady) return;
   const toggleButton = document.getElementById("toggleRepeatedWordsButton");
   const modal = document.getElementById("repeatedWordsModal");
   const closeButton = document.querySelector(".repeated-words-close");
 
-  if (toggleButton) {
-    toggleButton.addEventListener("click", displayRepeatedWordsModal);
+  if (!toggleButton || !modal) {
+    console.warn(
+      "Repeated words UI missing #toggleRepeatedWordsButton or #repeatedWordsModal",
+    );
+    return;
   }
+
+  repeatedWordsUiReady = true;
+
+  toggleButton.addEventListener("click", (event) => {
+    event.preventDefault();
+    displayRepeatedWordsModal();
+  });
 
   if (closeButton) {
-    closeButton.addEventListener("click", closeRepeatedWordsModal);
-  }
-
-  if (modal) {
-    modal.addEventListener("click", (event) => {
-      if (event.target === modal) closeRepeatedWordsModal();
+    closeButton.addEventListener("click", (event) => {
+      event.preventDefault();
+      event.stopPropagation();
+      closeRepeatedWordsModal();
     });
   }
+
+  modal.addEventListener("click", (event) => {
+    if (event.target === modal) closeRepeatedWordsModal();
+  });
+
+  document.addEventListener("keydown", (event) => {
+    if (
+      event.key === "Escape" &&
+      (modal.classList.contains("active") || modal.style.display === "flex")
+    ) {
+      closeRepeatedWordsModal();
+    }
+  });
 }
 
-document.addEventListener("DOMContentLoaded", initRepeatedWordsUi);
+if (document.readyState === "loading") {
+  document.addEventListener("DOMContentLoaded", initRepeatedWordsUi);
+} else {
+  initRepeatedWordsUi();
+}

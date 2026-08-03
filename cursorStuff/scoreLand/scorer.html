@@ -108,17 +108,31 @@
 
 
     <div class="repeated-words-section">
-      <button id="toggleRepeatedWordsButton">Show Repeated Words</button>
+      <button type="button" id="toggleRepeatedWordsButton">
+        Show Repeated Words
+      </button>
     </div>
-      <!-- Repeated Words Modal -->
-  <div id="repeatedWordsModal" class="repeated-words-modal">
-    <div class="repeated-words-modal-content">
-      <span class="repeated-words-close">&times;</span>
-      <div id="repeatedWordsContent"></div>
-    </div>
-  </div>
 
-  <script type="module" src="../../repeatedWordsKit/repeatedWords.js"></script>
+    <div
+      id="repeatedWordsModal"
+      class="repeated-words-modal"
+      aria-hidden="true"
+      role="dialog"
+      aria-label="Repeated words"
+    >
+      <div class="repeated-words-modal-content">
+        <button
+          type="button"
+          class="repeated-words-close"
+          aria-label="Close"
+        >
+          &times;
+        </button>
+        <div id="repeatedWordsContent"></div>
+      </div>
+    </div>
+
+    <script type="module" src="../../repeatedWordsKit/repeatedWords.js"></script>
     <script type="module" src="scorer.js"></script>
   </body>
 </html>

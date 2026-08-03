@@ -31,15 +31,23 @@
 .repeated-words-modal {
   display: none;
   position: fixed;
-  z-index: 1000;
+  z-index: 10050;
   inset: 0;
-  background: rgba(0,0,0,0.65);
+  align-items: flex-start;
+  justify-content: center;
+  padding: 2rem 1rem;
+  background: rgba(0, 0, 0, 0.65);
+  overflow-y: auto;
+}
+
+.repeated-words-modal.active {
+  display: flex;
 }
 
 /* Modal container — IBM Plex Mono Bold (Datatype wght axis breaks fallback bold) */
 .repeated-words-modal-content {
   background: #ffffff;
-  margin: 6% auto;
+  margin: 0 auto;
   padding: 2rem;
   border: 1px solid #000;
   width: 80%;
@@ -76,6 +84,11 @@
   font-weight: 700;
   font-family: "IBM Plex Mono", ui-monospace, monospace;
   cursor: pointer;
+  border: none;
+  background: transparent;
+  color: inherit;
+  line-height: 1;
+  padding: 0;
 }
 
 /* Container for entries */
