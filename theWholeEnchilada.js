@@ -25283,7 +25283,7 @@ export const wordleWords = [
         guess_1: "STEAL",
         guess_2: "THONG",
         guess_3: "OPTIC",
-        guess_4: "MOTIF",,
+        guess_4: "MOTIF",
         guess_5: null,
         guess_6: null,
       }, 
