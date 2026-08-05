@@ -144,8 +144,8 @@ my_list = {
     'MELON', 'MERCY', 'MERGE', 'MERIT', 'MERRY', 'METAL', 'METER', 'METRO', 'MICRO', 'MIDGE',
     'MIDST', 'MIGHT', 'MIMIC', 'MINER', 'MINTY', 'MINUS', 'MINCE', 'MIRTH', 'MISER', 'MODAL',
     'MODEL', 'MODEM', 'MOGUL', 'MOIST', 'MOLAR', 'MOLDY', 'MOMMY', 'MONEY', 'MONTH', 'MOOCH',
-    'MOOSE', 'MORAL', 'MORPH', 'MOSSY', 'MOTEL', 'MOTOR', 'MOTTO', 'MOULT', 'MOUNT', 'MOURN', 
-    'MOUSE',
+    'MOOSE', 'MORAL', 'MORPH', 'MOSSY', 'MOTEL', 'MOTIF', 'MOTOR', 'MOTTO', 'MOULT', 'MOUNT', 
+    'MOURN', 'MOUSE',
     'MOUTH', 'MOVER', 'MOVIE', 'MUCKY', 'MUGGY', 'MULCH', 'MUNCH', 'MUMMY', 'MURAL', 'MUSIC', 
     'MUSHY',
     'MUSTY', 'MYRRH', 'NADIR', 'NAÏVE', 'NANNY', 'NASAL', 'NASTY', 'NATAL', 'NAVAL', 'NAVEL',
@@ -267,7 +267,7 @@ my_list = {
     'WROTE', 'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'REPLY'
+word_to_find = 'MOTIF'
 
 
 if word_to_find in my_list:
