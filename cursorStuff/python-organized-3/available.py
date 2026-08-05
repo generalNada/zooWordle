@@ -32,7 +32,7 @@ unused_list = [
     "LIEGE", "LIPID", "LOAMY", "LOGIN", "LOOSE", "LUMEN",
     "LUPUS", "LURCH", "LYMPH", "LYRIC", "MACRO", "MAMMA", "MAMMY", "MANGE", "MANGY",
     "MEATY", "MECCA", "MELEE", "MILKY", "MINIM", "MINOR", "MISSY", "MOCHA", "MOODY", "MORON",
-    "MOTIF", "MOUND", "MOWER", "MUCUS", "MUDDY", "MURKY", "MUSKY", "NACHO",
+    "MOUND", "MOWER", "MUCUS", "MUDDY", "MURKY", "MUSKY", "NACHO",
     "NEWER", "NINNY", "NOOSE", "NOSEY", "NUTTY", "OAKEN",
     "OASES", "OBESE", "OCTAL", "ODDER", "OLDEN", "OMBRE", "OPIUM", "OPTIC", "OUTGO", 
     "OVARY", "OVINE", "OVOID", "OWING", "PADDY", "PAGAN", "PALER", "PALSY", "PANSY",
@@ -67,7 +67,7 @@ unused_list = [
     "WREST", "WRING", "WRYLY", "ZONAL"
 ]
 
-word = 'REPLY'
+word = 'MOTIF'
 
 
 if word in unused_list:
