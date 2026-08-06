@@ -1738,7 +1738,7 @@ export const dailyWordsSmall = [
 'PITHY', 'PIVOT', 'PIXEL', 'PIXIE', 'PLACE', 'PLAID', 'PLAIN', 'PLAIT', 'PLANE',
 'PLANK', 'PLANT', 'PLATE', 'PLAZA', 'PLEAD', 'PLEAT', 'PLIED', 'PLIER', 'PLUCK', 'PLUMB',
 'PLUMP', 'PLUNK', 'PLUSH', 'POESY', 'POINT', 'POISE', 'POKER', 'POLAR', 'POLKA',
-'POLYP', 'POOCH', 'POPPY', 'PORCH', 'POSIT', 'POSSE', 'POUCH', 'POUND', 'POUTY',
+'POLYP', 'POOCH', 'POPPY', 'PORCH', 'POSSE', 'POUCH', 'POUND', 'POUTY',
 'POWER', 'PRANK', 'PRAWN', 'PREEN', 'PRESS', 'PRICE', 'PRICK', 'PRIDE', 'PRIED', 'PRIME',
 'PRIMO', 'PRIMP', 'PRINT', 'PRIOR', 'PRISM', 'PRIVY', 'PRIZE', 'PROBE', 'PRONE', 'PRONG',
 'PROOF', 'PROSE', 'PROUD', 'PROVE', 'PROWL', 'PROXY', 'PRUNE', 'PSALM', 'PUBIC',
@@ -1821,8 +1821,7 @@ export const dailyWordsSmall = [
 'VALID', 'VALOR', 'VALUE', 'VAPID', 'VAPOR', 'VAULT', 'VAUNT', 'VENAL', 'VENOM',
 'VENUE', 'VERGE', 'VERSE', 'VERSO', 'VERVE', 'VICAR', 'VIDEO', 'VIGIL', 'VIGOR', 'VILLA',
 'VINYL', 'VIOLA', 'VIPER', 'VIRAL', 'VIRUS', 'VISOR', 'VISTA', 'VITAL', 'VITRO', 
-'VIVID',
-'VIXEN', 'VODKA', 'VOICE', 'VOILA', 'VOMIT', 'VOTER', 'VOUCH', 'VOWEL',
+'VIVID', 'VIXEN', 'VODKA', 'VOICE', 'VOILA', 'VOMIT', 'VOTER', 'VOUCH', 'VOWEL',
 'VYING', 'WACKY', 'WAFER', 'WAGER', 'WAGON', 'WAIST', 'WAIVE', 'WALTZ', 'WARTY', 'WASTE',
 'WATCH', 'WATER', 'WAXEN', 'WEARY', 'WEDGE', 'WEEDY', 'WEIRD',
 'WELCH', 'WELSH', 'WHACK', 'WHALE', 'WHEAT', 'WHEEL', 'WHELP', 'WHERE', 'WHICH',
@@ -2693,7 +2692,7 @@ export const dailyWordsLarge = [
     'POOJA', 'POOKA', 'POOKS', 'POOLS', 'POONS', 'POOPS', 'POOPY', 'POORI', 'POORT', 'POOTS',
     'POPES', 'POPPA', 'POPPY', 'POPSY', 'PORAE', 'PORAL', 'PORCH', 'PORED', 'PORER', 'PORES',
     'PORGE', 'PORGY', 'PORIN', 'PORKS', 'PORKY', 'PORNO', 'PORNS', 'PORNY', 'PORTA', 'PORTS',
-    'PORTY', 'POSED', 'POSES', 'POSEY', 'POSHO', 'POSIT', 'POSSE', 'POSTS', 'POTAE',
+    'PORTY', 'POSED', 'POSES', 'POSEY', 'POSHO', 'POSSE', 'POSTS', 'POTAE',
     'POTCH', 'POTED', 'POTES', 'POTIN', 'POTOO', 'POTSY', 'POTTO', 'POTTS', 'POTTY', 'POUCH',
     'POUFF', 'POUFS', 'POUKE', 'POUKS', 'POULE', 'POULP', 'POULT', 'POUND', 'POUPE', 'POUPT',
     'POURS', 'POUTS', 'POUTY', 'POWAN', 'POWER', 'POWIN', 'POWND', 'POWNS', 'POWNY', 'POWRE',
@@ -25287,6 +25286,17 @@ export const wordleWords = [
         guess_5: null,
         guess_6: null,
       }, 
+      { word: "POSIT", 
+        gameDate: "8/5/26",
+        myScore: 3,
+        wordNumber: 1873,
+        guess_1: "LEANT",
+        guess_2: "SHIRT",
+        guess_3: "POSIT",
+        guess_4: null,
+        guess_5: null,
+        guess_6: null,
+      }, 
       
 
  
@@ -25305,7 +25315,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("August 4, 2026: Trump sux dykk000000000! MOTIF")
+console.log("August 5, 2026: Trump sux dykk000000000! POSIT")
 
 console.log(wordleWords)
 
