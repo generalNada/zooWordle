@@ -1659,7 +1659,7 @@ export const dailyWordsSmall = [
 'ETHER', 'ETHIC', 'ETHOS', 'EVADE', 'EVENT', 'EVERY', 'EVICT', 'EVOKE', 'EXACT',
 'EXALT', 'EXCEL', 'EXERT', 'EXILE', 'EXIST', 'EXPEL', 'EXTOL', 'EXTRA', 'EXULT', 'EYING',
 'FABLE', 'FACET', 'FAINT', 'FAIRY', 'FAITH', 'FALSE', 'FANCY', 'FANNY', 'FARCE', 'FATAL',
-'FATTY', 'FAULT', 'FAUNA', 'FAVOR', 'FEAST', 'FECAL', 'FEIGN', 'FELLA', 'FELON', 'FEMME',
+'FATTY', 'FAULT', 'FAUNA', 'FAVOR', 'FEAST', 'FECAL', 'FELLA', 'FELON', 'FEMME',
 'FEMUR', 'FENCE', 'FERAL', 'FERRY', 'FETAL', 'FETCH', 'FETID', 'FETUS', 'FEVER', 'FEWER',
 'FIBER', 'FICUS', 'FIELD', 'FIEND', 'FIERY', 'FIFTH', 'FIFTY', 'FIGHT', 'FILER', 'FILET',
 'FILLY', 'FILMY', 'FILTH', 'FINAL', 'FINCH', 'FINER', 'FIRST', 'FISHY', 'FIXER', 
@@ -2207,7 +2207,7 @@ export const dailyWordsLarge = [
     'FAWNY', 'FAXED', 'FAXES', 'FAYED', 'FAYER', 'FAYNE', 'FAYRE', 'FAZED', 'FAZES', 'FEALS',
     'FEARE', 'FEARS', 'FEART', 'FEASE', 'FEAST', 'FEATS', 'FEAZE', 'FECAL', 'FECES', 'FECHT',
     'FECIT', 'FECKS', 'FEDEX', 'FEEBS', 'FEEDS', 'FEELS', 'FEENS', 'FEERS', 'FEESE', 'FEEZE',
-    'FEHME', 'FEIGN', 'FEINT', 'FEIST', 'FELCH', 'FELID', 'FELLA', 'FELLS', 'FELLY', 'FELON',
+    'FEHME', 'FEINT', 'FEIST', 'FELCH', 'FELID', 'FELLA', 'FELLS', 'FELLY', 'FELON',
     'FELTS', 'FELTY', 'FEMAL', 'FEMES', 'FEMME', 'FEMMY', 'FEMUR', 'FENCE', 'FENDS', 'FENDY',
     'FENIS', 'FENKS', 'FENNY', 'FENTS', 'FEODS', 'FEOFF', 'FERAL', 'FERER', 'FERES', 'FERIA',
     'FERLY', 'FERMI', 'FERMS', 'FERNS', 'FERNY', 'FERRY', 'FESSE', 'FESTA', 'FESTS', 'FESTY',
@@ -25308,6 +25308,17 @@ export const wordleWords = [
         guess_5: null,
         guess_6: null,
       }, 
+      { word: "FEIGN", 
+        gameDate: "8/7/26",
+        myScore: 4,
+        wordNumber: 1875,
+        guess_1: "LEANT",
+        guess_2: "REIGN",
+        guess_3: "DEIGN",
+        guess_4: "FEIGN",
+        guess_5: null,
+        guess_6: null,
+      }, 
       
 
  
@@ -25326,7 +25337,7 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("August 6, 2026: Trump sux dykk000000000! GRIPE")
+console.log("August 7, 2026: Trump sux dykk000000000! FEIGN")
 
 console.log(wordleWords)
 
