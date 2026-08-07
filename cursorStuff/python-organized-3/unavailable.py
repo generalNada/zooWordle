@@ -85,7 +85,8 @@ my_list = {
     'ESSAY', 'ETHER', 'ETHIC', 'ETHOS', 'ETUDE', 'EVADE', 'EVERY', 'EVOKE', 'EXACT', 'EXALT', 
     'EXCEL',
     'EXERT', 'EXILE', 'EXIST', 'EXPEL', 'EXTOL', 'EXTRA', 'EVENT', 'EXULT', 'FABLE', 'FACET',
-    'FAINT', 'FAITH', 'FALSE', 'FANCY', 'FARCE', 'FAULT', 'FAVOR', 'FEAST', 'FEIGN', 'FERAL',
+    'FAINT', 'FAITH', 'FALSE', 'FANCY', 'FARCE', 'FAULT', 'FAVOR', 'FEAST', 'FEIGN', 'FEIGN', 
+    'FERAL',
     'FERRY', 'FETCH', 'FETID', 'FEVER', 'FEWER', 'FIBER', 'FIELD', 'FIEND', 'FIERY', 'FIFTH',
     'FIFTY', 'FILET', 'FILLY', 'FINAL', 'FINCH', 'FINER', 'FIRST', 'FISHY', 'FIXER', 'FIZZY'
     'FJORD',
@@ -268,7 +269,7 @@ my_list = {
     'WROTE', 'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'GRIPE'
+word_to_find = 'FEIGN'
 
 
 if word_to_find in my_list:
