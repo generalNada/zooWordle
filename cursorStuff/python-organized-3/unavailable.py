@@ -52,8 +52,8 @@ my_list = {
     'CLING',
     'CLINK', 'CLOAK', 'CLOCK', 'CLOCK', 'CLONE', 'CLOSE', 'CLOTH', 'CLOUD', 'CLOVE', 'CLOWN', 
     'CLUCK', 'CLUMP',
-    'CLUNG', 'COACH', 'COAST', 'COCOA', 'COLIC', 'COLON', 'COMET', 'COMET', 'COMFY', 'COMMA', 
-    'CONCH',
+    'CLUNG', 'CLUNK', 'COACH', 'COAST', 'COCOA', 'COLIC', 'COLON', 'COMET', 'COMET', 'COMFY', 
+    'COMMA', 'CONCH',
     'CONDO', 'CONIC', 'CORAL', 'CORER', 'CORNY', 'COUCH', 'COULD', 'COUNT', 'COURT', 'COVEN', 
     'COVER',
     'COVET', 'COWER', 'COYLY', 'CRAFT', 'CRAMP', 'CRANE', 'CRANK', 'CRASS', 'CRATE', 'CRAVE',
@@ -270,7 +270,7 @@ my_list = {
     'WROTE', 'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'PRIVY'
+word_to_find = 'CLUNK'
 
 
 if word_to_find in my_list:
