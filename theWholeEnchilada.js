@@ -1366,6 +1366,7 @@ export const combinedWords = [
     'CLAIM', 'CLAMP', 'CLANG', 'CLANK', 'CLASH', 'CLASP', 'CLASS', 'CLEAN', 'CLEAR', 'CLEAT',
     'CLEFT', 'CLERK', 'CLICK', 'CLIFF', 'CLIMB', 'CLING', 'CLINK', 'CLOAK', 'CLOCK', 'CLONE',
     'CLOSE', 'CLOTH', 'CLOUD', 'CLOUT', 'CLOVE', 'CLOWN', 'CLUCK', 'CLUED', 'CLUMP', 'CLUNG',
+    'CLUNK',
     'COACH', 'COAST', 'COBRA', 'COCOA', 'COLON', 'COLOR', 'COMET', 'COMFY', 'COMIC', 'COMMA',
     'CONCH', 'CONDO', 'CONIC', 'COPSE', 'CORAL', 'CORER', 'CORNY', 'COUCH', 'COUGH', 'COULD',
     'COUNT', 'COUPE', 'COURT', 'COVEN', 'COVER', 'COVET', 'COVEY', 'COWER', 'COYLY', 'CRACK',
@@ -2052,7 +2053,7 @@ export const dailyWordsLarge = [
     'CLOKE', 'CLOMB', 'CLOMP', 'CLONE', 'CLONK', 'CLONS', 'CLOOP', 'CLOOT', 'CLOPS', 'CLOSE',
     'CLOTE', 'CLOTH', 'CLOTS', 'CLOUD', 'CLOUR', 'CLOUS', 'CLOUT', 'CLOVE', 'CLOWN', 'CLOWS',
     'CLOYE', 'CLOYS', 'CLOZE', 'CLUBS', 'CLUCK', 'CLUED', 'CLUES', 'CLUEY', 'CLUNG',
-    'CLUNK', 'CLYPE', 'CNIDA', 'COACH', 'COACT', 'COADY', 'COALA', 'COALS', 'COALY', 'COAPT',
+    'CLYPE', 'CNIDA', 'COACH', 'COACT', 'COADY', 'COALA', 'COALS', 'COALY', 'COAPT',
     'COARB', 'COAST', 'COATE', 'COATI', 'COATS', 'COBBS', 'COBBY', 'COBIA', 'COBLE', 'COBRA',
     'COBZA', 'COCAS', 'COCCI', 'COCCO', 'COCKS', 'COCKY', 'COCOA', 'COCOS', 'CODAS', 'CODEC',
     'CODED', 'CODEN', 'CODER', 'CODES', 'CODEX', 'CODON', 'COEDS', 'COFFS', 'COGIE', 'COGON',
@@ -25330,6 +25331,17 @@ export const wordleWords = [
         guess_5: null,
         guess_6: null,
       }, 
+      { word: "CLUNK", 
+        gameDate: "8/9/26",
+        myScore: 6,
+        wordNumber: 1877,
+        guess_1: "STEAL",
+        guess_2: "LYRIC",
+        guess_3: "GULCH",
+        guess_4: "CLOUD",
+        guess_5: "CLUMP",
+        guess_6: "CLUNK",
+      }, 
       
 
  
@@ -25348,7 +25360,8 @@ console.log("Push, Stash, and Pop. What the Chryste!")
 console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
-console.log("August 8, 2026: Trump sux dykk000000000! PRIVY")
+console.log("August 9, 2025, Mom: Hello, Again!" )
+console.log("August 9, 2026: Trump sux dykk000000000! CLUNK")
 
 console.log(wordleWords)
 
