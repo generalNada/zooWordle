@@ -67,7 +67,7 @@ unused_list = [
     "WREST", "WRING", "WRYLY", "ZONAL"
 ]
 
-word = 'PRIVY'
+word = 'CLUNK'
 
 
 if word in unused_list:
