@@ -396,6 +396,116 @@ const flicksShows = [
     downloadUrl:
       "https://www.dropbox.com/scl/fi/3s31dys50m34jxdka2k0b/StrangersWithCandyS2E10.mp4?rlkey=2rlt0nj6px7qlu1n2ce9jkv3c&dl=1",
   },
+  {
+    ref: 1436,
+    title: "Strangers with Candy - S3E1 - Jerri's Burning Issue",
+    year: 2000,
+    genre: "Shows",
+    collection: "Strangers with Candy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/3tmace3z5d2cdpb3sw8dt/StrangersWithCandyS3E1.mp4?rlkey=lsuvvq1961vc0mqc5w4csyt1d&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/3tmace3z5d2cdpb3sw8dt/StrangersWithCandyS3E1.mp4?rlkey=lsuvvq1961vc0mqc5w4csyt1d&dl=1",
+  },
+  {
+    ref: 1437,
+    title: "Strangers with Candy - S3E2 - Is Freedom Free?",
+    year: 2000,
+    genre: "Shows",
+    collection: "Strangers with Candy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/pw2bax6bne9vuc2p13y6g/StrangersWithCandyS3E2.mp4?rlkey=ix2u6jomsdupi418hh2yp26g0&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/pw2bax6bne9vuc2p13y6g/StrangersWithCandyS3E2.mp4?rlkey=ix2u6jomsdupi418hh2yp26g0&dl=1",
+  },
+  {
+    ref: 1438,
+    title: "Strangers with Candy - S3E3 - Trail Of Tears",
+    year: 2000,
+    genre: "Shows",
+    collection: "Strangers with Candy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/robgdsm3zekz51tmrzri9/StrangersWithCandyS3E3.mp4?rlkey=nm4mpbfg7likjwgvwvvqthgtf&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/robgdsm3zekz51tmrzri9/StrangersWithCandyS3E3.mp4?rlkey=nm4mpbfg7likjwgvwvvqthgtf&dl=1",
+  },
+  {
+    ref: 1439,
+    title: "Strangers with Candy - S3E4 - Invisible Love",
+    year: 2000,
+    genre: "Shows",
+    collection: "Strangers with Candy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/5l5rpowkhzeef4x1zlcmt/StrangersWithCandyS3E4.mp4?rlkey=mayh3cfyj6vsxl6nl7xxm356g&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/5l5rpowkhzeef4x1zlcmt/StrangersWithCandyS3E4.mp4?rlkey=mayh3cfyj6vsxl6nl7xxm356g&dl=1",
+  },
+  {
+    ref: 1440,
+    title: "Strangers with Candy - S3E5 - Is My Daddy Crazy?",
+    year: 2000,
+    genre: "Shows",
+    collection: "Strangers with Candy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/zcmgodajrcgjvic10ckxy/StrangersWithCandyS3E5.mp4?rlkey=byhiktmyc5l7ui40e7a7r19ad&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/zcmgodajrcgjvic10ckxy/StrangersWithCandyS3E5.mp4?rlkey=byhiktmyc5l7ui40e7a7r19ad&dl=1",
+  },
+  {
+    ref: 1441,
+    title: "Strangers with Candy - S3E6 - Blank Relay",
+    year: 2000,
+    genre: "Shows",
+    collection: "Strangers with Candy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/qqzue2p3ds79wsm204frq/StrangersWithCandyS3E6.mp4?rlkey=8c0n5jim5xp87cgo9tqe4ff3t&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/qqzue2p3ds79wsm204frq/StrangersWithCandyS3E6.mp4?rlkey=8c0n5jim5xp87cgo9tqe4ff3t&dl=1",
+  },
+  {
+    ref: 1442,
+    title: "Strangers with Candy - S3E7 - Ask Jerri",
+    year: 2000,
+    genre: "Shows",
+    collection: "Strangers with Candy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/qw3j1o4x5z66ccrjvjvv1/StrangersWithCandyS3E7.mp4?rlkey=hx3vugtmby97uzhmovg2a4nkn&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/qw3j1o4x5z66ccrjvjvv1/StrangersWithCandyS3E7.mp4?rlkey=hx3vugtmby97uzhmovg2a4nkn&dl=1",
+  },
+  {
+    ref: 1443,
+    title: "Strangers with Candy - S3E8 - Sexual Harrassment (a.k.a. There Once Was A Blank From Nantucket)",
+    year: 2000,
+    genre: "Shows",
+    collection: "Strangers with Candy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/4n4p5c7lmioo3wbvmgr2i/StrangersWithCandyS3E8.mp4?rlkey=tb54vvamjw84q5p2artrze1uz&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/4n4p5c7lmioo3wbvmgr2i/StrangersWithCandyS3E8.mp4?rlkey=tb54vvamjw84q5p2artrze1uz&dl=1",
+  },
+  {
+    ref: 1444,
+    title: "Strangers with Candy - S3E9 - Bully",
+    year: 2000,
+    genre: "Shows",
+    collection: "Strangers with Candy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/6mu070a3mk3tuj0zs9z74/StrangersWithCandyS3E9.mp4?rlkey=r5o5jkuz94y4jc0i1vjg5vqez&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/6mu070a3mk3tuj0zs9z74/StrangersWithCandyS3E9.mp4?rlkey=r5o5jkuz94y4jc0i1vjg5vqez&dl=1",
+  },
+  {
+    ref: 1445,
+    title: "Strangers with Candy - S3E10 - The Last Temptation Of Blank",
+    year: 2000,
+    genre: "Shows",
+    collection: "Strangers with Candy",
+    dropboxUrl:
+      "https://www.dropbox.com/scl/fi/608jh6edldmdu437yp7sl/StrangersWithCandyS3E10.mp4?rlkey=psd6buobem348ukutc6usf71y&raw=1",
+    downloadUrl:
+      "https://www.dropbox.com/scl/fi/608jh6edldmdu437yp7sl/StrangersWithCandyS3E10.mp4?rlkey=psd6buobem348ukutc6usf71y&dl=1",
+  },
 ];
 
 module.exports = flicksShows;
