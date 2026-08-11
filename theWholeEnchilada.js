@@ -1514,7 +1514,8 @@ export const combinedWords = [
     'SENSE', 'SEPIA', 'SERIF', 'SERUM', 'SERVE', 'SETUP', 'SEVEN', 'SEVER', 'SEWER', 'SHACK',
     'SHADE', 'SHADY', 'SHAFT', 'SHAKE', 'SHAKY', 'SHALE', 'SHALL', 'SHALT', 'SHAME', 'SHANK',
     'SHAPE', 'SHARD', 'SHARE', 'SHARK', 'SHARP', 'SHAVE', 'SHAWL', 'SHEAR', 'SHEEN', 'SHEEP',
-    'SHEER', 'SHEET', 'SHEIK', 'SHELF', 'SHELL', 'SHIED', 'SHIFT', 'SHILL', 'SHINE', 'SHINY', 'SHIRE',
+    'SHEER', 'SHEET', 'SHEIK', 'SHELF', 'SHELL', 'SHIED', 'SHIFT', 'SHILL', 'SHINE', 'SHINY', 
+    'SHIRE',
     'SHIRK', 'SHIRT', 'SHIVA', 'SHOAL', 'SHOCK', 'SHONE', 'SHOOK', 'SHOOT', 'SHORE', 'SHORN', 
     'SHORT',
     'SHOVE', 'SHOWN', 'SHOWY', 'SHRED', 'SHREW', 'SHRUB', 'SHRUG', 'SHUCK', 'SHUNT', 'SHUSH', 
@@ -1781,7 +1782,7 @@ export const dailyWordsSmall = [
 'SLOPE', 'SLOSH', 'SLOTH', 'SLUMP', 'SLUNG', 'SLUNK', 'SLURP', 'SLYLY', 'SMACK',
 'SMALL', 'SMART', 'SMASH', 'SMEAR', 'SMELT', 'SMIRK', 'SMITE', 'SMITH',
 'SMOCK', 'SMOKE', 'SMOKY', 'SMOTE', 'SNACK', 'SNAFU', 'SNAIL', 'SNAKE', 'SNAKY', 'SNARE',
-'SNARL', 'SNEAK', 'SNEER', 'SNIDE', 'SNIFF', 'SNIPE', 'SNOOP', 'SNORT', 'SNOUT',
+'SNARL', 'SNEAK', 'SNEER', 'SNIDE', 'SNIFF', 'SNOOP', 'SNORT', 'SNOUT',
 'SNOWY', 'SNUCK', 'SNUFF', 'SOAPY', 'SOGGY', 'SOLAR', 'SOLID', 'SOLVE',
 'SONIC', 'SOOTH', 'SOOTY', 'SORRY', 'SOUND', 'SOUTH', 'SOWER', 'SPACE', 'SPADE', 'SPANK',
 'SPARE', 'SPARK', 'SPASM', 'SPATE', 'SPAWN', 'SPEAK', 'SPEAR', 'SPECK', 'SPEED', 'SPELL',
@@ -2881,7 +2882,7 @@ export const dailyWordsLarge = [
     'SNABS', 'SNACK', 'SNAFU', 'SNAGS', 'SNAIL', 'SNAKE', 'SNAKY', 'SNAPS', 'SNARE', 'SNARF',
     'SNARK', 'SNARL', 'SNARS', 'SNARY', 'SNASH', 'SNATH', 'SNAWS', 'SNEAD', 'SNEAK', 'SNEAP',
     'SNEBS', 'SNECK', 'SNEDS', 'SNEED', 'SNEER', 'SNEES', 'SNELL', 'SNIBS', 'SNICK', 'SNIDE',
-    'SNIES', 'SNIFF', 'SNIFT', 'SNIGS', 'SNIPE', 'SNIPS', 'SNIPY', 'SNIRT', 'SNITS', 'SNOBS',
+    'SNIES', 'SNIFF', 'SNIFT', 'SNIGS', 'SNIPS', 'SNIPY', 'SNIRT', 'SNITS', 'SNOBS',
     'SNODS', 'SNOEK', 'SNOEP', 'SNOGS', 'SNOKE', 'SNOOD', 'SNOOK', 'SNOOL', 'SNOOP', 'SNOOT',
     'SNORT', 'SNOTS', 'SNOUT', 'SNOWK', 'SNOWS', 'SNOWY', 'SNUBS', 'SNUCK', 'SNUFF',
     'SNUGS', 'SNUSH', 'SNYES', 'SOAKS', 'SOAPS', 'SOAPY', 'SOARE', 'SOARS', 'SOAVE', 'SOBAS',
@@ -25342,6 +25343,17 @@ export const wordleWords = [
         guess_5: "CLUMP",
         guess_6: "CLUNK",
       }, 
+      { word: "SNIPE", 
+        gameDate: "8/10/26",
+        myScore: 2,
+        wordNumber: 1878,
+        guess_1: "STEAL",
+        guess_2: "SNIPE",
+        guess_3: null,
+        guess_4: null,
+        guess_5: null,
+        guess_6: null,
+      }, 
       
 
  
@@ -25361,7 +25373,7 @@ console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
 console.log("August 9, 2025, Mom: Hello, Again!" )
-console.log("August 9, 2026: Trump sux dykk000000000! CLUNK")
+console.log("August 10, 2026: Trump sux dykk000000000! SNIPE")
 
 console.log(wordleWords)
 
