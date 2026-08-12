@@ -19,7 +19,7 @@ unused_list = [
     "DRYLY", "DULLY", "DUMPY", "DUNCE", "DYING", "EATER", "ECLAT",
     "EDICT", "EKING", "ELECT", "ELEGY", "ELIDE", "ENEMY", 
     "ERECT", "ESTER", "EVICT", "EXPEL", "EYING", "FAIRY", "FANNY", "FATAL",
-    "FATTY", "FAUNA", "FECAL", "FELLA", "FELON", "FEMME", "FEMUR", "FENCE", "FETAL", "FETUS",
+    "FATTY", "FAUNA", "FECAL", "FELLA", "FELON", "FEMME", "FEMUR", "FETAL", "FETUS",
     "FICUS", "FIGHT", "FILER", "FILMY", "FILTH", "FLACK", "FLECK", "FLEET", "FLIER",
     "FLUID", "FLUSH", "FRAUD", "FREED", "FREER", "FRIAR", "FRISK", "FUDGE", "FUROR", "FURRY",
     "FUSSY", "GABLE", "GAFFE", "GAILY", "GASSY", "GATOR", "GAYER", "GAYLY", "GAZER", "GEEKY",
@@ -67,7 +67,7 @@ unused_list = [
     "WREST", "WRING", "WRYLY", "ZONAL"
 ]
 
-word = 'SNIPE'
+word = 'FENCE'
 
 
 if word in unused_list:
