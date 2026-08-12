@@ -25354,7 +25354,7 @@ export const wordleWords = [
         guess_5: null,
         guess_6: null,
       }, 
-      { word: "LEANT", 
+      { word: "FENCE", 
         gameDate: "8/11/26",
         myScore: 4,
         wordNumber: 1879,
