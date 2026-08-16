@@ -1708,7 +1708,7 @@ export const dailyWordsSmall = [
 'LEAST', 'LEAVE', 'LEDGE', 'LEECH', 'LEERY', 'LEFTY', 'LEGGY', 'LEMON', 'LEMUR',
 'LEPER', 'LEVEL', 'LEVER', 'LIBEL', 'LIEGE', 'LIGHT', 'LILAC', 'LIMBO', 'LIMIT',
 'LINER', 'LINGO', 'LIPID', 'LITHE', 'LIVER', 'LIVID', 'LLAMA', 'LOAMY', 
-'LOCAL', 'LOCUS', 'LODGE', 'LOFTY', 'LOGIC', 'LOGIN', 'LOOPY', 'LOOSE', 'LORDY', 'LORIS',
+'LOCAL', 'LOCUS', 'LODGE', 'LOFTY', 'LOGIC', 'LOGIN', 'LOOPY', 'LORDY', 'LORIS',
 'LOSER', 'LOUSE', 'LOUSY', 'LOVER', 'LOWER', 'LOWLY', 'LOYAL', 'LUCID', 'LUCKY',
 'LUMEN', 'LUMPY', 'LUNAR', 'LUNCH', 'LUNGE', 'LUPUS', 'LURCH', 'LURID', 'LUSTY', 'LYING',
 'LYMPH', 'LYRIC', 'MACAW', 'MACHO', 'MACRO', 'MADAM', 'MADLY', 'MAGIC', 'MAGMA',
@@ -2490,7 +2490,7 @@ export const dailyWordsLarge = [
     'LOGOS', 'LOHAN', 'LOIDS', 'LOINS', 'LOIPE', 'LOIRS', 'LOKES', 'LOLLS', 'LOLLY', 'LOLOG',
     'LOMAS', 'LOMED', 'LOMES', 'LONER', 'LONGA', 'LONGE', 'LONGS', 'LOOBY', 'LOOED', 'LOOEY',
     'LOOFA', 'LOOFS', 'LOOIE', 'LOOKS', 'LOOKY', 'LOOMS', 'LOONS', 'LOONY', 'LOOPS', 'LOOPY',
-    'LOORD', 'LOOSE', 'LOOTS', 'LOPED', 'LOPER', 'LOPES', 'LOPPY', 'LORAL', 'LORAN', 'LORDS',
+    'LOORD', 'LOOTS', 'LOPED', 'LOPER', 'LOPES', 'LOPPY', 'LORAL', 'LORAN', 'LORDS',
     'LORDY', 'LOREL', 'LORES', 'LORIC', 'LORIS', 'LOSED', 'LOSEL', 'LOSEN', 'LOSER',
     'LOSES', 'LOSSY', 'LOTAH', 'LOTAS', 'LOTES', 'LOTIC', 'LOTOS', 'LOTSA', 'LOTTA', 'LOTTE',
     'LOTTO', 'LOTUS', 'LOUED', 'LOUGH', 'LOUIE', 'LOUIS', 'LOUMA', 'LOUND', 'LOUNS', 'LOUPE',
@@ -25399,6 +25399,17 @@ export const wordleWords = [
         guess_5: null,
         guess_6: null,
       }, 
+      { word: "LOOSE", 
+        gameDate: "8/15/26",
+        myScore: 2,
+        wordNumber: 1883,
+        guess_1: "ROAST",
+        guess_2: "LOOSE",
+        guess_3: null,
+        guess_4: null,
+        guess_5: null,
+        guess_6: null,
+      }, 
       
 
  
@@ -25418,7 +25429,7 @@ console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
 console.log("August 9, 2025, Mom: Hello, Again!" )
-console.log("August 14, 2026: Trump sux dykk000000000! GEODE")
+console.log("August 15, 2026: Trump sux dykk000000000! LOOSE")
 
 console.log(wordleWords)
 
