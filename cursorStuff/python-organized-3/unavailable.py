@@ -13,7 +13,8 @@ my_list = {
     'ANGER', 'ANGLE', 'ANGRY', 'ANGST', 'ANKLE', 'ANNEX', 'ANODE', 'ANNOY', 'ANTIC', 'ANVIL', 
     'AORTA',
     'APART', 'APHID', 'APPLE', 'APPLY', 'APRON', 'APTLY', 'ARBOR', 'ARDOR', 'ARGUE', 'ARISE',
-    'AROMA', 'ARROW', 'ARTSY', 'ASCOT', 'ASHEN', 'ASIDE', 'ASKEW', 'ASSAY', 'ASSET', 'ATLAS',
+    'AROMA', 'ARROW', 'ARTSY', 'ASCOT', 'ASHEN', 'ASIDE', 'ASKEW', 'ASPIC', 'ASSAY', 'ASSET', 
+    'ATLAS',
     'ATOLL', 'ATONE', 'ATRIA', 'ATTIC', 'AUDIO', 'AUDIT', 'AVAIL', 'AVERT', 'AVIAN', 'AVOID', 
     'AWAIT',
     'AWAKE', 'AWAKE', 'AWARD', 'AWARE', 'AWASH', 'AWOKE', 'AWFUL', 'AXIOM', 'AZURE', 'BACON',
@@ -273,7 +274,7 @@ my_list = {
     'WROTE', 'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'LOOSE'
+word_to_find = 'ASPIC'
 
 
 if word_to_find in my_list:
