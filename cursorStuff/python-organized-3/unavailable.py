@@ -247,7 +247,8 @@ my_list = {
     'TODDY', 'TOKEN', 'TOOTH',
     'TOPAZ', 'TOPIC', 'TORCH', 'TORSO', 'TOTAL', 'TOTEM', 'TOUCH', 'TOUGH', 'TOWEL', 'TOWER',
     'TOXIC', 'TOXIN', 'TRACE', 'TRACK', 'TRACT', 'TRADE', 'TRAIL', 'TRAIN', 'TRAIT', 'TRASH',
-    'TRAWL', 'TREAT', 'TREND', 'TRIAD', 'TRIAL', 'TRICE', 'TRICK', 'TRIPE', 'TRITE', 'TROLL',
+    'TRAWL', 'TREAT', 'TREND', 'TRIAD', 'TRIAL', 'TRIBE', 'TRICE', 'TRICK', 'TRIPE', 'TRITE', 
+    'TROLL',
     'TROOP', 'TROPE', 'TROUT', 'TROVE', 'TRUCK', 'TRULY', 'TRUSS', 'TRUST', 'TRUTH', 'TRYST',
     'TUBER', 'TULIP', 'TUNIC', 'TURBO', 'TUTOR', 'TWANG', 'TWEAK', 'TWEED', 'TWEET', 'TWICE', 
     'TWINE',
@@ -274,7 +275,7 @@ my_list = {
     'WROTE', 'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'ASPIC'
+word_to_find = 'TRIBE'
 
 
 if word_to_find in my_list:
