@@ -1797,7 +1797,7 @@ export const dailyWordsSmall = [
 'STEED', 'STEEL', 'STEEP', 'STEER', 'STEIN', 'STERN', 'STICK', 'STIFF', 'STILL', 'STILT',
 'STING', 'STINK', 'STINT', 'STOCK', 'STOIC', 'STOKE', 'STOLE', 'STOMP', 'STONE', 'STONY',
 'STOOD', 'STOOL', 'STOOP', 'STORE', 'STORK', 'STORM', 'STORY', 'STOVE', 'STRAP',
-'STRAW', 'STRAY', 'STRIP', 'STRUT', 'STUCK', 'STUDY', 'STUMP', 'STUNG', 'STUNK',
+'STRAW', 'STRAY', 'STRUT', 'STUCK', 'STUDY', 'STUMP', 'STUNG', 'STUNK',
 'STUNT', 'STYLE', 'SUAVE', 'SUEDE', 'SUGAR', 'SUING', 'SUITE', 'SULKY', 'SULLY', 'SUMAC',
 'SUNNY', 'SUPER', 'SURER', 'SURLY', 'SUSHI', 'SWARM', 'SWASH',
 'SWATH', 'SWEAR', 'SWEAT', 'SWEEP', 'SWEET', 'SWELL', 'SWEPT', 'SWIFT', 'SWILL', 'SWINE',
@@ -2931,7 +2931,7 @@ export const dailyWordsLarge = [
     'STOOK', 'STOOL', 'STOOP', 'STOOR', 'STOPE', 'STOPS', 'STOPT', 'STORE', 'STORK', 'STORM',
     'STORY', 'STOSS', 'STOTS', 'STOTT', 'STOUN', 'STOUP', 'STOUR', 'STOVE', 'STOWN',
     'STOWP', 'STOWS', 'STRAD', 'STRAE', 'STRAG', 'STRAK', 'STRAP', 'STRAW', 'STRAY', 'STREP',
-    'STREW', 'STRIA', 'STRIG', 'STRIM', 'STRIP', 'STROP', 'STROW', 'STROY', 'STRUM', 'STRUT',
+    'STREW', 'STRIA', 'STRIG', 'STRIM', 'STROP', 'STROW', 'STROY', 'STRUM', 'STRUT',
     'STUBS', 'STUCK', 'STUDE', 'STUDS', 'STUDY', 'STULL', 'STULM', 'STUMM', 'STUMP',
     'STUMS', 'STUNG', 'STUNK', 'STUNS', 'STUNT', 'STUPA', 'STUPE', 'STURE', 'STURT', 'STYED',
     'STYES', 'STYLE', 'STYLI', 'STYLO', 'STYME', 'STYMY', 'STYRE', 'STYTE', 'SUAVE', 'SUBAH',
@@ -25433,6 +25433,17 @@ export const wordleWords = [
         guess_5: null,
         guess_6: null,
       }, 
+      { word: "STRIP", 
+        gameDate: "8/17/26",
+        myScore: 3,
+        wordNumber: 1885,
+        guess_1: "LEANT",
+        guess_2: "STRIP",
+        guess_3: null,
+        guess_4: null,
+        guess_5: null,
+        guess_6: null,
+      }, 
       
 
  
@@ -25452,7 +25463,7 @@ console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
 console.log("August 9, 2025, Mom: Hello, Again!" )
-console.log("August 17, 2026: Trump sux dykk000000000! TRIBE")
+console.log("August 18, 2026: Trump sux dykk000000000! STRIP")
 
 console.log(wordleWords)
 
