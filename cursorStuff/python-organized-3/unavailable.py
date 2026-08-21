@@ -151,8 +151,8 @@ my_list = {
     'MODEL', 'MODEM', 'MOGUL', 'MOIST', 'MOLAR', 'MOLDY', 'MOMMY', 'MONEY', 'MONTH', 'MOOCH',
     'MOOSE', 'MORAL', 'MORPH', 'MOSSY', 'MOTEL', 'MOTIF', 'MOTOR', 'MOTTO', 'MOULT', 'MOUNT', 
     'MOURN', 'MOUSE',
-    'MOUTH', 'MOVER', 'MOVIE', 'MUCKY', 'MUGGY', 'MULCH', 'MUNCH', 'MUMMY', 'MURAL', 'MUSIC', 
-    'MUSHY',
+    'MOUTH', 'MOVER', 'MOVIE', 'MUCKY', 'MUGGY', 'MULCH', 'MUNCH', 'MUMMY', 'MURAL', 'MURKY'
+    'MUSIC', 'MUSHY',
     'MUSTY', 'MYRRH', 'NADIR', 'NAÏVE', 'NANNY', 'NASAL', 'NASTY', 'NATAL', 'NAVAL', 'NAVEL',
     'NEEDY', 'NEIGH', 'NERDY', 'NERVE', 'NERVY', 'NEVER', 'NEWLY', 'NICHE', 'NICER', 'NIECE',
     'NIGHT', 'NINJA',
@@ -275,7 +275,7 @@ my_list = {
     'WROTE', 'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'GRILL'
+word_to_find = 'MURKY'
 
 
 if word_to_find in my_list:
