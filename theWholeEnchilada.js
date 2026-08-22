@@ -1389,7 +1389,8 @@ export const combinedWords = [
     'DRANK', 'DRAPE', 'DRAWL', 'DRAWN', 'DREAD', 'DREAM', 'DRESS', 'DRIED', 'DRIER', 'DRIFT',
     'DRILL', 'DRINK', 'DRIVE', 'DROIT', 'DROLL', 'DRONE', 'DROOL', 'DROOP', 'DROSS', 'DROVE',
     'DROWN', 'DRUID', 'DRUNK', 'DRYER', 'DRYLY', 'DUCHY', 'DULLY', 'DUMMY', 'DUMPY', 'DUNCE',
-    'DUSKY', 'DUSTY', 'DUTCH', 'DUVET', 'DWARF', 'DWELL', 'DWELT', 'DYING', 'EAGER', 'EAGLE',
+    'DURUM', 'DUSKY', 'DUSTY', 'DUTCH', 'DUVET', 'DWARF', 'DWELL', 'DWELT', 'DYING', 'EAGER', 
+    'EAGLE',
     'EARLY', 'EARTH', 'EASEL', 'EATEN', 'EATER', 'EBONY', 'ECLAT', 'EDICT', 'EDIFY', 'EERIE',
     'EGRET', 'EIGHT', 'EJECT', 'EKING', 'ELATE', 'ELBOW', 'ELDER', 'ELECT', 'ELEGY', 'ELFIN',
     'ELIDE', 'ELITE', 'ELOPE', 'ELUDE', 'EMAIL', 'EMBED', 'EMBER', 'EMCEE', 'EMOJI', 'EMPTY', 
@@ -1653,7 +1654,7 @@ export const dailyWordsSmall = [
 'DOUGH', 'DOWEL', 'DOWNY', 'DOWRY', 'DOZEN', 'DRAFT', 'DRAIN', 
 'DRANK', 'DRAPE', 'DRAWL', 'DRAWN', 'DREAD', 'DREAM', 'DRESS', 'DRIED', 'DRIER', 'DRIFT',
 'DRILL', 'DRINK', 'DRIVE', 'DROIT', 'DROLL', 'DRONE', 'DROOL', 'DROOP', 'DROSS', 'DROVE',
-'DROWN', 'DRUID', 'DRYER', 'DRYLY', 'DUCHY', 'DULLY', 'DUMMY', 'DUMPY', 'DUNCE',
+'DROWN', 'DRUID', 'DRYER', 'DRYLY', 'DUCHY', 'DULLY', 'DUMMY', 'DUMPY', 'DUNCE', 'DURUM'
 'DUSKY', 'DUTCH', 'DUVET', 'DWARF', 'DWELL', 'DWELT', 'DYING', 'EAGER', 'EAGLE',
 'EARLY', 'EARTH', 'EASEL', 'EATER', 'EBONY', 'ECLAT', 'EDICT', 'EDIFY', 
 'EGRET', 'EIGHT', 'EJECT', 'EKING', 'ELATE', 'ELBOW', 'ELDER', 'ELECT', 'ELEGY', 
@@ -1813,7 +1814,7 @@ export const dailyWordsSmall = [
 'TONAL', 'TONER', 'TONGA', 'TONIC', 'TOOTH', 'TOPAZ', 'TOPIC', 'TORCH',
 'TORSO', 'TORTA', 'TORUS', 'TOTAL', 'TOTEM', 'TOUCH', 'TOUGH', 'TOWEL', 'TOWER', 'TOXIC', 
 'TOXIN',
-'TRACE', 'TRACK', 'TRACT', 'TRADE', 'TRAIL', 'TRAIN', 'TRAIT', 'TRAMP', 'TRASH', 'TRAWL',
+'TRACK', 'TRACT', 'TRADE', 'TRAIL', 'TRAIN', 'TRAIT', 'TRAMP', 'TRASH', 'TRAWL',
 'TREAD', 'TREAT', 'TREND', 'TRIAD', 'TRIAL', 'TRICE', 'TRICK', 'TRIED', 'TRIPE',
 'TRITE', 'TROLL', 'TROOP', 'TROPE', 'TROUT', 'TROVE', 'TRUCE', 'TRUCK', 'TRUER', 'TRULY',
 'TRUMP', 'TRUNK', 'TRUSS', 'TRUST', 'TRUTH', 'TRYST', 'TUBAL', 'TUBER', 'TULIP', 'TULLE',
@@ -3009,7 +3010,7 @@ export const dailyWordsLarge = [
     'TOSHY', 'TOSSY', 'TOTAL', 'TOTED', 'TOTEM', 'TOTER', 'TOTES', 'TOTTY', 'TOUCH', 'TOUGH',
     'TOUKS', 'TOUNS', 'TOURS', 'TOUSE', 'TOUSY', 'TOUTS', 'TOUZE', 'TOUZY', 'TOWED', 'TOWEL',
     'TOWER', 'TOWIE', 'TOWNS', 'TOWNY', 'TOWSE', 'TOWSY', 'TOWTS', 'TOWZE', 'TOWZY', 'TOXIC',
-    'TOXIN', 'TOYED', 'TOYER', 'TOYON', 'TOYOS', 'TOZED', 'TOZES', 'TOZIE', 'TRABS', 'TRACE',
+    'TOXIN', 'TOYED', 'TOYER', 'TOYON', 'TOYOS', 'TOZED', 'TOZES', 'TOZIE', 'TRABS', 
     'TRACK', 'TRACT', 'TRADE', 'TRADS', 'TRAGI', 'TRAIK', 'TRAIL', 'TRAIN', 'TRAIT', 'TRAMP',
     'TRAMS', 'TRANK', 'TRANQ', 'TRANS', 'TRANT', 'TRAPE', 'TRAPS', 'TRAPT', 'TRASH', 'TRASS',
     'TRATS', 'TRATT', 'TRAVE', 'TRAWL', 'TRAYF', 'TRAYS', 'TREAD', 'TREAT', 'TRECK', 'TREED',
@@ -25466,6 +25467,17 @@ export const wordleWords = [
         guess_5: null,
         guess_6: null,
       }, 
+      { word: "TRACE", 
+        gameDate: "8/21/26",
+        myScore: 4,
+        wordNumber: 1889,
+        guess_1: "SHALE",
+        guess_2: "GRAZE",
+        guess_3: "CRATE",
+        guess_4: "TRACE",
+        guess_5: null,
+        guess_6: null,
+      }, 
       
 
  
@@ -25485,7 +25497,7 @@ console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
 console.log("August 9, 2025, Mom: Hello, Again!" )
-console.log("August 20, 2026: Trump sux dykk000000000! MURKY")
+console.log("August 21, 2026: Trump sux dykk000000000! TRACE")
 
 console.log(wordleWords)
 
