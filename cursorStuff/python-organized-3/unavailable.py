@@ -246,7 +246,8 @@ my_list = {
     'TINGE', 'TIPSY', 'TITAN', 'TITHE', 'TITLE', 'TIZZY', 'TOAST', 'TODAY', 'TONIC', 'TOADY', 
     'TODDY', 'TOKEN', 'TOOTH',
     'TOPAZ', 'TOPIC', 'TORCH', 'TORSO', 'TOTAL', 'TOTEM', 'TOUCH', 'TOUGH', 'TOWEL', 'TOWER',
-    'TOXIC', 'TOXIN', 'TRACE', 'TRACK', 'TRACT', 'TRADE', 'TRAIL', 'TRAIN', 'TRAIT', 'TRASH',
+    'TOXIC', 'TOXIN', 'TRACE', 'TRACE', 'TRACK', 'TRACT', 'TRADE', 'TRAIL', 'TRAIN', 'TRAIT', 
+    'TRASH',
     'TRAWL', 'TREAT', 'TREND', 'TRIAD', 'TRIAL', 'TRIBE', 'TRICE', 'TRICK', 'TRIPE', 'TRITE', 
     'TROLL',
     'TROOP', 'TROPE', 'TROUT', 'TROVE', 'TRUCK', 'TRULY', 'TRUSS', 'TRUST', 'TRUTH', 'TRYST',
@@ -275,7 +276,7 @@ my_list = {
     'WROTE', 'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'MURKY'
+word_to_find = 'TRACE'
 
 
 if word_to_find in my_list:
