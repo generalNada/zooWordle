@@ -4,7 +4,7 @@ const flicksActionAdventure = [
     title: "Apocalypse Now",
     year: 1979,
     genre: "Action Adventure",
-    collection: ["AAA", "BBB"],
+    collection: null,
     dropboxUrl:
       "https://www.dropbox.com/scl/fi/zvara56xrmcnnymh3cpqg/APOCALYPSE_NOW.mp4?rlkey=2gkrun4hvz21ynx4ey8nmfptc&raw=1",
     downloadUrl:
