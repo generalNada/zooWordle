@@ -1378,7 +1378,8 @@ export const combinedWords = [
     'CRUMP', 'CRUSH', 'CRUST', 'CRYPT', 'CUBIC', 'CUBIT', 'CUMIN', 'CURIO', 'CURLY', 'CURRY', 
     'CURSE',
     'CURVE', 'CURVY', 'CUTIE', 'CYBER', 'CYCLE', 'CYNIC', 'DADDY', 'DAILY', 'DAIRY', 'DAISY',
-    'DALLY', 'DANCE', 'DANDY', 'DATUM', 'DAUNT', 'DEALT', 'DEATH', 'DEBAR', 'DEBIT', 'DEBUG',
+    'DALLY', 'DANCE', 'DANDY', 'DATUM', 'DAUNT', 'DEALT', 'DEARY', 'DEATH', 'DEBAR', 'DEBIT', 
+    'DEBUG',
     'DEBUT', 'DECAL', 'DECAY', 'DECOR', 'DECOY', 'DECRY', 'DEFER', 'DEIGN', 'DEITY', 'DELAY',
     'DELTA', 'DELVE', 'DEMON', 'DEMUR', 'DENIM', 'DENSE', 'DEPOT', 'DEPTH', 'DERBY', 'DETER',
     'DETOX', 'DEUCE', 'DEVIL', 'DIARY', 'DICEY', 'DIGIT', 'DILLY', 'DIMLY', 'DINER', 'DINGO',
@@ -1645,7 +1646,8 @@ export const dailyWordsSmall = [
 'CRONE', 'CRONY', 'CROOK', 'CROSS', 'CROUP', 'CROWD', 'CROWN', 'CRUEL', 'CRUMB',
 'CRUMP', 'CRUSH', 'CRUST', 'CRYPT', 'CUBIC', 'CUMIN', 'CURIO', 'CURLY', 'CURSE',
 'CURVE', 'CURVY', 'CUTIE', 'CYBER', 'CYNIC', 'DADDY', 'DAILY', 'DAIRY', 'DAISY',
-'DALLY', 'DANCE', 'DANDY', 'DATUM', 'DAUNT', 'DEALT', 'DEATH', 'DEBAR', 'DEBIT', 'DEBUG',
+'DALLY', 'DANCE', 'DANDY', 'DATUM', 'DAUNT', 'DEALT', 'DEARY', 'DEATH', 'DEBAR', 'DEBIT', 
+'DEBUG',
 'DEBUT', 'DECAL', 'DECAY', 'DECOR', 'DECOY', 'DECRY', 'DEFER', 'DEIGN', 'DEITY', 'DELAY',
 'DELTA', 'DELVE', 'DENIM', 'DEPOT', 'DEPTH', 'DERBY', 'DETER',
 'DETOX', 'DEUCE', 'DEVIL', 'DIARY', 'DICEY', 'DIGIT', 'DILLY', 'DIMLY', 'DINER', 'DINGO',
@@ -1744,7 +1746,7 @@ export const dailyWordsSmall = [
 'PLANK', 'PLANT', 'PLATE', 'PLAZA', 'PLEAD', 'PLEAT', 'PLIED', 'PLIER', 'PLUCK', 'PLUMB',
 'PLUMP', 'PLUNK', 'PLUSH', 'POESY', 'POINT', 'POISE', 'POKER', 'POLAR', 'POLKA',
 'POLYP', 'POOCH', 'POPPY', 'PORCH', 'POSSE', 'POUCH', 'POUND', 'POUTY',
-'POWER', 'PRANK', 'PRAWN', 'PREEN', 'PRESS', 'PRICE', 'PRICK', 'PRIDE', 'PRIED', 'PRIME',
+'POWER', 'PRANK', 'PREEN', 'PRESS', 'PRICE', 'PRICK', 'PRIDE', 'PRIED', 'PRIME',
 'PRIMO', 'PRIMP', 'PRINT', 'PRIOR', 'PRISM', 'PRIZE', 'PROBE', 'PRONE', 'PRONG',
 'PROOF', 'PROSE', 'PROUD', 'PROVE', 'PROWL', 'PROXY', 'PRUNE', 'PSALM', 'PUBIC',
 'PUDGY', 'PULPY', 'PULSE', 'PUNCH', 'PUPIL', 'PUREE', 'PURER', 'PURGE',
@@ -2703,7 +2705,7 @@ export const dailyWordsLarge = [
     'POURS', 'POUTS', 'POUTY', 'POWAN', 'POWER', 'POWIN', 'POWND', 'POWNS', 'POWNY', 'POWRE',
     'POXED', 'POXES', 'POYNT', 'POYOU', 'POYSE', 'POZZY', 'PRAAM', 'PRADS', 'PRAHU', 'PRAMS',
     'PRANA', 'PRANG', 'PRANK', 'PRAOS', 'PRASE', 'PRATE', 'PRATS', 'PRATT', 'PRATY', 'PRAUS',
-    'PRAWN', 'PRAYS', 'PREDY', 'PREED', 'PREEN', 'PREES', 'PREIF', 'PREMS', 'PREMY', 'PRENT',
+    'PRAYS', 'PREDY', 'PREED', 'PREEN', 'PREES', 'PREIF', 'PREMS', 'PREMY', 'PRENT',
     'PREON', 'PREOP', 'PREPS', 'PRESA', 'PRESE', 'PRESS', 'PREST', 'PREVE', 'PREXY', 'PREYS',
     'PRIAL', 'PRICE', 'PRICK', 'PRICY', 'PRIDE', 'PRIED', 'PRIEF', 'PRIER', 'PRIES', 'PRIGS',
     'PRILL', 'PRIMA', 'PRIME', 'PRIMI', 'PRIMO', 'PRIMP', 'PRIMS', 'PRIMY', 'PRINK', 'PRINT',
@@ -25478,6 +25480,17 @@ export const wordleWords = [
         guess_5: null,
         guess_6: null,
       }, 
+      { word: "PRAWN", 
+        gameDate: "8/22/26",
+        myScore: 3,
+        wordNumber: 1890,
+        guess_1: "CLAIM",
+        guess_2: "ROAST",
+        guess_3: "PRAWN",
+        guess_4: null,,
+        guess_5: null,
+        guess_6: null,
+      }, 
       
 
  
@@ -25497,7 +25510,7 @@ console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
 console.log("August 9, 2025, Mom: Hello, Again!" )
-console.log("August 21, 2026: Trump sux dykk000000000! TRACE")
+console.log("August 22, 2026: Trump sux dykk000000000! PRAWN")
 
 console.log(wordleWords)
 
