@@ -50,7 +50,7 @@ function normalizeForSearch(text) {
   for (const [word, digit] of Object.entries(wordToDigit)) {
     result = result.replace(
       new RegExp(`\\b${word}\\b`, "g"),
-      `${word} ${digit}`
+      `${word} ${digit}`,
     );
   }
 
@@ -58,7 +58,7 @@ function normalizeForSearch(text) {
 }
 
 const wordToDigit = Object.fromEntries(
-  Object.entries(digitToWord).map(([d, w]) => [w, d])
+  Object.entries(digitToWord).map(([d, w]) => [w, d]),
 );
 
 let isSingleView = false;
@@ -147,8 +147,21 @@ function populateCollectionDropdown() {
   collectionSelect.appendChild(nullOption);
 
   // Get unique collections, excluding null/undefined
+  // const collections = [
+  //   ...new Set(movies.map((m) => m.collection).filter(Boolean)),
+  // ].sort();
   const collections = [
-    ...new Set(movies.map((m) => m.collection).filter(Boolean)),
+    ...new Set(
+      movies.flatMap((m) => {
+        if (Array.isArray(m.collection)) {
+          return m.collection;
+        } else if (m.collection) {
+          return [m.collection];
+        } else {
+          return [];
+        }
+      }),
+    ),
   ].sort();
 
   // Add other collection options
@@ -195,9 +208,16 @@ function applyFilters() {
     if (currentCollection === "null") {
       filtered = filtered.filter((movie) => movie.collection === null);
     } else {
-      filtered = filtered.filter(
-        (movie) => movie.collection === currentCollection
-      );
+      // filtered = filtered.filter(
+      //   (movie) => movie.collection === currentCollection,
+      // );
+      filtered = filtered.filter((movie) => {
+        if (Array.isArray(movie.collection)) {
+          return movie.collection.includes(currentCollection);
+        } else {
+          return movie.collection === currentCollection;
+        }
+      });
     }
   } else if (currentGenre && currentGenre !== "all") {
     filtered = filtered.filter((movie) => movie.genre === currentGenre);
@@ -211,7 +231,7 @@ function applyFilters() {
 
   if (refFilter) {
     filtered = filtered.filter(
-      (movie) => String(movie.ref) === String(refFilter)
+      (movie) => String(movie.ref) === String(refFilter),
     );
   } else {
     filtered = filtered.filter((movie) => {
@@ -230,7 +250,7 @@ function applyFilters() {
       const keywordWords = keywordInput.split(/\s+/).filter(Boolean);
       const keywordMatch = keywordWords.every(
         (word) =>
-          normalizedTitle.includes(word) || normalizedGenre.includes(word)
+          normalizedTitle.includes(word) || normalizedGenre.includes(word),
       );
 
       // Year match
@@ -245,7 +265,7 @@ function applyFilters() {
   }
 
   filtered = filtered.sort((a, b) =>
-    getSortTitle(a.title).localeCompare(getSortTitle(b.title))
+    getSortTitle(a.title).localeCompare(getSortTitle(b.title)),
   );
 
   if (filtered.length === 0) {
@@ -260,8 +280,8 @@ function applyFilters() {
     div.innerHTML = `
       <h3>${movie.title} (${movie.year})</h3>
       <p><strong>Genre:</strong> ${movie.genre} <span class="ref-num">[Ref #${
-      movie.ref || "N/A"
-    }]</span></p>
+        movie.ref || "N/A"
+      }]</span></p>
       <button class="view-movie" data-movie-id="${
         movie.title
       }">View Movie</button>
@@ -308,8 +328,8 @@ function showSingleMovie(movieTitle) {
   selectedMovie.innerHTML = `
       <h2>${movie.title} (${movie.year})</h2>
       <p><strong>Genre:</strong> ${movie.genre} <span class="ref-num">[Ref #${
-    movie.ref || "N/A"
-  }]</span></p>
+        movie.ref || "N/A"
+      }]</span></p>
       <video id="moviePlayer" width="600" controls>
         <source src="${movie.dropboxUrl}" type="video/mp4">
         Your browser does not support the video tag.
@@ -365,7 +385,7 @@ function showSingleMovie(movieTitle) {
   // Set repeatsLeft when a new movie is loaded (i.e., when showSingleMovie is called)
   repeatsLeft = Math.max(
     0,
-    parseInt(repeatInput ? repeatInput.value : 0, 10) || 0
+    parseInt(repeatInput ? repeatInput.value : 0, 10) || 0,
   );
   updateRepeatsLeftDisplay();
 
