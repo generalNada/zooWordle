@@ -25487,7 +25487,7 @@ export const wordleWords = [
         guess_1: "CLAIM",
         guess_2: "ROAST",
         guess_3: "PRAWN",
-        guess_4: null,,
+        guess_4: null,
         guess_5: null,
         guess_6: null,
       }, 
