@@ -378,7 +378,7 @@ const flicksCrimeDrama = [
     title: "Heat",
     year: 1995,
     genre: "Crime Drama",
-    collection: null,
+    collection: "Pet Things",
     dropboxUrl:
       "https://www.dropbox.com/scl/fi/9ppdpmrihhdh9jd5hi1z8/HEAT.mp4?rlkey=ztb6sdhs27bh7urivklgv49zg&raw=1",
     downloadUrl:
@@ -724,7 +724,7 @@ const flicksCrimeDrama = [
       "https://www.dropbox.com/scl/fi/32io2pm9p0vrz7d6wpe1g/UNTOUCHABLES.mp4?rlkey=y93nw01h3903kck7fzefr73f8&raw=1",
     downloadUrl:
       "https://www.dropbox.com/scl/fi/32io2pm9p0vrz7d6wpe1g/UNTOUCHABLES.mp4?rlkey=y93nw01h3903kck7fzefr73f8&dl=1",
-  }
+  },
 ];
 
 module.exports = flicksCrimeDrama;

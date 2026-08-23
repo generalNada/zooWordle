@@ -48,7 +48,7 @@ const flicksBlackComedy = [
     title: "Baby",
     year: 1973,
     genre: "Black Comedy",
-    collection: null,
+    collection: "Pet Things",
     dropboxUrl:
       "https://www.dropbox.com/scl/fi/kkieq02fbgqonnaqfyfh6/BABY.mp4?rlkey=ff9tcjqycb1vm9cgon53z9ijv&raw=1",
     downloadUrl:
@@ -70,7 +70,7 @@ const flicksBlackComedy = [
     title: "Beetlejuice",
     year: 1988,
     genre: "Black Comedy",
-    collection: null,
+    collection: "Pet Things",
     dropboxUrl:
       "https://www.dropbox.com/scl/fi/dpm2yzy3zxyipw9ks756h/BEETLEJUICE.mp4?rlkey=fj0xhlxrp46j9qpbl6j7z7o9o&raw=1",
     downloadUrl:
@@ -356,7 +356,7 @@ const flicksBlackComedy = [
     title: "Glengarry Glen Ross",
     year: 1992,
     genre: "Black Comedy",
-    collection: null,
+    collection: "Pet Things",
     dropboxUrl:
       "https://www.dropbox.com/scl/fi/5zp86aqpfc69322t6tzz1/GLENGARRY_GLENROSS.mp4?rlkey=3v60dytj0a2urdq4ryj9b1ivx&raw=1",
     downloadUrl:
@@ -433,7 +433,7 @@ const flicksBlackComedy = [
     title: "Inglourious Basterds",
     year: 2009,
     genre: "Black Comedy",
-    collection: null,
+    collection: "Pet Things",
     dropboxUrl:
       "https://www.dropbox.com/scl/fi/knoq4mja2dhcmq7d7k7ea/INGLOURIOUS_BASTERDS.mp4?rlkey=v42k4mq681r1p7kvosruzui9h&raw=1",
     downloadUrl:
@@ -444,7 +444,7 @@ const flicksBlackComedy = [
     title: "Kill Bill: Vol. 1",
     year: 2003,
     genre: "Black Comedy",
-    collection: null,
+    collection: "Pet Things",
     dropboxUrl:
       "https://www.dropbox.com/scl/fi/gw8fh3d8dpwne7ml0brjx/KILL_BILL_VOL1.mp4?rlkey=1n5ndg1htb4um35jumt40g9sx&raw=1",
     downloadUrl:
@@ -455,7 +455,7 @@ const flicksBlackComedy = [
     title: "Kill Bill: Vol. 2",
     year: 2004,
     genre: "Black Comedy",
-    collection: null,
+    collection: "Pet Things",
     dropboxUrl:
       "https://www.dropbox.com/scl/fi/pnhqmigomyja50hzih8iz/KILL_BILL_VOL2.mp4?rlkey=8iuz5gusnwe7vh3loyz7af1dh&raw=1",
     downloadUrl:
@@ -587,7 +587,7 @@ const flicksBlackComedy = [
     title: "Pulp Fiction",
     year: 1994,
     genre: "Black Comedy",
-    collection: null,
+    collection: "Pet Things",
     dropboxUrl:
       "https://www.dropbox.com/scl/fi/mzvfqdewq1x06drsmwug9/PULP_FICTION.mp4?rlkey=84tsb8f031o8qjc1e3xehiqia&raw=1",
     downloadUrl:
@@ -598,7 +598,7 @@ const flicksBlackComedy = [
     title: "Raising Arizona",
     year: 1987,
     genre: "Black Comedy",
-    collection: null,
+    collection: "Pet Things",
     dropboxUrl:
       "https://www.dropbox.com/scl/fi/7iqzbsctrdt5wxdq46xlg/RAISING_ARIZONA.mp4?rlkey=0rv42dtfylel5nkdxa9nbavpo&raw=1",
     downloadUrl:
@@ -653,7 +653,7 @@ const flicksBlackComedy = [
     title: "Sideways",
     year: 2004,
     genre: "Black Comedy",
-    collection: null,
+    collection: "Pet Things",
     dropboxUrl:
       "https://www.dropbox.com/scl/fi/ht9a50tmjjfgx4ar47k3p/SIDEWAYS.mp4?rlkey=swnk6v60cl6k8kok87le4mw3x&raw=1",
     downloadUrl:
@@ -730,7 +730,7 @@ const flicksBlackComedy = [
     title: "Vampires Kiss",
     year: 1998,
     genre: "Black Comedy",
-    collection: null,
+    collection: "Pet Things",
     dropboxUrl:
       "https://www.dropbox.com/scl/fi/28l3gaqxocs0q3xsmphif/VAMPIRES_KISS.mp4?rlkey=4i6io5d8pwv8ylud49k1lnqfr&st=z0lcvli5&raw=1",
     downloadUrl:
@@ -746,7 +746,7 @@ const flicksBlackComedy = [
       "https://www.dropbox.com/scl/fi/6xgvy6us99y7g6hgbyza6/WILD_BUNCH.mp4?rlkey=joyr0ihi47u08v2r5hui6b24p&st=8g0pdn5b&raw=1",
     downloadUrl:
       "https://www.dropbox.com/scl/fi/6xgvy6us99y7g6hgbyza6/WILD_BUNCH.mp4?rlkey=joyr0ihi47u08v2r5hui6b24p&st=8g0pdn5b&dl=1",
-  }
+  },
 ];
 
 module.exports = flicksBlackComedy;

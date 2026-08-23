@@ -26,7 +26,7 @@ const flicksComedy = [
     title: "Airplane",
     year: 1980,
     genre: "Comedy",
-    collection: null,
+    collection: "Pet Things",
     dropboxUrl:
       "https://www.dropbox.com/scl/fi/h7smb1z9rf31xoty8kv3h/Airplane.mp4?rlkey=tr4yazfk7u1res1olqod5r21t&raw=1",
     downloadUrl:
@@ -48,7 +48,7 @@ const flicksComedy = [
     title: "Along Came Polly",
     year: 2004,
     genre: "Comedy",
-    collection: null,
+    collection: "Pet Things",
     dropboxUrl:
       "https://www.dropbox.com/scl/fi/fh7rdgykffro5xtl1xqpx/ALONG_CAME_POLLY.mp4?rlkey=4hll7ydkgze5876qgh208z68r&raw=1",
     downloadUrl:
@@ -213,7 +213,7 @@ const flicksComedy = [
     title: "Christmas Vacation",
     year: 1989,
     genre: "Comedy",
-    collection: null,
+    collection: "Pet Things",
     dropboxUrl:
       "https://www.dropbox.com/scl/fi/hfljrt995t5qplf2g7gc4/CHRISTMAS_VACATION.mp4?rlkey=rkhobb0pfy0nxbyab0ser4a2q&raw=1",
     downloadUrl:
@@ -224,7 +224,7 @@ const flicksComedy = [
     title: "Chocolat - French Version",
     year: 2000,
     genre: "Comedy",
-    collection: null,
+    collection: "Pet Things",
     dropboxUrl:
       "https://www.dropbox.com/scl/fi/ip3ufidimx0i2odeit1qx/CHOCOLAT.mp4?rlkey=7wj3klyu9o2krhrydoh4vrh4s&raw=1",
     downloadUrl:
@@ -268,7 +268,7 @@ const flicksComedy = [
     title: "European Vacation",
     year: 1985,
     genre: "Comedy",
-    collection: null,
+    collection: "Pet Things",
     dropboxUrl:
       "https://www.dropbox.com/scl/fi/as7sjsr0kk9j6bigu9q14/EUROPEAN_VACATION.mp4?rlkey=yti25wvnd1ysuqc6jgsqomnnp&raw=1",
     downloadUrl:
@@ -279,7 +279,7 @@ const flicksComedy = [
     title: "Fast Times at Ridgemont High",
     year: 1982,
     genre: "Comedy",
-    collection: null,
+    collection: "Pet Things",
     dropboxUrl:
       "https://www.dropbox.com/scl/fi/02gf6vv93wo0t16fgst44/FAST_TIMES_AT_RIDGEMONT_HIGH.mp4?rlkey=90gfkbttcwkfaau9ojd4ulq38&raw=1",
     downloadUrl:
@@ -290,7 +290,7 @@ const flicksComedy = [
     title: "Ferris Bueller's Day Off",
     year: 1986,
     genre: "Comedy",
-    collection: null,
+    collection: "Pet Things",
     dropboxUrl:
       "https://www.dropbox.com/scl/fi/eqkihjrau32lnd1fnf0hs/FERRIS_BUELERS_DAY_OFF.mp4?rlkey=crlkdgllvvu1lmcgwpd1utz5h&raw=1",
     downloadUrl:
@@ -312,7 +312,7 @@ const flicksComedy = [
     title: "Fletch",
     year: 1985,
     genre: "Comedy",
-    collection: null,
+    collection: "Pet Things",
     dropboxUrl:
       "https://www.dropbox.com/scl/fi/iw4lo4tpi44h4j0wfrhin/FLETCH.mp4?rlkey=vemjme92dhwiirdyzc7wu53ze&raw=1",
     downloadUrl:
@@ -411,7 +411,7 @@ const flicksComedy = [
     title: "Mermaids",
     year: 1990,
     genre: "Comedy",
-    collection: null,
+    collection: "Pet Things",
     dropboxUrl:
       "https://www.dropbox.com/scl/fi/goqjj9n52bjp2ytafx3f2/MERMAIDS.mp4?rlkey=duv5rm5k8h9t72fdtt7ek7tsb&raw=1",
     downloadUrl:
@@ -422,7 +422,7 @@ const flicksComedy = [
     title: "Midnight Run",
     year: 1988,
     genre: "Comedy",
-    collection: null,
+    collection: "Pet Things",
     dropboxUrl:
       "https://www.dropbox.com/scl/fi/qwslpwf17g892qf25zzlm/MIDNIGHT_RUN.mp4?rlkey=xp3ddmnp4880y9pljqprwxns3&raw=1",
     downloadUrl:
@@ -433,7 +433,7 @@ const flicksComedy = [
     title: "Office Space",
     year: 1999,
     genre: "Comedy",
-    collection: null,
+    collection: "Pet Things",
     dropboxUrl:
       "https://www.dropbox.com/scl/fi/3jxpxa29st2vcq0c879ct/OFFICE_SPACE.mp4?rlkey=vqjypzx2wuk3qok7eeop17mx2&raw=1",
     downloadUrl:
@@ -444,7 +444,7 @@ const flicksComedy = [
     title: "Old School",
     year: 2003,
     genre: "Comedy",
-    collection: null,
+    collection: "Pet Things",
     dropboxUrl:
       "https://www.dropbox.com/scl/fi/ws2x7sojypfe0c006d6s5/OLD_SCHOOL.mp4?rlkey=tqhu2y5xxu2wa2lrgffteyhoa&raw=1",
     downloadUrl:
@@ -510,7 +510,7 @@ const flicksComedy = [
     title: "Reality Bites",
     year: 1994,
     genre: "Comedy",
-    collection: null,
+    collection: "Pet Things",
     dropboxUrl:
       "https://www.dropbox.com/scl/fi/cmr2j2xmvc6ndmawnr22b/Reality.Bites.mp4?rlkey=m23fcd8o35l85f6s0guksibj2&raw=1",
     downloadUrl:
@@ -664,7 +664,7 @@ const flicksComedy = [
     title: "Valley Girl",
     year: 1983,
     genre: "Comedy",
-    collection: null,
+    collection: "Pet Things",
     dropboxUrl:
       "https://www.dropbox.com/scl/fi/193zo74y71gv3glixnj0a/VALLEY_GIRL.mp4?rlkey=24hnfojjr0am7faowl0gtky2c&raw=1",
     downloadUrl:
@@ -697,7 +697,7 @@ const flicksComedy = [
     title: "Wedding Crashers",
     year: 2005,
     genre: "Comedy",
-    collection: null,
+    collection: "Pet Things",
     dropboxUrl:
       "https://www.dropbox.com/scl/fi/p67ofaefdv35efimjdvg4/WEDDING_CRASHERS.mp4?rlkey=jfo8a1ho964jfqv7tzo2ll3w5&raw=1",
     downloadUrl:
@@ -719,7 +719,7 @@ const flicksComedy = [
     title: "Whitest Kids U' Know - Season 1, Disc 1",
     year: 2007,
     genre: "Comedy",
-    collection: "Whitest Kids You Know",
+    collection: ["Whitest Kids You Know", "Pet Things"],
     dropboxUrl:
       "https://www.dropbox.com/scl/fi/lveot0rx0v0cwy3bmn6bt/WHITEST_KIDS_S1_D1.mp4?rlkey=vwbulp8sesxh1yer33nt87q1v&raw=1",
     downloadUrl:
@@ -730,7 +730,7 @@ const flicksComedy = [
     title: "Whitest Kids U' Know - Season 1, Disc 2",
     year: 2007,
     genre: "Comedy",
-    collection: "Whitest Kids You Know",
+    collection: ["Whitest Kids You Know", "Pet Things"],
     dropboxUrl:
       "https://www.dropbox.com/scl/fi/y4ejvsqc113v0sdq79o29/WHITEST_KIDS_S1_D2.mp4?rlkey=30g93sd338kc8v089tlm6k5sj&raw=1",
     downloadUrl:
@@ -741,7 +741,7 @@ const flicksComedy = [
     title: "Whitest Kids U' Know - Season 2, Disc 1",
     year: 2008,
     genre: "Comedy",
-    collection: "Whitest Kids You Know",
+    collection: ["Whitest Kids You Know", "Pet Things"],
     dropboxUrl:
       "https://www.dropbox.com/scl/fi/tw6smm8i1pbyirytjx48u/WHITEST_KIDS_S2_D1.mp4?rlkey=oh0w91u415c3so6mkog5zikz9&raw=1",
     downloadUrl:
@@ -752,7 +752,7 @@ const flicksComedy = [
     title: "Whitest Kids U' Know - Season 2, Disc 2",
     year: 2008,
     genre: "Comedy",
-    collection: "Whitest Kids You Know",
+    collection: ["Whitest Kids You Know", "Pet Things"],
     dropboxUrl:
       "https://www.dropbox.com/scl/fi/4fkyzwx649bhz5gpwsibs/WHITEST_KIDS_S2_D2.mp4?rlkey=oovz4xwsni2nopkpd2owk1jwv&raw=1",
     downloadUrl:
@@ -763,7 +763,7 @@ const flicksComedy = [
     title: "Whitest Kids U' Know - Season 3, Disc 1",
     year: 2009,
     genre: "Comedy",
-    collection: "Whitest Kids You Know",
+    collection: ["Whitest Kids You Know", "Pet Things"],
     dropboxUrl:
       "https://www.dropbox.com/scl/fi/8omlako55hqzw8p70z9yh/WHITEST_KIDS_S3_D1.mp4?rlkey=237ftu72yd4bnoske67j6ssc5&raw=1",
     downloadUrl:
@@ -774,7 +774,7 @@ const flicksComedy = [
     title: "Whitest Kids U' Know - Season 3, Disc 2",
     year: 2009,
     genre: "Comedy",
-    collection: "Whitest Kids You Know",
+    collection: ["Whitest Kids You Know", "Pet Things"],
     dropboxUrl:
       "https://www.dropbox.com/scl/fi/4rqt20o2r8ywjcu45vsmw/WHITEST_KIDS_S3_D2_.mp4?rlkey=izyf20bfavyk7576m126igatm&raw=1",
     downloadUrl:
@@ -796,12 +796,12 @@ const flicksComedy = [
     title: "Zoolander",
     year: 2001,
     genre: "Comedy",
-    collection: null,
+    collection: "Pet Things",
     dropboxUrl:
       "https://www.dropbox.com/scl/fi/awsrm1f1lv1h74hiy3rvx/ZOOLANDER.mp4?rlkey=7okj0a23n9riwnzcnx24xhbzz&raw=1",
     downloadUrl:
       "https://www.dropbox.com/scl/fi/awsrm1f1lv1h74hiy3rvx/ZOOLANDER.mp4?rlkey=7okj0a23n9riwnzcnx24xhbzz&dl=1",
-  }
+  },
 ];
 
 module.exports = flicksComedy;
