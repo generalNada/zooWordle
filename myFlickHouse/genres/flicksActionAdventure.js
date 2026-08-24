@@ -790,7 +790,7 @@ const flicksActionAdventure = [
       "https://www.dropbox.com/scl/fi/5rd47zxcy9iaezkl0w0x3/ZORBA_THE_GREEK.mp4?rlkey=qb1zsmoqzrnaq29wfhz2t969y&raw=1",
     downloadUrl:
       "https://www.dropbox.com/scl/fi/5rd47zxcy9iaezkl0w0x3/ZORBA_THE_GREEK.mp4?rlkey=qb1zsmoqzrnaq29wfhz2t969y&dl=1",
-  }
+  },
 ];
 
 module.exports = flicksActionAdventure;

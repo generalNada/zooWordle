@@ -37,7 +37,7 @@ const flicksHorror = [
     title: "1408",
     year: 2007,
     genre: "Horror",
-    collection: null,
+    collection: "Pet Things",
     dropboxUrl:
       "https://www.dropbox.com/scl/fi/litc7i2xj0w1khe5r09a9/1408.mp4?rlkey=bqfkag30026cvbo91f3ox4a37&raw=1",
     downloadUrl:
@@ -70,7 +70,7 @@ const flicksHorror = [
     title: "Blair Witch Project",
     year: 1999,
     genre: "Horror",
-    collection: null,
+    collection: "Pet Things",
     dropboxUrl:
       "https://www.dropbox.com/scl/fi/4ennj1itz318xr36y1cqk/BLAIR_WITCH_PROJECT.mp4?rlkey=gvemkpefkfpcsq65ogbldxu7y&raw=1",
     downloadUrl:
@@ -81,7 +81,7 @@ const flicksHorror = [
     title: "The Box",
     year: 2009,
     genre: "Horror",
-    collection: null,
+    collection: "Pet Things",
     dropboxUrl:
       "https://www.dropbox.com/scl/fi/1jx5h7s00bp9y7ne87vug/BOX.mp4?rlkey=c9t9d7p3u4hrejhpyxpro1xa5&raw=1",
     downloadUrl:
@@ -114,7 +114,7 @@ const flicksHorror = [
     title: "Candyman",
     year: 1992,
     genre: "Horror",
-    collection: null,
+    collection: "Pet Things",
     dropboxUrl:
       "https://www.dropbox.com/scl/fi/kihi007kyjguur9roqlko/CANDYMAN.mp4?rlkey=ft03xu3ravrccsdkti062w5zj&raw=1",
     downloadUrl:
@@ -345,7 +345,7 @@ const flicksHorror = [
     title: "Final Destination",
     year: 2000,
     genre: "Horror",
-    collection: null,
+    collection: "Pet Things",
     dropboxUrl:
       "https://www.dropbox.com/scl/fi/xo2ff6ikz0m9pdpa5nitp/FINAL_DESTINATION.mp4?rlkey=4upe5xckkfyt9rqdov72u50tl&raw=1",
     downloadUrl:
@@ -433,7 +433,7 @@ const flicksHorror = [
     title: "Funny Games",
     year: 2007,
     genre: "Horror",
-    collection: null,
+    collection: "Pet Things",
     dropboxUrl:
       "https://www.dropbox.com/scl/fi/qpu3l64sroa295hkq4c57/FUNNY_GAMES.mp4?rlkey=vveqy1ywfc3uooxqygv3el85h&raw=1",
     downloadUrl:
@@ -488,7 +488,7 @@ const flicksHorror = [
     title: "The Grudge",
     year: 2004,
     genre: "Horror",
-    collection: null,
+    collection: "Pet Things",
     dropboxUrl:
       "https://www.dropbox.com/scl/fi/7oqmjt30ycjr40e12zbw0/GRUDGE.mp4?rlkey=8w74yj0zvwwuue161jna328w4&raw=1",
     downloadUrl:
@@ -521,7 +521,7 @@ const flicksHorror = [
     title: "High Tension",
     year: 2003,
     genre: "Horror",
-    collection: null,
+    collection: "Pet Things",
     dropboxUrl:
       "https://www.dropbox.com/scl/fi/6ozryu7zzc2sxa1ygp3mz/HIGH_TENSION.mp4?rlkey=4mm822qls39raexs4xplnuw5f&raw=1",
     downloadUrl:
@@ -873,7 +873,7 @@ const flicksHorror = [
     title: "The Purge",
     year: 2013,
     genre: "Horror",
-    collection: null,
+    collection: "Pet Things",
     dropboxUrl:
       "https://www.dropbox.com/scl/fi/4lckcshs8rn0dm9909zkc/PURGE.mp4?rlkey=vq39ah4jd3qungzjsbuan9xkk&raw=1",
     downloadUrl:
@@ -906,7 +906,7 @@ const flicksHorror = [
     title: "The Ring",
     year: 2002,
     genre: "Horror",
-    collection: null,
+    collection: "Pet Things",
     dropboxUrl:
       "https://www.dropbox.com/scl/fi/55rrgr9zq9xtkd1oa9xuz/RING.mp4?rlkey=7aye9vdqjg2fq3omaweorkowq&raw=1",
     downloadUrl:
@@ -1049,7 +1049,7 @@ const flicksHorror = [
     title: "Trilogy of Terror",
     year: 1975,
     genre: "Horror",
-    collection: null,
+    collection: "Pet Things",
     dropboxUrl:
       "https://www.dropbox.com/scl/fi/t0dwl3qeytr9l7wqyey1u/TRILOGY-OF-TERROR.mp4?rlkey=8bknvjraa73aqmzvu53lajw19&raw=1",
     downloadUrl:
@@ -1104,7 +1104,7 @@ const flicksHorror = [
     title: "VVitch",
     year: 2015,
     genre: "Horror",
-    collection: null,
+    collection: "Pet Things",
     dropboxUrl:
       "https://www.dropbox.com/scl/fi/zdavksk0y43r6y77s77fs/VVitch.mp4?rlkey=sdkwfwcpexpbthoybsnqyati2&raw=1",
     downloadUrl:
@@ -1126,12 +1126,12 @@ const flicksHorror = [
     title: "Wolf Creek",
     year: 2005,
     genre: "Horror",
-    collection: null,
+    collection: "Pet Things",
     dropboxUrl:
       "https://www.dropbox.com/scl/fi/294jh4k8ah2nh7ocqtfub/WOLF_CREEK.mp4?rlkey=q7vyxnplqf2olnp826w7kerax&dl=1",
     downloadUrl:
       "https://www.dropbox.com/scl/fi/294jh4k8ah2nh7ocqtfub/WOLF_CREEK.mp4?rlkey=q7vyxnplqf2olnp826w7kerax&dl=1",
-  }
+  },
 ];
 
 module.exports = flicksHorror;

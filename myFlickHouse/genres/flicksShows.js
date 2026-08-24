@@ -59,7 +59,7 @@ const flicksShows = [
     title: "The Office (UK) - Season 1, Disc 1",
     year: 2001,
     genre: "Shows",
-    collection: "The Office",
+    collection: ["The Office", "Pet Things"],
     dropboxUrl:
       "https://www.dropbox.com/scl/fi/fuqh6v4hmo11ef3wc4nhp/THE_OFFICE_S1_D1.mp4?rlkey=18b27ixix3vep0e9nha4g35rm&raw=1",
     downloadUrl:
@@ -70,7 +70,7 @@ const flicksShows = [
     title: "The Office (UK) - Season 1, Disc 2",
     year: 2001,
     genre: "Shows",
-    collection: "The Office",
+    collection: ["The Office", "Pet Things"],
     dropboxUrl:
       "https://www.dropbox.com/scl/fi/6rycnho91ekm738x2zn4u/THE_OFFICE_S1_D2.mp4?rlkey=n52bhdr7skbbhrmuft1wr3xc9&raw=1",
     downloadUrl:
@@ -81,7 +81,7 @@ const flicksShows = [
     title: "The Office (UK) - Season 2, Disc 1",
     year: 2002,
     genre: "Shows",
-    collection: "The Office",
+    collection: ["The Office", "Pet Things"],
     dropboxUrl:
       "https://www.dropbox.com/scl/fi/8od2bss3ezjyw2luuo93v/THE_OFFICE_S2_D1_.mp4?rlkey=ogs77zk66c3dtl2m0t2m5lzz6&raw=1",
     downloadUrl:
@@ -92,7 +92,7 @@ const flicksShows = [
     title: "The Office (UK) - The Christmas Special",
     year: 2003,
     genre: "Shows",
-    collection: "The Office",
+    collection: ["The Office", "Pet Things"],
     dropboxUrl:
       "https://www.dropbox.com/scl/fi/ewm6oe09yj6yy8vd4n8nm/THE_OFFICE_S2_THE_CHRISTMAS_SPECIA.mp4?rlkey=wrcvofwuloyvd04wvka3pluh9&raw=1",
     downloadUrl:
