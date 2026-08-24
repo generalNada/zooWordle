@@ -169,7 +169,7 @@ const flicksThriller = [
     title: "The Gift",
     year: 2000,
     genre: "Thriller",
-    collection: null,
+    collection: "Pet Things",
     dropboxUrl:
       "https://www.dropbox.com/scl/fi/aj7p5v64zcik3cbeszuuq/GIFT.mp4?rlkey=vguyyhwdz8upxbqti4h18gnrk&raw=1",
     downloadUrl:
@@ -411,7 +411,7 @@ const flicksThriller = [
     title: "The Sixth Sense",
     year: 1999,
     genre: "Thriller",
-    collection: null,
+    collection: "Pet Things",
     dropboxUrl:
       "https://www.dropbox.com/scl/fi/b2myj88ombll50hdc3dbs/SIXTH_SENSE.mp4?rlkey=1y6kj32gagjwfb3wr3m3acgdl&raw=1",
     downloadUrl:
@@ -471,7 +471,7 @@ const flicksThriller = [
       "https://www.dropbox.com/scl/fi/hfu9pvcryb6akcnz2zwku/WILD_THINGS.mp4?rlkey=3o601xvoavdgl9uy7vklaclf7&raw=1",
     downloadUrl:
       "https://www.dropbox.com/scl/fi/hfu9pvcryb6akcnz2zwku/WILD_THINGS.mp4?rlkey=3o601xvoavdgl9uy7vklaclf7&dl=1",
-  }
+  },
 ];
 
 module.exports = flicksThriller;
