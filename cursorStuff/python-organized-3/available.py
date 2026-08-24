@@ -34,7 +34,7 @@ unused_list = [
     "MEATY", "MECCA", "MELEE", "MILKY", "MINIM", "MINOR", "MISSY", "MOCHA", "MOODY", "MORON",
     "MOUND", "MOWER", "MUCUS", "MUDDY", "MUSKY", "NACHO",
     "NEWER", "NINNY", "NOOSE", "NOSEY", "NUTTY", "OAKEN",
-    "OASES", "OBESE", "OCTAL", "ODDER", "OLDEN", "OMBRE", "OPIUM", "OPTIC", "OUTGO", 
+    "OASES", "OBESE", "OCTAL", "ODDER", "OMBRE", "OPIUM", "OPTIC", "OUTGO", 
     "OVARY", "OVINE", "OVOID", "OWING", "PADDY", "PAGAN", "PALER", "PALSY", "PANSY",
     "PARSE", "PASTE", "PASTY", "PAYEE", "PAYER", "PENCE", "PENNY", "PESTO", "PIGGY",
     "PIVOT", "PLACE", "PLIED", "PLIER", "PLUSH", "POESY", "POOCH", 
@@ -67,7 +67,7 @@ unused_list = [
     "WREST", "WRING", "WRYLY", "ZONAL"
 ]
 
-word = 'PRAWN'
+word = 'OLDEN'
 
 
 if word in unused_list:
