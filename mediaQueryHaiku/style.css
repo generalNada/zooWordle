@@ -2872,12 +2872,18 @@ body {
 }
 
 .whole-box-453 {
-  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDtEXWIeF_Jn0qzy2_UxfZC-k-TPlVBPl3OQ&s);
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqzbH-n9lcyVN21JB_TwD1FHNehDk1SHPrWfgcUDJXjA&s=10);
   background-size: fit-content;
   padding: 0.55rem;
 }
 
 .whole-box-454 {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDtEXWIeF_Jn0qzy2_UxfZC-k-TPlVBPl3OQ&s);
+  background-size: fit-content;
+  padding: 0.55rem;
+}
+
+.whole-box-455 {
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtEW1qXT_2RJH4SmS8mfB53W0Xsf1lpsHTtA&s);
   background-size: fit-content;
   padding: 0.55rem;
@@ -5801,19 +5807,19 @@ body {
 
 .line-164a {
   background-color: rgb(237, 12, 121);
-  color: rgb (15, 242, 216);
+  color: rgb(15, 242, 216);
   opacity: 0.77;
 }
 
 .line-164b {
   background-color: rgb(237, 12, 121);
-  color: rgb (15, 242, 216);
+  color: rgb(15, 242, 216);
   opacity: 0.77;
 }
 
 .line-164c {
   background-color: rgb(237, 12, 121);
-  color: rgb (15, 242, 216);
+  color: rgb(15, 242, 216);
   opacity: 0.77;
 }
 
@@ -5831,25 +5837,25 @@ body {
 
 .line-165c {
   background-color: rgb(207, 12, 221);
-  color: rgb (115, 142, 116);
+  color: rgb(115, 142, 116);
   opacity: 0.77;
 }
 
 .line-166a {
   background-color: rgb(77, 12, 21);
-  color: rgb (15, 142, 16);
+  color: rgb(15, 142, 16);
   opacity: 0.77;
 }
 
 .line-166b {
   background-color: rgb(77, 12, 21);
-  color: rgb (15, 142, 16);
+  color: rgb(15, 142, 16);
   opacity: 0.77;
 }
 
 .line-166c {
   background-color: rgb(77, 12, 21);
-  color: rgb (15, 142, 16);
+  color: rgb(15, 142, 16);
   opacity: 0.77;
 }
 
@@ -9083,6 +9089,15 @@ body {
 .line-454c {
   background-color: rgb(20, 12, 21);
   color: rgb(115, 112, 106);
+  font-style: oblique;
+  opacity: 0.77;
+}
+
+.line-455a,
+.line-455b,
+.line-455c {
+  background-color: rgb(237, 12, 121);
+  color: rgb(15, 242, 216);
   font-style: oblique;
   opacity: 0.77;
 }
