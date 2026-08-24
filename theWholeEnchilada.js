@@ -1733,7 +1733,7 @@ export const dailyWordsSmall = [
 'NORTH', 'NOSEY', 'NOVEL', 'NUDGE', 'NURSE', 'NUTTY', 'NYLON', 'NYMPH', 'OAKEN',
 'OASES', 'OBESE', 'OCCUR', 'OCEAN', 'OCTAL', 'OCTET', 'ODDER', 'ODDLY', 'OFFAL', 'OFFER', 
 'OFTEN',
-'OLDEN', 'OLDER', 'OLIVE', 'OMBRE', 'OMEGA', 'ONION', 'ONSET', 'OPERA', 'OPINE', 'OPIUM',
+'OLDER', 'OLIVE', 'OMBRE', 'OMEGA', 'ONION', 'ONSET', 'OPERA', 'OPINE', 'OPIUM',
 'OPTIC', 'ORDER', 'ORGAN', 'OTHER', 'OTTER', 'OUGHT', 'OUNCE', 'OUTDO', 'OUTER',
 'OUTGO', 'OVARY', 'OVERT', 'OVINE', 'OVOID', 'OWING', 'OWNER', 'OXIDE', 'OZONE',
 'PADDY', 'PAGAN', 'PAINT', 'PALER', 'PALSY', 'PANEL', 'PANIC', 'PANSY', 'PAPAL', 'PAPER',
@@ -2622,7 +2622,7 @@ export const dailyWordsLarge = [
     'OFFAL', 'OFFED', 'OFFER', 'OFFIE', 'OFLAG', 'OFTEN', 'OFTER', 'OGAMS', 'OGEED', 'OGEES',
     'OGGIN', 'OGHAM', 'OGIVE', 'OGLED', 'OGLER', 'OGLES', 'OGMIC', 'OGRES', 'OHIAS', 'OHING',
     'OHMIC', 'OHONE', 'OIDIA', 'OILED', 'OILER', 'OINKS', 'OINTS', 'OJIME', 'OKAPI', 'OKAYS',
-    'OKEHS', 'OKRAS', 'OKTAS', 'OLDEN', 'OLDER', 'OLDIE', 'OLEIC', 'OLEIN', 'OLENT', 'OLEOS',
+    'OKEHS', 'OKRAS', 'OKTAS', 'OLDER', 'OLDIE', 'OLEIC', 'OLEIN', 'OLENT', 'OLEOS',
     'OLEUM', 'OLIOS', 'OLIVE', 'OLLAS', 'OLLAV', 'OLLER', 'OLLIE', 'OLOGY', 'OLPAE', 'OLPES',
     'OMASA', 'OMBER', 'OMBRE', 'OMBUS', 'OMEGA', 'OMENS', 'OMERS', 'OMITS', 'OMLAH', 'OMOVS',
     'OMRAH', 'ONCER', 'ONCES', 'ONCET', 'ONCUS', 'ONELY', 'ONERS', 'ONERY', 'ONION', 'ONIUM',
@@ -25491,6 +25491,17 @@ export const wordleWords = [
         guess_5: null,
         guess_6: null,
       }, 
+      { word: "OLDEN", 
+        gameDate: "8/23/26",
+        myScore: 3,
+        wordNumber: 1891,
+        guess_1: "STEAL",
+        guess_2: "FILER",
+        guess_3: "OLDEN",
+        guess_4: null,
+        guess_5: null,
+        guess_6: null,
+      }, 
       
 
  
@@ -25510,7 +25521,7 @@ console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
 console.log("August 9, 2025, Mom: Hello, Again!" )
-console.log("August 22, 2026: Trump sux dykk000000000! PRAWN")
+console.log("August 23, 2026: Trump sux dykk000000000! OLDEN")
 
 console.log(wordleWords)
 
