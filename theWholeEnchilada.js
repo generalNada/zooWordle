@@ -1508,6 +1508,7 @@ export const combinedWords = [
     'ROGER', 'ROGUE', 'ROOMY', 'ROOST', 'ROTOR', 'ROUGE', 'ROUGH', 'ROUND', 'ROUSE', 'ROUST', 
     'ROUTE',
     'ROVER', 'ROWDY', 'ROWER', 'ROYAL', 'RUDDY', 'RUDER', 'RUGBY', 'RULER', 'RUMBA', 'RUMOR',
+    'RUNNY',
     'RUPEE', 'RURAL', 'RUSTY', 'SADLY', 'SAFER', 'SAINT', 'SALAD', 'SALLY', 'SALON', 'SALSA',
     'SALTY', 'SALVE', 'SALVO', 'SANDY', 'SANER', 'SAPPY', 'SASSY', 'SATIN', 'SATYR', 'SAUCE',
     'SAUCY', 'SAUNA', 'SAUTE', 'SAVOR', 'SAVOY', 'SAVVY', 'SCALD', 'SCALE', 'SCALP', 'SCALY',
@@ -2795,7 +2796,7 @@ export const dailyWordsLarge = [
     'RUERS', 'RUFFE', 'RUFFS', 'RUGAE', 'RUGAL', 'RUGBY', 'RUGGY', 'RUING', 'RUINS', 'RUKHS',
     'RULED', 'RULER', 'RULES', 'RUMAL', 'RUMBA', 'RUMBO', 'RUMEN', 'RUMES', 'RUMLY', 'RUMMY',
     'RUMOR', 'RUMPO', 'RUMPS', 'RUMPY', 'RUNCH', 'RUNDS', 'RUNED', 'RUNES', 'RUNGS', 'RUNIC',
-    'RUNNY', 'RUNTS', 'RUNTY', 'RUPEE', 'RUPIA', 'RURPS', 'RURUS', 'RUSAS', 'RUSES',
+    'RUNTS', 'RUNTY', 'RUPEE', 'RUPIA', 'RURPS', 'RURUS', 'RUSAS', 'RUSES',
     'RUSHY', 'RUSKS', 'RUSMA', 'RUSSE', 'RUSTS', 'RUSTY', 'RUTHS', 'RUTIN', 'RUTTY', 'RYALS',
     'RYBAT', 'RYKED', 'RYKES', 'RYMME', 'RYNDS', 'RYOTS', 'RYPER',
     'SAAGS', 'SABAL', 'SABED', 'SABER', 'SABES', 'SABHA', 'SABIN', 'SABIR', 'SABLE', 'SABOT',
@@ -25502,7 +25503,17 @@ export const wordleWords = [
         guess_5: null,
         guess_6: null,
       }, 
-      
+      { word: "RUNNY", 
+        gameDate: "8/24/26",
+        myScore: 7,
+        wordNumber: 1892,
+        guess_1: "STEAL",
+        guess_2: "CROUP",
+        guess_3: "FURRY",
+        guess_4: "RUGBY",
+        guess_5: "RUDDY",
+        guess_6: "RUMMY",
+      }
 
  
   ];
@@ -25521,7 +25532,7 @@ console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
 console.log("August 9, 2025, Mom: Hello, Again!" )
-console.log("August 23, 2026: Trump sux dykk000000000! OLDEN")
+console.log("August 24, 2026: Trump sux dykk000000000! RUNNY")
 
 console.log(wordleWords)
 
