@@ -39,8 +39,8 @@ my_list = {
     'BULLY',
     'BULKY', 'BUNCH', 'BUNNY', 'BURLY', 'BURNT', 'BUTTE', 'BUYER', 'BYLAW', 'CABLE', 'CACAO', 
     'CACHE', 'CACTI',
-    'CADET', 'CAMEL', 'CAMEO', 'CANAL', 'CANDY', 'CANNY', 'CANON', 'CANOE', 'CAPER', 'CARAT', 
-    'CARGO',
+    'CADET', 'CAMEL', 'CAMEO', 'CANAL', 'CANDY', 'CANNY', 'CANON', 'CANOE', 'CAPER', 'CAPON', 
+    'CARAT', 'CARGO',
     'CAROL', 'CAROM', 'CARRY', 'CATCH', 'CATER', 'CATTY', 'CAULK', 'CAUSE', 'CARVE', 'CEASE', 
     'CEDAR',
     'CELLO', 'CHAFE', 'CHAIN', 'CHAIR', 'CHALK', 'CHAMP', 'CHANT', 'CHAOS', 'CHARD', 'CHARM',
@@ -276,7 +276,7 @@ my_list = {
     'WROTE', 'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'CLICK'
+word_to_find = 'CAPON'
 
 
 if word_to_find in my_list:
