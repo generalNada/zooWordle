@@ -251,8 +251,8 @@ my_list = {
     'TRAWL', 'TREAT', 'TREND', 'TRIAD', 'TRIAL', 'TRIBE', 'TRICE', 'TRICK', 'TRIPE', 'TRITE', 
     'TROLL',
     'TROOP', 'TROPE', 'TROUT', 'TROVE', 'TRUCK', 'TRULY', 'TRUSS', 'TRUST', 'TRUTH', 'TRYST',
-    'TUBER', 'TULIP', 'TUNIC', 'TURBO', 'TUTOR', 'TWANG', 'TWEAK', 'TWEED', 'TWEET', 'TWICE', 
-    'TWINE',
+    'TUBER', 'TULIP', 'TUNIC', 'TURBO', 'TUTOR', 'TWANG', 'TWEAK', 'TWEED', 'TWEEN', 'TWEET', 
+    'TWICE', 'TWINE',
     'TWIRL', 'UDDER', 'ULCER', 'ULTRA', 'UMBRA', 'UNCLE', 'UNCUT', 'UNDER', 'UNDID', 'UNDUE', 
     'UNFED', 'UNFIT',
     'UNIFY', 'UNION', 'UNITE', 'UNITY', 'UNLIT', 'UNMET', 'UNTIE', 'UNTIL', 'UNZIP', 'UPPER', 
@@ -276,7 +276,7 @@ my_list = {
     'WROTE', 'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'UNCUT'
+word_to_find = 'TWEEN'
 
 
 if word_to_find in my_list:
