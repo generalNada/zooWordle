@@ -27,7 +27,7 @@ my_list = {
     'BILGE',
     'BINGE', 'BIOME', 'BIRCH', 'BIRTH', 'BLACK', 'BLADE', 'BLAME', 'BLAND', 'BLANK', 'BLARE',
     'BLAST', 'BLAZE', 'BLEAK', 'BLEAT', 'BLEED', 'BLEEP', 'BLEND', 'BLIMP', 'BLINK', 'BLISS',
-    'BLOCK', 'BLOKE', 'BLOND', 'BLOOM', 'BLOWN', 'BLUFF', 'BLUNT', 'BLURB', 'BLURT', 'BLUSH',
+    'BLOCK', 'BLOKE', 'BLOND', 'BLOOD', 'BLOOM', 'BLOWN', 'BLUFF', 'BLUNT', 'BLURB', 'BLURT', 'BLUSH',
     'BOARD', 'BOAST', 'BONGO', 'BONUS', 'BOOBY', 'BOOST', 'BOOTH', 'BOOTY', 'BOOZE', 'BOOZY', 
     'BORAX',
     'BORNE', 'BOSSY', 'BOUGH', 'BOXER', 'BRACE', 'BRAID', 'BRAIN', 'BRAKE', 'BRAND', 'BRASH',
@@ -276,7 +276,7 @@ my_list = {
     'WROTE', 'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'TWEEN'
+word_to_find = 'BLOOD'
 
 
 if word_to_find in my_list:
