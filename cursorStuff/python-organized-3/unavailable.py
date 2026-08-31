@@ -122,8 +122,8 @@ my_list = {
     'HOTEL', 'HOUND', 'HOUSE', 'HOVEL', 'HOVER', 'HOWDY', 'HUMAN', 'HUMID', 'HUMOR', 'HUMPH',
     'HUNCH', 'HUNKY', 'HURRY', 'HUTCH', 'HYDRA', 'HYENA', 'HYPER', 'ICING', 'IDEAL', 'IDIOM',
     'IDLER', 'IGLOO', 'IMAGE', 'IMBUE', 'IMPEL', 'INANE', 'INBOX', 'INCUR', 'INDEX', 'INDIE',
-    'INEPT', 'INERT', 'INFER', 'INLAY', 'INLET', 'INNER', 'INPUT', 'INTER', 'INTRO', 'IONIC', 
-    'IRATE',
+    'INEPT', 'INERT', 'INFER', 'INLAY', 'INLET', 'INNER', 'INPUT', 'INTEL', 'INTER', 'INTRO', 
+    'IONIC', 'IRATE',
     'IRONY', 'ISLET', 'ITCHY', 'IVORY', 'IVORY', 'JAUNT', 'JAZZY', 'JELLY', 'JERKY', 'JEWEL', 
     'JIFFY',
     'JOINT', 'JOKER', 'JOLLY', 'JOUST', 'JUDGE', 'JUICE', 'JUMBO', 'JUMPY', 'KARMA', 'KAYAK',
@@ -276,7 +276,7 @@ my_list = {
     'WROTE', 'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'BLOOD'
+word_to_find = 'INTEL'
 
 
 if word_to_find in my_list:
