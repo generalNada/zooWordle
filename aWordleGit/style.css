@@ -3289,13 +3289,13 @@ border: 5px solid aqua;
 }
   
 .jasmineCrockett {
-  background-color: rgb(20, 1, 6);
-  color: rgb(100, 100, 100);
+  background-color: rgb(20, 100, 6);
+  color: rgb(100, 200, 100);
   font-family: "Abel", serif;
-  font-size: 2rem;
-  line-height: 2.25rem;
+  font-size: 1rem;
+  line-height: 1.25rem;
   border: solid blue 0.33rem;
-  border-radius: 1.6rem;
+  border-radius: 2.6rem;
 }
 
 
