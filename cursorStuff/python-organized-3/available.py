@@ -67,7 +67,7 @@ unused_list = [
     "WREST", "WRING", "WRYLY", "ZONAL"
 ]
 
-word = 'INTEL'
+word = 'MOUND'
 
 
 if word in unused_list:
