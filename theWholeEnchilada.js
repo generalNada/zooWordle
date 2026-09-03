@@ -1768,7 +1768,7 @@ export const dailyWordsSmall = [
 'RIDGE', 'RIFLE', 'RIGHT', 'RIGID', 'RIGOR', 'RINSE', 'RIPEN', 'RIPER', 'RISEN',
 'RISKY', 'RIVAL', 'RIVER', 'RIVET', 'ROACH', 'ROAST', 'ROBIN', 'ROBOT', 'ROCKY', 'RODEO',
 'ROGER', 'ROGUE', 'ROOMY', 'ROTOR', 'ROUGE', 'ROUGH', 'ROUND', 'ROUSE', 'ROUST', 'ROUTE',
-'ROVER', 'ROWDY', 'ROWER', 'ROYAL', 'RUDDY', 'RUDER', 'RUGBY', 'RULER', 'RUMBA', 'RUMOR',
+'ROVER', 'ROWDY', 'ROWER', 'ROYAL', 'RUDDY', 'RUDER', 'RUGBY', 'RUMBA', 'RUMOR',
 'RUPEE', 'RUSTY', 'SADLY', 'SAFER', 'SAINT', 'SALAD', 'SALLY', 'SALON', 'SALSA',
 'SALTY', 'SALVE', 'SALVO', 'SANER', 'SAPPY', 'SASSY', 'SATYR', 'SAUCE',
 'SAUCY', 'SAUNA', 'SAUTE', 'SAVOR', 'SAVOY', 'SAVVY', 'SCALD', 'SCALE', 'SCALP', 'SCALY',
@@ -2798,7 +2798,7 @@ export const dailyWordsLarge = [
     'ROZIT', 'RUANA', 'RUBAI', 'RUBBY', 'RUBEL', 'RUBES', 'RUBIN', 'RUBLE', 'RUBLI', 'RUBUS',
     'RUCHE', 'RUCKS', 'RUDAS', 'RUDDS', 'RUDDY', 'RUDER', 'RUDES', 'RUDIE', 'RUDIS', 'RUEDA',
     'RUERS', 'RUFFE', 'RUFFS', 'RUGAE', 'RUGAL', 'RUGBY', 'RUGGY', 'RUING', 'RUINS', 'RUKHS',
-    'RULED', 'RULER', 'RULES', 'RUMAL', 'RUMBA', 'RUMBO', 'RUMEN', 'RUMES', 'RUMLY', 'RUMMY',
+    'RULED', 'RULES', 'RUMAL', 'RUMBA', 'RUMBO', 'RUMEN', 'RUMES', 'RUMLY', 'RUMMY',
     'RUMOR', 'RUMPO', 'RUMPS', 'RUMPY', 'RUNCH', 'RUNDS', 'RUNED', 'RUNES', 'RUNGS', 'RUNIC',
     'RUNTS', 'RUNTY', 'RUPEE', 'RUPIA', 'RURPS', 'RURUS', 'RUSAS', 'RUSES',
     'RUSHY', 'RUSKS', 'RUSMA', 'RUSSE', 'RUSTS', 'RUSTY', 'RUTHS', 'RUTIN', 'RUTTY', 'RYALS',
@@ -25605,6 +25605,17 @@ export const wordleWords = [
         guess_4: "REMIX",
         guess_5: null,
         guess_6: null,
+      },
+      { word: "RULER", 
+        gameDate: "9/2/26",
+        myScore: 4,
+        wordNumber: 1901,
+        guess_1: "STEAL",
+        guess_2: "BOULE",
+        guess_3: "LUMEN",
+        guess_4: "RULER",
+        guess_5: null,
+        guess_6: null,
       }
 
 
@@ -25625,7 +25636,7 @@ console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
 console.log("August 9, 2025, Mom: Hello, Again!" )
-console.log("September 1, 2026: Trump sux dykk000000000! REMIX")
+console.log("September 2, 2026: Trump sux dykk000000000! RULER")
 
 console.log(wordleWords)
 
