@@ -194,8 +194,8 @@ my_list = {
     'RIVET',
     'ROACH', 'ROBIN', 'ROBOT', 'ROCKY', 'RODEO', 'ROGUE', 'ROUGE', 'ROOMY', 'ROOST', 'ROUGH',
     'ROUND', 'ROUSE', 'ROUTE', 'ROVER', 'ROWDY', 'ROWER', 'ROYAL', 'RUDDY', 'RUDER', 'RUGBY',
-    'RUMBA', 'RUNNY', 'RUPEE', 'RURAL', 'RUSTY', 'SAINT', 'SALAD', 'SALLY', 'SALSA', 'SALTY', 
-    'SANDY', 'SANDY', 'SASSY', 'SATIN',
+    'RULER', 'RUMBA', 'RUNNY', 'RUPEE', 'RURAL', 'RUSTY', 'SAINT', 'SALAD', 'SALLY', 'SALSA', 
+    'SALTY', 'SANDY', 'SANDY', 'SASSY', 'SATIN',
     'SAUCY', 'SAUNA', 'SAUTE', 'SAVOR', 'SAVVY', 'SCALD', 'SCALE', 'SCANT', 'SCARE', 'SCARF',
     'SCENE', 'SCENT', 'SCOFF', 'SCOLD', 'SCONE', 'SCOOP', 'SCOPE', 'SCORE', 'SCORN', 'SCOUR', 
     'SCOUT',
@@ -276,7 +276,7 @@ my_list = {
     'WROTE', 'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'MOUND'
+word_to_find = 'RULER'
 
 
 if word_to_find in my_list:
