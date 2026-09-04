@@ -1707,7 +1707,7 @@ export const dailyWordsSmall = [
 'IDLER', 'IDYLL', 'IGLOO', 'ILIAC', 'IMAGE', 'IMBUE', 'IMPEL', 'IMPLY', 'INANE', 'INBOX',
 'INCUR', 'INDEX', 'INDIE', 'INEPT', 'INERT', 'INFER', 'INGOT', 'INLAY', 'INNER',
 'INPUT', 'INTER', 'INTRO', 'IONIC', 'IRATE', 'IRONY', 'ISLET', 'ISSUE', 'ITCHY', 
-'JAUNT', 'JAZZY', 'JELLY', 'JERKY', 'JETTY', 'JEWEL', 'JIFFY', 'JOINT', 'JOIST', 'JOKER',
+'JAUNT', 'JAZZY', 'JELLY', 'JERKY', 'JETTY', 'JEWEL', 'JIFFY', 'JOINT', 'JOKER',
 'JOLLY', 'JOUST', 'JUDGE', 'JUICE', 'JUICY', 'JUMBO', 'JUMPY', 'JUNTA', 'JUNTO', 'JUROR',
 'KAPPA', 'KARMA', 'KAYAK', 'KAZOO', 'KEBAB', 'KEFIR', 'KHAKI', 'KINKY', 'KIOSK', 'KITTY',
 'KNACK', 'KNAVE', 'KNEAD', 'KNEED', 'KNEEL', 'KNELL', 'KNELT', 'KNIFE', 'KNOCK', 'KNOLL',
@@ -2411,7 +2411,7 @@ export const dailyWordsLarge = [
     'JIBBS', 'JIBED', 'JIBER', 'JIBES', 'JIFFS', 'JIFFY', 'JIGGY', 'JIGOT', 'JIHAD', 'JILLS',
     'JILTS', 'JIMMY', 'JIMPY', 'JINGO', 'JINKS', 'JINNE', 'JINNI', 'JINNS', 'JIRDS', 'JIRGA',
     'JIRRE', 'JISMS', 'JIVED', 'JIVER', 'JIVES', 'JIVEY', 'JNANA', 'JOBED', 'JOBES', 'JOCKO',
-    'JOCKS', 'JOCKY', 'JOCOS', 'JODEL', 'JOEYS', 'JOHNS', 'JOINS', 'JOINT', 'JOIST', 'JOKED',
+    'JOCKS', 'JOCKY', 'JOCOS', 'JODEL', 'JOEYS', 'JOHNS', 'JOINS', 'JOINT', 'JOKED',
     'JOKER', 'JOKES', 'JOKEY', 'JOKOL', 'JOLED', 'JOLES', 'JOLLS', 'JOLLY', 'JOLTS', 'JOLTY',
     'JOMON', 'JOMOS', 'JONES', 'JONGS', 'JONTY', 'JOOKS', 'JORAM', 'JORUM', 'JOTAS', 'JOTTY',
     'JOTUN', 'JOUAL', 'JOUGS', 'JOUKS', 'JOULE', 'JOURS', 'JOUST', 'JOWAR', 'JOWED', 'JOWLS',
@@ -25616,6 +25616,17 @@ export const wordleWords = [
         guess_4: "RULER",
         guess_5: null,
         guess_6: null,
+      },
+      { word: "JOIST", 
+        gameDate: "9/3/26",
+        myScore: 3,
+        wordNumber: 1902,
+        guess_1: "STEAL",
+        guess_2: "ROUST",
+        guess_3: "JOIST",
+        guess_4: null,
+        guess_5: null,
+        guess_6: null,
       }
 
 
@@ -25636,7 +25647,7 @@ console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
 console.log("August 9, 2025, Mom: Hello, Again!" )
-console.log("September 2, 2026: Trump sux dykk000000000! RULER")
+console.log("September 3, 2026: Trump sux dykk000000000! JOIST")
 
 console.log(wordleWords)
 
