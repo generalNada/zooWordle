@@ -126,7 +126,8 @@ my_list = {
     'IONIC', 'IRATE',
     'IRONY', 'ISLET', 'ITCHY', 'IVORY', 'IVORY', 'JAUNT', 'JAZZY', 'JELLY', 'JERKY', 'JEWEL', 
     'JIFFY',
-    'JOINT', 'JOKER', 'JOLLY', 'JOUST', 'JUDGE', 'JUICE', 'JUMBO', 'JUMPY', 'KARMA', 'KAYAK',
+    'JOINT', 'JOIST', 'JOKER', 'JOLLY', 'JOUST', 'JUDGE', 'JUICE', 'JUMBO', 'JUMPY', 'KARMA', 
+    'KAYAK',
     'KAZOO', 'KEBAB', 'KEFIR', 'KHAKI', 'KIOSK', 'KNACK', 'KNAVE', 'KNEAD', 'KNEEL', 'KNELL',
     'KNELT', 'KNIFE', 'KNOCK', 'KNOLL', 'KNOWN', 'KOALA', 'KRILL', 'LABEL', 'LABOR', 'LADEN', 
     'LADLE',
@@ -276,7 +277,7 @@ my_list = {
     'WROTE', 'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'RULER'
+word_to_find = 'JOIST'
 
 
 if word_to_find in my_list:
