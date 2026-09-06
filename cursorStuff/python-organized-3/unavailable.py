@@ -217,7 +217,8 @@ my_list = {
     'SMITE', 'SMITH', 'SMOCK', 'SMOKE', 'SNACK', 'SNAFU', 'SNAIL', 'SNAKE', 'SNAKY', 'SNARE',
     'SNARL', 'SNEAK', 'SNIDE', 'SNIPE', 'SNOOP', 'SNORE', 'SNORT', 'SNOUT', 'SOBER', 'SOGGY', 
     'SOLAR', 'SOLID', 'SOLVE', 'SONAR',
-    'SONIC', 'SORRY', 'SOUND', 'SOUTH', 'SOWER', 'SPACE', 'SPADE', 'SPARE', 'SPASM', 'SPARK',
+    'SONIC', 'SORRY', 'SOUND', 'SOUPY', 'SOUTH', 'SOWER', 'SPACE', 'SPADE', 'SPARE', 'SPASM', 
+    'SPARK',
     'SPATE', 'SPEAK', 'SPEAR', 'SPECK', 'SPEED', 'SPELL', 'SPELT', 'SPEND', 'SPENT', 'SPICE',
     'SPICY', 'SPIEL', 'SPIKE', 'SPILL', 'SPINE', 'SPINY', 'SPIRE', 'SPITE', 'SPLAT', 'SPLIT',
     'SPOIL', 'SPOKE', 'SPOOF', 'SPOOL', 'SPOON', 'SPORE', 'SPORT', 'SPOUT', 'SPRAY', 'SPRIG',
@@ -277,7 +278,7 @@ my_list = {
     'WROTE', 'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'WAGER'
+word_to_find = 'SOUPY'
 
 
 if word_to_find in my_list:
