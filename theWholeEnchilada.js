@@ -17,8 +17,8 @@ export const fixedWordsLarge = [
     'ADOBI', 'ADOBO', 'ADOPT', 'ADORE', 'ADORN', 'ADOWN', 'ADOZE', 'ADRAD', 'ADRED', 'ADSUM',
     'AEONS', 'AERIE', 'AEROS', 'AESIR', 'AFALD', 'AFARA', 'AFARS', 'AFEAR', 'AFFIX', 'AFIRE',
     'AFOOT',
-    'AFORE', 'AFRIT', 'AFROS', 'AFTER', 'AGAIN', 'AGAMA', 'AGAMI', 'AGAPE', 'AGARS', 'AGAST', 
-    'AGATE', 'AGAVE',
+    'AFORE', 'AFOUL', 'AFRIT', 'AFROS', 'AFTER', 'AGAIN', 'AGAMA', 'AGAMI', 'AGAPE', 'AGARS', 
+    'AGAST', 'AGATE', 'AGAVE',
     'AGAZE', 'AGENE', 'AGENT', 'AGERS', 'AGGER', 'AGGIE', 'AGGRO', 'AGGRY', 'AGHAS', 'AGILA',
     'AGILE', 'AGING', 'AGIOS', 'AGISM', 'AGIST', 'AGITA', 'AGLEE', 'AGLET', 'AGLEY', 'AGLOO',
     'AGLOW', 'AGLUS', 'AGMAS', 'AGOGE', 'AGONE', 'AGONY', 'AGORA', 'AGREE', 'AGRIA', 'AGRIN',
@@ -32,9 +32,10 @@ export const fixedWordsLarge = [
     'ALDER', 'ALDOL', 'ALECK', 'ALECS', 'ALEFS', 'ALEPH', 'ALERT', 'ALEWS', 'ALEYE', 'ALFAS', 
     'ALGAE', 'ALGAL', 'ALGAS',
     'ALGID', 'ALGIN', 'ALGOL', 'ALIAS', 'ALIBI', 'ALIEN', 'ALIFS', 'ALIGN', 'ALIKE', 'ALINE',
-    'ALIST', 'ALIVE', 'ALIYA', 'ALKIE', 'ALKOS', 'ALKYD', 'ALKYL', 'ALLEE', 'ALLEY', 'ALLIS',
+    'ALIST', 'ALIVE', 'ALIYA', 'ALKIE', 'ALKOS', 'ALKYD', 'ALKYL', 'ALLAY', 'ALLEE', 'ALLEY', 
+    'ALLIS',
     'ALLOD', 'ALLOT', 'ALLOW', 'ALLOY', 'ALLYL', 'ALMAH', 'ALMAS', 'ALMEH', 'ALMES', 'ALMUD',
-    'ALMUG', 'ALODS', 'ALOED', 'ALOES', 'ALOFT', 'ALOHA', 'ALOIN', 'ALONG', 'ALOOS',
+    'ALMUG', 'ALODS', 'ALOED', 'ALOES', 'ALOFT', 'ALOHA', 'ALOIN', 'ALONE', 'ALONG', 'ALOOS',
     'ALOOF', 'ALOSE', 'ALOUD', 'ALOWE',
     'ALPHA', 'ALTAR', 'ALTER', 'ALTHO', 'ALTOS', 'ALULA', 'ALUMS', 'ALURE',
     'ALVAR', 'ALWAY', 'AMAHS', 'AMAIN', 'AMASS', 'AMATE', 'AMAUT', 'AMAZE', 'AMBAN', 'AMBER',
@@ -364,7 +365,7 @@ export const fixedWordsLarge = [
     'FACIA', 'FACTA', 'FACTS', 'FADDY', 'FADED', 'FADER', 'FADES', 'FADGE', 'FADOS', 'FAENA', 
     'FAERY', 'FAGGY', 'FAGIN', 'FAGOT', 'FAILS', 'FAINT', 'FAIRE', 'FAIRS', 'FAIRY', 'FAITH', 
     'FAKED', 'FAKER', 'FAKES', 'FAKIE', 'FAKIR', 'FALAJ', 'FALLS', 'FALSE', 'FAMED', 'FAMES', 
-    'FANAL', 'FANDS',
+    'FANAL', 'FANCY', 'FANDS',
     'FANES', 'FANGA', 'FANGO', 'FANGS', 'FANKS', 'FANNY', 'FANON', 'FANOS', 'FANUM', 'FAQIR',
     'FARAD', 'FARCE', 'FARCI', 'FARCY', 'FARDS', 'FARED', 'FARER', 'FARES', 'FARLE', 'FARLS',
     'FARMS', 'FAROS', 'FARRO', 'FARSE', 'FARTS', 'FASCI', 'FASTI', 'FASTS', 'FATAL', 'FATED',
@@ -823,7 +824,7 @@ export const fixedWordsLarge = [
     'PELON', 'PELTA', 'PELTS', 'PENAL', 'PENCE', 'PENDS', 'PENDU', 'PENED', 'PENES', 'PENGO',
     'PENIE', 'PENIS', 'PENKS', 'PENNA', 'PENNE', 'PENNI', 'PENNY', 'PENTS', 'PEONS', 'PEONY',
     'PEPLA', 'PEPOS', 'PEPPY', 'PEPSI', 'PERAI', 'PERCE', 'PERCH', 'PERCS', 'PERDU', 'PERDY',
-    'PEREA', 'PERES', 'PERIL', 'PERIS', 'PERKS', 'PERMS', 'PERNS', 'PEROG', 'PERPS',
+    'PEREA', 'PERES', 'PERIL', 'PERIS', 'PERKS', 'PERKY', 'PERMS', 'PERNS', 'PEROG', 'PERPS',
     'PERRY', 'PERSE', 'PERST', 'PERTS', 'PERVE', 'PERVO', 'PERVS', 'PERVY', 'PESKY', 'PESOS',
     'PESTO', 'PESTS', 'PESTY', 'PETAL', 'PETAR', 'PETER', 'PETIT', 'PETRE', 'PETRI', 'PETTI',
     'PETTO', 'PETTY', 'PEWEE', 'PEWIT', 'PEYSE', 'PHAGE', 'PHANG', 'PHARE', 'PHARM', 'PHASE',
@@ -887,7 +888,7 @@ export const fixedWordsLarge = [
     'PYXIE', 'PYXIS', 'PZAZZ',
     'QADIS', 'QAIDS', 'QAJAQ', 'QANAT', 'QAPIK', 'QIBLA', 'QOPHS', 'QORMA', 'QUACK', 'QUADS',
     'QUAFF', 'QUAGS', 'QUAIL', 'QUAIR', 'QUAIS', 'QUAKE', 'QUAKY', 'QUALE', 'QUALM', 'QUANT',
-    'QUARE', 'QUART', 'QUASH', 'QUASI', 'QUASS', 'QUATE', 'QUATS', 'QUAYD', 'QUAYS',
+    'QUARE', 'QUARK', 'QUART', 'QUASH', 'QUASI', 'QUASS', 'QUATE', 'QUATS', 'QUAYD', 'QUAYS',
     'QUBIT', 'QUEAN', 'QUEEN', 'QUEER', 'QUELL', 'QUEME', 'QUENA', 'QUERN', 'QUERY', 'QUEST',
     'QUEUE', 'QUEYN', 'QUEYS', 'QUICH', 'QUICK', 'QUIDS', 'QUIET', 'QUIFF', 'QUILL', 'QUILT',
     'QUIMS', 'QUINA', 'QUINE', 'QUINO', 'QUINS', 'QUINT', 'QUIPO', 'QUIPS', 'QUIPU', 'QUIRE',
@@ -1339,7 +1340,8 @@ export const combinedWords = [
     'AXION', 'AZURE', 'BACON', 'BADGE', 'BADLY', 'BAGEL', 'BAGGY', 'BAKER', 'BALER', 'BALMY',
     'BALSA', 'BANAL', 'BANJO', 'BARGE', 'BARON', 'BASAL', 'BASIC', 'BASIL', 'BASIN', 'BASIS',
     'BASTE', 'BATCH', 'BATHE', 'BATON', 'BATTY', 'BAWDY', 'BAYOU', 'BEACH', 'BEADY', 'BEARD',
-    'BEAST', 'BEAUT', 'BEECH', 'BEEFY', 'BEFIT', 'BEGAN', 'BEGAT', 'BEGET', 'BEGIN', 'BEGUN',
+    'BEAST', 'BEAUT', 'BEECH', 'BEEFY', 'BEFIT', 'BEGAN', 'BEGAT', 'BEGET', 'BEGIN', 'BEGUN', 
+    'BEIGE',
     'BEING', 'BELCH', 'BELIE', 'BELLE', 'BELLY', 'BELOW', 'BENCH', 'BERET', 'BERRY', 'BERTH',
     'BESET', 'BETEL', 'BEVEL', 'BEZEL', 'BIBLE', 'BICEP', 'BIDDY', 'BIGOT', 'BILGE', 'BILLY',
     'BINGE', 'BINGO', 'BIOME', 'BIRCH', 'BIRTH', 'BISON', 'BITTY', 'BLACK', 'BLADE', 'BLAME',
@@ -1946,7 +1948,7 @@ export const dailyWordsLarge = [
     'BEAUX', 'BEBOP', 'BECAP', 'BECKE', 'BECKS', 'BEDAD', 'BEDEL', 'BEDES', 'BEDEW', 'BEDIM',
     'BEDYE', 'BEECH', 'BEEDI', 'BEEFS', 'BEEFY', 'BEEPS', 'BEERS', 'BEERY', 'BEETS', 
     'BEFOG', 'BEGAD', 'BEGAN', 'BEGAR', 'BEGAT', 'BEGEM', 'BEGET', 'BEGIN', 'BEGOT', 'BEGUM',
-    'BEIGE', 'BEIGY', 'BEING', 'BEINS', 'BEKAH', 'BELAH', 'BELAR', 'BELAY', 'BELCH',
+    'BEIGY', 'BEING', 'BEINS', 'BEKAH', 'BELAH', 'BELAR', 'BELAY', 'BELCH',
     'BELEE', 'BELGA', 'BELIE', 'BELLS', 'BELLY', 'BELON', 'BELOW', 'BELTS', 'BEMAD',
     'BEMAS', 'BEMIX', 'BEMUD', 'BENCH', 'BENDS', 'BENDY', 'BENES', 'BENET', 'BENGA', 'BENIS',
     'BENNE', 'BENNI', 'BENNY', 'BENTO', 'BENTS', 'BENTY', 'BEPAT', 'BERAY', 'BERES', 'BERET',
@@ -25650,6 +25652,17 @@ export const wordleWords = [
         guess_4: "SOUPY",
         guess_5: null,
         guess_6: null,
+      },
+      { word: "BEIGE", 
+        gameDate: "9/6/26",
+        myScore: 5,
+        wordNumber: 1905,
+        guess_1: "LEANT",
+        guess_2: "DERBY",
+        guess_3: "BEIGE",
+        guess_4: null,
+        guess_5: null,
+        guess_6: null,
       }
 
 
@@ -25670,7 +25683,7 @@ console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
 console.log("August 9, 2025, Mom: Hello, Again!" )
-console.log("September 5, 2026: Trump sux dykk000000000! SOUPY")
+console.log("September 6, 2026: Trump sux dykk000000000! BEIGE")
 
 console.log(wordleWords)
 
