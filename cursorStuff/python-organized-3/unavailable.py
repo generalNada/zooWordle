@@ -22,12 +22,13 @@ my_list = {
     'BARON', 'BASIC', 'BASIL', 'BASIN', 'BASIS', 'BASTE', 'BATHE', 'BATCH', 'BATON', 'BATON', 
     'BATTY', 'BAWDY', 'BAYOU',
     'BEACH', 'BEADY', 'BEARD', 'BEAST', 'BEAUT', 'BEEFY', 'BEFIT', 'BEGET', 'BEGIN', 'BEGUN',
-    'BEING', 'BELCH',
+    'BEIGE', 'BEING', 'BELCH',
     'BELIE', 'BELLE', 'BELLY', 'BELOW', 'BENCH', 'BERET', 'BERTH', 'BESET', 'BEVEL', 'BICEP', 
     'BILGE',
     'BINGE', 'BIOME', 'BIRCH', 'BIRTH', 'BLACK', 'BLADE', 'BLAME', 'BLAND', 'BLANK', 'BLARE',
     'BLAST', 'BLAZE', 'BLEAK', 'BLEAT', 'BLEED', 'BLEEP', 'BLEND', 'BLIMP', 'BLINK', 'BLISS',
-    'BLOCK', 'BLOKE', 'BLOND', 'BLOOD', 'BLOOM', 'BLOWN', 'BLUFF', 'BLUNT', 'BLURB', 'BLURT', 'BLUSH',
+    'BLOCK', 'BLOKE', 'BLOND', 'BLOOD', 'BLOOM', 'BLOWN', 'BLUFF', 'BLUNT', 'BLURB', 'BLURT', 
+    'BLUSH',
     'BOARD', 'BOAST', 'BONGO', 'BONUS', 'BOOBY', 'BOOST', 'BOOTH', 'BOOTY', 'BOOZE', 'BOOZY', 
     'BORAX',
     'BORNE', 'BOSSY', 'BOUGH', 'BOXER', 'BRACE', 'BRAID', 'BRAIN', 'BRAKE', 'BRAND', 'BRASH',
@@ -278,7 +279,7 @@ my_list = {
     'WROTE', 'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'SOUPY'
+word_to_find = 'BEIGE'
 
 
 if word_to_find in my_list:
