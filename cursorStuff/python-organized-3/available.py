@@ -4,7 +4,7 @@ unused_list = [
     "ANNUL", "APING", "APNEA", "ARENA", "ARMOR", "AROSE", "ARRAY", "ARSON", "ASTIR", "AUGUR",
     "AUNTY", "AXIAL", "AXION", "BAGGY", "BASAL", "BEECH",
     "BEGAN", "BEGAT", "BERRY", "BETEL", "BEVEL", "BEZEL", "BIBLE", "BIDDY",
-    "BIGOT", "BILLY", "BINGO", "BISON", "BITTY", "BLESS", "BLIND", "BLITZ", "BLOAT", 
+    "BIGOT", "BILLY", "BINGO", "BISON", "BITTY", "BLESS", "BLITZ", "BLOAT", 
     "BLUER", "BOBBY", "BONEY", "BOSOM", "BOTCH", "BOULE", "BOUND", "BOWEL", "BRAWL",
     "BRICK", "BRINY", "BURNT", "BURST", "BUSED", "BUSHY", "BUTCH",
     "BUXOM", "CABAL", "CABBY", "CABIN", "CADDY", "CAGEY", "CAIRN", 
@@ -67,7 +67,7 @@ unused_list = [
     "WREST", "WRING", "WRYLY", "ZONAL"
 ]
 
-word = 'BEIGE'
+word = 'BLIND'
 
 
 if word in unused_list:
