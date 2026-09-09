@@ -140,8 +140,8 @@ my_list = {
     'LEMUR',
     'LEVEL', 'LEVER', 'LIBEL', 'LIGHT', 'LIKEN', 'LILAC', 'LIMBO', 'LIMIT', 'LINEN', 'LINEN', 
     'LINER', 'LINGO',
-    'LITHE', 'LIVER', 'LIVID', 'LLAMA', 'LOATH', 'LOBBY', 'LOCAL', 'LOCUS', 'LOFTY', 'LOGIC', 
-    'LOOPY', 'LOOSE', 'LORIS', 'LORRY',
+    'LITHE', 'LIVEN', 'LIVER', 'LIVID', 'LLAMA', 'LOATH', 'LOBBY', 'LOCAL', 'LOCUS', 'LOFTY', 
+    'LOGIC', 'LOOPY', 'LOOSE', 'LORIS', 'LORRY',
     'LOSER', 'LOUSE', 'LOUSY', 'LOVER', 'LOWER', 'LOWLY', 'LOYAL', 'LUCID', 'LUCKY', 'LUMPY',
     'LUNAR', 'LUNCH', 'LUNGE', 'LURID', 'LUSTY', 'LYING', 'MACAW', 'MACHO', 'MADAM', 'MADLY',
     'MAFIA',
@@ -280,7 +280,7 @@ my_list = {
     'WROTE', 'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'BLIND'
+word_to_find = 'LIVEN'
 
 
 if word_to_find in my_list:
