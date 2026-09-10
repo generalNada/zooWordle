@@ -1632,7 +1632,7 @@ export const dailyWordsSmall = [
 'BRAWL', 'BRAWN', 'BREAD', 'BREED', 'BRIAR', 'BRIBE', 'BRICK', 'BRIDE', 'BRIEF',
 'BRINE', 'BRINK', 'BRINY', 'BRISK', 'BROAD', 'BROKE', 'BROOK',
 'BROOM', 'BROTH', 'BROWN', 'BRUNT', 'BRUSH', 'BRUTE', 'BUDDY', 'BUGGY', 'BUGLE',
-'BUILD', 'BUILT', 'BULGE', 'BULKY', 'BULLY', 'BUNCH', 'BUNNY', 'BURLY', 'BURNT', 'BURST',
+'BUILD', 'BUILT', 'BULGE', 'BULKY', 'BULLY', 'BUNCH', 'BUNNY', 'BURLY', 'BURNT', 
 'BUSED', 'BUSHY', 'BUTCH', 'BUXOM', 'CABAL', 'CABBY', 'CABIN',
 'CABLE', 'CACAO', 'CACHE', 'CACTI', 'CADDY', 'CADET', 'CAGEY', 'CAIRN', 'CALVE', 'CAMEL', 
 'CAMEO',
@@ -2014,7 +2014,7 @@ export const dailyWordsLarge = [
     'BUNJE', 'BUNJY', 'BUNKO', 'BUNKS', 'BUNNS', 'BUNNY', 'BUNTS', 'BUNTY', 'BUNYA', 'BUOYS',
     'BUPPY', 'BURAN', 'BURAS', 'BURBS', 'BURDS', 'BURET', 'BURFI', 'BURGH', 'BURGS', 'BURIN',
     'BURKA', 'BURKE', 'BURKS', 'BURLS', 'BURLY', 'BURNS', 'BURNT', 'BUROO', 'BURPS', 'BURQA',
-    'BURRO', 'BURRS', 'BURRY', 'BURSA', 'BURSE', 'BURST', 'BUSBY', 'BUSED', 'BUSES', 'BUSHY',
+    'BURRO', 'BURRS', 'BURRY', 'BURSA', 'BURSE', 'BUSBY', 'BUSED', 'BUSES', 'BUSHY',
     'BUSKS', 'BUSKY', 'BUSSU', 'BUSTI', 'BUSTS', 'BUSTY', 'BUTCH', 'BUTEO', 'BUTES', 'BUTLE',
     'BUTOH', 'BUTTS', 'BUTTY', 'BUTUT', 'BUTYL', 'BUXOM', 'BUZZY', 'BWANA',
     'BWAZI', 'BYDED', 'BYDES', 'BYKED', 'BYKES', 'BYRES', 'BYRLS', 'BYSSI', 'BYTES',
@@ -25686,6 +25686,17 @@ export const wordleWords = [
         guess_4: null,
         guess_5: null,
         guess_6: null,
+      },
+      { word: "BURST", 
+        gameDate: "9/8/26",
+        myScore: 3,
+        wordNumber: 1907,
+        guess_1: "ROAST",
+        guess_2: "WREST",
+        guess_3: "BURST",
+        guess_4: null,
+        guess_5: null,
+        guess_6: null,
       }
 
 
@@ -25706,7 +25717,7 @@ console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
 console.log("August 9, 2025, Mom: Hello, Again!" )
-console.log("September 8, 2026: Trump sux dykk000000000! LIVEN")
+console.log("September 9, 2026: Trump sux dykk000000000! BURST")
 
 console.log(wordleWords)
 
