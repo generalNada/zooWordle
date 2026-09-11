@@ -1665,7 +1665,7 @@ export const dailyWordsSmall = [
 'DOUGH', 'DOWEL', 'DOWNY', 'DOWRY', 'DOZEN', 'DRAFT', 'DRAIN', 
 'DRANK', 'DRAPE', 'DRAWL', 'DRAWN', 'DREAD', 'DREAM', 'DRESS', 'DRIED', 'DRIER', 'DRIFT',
 'DRILL', 'DRINK', 'DRIVE', 'DROIT', 'DROLL', 'DRONE', 'DROOL', 'DROOP', 'DROSS', 'DROVE',
-'DROWN', 'DRUID', 'DRYER', 'DRYLY', 'DUCHY', 'DULLY', 'DUMMY', 'DUMPY', 'DUNCE', 'DURUM',
+'DROWN', 'DRUID', 'DRYER', 'DUCHY', 'DULLY', 'DUMMY', 'DUMPY', 'DUNCE', 'DURUM',
 'DUSKY', 'DUTCH', 'DUVET', 'DWARF', 'DWELL', 'DWELT', 'DYING', 'EAGER', 'EAGLE',
 'EARLY', 'EARTH', 'EASEL', 'EATER', 'EBONY', 'ECLAT', 'EDICT', 'EDIFY', 
 'EGRET', 'EIGHT', 'EJECT', 'EKING', 'ELATE', 'ELBOW', 'ELDER', 'ELECT', 'ELEGY', 
@@ -2169,7 +2169,7 @@ export const dailyWordsLarge = [
     'DRIPS', 'DRIPT', 'DRIVE', 'DROID', 'DROIL', 'DROIT', 'DROKE', 'DROLE', 'DROLL', 'DROME',
     'DRONE', 'DRONY', 'DROOB', 'DROOG', 'DROOK', 'DROOL', 'DROOP', 'DROPS', 'DROPT', 'DROSS', 
     'DROUK', 'DROVE', 'DROWN', 'DROWS', 'DRUBS', 'DRUGS', 'DRUID', 'DRUMS', 'DRUPE', 
-    'DRUSE', 'DRUSY', 'DRUXY', 'DRYAD', 'DRYAS', 'DRYER', 'DRYLY', 'DSOBO', 'DSOMO', 'DUADS', 
+    'DRUSE', 'DRUSY', 'DRUXY', 'DRYAD', 'DRYAS', 'DRYER', 'DSOBO', 'DSOMO', 'DUADS', 
     'DUALS', 'DUANS', 'DUARS', 'DUBBO', 'DUCAL', 'DUCAT', 'DUCES',
     'DUCHY', 'DUCKS', 'DUCKY', 'DUCTS', 'DUDDY', 'DUDED', 'DUDES', 'DUELS', 'DUETS', 'DUETT',
     'DUFFS', 'DUFUS', 'DUING', 'DUITS', 'DUKAS', 'DUKED', 'DUKES', 'DUKKA', 'DULCE', 'DULES',
@@ -25688,13 +25688,24 @@ export const wordleWords = [
         guess_6: null,
       },
       { word: "BURST", 
-        gameDate: "9/8/26",
+        gameDate: "9/9/26",
         myScore: 3,
-        wordNumber: 1907,
+        wordNumber: 1908,
         guess_1: "ROAST",
         guess_2: "WREST",
         guess_3: "BURST",
         guess_4: null,
+        guess_5: null,
+        guess_6: null,
+      },
+      { word: "DRYLY", 
+        gameDate: "9/10/26",
+        myScore: 4,
+        wordNumber: 1909,
+        guess_1: "LEANT",
+        guess_2: "SLIMY",
+        guess_3: "DULLY",
+        guess_4: "DRYLY",
         guess_5: null,
         guess_6: null,
       }
@@ -25717,7 +25728,7 @@ console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
 console.log("August 9, 2025, Mom: Hello, Again!" )
-console.log("September 9, 2026: Trump sux dykk000000000! BURST")
+console.log("September 10, 2026: Trump sux dykk000000000! DRYLY")
 
 console.log(wordleWords)
 
