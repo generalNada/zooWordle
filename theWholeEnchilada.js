@@ -1476,7 +1476,8 @@ export const combinedWords = [
     'MYRRH', 'NACHO', 'NADIR', 'NAIVE', 'NANNY', 'NASAL', 'NASTY', 'NATAL', 'NAVAL', 'NAVEL', 
     'NEEDY',
     'NEIGH', 'NERDY', 'NERVE', 'NERVY', 'NEVER', 'NEWER', 'NEWLY', 'NICER', 'NICHE', 'NIECE',
-    'NIGHT', 'NINJA', 'NINNY', 'NINTH', 'NOBLE', 'NOBLY', 'NOISE', 'NOISY', 'NOMAD', 'NOOSE',
+    'NIFTY', 'NIGHT', 'NINJA', 'NINNY', 'NINTH', 'NOBLE', 'NOBLY', 'NOISE', 'NOISY', 'NOMAD', 
+    'NOOSE',
     'NORTH', 'NOSEY', 'NOTCH', 'NOVEL', 'NUDGE', 'NURSE', 'NUTTY', 'NYLON', 'NYMPH', 'OAKEN',
     'OASES', 'OASIS', 'OBESE', 'OCCUR', 'OCEAN', 'OCTAL', 'OCTET', 'ODDER', 'ODDLY', 'OFFAL', 
     'OFFER', 'OFTEN',
@@ -2607,7 +2608,7 @@ export const dailyWordsLarge = [
     'NEWTS', 'NEXTS', 'NEXUS',
     'NGAIO', 'NGANA', 'NGATI', 'NGOMA', 'NGWEE', 'NICAD', 'NICER', 'NICHE', 'NICHT', 'NICKS',
     'NICOL', 'NIDAL', 'NIDED', 'NIDES', 'NIDOR', 'NIDUS', 'NIEFS', 'NIEVE', 'NIFES',
-    'NIFFS', 'NIFFY', 'NIFTY', 'NIGHS', 'NIGHT', 'NIHIL', 'NIKAB', 'NIKAH', 'NIKAU', 'NILLS',
+    'NIFFS', 'NIFFY', 'NIGHS', 'NIGHT', 'NIHIL', 'NIKAB', 'NIKAH', 'NIKAU', 'NILLS',
     'NIMBI', 'NIMBS', 'NIMPS', 'NINER', 'NINES', 'NINJA', 'NINNY', 'NINON', 'NINTH', 'NIPAS',
     'NIPPY', 'NIQAB', 'NIRLS', 'NIRLY', 'NISEI', 'NISSE', 'NISUS', 'NITER', 'NITES', 'NITID',
     'NITON', 'NITRE', 'NITRO', 'NITRY', 'NITTY', 'NIVAL', 'NIXED', 'NIXER', 'NIXES', 'NIXIE',
@@ -25719,6 +25720,17 @@ export const wordleWords = [
         guess_4: "ASTER",
         guess_5: null,
         guess_6: null,
+      },
+      { word: "NIFTY", 
+        gameDate: "9/12/26",
+        myScore: 3,
+        wordNumber: 1911,
+        guess_1: "SCION",
+        guess_2: "MINOR",
+        guess_3: "NIFTY",
+        guess_4: null,
+        guess_5: null,
+        guess_6: null,
       }
 
 
@@ -25739,7 +25751,7 @@ console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
 console.log("August 9, 2025, Mom: Hello, Again!" )
-console.log("September 11, 2026: Trump sux dykk000000000! ASTER")
+console.log("September 12, 2026: Trump sux dykk000000000! NIFTY")
 
 console.log(wordleWords)
 
