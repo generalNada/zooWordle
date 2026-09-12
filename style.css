@@ -292,7 +292,7 @@ body {
 
 /* Enhanced focus states for accessibility */
 .eachLink:focus {
-  outline: 4px solid rgba(255, 255, 255, 0.8);
+  outline: 4px solid rgba(255, 254, 255, 0.8);
   outline-offset: 4px;
 }
 
