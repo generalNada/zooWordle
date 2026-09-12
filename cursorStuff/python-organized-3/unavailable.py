@@ -158,7 +158,7 @@ my_list = {
     'MUSIC', 'MUSHY',
     'MUSTY', 'MYRRH', 'NADIR', 'NAÏVE', 'NANNY', 'NASAL', 'NASTY', 'NATAL', 'NAVAL', 'NAVEL',
     'NEEDY', 'NEIGH', 'NERDY', 'NERVE', 'NERVY', 'NEVER', 'NEWLY', 'NICHE', 'NICER', 'NIECE',
-    'NIGHT', 'NINJA',
+    'NIFTY', 'NIGHT', 'NINJA',
     'NINTH', 'NOBLE', 'NOBLY', 'NOISE', 'NOISY', 'NOMAD', 'NORTH', 'NOTCH', 'NOVEL', 'NUDGE', 
     'NYLON', 'NYMPH',
     'OASIS', 'OCCUR', 'OCEAN', 'OCTET', 'ODDLY', 'OFFAL', 'OFFER', 'OFTEN', 'OLDEN', 'OLDER', 
@@ -280,7 +280,7 @@ my_list = {
     'WROTE', 'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'ASTER'
+word_to_find = 'NIFTY'
 
 
 if word_to_find in my_list:
