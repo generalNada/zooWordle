@@ -93,7 +93,7 @@ body {
   height: 200%;
   background: radial-gradient(
     circle,
-    rgba(255, 255, 255, 0.1) 2px,
+    rgba(255, 254, 255, 0.1) 2px,
     transparent 2px
   );
   background-size: 60px 60px;
