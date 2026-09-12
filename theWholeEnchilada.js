@@ -1333,8 +1333,8 @@ export const combinedWords = [
     'ANVIL', 'AORTA', 'APART', 'APIAN', 'APHID', 'APING', 'APNEA', 'APPLE', 'APPLY', 'APRON', 
     'APTLY',
     'ARBOR', 'ARDOR', 'ARENA', 'ARGUE', 'ARISE', 'ARMOR', 'AROMA', 'AROSE', 'ARRAY', 'ARROW',
-    'ARSON', 'ARTSY', 'ASCOT', 'ASHEN', 'ASIDE', 'ASKEW', 'ASPIC', 'ASSAY', 'ASSET', 'ATLAS', 
-    'ATOLL',
+    'ARSON', 'ARTSY', 'ASCOT', 'ASHEN', 'ASIDE', 'ASKEW', 'ASPIC', 'ASSAY', 'ASSET', 'ASTER', 
+    'ATLAS', 'ATOLL',
     'ATONE', 'ATRIA', 'ATTIC', 'AUDIO', 'AUDIT', 'AUGUR', 'AUNTY', 'AVAIL', 'AVERT', 
     'AVOID', 'AWAIT', 'AWAKE', 'AWARD', 'AWARE', 'AWASH', 'AWFUL', 'AWOKE', 'AXIAL', 'AXIOM',
     'AXION', 'AZURE', 'BACON', 'BADGE', 'BADLY', 'BAGEL', 'BAGGY', 'BAKER', 'BALER', 'BALMY',
@@ -1913,7 +1913,7 @@ export const dailyWordsLarge = [
     'ARTEL', 'ARTIC', 'ARTIS', 'ARTSY', 'ARUHE', 'ARUMS', 'ARVAL', 'ARVEE', 'ARVOS', 'ARYLS',
     'ASANA', 'ASCON', 'ASCOT', 'ASCUS', 'ASDIC', 'ASHED', 'ASHEN', 'ASHES', 'ASHET', 'ASIDE',
     'ASKED', 'ASKER', 'ASKEW', 'ASKOI', 'ASKOS', 'ASPEN', 'ASPER', 'ASPIS', 'ASPRO',
-    'ASSAI', 'ASSAM', 'ASSAY', 'ASSES', 'ASSET', 'ASSEZ', 'ASSOT', 'ASTER', 'ASTIR', 'ASTUN',
+    'ASSAI', 'ASSAM', 'ASSAY', 'ASSES', 'ASSET', 'ASSEZ', 'ASSOT', 'ASTIR', 'ASTUN',
     'ASURA', 'ASWAY', 'ASWIM', 'ASYLA', 'ATAPS', 'ATAXY', 'ATIGI', 'ATILT', 'ATIMY', 'ATLAS',
     'ATMAN', 'ATMAS', 'ATMOS', 'ATOCS', 'ATOKE', 'ATOKS', 'ATOLL', 'ATOMS', 'ATOMY', 'ATONE',
     'ATONY', 'ATOPY', 'ATRIA', 'ATRIP', 'ATTAP', 'ATTAR', 'ATUAS', 'AUDAD', 'AUDIO',
@@ -25708,6 +25708,17 @@ export const wordleWords = [
         guess_4: "DRYLY",
         guess_5: null,
         guess_6: null,
+      },
+      { word: "ASTER", 
+        gameDate: "9/11/26",
+        myScore: 4,
+        wordNumber: 1910,
+        guess_1: "RINSE",
+        guess_2: "SHREW",
+        guess_3: "LASER",
+        guess_4: "ASTER",
+        guess_5: null,
+        guess_6: null,
       }
 
 
@@ -25728,7 +25739,7 @@ console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
 console.log("August 9, 2025, Mom: Hello, Again!" )
-console.log("September 10, 2026: Trump sux dykk000000000! DRYLY")
+console.log("September 11, 2026: Trump sux dykk000000000! ASTER")
 
 console.log(wordleWords)
 
