@@ -14,7 +14,7 @@ my_list = {
     'AORTA',
     'APART', 'APHID', 'APPLE', 'APPLY', 'APRON', 'APTLY', 'ARBOR', 'ARDOR', 'ARGUE', 'ARISE',
     'AROMA', 'ARROW', 'ARTSY', 'ASCOT', 'ASHEN', 'ASIDE', 'ASKEW', 'ASPIC', 'ASSAY', 'ASSET', 
-    'ATLAS',
+    'ASTER', 'ATLAS',
     'ATOLL', 'ATONE', 'ATRIA', 'ATTIC', 'AUDIO', 'AUDIT', 'AVAIL', 'AVERT', 'AVIAN', 'AVOID', 
     'AWAIT',
     'AWAKE', 'AWAKE', 'AWARD', 'AWARE', 'AWASH', 'AWOKE', 'AWFUL', 'AXIOM', 'AZURE', 'BACON',
@@ -284,7 +284,7 @@ word_to_find = 'DRYLY'
 
 
 if word_to_find in my_list:
- print(f"{word_to_find} was found! Wordle has already used '{word_to_find}'. Do NOT guess {word_to_find}, Man.")
+ print(f"{word_to_find} was found! Wordle has already used '{word_to_find}'. Do NOT guess {word_to_find}, Man-Boy.")
 else:
    print(f"{word_to_find} was NOT found! Feel free to guess {word_to_find}.") 
    
