@@ -98,7 +98,8 @@ my_list = {
     'FLICK', 'FLING', 'FLINT', 'FLIRT', 'FLOAT', 'FLOCK', 'FLOOD', 'FLOOR', 'FLORA', 'FLOSS',
     'FLOUR', 'FLOUT', 'FLOWN', 'FLUFF', 'FLUKE', 'FLUME', 'FLUME', 'FLUNG', 'FLUNK', 'FLUTE',
     'FLYER',
-    'FOAMY', 'FOCAL', 'FOCUS', 'FOGGY', 'FOIST', 'FOLIO', 'FOLLY', 'FORAY', 'FORCE', 'FORGE',
+    'FOAMY', 'FOCAL', 'FOCUS', 'FOCUS', 'FOGGY', 'FOIST', 'FOLIO', 'FOLLY', 'FORAY', 'FORCE', 
+    'FORGE',
     'FORGO', 'FORTE', 'FORTH', 'FORTY', 'FORUM', 'FOUND', 'FOYER', 'FRAIL', 'FRAME', 'FRANK',
     'FREAK', 'FRESH', 'FRIED', 'FRILL', 'FRITZ', 'FROCK', 'FROND', 'FRONT', 'FROST', 'FROTH',
     'FROWN', 'FROZE', 'FRUIT', 'FUGUE', 'FULLY', 'FUNGI', 'FUNKY', 'FUNNY', 'FUZZY', 'GAMER',
@@ -280,7 +281,7 @@ my_list = {
     'WROTE', 'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'NIFTY'
+word_to_find = 'FOCUS'
 
 
 if word_to_find in my_list:
