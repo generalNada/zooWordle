@@ -151,7 +151,7 @@ body {
 }
 
 .eachLink:hover {
-  transform: translateY(-8px) scale(1.05);
+  transform: translateY(-8px) scale(1.04);
   border-color: rgba(58, 187, 133, 1);
   box-shadow: 0 12px 30px rgba(58, 187, 133, 0.5);
   background: rgba(255, 255, 255, 0.25);
