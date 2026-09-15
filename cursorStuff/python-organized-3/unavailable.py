@@ -194,8 +194,8 @@ my_list = {
     'REMIT', 'REMIX',
     'RENEW', 'REPAY', 'REPEL', 'REPLY', 'RERUN', 'RESIN', 'RETCH', 'RETRO', 'RETRY', 'REVEL', 
     'REVUE',
-    'RHINO', 'RHYME', 'RIDER', 'RIDGE', 'RIGHT', 'RIGID', 'RIPER', 'RISEN', 'RISER', 'RIVAL', 
-    'RIVET',
+    'RHINO', 'RHYME', 'RIDER', 'RIDGE', 'RIGHT', 'RIGID', 'RIPER', 'RINSE', 'RISEN', 'RISER', 
+    'RIVAL', 'RIVET',
     'ROACH', 'ROBIN', 'ROBOT', 'ROCKY', 'RODEO', 'ROGUE', 'ROUGE', 'ROOMY', 'ROOST', 'ROUGH',
     'ROUND', 'ROUSE', 'ROUTE', 'ROVER', 'ROWDY', 'ROWER', 'ROYAL', 'RUDDY', 'RUDER', 'RUGBY',
     'RULER', 'RUMBA', 'RUNNY', 'RUPEE', 'RURAL', 'RUSTY', 'SAINT', 'SALAD', 'SALLY', 'SALSA', 
@@ -281,7 +281,7 @@ my_list = {
     'WROTE', 'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'FOCUS'
+word_to_find = 'RINSE'
 
 
 if word_to_find in my_list:
