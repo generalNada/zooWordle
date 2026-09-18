@@ -245,7 +245,7 @@ my_list = {
     'TASTY', 'TAUNT', 'TAUPE', 'TAWNY', 'TEACH', 'TEARY', 'TEASE', 'TEETH', 'TEDDY', 'TEMPO', 
     'TENOR',
     'TENTH', 'TEPID', 'TERSE', 'TESTY', 'THANK', 'THEFT', 'THEIR', 'THEME', 'THERE', 'THESE', 
-    'THICK', 'THIEF',
+    'THETA', 'THICK', 'THIEF',
     'THIGH', 'THING', 'THINK', 'THIRD', 'THORN', 'THOSE', 'THREE', 'THREW', 'THROB', 'THROW',
     'THRUM', 'THUMB', 'THUMB', 'THUMP', 'THYME', 'TIARA', 'TIBIA', 'TIDAL', 'TIGER', 'TILDE', 
     'TIMER',
@@ -282,7 +282,7 @@ my_list = {
     'WROTE', 'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'WISPY'
+word_to_find = 'THETA'
 
 
 if word_to_find in my_list:
