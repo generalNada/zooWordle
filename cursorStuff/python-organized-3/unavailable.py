@@ -219,8 +219,8 @@ my_list = {
     'SLOTH', 'SLUMP', 'SLUNG', 'SLUSH', 'SMALL', 'SMART', 'SMASH', 'SMEAR', 'SMELL', 'SMELT', 
     'SMILE', 'SMILE', 'SMIRK',
     'SMITE', 'SMITH', 'SMOCK', 'SMOKE', 'SNACK', 'SNAFU', 'SNAIL', 'SNAKE', 'SNAKY', 'SNARE',
-    'SNARL', 'SNEAK', 'SNIDE', 'SNIPE', 'SNOOP', 'SNORE', 'SNORT', 'SNOUT', 'SOBER', 'SOGGY', 
-    'SOLAR', 'SOLID', 'SOLVE', 'SONAR',
+    'SNARL', 'SNEAK', 'SNIDE', 'SNIPE', 'SNOOP', 'SNORE', 'SNORT', 'SNOUT', 'SNOWY', 'SOBER', 
+    'SOGGY', 'SOLAR', 'SOLID', 'SOLVE', 'SONAR',
     'SONIC', 'SORRY', 'SOUND', 'SOUPY', 'SOUTH', 'SOWER', 'SPACE', 'SPADE', 'SPARE', 'SPASM', 
     'SPARK',
     'SPATE', 'SPEAK', 'SPEAR', 'SPECK', 'SPEED', 'SPELL', 'SPELT', 'SPEND', 'SPENT', 'SPICE',
@@ -282,7 +282,7 @@ my_list = {
     'WROTE', 'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'THETA'
+word_to_find = 'SNOWY'
 
 
 if word_to_find in my_list:
