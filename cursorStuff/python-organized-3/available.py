@@ -47,7 +47,7 @@ unused_list = [
     "SALVE", "SALVO", "SANER", "SAPPY", "SATYR", "SAUCE", "SAVOY", "SCALP", "SCALY",
     "SCAMP", "SCARY", "SCION", "SCREE", "SCREW", "SCROD", "SCUBA", "SEIZE", "SEMEN", 
     "SETUP", "SEWER", "SHACK", "SHADY", "SHALE", "SHALT", "SHARK", "SHEEN", 
-    "SHEER", "SHEIK", "SHIED", "SHINY", "SHIRT", "SHOCK", "SHONE", "SHOOK", "SHOOT",
+    "SHEER", "SHEIK", "SHIED", "SHINY", "SHIRT", "SHOCK", "SHOOK", "SHOOT",
     "SHREW", "SIEVE", "SIGMA", "SILKY", "SINEW", "SIXTY", "SKEIN", "SKULK", "SLACK", "SLAIN",
     "SLANT", "SLASH", "SLAVE", "SLEET", "SLEPT", "SLIDE", "SLIMY",
     "SLINK", "SLOOP", "SLUNK", "SLURP", "SLYLY", "SMACK", "SMOKY", "SMOTE",
@@ -67,7 +67,7 @@ unused_list = [
     "WREST", "WRING", "WRYLY", "ZONAL"
 ]
 
-word = 'WAKEN'
+word = 'SHONE'
 
 
 if word in unused_list:
