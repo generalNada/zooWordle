@@ -269,7 +269,7 @@ my_list = {
     'VIGOR', 'VILLA', 'VINYL', 'VIOLA', 'VIRAL', 'VISIT', 'VISOR', 'VITAL', 'VIVID', 'VIXEN', 
     'VOCAL', 'VODKA',
     'VOGUE', 'VOILA', 'VOICE', 'VOTER', 'VOUCH', 'VOWEL', 'VYING', 'WACKY', 'WAFER', 'WAGER', 
-    'WAGON', 'WAIST',
+    'WAGON', 'WAIST', 'WAKEN',
     'WALTZ', 'WASTE', 'WATCH', 'WATER', 'WAVER', 'WAXEN', 'WEARY', 'WEAVE', 'WEDGE', 'WEEDY', 
     'WEIGH', 'WEIRD',
     'WHACK', 'WHARF', 'WHALE', 'WHEAT', 'WHEEL', 'WHELP', 'WHERE', 'WHICH', 'WHIFF', 'WHILE', 
