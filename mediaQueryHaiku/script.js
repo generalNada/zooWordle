@@ -14,7 +14,7 @@ if (bwToggle) {
       bwToggle.textContent = "🎨 Color / B&W";
     }
 
-    console.log("Grayscale mode:", isGrayscale ? "ON" : "OFF, WakenDick");
+    console.log("Grayscale mode:", isGrayscale ? "ON" : "OFF, SHONEDick");
   });
 } else {
   console.error("B&W toggle button not found!");
