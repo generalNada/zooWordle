@@ -282,7 +282,7 @@ my_list = {
     'WROTE', 'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'SNOWY'
+word_to_find = 'WAKEN'
 
 
 if word_to_find in my_list:
