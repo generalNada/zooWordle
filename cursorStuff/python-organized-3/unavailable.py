@@ -209,8 +209,8 @@ my_list = {
     'SERVE', 'SEVEN', 'SEVER', 'SHADE', 'SHAFT', 'SHAKE', 'SHAKY', 'SHALL', 'SHAME', 'SHANK',
     'SHAPE', 'SHARD', 'SHARE', 'SHARP', 'SHAVE', 'SHAWL', 'SHEAR', 'SHEEP', 'SHEET', 'SHELF', 
     'SHELL',
-    'SHIFT', 'SHILL', 'SHINE', 'SHIRE', 'SHIRK', 'SHOAL', 'SHORE', 'SHORN', 'SHORT', 'SHOUT', 
-    'SHOVE', 'SHOWN',
+    'SHIFT', 'SHILL', 'SHINE', 'SHIRE', 'SHIRK', 'SHOAL', 'SHONE', 'SHORE', 'SHORN', 'SHORT', 
+    'SHOUT', 'SHOVE', 'SHOWN',
     'SHOWY', 'SHRED', 'SHRUB', 'SHRUG', 'SHUCK', 'SHUNT', 'SHYLY', 'SIEGE', 'SIGHT', 'SILLY',
     'SINCE', 'SINGE', 'SIREN', 'SISSY', 'SITAR', 'SIXTH', 'SKATE', 'SKILL', 'SKIMP', 'SKIER', 
     'SKIFF',
@@ -282,7 +282,7 @@ my_list = {
     'WROTE', 'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'WAKEN'
+word_to_find = 'SHONE'
 
 
 if word_to_find in my_list:
