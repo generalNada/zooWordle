@@ -1485,7 +1485,8 @@ export const combinedWords = [
     'OLDEN', 'OLDER', 'OLIVE', 'OMBRE', 'OMEGA', 'ONION', 'ONSET', 'OPERA', 'OPINE', 'OPIUM',
     'OPTIC', 'ORBIT', 'ORDER', 'ORGAN', 'OTHER', 'OTTER', 'OUGHT', 'OUNCE', 'OUTDO', 'OUTER',
     'OUTGO', 'OVARY', 'OVATE', 'OVERT', 'OVINE', 'OVOID', 'OWING', 'OWNER', 'OXIDE', 'OZONE',
-    'PADDY', 'PAGAN', 'PAINT', 'PALER', 'PALSY', 'PANEL', 'PANIC', 'PANSY', 'PAPAL', 'PAPER',
+    'PADDY', 'PAGAN', 'PAGER', 'PAINT', 'PALER', 'PALSY', 'PANEL', 'PANIC', 'PANSY', 'PAPAL', 
+    'PAPER',
     'PARER', 'PARKA', 'PARRY', 'PARSE', 'PARTY', 'PASTA', 'PASTE', 'PASTY', 'PATCH', 'PATIO',
     'PATSY', 'PATTY', 'PAUSE', 'PAYEE', 'PAYER', 'PEACE', 'PEACH', 'PEARL', 'PECAN', 'PEDAL',
     'PENAL', 'PENCE', 'PENNE', 'PENNY', 'PEONY', 'PERCH', 'PERIL', 'PERKY', 'PESKY', 'PESTO',
@@ -2654,7 +2655,7 @@ export const dailyWordsLarge = [
     'OXLIP', 'OXTER', 'OYERS', 'OZEKI', 'OZONE', 'OZZIE',
     'PAALS', 'PAANS', 'PACAS', 'PACED', 'PACER', 'PACES', 'PACEY', 'PACHA', 'PACKS', 'PACOS',
     'PACTA', 'PACTS', 'PADDY', 'PADIS', 'PADLE', 'PADMA', 'PADRE', 'PADRI', 'PAEAN', 'PAEDO',
-    'PAEON', 'PAGAN', 'PAGED', 'PAGER', 'PAGES', 'PAGLE', 'PAGOD', 'PAGRI', 'PAIKS', 'PAILS',
+    'PAEON', 'PAGAN', 'PAGED', 'PAGES', 'PAGLE', 'PAGOD', 'PAGRI', 'PAIKS', 'PAILS',
     'PAINS', 'PAINT', 'PAIRE', 'PAIRS', 'PAISA', 'PAISE', 'PAKKA', 'PALAS', 'PALAY', 'PALEA',
     'PALED', 'PALER', 'PALES', 'PALET', 'PALIS', 'PALKI', 'PALLA', 'PALLS', 'PALLY', 'PALMS',
     'PALMY', 'PALPI', 'PALPS', 'PALSA', 'PALSY', 'PAMPA', 'PANAX', 'PANCE', 'PANDA', 'PANDS',
@@ -25821,6 +25822,17 @@ export const wordleWords = [
         guess_4: null,
         guess_5: null,
         guess_6: null,
+      },
+      { word: "PAGER", 
+        gameDate: "9/21/26",
+        myScore: 7,
+        wordNumber: 1920,
+        guess_1: "CLEAT",
+        guess_2: "AROSE",
+        guess_3: "DEARY",
+        guess_4: "RAVEN",
+        guess_5: "HAREM",
+        guess_6: "GAZER",
       }
 
 
@@ -25841,7 +25853,7 @@ console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
 console.log("August 9, 2025, Mom: Hello, Again!" )
-console.log("September 20, 2026: Trump sux dykk000000000! SHONE")
+console.log("September 21, 2026: Trump sux dykk000000000! PAGER")
 
 console.log(wordleWords)
 
