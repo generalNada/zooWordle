@@ -231,7 +231,8 @@ my_list = {
     'START',
     'STASH', 'STATE', 'STEAD', 'STEAK', 'STEAM', 'STEED', 'STEEL', 'STEEP', 'STEIN', 'STERN', 
     'STICK',
-    'STIFF', 'STILL', 'STILT', 'STING', 'STINK', 'STINT', 'STOCK', 'STOIC', 'STOLE', 'STOMP',
+    'STIFF', 'STILL', 'STILT', 'STING', 'STINK', 'STINT', 'STOCK', 'STOIC', 'STOKE', 'STOLE', 
+    'STOMP',
     'STONE', 'STONY', 'STOOD', 'STOOL', 'STORE', 'STORK', 'STORM', 'STORY', 'STOUT', 'STOUT', 
     'STOVE',
     'STRAP', 'STRAW', 'STRAY', 'STRIP', 'STRUT', 'STUDY', 'STUFF', 'STUMP', 'STUNG', 'STUNT', 
@@ -282,7 +283,7 @@ my_list = {
     'WROTE', 'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'PAGER'
+word_to_find = 'STOKE'
 
 
 if word_to_find in my_list:
