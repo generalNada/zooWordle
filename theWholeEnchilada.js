@@ -1545,7 +1545,7 @@ export const combinedWords = [
     'SMOCK', 'SMOKE', 'SMOKY', 'SMOTE', 'SNACK', 'SNAFU', 'SNAIL', 'SNAKE', 'SNAKY', 'SNARE',
     'SNARL', 'SNEAK', 'SNEER', 'SNIDE', 'SNIFF', 'SNIPE', 'SNOOP', 'SNORE', 'SNORT', 'SNOUT',
     'SNOWY', 'SNUCK', 'SNUFF', 'SOAPY', 'SOBER', 'SOGGY', 'SOLAR', 'SOLID', 'SOLVE',
-    'SONIC', 'SOOTH', 'SOOTY', 'SORRY', 'SOUND', 'SOUPY','SOUTH', 'SOWER', 'SPACE', 'SPADE', 
+    'SONIC', 'SOOTH', 'SOOTY', 'SORRY', 'SOUND', 'SOUPY', 'SOUTH', 'SOWER', 'SPACE', 'SPADE', 
     'SPANK',
     'SPARE', 'SPARK', 'SPASM', 'SPATE', 'SPAWN', 'SPEAK', 'SPEAR', 'SPECK', 'SPEED', 'SPELL',
     'SPELT', 'SPEND', 'SPENT', 'SPERM', 'SPICE', 'SPICY', 'SPIED', 'SPIEL', 'SPIKE', 'SPIKY',
@@ -1557,7 +1557,8 @@ export const combinedWords = [
     'STEED', 'STEEL', 'STEEP', 'STEER', 'STEIN', 'STERN', 'STICK', 'STIFF', 'STILL', 'STILT',
     'STING', 'STINK', 'STINT', 'STOCK', 'STOIC', 'STOKE', 'STOLE', 'STOMP', 'STONE', 'STONY',
     'STOOD', 'STOOL', 'STOOP', 'STORE', 'STORK', 'STORM', 'STORY', 'STOUT', 'STOVE', 'STRAP',
-    'STRAW', 'STRAY', 'STRIP', 'STRUT', 'STUCK', 'STUDY', 'STUFF', 'STUMP', 'STUNG', 'STUNK',
+    'STRAW', 'STRAY', 'STOKE', 'STREW', 'STRIP', 'STRUT', 'STUCK', 'STUDY', 'STUFF', 'STUMP', 
+    'STUNG', 'STUNK',
     'STUNT', 'STYLE', 'SUAVE', 'SUEDE', 'SUGAR', 'SUING', 'SUITE', 'SULKY', 'SULLY', 'SUMAC',
     'SUNNY', 'SUPER', 'SURER', 'SURGE', 'SURLY', 'SUSHI', 'SWAMI', 'SWAMP', 'SWARM', 'SWASH',
     'SWATH', 'SWEAR', 'SWEAT', 'SWEEP', 'SWEET', 'SWELL', 'SWEPT', 'SWIFT', 'SWILL', 'SWINE',
@@ -1811,9 +1812,9 @@ export const dailyWordsSmall = [
 'STAID', 'STAIN', 'STAIR', 'STAKE', 'STALE', 'STALK', 'STALL', 'STAMP', 
 'STARE', 'STARK', 'START', 'STASH', 'STATE', 'STAVE', 'STEAD', 'STEAL', 'STEAM',
 'STEED', 'STEEL', 'STEEP', 'STEER', 'STEIN', 'STERN', 'STICK', 'STIFF', 'STILL', 'STILT',
-'STING', 'STINK', 'STINT', 'STOCK', 'STOIC', 'STOKE', 'STOLE', 'STOMP', 'STONE', 'STONY',
+'STING', 'STINK', 'STINT', 'STOCK', 'STOIC', 'STOLE', 'STOMP', 'STONE', 'STONY',
 'STOOD', 'STOOL', 'STOOP', 'STORE', 'STORK', 'STORM', 'STORY', 'STOVE', 'STRAP',
-'STRAW', 'STRAY', 'STRUT', 'STUCK', 'STUDY', 'STUMP', 'STUNG', 'STUNK',
+'STRAW', 'STRAY', 'STREW', 'STRUT', 'STUCK', 'STUDY', 'STUMP', 'STUNG', 'STUNK',
 'STUNT', 'STYLE', 'SUAVE', 'SUEDE', 'SUGAR', 'SUING', 'SUITE', 'SULKY', 'SULLY', 'SUMAC',
 'SUNNY', 'SUPER', 'SURER', 'SURLY', 'SUSHI', 'SWARM', 'SWASH',
 'SWATH', 'SWEAR', 'SWEAT', 'SWEEP', 'SWEET', 'SWELL', 'SWEPT', 'SWIFT', 'SWILL', 'SWINE',
@@ -25833,6 +25834,17 @@ export const wordleWords = [
         guess_4: "RAVEN",
         guess_5: "HAREM",
         guess_6: "GAZER",
+      },
+       { word: "STOKE", 
+        gameDate: "9/22/26",
+        myScore: 4,
+        wordNumber: 1921,
+        guess_1: "SLAIN",
+        guess_2: "SETUP",
+        guess_3: "SMOTE",
+        guess_4: "STOKE",
+        guess_5: null,
+        guess_6: null,
       }
 
 
@@ -25853,7 +25865,7 @@ console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
 console.log("August 9, 2025, Mom: Hello, Again!" )
-console.log("September 21, 2026: Trump sux dykk000000000! PAGER")
+console.log("September 22, 2026: Trump sux dykk000000000! STOKE")
 
 console.log(wordleWords)
 
