@@ -1688,7 +1688,7 @@ export const dailyWordsSmall = [
 'FLASK', 'FLECK', 'FLEET', 'FLESH', 'FLICK', 'FLIER', 'FLING', 'FLINT', 'FLIRT', 'FLOAT',
 'FLOCK', 'FLOOD', 'FLOOR', 'FLORA', 'FLOSS', 'FLOUR', 'FLOUT', 'FLOWN', 'FLUFF', 'FLUID',
 'FLUNG', 'FLUNK', 'FLUSH', 'FLUTE', 'FLYER', 'FOAMY', 'FOCAL', 
-'FOGGY', 'FOIST', 'FOLIO', 'FOLLY', 'FORAY', 'FORCE', 'FORGE', 'FORGO', 'FORTE', 'FORTH',
+'FOGGY', 'FOIST', 'FOLIO', 'FOLLY', 'FORAY', 'FORCE', 'FORGE', 'FORGO', 'FORTE', 
 'FORTY', 'FORUM', 'FOUND', 'FOYER', 'FRAIL', 'FRAME', 'FRANK', 'FRAUD', 'FREAK', 'FREED',
 'FREER', 'FRESH', 'FRIAR', 'FRIED', 'FRILL', 'FRISK', 'FRITZ', 'FROCK', 'FROND', 'FRONT',
 'FROST', 'FROTH', 'FROWN', 'FROZE', 'FRUIT', 'FUDGE', 'FUGUE', 'FULLY', 'FUNGI', 'FUNKY',
@@ -2260,7 +2260,7 @@ export const dailyWordsLarge = [
     'FOLKY', 'FOLLY', 'FOMES', 'FONDA', 'FONDS', 'FONDU', 'FONES', 'FONLY', 'FONTS', 'FOODS',
     'FOODY', 'FOOLS', 'FOOTS', 'FOOTY', 'FORAM', 'FORAY', 'FORBS', 'FORBY', 'FORCE', 'FORDO',
     'FORDS', 'FOREL', 'FORES', 'FOREX', 'FORGE', 'FORGO', 'FORKS', 'FORKY', 'FORME', 'FORMS',
-    'FORTE', 'FORTH', 'FORTS', 'FORTY', 'FORUM', 'FORZA', 'FORZE', 'FOSSA', 'FOSSE', 'FOUAT',
+    'FORTE', 'FORTS', 'FORTY', 'FORUM', 'FORZA', 'FORZE', 'FOSSA', 'FOSSE', 'FOUAT',
     'FOUDS', 'FOUER', 'FOUET', 'FOULE', 'FOULS', 'FOUND', 'FOUNT', 'FOURS', 'FOUTH', 'FOVEA',
     'FOWLS', 'FOWTH', 'FOXED', 'FOXES', 'FOXIE', 'FOYER', 'FOYLE', 'FOYNE',
     'FRABS', 'FRACK', 'FRACT', 'FRAGS', 'FRAIL', 'FRAIM', 'FRAME', 'FRANC', 'FRANK', 'FRAPE',
@@ -25835,7 +25835,7 @@ export const wordleWords = [
         guess_5: "HAREM",
         guess_6: "GAZER",
       },
-       { word: "STOKE", 
+      { word: "STOKE", 
         gameDate: "9/22/26",
         myScore: 4,
         wordNumber: 1921,
@@ -25843,6 +25843,17 @@ export const wordleWords = [
         guess_2: "SETUP",
         guess_3: "SMOTE",
         guess_4: "STOKE",
+        guess_5: null,
+        guess_6: null,
+      },
+      { word: "FORTH", 
+        gameDate: "9/23/26",
+        myScore: 4,
+        wordNumber: 1922,
+        guess_1: "LEANT",
+        guess_2: "DITCH",
+        guess_3: "WORTH",
+        guess_4: "FORTH",
         guess_5: null,
         guess_6: null,
       }
@@ -25865,7 +25876,7 @@ console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
 console.log("August 9, 2025, Mom: Hello, Again!" )
-console.log("September 22, 2026: Trump sux dykk000000000! STOKE")
+console.log("September 23, 2026: Trump sux dykk000000000! FORTH")
 
 console.log(wordleWords)
 
