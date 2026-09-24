@@ -101,7 +101,8 @@ my_list = {
     'FLYER',
     'FOAMY', 'FOCAL', 'FOCUS', 'FOCUS', 'FOGGY', 'FOIST', 'FOLIO', 'FOLLY', 'FORAY', 'FORCE', 
     'FORGE',
-    'FORGO', 'FORTE', 'FORTH', 'FORTY', 'FORUM', 'FOUND', 'FOYER', 'FRAIL', 'FRAME', 'FRANK',
+    'FORGO', 'FORTE', 'FORTH', 'FORTH', 'FORTY', 'FORUM', 'FOUND', 'FOYER', 'FRAIL', 'FRAME', 
+    'FRANK',
     'FREAK', 'FRESH', 'FRIED', 'FRILL', 'FRITZ', 'FROCK', 'FROND', 'FRONT', 'FROST', 'FROTH',
     'FROWN', 'FROZE', 'FRUIT', 'FUGUE', 'FULLY', 'FUNGI', 'FUNKY', 'FUNNY', 'FUZZY', 'GAMER',
     'GAMMA', 'GAMUT', 'GAUDY', 'GAUGE', 'GAUNT', 'GAUZE', 'GAVEL', 'GAWKY', 'GECKO', 'GEESE',
@@ -283,7 +284,7 @@ my_list = {
     'WROTE', 'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'STOKE'
+word_to_find = 'FORTH'
 
 
 if word_to_find in my_list:
