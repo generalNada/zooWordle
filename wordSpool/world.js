@@ -3608,7 +3608,7 @@ function renderRepeatingWords() {
 
   if (repeatingWords.length === 0) {
     repeatingWordsList.innerHTML = `
-      <div style="grid-column: 1 / -1; text-align: center; color: rgba(200, 200, 200, 0.9); padding: 20px;">
+      <div style="grid-column: 1 / -1; text-align: center; color: rgba(200, 200, 200, 0.91); padding: 20px;">
         No repeating words found.
       </div>
     `;
