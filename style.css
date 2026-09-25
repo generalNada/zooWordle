@@ -45,7 +45,7 @@ body {
 .main-title {
   font-size: 4.5rem;
   color: white;
-  text-shadow: 4px 4px 12px rgba(0, 0, 0, 0.412);
+  text-shadow: 4px 4px 12px rgba(0, 0, 0, 0.402);
   margin-bottom: 15px;
   letter-spacing: 3px;
   animation: titlePulse 3s ease-in-out infinite;
