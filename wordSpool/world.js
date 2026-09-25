@@ -3738,7 +3738,7 @@ function showRepeatingWordDetails(entry, wordData) {
       <span class="detail-value">${scrabblePoints}</span>
     </div>
     <div class="detail-item">
-      <span class="detail-label">Average Score Up To This Point:</span>
+      <span class="detail-label">Average Score Up To This Point IS:</span>
       <span class="detail-value">${averageScore}</span>
     </div>
     <div class="detail-item">
