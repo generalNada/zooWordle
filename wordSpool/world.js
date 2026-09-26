@@ -800,7 +800,7 @@ scoreDropdown.addEventListener("change", (event) => {
       ? ((count / totalScores) * 100).toFixed(5)
       : 0;
 
-  let message = `The # of games you played with the score of ${selectedScore}, a LOSING SCORE, (only a 7 because it's impossible to really know, is it 8, 9, 10? Pager was a real fucker!), is ${count}. `;
+  let message = `The # of games you played with the score of ${selectedScore}, a LOSING SCORE, (only a 7 because it's impossible to concretely know, is it 8, 9, 10? Pager was a real fucker!), is ${count}. `;
   if (selectedScore !== 0) {
     message += `The % of games you played with the score of ${selectedScore} is ${percentageNonZero}%.`;
   } else {
