@@ -17,7 +17,7 @@ unused_list = [
     "DIODE", "DIRGE", "DIRTY", "DITCH", "DIVAN", "DOWNY", 
     "DRANK", "DRAWL", "DRESS", "DRIED", "DRIER", "DRIFT", "DROIT", "DROSS", "DROWN", "DRUID",
     "DULLY", "DUMPY", "DUNCE", "DYING", "EATER", "ECLAT",
-    "EDICT", "EKING", "ELECT", "ELEGY", "ELIDE", "ENEMY", 
+    "EDICT", "EKING", "ELECT", "ELIDE", "ENEMY", 
     "ERECT", "ESTER", "EVICT", "EXPEL", "EYING", "FAIRY", "FANNY", "FATAL",
     "FATTY", "FAUNA", "FECAL", "FELLA", "FELON", "FEMME", "FEMUR", "FETAL", "FETUS",
     "FICUS", "FIGHT", "FILER", "FILMY", "FILTH", "FLACK", "FLECK", "FLEET", "FLIER",
@@ -67,7 +67,7 @@ unused_list = [
     "WREST", "WRING", "WRYLY", "ZONAL"
 ]
 
-word = 'COPSE'
+word = 'ELEGY'
 
 
 if word in unused_list:
