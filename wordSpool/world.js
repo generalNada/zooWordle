@@ -3506,7 +3506,7 @@ function renderPositionSearchWords() {
         wordButton.innerHTML = `
           <div class="word-text">${entry.word}</div>
           <div class="word-date">Value In Scrabble Points : '${scrabblePoints}'</div>
-          <div class="word-date">Your average score upon the completion of this word: ${averageScore}</div>
+          <div class="word-date">Your Average Score upon the completion of this word: ${averageScore}</div>
           <div class="word-date">Days Since The Last ${firstLetter}: ${
             daysSinceLast.days
           }${daysSinceLast.word ? ` (${daysSinceLast.word})` : ""}</div>
