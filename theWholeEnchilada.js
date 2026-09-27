@@ -1597,7 +1597,8 @@ export const combinedWords = [
     'WASTE',
     'WATCH', 'WATER', 'WAVER', 'WAXEN', 'WEARY', 'WEAVE', 'WEDGE', 'WEEDY', 'WEEPY', 'WEIGH', 
     'WEIRD',
-    'WELCH', 'WELSH', 'WHACK', 'WHALE', 'WHARF', 'WHEAT', 'WHEEL', 'WHELP', 'WHERE', 'WHICH',
+    'WELCH', 'WELSH', 'WHACK', 'WHALE', 'WHARF', 'WHEAT', 'WHEEL', 'WHELK', 'WHELP', 'WHERE', 
+    'WHICH',
     'WHIFF', 'WHILE', 'WHINE', 'WHINY', 'WHIRL', 'WHISK', 'WHITE', 'WHOLE', 'WHOOP', 'WHOSE',
     'WIDEN', 'WIDER', 'WIDOW', 'WIDTH', 'WIELD', 'WIGHT', 'WILLY', 'WIMPY', 'WINCE', 'WINCH',
     'WINDY', 'WISER', 'WISPY', 'WITCH', 'WITTY', 'WOKEN', 'WOMAN', 'WOMEN', 'WOODY', 'WOOER',
@@ -1676,7 +1677,7 @@ export const dailyWordsSmall = [
 'DROWN', 'DRUID', 'DRYER', 'DUCHY', 'DULLY', 'DUMMY', 'DUMPY', 'DUNCE', 'DURUM',
 'DUSKY', 'DUTCH', 'DUVET', 'DWARF', 'DWELL', 'DWELT', 'DYING', 'EAGER', 'EAGLE',
 'EARLY', 'EARTH', 'EASEL', 'EATER', 'EBONY', 'ECLAT', 'EDICT', 'EDIFY', 
-'EGRET', 'EIGHT', 'EJECT', 'EKING', 'ELATE', 'ELBOW', 'ELDER', 'ELECT', 'ELEGY', 
+'EGRET', 'EIGHT', 'EJECT', 'EKING', 'ELATE', 'ELBOW', 'ELDER', 'ELECT', 
 'ELIDE', 'ELITE', 'ELOPE', 'ELUDE', 'EMAIL', 'EMBER', 'EMPTY', 'ENACT',
 'ENDOW', 'ENEMA', 'ENEMY', 'ENJOY', 'ENNUI', 'ENSUE', 'ENTER', 'EPOCH',
 'EPOXY', 'EQUAL', 'EQUIP', 'ERASE', 'ERECT', 'ERODE', 'ERROR', 'ERUPT', 'ESSAY', 'ESTER',
@@ -1849,7 +1850,7 @@ export const dailyWordsSmall = [
 'VIVID', 'VIXEN', 'VODKA', 'VOICE', 'VOILA', 'VOMIT', 'VOTER', 'VOUCH', 'VOWEL',
 'VYING', 'WACKY', 'WAFER', 'WAGON', 'WAIST', 'WAIVE', 'WALTZ', 'WARTY', 'WASTE',
 'WATCH', 'WATER', 'WAXEN', 'WEARY', 'WEDGE', 'WEEDY', 'WEEPY', 'WEIRD',
-'WELCH', 'WELSH', 'WHACK', 'WHALE', 'WHEAT', 'WHEEL', 'WHELP', 'WHERE', 'WHICH',
+'WELCH', 'WELSH', 'WHACK', 'WHALE', 'WHEAT', 'WHEEL', 'WHELK', 'WHELP', 'WHERE', 'WHICH',
 'WHIFF', 'WHILE', 'WHINE', 'WHINY', 'WHIRL', 'WHISK', 'WHITE', 'WHOLE', 'WHOOP', 'WHOSE',
 'WIDEN', 'WIDER', 'WIDOW', 'WIDTH', 'WIELD', 'WIGHT', 'WILLY', 'WINCE', 'WINCH',
 'WINDY', 'WITCH', 'WITTY', 'WOKEN', 'WOMAN', 'WOODY', 'WOOER',
@@ -2197,7 +2198,7 @@ export const dailyWordsLarge = [
     'EENSY', 'EEVEN', 'EEVNS', 'EFFED', 'EGADS', 'EGERS', 'EGEST', 'EGGAR', 'EGGED',
     'EGGER', 'EGMAS', 'EGRET', 'EHING', 'EIDER', 'EIDOS', 'EIGHT', 'EIGNE', 'EIKED', 'EIKON',
     'EILDS', 'EISEL', 'EJECT', 'EJIDO', 'EKING', 'EKKAS', 'ELAIN', 'ELAND', 'ELANS', 'ELATE',
-    'ELBOW', 'ELCHI', 'ELDER', 'ELDIN', 'ELECT', 'ELEGY', 'ELEMI', 'ELFED', 'ELIAD',
+    'ELBOW', 'ELCHI', 'ELDER', 'ELDIN', 'ELECT', 'ELEMI', 'ELFED', 'ELIAD',
     'ELIDE', 'ELINT', 'ELITE', 'ELMEN', 'ELOGE', 'ELOGY', 'ELOIN', 'ELOPE', 'ELOPS', 'ELPEE',
     'ELSIN', 'ELUDE', 'ELUTE', 'ELVAN', 'ELVEN', 'ELVER', 'ELVES', 'EMACS', 'EMAIL', 'EMBAR',
     'EMBAY', 'EMBER', 'EMBOG', 'EMBOW', 'EMBOX', 'EMBUS', 'EMEER', 'EMEND',
@@ -25882,6 +25883,17 @@ export const wordleWords = [
         guess_4: null,
         guess_5: null,
         guess_6: null,
+      },
+      { word: "ELEGY", 
+        gameDate: "9/26/26",
+        myScore: 4,
+        wordNumber: 1925,
+        guess_1: "LEANT",
+        guess_2: "PULSE",
+        guess_3: "YODEL",
+        guess_4: "ELEGY",
+        guess_5: null,
+        guess_6: null,
       }
 
 
@@ -25902,7 +25914,7 @@ console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
 console.log("August 9, 2025, Mom: Hello, Again!" )
-console.log("September 25, 2026: Trump sux dykk000000000! COPSE")
+console.log("September 26, 2026: Trump sux dykk000000000! ELEGY")
 
 console.log(wordleWords)
 
