@@ -149,9 +149,6 @@ header button {
   backdrop-filter: blur(18px);
 }
 
-/* .gopAsshole {
-  /* Retained for backwards compatibility with existing markup */
-} */
 
 .topFlex {
   grid-area: top;
