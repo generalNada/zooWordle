@@ -1802,7 +1802,7 @@ export const dailyWordsSmall = [
 'SKULK',
 'SKUNK', 'SLACK', 'SLAIN', 'SLANG', 'SLANT', 'SLASH', 'SLATE', 'SLAVE', 'SLEEK', 
 'SLEEP',
-'SLEET', 'SLEPT', 'SLICE', 'SLIDE', 'SLIMY', 'SLINK', 'SLOOP',
+'SLEET', 'SLEPT', 'SLICE', 'SLIDE', 'SLIMY', 'SLINK', 
 'SLOPE', 'SLOSH', 'SLOTH', 'SLUMP', 'SLUNG', 'SLUNK', 'SLURP', 'SLYLY', 'SMACK',
 'SMALL', 'SMART', 'SMASH', 'SMEAR', 'SMELT', 'SMIRK', 'SMITE', 'SMITH',
 'SMOCK', 'SMOKE', 'SMOKY', 'SMOTE', 'SNACK', 'SNAFU', 'SNAIL', 'SNAKE', 'SNAKY', 'SNARE',
@@ -2895,7 +2895,7 @@ export const dailyWordsLarge = [
     'SLAWS', 'SLAYS', 'SLEBS', 'SLEDS', 'SLEEK', 'SLEEP', 'SLEER', 'SLEET', 'SLEPT', 'SLEWS',
     'SLEYS', 'SLICE', 'SLIDE', 'SLIER', 'SLILY', 'SLIMS', 'SLIMY',
     'SLINK', 'SLIPE', 'SLIPS', 'SLIPT', 'SLISH', 'SLITS', 'SLIVE', 'SLOAN', 'SLOBS', 'SLOES',
-    'SLOGS', 'SLOID', 'SLOJD', 'SLOMO', 'SLOOM', 'SLOOP', 'SLOOT', 'SLOPE', 'SLOPS', 'SLOPY',
+    'SLOGS', 'SLOID', 'SLOJD', 'SLOMO', 'SLOOM', 'SLOOT', 'SLOPE', 'SLOPS', 'SLOPY',
     'SLORM', 'SLOSH', 'SLOTH', 'SLOTS', 'SLOVE', 'SLOWS', 'SLOYD', 'SLUBB', 'SLUBS', 'SLUED',
     'SLUES', 'SLUFF', 'SLUGS', 'SLUIT', 'SLUMP', 'SLUMS', 'SLUNG', 'SLUNK', 'SLURB', 'SLURP',
     'SLURS', 'SLUSE', 'SLUTS', 'SLYER', 'SLYLY', 'SLYPE', 'SMAAK', 'SMACK', 'SMAIK',
@@ -25894,6 +25894,17 @@ export const wordleWords = [
         guess_4: "ELEGY",
         guess_5: null,
         guess_6: null,
+      },
+      { word: "SLOOP", 
+        gameDate: "9/27/26",
+        myScore: 4,
+        wordNumber: 1926,
+        guess_1: "SLAIN",
+        guess_2: "SLEPT",
+        guess_3: "SLURP",
+        guess_4: "SLOOP",
+        guess_5: null,
+        guess_6: null,
       }
 
 
@@ -25914,7 +25925,7 @@ console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
 console.log("August 9, 2025, Mom: Hello, Again!" )
-console.log("September 26, 2026: Trump sux dykk000000000! ELEGY")
+console.log("September 27, 2026: Trump sux dykk000000000! SLOOP")
 
 console.log(wordleWords)
 
