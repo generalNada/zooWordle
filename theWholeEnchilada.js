@@ -1572,8 +1572,8 @@ export const combinedWords = [
     'THANK', 'THEFT', 'THEIR', 'THEME', 'THERE', 'THESE', 'THETA', 'THICK', 'THIEF', 'THIGH',
     'THING', 'THINK', 'THIRD', 'THONG', 'THORN', 'THOSE', 'THREE', 'THREW', 'THROB', 'THROW',
     'THRUM', 'THUMB', 'THUMP', 'THYME', 'TIARA', 'TIBIA', 'TIDAL', 'TIGER', 'TIGHT', 'TILDE',
-    'TIMER', 'TIMID', 'TINGE', 'TIPSY', 'TITAN', 'TITHE', 'TITLE', 'TIZZY', 'TOADY', 'TOAST', 
-    'TODAY',
+    'TIMER', 'TIMID', 'TINGE', 'TINNY', 'TIPSY', 'TITAN', 'TITHE', 'TITLE', 'TIZZY', 'TOADY', 
+    'TOAST', 'TODAY',
     'TODDY', 'TOKEN', 'TONAL', 'TONER', 'TONGA', 'TONIC', 'TOOTH', 'TOPAZ', 'TOPIC', 'TORCH',
     'TORSO', 'TORTA', 'TORUS', 'TOTAL', 'TOTEM', 'TOUCH', 'TOUGH', 'TOWEL', 'TOWER', 'TOXIC', 
     'TOXIN',
@@ -1831,14 +1831,15 @@ export const dailyWordsSmall = [
 'THANK', 'THEIR', 'THEME', 'THERE', 'THESE', 'THICK', 'THIEF', 'THIGH',
 'THING', 'THINK', 'THIRD', 'THONG', 'THORN', 'THOSE', 'THREE', 'THREW', 'THROB', 'THROW',
 'THRUM', 'THUMP', 'THYME', 'TIARA', 'TIBIA', 'TIDAL', 'TIGER', 'TIGHT', 'TILDE',
-'TIMER', 'TIMID', 'TINGE', 'TIPSY', 'TITAN', 'TITHE', 'TITLE', 'TIZZY', 'TOAST', 'TODAY',
+'TIMER', 'TIMID', 'TINGE', 'TINNY', 'TIPSY', 'TITAN', 'TITHE', 'TITLE', 'TIZZY', 'TOAST', 
+'TODAY',
 'TONAL', 'TONER', 'TONGA', 'TONIC', 'TOOTH', 'TOPAZ', 'TOPIC', 'TORCH',
 'TORSO', 'TORTA', 'TORUS', 'TOTAL', 'TOTEM', 'TOUCH', 'TOUGH', 'TOWEL', 'TOWER', 'TOXIC', 
 'TOXIN',
 'TRACK', 'TRACT', 'TRADE', 'TRAIL', 'TRAIN', 'TRAIT', 'TRAMP', 'TRASH', 'TRAWL',
 'TREAD', 'TREAT', 'TREND', 'TRIAD', 'TRIAL', 'TRICE', 'TRICK', 'TRIED', 'TRIPE',
 'TRITE', 'TROLL', 'TROOP', 'TROPE', 'TROUT', 'TROVE', 'TRUCE', 'TRUCK', 'TRUER', 'TRULY',
-'TRUMP', 'TRUNK', 'TRUSS', 'TRUST', 'TRUTH', 'TRYST', 'TUBAL', 'TUBER', 'TULIP', 'TULLE',
+'TRUMP', 'TRUSS', 'TRUST', 'TRUTH', 'TRYST', 'TUBAL', 'TUBER', 'TULIP', 'TULLE',
 'TUMOR', 'TUNIC', 'TURBO', 'TUTOR', 'TWANG', 'TWEAK', 'TWEED', 'TWICE', 'TWINE',
 'TWIRL', 'TWIST', 'TWIXT', 'TYING', 'UDDER', 'ULCER', 'ULTRA', 'UNCLE', 
 'UNDER', 'UNDID', 'UNDUE', 'UNFED', 'UNFIT', 'UNIFY', 'UNION', 'UNITE', 'UNLIT',
@@ -3042,7 +3043,7 @@ export const dailyWordsLarge = [
     'TRITE', 'TROAD', 'TROAK', 'TROAT', 'TROCK', 'TRODE', 'TRODS', 'TROGS', 'TROIS', 'TROKE',
     'TROLL', 'TROMP', 'TRONA', 'TRONC', 'TRONE', 'TRONK', 'TRONS', 'TROOP', 'TROOZ', 'TROPE',
     'TROTH', 'TROTS', 'TROUT', 'TROVE', 'TROWS', 'TROYS', 'TRUCE', 'TRUCK', 'TRUED', 'TRUER',
-    'TRUES', 'TRUGO', 'TRUGS', 'TRULL', 'TRULY', 'TRUMP', 'TRUNK', 'TRUSS', 'TRUST', 'TRUTH',
+    'TRUES', 'TRUGO', 'TRUGS', 'TRULL', 'TRULY', 'TRUMP', 'TRUSS', 'TRUST', 'TRUTH',
     'TRYER', 'TRYKE', 'TRYMA', 'TRYPS', 'TRYST', 'TSADE', 'TSADI', 'TSARS', 'TSKED', 'TSUBA',
     'TSUBO', 'TUANS', 'TUART', 'TUATH', 'TUBAE', 'TUBAL', 'TUBAR', 'TUBAS', 'TUBBY', 'TUBED',
     'TUBER', 'TUBES', 'TUCKS', 'TUFAS', 'TUFFE', 'TUFFS', 'TUFTS', 'TUFTY', 'TUGRA', 'TUILE',
@@ -25905,6 +25906,17 @@ export const wordleWords = [
         guess_4: "SLOOP",
         guess_5: null,
         guess_6: null,
+      },
+      { word: "TRUNK", 
+        gameDate: "9/28/26",
+        myScore: 3,
+        wordNumber: 1927,
+        guess_1: "LEANT",
+        guess_2: "TYING",
+        guess_3: "TRUNK",
+        guess_4: null,
+        guess_5: null,
+        guess_6: null,
       }
 
 
@@ -25925,7 +25937,7 @@ console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
 console.log("August 9, 2025, Mom: Hello, Again!" )
-console.log("September 27, 2026: Trump sux dykk000000000! SLOOP")
+console.log("September 28, 2026: Trump sux dykk000000000! TRUNK")
 
 console.log(wordleWords)
 
