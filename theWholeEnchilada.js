@@ -25917,7 +25917,7 @@ export const wordleWords = [
         guess_4: null,
         guess_5: null,
         guess_6: null,
-      }
+      },
       { word: "SCUBA", 
         gameDate: "9/29/26",
         myScore: 3,
