@@ -445,9 +445,13 @@ document.getElementById("toggleEntriesBtn").addEventListener("click", () => {
     populateSearchSelects();
     setupSearchListeners();
     loadEntries();
+
+console.log("THIS IS THE BIG RIVER DAY!!!")
+    
   } else {
     container.classList.add("hidden");
     btn.textContent = "👁️ Show Entries";
+    
   }
 });
 
