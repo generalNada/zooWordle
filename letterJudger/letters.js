@@ -220,11 +220,12 @@ function loadStats() {
 
 // QUICK SAVE DATA (auto-filename)
 document.getElementById("saveBtn").addEventListener("click", () => {
+
+  console.log("THIS IS THE BIG RIVER DAY!!!")
+  
   const tx = db.transaction(storeName, "readonly");
   const store = tx.objectStore(storeName);
   const request = store.getAll();
-  
-console.log("THIS IS THE BIG RIVER DAY!!!")
   
   request.onsuccess = () => {
     const entries = request.result;
@@ -434,6 +435,9 @@ document.getElementById("toggleFormBtn").addEventListener("click", () => {
 // Toggle entries visibility
 let entriesVisible = false;
 document.getElementById("toggleEntriesBtn").addEventListener("click", () => {
+
+console.log("THIS IS THE BIG RIVER DAY!!!")
+  
   const container = document.getElementById("entriesContainer");
   const btn = document.getElementById("toggleEntriesBtn");
 
@@ -446,7 +450,7 @@ document.getElementById("toggleEntriesBtn").addEventListener("click", () => {
     setupSearchListeners();
     loadEntries();
 
-console.log("THIS IS THE BIG RIVER DAY!!!")
+
     
   } else {
     container.classList.add("hidden");
