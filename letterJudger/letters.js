@@ -224,7 +224,7 @@ document.getElementById("saveBtn").addEventListener("click", () => {
   const store = tx.objectStore(storeName);
   const request = store.getAll();
   
-console.log("THIS IS RIVER DAY!!!")
+console.log("THIS IS THE BIG RIVER DAY!!!")
   
   request.onsuccess = () => {
     const entries = request.result;
