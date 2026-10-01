@@ -223,7 +223,9 @@ document.getElementById("saveBtn").addEventListener("click", () => {
   const tx = db.transaction(storeName, "readonly");
   const store = tx.objectStore(storeName);
   const request = store.getAll();
-
+  
+console.log("THIS IS RIVER DAY!!!")
+  
   request.onsuccess = () => {
     const entries = request.result;
 
