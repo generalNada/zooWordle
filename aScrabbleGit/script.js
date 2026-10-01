@@ -11,7 +11,7 @@ function filterWordsByPrefix(prefix) {
 function displayFilteredWords(prefix) {
   const resultDiv = document.getElementById("wordListOutput");
   const words = filterWordsByPrefix(prefix);
-  const wordCount = words.length; // Calculate the word count
+  const wordCount = words.length; // Calculate this here word count
 
   resultDiv.innerHTML =
     words.length > 0
