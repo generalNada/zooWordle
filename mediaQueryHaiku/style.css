@@ -3100,12 +3100,18 @@ body {
 }
 
 .whole-box-491 {
-  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDtEXWIeF_Jn0qzy2_UxfZC-k-TPlVBPl3OQ&s);
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLECihnqMOEoFLEqHdBkDHaNtx-WFMtEajaBzJ0mbJlQ&s=10);
   background-size: fit-content;
   padding: 0.55rem;
 }
 
 .whole-box-492 {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDtEXWIeF_Jn0qzy2_UxfZC-k-TPlVBPl3OQ&s);
+  background-size: fit-content;
+  padding: 0.55rem;
+}
+
+.whole-box-493 {
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtEW1qXT_2RJH4SmS8mfB53W0Xsf1lpsHTtA&s);
   background-size: fit-content;
   padding: 0.55rem;
@@ -9643,6 +9649,15 @@ body {
 .line-492c {
   background-color: rgb(7, 10, 201);
   color: wheat;
+  font-style: oblique;
+  opacity: 0.77;
+}
+
+.line-493a,
+.line-493b,
+.line-493c {
+  background-color: rgb(12, 212, 171);
+  color: rgb(206, 32, 41);
   font-style: oblique;
   opacity: 0.77;
 }
