@@ -221,7 +221,7 @@ function loadStats() {
 // QUICK SAVE DATA (auto-filename)
 document.getElementById("saveBtn").addEventListener("click", () => {
 
-  console.log("THIS IS THE BIG RIVER DAY!!!")
+  console.log("THIS IS THE BIG RITZY DAY!!!")
   
   const tx = db.transaction(storeName, "readonly");
   const store = tx.objectStore(storeName);
@@ -436,7 +436,7 @@ document.getElementById("toggleFormBtn").addEventListener("click", () => {
 let entriesVisible = false;
 document.getElementById("toggleEntriesBtn").addEventListener("click", () => {
 
-console.log("THIS IS THE BIG RIVER DAY!!!")
+console.log("THIS IS THE BIG RITZY DAY!!!")
   
   const container = document.getElementById("entriesContainer");
   const btn = document.getElementById("toggleEntriesBtn");
