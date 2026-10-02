@@ -74,7 +74,7 @@ document.getElementById("updateChart")?.addEventListener("click", () => {
     data: {
       labels,
       datasets: [{
-        label: "Cumulative Avg Score Over Time",
+        label: "Cumulative Average Score Over Time, My Man",
         data: dataPoints,
         borderColor: "rgb(0, 166, 255)",
         backgroundColor: "rgba(0, 166, 255, 0.1)",
