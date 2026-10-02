@@ -74,7 +74,7 @@ function calculateScore() {
 
 function getScoreMessage(totalScore) {
   const messages = {
-    5: "That's the minimum score for a 5 point word according to Scrabble. It’s an embarrassment. AND YOU ARE HATED, ALL VANCES!!!",
+    5: "That's the minimum score for a 5 point word according to Scrabble. It’s an embarrassment. AND YOU ARE HATED, ALL RITZY VANCES!!!",
     6: "This is the score of like an 7 year old. 6 points is weak.",
     7: "Choosing high value words should be left to others. You are not good at it. 7 points, hahaha!",
     8: "Eight point Scrabble words are frequent and most adults can come up with bigger and better.",
@@ -100,7 +100,7 @@ function getScoreMessage(totalScore) {
     28: "You gonna get beaten down, essay! 28? You trying to keep us down, make us look uneducated!",
     29: "You're dead to me, fuckface. 29 is next to impossible. You're ruined around here.",
     30: "You will be reported for this score of 30 if you don't fuck off right this moment!",
-    31: "Consider the authorities called. You need to hide out, bitchAss!",
+    31: "Consider the authorities called. You need to hide out,  RITZY bitchAss!",
   };
   return (
     messages[totalScore] ||
