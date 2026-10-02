@@ -1515,7 +1515,8 @@ export const combinedWords = [
     'RESIN',
     'RETCH', 'RETRO', 'RETRY', 'REUSE', 'REVEL', 'REVUE', 'RHINO', 'RHYME', 'RICER', 'RIDER',
     'RIDGE', 'RIFLE', 'RIGHT', 'RIGID', 'RIGOR', 'RINSE', 'RIPEN', 'RIPER', 'RISEN', 'RISER',
-    'RISKY', 'RIVAL', 'RIVER', 'RIVET', 'ROACH', 'ROAST', 'ROBIN', 'ROBOT', 'ROCKY', 'RODEO',
+    'RISKY', 'RITZY', 'RIVAL', 'RIVER', 'RIVET', 'ROACH', 'ROAST', 'ROBIN', 'ROBOT', 'ROCKY', 
+    'RODEO',
     'ROGER', 'ROGUE', 'ROOMY', 'ROOST', 'ROTOR', 'ROUGE', 'ROUGH', 'ROUND', 'ROUSE', 'ROUST', 
     'ROUTE',
     'ROVER', 'ROWDY', 'ROWER', 'ROYAL', 'RUDDY', 'RUDER', 'RUGBY', 'RULER', 'RUMBA', 'RUMOR',
@@ -2796,7 +2797,7 @@ export const dailyWordsLarge = [
     'RILLE', 'RILLS', 'RIMAE', 'RIMED', 'RIMER', 'RIMES', 'RIMUS', 'RINDS', 'RINDY', 'RINES',
     'RINGS', 'RINKS', 'RIOJA', 'RIOTS', 'RIPED', 'RIPEN', 'RIPER', 'RIPES', 'RIPPS',
     'RISEN', 'RISES', 'RISHI', 'RISKS', 'RISKY', 'RISPS', 'RISUS', 'RITES', 'RITTS',
-    'RITZY', 'RIVAL', 'RIVAS', 'RIVED', 'RIVEL', 'RIVEN', 'RIVES', 'RIVET', 'RIYAL',
+    'RIVAL', 'RIVAS', 'RIVED', 'RIVEL', 'RIVEN', 'RIVES', 'RIVET', 'RIYAL',
     'RIZAS', 'ROACH', 'ROADS', 'ROAMS', 'ROANS', 'ROARS', 'ROARY', 'ROAST', 'ROATE', 'ROBED',
     'ROBES', 'ROBIN', 'ROBLE', 'ROBOT', 'ROCKS', 'ROCKY', 'RODED', 'RODEO', 'RODES', 'ROGER',
     'ROGUE', 'ROGUY', 'ROHES', 'ROIDS', 'ROILS', 'ROILY', 'ROINS', 'ROIST', 'ROJAK', 'ROJIS',
@@ -25939,6 +25940,17 @@ export const wordleWords = [
         guess_4: "RIVER",
         guess_5: null,
         guess_6: null,
+      },
+      { word: "RITZY", 
+        gameDate: "10/1/26",
+        myScore: 4,
+        wordNumber: 1930,
+        guess_1: "LEANT",
+        guess_2: "STRUM",
+        guess_3: "ROTOR",
+        guess_4: "RITZY",
+        guess_5: null,
+        guess_6: null,
       }
 
 
@@ -25959,7 +25971,7 @@ console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
 console.log("August 9, 2025, Mom: Hello, Again!" )
-console.log("September 30, 2026: Trump sux dykk000000000! RIVER")
+console.log("October 1, 2026: Trump sux dykk000000000! RITZY")
 
 console.log(wordleWords)
 
