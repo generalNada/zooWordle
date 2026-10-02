@@ -3783,6 +3783,7 @@ function showRepeatingWordDetails(entry, wordData) {
 
 // Toggle the Repeating Words section
 repeatingWordsToggle.addEventListener("click", () => {
+  console.log("Is This Fucker Working???")
   const isVisible = repeatingWordsContent.style.display === "block";
   repeatingWordsContent.style.display = isVisible ? "none" : "block";
 
