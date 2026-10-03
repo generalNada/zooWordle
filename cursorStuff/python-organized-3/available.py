@@ -64,7 +64,7 @@ unused_list = [
     "VIPER", "VIRUS", "VISTA", "VOMIT", "WAIVE", "WARTY",
     "WELCH", "WELSH", "WIDER", "WIDOW", "WIGHT", "WILLY", 
     "WINCH", "WOODY", "WOOLY", "WOOZY", "WORTH", "WRACK",
-    "WREST", "WRING", "WRYLY", "ZONAL",,
+    "WREST", "WRING", "WRYLY", "ZONAL"
 ]
 
 word = 'USURY'
