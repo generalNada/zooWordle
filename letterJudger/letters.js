@@ -896,7 +896,7 @@ document.getElementById("deleteAllBtn").addEventListener("click", () => {
     if (firstConfirm) {
       // Second confirmation - more emphatic
       const finalConfirm = confirm(
-        "Good. Screw your data. Hopefully it's backed up!\n\n" +
+        "Good. Screw your data. Fuck Thou! Hopefully it's backed up!\n\n" +
           `This will permanently delete all ${count} entries.\n\n` +
           "You really wanna do this?\n\n" +
           "Do it then. Click OK to DELETE ALL DATA.\n" +
