@@ -268,7 +268,8 @@ my_list = {
     'UNFED', 'UNFIT',
     'UNIFY', 'UNION', 'UNITE', 'UNITY', 'UNLIT', 'UNMET', 'UNTIE', 'UNTIL', 'UNZIP', 'UPPER', 
     'UPSET',
-    'URBAN', 'USAGE', 'USHER', 'USING', 'USUAL', 'USURP', 'UTTER', 'UVULA', 'VAGUE', 'VALET',
+    'URBAN', 'USAGE', 'USHER', 'USING', 'USUAL', 'USURP', 'USURY', 'UTTER', 'UVULA', 'VAGUE', 
+    'VALET',
     'VALID', 'VALUE', 'VALVE', 'VAPID', 'VAULT', 'VEGAN', 'VENOM', 'VENUE', 'VERGE', 'VERVE', 
     'VIDEO',
     'VIGOR', 'VILLA', 'VINYL', 'VIOLA', 'VIRAL', 'VISIT', 'VISOR', 'VITAL', 'VIVID', 'VIXEN', 
@@ -287,7 +288,7 @@ my_list = {
     'WROTE', 'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'RITZY'
+word_to_find = 'USURY'
 
 
 if word_to_find in my_list:
