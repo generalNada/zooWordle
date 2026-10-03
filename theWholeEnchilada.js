@@ -1587,7 +1587,8 @@ export const combinedWords = [
     'TWIRL', 'TWIST', 'TWIXT', 'TYING', 'UDDER', 'ULCER', 'ULTRA', 'UMBRA', 'UNCLE', 'UNCUT',
     'UNDER', 'UNDID', 'UNDUE', 'UNFED', 'UNFIT', 'UNIFY', 'UNION', 'UNITE', 'UNITY', 'UNLIT',
     'UNMET', 'UNSET', 'UNTIE', 'UNTIL', 'UNWED', 'UNZIP', 'UPPER', 'UPSET', 'URBAN', 'URINE',
-    'USAGE', 'USHER', 'USING', 'USUAL', 'USURP', 'UTILE', 'UTTER', 'UVULA', 'VAGUE', 'VALET',
+    'USAGE', 'USHER', 'USING', 'USUAL', 'USURP', 'USURY', 'UTILE', 'UTTER', 'UVULA', 'VAGUE', 
+    'VALET',
     'VALID', 'VALOR', 'VALUE', 'VALVE', 'VAPID', 'VAPOR', 'VAULT', 'VAUNT', 'VEGAN', 'VENAL', 
     'VENOM',
     'VENUE', 'VERGE', 'VERSE', 'VERSO', 'VERVE', 'VICAR', 'VIDEO', 'VIGIL', 'VIGOR', 'VILLA',
@@ -3077,7 +3078,7 @@ export const dailyWordsLarge = [
     'URBIA', 'URDEE', 'UREAL', 'UREAS', 'UREDO', 'UREIC', 'URENA', 'URENT', 'URGED', 'URGER',
     'URGES', 'URIAL', 'URINE', 'URITE', 'URMAN', 'URNAL', 'URNED', 'URPED', 'URSAE', 'URSID',
     'URSON', 'URUBU', 'URVAS', 'USAGE', 'USERS', 'USHER', 'USING', 'USNEA', 'USQUE', 'USUAL',
-    'USURE', 'USURP', 'USURY', 'UTERI', 'UTILE', 'UTTER', 'UVEAL', 'UVEAS', 'UVULA', 'VACUA',
+    'USURE', 'USURP', 'UTERI', 'UTILE', 'UTTER', 'UVEAL', 'UVEAS', 'UVULA', 'VACUA',
     'VADED', 'VADES', 'VAGAL', 'VAGUE', 'VAGUS', 'VAILS', 'VAIRE', 'VAIRS', 'VAIRY', 'VAKAS',
     'VAKIL', 'VALES', 'VALET', 'VALID', 'VALIS', 'VALOR', 'VALSE', 'VALUE',  'VAMPS',
     'VAMPY', 'VANDA', 'VANED', 'VANES', 'VANGS', 'VANTS', 'VAPED', 'VAPER', 'VAPES', 'VAPID',
@@ -25951,6 +25952,17 @@ export const wordleWords = [
         guess_4: "RITZY",
         guess_5: null,
         guess_6: null,
+      },
+      { word: "USURY", 
+        gameDate: "10/2/26",
+        myScore: 4,
+        wordNumber: 1931,
+        guess_1: "LEANT",
+        guess_2: "CHOMP",
+        guess_3: "RISKY",
+        guess_4: "USURY",
+        guess_5: null,
+        guess_6: null,
       }
 
 
@@ -25971,7 +25983,7 @@ console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
 console.log("August 9, 2025, Mom: Hello, Again!" )
-console.log("October 1, 2026: Trump sux dykk000000000! RITZY")
+console.log("October 2, 2026: Trump sux dykk000000000! USURY")
 
 console.log(wordleWords)
 
