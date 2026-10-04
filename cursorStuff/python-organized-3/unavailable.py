@@ -174,8 +174,8 @@ my_list = {
     'PANIC', 'PAPAL',
     'PAPER', 'PARER', 'PARKA', 'PARRY', 'PARTY', 'PASTA', 'PATCH', 'PATIO', 'PATSY', 'PATTY', 
     'PAUSE',
-    'PEACE', 'PEACH', 'PEARL', 'PECAN', 'PEDAL', 'PENAL', 'PENNE', 'PERCH', 'PERIL', 'PERKY', 
-    'PESKY',
+    'PEACE', 'PEACH', 'PEARL', 'PECAN', 'PEDAL', 'PEEVE', 'PENAL', 'PENNE', 'PERCH', 'PERIL', 
+    'PERKY', 'PESKY',
     'PETAL', 'PETTY', 'PHASE', 'PHONE', 'PHONY', 'PHOTO', 'PIANO', 'PICKY', 'PIECE', 'PIETY',
     'PINKY', 'PILOT', 'PINCH', 'PINEY', 'PINTO', 'PIOUS', 'PIPER', 'PIQUE', 'PITCH', 'PITHY',
     'PIXEL', 'PIXIE', 'PIZZA', 'PLACE', 'PLAID', 'PLAIN', 'PLAIT', 'PLANE', 'PLANK', 'PLANT', 
@@ -288,7 +288,7 @@ my_list = {
     'WROTE', 'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'USURY'
+word_to_find = 'PEEVE'
 
 
 if word_to_find in my_list:
