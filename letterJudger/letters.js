@@ -746,7 +746,7 @@ function editEntry(entryId) {
 // Delete entry function
 function deleteEntry(entryId) {
   const confirmDelete = confirm(
-    "Are you sure you want to delete this entry? This action cannot be undone."
+    "Are you sure you want to delete THIS entry? This action cannot be undone."
   );
 
   if (confirmDelete) {
