@@ -209,7 +209,8 @@ my_list = {
     'SCOUT',
     'SCOWL', 'SCRAM', 'SCRAP', 'SCRUB', 'SCRUM', 'SCUBA', 'SEDAN', 'SEEDY', 'SEGUE', 'SENSE', 
     'SEPIA', 'SERIF', 'SERUM',
-    'SERVE', 'SEVEN', 'SEVER', 'SHADE', 'SHAFT', 'SHAKE', 'SHAKY', 'SHALL', 'SHAME', 'SHANK',
+    'SERVE', 'SEVEN', 'SEVER', 'SHACK', 'SHADE', 'SHAFT', 'SHAKE', 'SHAKY', 'SHALL', 'SHAME', 
+    'SHANK',
     'SHAPE', 'SHARD', 'SHARE', 'SHARP', 'SHAVE', 'SHAWL', 'SHEAR', 'SHEEP', 'SHEET', 'SHELF', 
     'SHELL',
     'SHIFT', 'SHILL', 'SHINE', 'SHIRE', 'SHIRK', 'SHOAL', 'SHONE', 'SHORE', 'SHORN', 'SHORT', 
@@ -288,7 +289,7 @@ my_list = {
     'WROTE', 'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'PEEVE'
+word_to_find = 'SHACK'
 
 
 if word_to_find in my_list:
