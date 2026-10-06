@@ -793,7 +793,7 @@ function deleteEntry(entryId) {
           z-index: 100;
           animation: fadeInUp 0.3s ease-out;
         `;
-        successMsg.textContent = "🎉 Entry deleted successfully!";
+        successMsg.textContent = "🎉 Entry Deleted Successfully!";
         container.style.position = "relative";
         container.appendChild(successMsg);
 
