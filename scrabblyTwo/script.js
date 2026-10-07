@@ -87,7 +87,7 @@ function getScoreMessage(totalScore) {
   if (totalScore <= 25)
     return "You've got big old balls coming around here with that shit. Don't think dropping Q's and Z's and J's goes unnoticed...";
   if (totalScore <= 27)
-    return "Maybe someone needs to teach you a little lesson, essay! We don't deal too well with cheaters around here. We are the BEST!! You were warned and now it's too late!";
+    return "Maybe someone needs to TEACH you a little lesson, essay! We don't deal too well with cheaters around here. We are the BEST!! You were warned and now it's too late!";
   if (totalScore <= 29)
     return "You're dead to me, fuckface. You're ruined around here.";
   if (totalScore <= 30)
