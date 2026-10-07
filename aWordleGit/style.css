@@ -3289,7 +3289,7 @@ border: 5px solid aqua;
 }
   
 .jasmineCrockett {
-  background-color: rgb(55, 55, 55);
+  background-color: rgb(160, 232, 16);
   color: rgb(100, 100, 119);
   font-family: "Exile", system-ui;
   font-size: 2.15rem;
@@ -3297,6 +3297,7 @@ border: 5px solid aqua;
   border: solid blue 1.96rem;
   border-radius: 1.96rem;
 }
+  background-color: rgb(160, 232, 16);
 
 
 
