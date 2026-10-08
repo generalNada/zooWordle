@@ -9,8 +9,8 @@ const favoriteSelect = document.getElementById("favorite");
 const leastSelect = document.getElementById("least");
 
 // Add default option
-const defaultFav = new Option("Choose Your favorite letter...", "");
-const defaultLeast = new Option("Choose Your LEAST favorite letter...", "");
+const defaultFav = new Option("Choose Your Favorite Letter...", "");
+const defaultLeast = new Option("Choose Your LEAST Favorite Letter...", "");
 defaultFav.disabled = true;
 defaultLeast.disabled = true;
 favoriteSelect.add(defaultFav);
