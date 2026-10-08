@@ -100,7 +100,7 @@ function getScoreMessage(totalScore) {
     28: "You gonna get beaten down, essay! 28? You trying to keep us down, make us look uneducated!",
     29: "You're dead to me, fuckface. 29 is next to impossible. You're ruined around here.",
     30: "You will be reported for this score of 30 if you don't fuck off right this moment!",
-    31: "Consider the authorities called. You need to hide out,  DIMLY bitchAss!",
+    31: "Consider the authorities called. You need to hide out,  PROVE bitchAss!",
   };
   return (
     messages[totalScore] ||
