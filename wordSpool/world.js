@@ -215,7 +215,7 @@ const letterSearchSortButton = document.getElementById(
   "letterSearchSortButton",
 );
 
-// Letter search sort state
+// Letter Search sort state
 let letterSearchSortMode = "alphabetical"; // "alphabetical" or "date"
 let currentLetterSearchWords = [];
 let currentLetterSearchSummary = null;
