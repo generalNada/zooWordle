@@ -104,7 +104,7 @@ function getScoreMessage(totalScore) {
   };
   return (
     messages[totalScore] ||
-    "Get fucked. This is you being ghosted. You are totally Fucking unloved."
+    "Get fucked. This is you being ghosted. You are totally Fucking unloved, See?"
   );
 }
 
