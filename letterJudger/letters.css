@@ -22,7 +22,7 @@ body {
   background-size: 400% 400%;
   animation: gradientFlow 15s ease infinite;
   margin: 0;
-  padding: 2rem;
+  padding: 2.000001rem;
   min-height: 100vh;
   overflow-x: hidden;
   position: relative;
