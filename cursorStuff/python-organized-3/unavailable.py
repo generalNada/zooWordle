@@ -39,8 +39,8 @@ my_list = {
     'BROOK', 'BROOM', 'BROTH',
     'BROWN', 'BRUSH', 'BRUTE', 'BUDDY', 'BUDGE', 'BUGGY', 'BUGLE', 'BUILD', 'BUILT', 'BULGE', 
     'BULLY',
-    'BULKY', 'BUNCH', 'BUNNY', 'BURLY', 'BURNT', 'BURST', 'BUTTE', 'BUYER', 'BYLAW', 'CABLE', 
-    'CACAO', 'CACHE', 'CACTI',
+    'BULKY', 'BUMPY', 'BUNCH', 'BUNNY', 'BURLY', 'BURNT', 'BURST', 'BUTTE', 'BUYER', 'BYLAW', 
+    'CABLE', 'CACAO', 'CACHE', 'CACTI',
     'CADET', 'CAMEL', 'CAMEO', 'CANAL', 'CANDY', 'CANNY', 'CANON', 'CANOE', 'CAPER', 'CAPON', 
     'CARAT', 'CARGO',
     'CAROL', 'CAROM', 'CARRY', 'CATCH', 'CATER', 'CATTY', 'CAULK', 'CAUSE', 'CARVE', 'CEASE', 
@@ -291,7 +291,7 @@ my_list = {
     'WROTE', 'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'MAJOR'
+word_to_find = 'BUMPY'
 
 
 if word_to_find in my_list:
