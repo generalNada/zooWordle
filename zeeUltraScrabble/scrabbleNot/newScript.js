@@ -2,7 +2,7 @@ import { fixedWordsLarge } from "../../theWholeEnchilada.js";
 // Analyze letter frequency in fixedWordsLarge
 function analyzeLetterFrequency() {
   const letterStats = {};
-  const positionTotals = Array(5).fill(0); // Tracks number of words long enough for each position
+  const positionTotals = Array(5).fill(0); // Tracks number of words long enough for each position, my guy
 
   fixedWordsLarge.forEach((word) => {
     [...word.toUpperCase()].forEach((letter, index) => {
