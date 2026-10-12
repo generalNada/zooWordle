@@ -267,8 +267,8 @@ my_list = {
     'TRYST',
     'TUBER', 'TULIP', 'TUNIC', 'TURBO', 'TUTOR', 'TWANG', 'TWEAK', 'TWEED', 'TWEEN', 'TWEET', 
     'TWICE', 'TWINE',
-    'TWIRL', 'UDDER', 'ULCER', 'ULTRA', 'UMBRA', 'UNCLE', 'UNCUT', 'UNDER', 'UNDID', 'UNDUE', 
-    'UNFED', 'UNFIT',
+    'TWIRL', 'UDDER', 'ULCER', 'ULTRA', 'UMBRA', 'UNCAP', 'UNCLE', 'UNCUT', 'UNDER', 'UNDID', 
+    'UNDUE', 'UNFED', 'UNFIT',
     'UNIFY', 'UNION', 'UNITE', 'UNITY', 'UNLIT', 'UNMET', 'UNTIE', 'UNTIL', 'UNZIP', 'UPPER', 
     'UPSET',
     'URBAN', 'USAGE', 'USHER', 'USING', 'USUAL', 'USURP', 'USURY', 'UTTER', 'UVULA', 'VAGUE', 
@@ -291,7 +291,7 @@ my_list = {
     'WROTE', 'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'BUMPY'
+word_to_find = 'UNCAP'
 
 
 if word_to_find in my_list:
