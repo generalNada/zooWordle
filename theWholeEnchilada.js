@@ -1608,8 +1608,8 @@ export const combinedWords = [
     'WINDY', 'WISER', 'WISPY', 'WITCH', 'WITTY', 'WOKEN', 'WOMAN', 'WOMEN', 'WOODY', 'WOOER',
     'WOOLY', 'WOOZY', 'WORDY', 'WORLD', 'WORRY', 'WORSE', 'WORST', 'WORTH', 'WOULD', 'WOUND',
     'WOVEN', 'WRACK', 'WRATH', 'WREAK', 'WRECK', 'WREST', 'WRING', 'WRIST', 'WRITE', 'WRONG',
-    'WROTE', 'WRUNG', 'WRYLY', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA',
-    'ZESTY', 'ZONAL'
+    'WROTE', 'WRUNG', 'WRYLY', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YODEL', 'YOUNG', 'YOUTH', 
+    'ZEBRA', 'ZESTY', 'ZONAL'
 ];
 
 
@@ -3160,7 +3160,7 @@ export const dailyWordsLarge = [
     'YETIS', 'YETTS', 'YEUKS', 'YEUKY', 'YEVEN', 'YEVES', 'YEWEN', 'YEXED', 'YEXES', 'YFERE',
     'YIELD', 'YIKED', 'YIKES', 'YILLS', 'YINCE', 'YIPES', 'YIPPY', 'YIRDS', 'YIRKS', 'YIRRS',
     'YIRTH', 'YITES', 'YITIE', 'YLEMS', 'YLIKE', 'YLKES', 'YMOLT', 'YMPES', 'YOBBO', 'YOBBY',
-    'YOCKS', 'YODEL', 'YODHS', 'YODLE', 'YOGAS', 'YOGEE', 'YOGHS', 'YOGIC', 'YOGIN', 'YOGIS',
+    'YOCKS', 'YODHS', 'YODLE', 'YOGAS', 'YOGEE', 'YOGHS', 'YOGIC', 'YOGIN', 'YOGIS',
     'YOICK', 'YOJAN', 'YOKED', 'YOKEL', 'YOKER', 'YOKES', 'YOKUL', 'YOLKS', 'YOLKY', 'YOMIM',
     'YOMPS', 'YONIC', 'YONIS', 'YONKS', 'YOOFS', 'YOOPS', 'YORES', 'YORKS', 'YORPS', 'YOUKS',
     'YOUNG', 'YOURN', 'YOURS', 'YOURT', 'YOUSE', 'YOUTH', 'YOWED', 'YOWES', 'YOWIE', 'YOWLS',
@@ -26064,6 +26064,17 @@ export const wordleWords = [
         guess_4: "UNCAP",
         guess_5: null,
         guess_6: null,
+      },
+      { word: "YODEL", 
+        gameDate: "10/12/26",
+        myScore: 2,
+        wordNumber: 1941,
+        guess_1: "ROAST",
+        guess_2: "YODEL",
+        guess_3: null,
+        guess_4: null,
+        guess_5: null,
+        guess_6: null,
       }
 
 
@@ -26084,7 +26095,7 @@ console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
 console.log("August 9, 2025, Mom: Hello, Again!" )
-console.log("October 11, 2026: Trump sux dykk000000000! UNCAP")
+console.log("October 12, 2026: Trump sux dykk000000000! YODEL")
 
 console.log(wordleWords)
 
