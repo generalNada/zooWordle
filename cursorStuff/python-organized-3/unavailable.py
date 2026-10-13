@@ -292,7 +292,7 @@ my_list = {
     'ZESTY'
 }
 
-word_to_find = 'UNCAP'
+word_to_find = 'YODEL'
 
 
 if word_to_find in my_list:
