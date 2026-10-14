@@ -137,7 +137,7 @@ class WordleScoreTracker {
 
     if (!startData || !endData) {
       alert(
-        "One or both dates do not have data. Please select dates with available data, my GUY."
+        "One or both dates do not have data. Please select dates with available data, MY GUY."
       );
       return;
     }
