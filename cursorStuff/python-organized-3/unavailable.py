@@ -189,8 +189,8 @@ my_list = {
     'PRESS', 'PRICE', 'PRICK', 'PRIDE', 'PRIME', 'PRIMO', 'PRIMP', 'PRINT', 'PRIOR', 'PRISM',
     'PRIVY', 'PRIZE', 'PROBE', 'PRONE', 'PRONG', 'PROOF', 'PROSE', 'PROUD', 'PROVE', 'PROVE', 
     'PROWL', 'PROXY',
-    'PRUDE', 'PRUNE', 'PSALM', 'PSHAW', 'PUFFY', 'PULPY', 'PUPIL', 'PUPPY', 'PURGE', 'PURSE', 
-    'PUTTY', 
+    'PRUDE', 'PRUNE', 'PSALM', 'PSHAW', 'PSYCH', 'PUFFY', 'PULPY', 'PUPIL', 'PUPPY', 'PURGE', 
+    'PURSE', 'PUTTY', 
     'QUAIL', 'QUAKE', 'QUALM', 'QUACK', 'QUARK', 'QUART',
     'QUASH', 'QUEEN', 'QUEER', 'QUELL', 'QUERY', 'QUEST', 'QUEUE', 'QUICK', 'QUIET', 'QUILL', 
     'QUILT', 'QUIRK',
@@ -292,7 +292,7 @@ my_list = {
     'ZESTY'
 }
 
-word_to_find = 'WIDER'
+word_to_find = 'PSYCH'
 
 
 if word_to_find in my_list:
