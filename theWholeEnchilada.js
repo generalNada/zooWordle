@@ -1502,7 +1502,7 @@ export const combinedWords = [
     'POWER', 'PRANK', 'PRAWN', 'PREEN', 'PRESS', 'PRICE', 'PRICK', 'PRIDE', 'PRIED', 'PRIME',
     'PRIMO', 'PRIMP', 'PRINT', 'PRIOR', 'PRISM', 'PRIVY', 'PRIZE', 'PROBE', 'PRONE', 'PRONG',
     'PROOF', 'PROSE', 'PROUD', 'PROVE', 'PROWL', 'PROXY', 'PRUDE', 'PRUNE', 'PSALM', 'PSHAW', 
-    'PUBIC',
+    'PSYCH', 'PUBIC',
     'PUDGY', 'PUFFY', 'PULPY', 'PULSE', 'PUNCH', 'PUPIL', 'PUPPY', 'PUREE', 'PURER', 'PURGE',
     'PURSE', 'PUSHY', 'PUTTY', 'PYGMY', 'PYLON', 'QUACK', 'QUAIL', 'QUAKE', 'QUALM', 'QUARK', 
     'QUART',
@@ -2738,7 +2738,7 @@ export const dailyWordsLarge = [
     'PRONE', 'PRONG', 'PRONK', 'PROOF', 'PROPS', 'PRORE', 'PROSE', 'PROSO', 'PROSS', 'PROST',
     'PROSY', 'PROTO', 'PROUD', 'PROUL', 'PROWL', 'PROWS', 'PROXY', 'PROYN', 
     'PRUNE', 'PRUNT', 'PRUTA', 'PRYER', 'PRYSE', 'PSALM', 'PSEUD', 'PSION', 'PSOAE',
-    'PSOAI', 'PSOAS', 'PSORA', 'PSYCH', 'PSYOP', 'PUBCO', 'PUBES', 'PUBIC', 'PUBIS', 'PUCAN',
+    'PSOAI', 'PSOAS', 'PSORA', 'PSYOP', 'PUBCO', 'PUBES', 'PUBIC', 'PUBIS', 'PUCAN',
     'PUCER', 'PUCES', 'PUCKA', 'PUCKS', 'PUDDY', 'PUDGE', 'PUDGY', 'PUDIC', 'PUDOR', 'PUDSY',
     'PUDUS', 'PUERS', 'PUFFA', 'PUFFS', 'PUGGY', 'PUGIL', 'PUHAS', 'PUJAH', 'PUJAS',
     'PUKAS', 'PUKED', 'PUKER', 'PUKES', 'PUKEY', 'PUKKA', 'PUKUS', 'PULAO', 'PULAS', 'PULED',
@@ -26086,7 +26086,18 @@ export const wordleWords = [
         guess_4: null,
         guess_5: null,
         guess_6: null,
-      }
+      },
+      { word: "PSYCH", 
+        gameDate: "10/14/26",
+        myScore: 3,
+        wordNumber: 1943,
+        guess_1: "STEAL",
+        guess_2: "RISKY",
+        guess_3: "PSYCH",
+        guess_4: null,
+        guess_5: null,
+        guess_6: null,
+      },
 
 
  
@@ -26106,7 +26117,7 @@ console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
 console.log("August 9, 2025, Mom: Hello, Again!" )
-console.log("October 13, 2026: Trump sux dykk000000000! WIDER")
+console.log("October 14, 2026: Trump sux dykk000000000! PSYCH")
 
 console.log(wordleWords)
 
