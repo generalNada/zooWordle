@@ -283,8 +283,8 @@ my_list = {
     'WEIGH', 'WEIRD',
     'WHACK', 'WHARF', 'WHALE', 'WHEAT', 'WHEEL', 'WHELP', 'WHERE', 'WHICH', 'WHIFF', 'WHILE', 
     'WHINE',
-    'WHINY', 'WHIRL', 'WHISK', 'WHITE', 'WHOLE', 'WHOOP', 'WHOSE', 'WIDEN', 'WIDTH', 'WIELD', 
-    'WIMPY',
+    'WHINY', 'WHIRL', 'WHISK', 'WHITE', 'WHOLE', 'WHOOP', 'WHOSE', 'WIDEN', 'WIDER', 'WIDTH', 
+    'WIELD', 'WIMPY',
     'WINCE', 'WINDY', 'WISER', 'WISPY', 'WITTY', 'WOKEN', 'WOMAN', 'WOMEN', 'WOOER', 'WORDY', 
     'WORLD', 'WORRY', 'WORSE',
     'WORST', 'WOULD', 'WOUND', 'WOVEN', 'WRATH', 'WREAK', 'WRECK', 'WRIST', 'WRITE', 'WRONG', 
@@ -292,7 +292,7 @@ my_list = {
     'ZESTY'
 }
 
-word_to_find = 'YODEL'
+word_to_find = 'WIDER'
 
 
 if word_to_find in my_list:
