@@ -43,7 +43,7 @@ body.dark-theme {
 
 #themeToggle:hover {
   transform: scale(1.2) rotate(15deg);
-  filter: drop-shadow(0 0 10px rgba(180, 180, 180, 0.50301));
+  filter: drop-shadow(0 0 10px rgba(180, 180, 180, 0.50331));
 }
 
 #themeToggle:active {
