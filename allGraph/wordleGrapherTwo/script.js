@@ -9,7 +9,7 @@ document.getElementById("updateChart")?.addEventListener("click", () => {
   const endDate = new Date(endDateInput);
 
   if (isNaN(startDate) || isNaN(endDate)) {
-    alert("Please select both start and end dates, Now, SEE, My OLD Guy?!?!?!?!");
+    alert("Please select both start and end dates, Now, SEE, MY OLD Guy?!?!?!?!");
     return;
   }
 
