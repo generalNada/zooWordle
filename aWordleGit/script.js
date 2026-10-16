@@ -301,7 +301,7 @@ calculateAverageButton.addEventListener("click", () => {
   const totalScore = filteredWords.reduce((sum, word) => sum + word.myScore, 0);
   const averageScore = totalScore / filteredWords.length;
 
-  averageScoreResult.textContent = `Your Average Score - (You, ah, smell, er, really, ahhhh, mmm, er, er, um, much, grrr, ahem, ah, er, and, ah, y'know, um, continuously, um, like cockshit, Cocklick! Um, Cocklord! Cumlick!) - betweeneth words #${start} & #${end} = a gd, a-f-ing 'damn crisp-ass, um, dick-shitting ${averageScore.toFixed(
+  averageScoreResult.textContent = `Your Average Score - (You, ah, smell, err, really, ahhhh, mmm, er, er, um, much, grrr, ahem, ah, er, and, ah, y'know, um, continuously, um, like cockshit, Cocklick! Um, Cocklord! Cumlick!) - betweeneth words #${start} & #${end} = a gd, a-f-ing 'damn crisp-ass, um, dick-shitting ${averageScore.toFixed(
     6
   )}, You Cocksucker! Anything good in your life is luck. You fuck. Thx Coral on 8-7-25`;
 });
