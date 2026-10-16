@@ -80,7 +80,7 @@ my_list = {
     'DOWRY', 'DOZEN', 'DRAFT', 'DRAIN', 'DRAKE', 'DRAMA', 'DRAPE', 'DRAWN', 'DREAD', 'DREAM', 
     'DRILL', 'DRINK',
     'DRIVE', 'DROLL', 'DRONE', 'DROOL', 'DROOP', 'DROVE', 'DRUNK', 'DRYER', 'DRYLY', 'DUCHY', 
-    'DUMMY', 'DUSKY', 'DUSTY',
+    'DUMMY', 'DUNCE', 'DUSKY', 'DUSTY',
     'DUTCH', 'DUVET', 'DWARF', 'DWELL', 'DWELT', 'EAGER', 'EAGLE', 'EARLY', 'EARTH', 'EASEL',
     'EATEN', 'EBONY', 'EERIE', 'EDIFY', 'EGRET', 'EIGHT', 'EJECT', 'ELATE', 'ELBOW', 'ELDER', 
     'ELEGY', 'ELFIN', 'ELITE', 'ELOPE',
@@ -292,7 +292,7 @@ my_list = {
     'ZESTY'
 }
 
-word_to_find = 'PSYCH'
+word_to_find = 'DUNCE'
 
 
 if word_to_find in my_list:
