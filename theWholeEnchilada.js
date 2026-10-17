@@ -1795,7 +1795,7 @@ export const dailyWordsSmall = [
 'SCREE', 'SCREW', 'SCROD', 'SCRUB', 'SCRUM', 'SEDAN', 'SEEDY', 'SEGUE', 'SEIZE', 
 'SEMEN',
 'SENSE', 'SERUM', 'SERVE', 'SETUP', 'SEVEN', 'SEVER', 'SEWER', 
-'SHADE', 'SHADY', 'SHAFT', 'SHAKE', 'SHAKY', 'SHALE', 'SHALL', 'SHALT', 'SHAME', 'SHANK',
+'SHADE', 'SHAFT', 'SHAKE', 'SHAKY', 'SHALE', 'SHALL', 'SHALT', 'SHAME', 'SHANK',
 'SHAPE', 'SHARD', 'SHARE', 'SHARK', 'SHARP', 'SHAVE', 'SHAWL', 'SHEAR', 'SHEEN', 
 'SHEER', 'SHEET', 'SHEIK', 'SHELF', 'SHELL', 'SHIED', 'SHIFT', 'SHINE', 'SHINY', 'SHIRE',
 'SHIRK', 'SHIRT', 'SHIVA', 'SHOCK', 'SHOOK', 'SHOOT', 'SHORE', 'SHORN',
@@ -2861,7 +2861,7 @@ export const dailyWordsLarge = [
     'SERIC', 'SERIN', 'SERKS', 'SERON', 'SEROW', 'SERRA', 'SERRE', 'SERRS', 'SERRY',
     'SERUM', 'SERVE', 'SERVO', 'SESEY', 'SESSA', 'SETAE', 'SETAL', 'SETON', 'SETTS', 'SETUP',
     'SEVEN', 'SEVER', 'SEWAN', 'SEWAR', 'SEWED', 'SEWEL', 'SEWEN', 'SEWER', 'SEWIN', 'SEXED',
-    'SEXER', 'SEXES', 'SEXTO', 'SEXTS', 'SEYEN', 'SHADE', 'SHADS', 'SHADY', 'SHAFT',
+    'SEXER', 'SEXES', 'SEXTO', 'SEXTS', 'SEYEN', 'SHADE', 'SHADS', 'SHAFT',
     
     'SHAGS', 'SHAHS', 'SHAKE', 'SHAKO', 'SHAKT', 'SHAKY', 'SHALE', 'SHALL', 'SHALM', 'SHALT',
     'SHALY', 'SHAMA', 'SHAME', 'SHAMS', 'SHAND', 'SHANK', 'SHANS', 'SHAPE', 'SHAPS', 'SHARD',
@@ -26109,6 +26109,17 @@ export const wordleWords = [
         guess_5: null,
         guess_6: null,
       },
+      { word: "SHADY", 
+        gameDate: "10/16/26",
+        myScore: 3,
+        wordNumber: 1945,
+        guess_1: "STEAL",
+        guess_2: "SCARY",
+        guess_3: "SHADY",
+        guess_4: null,
+        guess_5: null,
+        guess_6: null,
+      },
 
 
  
@@ -26128,7 +26139,7 @@ console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
 console.log("August 9, 2025, Mom: Hello, Again!" )
-console.log("October 15, 2026: Trump sux dykk000000000! DUNCE")
+console.log("October 16, 2026: Trump sux dykk000000000! SHADY")
 
 console.log(wordleWords)
 
