@@ -105,7 +105,8 @@ my_list = {
     'FORGO', 'FORTE', 'FORTH', 'FORTH', 'FORTY', 'FORUM', 'FOUND', 'FOYER', 'FRAIL', 'FRAME', 
     'FRANK',
     'FREAK', 'FRESH', 'FRIED', 'FRILL', 'FRITZ', 'FROCK', 'FROND', 'FRONT', 'FROST', 'FROTH',
-    'FROWN', 'FROZE', 'FRUIT', 'FUGUE', 'FULLY', 'FUNGI', 'FUNKY', 'FUNNY', 'FUZZY', 'GAMER',
+    'FROWN', 'FROZE', 'FRUIT', 'FUGUE', 'FULLY', 'FUNGI', 'FUNKY', 'FUNNY', 'FUZZY', 'GAFFE', 
+    'GAMER',
     'GAMMA', 'GAMUT', 'GAUDY', 'GAUGE', 'GAUNT', 'GAUZE', 'GAVEL', 'GAWKY', 'GECKO', 'GEESE',
     'GENIE', 'GENRE', 'GEODE', 'GHOST', 'GHOUL', 'GIANT', 'GIDDY', 'GIRTH', 'GIVEN', 'GIZMO', 
     'GLADE',
@@ -292,7 +293,7 @@ my_list = {
     'ZESTY'
 }
 
-word_to_find = 'SHADY'
+word_to_find = 'GAFFE'
 
 
 if word_to_find in my_list:
