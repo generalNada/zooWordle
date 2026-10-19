@@ -2,8 +2,8 @@ my_list = {
     'ABACK', 'ABASE', 'ABATE', 'ABBEY', 'ABBOT', 'ABHOR', 'ABIDE', 'ABOUT', 'ABOVE', 'ABYSS',
     'ACORN', 'ACRID', 'ACTOR', 'ACUTE', 'ACUTE', 'ADAGE', 'ADAPT', 'ADEPT', 'ADMIN', 'ADMIT', 
     'ADOBE',
-    'ADOPT', 'ADORE', 'ADULT', 'AFFIX', 'AFOOT', 'AFTER', 'AGAIN', 'AGAPE', 'AGATE', 'AGENT', 
-    'AGILE',
+    'ADOPT', 'ADORE', 'ADORN', 'ADULT', 'AFFIX', 'AFOOT', 'AFTER', 'AGAIN', 'AGAPE', 'AGATE', 
+    'AGENT', 'AGILE',
     'AGING', 'AGLOW', 'AGONY', 'AGREE', 'AGREE', 'AHEAD', 'AISLE', 'ALARM', 'ALBUM', 'ALERT', 
     'ALIBI', 'ALIEN', 'ALIGN',
     'ALIKE', 'ALIVE', 'ALLEY', 'ALLOT', 'ALLOW', 'ALLOY', 'ALOFT', 'ALOHA', 'ALONE', 'ALONG', 
@@ -293,7 +293,7 @@ my_list = {
     'ZESTY'
 }
 
-word_to_find = 'GAFFE'
+word_to_find = 'ADORN'
 
 
 if word_to_find in my_list:
