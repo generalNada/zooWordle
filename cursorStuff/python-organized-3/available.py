@@ -1,5 +1,5 @@
 unused_list = [
-    "ABLED", "ABODE", "ABORT", "ABUSE", "ADORN", "AFIRE", "AFOUL", "AIDER", "ALGAE",
+    "ABLED", "ABODE", "ABORT", "ABUSE", "AFIRE", "AFOUL", "AIDER", "ALGAE",
     "ALLAY", "ANIME",
     "ANNUL", "APING", "APNEA", "ARENA", "ARMOR", "AROSE", "ARRAY", "ARSON", "ASTIR", "AUGUR",
     "AUNTY", "AXIAL", "AXION", "BAGGY", "BASAL", "BEECH",
@@ -67,7 +67,7 @@ unused_list = [
     "WREST", "WRING", "WRYLY", "ZONAL"
 ]
 
-word = 'GAFFE'
+word = 'ADORN'
 
 
 if word in unused_list:
