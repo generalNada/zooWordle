@@ -26133,7 +26133,7 @@ export const wordleWords = [
       },
       { word: "ADORN", 
         gameDate: "10/18/26",
-        myScore: 4,
+        myScore: 3,
         wordNumber: 1947,
         guess_1: "ROAST",
         guess_2: "VAPOR",
