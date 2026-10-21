@@ -64,10 +64,10 @@ unused_list = [
     "VIPER", "VIRUS", "VISTA", "VOMIT", "WAIVE", "WARTY",
     "WELCH", "WELSH", "WIDOW", "WIGHT", "WILLY", 
     "WINCH", "WOODY", "WOOLY", "WOOZY", "WORTH", "WRACK",
-    "WREST", "WRING", "WRYLY", "ZONAL"
+    "WRING", "WRYLY", "ZONAL"
 ]
 
-word = 'STINK'
+word = 'WREST'
 
 
 if word in unused_list:
