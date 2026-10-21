@@ -1860,7 +1860,7 @@ export const dailyWordsSmall = [
 'WIDEN', 'WIDOW', 'WIDTH', 'WIELD', 'WIGHT', 'WILLY', 'WINCE', 'WINCH',
 'WINDY', 'WITCH', 'WITTY', 'WOKEN', 'WOMAN', 'WOODY', 'WOOER',
 'WOOLY', 'WOOZY', 'WORDY', 'WORLD', 'WORRY', 'WORSE', 'WORST', 'WORTH', 'WOULD', 'WOUND',
-'WOVEN', 'WRACK', 'WRATH', 'WREAK', 'WREST', 'WRING', 'WRIST', 'WRITE', 'WRONG',
+'WOVEN', 'WRACK', 'WRATH', 'WREAK', 'WRING', 'WRIST', 'WRITE', 'WRONG',
 'WROTE', 'WRUNG', 'WRYLY', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA',
 'ZESTY', 'ZONAL'
     ];
@@ -3142,7 +3142,7 @@ export const dailyWordsLarge = [
     'WOOLS', 'WOOLY', 'WOONS', 'WOOPS', 'WOOPY', 'WOOSE', 'WOOSH', 'WOOTZ', 'WOOZY', 'WORDS',
     'WORDY', 'WORKS', 'WORLD', 'WORMS', 'WORMY', 'WORRY', 'WORSE', 'WORST', 'WORTH', 'WORTS',
     'WOULD', 'WOUND', 'WOVEN', 'WOWED', 'WOWEE', 'WOXEN', 'WRACK', 'WRANG', 'WRAPS', 'WRAPT',
-    'WRAST', 'WRATE', 'WRATH', 'WRAWL', 'WREAK', 'WRENS', 'WREST', 'WRICK', 'WRIED',
+    'WRAST', 'WRATE', 'WRATH', 'WRAWL', 'WREAK', 'WRENS', 'WRICK', 'WRIED',
     'WRIER', 'WRIES', 'WRING', 'WRIST', 'WRITE', 'WRITS', 'WROKE', 'WRONG', 'WROOT', 'WROTE',
     'WROTH', 'WRUNG', 'WRYER', 'WRYLY', 'WUDDY',
     'WUDUS', 'WULLS', 'WURST', 'WUSES', 'WUSHU', 'WUSSY', 'WUXIA', 'WYLED', 'WYLES', 'WYNDS',
@@ -26152,6 +26152,17 @@ export const wordleWords = [
         guess_5: null,
         guess_6: null,
       },
+      { word: "WREST", 
+        gameDate: "10/20/26",
+        myScore: 2,
+        wordNumber: 1949,
+        guess_1: "CLEAT",
+        guess_2: "WREST",
+        guess_3: null,
+        guess_4: null,
+        guess_5: null,
+        guess_6: null,
+      },
 
 
  
@@ -26171,7 +26182,7 @@ console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
 console.log("August 9, 2025, Mom: Hello, Again!" )
-console.log("October 19, 2026: Trump sux dykk000000000! STINK")
+console.log("October 20, 2026: Trump sux dykk000000000! WREST")
 
 console.log(wordleWords)
 
