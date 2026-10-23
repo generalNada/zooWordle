@@ -199,8 +199,8 @@ my_list = {
     'RANGE', 'RAPID', 'RATIO', 'RATTY', 'RAYON', 'REACH', 'REACT', 'READY', 'REALM', 'REBEL',
     'REBUS', 'REBUT', 'RECAP', 'RECUR', 'REFER', 'REGAL', 'REHAB', 'RELAX', 'RELAY', 'RELIC', 
     'REMIT', 'REMIX',
-    'RENEW', 'REPAY', 'REPEL', 'REPLY', 'RERUN', 'RESIN', 'RETCH', 'RETRO', 'RETRY', 'REVEL', 
-    'REVUE',
+    'RENEW', 'REPAY', 'REPEL', 'REPLY', 'RERUN', 'RESET', 'RESIN', 'RETCH', 'RETRO', 'RETRY', 
+    'REVEL', 'REVUE',
     'RHINO', 'RHYME', 'RIDER', 'RIDGE', 'RIGHT', 'RIGID', 'RIPER', 'RINSE', 'RISEN', 'RISER', 
     'RITZY', 'RIVAL', 'RIVER', 'RIVET',
     'ROACH', 'ROBIN', 'ROBOT', 'ROCKY', 'RODEO', 'ROGUE', 'ROUGE', 'ROOMY', 'ROOST', 'ROUGH',
@@ -294,7 +294,7 @@ my_list = {
     'ZESTY'
 }
 
-word_to_find = 'PENNY'
+word_to_find = 'RESET'
 
 
 if word_to_find in my_list:
