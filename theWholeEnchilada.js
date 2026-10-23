@@ -1781,7 +1781,7 @@ export const dailyWordsSmall = [
 'RANDY', 'RANGE', 'RAPID', 'RARER', 'RASPY', 'RATIO', 'RATTY', 'RAVEN', 'RAYON', 'RAZOR',
 'REACH', 'REACT', 'READY', 'REALM', 'REARM', 'REBAR', 'REBEL', 'REBUS', 'REBUT', 'RECAP',
 'RECUR', 'RECUT', 'REEDY', 'REFER', 'REFIT', 'REGAL', 'REIGN', 'RELAX', 'RELAY',
-'RELIC', 'REMIT', 'RENAL', 'RENEW', 'REPAY', 'REPEL', 'RERUN', 'RESET', 'RESIN',
+'RELIC', 'REMIT', 'RENAL', 'RENEW', 'REPAY', 'REPEL', 'RERUN', 'RESIN',
 'RETCH', 'RETRO', 'RETRY', 'REUSE', 'REVEL', 'REVUE', 'RHINO', 'RHYME', 'RICER', 'RIDER',
 'RIDGE', 'RIFLE', 'RIGHT', 'RIGID', 'RIGOR', 'RIPEN', 'RIPER', 'RISEN',
 'RISKY', 'RIVAL', 'RIVET', 'ROACH', 'ROAST', 'ROBIN', 'ROBOT', 'ROCKY', 'RODEO',
@@ -2788,7 +2788,7 @@ export const dailyWordsLarge = [
     'REMIT', 'RENAL', 'RENAY', 'RENDS', 'RENEW', 'RENEY', 'RENGA', 'RENIG', 'RENIN',
     'RENNE', 'RENOS', 'RENTE', 'RENTS', 'REOIL', 'REORG', 'REPAY', 'REPEG', 'REPEL', 'REPIN',
     'REPLA', 'REPOS', 'REPOT', 'REPPS', 'REPRO', 'RERAN', 'RERIG', 'RERUN', 'RESAT',
-    'RESAW', 'RESAY', 'RESEE', 'RESES', 'RESET', 'RESEW', 'RESID', 'RESIN', 'RESIT', 'RESOD',
+    'RESAW', 'RESAY', 'RESEE', 'RESES', 'RESEW', 'RESID', 'RESIN', 'RESIT', 'RESOD',
     'RESOW', 'RESTO', 'RESTS', 'RESTY', 'RESUS', 'RETAG', 'RETAX', 'RETCH', 'RETEM', 'RETIA',
     'RETIE', 'RETOX', 'RETRO', 'RETRY', 'REUSE', 'REVEL', 'REVET', 'REVIE', 'REVUE', 'REWAN',
     'REWAX', 'REWED', 'REWET', 'REWIN', 'REWON', 'REWTH', 'REXES', 'REZES',
@@ -26174,6 +26174,17 @@ export const wordleWords = [
         guess_5: null,
         guess_6: null,
       },
+      { word: "RESET", 
+        gameDate: "10/22/26",
+        myScore: 2,
+        wordNumber: 1951,
+        guess_1: "ROAST",
+        guess_2: "RESET",
+        guess_3: null,
+        guess_4: null,
+        guess_5: null,
+        guess_6: null,
+      },
 
 
  
@@ -26193,7 +26204,7 @@ console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
 console.log("August 9, 2025, Mom: Hello, Again!" )
-console.log("October 21, 2026: Trump sux dykk000000000! PENNY")
+console.log("October 2, 2026: Trump sux dykk000000000! RESET")
 
 console.log(wordleWords)
 
