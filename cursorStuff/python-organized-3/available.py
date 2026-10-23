@@ -67,7 +67,7 @@ unused_list = [
     "WRING", "WRYLY", "ZONAL"
 ]
 
-word = 'ROAST'
+word = 'RESET'
 
 
 if word in unused_list:
