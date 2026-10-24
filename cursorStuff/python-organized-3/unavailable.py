@@ -262,8 +262,8 @@ my_list = {
     'TOPAZ', 'TOPIC', 'TORCH', 'TORSO', 'TOTAL', 'TOTEM', 'TOUCH', 'TOUGH', 'TOWEL', 'TOWER',
     'TOXIC', 'TOXIN', 'TRACE', 'TRACE', 'TRACK', 'TRACT', 'TRADE', 'TRAIL', 'TRAIN', 'TRAIT', 
     'TRASH',
-    'TRAWL', 'TREAT', 'TREND', 'TRIAD', 'TRIAL', 'TRIBE', 'TRICE', 'TRICK', 'TRIPE', 'TRITE', 
-    'TROLL',
+    'TRAWL', 'TREAT', 'TREND', 'TRIAD', 'TRIAL', 'TRIBE', 'TRICE', 'TRICK', 'TRILL', 'TRIPE', 
+    'TRITE', 'TROLL',
     'TROOP', 'TROPE', 'TROUT', 'TROVE', 'TRUCK', 'TRULY', 'TRUNK', 'TRUSS', 'TRUST', 'TRUTH', 
     'TRYST',
     'TUBER', 'TULIP', 'TUNIC', 'TURBO', 'TUTOR', 'TWANG', 'TWEAK', 'TWEED', 'TWEEN', 'TWEET', 
@@ -294,7 +294,7 @@ my_list = {
     'ZESTY'
 }
 
-word_to_find = 'RESET'
+word_to_find = 'TRILL'
 
 
 if word_to_find in my_list:
