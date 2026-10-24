@@ -1178,7 +1178,8 @@ export const fixedWordsLarge = [
     'TREEN', 'TREES', 'TREFA', 'TREIF', 'TREKS', 'TREMA', 'TREMS', 'TREND', 'TRESS', 'TREST',
     'TRETS', 'TREWS', 'TREYF', 'TREYS', 'TRIAC', 'TRIAD', 'TRIAL', 'TRIBE', 'TRICE', 'TRICK',
     'TRIDE', 'TRIED', 'TRIER', 'TRIES', 'TRIFF', 'TRIGO', 'TRIGS', 'TRIKE', 'TRILD', 'TRILL',
-    'TRIMS', 'TRINE', 'TRINS', 'TRIOL', 'TRIOR', 'TRIOS', 'TRIPE', 'TRIPS', 'TRIPY', 'TRIST',
+    'TRILL', 'TRIMS', 'TRINE', 'TRINS', 'TRIOL', 'TRIOR', 'TRIOS', 'TRIPE', 'TRIPS', 'TRIPY', 
+    'TRIST',
     'TRITE', 'TROAD', 'TROAK', 'TROAT', 'TROCK', 'TRODE', 'TRODS', 'TROGS', 'TROIS', 'TROKE',
     'TROLL', 'TROMP', 'TRONA', 'TRONC', 'TRONE', 'TRONK', 'TRONS', 'TROOP', 'TROOZ', 'TROPE',
     'TROTH', 'TROTS', 'TROUT', 'TROVE', 'TROWS', 'TROYS', 'TRUCE', 'TRUCK', 'TRUED', 'TRUER',
@@ -3041,7 +3042,7 @@ export const dailyWordsLarge = [
     'TRATS', 'TRATT', 'TRAVE', 'TRAWL', 'TRAYF', 'TRAYS', 'TREAD', 'TREAT', 'TRECK', 'TREED',
     'TREEN', 'TREES', 'TREFA', 'TREIF', 'TREKS', 'TREMA', 'TREMS', 'TREND', 'TRESS', 'TREST',
     'TRETS', 'TREWS', 'TREYF', 'TREYS', 'TRIAC', 'TRIAD', 'TRIAL', 'TRICE', 'TRICK',
-    'TRIDE', 'TRIED', 'TRIER', 'TRIES', 'TRIFF', 'TRIGO', 'TRIGS', 'TRIKE', 'TRILD', 'TRILL',
+    'TRIDE', 'TRIED', 'TRIER', 'TRIES', 'TRIFF', 'TRIGO', 'TRIGS', 'TRIKE', 'TRILD', 
     'TRIMS', 'TRINE', 'TRINS', 'TRIOL', 'TRIOR', 'TRIOS', 'TRIPE', 'TRIPS', 'TRIPY', 'TRIST',
     'TRITE', 'TROAD', 'TROAK', 'TROAT', 'TROCK', 'TRODE', 'TRODS', 'TROGS', 'TROIS', 'TROKE',
     'TROLL', 'TROMP', 'TRONA', 'TRONC', 'TRONE', 'TRONK', 'TRONS', 'TROOP', 'TROOZ', 'TROPE',
@@ -26185,6 +26186,17 @@ export const wordleWords = [
         guess_5: null,
         guess_6: null,
       },
+      { word: "TRILL", 
+        gameDate: "10/23/26",
+        myScore: 7,
+        wordNumber: 1952,
+        guess_1: "SALON",
+        guess_2: "CLUED",
+        guess_3: "IMPLY",
+        guess_4: "KRILL",
+        guess_5: "GRILL",
+        guess_6: "FRILL",
+      },
 
 
  
@@ -26204,7 +26216,7 @@ console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
 console.log("August 9, 2025, Mom: Hello, Again!" )
-console.log("October 22, 2026: Trump sux dykk000000000! RESET")
+console.log("October 23, 2026: Trump sux dykk000000000! TRILL")
 
 console.log(wordleWords)
 
