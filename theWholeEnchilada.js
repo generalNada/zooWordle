@@ -1436,8 +1436,8 @@ export const combinedWords = [
     'HAPPY', 'HARDY', 'HAREM', 'HARPY', 'HARRY', 'HARSH', 'HASTE', 'HASTY', 'HATCH', 'HATER',
     'HAUNT', 'HAUTE', 'HAVEN', 'HAVOC', 'HAZEL', 'HEADY', 'HEARD', 'HEART', 'HEATH', 'HEAVE',
     'HEAVY', 'HEDGE', 'HEFTY', 'HEIST', 'HELIX', 'HELLO', 'HENCE', 'HERON', 'HILLY', 'HINGE',
-    'HIPPO', 'HIPPY', 'HITCH', 'HOARD', 'HOBBY', 'HOCUS', 'HOIST', 'HOLLY', 'HOMER', 'HONEY', 
-    'HONOR',
+    'HIPPO', 'HIPPY', 'HITCH', 'HOARD', 'HOBBY', 'HOCUS', 'HOIST', 'HOLEY', 'HOLLY', 'HOMER', 
+    'HONEY'  'HONOR',
     'HOOCH', 'HORDE', 'HORNY', 'HORSE', 'HOTEL', 'HOTLY', 'HOUND', 'HOUSE', 'HOVEL', 'HOVER', 
     'HOWDY',
     'HUMAN', 'HUMID', 'HUMOR', 'HUMPH', 'HUMUS', 'HUNCH', 'HUNKY', 'HURRY', 'HUSKY', 'HUSSY',
@@ -2384,7 +2384,7 @@ export const dailyWordsLarge = [
     'HOARY', 'HOAST', 'HOBBY', 'HOBOS', 'HOCKS', 'HOCUS', 'HODAD', 'HODJA', 'HOERS', 'HOGAN',
     'HOGEN', 'HOGGS', 'HOGHS', 'HOHED', 'HOICK', 'HOIED', 'HOIKS', 'HOING', 'HOISE', 
     'HOKAS', 'HOKED', 'HOKES', 'HOKEY', 'HOKIS', 'HOKKU', 'HOKUM', 'HOLDS', 'HOLED', 'HOLES',
-    'HOLEY', 'HOLKS', 'HOLLA', 'HOLLO', 'HOLLY', 'HOLME', 'HOLMS', 'HOLON', 'HOLOS', 'HOLTS',
+    'HOLKS', 'HOLLA', 'HOLLO', 'HOLLY', 'HOLME', 'HOLMS', 'HOLON', 'HOLOS', 'HOLTS',
     'HOMAS', 'HOMED', 'HOMER', 'HOMES', 'HOMEY', 'HOMIE', 'HOMME', 'HOMOS', 'HONAN', 'HONDA',
     'HONDS', 'HONED', 'HONER', 'HONES', 'HONEY', 'HONGI', 'HONGS', 'HONKS', 'HONOR', 'HOOCH',
     'HOODS', 'HOODY', 'HOOEY', 'HOOFS', 'HOOKA', 'HOOKS', 'HOOKY', 'HOOLY', 'HOONS', 'HOOPS',
@@ -26197,6 +26197,17 @@ export const wordleWords = [
         guess_5: "GRILL",
         guess_6: "FRILL",
       },
+      { word: "HOLEY", 
+        gameDate: "10/23/26",
+        myScore: 7,
+        wordNumber: 1952,
+        guess_1: "LEANT",
+        guess_2: "SLIDE",
+        guess_3: "WHELK",
+        guess_4: "HOVEL",
+        guess_5: "HOLEY",
+        guess_6: null,
+      },
 
 
  
@@ -26216,7 +26227,7 @@ console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
 console.log("August 9, 2025, Mom: Hello, Again!" )
-console.log("October 23, 2026: Trump sux dykk000000000! TRILL")
+console.log("October 24, 2026: Trump sux dykk000000000! HOLEY")
 
 console.log(wordleWords)
 
