@@ -1437,7 +1437,7 @@ export const combinedWords = [
     'HAUNT', 'HAUTE', 'HAVEN', 'HAVOC', 'HAZEL', 'HEADY', 'HEARD', 'HEART', 'HEATH', 'HEAVE',
     'HEAVY', 'HEDGE', 'HEFTY', 'HEIST', 'HELIX', 'HELLO', 'HENCE', 'HERON', 'HILLY', 'HINGE',
     'HIPPO', 'HIPPY', 'HITCH', 'HOARD', 'HOBBY', 'HOCUS', 'HOIST', 'HOLEY', 'HOLLY', 'HOMER', 
-    'HONEY'  'HONOR',
+    'HONEY', 'HONOR',
     'HOOCH', 'HORDE', 'HORNY', 'HORSE', 'HOTEL', 'HOTLY', 'HOUND', 'HOUSE', 'HOVEL', 'HOVER', 
     'HOWDY',
     'HUMAN', 'HUMID', 'HUMOR', 'HUMPH', 'HUMUS', 'HUNCH', 'HUNKY', 'HURRY', 'HUSKY', 'HUSSY',
