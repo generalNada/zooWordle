@@ -125,7 +125,8 @@ my_list = {
     'HARSH', 'HASTE', 'HASTY', 'HATCH', 'HATER', 'HAUNT', 'HAVEN', 'HAVOC', 'HAZEL', 'HEADY', 
     'HEART', 'HEARD',
     'HEATH', 'HEAVE', 'HEAVY', 'HEFTY', 'HEIST', 'HELIX', 'HELLO', 'HENCE', 'HERON', 'HILLY',
-    'HINGE', 'HIPPO', 'HOARD', 'HOBBY', 'HOIST', 'HOLLY', 'HOMER', 'HONEY', 'HORDE', 'HORSE',
+    'HINGE', 'HIPPO', 'HOARD', 'HOBBY', 'HOIST', 'HOLEY', 'HOLLY', 'HOMER', 'HONEY', 'HORDE', 
+    'HORSE',
     'HOTEL', 'HOUND', 'HOUSE', 'HOVEL', 'HOVER', 'HOWDY', 'HUMAN', 'HUMID', 'HUMOR', 'HUMPH',
     'HUNCH', 'HUNKY', 'HURRY', 'HUTCH', 'HYDRA', 'HYENA', 'HYPER', 'ICING', 'IDEAL', 'IDIOM',
     'IDLER', 'IGLOO', 'IMAGE', 'IMBUE', 'IMPEL', 'INANE', 'INBOX', 'INCUR', 'INDEX', 'INDIE',
@@ -294,7 +295,7 @@ my_list = {
     'ZESTY'
 }
 
-word_to_find = 'TRILL'
+word_to_find = 'HOLEY'
 
 
 if word_to_find in my_list:
