@@ -78,7 +78,7 @@ my_list = {
     'DODGY', 'DOGMA', 'DOING', 'DOLLY', 'DONOR', 'DONUT', 'DOPEY', 'DOUBT', 'DOUGH', 'DOWDY', 
     'DOWEL',
     'DOWRY', 'DOZEN', 'DRAFT', 'DRAIN', 'DRAKE', 'DRAMA', 'DRAPE', 'DRAWN', 'DREAD', 'DREAM', 
-    'DRILL', 'DRINK',
+    'DRESS', 'DRILL', 'DRINK',
     'DRIVE', 'DROLL', 'DRONE', 'DROOL', 'DROOP', 'DROVE', 'DRUNK', 'DRYER', 'DRYLY', 'DUCHY', 
     'DUMMY', 'DUNCE', 'DUSKY', 'DUSTY',
     'DUTCH', 'DUVET', 'DWARF', 'DWELL', 'DWELT', 'EAGER', 'EAGLE', 'EARLY', 'EARTH', 'EASEL',
@@ -295,7 +295,7 @@ my_list = {
     'ZESTY'
 }
 
-word_to_find = 'HOLEY'
+word_to_find = 'DRESS'
 
 
 if word_to_find in my_list:
