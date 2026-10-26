@@ -1677,7 +1677,7 @@ export const dailyWordsSmall = [
 'DINGY', 'DIODE', 'DIRGE', 'DIRTY', 'DISCO', 'DITCH', 'DITTO', 'DITTY', 'DIVAN', 
 'DODGE', 'DODGY', 'DOGMA', 'DOING', 'DOLLY', 'DONOR', 'DONUT', 'DOPEY', 'DOUBT',
 'DOUGH', 'DOWEL', 'DOWNY', 'DOWRY', 'DOZEN', 'DRAFT', 'DRAIN', 
-'DRANK', 'DRAPE', 'DRAWL', 'DRAWN', 'DREAD', 'DREAM', 'DRESS', 'DRIED', 'DRIER', 'DRIFT',
+'DRANK', 'DRAPE', 'DRAWL', 'DRAWN', 'DREAD', 'DREAM', 'DRIED', 'DRIER', 'DRIFT',
 'DRILL', 'DRINK', 'DRIVE', 'DROIT', 'DROLL', 'DRONE', 'DROOL', 'DROOP', 'DROSS', 'DROVE',
 'DROWN', 'DRUID', 'DRYER', 'DUCHY', 'DULLY', 'DUMMY', 'DUMPY', 'DURUM',
 'DUSKY', 'DUTCH', 'DUVET', 'DWARF', 'DWELL', 'DWELT', 'DYING', 'EAGER', 'EAGLE',
@@ -2180,7 +2180,7 @@ export const dailyWordsLarge = [
     'DOYEN', 'DOYLY', 'DOZED', 'DOZEN', 'DOZER', 'DOZES', 'DRABS', 'DRACK', 'DRACO', 'DRAFF',
     'DRAFT', 'DRAGS', 'DRAIL', 'DRAIN', 'DRAMS', 'DRANK', 'DRANT', 'DRAPE',
     'DRAPS', 'DRATS', 'DRAVE', 'DRAWL', 'DRAWN', 'DRAWS', 'DRAYS', 'DREAD', 'DREAM', 'DREAR',
-    'DRECK', 'DREED', 'DREER', 'DREES', 'DREGS', 'DREKS', 'DRENT', 'DRERE', 'DRESS', 'DREST',
+    'DRECK', 'DREED', 'DREER', 'DREES', 'DREGS', 'DREKS', 'DRENT', 'DRERE', 'DREST',
     'DREYS', 'DRIBS', 'DRICE', 'DRIED', 'DRIER', 'DRIES', 'DRIFT', 'DRILL', 'DRILY', 'DRINK',
     'DRIPS', 'DRIPT', 'DRIVE', 'DROID', 'DROIL', 'DROIT', 'DROKE', 'DROLE', 'DROLL', 'DROME',
     'DRONE', 'DRONY', 'DROOB', 'DROOG', 'DROOK', 'DROOL', 'DROOP', 'DROPS', 'DROPT', 'DROSS', 
@@ -26208,6 +26208,17 @@ export const wordleWords = [
         guess_5: "HOLEY",
         guess_6: null,
       },
+      { word: "DRESS", 
+        gameDate: "10/25/26",
+        myScore: 3,
+        wordNumber: 1954,
+        guess_1: "LEANT",
+        guess_2: "SHIRE",
+        guess_3: "DRESS",
+        guess_4: null,
+        guess_5: null,
+        guess_6: null,
+      },
 
 
  
@@ -26227,7 +26238,7 @@ console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
 console.log("August 9, 2025, Mom: Hello, Again!" )
-console.log("October 24, 2026: Trump sux dykk000000000! HOLEY")
+console.log("October 25, 2026: Trump sux dykk000000000! DRESS")
 
 console.log(wordleWords)
 
