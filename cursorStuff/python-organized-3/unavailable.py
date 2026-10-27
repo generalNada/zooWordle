@@ -107,7 +107,8 @@ my_list = {
     'FREAK', 'FRESH', 'FRIED', 'FRILL', 'FRITZ', 'FROCK', 'FROND', 'FRONT', 'FROST', 'FROTH',
     'FROWN', 'FROZE', 'FRUIT', 'FUGUE', 'FULLY', 'FUNGI', 'FUNKY', 'FUNNY', 'FUZZY', 'GAFFE', 
     'GAMER',
-    'GAMMA', 'GAMUT', 'GAUDY', 'GAUGE', 'GAUNT', 'GAUZE', 'GAVEL', 'GAWKY', 'GECKO', 'GEESE',
+    'GAMMA', 'GAMUT', 'GAUDY', 'GAUGE', 'GAUNT', 'GAUZE', 'GAVEL', 'GAWKY', 'GECKO', 'GEEKY', 
+    'GEESE',
     'GENIE', 'GENRE', 'GEODE', 'GHOST', 'GHOUL', 'GIANT', 'GIDDY', 'GIRTH', 'GIVEN', 'GIZMO', 
     'GLADE',
     'GLAND', 'GLARE', 'GLASS', 'GLAZE', 'GLEAM', 'GLEAN', 'GLIDE', 'GLINT', 'GLOAT', 'GLOBE',
@@ -295,7 +296,7 @@ my_list = {
     'ZESTY'
 }
 
-word_to_find = 'DRESS'
+word_to_find = 'GEEKY'
 
 
 if word_to_find in my_list:
