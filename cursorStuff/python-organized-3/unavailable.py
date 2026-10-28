@@ -25,7 +25,8 @@ my_list = {
     'BEIGE', 'BEING', 'BELCH',
     'BELIE', 'BELLE', 'BELLY', 'BELOW', 'BENCH', 'BERET', 'BERTH', 'BESET', 'BEVEL', 'BICEP', 
     'BILGE',
-    'BINGE', 'BIOME', 'BIRCH', 'BIRTH', 'BLACK', 'BLADE', 'BLAME', 'BLAND', 'BLANK', 'BLARE',
+    'BINGE', 'BINGO', 'BIOME', 'BIRCH', 'BIRTH', 'BLACK', 'BLADE', 'BLAME', 'BLAND', 'BLANK', 
+    'BLARE',
     'BLAST', 'BLAZE', 'BLEAK', 'BLEAT', 'BLEED', 'BLEEP', 'BLEND', 'BLIMP', 'BLIND', 'BLINK', 
     'BLISS',
     'BLOCK', 'BLOKE', 'BLOND', 'BLOOD', 'BLOOM', 'BLOWN', 'BLUFF', 'BLUNT', 'BLURB', 'BLURT', 
@@ -296,7 +297,7 @@ my_list = {
     'ZESTY'
 }
 
-word_to_find = 'GEEKY'
+word_to_find = 'BINGO'
 
 
 if word_to_find in my_list:
