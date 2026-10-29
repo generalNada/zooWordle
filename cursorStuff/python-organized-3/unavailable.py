@@ -120,7 +120,7 @@ my_list = {
     'GRAND', 'GRANT', 'GRAPE', 'GRAPH', 'GRASP', 'GRASS', 'GRATE', 'GRAVE', 'GRAVY', 'GREAT', 
     'GREED',
     'GREEN', 'GREET', 'GRIEF', 'GRIFT', 'GRILL', 'GRIND', 'GRIME', 'GRIMY', 'GRIPE', 'GRIPE', 
-    'GROIN', 'GROAN',
+    'GRIST', 'GROIN', 'GROAN',
     'GROOM', 'GROSS', 'GROUP', 'GROUT', 'GROVE', 'GROWL', 'GROWN', 'GRUEL', 'GRUFF', 'GUANO',
     'GUARD', 'GUAVA', 'GUESS', 'GUEST', 'GUIDE', 'GUILD', 'GUILE', 'GUISE', 'GULLY', 'GUMBO',
     'GUMMY', 'GUNKY', 'GUPPY', 'GUSTY', 'HABIT', 'HAIRY', 'HALVE', 'HANDY', 'HAPPY', 'HARDY', 
@@ -297,7 +297,7 @@ my_list = {
     'ZESTY'
 }
 
-word_to_find = 'BINGO'
+word_to_find = 'GRIST'
 
 
 if word_to_find in my_list:
