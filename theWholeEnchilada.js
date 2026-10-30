@@ -1748,7 +1748,7 @@ export const dailyWordsSmall = [
 'MINCE',
 'MINER', 'MINIM', 'MINOR', 'MINTY', 'MINUS', 'MIRTH', 'MISER', 'MISSY', 'MODAL',
 'MODEL', 'MODEM', 'MOIST', 'MOLAR', 'MOLDY', 'MOMMY', 'MONEY', 'MONTH', 'MOODY',
-'MOOSE', 'MORAL', 'MORON', 'MOSSY', 'MOTEL', 'MOTOR', 'MOTTO', 'MOULT',
+'MOOSE', 'MORAL', 'MORON', 'MOSSY', 'MOTEL', 'MOTTO', 'MOULT',
 'MOUNT', 'MOURN', 'MOUSE', 'MOUTH', 'MOVIE', 'MOWER', 'MUCKY', 'MUCUS',
 'MUDDY', 'MULCH', 'MUMMY', 'MUNCH', 'MURAL', 'MUSHY', 'MUSIC', 'MUSKY', 'MUSTY',
 'MYRRH', 'NACHO', 'NADIR', 'NAIVE', 'NANNY', 'NASAL', 'NASTY', 'NATAL', 'NAVAL', 'NAVEL', 
@@ -26253,6 +26253,17 @@ export const wordleWords = [
         guess_5: null,
         guess_6: null,
       },
+      { word: "MOTOR", 
+        gameDate: "10/29/26",
+        myScore: 3,
+        wordNumber: 1958,
+        guess_1: "TASER",
+        guess_2: "ROTOR",
+        guess_3: "MOTOR",
+        guess_4: null,
+        guess_5: null,
+        guess_6: null,
+      },
 
 
  
@@ -26272,7 +26283,7 @@ console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
 console.log("August 9, 2025, Mom: Hello, Again!" )
-console.log("October 28, 2026: Trump sux dykk000000000! GRIST")
+console.log("October 29, 2026: Trump sux dykk000000000! MOTOR")
 
 console.log(wordleWords)
 
