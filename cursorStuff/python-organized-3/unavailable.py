@@ -297,7 +297,7 @@ my_list = {
     'ZESTY'
 }
 
-word_to_find = 'MOTOR'
+word_to_find = 'SLIDE'
 
 
 if word_to_find in my_list:
