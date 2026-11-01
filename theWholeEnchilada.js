@@ -1610,8 +1610,8 @@ export const combinedWords = [
     'WINDY', 'WISER', 'WISPY', 'WITCH', 'WITTY', 'WOKEN', 'WOMAN', 'WOMEN', 'WOODY', 'WOOER',
     'WOOLY', 'WOOZY', 'WORDY', 'WORLD', 'WORRY', 'WORSE', 'WORST', 'WORTH', 'WOULD', 'WOUND',
     'WOVEN', 'WRACK', 'WRATH', 'WREAK', 'WRECK', 'WREST', 'WRING', 'WRIST', 'WRITE', 'WRONG',
-    'WROTE', 'WRUNG', 'WRYLY', 'YACHT', 'YEARN', 'YEAST', 'YIELD', 'YODEL', 'YOUNG', 'YOUTH', 
-    'ZEBRA', 'ZESTY', 'ZONAL'
+    'WROTE', 'WRUNG', 'WRYLY', 'YACHT', 'YAHOO', 'YEARN', 'YEAST', 'YIELD', 'YODEL', 'YOUNG', 
+    'YOUTH', 'ZEBRA', 'ZESTY', 'ZONAL'
 ];
 
 
@@ -3151,7 +3151,7 @@ export const dailyWordsLarge = [
     'WYNNS', 'WYTED', 'WYTES', 'XEBEC', 'XENIA', 'XENIC', 'XENON', 'XERIC', 'XEROX', 'XERUS',
     'XOANA', 'XRAYS', 'XYLAN', 'XYLEM', 'XYLIC', 'XYLOL', 'XYLYL', 'XYSTI', 'XYSTS', 'YAARS',
     'YABAS', 'YABBA', 'YABBY', 'YACCA', 'YACHT', 'YACKA', 'YACKS', 'YAFFS', 'YAGER', 'YAGES',
-    'YAGIS', 'YAHOO', 'YAIRD', 'YAKKA', 'YAKOW', 'YALES', 'YAMEN', 'YAMPY', 'YAMUN', 'YANGS',
+    'YAGIS', 'YAIRD', 'YAKKA', 'YAKOW', 'YALES', 'YAMEN', 'YAMPY', 'YAMUN', 'YANGS',
     'YANKS', 'YAPOK', 'YAPON', 'YAPPS', 'YAPPY', 'YARAK', 'YARCO', 'YARDS', 'YARER', 'YARFA',
     'YARKS', 'YARNS', 'YARRS', 'YARTA', 'YARTO', 'YATES', 'YAUDS', 'YAULD', 'YAUPS', 'YAWED',
     'YAWEY', 'YAWLS', 'YAWNS', 'YAWNY', 'YAWPS', 'YBORE', 'YCLAD', 'YCLED', 'YCOND', 'YDRAD',
@@ -26275,6 +26275,17 @@ export const wordleWords = [
         guess_5: null,
         guess_6: null,
       },
+      { word: "YAHOO", 
+        gameDate: "10/31/26",
+        myScore: 4,
+        wordNumber: 1960,
+        guess_1: "TASER",
+        guess_2: "MANGY",
+        guess_3: "BAYOU",
+        guess_4: "YAHOO",
+        guess_5: null,
+        guess_6: null,
+      },
 
 
  
@@ -26294,7 +26305,7 @@ console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
 console.log("August 9, 2025, Mom: Hello, Again!" )
-console.log("October 30, 2026: Trump sux dykk000000000! SLIDE")
+console.log("October 31, 2026: Trump sux dykk000000000! YAHOO")
 
 console.log(wordleWords)
 
