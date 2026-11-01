@@ -293,11 +293,11 @@ my_list = {
     'WORLD', 'WORRY', 'WORSE',
     'WORST', 'WOULD', 'WOUND', 'WOVEN', 'WRATH', 'WREAK', 'WRECK', 'WREST', 'WRIST', 'WRITE', 
     'WRONG', 
-    'WROTE', 'WRUNG', 'YACHT', 'YEARN', 'YEAST', 'YODEL', 'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 
-    'ZESTY'
+    'WROTE', 'WRUNG', 'YACHT', 'YAHOO', 'YEARN', 'YEAST', 'YODEL', 'YIELD', 'YOUNG', 'YOUTH', 
+    'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'SLIDE'
+word_to_find = 'YAHOO'
 
 
 if word_to_find in my_list:
