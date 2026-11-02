@@ -1853,7 +1853,7 @@ export const dailyWordsSmall = [
 'USAGE', 'USHER', 'USING', 'USUAL', 'USURP', 'UTILE', 'UTTER', 'UVULA', 'VAGUE', 'VALET',
 'VALID', 'VALOR', 'VALUE', 'VAPID', 'VAPOR', 'VAULT', 'VAUNT', 'VENAL', 'VENOM',
 'VENUE', 'VERGE', 'VERSE', 'VERSO', 'VERVE', 'VICAR', 'VIDEO', 'VIGIL', 'VIGOR', 'VILLA',
-'VINYL', 'VIOLA', 'VIPER', 'VIRAL', 'VIRUS', 'VISOR', 'VISTA', 'VITAL', 'VITRO', 
+'VINYL', 'VIOLA', 'VIRAL', 'VIRUS', 'VISOR', 'VISTA', 'VITAL', 'VITRO', 
 'VIVID', 'VIXEN', 'VODKA', 'VOICE', 'VOILA', 'VOMIT', 'VOTER', 'VOUCH', 'VOWEL',
 'VYING', 'WACKY', 'WAFER', 'WAGON', 'WAIST', 'WAIVE', 'WALTZ', 'WARTY', 'WASTE',
 'WATCH', 'WATER', 'WAXEN', 'WEARY', 'WEDGE', 'WEEDY', 'WEEPY', 'WEIRD',
@@ -3096,7 +3096,7 @@ export const dailyWordsLarge = [
     'VIBEY', 'VICAR', 'VICED', 'VICES', 'VICHY', 'VIDEO', 'VIERS', 'VIEWS', 'VIEWY', 'VIFDA',
     'VIFFS', 'VIGAS', 'VIGIA', 'VIGIL', 'VIGOR', 'VILDE', 'VILER', 'VILLA', 'VILLI', 'VILLS',
     'VIMEN', 'VINAL', 'VINAS', 'VINCA', 'VINED', 'VINER', 'VINES', 'VINEW', 'VINIC', 'VINOS',
-    'VINTS', 'VINYL', 'VIOLA', 'VIOLD', 'VIOLS', 'VIPER', 'VIRAL', 'VIRED', 'VIREO', 'VIRES',
+    'VINTS', 'VINYL', 'VIOLA', 'VIOLD', 'VIOLS', 'VIRAL', 'VIRED', 'VIREO', 'VIRES',
     'VIRGA', 'VIRGE', 'VIRID', 'VIRLS', 'VIRTU', 'VIRUS', 'VISAS', 'VISED', 'VISES', 'VISIE',
     'VISNE', 'VISON', 'VISOR', 'VISTA', 'VISTO', 'VITAE', 'VITAL', 'VITAS', 'VITEX',
     'VITRO', 'VITTA', 'VIVAS', 'VIVAT', 'VIVDA', 'VIVER', 'VIVES', 'VIVID', 'VIXEN', 'VIZIR',
@@ -26286,6 +26286,17 @@ export const wordleWords = [
         guess_5: null,
         guess_6: null,
       },
+      { word: "VIPER", 
+        gameDate: "11/1/26",
+        myScore: 2,
+        wordNumber: 1961,
+        guess_1: "TASER",
+        guess_2: "VIPER",
+        guess_3: null,
+        guess_4: null,
+        guess_5: null,
+        guess_6: null,
+      },
 
 
  
@@ -26305,7 +26316,7 @@ console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
 console.log("August 9, 2025, Mom: Hello, Again!" )
-console.log("October 31, 2026: Trump sux dykk000000000! YAHOO")
+console.log("November 1, 2026: Trump sux dykk000000000! VIPER")
 
 console.log(wordleWords)
 
