@@ -279,8 +279,8 @@ my_list = {
     'VALET',
     'VALID', 'VALUE', 'VALVE', 'VAPID', 'VAULT', 'VEGAN', 'VENOM', 'VENUE', 'VERGE', 'VERVE', 
     'VIDEO',
-    'VIGOR', 'VILLA', 'VINYL', 'VIOLA', 'VIRAL', 'VISIT', 'VISOR', 'VITAL', 'VIVID', 'VIXEN', 
-    'VOCAL', 'VODKA',
+    'VIGOR', 'VILLA', 'VINYL', 'VIOLA', 'VIPER', 'VIRAL', 'VISIT', 'VISOR', 'VITAL', 'VIVID', 
+    'VIXEN', 'VOCAL', 'VODKA',
     'VOGUE', 'VOILA', 'VOICE', 'VOTER', 'VOUCH', 'VOWEL', 'VYING', 'WACKY', 'WAFER', 'WAGER', 
     'WAGON', 'WAIST', 'WAKEN',
     'WALTZ', 'WASTE', 'WATCH', 'WATER', 'WAVER', 'WAXEN', 'WEARY', 'WEAVE', 'WEDGE', 'WEEDY', 
@@ -297,7 +297,7 @@ my_list = {
     'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'YAHOO'
+word_to_find = 'VIPER'
 
 
 if word_to_find in my_list:
