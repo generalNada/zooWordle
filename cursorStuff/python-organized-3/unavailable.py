@@ -211,8 +211,8 @@ my_list = {
     'RULER', 'RUMBA', 'RUNNY', 'RUPEE', 'RURAL', 'RUSTY', 'SAINT', 'SALAD', 'SALLY', 'SALSA', 
     'SALTY', 'SANDY', 'SANDY', 'SASSY', 'SATIN',
     'SAUCY', 'SAUNA', 'SAUTE', 'SAVOR', 'SAVVY', 'SCALD', 'SCALE', 'SCANT', 'SCARE', 'SCARF',
-    'SCENE', 'SCENT', 'SCOFF', 'SCOLD', 'SCONE', 'SCOOP', 'SCOPE', 'SCORE', 'SCORN', 'SCOUR', 
-    'SCOUT',
+    'SCENE', 'SCENT', 'SCOFF', 'SCOLD', 'SCONE', 'SCOOP', 'SCOOT', 'SCOPE', 'SCORE', 'SCORN', 
+    'SCOUR', 'SCOUT',
     'SCOWL', 'SCRAM', 'SCRAP', 'SCRUB', 'SCRUM', 'SCUBA', 'SEDAN', 'SEEDY', 'SEGUE', 'SENSE', 
     'SEPIA', 'SERIF', 'SERUM',
     'SERVE', 'SEVEN', 'SEVER', 'SHACK', 'SHADE', 'SHADY', 'SHAFT', 'SHAKE', 'SHAKY', 'SHALL', 
@@ -297,7 +297,7 @@ my_list = {
     'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'VIPER'
+word_to_find = 'SCOOT'
 
 
 if word_to_find in my_list:
