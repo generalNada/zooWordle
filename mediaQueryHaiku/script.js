@@ -14,7 +14,7 @@ if (bwToggle) {
       bwToggle.textContent = "🎨 Color / B&W";
     }
 
-    console.log("Grayscale mode:", isGrayscale ? "ON" : "OFF, SCOOT Dick");
+    console.log("Grayscale mode:", isGrayscale ? "ON" : "OFF, POUCH Dick");
   });
 } else {
   console.error("B&W toggle button not found!");
