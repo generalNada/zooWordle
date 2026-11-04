@@ -38,7 +38,7 @@ unused_list = [
     "OVARY", "OVINE", "OVOID", "OWING", "PADDY", "PAGAN", "PALER", "PALSY", "PANSY",
     "PARSE", "PASTE", "PASTY", "PAYEE", "PAYER", "PENCE", "PESTO", "PIGGY",
     "PIVOT", "PLACE", "PLIED", "PLIER", "PLUSH", "POESY", "POOCH", 
-    "POUCH", "PRIED", "PUBIC", "PUDGY", "PULSE",
+    "PRIED", "PUBIC", "PUDGY", "PULSE",
     "PUNCH", "PUREE", "PURER", "PUSHY", "PYGMY", "QUASI",
     "QUOTH", "RABBI", "RADAR", "RADII", "RAJAH", "RALLY", "RALPH", "RANDY",
     "RARER", "RASPY", "RAVEN", "RAZOR", "REARM", "REBAR", "RECUT", "REEDY", "REFIT", 
@@ -67,7 +67,7 @@ unused_list = [
     "WRING", "WRYLY", "ZONAL"
 ]
 
-word = 'SCOOT'
+word = 'POUCH'
 
 
 if word in unused_list:
