@@ -171,7 +171,7 @@ my_list = {
     'NEEDY', 'NEIGH', 'NERDY', 'NERVE', 'NERVY', 'NEVER', 'NEWLY', 'NICHE', 'NICER', 'NIECE',
     'NIFTY', 'NIGHT', 'NINJA',
     'NINTH', 'NOBLE', 'NOBLY', 'NOISE', 'NOISY', 'NOMAD', 'NORTH', 'NOTCH', 'NOVEL', 'NUDGE', 
-    'NYLON', 'NYMPH',
+    'NUTTY', 'NYLON', 'NYMPH',
     'OASIS', 'OCCUR', 'OCEAN', 'OCTET', 'ODDLY', 'OFFAL', 'OFFER', 'OFTEN', 'OLDEN', 'OLDER', 
     'OLIVE', 'OMEGA',
     'ONION', 'ONSET', 'OPERA', 'OPINE', 'ORBIT' ,'ORDER', 'ORGAN', 'OTHER', 'OTTER', 'OUGHT', 
@@ -297,7 +297,7 @@ my_list = {
     'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'POUCH'
+word_to_find = 'NUTTY'
 
 
 if word_to_find in my_list:
