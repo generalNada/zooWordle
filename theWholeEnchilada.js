@@ -1756,7 +1756,7 @@ export const dailyWordsSmall = [
 'NEEDY',
 'NEIGH', 'NERDY', 'NERVE', 'NERVY', 'NEVER', 'NEWER', 'NICER', 'NICHE', 
 'NIGHT', 'NINJA', 'NINNY', 'NINTH', 'NOBLE', 'NOBLY', 'NOISE', 'NOISY', 'NOMAD', 'NOOSE',
-'NORTH', 'NOSEY', 'NOVEL', 'NUDGE', 'NURSE', 'NUTTY', 'NYLON', 'NYMPH', 'OAKEN',
+'NORTH', 'NOSEY', 'NOVEL', 'NUDGE', 'NURSE', 'NYLON', 'NYMPH', 'OAKEN',
 'OASES', 'OBESE', 'OCCUR', 'OCEAN', 'OCTAL', 'OCTET', 'ODDER', 'ODDLY', 'OFFAL', 'OFFER', 
 'OFTEN',
 'OLDER', 'OLIVE', 'OMBRE', 'OMEGA', 'ONION', 'ONSET', 'OPERA', 'OPINE', 'OPIUM',
@@ -2639,7 +2639,7 @@ export const dailyWordsLarge = [
     'NOVEL', 'NOVUM', 'NOWAY', 'NOWED', 'NOWLS', 'NOWTS', 'NOWTY', 'NOXAL', 'NOXES', 'NOYAU',
     'NOYED', 'NOYES', 'NUBBY', 'NUBIA', 'NUCHA', 'NUDDY', 'NUDER', 'NUDES', 'NUDGE', 'NUDIE',
     'NUDZH', 'NUFFS', 'NUGAE', 'NUKED', 'NUKES', 'NULLA', 'NULLS', 'NUMBS', 'NUMEN', 'NUMMY',
-    'NUNNY', 'NURDS', 'NURDY', 'NURLS', 'NURRS', 'NURSE', 'NUTSO', 'NUTSY', 'NUTTY', 'NYAFF',
+    'NUNNY', 'NURDS', 'NURDY', 'NURLS', 'NURRS', 'NURSE', 'NUTSO', 'NUTSY', 'NYAFF',
     'NYALA', 'NYING', 'NYLON', 'NYMPH', 'NYSSA', 'OAKED', 'OAKEN', 'OAKER', 'OAKUM', 'OARED',
     'OASES', 'OASTS', 'OATEN', 'OATER', 'OATHS', 'OAVES', 'OBANG', 'OBEAH', 'OBELI',
     'OBESE', 'OBEYS', 'OBIAS', 'OBIED', 'OBIIT', 'OBITS', 'OBJET', 'OBOES', 'OBOLE', 'OBOLI',
@@ -26320,6 +26320,17 @@ export const wordleWords = [
         guess_5: null,
         guess_6: null,
       },
+      { word: "NUTTY", 
+        gameDate: "11/4/26",
+        myScore: 3,
+        wordNumber: 1964,
+        guess_1: "TASER",
+        guess_2: "CLOUT",
+        guess_3: "NUTTY",
+        guess_4: null,
+        guess_5: null,
+        guess_6: null,
+      },
 
 
  
@@ -26339,7 +26350,7 @@ console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
 console.log("August 9, 2025, Mom: Hello, Again!" )
-console.log("November 3, 2026: Trump sux dykk000000000! POUCH")
+console.log("November 4, 2026: Trump sux dykk000000000! NUTTY")
 
 console.log(wordleWords)
 
