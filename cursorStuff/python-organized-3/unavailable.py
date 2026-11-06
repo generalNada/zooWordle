@@ -178,8 +178,8 @@ my_list = {
     'OUNCE',
     'OUTDO', 'OUTER', 'OVATE', 'OVERT', 'OWNER', 'OXIDE', 'OZONE', 'PAGER', 'PAINT', 'PANEL', 
     'PANIC', 'PAPAL',
-    'PAPER', 'PARER', 'PARKA', 'PARRY', 'PARTY', 'PASTA', 'PATCH', 'PATIO', 'PATSY', 'PATTY', 
-    'PAUSE',
+    'PAPER', 'PARCH', 'PARER', 'PARKA', 'PARRY', 'PARTY', 'PASTA', 'PATCH', 'PATIO', 'PATSY', 
+    'PATTY', 'PAUSE',
     'PEACE', 'PEACH', 'PEARL', 'PECAN', 'PEDAL', 'PEEVE', 'PENAL', 'PENNE', 'PENNY', 'PERCH', 
     'PERIL', 'PERKY', 'PESKY',
     'PETAL', 'PETTY', 'PHASE', 'PHONE', 'PHONY', 'PHOTO', 'PIANO', 'PICKY', 'PIECE', 'PIETY',
@@ -297,7 +297,7 @@ my_list = {
     'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'NUTTY'
+word_to_find = 'PARCH'
 
 
 if word_to_find in my_list:
