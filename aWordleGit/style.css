@@ -3294,7 +3294,7 @@ border: 5px solid aqua;
   font-family: "Fredoka", sans-serif;
   font-size: 3rem;
   line-height: 2.75rem;
-  border: solid blue 1.67rem;
+  border: solid rgb(29, 58, 118) 0.2rem;
   border-radius: 1.67rem;
 }
 
