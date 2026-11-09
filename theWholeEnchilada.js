@@ -1696,7 +1696,7 @@ export const dailyWordsSmall = [
 'FATTY', 'FAULT', 'FAUNA', 'FAVOR', 'FEAST', 'FECAL', 'FELLA', 'FELON', 'FEMME',
 'FEMUR', 'FERAL', 'FERRY', 'FETAL', 'FETCH', 'FETID', 'FETUS', 'FEVER', 'FEWER',
 'FIBER', 'FICUS', 'FIELD', 'FIEND', 'FIERY', 'FIFTH', 'FIFTY', 'FIGHT', 'FILER', 'FILET',
-'FILLY', 'FILMY', 'FILTH', 'FINAL', 'FINCH', 'FINER', 'FIRST', 'FISHY', 'FIXER', 
+'FILLY', 'FILMY', 'FILTH', 'FINAL', 'FINCH', 'FINER', 'FISHY', 'FIXER', 
 'FJORD', 'FLACK', 'FLAIL', 'FLAIR', 'FLAKE', 'FLAKY', 'FLAME', 'FLANK', 'FLARE', 'FLASH',
 'FLASK', 'FLECK', 'FLEET', 'FLESH', 'FLICK', 'FLIER', 'FLING', 'FLINT', 'FLIRT', 'FLOAT',
 'FLOCK', 'FLOOD', 'FLOOR', 'FLORA', 'FLOSS', 'FLOUR', 'FLOUT', 'FLOWN', 'FLUFF', 'FLUID',
@@ -26366,6 +26366,17 @@ export const wordleWords = [
         guess_5: null,
         guess_6: null,
       },
+      { word: "FIRST", 
+        gameDate: "11/8/26",
+        myScore: 4,
+        wordNumber: 1968,
+        guess_1: "SCARY",
+        guess_2: "ROUST",
+        guess_3: "WREST",
+        guess_4: "FIRST",
+        guess_5: null,
+        guess_6: null,
+      },
 
 
  
@@ -26385,7 +26396,7 @@ console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
 console.log("August 9, 2025, Mom: Hello, Again!" )
-console.log("November 7, 2026: Trump sux dykk000000000! PRATE")
+console.log("November 8, 2026: Trump sux dykk000000000! FIRST")
 
 console.log(wordleWords)
 
