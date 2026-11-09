@@ -14,7 +14,7 @@ if (bwToggle) {
       bwToggle.textContent = "🎨 Color / B&W";
     }
 
-    console.log("Grayscale mode:", isGrayscale ? "ON" : "OFF, PRATE Dick");
+    console.log("Grayscale mode:", isGrayscale ? "ON" : "OFF, FIRST Dick");
   });
 } else {
   console.error("B&W toggle button not found!");
