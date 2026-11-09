@@ -95,8 +95,8 @@ my_list = {
     'FAINT', 'FAITH', 'FALSE', 'FANCY', 'FARCE', 'FAULT', 'FAVOR', 'FEAST', 'FEIGN', 'FEIGN', 
     'FENCE', 'FERAL',
     'FERRY', 'FETCH', 'FETID', 'FEVER', 'FEWER', 'FIBER', 'FIELD', 'FIEND', 'FIERY', 'FIFTH',
-    'FIFTY', 'FILET', 'FILLY', 'FINAL', 'FINCH', 'FINER', 'FIRST', 'FISHY', 'FIXER', 'FIZZY'
-    'FJORD',
+    'FIFTY', 'FILET', 'FILLY', 'FINAL', 'FINCH', 'FINER', 'FIRST', 'FIRST', 'FISHY', 'FIXER', 
+    'FIZZY'  'FJORD',
     'FLAIL', 'FLAIR', 'FLAKE', 'FLAKY', 'FLANK', 'FLAME', 'FLARE', 'FLASH', 'FLASK', 'FLESH',
     'FLICK', 'FLING', 'FLINT', 'FLIRT', 'FLOAT', 'FLOCK', 'FLOOD', 'FLOOR', 'FLORA', 'FLOSS',
     'FLOUR', 'FLOUT', 'FLOWN', 'FLUFF', 'FLUKE', 'FLUME', 'FLUME', 'FLUNG', 'FLUNK', 'FLUTE',
@@ -297,7 +297,7 @@ my_list = {
     'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'PRATE'
+word_to_find = 'FIRST'
 
 
 if word_to_find in my_list:
