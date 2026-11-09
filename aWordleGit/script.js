@@ -118,7 +118,7 @@ function doesNotContainMultipleLetters(letters) {
 //           and ye had ye a score of '${foundWord.myScore}'!<br> Your, um, Score, ahhh, um, Average, er, thru this here stupid ass lousy, um, fuckin' date: ${averageScoreUpToDate}!<br> Do NOT guess '${foundWord.word}', and do not waste our time!`;
 //     document.querySelector(".field-one").innerHTML = resultString;
 //   } else {
-//     const notFoundString = `The fockin word "${inputWord}", which, ah, er, ahh, gaa, ahh, errr, ahhh, is, gaaaa, um, er, an innocent, ah, but extremely foolosh bystander †‡ †‡ †‡ , was notteth found, oh wretched Whores and Assfucks, making Rand Paul that rapist. Hit that fuck again neighbor. Shut up, but<br> feel free, feel obligated, to guess the word "${inputWord}", Fuckface! You're <span><em>all</em></span> fuckfaces.`;
+//     const notFoundString = `The fockin word "${inputWord}", which, ah, er, ahh, gaa, ahh, errrrr, ahhh, is, gaaaa, um, er, an innocent, ah, but extremely foolosh bystander †‡ †‡ †‡ , was notteth found, oh wretched Whores and Assfucks, making Rand Paul that rapist. Hit that fuck again neighbor. Shut up, but<br> feel free, feel obligated, to guess the word "${inputWord}", Fuckface! You're <span><em>all</em></span> fuckfaces.`;
 //     document.querySelector(".field-one").innerHTML = notFoundString;
 //   }
 // }
