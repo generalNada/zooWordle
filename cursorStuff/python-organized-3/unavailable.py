@@ -267,8 +267,8 @@ my_list = {
     'TRASH',
     'TRAWL', 'TREAT', 'TREND', 'TRIAD', 'TRIAL', 'TRIBE', 'TRICE', 'TRICK', 'TRILL', 'TRIPE', 
     'TRITE', 'TROLL',
-    'TROOP', 'TROPE', 'TROUT', 'TROVE', 'TRUCK', 'TRULY', 'TRUNK', 'TRUSS', 'TRUST', 'TRUTH', 
-    'TRYST',
+    'TROOP', 'TROPE', 'TROUT', 'TROVE', 'TRUCE', 'TRUCK', 'TRULY', 'TRUNK', 'TRUSS', 'TRUST', 
+    'TRUTH', 'TRYST',
     'TUBER', 'TULIP', 'TUNIC', 'TURBO', 'TUTOR', 'TWANG', 'TWEAK', 'TWEED', 'TWEEN', 'TWEET', 
     'TWICE', 'TWINE',
     'TWIRL', 'UDDER', 'ULCER', 'ULTRA', 'UMBRA', 'UNCAP', 'UNCLE', 'UNCUT', 'UNDER', 'UNDID', 
@@ -297,7 +297,7 @@ my_list = {
     'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'LOAMY'
+word_to_find = 'TRUCE'
 
 
 if word_to_find in my_list:
