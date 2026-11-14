@@ -165,8 +165,8 @@ my_list = {
     'MODEL', 'MODEM', 'MOGUL', 'MOIST', 'MOLAR', 'MOLDY', 'MOMMY', 'MONEY', 'MONTH', 'MOOCH',
     'MOOSE', 'MORAL', 'MORPH', 'MOSSY', 'MOTEL', 'MOTIF', 'MOTOR', 'MOTOR', 'MOTTO', 'MOULT', 
     'MOUND', 'MOUNT', 'MOURN', 'MOUSE',
-    'MOUTH', 'MOVER', 'MOVIE', 'MUCKY', 'MUGGY', 'MULCH', 'MUNCH', 'MUMMY', 'MURAL', 'MURKY'
-    'MUSIC', 'MUSHY',
+    'MOUTH', 'MOVER', 'MOVIE', 'MOXIE', 'MUCKY', 'MUGGY', 'MULCH', 'MUNCH', 'MUMMY', 'MURAL', 
+    'MURKY'  'MUSIC', 'MUSHY',
     'MUSTY', 'MYRRH', 'NADIR', 'NAÏVE', 'NANNY', 'NASAL', 'NASTY', 'NATAL', 'NAVAL', 'NAVEL',
     'NEEDY', 'NEIGH', 'NERDY', 'NERVE', 'NERVY', 'NEVER', 'NEWLY', 'NICHE', 'NICER', 'NIECE',
     'NIFTY', 'NIGHT', 'NINJA',
@@ -297,7 +297,7 @@ my_list = {
     'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'KARAT'
+word_to_find = 'MOXIE'
 
 
 if word_to_find in my_list:
