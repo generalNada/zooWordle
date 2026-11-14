@@ -1478,7 +1478,8 @@ export const combinedWords = [
     'MODEL', 'MODEM', 'MOGUL', 'MOIST', 'MOLAR', 'MOLDY', 'MOMMY', 'MONEY', 'MONTH', 'MOOCH', 
     'MOODY',
     'MOOSE', 'MORAL', 'MORON', 'MORPH', 'MOSSY', 'MOTEL', 'MOTIF', 'MOTOR', 'MOTTO', 'MOULT',
-    'MOUND', 'MOUNT', 'MOURN', 'MOUSE', 'MOUTH', 'MOVER', 'MOVIE', 'MOWER', 'MUCKY', 'MUCUS',
+    'MOUND', 'MOUNT', 'MOURN', 'MOUSE', 'MOUTH', 'MOVER', 'MOVIE', 'MOWER', 'MOXIE', 'MUCKY', 
+    'MUCUS',
     'MUDDY', 'MULCH', 'MUMMY', 'MUNCH', 'MURAL', 'MURKY', 'MUSHY', 'MUSIC', 'MUSKY', 'MUSTY',
     'MYRRH', 'NACHO', 'NADIR', 'NAIVE', 'NANNY', 'NASAL', 'NASTY', 'NATAL', 'NAVAL', 'NAVEL', 
     'NEEDY',
@@ -2598,7 +2599,7 @@ export const dailyWordsLarge = [
     'MOTEL', 'MOTEN', 'MOTES', 'MOTET', 'MOTEY', 'MOTHS', 'MOTHY', 'MOTIS', 
     'MOTTE', 'MOTTO', 'MOTTS', 'MOTTY', 'MOTUS', 'MOTZA', 'MOUCH', 'MOUES', 'MOULD', 'MOULS',
     'MOULT', 'MOUNT', 'MOUPS', 'MOURN', 'MOUSE', 'MOUST', 'MOUSY', 'MOUTH', 'MOVED',
-    'MOVES', 'MOVIE', 'MOWAS', 'MOWED', 'MOWER', 'MOWRA', 'MOXAS', 'MOXIE', 'MOYAS',
+    'MOVES', 'MOVIE', 'MOWAS', 'MOWED', 'MOWER', 'MOWRA', 'MOXAS', 'MOYAS',
     'MOYLE', 'MOYLS', 'MOZED', 'MOZES', 'MOZOS', 'MPRET', 'MUCHO', 'MUCIC', 'MUCID', 'MUCIN',
     'MUCKS', 'MUCKY', 'MUCOR', 'MUCRO', 'MUCUS', 'MUDDY', 'MUDGE', 'MUDIR', 'MUDRA', 'MUFFS',
     'MUFTI', 'MUGGA', 'MUGGS', 'MUGGY', 'MUHLY', 'MUIDS', 'MUILS', 'MUIRS', 'MUIST', 'MUJIK',
@@ -26423,6 +26424,17 @@ export const wordleWords = [
         guess_5: null,
         guess_6: null,
       },
+      { word: "MOXIE", 
+        gameDate: "11/13/26",
+        myScore: 4,
+        wordNumber: 1973,
+        guess_1: "STEAL",
+        guess_2: "RIPEN",
+        guess_3: "DEIFY",
+        guess_4: "MOXIE",
+        guess_5: null,
+        guess_6: null,
+      },
 
 
  
@@ -26442,7 +26454,7 @@ console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
 console.log("August 9, 2025, Mom: Hello, Again!" )
-console.log("November 12, 2026: Trump sux dykk000000000! KARAT")
+console.log("November 13, 2026: Trump sux dykk000000000! MOXIE")
 
 console.log(wordleWords)
 
