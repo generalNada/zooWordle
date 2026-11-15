@@ -1786,7 +1786,7 @@ export const dailyWordsSmall = [
 'QUASH', 'QUASI', 'QUEEN', 'QUERY', 'QUEST', 'QUEUE', 'QUICK', 'QUIET',
 'QUILL', 'QUILT', 'QUIRK', 'QUITE', 'QUOTA', 'QUOTE', 'QUOTH', 'RABBI', 'RABID', 'RACER',
 'RADAR', 'RADII', 'RADIO', 'RAINY', 'RAISE', 'RAJAH', 'RALLY', 'RALPH', 'RAMEN', 'RANCH',
-'RANDY', 'RANGE', 'RAPID', 'RARER', 'RASPY', 'RATIO', 'RATTY', 'RAVEN', 'RAYON', 'RAZOR',
+'RANGE', 'RAPID', 'RARER', 'RASPY', 'RATIO', 'RATTY', 'RAVEN', 'RAYON', 'RAZOR',
 'REACH', 'REACT', 'READY', 'REALM', 'REARM', 'REBAR', 'REBEL', 'REBUS', 'REBUT', 'RECAP',
 'RECUR', 'RECUT', 'REEDY', 'REFER', 'REFIT', 'REGAL', 'REIGN', 'RELAX', 'RELAY',
 'RELIC', 'REMIT', 'RENAL', 'RENEW', 'REPAY', 'REPEL', 'RERUN', 'RESIN',
@@ -2773,7 +2773,7 @@ export const dailyWordsLarge = [
     'RAIAS', 'RAIDS', 'RAIKS', 'RAILE', 'RAILS', 'RAINE', 'RAINS', 'RAINY', 'RAIRD', 'RAISE',
     'RAITA', 'RAITS', 'RAJAH', 'RAJAS', 'RAJES', 'RAKED', 'RAKEE', 'RAKER', 'RAKES', 'RAKIA',
     'RAKIS', 'RAKUS', 'RALES', 'RALLY', 'RALPH', 'RAMAL', 'RAMEE', 'RAMEN', 'RAMET', 'RAMIE',
-    'RAMIN', 'RAMIS', 'RAMMY', 'RAMPS', 'RAMUS', 'RANAS', 'RANCE', 'RANCH', 'RANDS', 'RANDY',
+    'RAMIN', 'RAMIS', 'RAMMY', 'RAMPS', 'RAMUS', 'RANAS', 'RANCE', 'RANCH', 'RANDS', 
     'RANEE', 'RANGA', 'RANGE', 'RANGI', 'RANGS', 'RANGY', 'RANID', 'RANIS', 'RANKE', 'RANKS',
     'RANTS', 'RAPED', 'RAPER', 'RAPES', 'RAPHE', 'RAPID', 'RAPPE', 'RARED', 'RAREE', 'RARER',
     'RARES', 'RARKS', 'RASED', 'RASER', 'RASES', 'RASPS', 'RASPY', 'RASSE', 'RASTA', 'RATAL',
@@ -26435,6 +26435,17 @@ export const wordleWords = [
         guess_5: null,
         guess_6: null,
       },
+      { word: "RANDY", 
+        gameDate: "11/14/26",
+        myScore: 3,
+        wordNumber: 1974,
+        guess_1: "LEANT",
+        guess_2: "CAIRN",
+        guess_3: "RANDY",
+        guess_4: null,
+        guess_5: null,
+        guess_6: null,
+      },
 
 
  
@@ -26454,7 +26465,7 @@ console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
 console.log("August 9, 2025, Mom: Hello, Again!" )
-console.log("November 13, 2026: Trump sux dykk000000000! MOXIE")
+console.log("November 14, 2026: Trump sux dykk000000000! RANDY")
 
 console.log(wordleWords)
 
