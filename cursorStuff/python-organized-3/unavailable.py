@@ -199,7 +199,8 @@ my_list = {
     'QUASH', 'QUEEN', 'QUEER', 'QUELL', 'QUERY', 'QUEST', 'QUEUE', 'QUICK', 'QUIET', 'QUILL', 
     'QUILT', 'QUIRK',
     'QUITE', 'QUOTA', 'QUOTE', 'RABID', 'RACER', 'RADIO', 'RAINY', 'RAISE', 'RAMEN', 'RANCH',
-    'RANGE', 'RAPID', 'RATIO', 'RATTY', 'RAYON', 'REACH', 'REACT', 'READY', 'REALM', 'REBEL',
+    'RANDY', 'RANGE', 'RAPID', 'RATIO', 'RATTY', 'RAYON', 'REACH', 'REACT', 'READY', 'REALM', 
+    'REBEL',
     'REBUS', 'REBUT', 'RECAP', 'RECUR', 'REFER', 'REGAL', 'REHAB', 'RELAX', 'RELAY', 'RELIC', 
     'REMIT', 'REMIX',
     'RENEW', 'REPAY', 'REPEL', 'REPLY', 'RERUN', 'RESET', 'RESIN', 'RETCH', 'RETRO', 'RETRY', 
@@ -297,7 +298,7 @@ my_list = {
     'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'MOXIE'
+word_to_find = 'RANDY'
 
 
 if word_to_find in my_list:
