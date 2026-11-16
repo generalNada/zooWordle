@@ -230,6 +230,7 @@ my_list = {
     'SLOTH', 'SLUMP', 'SLUNG', 'SLUSH', 'SMALL', 'SMART', 'SMASH', 'SMEAR', 'SMELL', 'SMELT', 
     'SMILE', 'SMILE', 'SMIRK',
     'SMITE', 'SMITH', 'SMOCK', 'SMOKE', 'SNACK', 'SNAFU', 'SNAIL', 'SNAKE', 'SNAKY', 'SNARE',
+    'SNARK',
     'SNARL', 'SNEAK', 'SNIDE', 'SNIPE', 'SNOOP', 'SNORE', 'SNORT', 'SNOUT', 'SNOWY', 'SOBER', 
     'SOGGY', 'SOLAR', 'SOLID', 'SOLVE', 'SONAR',
     'SONIC', 'SORRY', 'SOUND', 'SOUPY', 'SOUTH', 'SOWER', 'SPACE', 'SPADE', 'SPARE', 'SPASM', 
@@ -298,7 +299,7 @@ my_list = {
     'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'RANDY'
+word_to_find = 'SNARK'
 
 
 if word_to_find in my_list:
