@@ -43,7 +43,7 @@ unused_list = [
     "QUOTH", "RABBI", "RADAR", "RADII", "RAJAH", "RALLY", "RALPH", 
     "RARER", "RASPY", "RAVEN", "RAZOR", "REARM", "REBAR", "RECUT", "REEDY", "REFIT", 
     "REIGN", "RENAL", "RIFLE", "RIGOR", "RIPEN", "RISKY",
-    "ROAST", "ROGER", "ROTOR", "RUMOR", "SADLY", "SAFER", "SALON",
+    "ROGER", "ROTOR", "RUMOR", "SADLY", "SAFER", "SALON",
     "SALVE", "SALVO", "SANER", "SAPPY", "SATYR", "SAUCE", "SAVOY", "SCALP", "SCALY",
     "SCAMP", "SCARY", "SCION", "SCREE", "SCREW", "SCROD", "SEIZE", "SEMEN", 
     "SETUP", "SEWER", "SHALE", "SHALT", "SHARK", "SHEEN", 
@@ -67,7 +67,7 @@ unused_list = [
     "WRING", "WRYLY", "ZONAL"
 ]
 
-word = 'DRAWL'
+word = 'ROAST'
 
 
 if word in unused_list:
