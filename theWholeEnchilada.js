@@ -26480,6 +26480,17 @@ export const wordleWords = [
         guess_5: null,
         guess_6: null,
       },
+      { word: "BLURT", 
+        gameDate: "11/18/26",
+        myScore: 4,
+        wordNumber: 1978,
+        guess_1: "CASTE",
+        guess_2: "THONG",
+        guess_3: "DITZY",
+        guess_4: "BLURT",
+        guess_5: null,
+        guess_6: null,
+      },
 
 
  
@@ -26499,7 +26510,7 @@ console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
 console.log("August 9, 2025, Mom: Hello, Again!" )
-console.log("November 17, 2026: Trump sux dykk000000000! ROAST")
+console.log("November 18, 2026: Trump sux dykk000000000! BLURT")
 
 console.log(wordleWords)
 
