@@ -30,7 +30,7 @@ my_list = {
     'BLAST', 'BLAZE', 'BLEAK', 'BLEAT', 'BLEED', 'BLEEP', 'BLEND', 'BLESS', 'BLIMP', 'BLIND', 
     'BLINK', 'BLISS',
     'BLOCK', 'BLOKE', 'BLOND', 'BLOOD', 'BLOOM', 'BLOWN', 'BLUFF', 'BLUNT', 'BLURB', 'BLURT', 
-    'BLUSH',
+    'BLURT', 'BLUSH',
     'BOARD', 'BOAST', 'BONGO', 'BONUS', 'BOOBY', 'BOOST', 'BOOTH', 'BOOTY', 'BOOZE', 'BOOZY', 
     'BORAX',
     'BORNE', 'BOSSY', 'BOUGH', 'BOXER', 'BRACE', 'BRAID', 'BRAIN', 'BRAKE', 'BRAND', 'BRASH',
