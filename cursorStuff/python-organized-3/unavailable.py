@@ -54,8 +54,8 @@ my_list = {
     'CIVIC', 'CIVIL', 'CLACK', 'CLAMP', 'CLANG',
     'CLASH', 'CLASP', 'CLASS', 'CLEAN', 'CLEAR', 'CLEFT', 'CLERK', 'CLICK', 'CLICK', 'CLIFF', 
     'CLIMB', 'CLING',
-    'CLINK', 'CLOAK', 'CLOCK', 'CLOCK', 'CLONE', 'CLOSE', 'CLOTH', 'CLOUD', 'CLOVE', 'CLOWN', 
-    'CLUCK', 'CLUMP',
+    'CLINK', 'CLOAK', 'CLOCK', 'CLOCK', 'CLONE', 'CLOSE', 'CLOTH', 'CLOUD', 'CLOUT', 'CLOVE', 
+    'CLOWN', 'CLUCK', 'CLUMP',
     'CLUNG', 'CLUNK', 'COACH', 'COAST', 'COCOA', 'COLIC', 'COLON', 'COMET', 'COMET', 'COMFY', 
     'COMMA', 'CONCH',
     'CONDO', 'CONIC', 'COPSE', 'CORAL', 'CORER', 'CORNY', 'COUCH', 'COULD', 'COUNT', 'COURT', 
@@ -300,7 +300,7 @@ my_list = {
     'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'BLURT'
+word_to_find = 'CLOUT'
 
 
 if word_to_find in my_list:
