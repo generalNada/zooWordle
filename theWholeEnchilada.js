@@ -26502,7 +26502,7 @@ export const wordleWords = [
         guess_5: null,
         guess_6: null,
       },
-      { word: "AROSE, 
+      { word: "AROSE", 
         gameDate: "11/20/26",
         myScore: 2,
         wordNumber: 1980,
