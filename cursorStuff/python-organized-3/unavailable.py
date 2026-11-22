@@ -242,8 +242,8 @@ my_list = {
     'SPURT', 'SQUAD', 'SQUAD', 'SQUAT', 'SQUID', 'STACK', 'STAFF', 'STAGE', 'STAID', 'STAIN',
     'STAIR', 'STAKE', 'STALE', 'STALL', 'STAMP', 'STAND', 'STAND', 'STANK', 'STARE', 'STARK', 
     'START',
-    'STASH', 'STATE', 'STEAD', 'STEAK', 'STEAM', 'STEED', 'STEEL', 'STEEP', 'STEIN', 'STERN', 
-    'STICK',
+    'STASH', 'STATE', 'STEAD', 'STEAK', 'STEAM', 'STEED', 'STEEL', 'STEEP', 'STEIN', 'STENT', 
+    'STERN', 'STICK',
     'STIFF', 'STILL', 'STILT', 'STING', 'STINK', 'STINK', 'STINT', 'STOCK', 'STOIC', 'STOKE', 
     'STOLE', 'STOMP',
     'STONE', 'STONY', 'STOOD', 'STOOL', 'STORE', 'STORK', 'STORM', 'STORY', 'STOUT', 'STOUT', 
@@ -300,7 +300,7 @@ my_list = {
     'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'AROSE'
+word_to_find = 'STENT'
 
 
 if word_to_find in my_list:
