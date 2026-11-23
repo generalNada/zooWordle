@@ -276,8 +276,8 @@ my_list = {
     'TWICE', 'TWINE',
     'TWIRL', 'UDDER', 'ULCER', 'ULTRA', 'UMBRA', 'UNCAP', 'UNCLE', 'UNCUT', 'UNDER', 'UNDID', 
     'UNDUE', 'UNFED', 'UNFIT',
-    'UNIFY', 'UNION', 'UNITE', 'UNITY', 'UNLIT', 'UNMET', 'UNTIE', 'UNTIL', 'UNZIP', 'UPPER', 
-    'UPSET',
+    'UNIFY', 'UNION', 'UNITE', 'UNITY', 'UNLIT', 'UNMET', 'UNTIE', 'UNTIL', 'UNZIP', 'UPEND', 
+    'UPPER', 'UPSET',
     'URBAN', 'USAGE', 'USHER', 'USING', 'USUAL', 'USURP', 'USURY', 'UTTER', 'UVULA', 'VAGUE', 
     'VALET',
     'VALID', 'VALUE', 'VALVE', 'VAPID', 'VAULT', 'VEGAN', 'VENOM', 'VENUE', 'VERGE', 'VERVE', 
@@ -300,7 +300,7 @@ my_list = {
     'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'STENT'
+word_to_find = 'UPEND'
 
 
 if word_to_find in my_list:
