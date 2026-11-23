@@ -1598,7 +1598,8 @@ export const combinedWords = [
     'TWIRL', 'TWIST', 'TWIXT', 'TYING', 'UDDER', 'ULCER', 'ULTRA', 'UMBRA', 'UNCAP', 'UNCLE', 
     'UNCUT',
     'UNDER', 'UNDID', 'UNDUE', 'UNFED', 'UNFIT', 'UNIFY', 'UNION', 'UNITE', 'UNITY', 'UNLIT',
-    'UNMET', 'UNSET', 'UNTIE', 'UNTIL', 'UNWED', 'UNZIP', 'UPPER', 'UPSET', 'URBAN', 'URINE',
+    'UNMET', 'UNSET', 'UNTIE', 'UNTIL', 'UNWED', 'UNZIP', 'UPPER', 'UPSET', 'URBAN', 
+    'URINE',
     'USAGE', 'USHER', 'USING', 'USUAL', 'USURP', 'USURY', 'UTILE', 'UTTER', 'UVULA', 'VAGUE', 
     'VALET',
     'VALID', 'VALOR', 'VALUE', 'VALVE', 'VAPID', 'VAPOR', 'VAULT', 'VAUNT', 'VEGAN', 'VENAL', 
@@ -26525,6 +26526,17 @@ export const wordleWords = [
         guess_5: null,
         guess_6: null,
       },
+      { word: "UPEND", 
+        gameDate: "11/22/26",
+        myScore: 4,
+        wordNumber: 1982,
+        guess_1: "SCARY",
+        guess_2: "GUILT",
+        guess_3: "BOUND",
+        guess_4: "UPEND",
+        guess_5: null,
+        guess_6: null,
+      },
 
 
  
@@ -26544,7 +26556,7 @@ console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
 console.log("August 9, 2025, Mom: Hello, Again!" )
-console.log("November 21, 2026: Trump sux dykk000000000! STENT")
+console.log("November 22, 2026: Trump sux dykk000000000! UPEND")
 
 console.log(wordleWords)
 
