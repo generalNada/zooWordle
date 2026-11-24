@@ -1821,7 +1821,7 @@ export const dailyWordsSmall = [
 'SLOPE', 'SLOSH', 'SLOTH', 'SLUMP', 'SLUNG', 'SLUNK', 'SLURP', 'SLYLY', 'SMACK',
 'SMALL', 'SMART', 'SMASH', 'SMEAR', 'SMELT', 'SMIRK', 'SMITE', 'SMITH',
 'SMOCK', 'SMOKE', 'SMOKY', 'SMOTE', 'SNACK', 'SNAFU', 'SNAIL', 'SNAKE', 'SNAKY', 'SNARE',
-'SNARL', 'SNEAK', 'SNEER', 'SNIDE', 'SNIFF', 'SNOOP', 'SNORT', 'SNOUT',
+'SNARL', 'SNEAK', 'SNIDE', 'SNIFF', 'SNOOP', 'SNORT', 'SNOUT',
 'SNUCK', 'SNUFF', 'SOAPY', 'SOGGY', 'SOLAR', 'SOLID', 'SOLVE',
 'SONIC', 'SOOTH', 'SOOTY', 'SORRY', 'SOUND', 'SOUTH', 'SOWER', 'SPACE', 'SPADE', 'SPANK',
 'SPARE', 'SPARK', 'SPASM', 'SPATE', 'SPAWN', 'SPEAK', 'SPEAR', 'SPECK', 'SPEED', 'SPELL',
@@ -26548,6 +26548,17 @@ export const wordleWords = [
         guess_5: null,
         guess_6: null,
       },
+      { word: "SNEER", 
+        gameDate: "11/24/26",
+        myScore: 3,
+        wordNumber: 1983,
+        guess_1: "SCARY",
+        guess_2: "SHREW",
+        guess_3: "SNEER",
+        guess_4: null,
+        guess_5: null,
+        guess_6: null,
+      },
 
 
  
@@ -26567,7 +26578,7 @@ console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
 console.log("August 9, 2025, Mom: Hello, Again!" )
-console.log("November 23, 2026: Trump sux dykk000000000! FILTH")
+console.log("November 24, 2026: Trump sux dykk000000000! SNEER")
 
 console.log(wordleWords)
 
