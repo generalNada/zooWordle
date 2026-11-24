@@ -232,8 +232,8 @@ my_list = {
     'SMILE', 'SMILE', 'SMIRK',
     'SMITE', 'SMITH', 'SMOCK', 'SMOKE', 'SNACK', 'SNAFU', 'SNAIL', 'SNAKE', 'SNAKY', 'SNARE',
     'SNARK',
-    'SNARL', 'SNEAK', 'SNIDE', 'SNIPE', 'SNOOP', 'SNORE', 'SNORT', 'SNOUT', 'SNOWY', 'SOBER', 
-    'SOGGY', 'SOLAR', 'SOLID', 'SOLVE', 'SONAR',
+    'SNARL', 'SNEAK', 'SNEER', 'SNIDE', 'SNIPE', 'SNOOP', 'SNORE', 'SNORT', 'SNOUT', 'SNOWY', 
+    'SOBER', 'SOGGY', 'SOLAR', 'SOLID', 'SOLVE', 'SONAR',
     'SONIC', 'SORRY', 'SOUND', 'SOUPY', 'SOUTH', 'SOWER', 'SPACE', 'SPADE', 'SPARE', 'SPASM', 
     'SPARK',
     'SPATE', 'SPEAK', 'SPEAR', 'SPECK', 'SPEED', 'SPELL', 'SPELT', 'SPEND', 'SPENT', 'SPICE',
@@ -300,7 +300,7 @@ my_list = {
     'ZEBRA', 'ZESTY'
 }
 
-word_to_find = 'FILTH'
+word_to_find = 'SNEER'
 
 
 if word_to_find in my_list:
