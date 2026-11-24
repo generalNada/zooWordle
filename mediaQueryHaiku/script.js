@@ -14,7 +14,7 @@ if (bwToggle) {
       bwToggle.textContent = "🎨 Color / B&W";
     }
 
-    console.log("Grayscale mode:", isGrayscale ? "ON" : "OFF, UPEND Dick");
+    console.log("Grayscale mode:", isGrayscale ? "ON" : "OFF, FILTH Dick");
   });
 } else {
   console.error("B&W toggle button not found!");
