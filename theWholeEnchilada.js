@@ -26551,7 +26551,7 @@ export const wordleWords = [
       { word: "SNEER", 
         gameDate: "11/24/26",
         myScore: 3,
-        wordNumber: 1983,
+        wordNumber: 1984,
         guess_1: "SCARY",
         guess_2: "SHREW",
         guess_3: "SNEER",
