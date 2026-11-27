@@ -14,7 +14,7 @@ if (bwToggle) {
       bwToggle.textContent = "🎨 Color / B&W";
     }
 
-    console.log("Grayscale mode:", isGrayscale ? "ON" : "OFF, SPICY Dick");
+    console.log("Grayscale mode:", isGrayscale ? "ON" : "OFF, TENSE Dick");
   });
 } else {
   console.error("B&W toggle button not found!");
