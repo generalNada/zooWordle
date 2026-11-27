@@ -1842,7 +1842,7 @@ export const dailyWordsSmall = [
 'SYRUP', 'TABBY', 'TABLE', 'TABOO', 'TACIT', 'TACKY', 'TAFFY', 'TAINT', 'TAKEN', 'TAKER',
 'TALLY', 'TALON', 'TAMER', 'TANGO', 'TANGY', 'TAPER', 'TAPIR', 'TARDY', 'TAROT', 'TASTE',
 'TASTY', 'TATTY', 'TAUNT', 'TAUPE', 'TAWNY', 'TEACH', 'TEARY', 'TEASE', 'TEETH',
-'TEMPO', 'TENET', 'TENOR', 'TENSE', 'TENTH', 'TEPEE', 'TEPID', 'TERRA', 'TERSE', 
+'TEMPO', 'TENET', 'TENOR', 'TENTH', 'TEPEE', 'TEPID', 'TERRA', 'TERSE', 
 'THANK', 'THEIR', 'THEME', 'THERE', 'THESE', 'THICK', 'THIEF', 'THIGH',
 'THING', 'THINK', 'THIRD', 'THONG', 'THORN', 'THOSE', 'THREE', 'THREW', 'THROB', 'THROW',
 'THRUM', 'THUMP', 'THYME', 'TIARA', 'TIBIA', 'TIDAL', 'TIGER', 'TIGHT', 'TILDE',
@@ -3012,7 +3012,7 @@ export const dailyWordsLarge = [
     'TEGUA', 'TEGUS', 'TEHRS', 'TEIID', 'TEILS', 'TEIND', 'TEINS', 'TELAE', 'TELCO', 'TELES',
     'TELEX', 'TELIA', 'TELIC', 'TELLS', 'TELLY', 'TELOI', 'TELOS', 'TEMED', 'TEMES', 'TEMPI',
     'TEMPO', 'TEMPS', 'TEMPT', 'TEMSE', 'TENCH', 'TENDS', 'TENDU', 'TENES', 'TENET', 'TENGE',
-    'TENIA', 'TENNE', 'TENNO', 'TENNY', 'TENON', 'TENOR', 'TENSE', 'TENTH', 'TENTS', 'TENTY',
+    'TENIA', 'TENNE', 'TENNO', 'TENNY', 'TENON', 'TENOR', 'TENTH', 'TENTS', 'TENTY',
     'TENUE', 'TEPAL', 'TEPAS', 'TEPEE', 'TEPID', 'TEPOY', 'TERAI', 'TERAS', 'TERCE', 'TEREK',
     'TERES', 'TERFE', 'TERFS', 'TERGA', 'TERMS', 'TERNE', 'TERNS', 'TERRA', 'TERRY', 'TERSE',
     'TERTS', 'TESLA', 'TESTA', 'TESTE', 'TESTS', 'TETES', 'TETHS', 'TETRA', 'TETRI',
@@ -26570,6 +26570,17 @@ export const wordleWords = [
         guess_5: null,
         guess_6: null,
       },
+      { word: "TENSE", 
+        gameDate: "11/26/26",
+        myScore: 2,
+        wordNumber: 1986,
+        guess_1: "LEANT",
+        guess_2: "TENSE",
+        guess_3: null,
+        guess_4: null,
+        guess_5: null,
+        guess_6: null,
+      },
 
 
  
@@ -26589,7 +26600,7 @@ console.log("August 4, 2025, Jackwagon. Dickerson. Eff On Off Guyo.")
 console.log("August 7, 2025, CORAL hits! Now what? Scion? Rinse? Caste? But CORAL HITS!")
 console.log("August 9, 2025, Mom: Hello" )
 console.log("August 9, 2025, Mom: Hello, Again!" )
-console.log("November 25, 2026: Trump sux dykk000000000! SPICY")
+console.log("November 26, 2026: Trump sux dykk000000000! TENSE")
 
 console.log(wordleWords)
 
