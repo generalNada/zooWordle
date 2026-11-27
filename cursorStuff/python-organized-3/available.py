@@ -56,7 +56,7 @@ unused_list = [
     "SPUNK", "SPURN", "SQUIB", "STALK", "STALL", "STAVE", "STEAK", "STEAL", "STEER", 
     "STOOD", "STOOP", "STUCK", "STUNK", "SUING", "SWARM",
     "SWASH", "SWEAR", "SWEPT", "SWIFT", "SWORE", "SYNOD", "TAINT", "TAKER", "TAMER",
-    "TANGO", "TAROT", "TATTY", "TEARY", "TENET", "TENSE", "TEPEE", "TERRA", 
+    "TANGO", "TAROT", "TATTY", "TEARY", "TENET", "TEPEE", "TERRA", 
     "THONG", "TIGHT", "TIMID", "TONAL", "TONER", "TONGA",
     "TORUS", "TRAMP", "TREAD", "TRIED", "TRUER", "TRUMP", "TUBAL",
     "TULLE", "TUMOR", "TWIXT", "TYING", "UNSET", "UNWED",
@@ -67,7 +67,7 @@ unused_list = [
     "WRING", "WRYLY", "ZONAL"
 ]
 
-word = 'SPICY'
+word = 'TENSE'
 
 
 if word in unused_list:
